@@ -5,34 +5,49 @@ import Header from '@/components/Header';
 export default function YourIndustry() {
   const workCards = [
     {
-      title: 'Strategy & Transformation',
-      description: 'Set bold enterprise strategies and deliver transformation at scale, covering M&A integration, digital roadmaps, and operating model modernization.',
-      icon: '/work-icon-1.png'
+      title: 'Due Diligence & Deal Sourcing',
+      description: 'We provide commercial, operational, and technical due diligence to help you assess opportunities with precision, ensuring your investment thesis is built on a solid foundation.',
+      icon: '/icon-growth-market.png'
     },
     {
-      title: 'Risk & Operational Resilience',
-      description: 'Optimize processes and strengthen risk frameworks to enhance operational resilience, ensure regulatory compliance, and drive performance improvements.',
-      icon: '/work-icon-2.png'
+      title: 'Portfolio Company Value Creation',
+      description: 'Our hands-on operators work with portfolio company leadership to implement operational efficiencies, accelerate growth, and maximize EBITDA, from 100-day plans to long-term transformations.',
+      icon: '/icon-check-correct.png'
     },
     {
-      title: 'Customer & Digital Experience',
-      description: 'Build digital-first experiences, modernize service delivery, and improve customer acquisition and loyalty in a highly competitive market.',
-      icon: '/work-icon-3.png'
+      title: 'Interim & Fractional Leadership',
+      description: 'We fill critical leadership gaps within your portfolio companies with our own seasoned executives, providing stability and driving performance during transitions or high-growth phases.',
+      icon: '/icon-heart-funding.png'
     },
     {
-      title: 'Regulatory & Compliance Strategy',
-      description: 'Navigate evolving regulations, enhance compliance frameworks, and embed risk management practices for data governance, capital adequacy, and regulatory reporting.',
-      icon: '/work-icon-4.png'
+      title: 'Exit Strategy & Preparation',
+      description: 'We help you prepare portfolio companies for a successful exit, whether through IPO, strategic sale, or secondary exit, ensuring you maximize returns.',
+      icon: '/icon-innovation.png'
     },
     {
-      title: 'Innovation & Fintech Partnerships',
-      description: 'Advise on innovation strategy, product development, and strategic partnerships to capture value from emerging trends in payments, lending, and digital assets.',
-      icon: '/work-icon-5.png'
+      title: 'Fund Strategy & Operations',
+      description: 'We advise investment firms on fund strategy, operational efficiency, and LP reporting to enhance performance and strengthen investor relations.',
+      icon: '/icon-ai-automation.png'
     },
     {
-      title: 'Capital & Financial Performance',
-      description: 'Strengthen financial performance through capital optimization, portfolio review, and advanced financial modeling to ensure market competitiveness.',
-      icon: '/work-icon-6.png'
+      title: 'Risk Management & Turnaround',
+      description: 'We fill critical leadership gaps within your portfolio companies with our own seasoned executives, providing stability and driving performance during transitions or high-growth phases.',
+      icon: '/icon-cloud-strategy.png'
+    },
+    {
+      title: 'Commercialization Strategy',
+      description: 'We develop and execute go-to-market strategies for portfolio companies, aligning product, sales, and marketing to accelerate revenue growth and capture market share.',
+      icon: '/icon-innovation.png'
+    },
+    {
+      title: 'Post-Acquisition Integrations',
+      description: 'Our experts manage the post-acquisition process, seamlessly integrating operations, technology, and culture to realize synergies and ensure the deal thesis is achieved.',
+      icon: '/icon-ai-automation.png'
+    },
+    {
+      title: 'Multi-Industry Portfolio Design',
+      description: 'Leveraging our Sector Convergence model, we help firms build resilient, diversified portfolios by identifying high-potential sectors in non-obvious, adjacent sectors.',
+      icon: '/icon-cloud-strategy.png'
     }
   ];
 
@@ -64,13 +79,13 @@ export default function YourIndustry() {
         {/* Left Content */}
         <div className="flex flex-col gap-8 max-w-[803px] z-10">
           <h1
-            className="font-poppins font-semibold text-[#006FBA]"
+            className="font-poppins font-semibold text-[#14358A]"
             style={{
               fontSize: '45px',
               lineHeight: '46px',
             }}
           >
-            Navigating the Future of Finance
+            Driving Alpha Through Operational Excellence
           </h1>
 
           <p
@@ -81,20 +96,18 @@ export default function YourIndustry() {
               maxWidth: '740px'
             }}
           >
-            As legacy institutions and agile FinTechs converge, the industry faces a dual mandate: absolute security and rapid innovation. We partner with financial leaders to navigate regulatory shifts and technological disruption, building the resilient systems required to thrive in a digital-first economy.
+            In a competitive capital landscape, sustainable returns require more than just a strong thesis—they require superior execution. We act as the operational bridge for portfolio companies, helping investors unlock hidden value and accelerate the path to a high-multiple exit.
           </p>
         </div>
 
         {/* Right Image */}
         <div className="relative flex-shrink-0 z-10">
           <img
-            src="/finance-circle.png"
-            alt="Future of Finance"
+            src="/pe-vc-hero.png"
+            alt="Operational Excellence"
             style={{
-              width: '416px',
-              height: '416px',
-              borderRadius: '50%',
-              boxShadow: '0px 4px 15px rgba(0, 0, 0, 0.15)',
+              width: '461px',
+              height: '447px',
               objectFit: 'cover'
             }}
           />
@@ -132,14 +145,14 @@ export default function YourIndustry() {
         />
       </div>
 
-      {/* Your Strategic Partner Section */}
+      {/* Your Partner in Value Creation Section */}
       <div className="bg-white py-24 px-6">
         <div className="max-w-[1400px] mx-auto text-center">
           <h2
-            className="font-poppins font-semibold text-[#006FBA] mb-16"
+            className="font-poppins font-semibold text-[#14358A] mb-16"
             style={{ fontSize: '50px', lineHeight: '46px' }}
           >
-            Your Strategic Partner
+            Your Partner in Value Creation
           </h2>
           <p
             className="font-montserrat font-normal text-[#333333] mx-auto"
@@ -150,13 +163,9 @@ export default function YourIndustry() {
               textAlign: 'center'
             }}
           >
-            PMG partners with banks, asset managers, insurers, & fintechs to deliver a balance of
-            strategic insight & operational expertise. We enable organizations to strengthen
-            performance, manage risk, & deliver sustainable value in an environment of constant disruption.
+            We partner with private equity firms, venture capitalists, and their portfolio companies to accelerate growth, optimize operations, and maximize returns. Our consultants are not just advisors; they are seasoned operators who embed themselves to drive tangible, measurable results.
             <br /><br />
-            Our financial services work is complemented by PMG's cross-sector expertise in
-            technology & organizational transformation, equipping leaders to address
-            challenges across governance, digital adoption, & market positioning.
+            Our work in PE & VC is strengthened by our deep functional expertise in M&A, operations, finance, and technology, allowing us to provide end-to-end support throughout the investment lifecycle.
           </p>
         </div>
       </div>
@@ -166,7 +175,7 @@ export default function YourIndustry() {
         <div className="max-w-[1300px] mx-auto">
           <div className="text-center mb-16">
             <h2
-              className="font-dm-sans font-bold text-[#006FBA] mb-6"
+              className="font-dm-sans font-bold text-[#14358A] mb-6"
               style={{ fontSize: '48px', lineHeight: '105%', letterSpacing: '-3%' }}
             >
               Our Work
@@ -190,15 +199,15 @@ export default function YourIndustry() {
                   width: '412px',
                   minHeight: '260px',
                   padding: '32px',
-                  border: '3px solid #006FBA',
+                  border: '3px solid #14358A',
                   borderRadius: '10px'
                 }}
               >
-                <div className="mb-6">
-                  <img src={card.icon} alt={card.title} style={{ width: '48px', height: '48px' }} />
+                <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
+                  <img src={card.icon} alt={card.title} style={{ width: '40px', height: '40px', objectFit: 'contain' }} />
                 </div>
                 <h3
-                  className="font-dm-sans font-bold text-[#006FBA] mb-4"
+                  className="font-dm-sans font-bold text-[#14358A] mb-4"
                   style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   {card.title}
@@ -217,250 +226,502 @@ export default function YourIndustry() {
 
       {/* Our Projects Section */}
       <div
-        className="relative w-full mx-auto flex flex-col items-center"
+        className="relative py-24 px-6"
         style={{
-          backgroundImage: "url('/our-projects-bg-new.png')",
-          backgroundSize: '100% 100%',
+          backgroundImage: 'url(/projects-bg.png)',
+          backgroundSize: 'cover',
           backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-          maxWidth: '1920px',
-          aspectRatio: '1452 / 700'
+          minHeight: '852px'
         }}
       >
-        {/* Heading */}
-        <div className="relative z-10 pt-16 mb-8 text-center">
+        <div className="max-w-[1300px] mx-auto">
+          {/* Section Title */}
           <h2
-            className="font-poppins font-semibold text-white"
-            style={{ fontSize: '48px', lineHeight: '110%' }}
+            className="font-dm-sans font-bold text-white text-center mb-16"
+            style={{
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-3%'
+            }}
           >
             Our Projects
           </h2>
-        </div>
 
-        {/* Cards Container */}
-        <div
-          className="w-full flex flex-wrap justify-center gap-5 px-4 z-10"
-          style={{
-            marginTop: '2%' // Adjust this to align with the visual shelf in the background image
-          }}
-        >
-          {/* Prestige1 Capital */}
-          <div
-            className="rounded-xl shadow-lg p-6 relative bg-white"
-            style={{
-              width: '260px',
-              background: 'linear-gradient(180deg, #FFFFFF 0%, #E8F4FF 100%)',
-              border: '1px solid rgba(20, 53, 138, 0.1)'
-            }}
-          >
-            <h3 className="font-dm-sans font-bold text-[#006FBA] text-xl mb-4">Prestige1 Capital</h3>
-            <div className="space-y-3 text-sm">
-              <div className="flex items-start gap-3">
-                <span className="text-[#006FBA] text-lg">💰</span>
-                <div>
-                  <span className="font-bold block" style={{ color: '#006FBA' }}>$9.7M</span>
-                  <p className="text-gray-500 text-xs leading-tight">in new yearly profit generated</p>
+          {/* Project Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+            {/* Card 1: Trilogy Software */}
+            <div
+              className="bg-white hover:shadow-xl transition-shadow duration-300"
+              style={{
+                width: '381px',
+                minHeight: '378px',
+                borderRadius: '10px',
+                padding: '24px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '24px'
+              }}
+            >
+              <h3
+                className="font-dm-sans font-bold text-center"
+                style={{
+                  fontSize: '30px',
+                  lineHeight: '110%',
+                  letterSpacing: '-3%',
+                  color: '#006FBA'
+                }}
+              >
+                Trilogy Software
+              </h3>
+
+              {/* Stats */}
+              <div className="flex flex-col gap-4">
+                {/* Stat 1 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="2" y="4" width="20" height="16" rx="2" stroke="#006FBA" strokeWidth="2"/>
+                      <path d="M7 12h2m2 0h6" stroke="#006FBA" strokeWidth="2" strokeLinecap="round"/>
+                      <path d="M7 16h10" stroke="#006FBA" strokeWidth="2" strokeLinecap="round"/>
+                      <circle cx="8" cy="8" r="1.5" fill="#006FBA"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-dm-sans font-bold"
+                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                    >
+                      $10M
+                    </p>
+                    <p
+                      className="font-dm-sans font-normal"
+                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                    >
+                      in new yearly profit generated
+                    </p>
+                  </div>
+                </div>
+
+                {/* Stat 2 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="2" y="3" width="20" height="18" rx="2" stroke="#006FBA" strokeWidth="2"/>
+                      <path d="M6 12l4 4 8-8" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-dm-sans font-bold"
+                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                    >
+                      3x
+                    </p>
+                    <p
+                      className="font-dm-sans font-normal"
+                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                    >
+                      higher ROI than typical investments
+                    </p>
+                  </div>
+                </div>
+
+                {/* Stat 3 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="3" y="3" width="18" height="18" rx="2" stroke="#006FBA" strokeWidth="2"/>
+                      <path d="M7 12l3 3 7-7" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-dm-sans font-bold"
+                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                    >
+                      43x
+                    </p>
+                    <p
+                      className="font-dm-sans font-normal"
+                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                    >
+                      Return on Investment
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="flex items-start gap-3">
-                <span className="text-[#006FBA] text-lg">📈</span>
-                <div>
-                  <span className="font-bold block" style={{ color: '#006FBA' }}>2.6x</span>
-                  <p className="text-gray-500 text-xs leading-tight">higher ROI than typical investments</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="text-[#006FBA] text-lg">📊</span>
-                <div>
-                  <span className="font-bold block" style={{ color: '#006FBA' }}>43x</span>
-                  <p className="text-gray-500 text-xs leading-tight">Return on Investment</p>
-                </div>
+
+              {/* Learn More Button */}
+              <div className="mt-auto mx-auto">
+                <button
+                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
+                  style={{
+                    width: '157px',
+                    height: '60px',
+                    borderRadius: '10px',
+                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+                    fontSize: '20px',
+                    lineHeight: '140%'
+                  }}
+                >
+                  Learn More
+                </button>
               </div>
             </div>
-            <button
-              className="mt-6 w-full py-2 rounded-lg text-white font-semibold text-sm transition-transform hover:scale-105"
-              style={{ background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)' }}
-            >
-              Learn More
-            </button>
-          </div>
 
-          {/* Kraken */}
-          <div
-            className="rounded-xl shadow-lg p-6 bg-white"
-            style={{
-              width: '260px',
-              background: 'linear-gradient(180deg, #FFFFFF 0%, #E8F4FF 100%)',
-              border: '1px solid rgba(20, 53, 138, 0.1)'
-            }}
-          >
-            <h3 className="font-dm-sans font-bold text-[#006FBA] text-xl mb-4">Kraken</h3>
-            <div className="space-y-3 text-sm">
-              <div className="flex items-start gap-3">
-                <span className="text-[#006FBA] text-lg">☐</span>
-                <div>
-                  <span className="font-bold block" style={{ color: '#006FBA' }}>22%</span>
-                  <p className="text-gray-500 text-xs leading-tight">increase in customer satisfaction</p>
+            {/* Card 2: Kraken */}
+            <div
+              className="bg-white hover:shadow-xl transition-shadow duration-300"
+              style={{
+                width: '381px',
+                minHeight: '378px',
+                borderRadius: '10px',
+                padding: '24px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '24px'
+              }}
+            >
+              <h3
+                className="font-dm-sans font-bold text-center"
+                style={{
+                  fontSize: '30px',
+                  lineHeight: '110%',
+                  letterSpacing: '-3%',
+                  color: '#006FBA'
+                }}
+              >
+                Kraken
+              </h3>
+
+              {/* Stats */}
+              <div className="flex flex-col gap-4">
+                {/* Stat 1 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="3" y="3" width="18" height="18" rx="2" stroke="#006FBA" strokeWidth="2"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-dm-sans font-bold"
+                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                    >
+                      22%
+                    </p>
+                    <p
+                      className="font-dm-sans font-normal"
+                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                    >
+                      reduction in customer churn
+                    </p>
+                  </div>
+                </div>
+
+                {/* Stat 2 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="2" y="3" width="20" height="18" rx="2" stroke="#006FBA" strokeWidth="2"/>
+                      <path d="M6 12l4 4 8-8" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-dm-sans font-bold"
+                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                    >
+                      14%
+                    </p>
+                    <p
+                      className="font-dm-sans font-normal"
+                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                    >
+                      increase in post-acquisition margin
+                    </p>
+                  </div>
+                </div>
+
+                {/* Stat 3 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="3" y="3" width="18" height="18" rx="2" stroke="#006FBA" strokeWidth="2"/>
+                      <path d="M7 12l3 3 7-7" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-dm-sans font-bold"
+                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                    >
+                      20x
+                    </p>
+                    <p
+                      className="font-dm-sans font-normal"
+                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                    >
+                      Return on Investment
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="flex items-start gap-3">
-                <span className="text-[#006FBA] text-lg">📊</span>
-                <div>
-                  <span className="font-bold block" style={{ color: '#006FBA' }}>40%</span>
-                  <p className="text-gray-500 text-xs leading-tight">reduction in signup-to-activation time</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="text-[#006FBA] text-lg">☑</span>
-                <div>
-                  <span className="font-bold block" style={{ color: '#006FBA' }}>23x</span>
-                  <p className="text-gray-500 text-xs leading-tight">Return on Investment</p>
-                </div>
+
+              {/* Learn More Button */}
+              <div className="mt-auto mx-auto">
+                <button
+                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
+                  style={{
+                    width: '157px',
+                    height: '60px',
+                    borderRadius: '10px',
+                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+                    fontSize: '20px',
+                    lineHeight: '140%'
+                  }}
+                >
+                  Learn More
+                </button>
               </div>
             </div>
-            <button
-              className="mt-6 w-full py-2 rounded-lg text-white font-semibold text-sm transition-transform hover:scale-105"
-              style={{ background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)' }}
-            >
-              Learn More
-            </button>
-          </div>
 
-          {/* Artemis Capital */}
-          <div
-            className="rounded-xl shadow-lg p-6 bg-white"
-            style={{
-              width: '260px',
-              background: 'linear-gradient(180deg, #FFFFFF 0%, #E8F4FF 100%)',
-              border: '1px solid rgba(20, 53, 138, 0.1)'
-            }}
-          >
-            <h3 className="font-dm-sans font-bold text-[#006FBA] text-xl mb-4">Artemis Capital</h3>
-            <div className="space-y-3 text-sm">
-              <div className="flex items-start gap-3">
-                <span className="text-[#006FBA] text-lg">☐</span>
-                <div>
-                  <span className="text-[#006FBA] font-bold block">12%</span>
-                  <p className="text-gray-500 text-xs leading-tight">in new yearly profit generated</p>
+            {/* Card 3: Artemis Capital */}
+            <div
+              className="bg-white hover:shadow-xl transition-shadow duration-300"
+              style={{
+                width: '381px',
+                minHeight: '378px',
+                borderRadius: '10px',
+                padding: '24px',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '24px'
+              }}
+            >
+              <h3
+                className="font-dm-sans font-bold text-center"
+                style={{
+                  fontSize: '30px',
+                  lineHeight: '110%',
+                  letterSpacing: '-3%',
+                  color: '#006FBA'
+                }}
+              >
+                Artemis Capital
+              </h3>
+
+              {/* Stats */}
+              <div className="flex flex-col gap-4">
+                {/* Stat 1 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="3" y="3" width="18" height="18" rx="2" stroke="#006FBA" strokeWidth="2"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-dm-sans font-bold"
+                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                    >
+                      12%
+                    </p>
+                    <p
+                      className="font-dm-sans font-normal"
+                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                    >
+                      reduction in operating expenses
+                    </p>
+                  </div>
+                </div>
+
+                {/* Stat 2 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="2" y="3" width="20" height="18" rx="2" stroke="#006FBA" strokeWidth="2"/>
+                      <path d="M6 12l4 4 8-8" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-dm-sans font-bold"
+                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                    >
+                      25%
+                    </p>
+                    <p
+                      className="font-dm-sans font-normal"
+                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                    >
+                      reduction in low-value personnel spend
+                    </p>
+                  </div>
+                </div>
+
+                {/* Stat 3 */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="3" y="3" width="18" height="18" rx="2" stroke="#006FBA" strokeWidth="2"/>
+                      <path d="M7 12l3 3 7-7" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p
+                      className="font-dm-sans font-bold"
+                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                    >
+                      22x
+                    </p>
+                    <p
+                      className="font-dm-sans font-normal"
+                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                    >
+                      Return on Investment
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="flex items-start gap-3">
-                <span className="text-[#006FBA] text-lg">📊</span>
-                <div>
-                  <span className="text-[#006FBA] font-bold block">25%</span>
-                  <p className="text-gray-500 text-xs leading-tight">higher ROI than typical investments</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="text-[#006FBA] text-lg">☑</span>
-                <div>
-                  <span className="text-[#006FBA] font-bold block">22x</span>
-                  <p className="text-gray-500 text-xs leading-tight">Return on Investment</p>
-                </div>
+
+              {/* Learn More Button */}
+              <div className="mt-auto mx-auto">
+                <button
+                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
+                  style={{
+                    width: '157px',
+                    height: '60px',
+                    borderRadius: '10px',
+                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+                    fontSize: '20px',
+                    lineHeight: '140%'
+                  }}
+                >
+                  Learn More
+                </button>
               </div>
             </div>
-            <button
-              className="mt-6 w-full py-2 rounded-lg text-white font-semibold text-sm transition-transform hover:scale-105"
-              style={{ background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)' }}
-            >
-              Learn More
-            </button>
           </div>
         </div>
       </div>
 
       {/* The Functional Consulting Advantage */}
       <div className="bg-white py-24 px-6">
-        <div className="max-w-[1200px] mx-auto">
+        <div className="max-w-[1200px] mx-auto flex flex-col items-center">
           <h2
-            className="font-poppins font-semibold text-[#006FBA] text-center mb-8"
-            style={{ fontSize: '48px', lineHeight: '110%' }}
+            className="font-dm-sans font-bold text-[#14358A] text-center mb-12"
+            style={{ 
+              fontSize: '48px', 
+              lineHeight: '105%', 
+              letterSpacing: '-3%',
+              maxWidth: '785px'
+            }}
           >
             The Functional Consulting Advantage
           </h2>
-          <p
-            className="font-montserrat font-normal text-[#333333] text-center mx-auto mb-16"
-            style={{
-              fontSize: '30px',
-              lineHeight: '140%',
-              maxWidth: '1082px'
-            }}
-          >
-            Financial Services and FinTech operate at the intersection of hyper-regulation and rapid technological change. Generalist consultants often provide broad recommendations on market trends or digital strategy that fail to account for the core challenges of regulatory compliance, legacy system modernization, and risk management. Their advice is often rendered impractical by the necessity of robust audit trails and jurisdictional complexity.
-            <br /><br />
-            PMG's model delivers validated, compliant execution. We deploy specialized functional operators, experts in areas like modernizing core banking systems, implementing AI-driven risk models, optimizing regulatory reporting (e.g., Basel, KYC/AML), and scaling new FinTech products. Our specialists don't just advise; they implement proven systems and processes that ensure your transformation is not only efficient and differentiated in the market but is fully auditable and compliant from day one.
-          </p>
+          <div className="flex flex-col gap-8 mb-16">
+            <p
+              className="font-dm-sans font-normal text-[#333333] text-center"
+              style={{
+                fontSize: '30px',
+                lineHeight: '140%',
+                letterSpacing: '0%',
+                maxWidth: '1082px'
+              }}
+            >
+              You invest in potential; we unlock its maximum value. Whether you are a PE firm seeking tangible EBITDA growth, a VC firm demanding hyper-scale, or a Fund Manager optimizing operations, generalist advice often misses the mark. It provides high-level strategy that rarely translates into the deep operational precision needed to execute a 100-day plan or accelerate a high-growth scale-up. The challenge is always execution.
+            </p>
+            <p
+              className="font-dm-sans font-normal text-[#333333] text-center"
+              style={{
+                fontSize: '30px',
+                lineHeight: '140%',
+                letterSpacing: '0%',
+                maxWidth: '1082px'
+              }}
+            >
+              PMG&apos;s model is built for the entire capital lifecycle. We replace costly, theoretical counsel with execution-focused operators specializing in discrete value creation levers: commercial due diligence, rapid growth GTM strategy, post-merger integration, and fund operational efficiency. Our consultants embed, execute, and are accountable for measurable improvements, be it EBITDA, burn rate, or LP reporting, ensuring we deliver alpha that matters to your investors.
+            </p>
+          </div>
 
-          {/* Stats */}
-          <div className="flex flex-wrap justify-center items-center gap-16 py-12">
-            <div className="text-center">
-              <div
-                className="font-dm-sans font-bold text-[#006FBA]"
-                style={{ fontSize: '72px', lineHeight: '100%' }}
-              >
-                1452.48
-              </div>
-              <p className="text-[#68718B] font-dm-sans text-lg mt-2">Million Processed</p>
-            </div>
-            <div className="text-6xl text-[#006FBA] font-light">×</div>
-            <div className="text-center">
-              <div
-                className="font-dm-sans font-bold text-[#006FBA]"
-                style={{ fontSize: '72px', lineHeight: '100%' }}
-              >
-                13
-              </div>
-              <p className="text-[#68718B] font-dm-sans text-lg mt-2">Countries</p>
-            </div>
-            <div className="flex items-center gap-4">
-              <img src="/logo.png" alt="PMG" className="w-16 h-16" />
-            </div>
+          <div className="flex flex-col items-center gap-4">
+            <p
+              className="font-dm-sans font-bold text-[#364153]"
+              style={{ fontSize: '30px', lineHeight: '140%' }}
+            >
+              Still Unsure?
+            </p>
+            <a
+              href="#"
+              className="group flex items-center gap-2 font-inter font-semibold text-[#14358A] hover:opacity-80 transition-opacity"
+              style={{ fontSize: '21.1px', lineHeight: '30px' }}
+            >
+              Find out how we turn strategy into measurable operational scale
+              <span className="group-hover:translate-x-1 transition-transform inline-flex items-center justify-center bg-[#14358A] rounded-full w-6 h-6">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.5 9L7.5 6L4.5 3" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </span>
+            </a>
           </div>
         </div>
       </div>
 
-      {/* Partner with PMG Section */}
-      <div
-        className="py-24 px-6 relative"
+      {/* Maximize Your Portfolio's Potential Section */}
+      <div 
+        className="text-center flex flex-col items-center"
         style={{
-          background: '#EAF6FF',
+          background: '#F0F7FC',
+          padding: '80px 40px'
         }}
       >
-        <div className="max-w-[1000px] mx-auto text-center relative z-10">
-          <h2
-            className="font-poppins font-bold text-[#006FBA] mb-6"
-            style={{ fontSize: '44px', lineHeight: '120%' }}
-          >
-            Partner with PMG to Build a Resilient Future
-          </h2>
-          <p
-            className="font-montserrat font-normal text-[#333333] mb-10 mx-auto"
-            style={{ fontSize: '24px', lineHeight: '140%', maxWidth: '800px' }}
-          >
-            Let's work together to navigate the complexities of the financial sector &
-            drive sustainable growth.
-          </p>
-          <button
-            className="text-white font-dm-sans font-bold px-10 py-4 rounded-lg shadow-md hover:shadow-lg transition-all"
-            style={{
-              fontSize: '16px',
-              background: 'linear-gradient(90deg, #8B5CF6 0%, #A855F7 100%)', /* Purple gradient approximate */
-            }}
-          >
-            Schedule a Consultation
-          </button>
-        </div>
+        <h2
+          className="font-dm-sans font-bold text-[#14358A] mb-6"
+          style={{ 
+            fontSize: '48px', 
+            lineHeight: '105%',
+            letterSpacing: '-3%'
+          }}
+        >
+          Maximize Your Portfolio&apos;s Potential
+        </h2>
+        <p
+          className="font-montserrat font-normal text-[#333333] mb-10"
+          style={{
+            fontSize: '32px',
+            lineHeight: '135%',
+            letterSpacing: '0%',
+            maxWidth: '1196px'
+          }}
+        >
+          Let&apos;s discuss how our execution-focused approach can drive superior returns for your fund.
+        </p>
+        <button
+          className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
+          style={{
+            width: '393px',
+            height: '65px',
+            borderRadius: '10px',
+            background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+            fontSize: '20px',
+            lineHeight: '140%',
+            letterSpacing: '0%'
+          }}
+        >
+          Request a Consultation
+        </button>
       </div>
 
       {/* Footer */}
       <footer
-        className="text-white pt-48 pb-16 px-6 relative z-20"
+        className="text-white pt-16 pb-12 px-6 relative z-20"
         style={{
           background: 'linear-gradient(83.95deg, #1B45B4 3%, #1C2792 96.84%)'
         }}
       >
         <div className="max-w-[1200px] mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-12 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-8">
             {/* Logo */}
             <div className="md:col-span-1">
               <div className="mb-6">
@@ -475,8 +736,8 @@ export default function YourIndustry() {
 
             {/* What we Do */}
             <div>
-              <h4 className="font-dm-sans font-bold text-xl mb-6">What we Do</h4>
-              <ul className="space-y-3 font-dm-sans text-white/80">
+              <h4 className="font-dm-sans font-bold text-xl mb-4">What we Do</h4>
+              <ul className="space-y-2 font-dm-sans text-white/80">
                 <li><a href="#" className="hover:text-white">Our Services</a></li>
                 <li><a href="#" className="hover:text-white">Our Solutions</a></li>
                 <li><a href="#" className="hover:text-white">Rebuilding from within</a></li>
@@ -485,18 +746,18 @@ export default function YourIndustry() {
             </div>
 
             {/* Our Content & Working with PMG */}
-            <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-6">
               <div>
-                <h4 className="font-dm-sans font-bold text-xl mb-6">Our Content</h4>
-                <ul className="space-y-3 font-dm-sans text-white/80">
+                <h4 className="font-dm-sans font-bold text-xl mb-4">Our Content</h4>
+                <ul className="space-y-2 font-dm-sans text-white/80">
                   <li><a href="#" className="hover:text-white">FAQs</a></li>
                   <li><a href="#" className="hover:text-white">Insights & Innovations</a></li>
                   <li><a href="#" className="hover:text-white">Community Programs</a></li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-dm-sans font-bold text-xl mb-6">Working with PMG</h4>
-                <ul className="space-y-3 font-dm-sans text-white/80">
+                <h4 className="font-dm-sans font-bold text-xl mb-4">Working with PMG</h4>
+                <ul className="space-y-2 font-dm-sans text-white/80">
                   <li><a href="#" className="hover:text-white">Careers</a></li>
                   <li><a href="#" className="hover:text-white">Licensing</a></li>
                 </ul>
@@ -505,8 +766,8 @@ export default function YourIndustry() {
 
             {/* Our Models */}
             <div>
-              <h4 className="font-dm-sans font-bold text-xl mb-6">Our Models</h4>
-              <ul className="space-y-3 font-dm-sans text-white/80">
+              <h4 className="font-dm-sans font-bold text-xl mb-4">Our Models</h4>
+              <ul className="space-y-2 font-dm-sans text-white/80">
                 <li><a href="#" className="hover:text-white">Sector Convergence Model</a></li>
                 <li><a href="#" className="hover:text-white">I-O Enterprise Architecture</a></li>
                 <li><a href="#" className="hover:text-white">Bussiness Value-Unit Model</a></li>
@@ -515,8 +776,8 @@ export default function YourIndustry() {
 
             {/* Legal */}
             <div>
-              <h4 className="font-dm-sans font-bold text-xl mb-6">Legal</h4>
-              <ul className="space-y-3 font-dm-sans text-white/80 text-sm">
+              <h4 className="font-dm-sans font-bold text-xl mb-4">Legal</h4>
+              <ul className="space-y-2 font-dm-sans text-white/80 text-sm">
                 <li><a href="#" className="hover:text-white">Privacy & Cookie Policy</a></li>
                 <li><a href="#" className="hover:text-white">Hiring & Equal Opportunity</a></li>
                 <li><a href="#" className="hover:text-white">AI & Data Ethics Statement</a></li>

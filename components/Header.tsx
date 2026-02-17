@@ -12,7 +12,10 @@ export default function Header() {
   const isYourIndustryPage = pathname === '/your-industry';
   const isFunctionalAreasPage = pathname === '/our-functional-areas';
   const isSolutionsPage = pathname === '/our-solutions';
-  const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage;
+  const isInsightsPage = pathname === '/insights';
+  const isSaaSPage = pathname === '/saas-enterprise-technology';
+  const isPublicSectorPage = pathname === '/public-sector-government';
+  const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage || isInsightsPage || isSaaSPage || isPublicSectorPage;
 
   const textColor = isLightPage ? 'text-black' : 'text-white';
   const logoTextColor = isLightPage ? 'text-[#000000]' : 'text-white'; // purely black for logo text on light pages
@@ -20,11 +23,20 @@ export default function Header() {
 
   const navItems = [
     { name: 'About', hasDropdown: false, href: '/about' },
-    { name: 'Your Industry', hasDropdown: false, href: '/your-industry' },
+    { name: 'Your Industry', hasDropdown: true, href: '/your-industry' },
     { name: 'Our functional areas', hasDropdown: false, href: '/our-functional-areas' },
     { name: 'Our Solutions', hasDropdown: false, href: '/our-solutions' },
-    { name: 'Insights', hasDropdown: true, href: '#' },
+    { name: 'Insights', hasDropdown: false, href: '/insights' },
     { name: 'Contact Us', hasDropdown: false, href: '#contact' },
+  ];
+
+  const industryItems = [
+    { title: 'Financial Services & FinTech', desc: 'Navigating compliance, risk, and transformation.', href: '/your-industry' },
+    { title: 'SaaS & Enterprise Technology', desc: 'Accelerating growth and innovation.', href: '/saas-enterprise-technology' },
+    { title: 'PE, VC, and Capital Management', desc: 'Maximizing portfolio value for investors.', href: '/your-industry' },
+    { title: 'Public Sector & Government Services', desc: 'Enhancing public sector efficiency.', href: '/public-sector-government' },
+    { title: 'Higher Education & EdTech', desc: 'Modernizing institutions for student success.', href: '/your-industry' },
+    { title: 'Food, Beverage & Agribusiness', desc: 'Optimizing the food value chain.', href: '/your-industry' },
   ];
 
   return (
@@ -55,31 +67,32 @@ export default function Header() {
         </div>
 
         {/* Navigation - Centered Group */}
-        <nav className="absolute flex items-center gap-16" style={{ top: '38px', left: '50%', transform: 'translateX(-50%)' }}>
-          {navItems.map((item, index) => {
-            const isActive = (item.name === 'About' && isAboutPage) ||
-                            (item.name === 'Your Industry' && isYourIndustryPage) ||
-                            (item.name === 'Our functional areas' && isFunctionalAreasPage) ||
-                            (item.name === 'Our Solutions' && isSolutionsPage);
+        <nav className="absolute flex items-center gap-12" style={{ top: '38px', left: '50%', transform: 'translateX(-50%)' }}>
+          {navItems.map((item) => {
+            const isActive = pathname === item.href;
+            const isOpen = openDropdown === item.name;
 
             return (
               <div
                 key={item.name}
-                className="relative"
+                className="relative group h-full flex items-center"
                 onMouseEnter={() => item.hasDropdown && setOpenDropdown(item.name)}
                 onMouseLeave={() => setOpenDropdown(null)}
               >
                 {item.hasDropdown ? (
-                  <button className={`nav-text flex items-center gap-1 ${textColor} hover:opacity-80 transition-opacity whitespace-nowrap`}>
+                  <button 
+                    className={`nav-text flex items-center gap-1 ${textColor} hover:opacity-80 transition-opacity whitespace-nowrap`}
+                  >
                     {item.name}
                     <svg
-                      width="9"
+                      width="10"
                       height="6"
-                      viewBox="0 0 9 6"
+                      viewBox="0 0 10 6"
                       fill="none"
+                      className={`transform transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
                     >
                       <path
-                        d="M1 1.5L4.5 4.5L8 1.5"
+                        d="M1 1L5 5L9 1"
                         stroke={chevronColor}
                         strokeWidth="1.5"
                         strokeLinecap="round"
@@ -94,6 +107,34 @@ export default function Header() {
                   >
                     {item.name}
                   </Link>
+                )}
+
+                {/* Dropdown Menu */}
+                {item.hasDropdown && isOpen && (
+                  <div 
+                    className="absolute top-full left-0 pt-4 w-[380px] z-50"
+                  >
+                    <div className="bg-white rounded-lg shadow-xl border border-gray-100 overflow-hidden py-2">
+                       {item.name === 'Your Industry' && (
+                        <div className="flex flex-col">
+                          {industryItems.map((subItem, idx) => (
+                            <Link 
+                              key={idx}
+                              href={subItem.href}
+                              className="px-6 py-4 hover:bg-gray-50 transition-colors group/item block"
+                            >
+                              <h4 className="text-[#14358A] font-inter font-semibold text-[15px] mb-1 group-hover/item:text-[#6A36FF] transition-colors">
+                                {subItem.title}
+                              </h4>
+                              <p className="text-[#5F6D7E] text-[13px] leading-snug font-inter">
+                                {subItem.desc}
+                              </p>
+                            </Link>
+                          ))}
+                        </div>
+                       )}
+                    </div>
+                  </div>
                 )}
               </div>
             );

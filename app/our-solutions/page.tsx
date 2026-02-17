@@ -89,7 +89,7 @@ export default function OurSolutions() {
       </div>
 
       {/* Our Engagement Models Section */}
-      <div className="depth-container w-full py-16 px-4">
+      <div className="w-full py-16 px-4 bg-white">
         <div className="max-w-[1440px] mx-auto">
           {/* Section Heading */}
           <h2
@@ -283,7 +283,7 @@ export default function OurSolutions() {
       </div>
 
       {/* The Impact We Deliver Section */}
-      <div className="depth-container relative z-10 py-20">
+      <div className="relative z-10 py-20 bg-white">
         <div className="max-w-[1440px] mx-auto px-16">
           {/* Heading */}
           <h2
@@ -548,7 +548,7 @@ export default function OurSolutions() {
       </div>
 
       {/* Flexible Pricing Options Section */}
-      <div className="depth-container relative z-10 py-20">
+      <div className="relative z-10 py-20 bg-white">
         <div className="max-w-[1440px] mx-auto px-16">
           {/* Heading */}
           <h2
@@ -735,6 +735,289 @@ export default function OurSolutions() {
         </div>
       </div>
 
+      {/* Our Accountability Framework Section */}
+      <div className="relative z-10 py-20 bg-white">
+        <div className="max-w-[1440px] mx-auto px-16">
+          {/* Heading */}
+          <h2
+            style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              textAlign: 'center',
+              color: '#14358A',
+              marginBottom: '16px',
+            }}
+          >
+            Our Accountability Framework
+          </h2>
+
+          {/* Description */}
+          <p
+            style={{
+              fontFamily: 'Montserrat, sans-serif',
+              fontWeight: 400,
+              fontSize: '30px',
+              lineHeight: '140%',
+              letterSpacing: '0%',
+              textAlign: 'center',
+              color: '#333333',
+              maxWidth: '1201px',
+              margin: '0 auto 64px auto',
+            }}
+          >
+            We believe in total alignment. Our success is measured by yours. This isn&apos;t just a promise; it&apos;s built into our process.
+          </p>
+
+          {/* Content Grid */}
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+            {/* Left Side - Framework Items */}
+            <div className="relative flex flex-col gap-8" style={{ width: '500px' }}>
+              {/* Connecting Lines SVG */}
+              <svg
+                className="absolute"
+                style={{ left: '75px', top: '60px', width: '60px', height: '280px', zIndex: 0 }}
+                viewBox="0 0 60 280"
+                fill="none"
+              >
+                {/* Line from first circle to second */}
+                <path d="M30 0 Q60 70 30 140" stroke="#14358A" strokeWidth="3" fill="none" />
+                {/* Line from second circle to third */}
+                <path d="M30 140 Q60 210 30 280" stroke="#14358A" strokeWidth="3" fill="none" />
+              </svg>
+
+              {/* Item 1 - Clear Success Metrics */}
+              <div className="flex items-start gap-4 relative z-10">
+                <div
+                  style={{
+                    width: '150px',
+                    height: '150px',
+                    borderRadius: '50%',
+                    border: '3px solid #14358A',
+                    background: '#FFFFFF',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0,
+                  }}
+                >
+                  <div
+                    style={{
+                      width: '120px',
+                      height: '120px',
+                      borderRadius: '50%',
+                      background: '#14358A',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <img src="/list-checks.png" alt="Clear Success Metrics" style={{ width: '48px', height: '48px' }} />
+                  </div>
+                </div>
+                <div style={{ paddingTop: '20px' }}>
+                  <h3
+                    style={{
+                      fontFamily: 'DM Sans, sans-serif',
+                      fontWeight: 700,
+                      fontSize: '24px',
+                      lineHeight: '120%',
+                      color: '#14358A',
+                      marginBottom: '8px',
+                    }}
+                  >
+                    Clear Success Metrics
+                  </h3>
+                  <p
+                    style={{
+                      fontFamily: 'Montserrat, sans-serif',
+                      fontWeight: 400,
+                      fontSize: '16px',
+                      lineHeight: '150%',
+                      color: '#333333',
+                      maxWidth: '280px',
+                    }}
+                  >
+                    We define 3-5 key performance indicators before engagement begins.
+                  </p>
+                </div>
+              </div>
+
+              {/* Item 2 - Monthly Progress Reviews */}
+              <div className="flex items-start gap-4 relative z-10">
+                <div
+                  style={{
+                    width: '150px',
+                    height: '150px',
+                    borderRadius: '50%',
+                    border: '3px solid #14358A',
+                    background: '#FFFFFF',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0,
+                  }}
+                >
+                  <div
+                    style={{
+                      width: '120px',
+                      height: '120px',
+                      borderRadius: '50%',
+                      background: '#14358A',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <img src="/strategy.png" alt="Monthly Progress Reviews" style={{ width: '48px', height: '48px' }} />
+                  </div>
+                </div>
+                <div style={{ paddingTop: '20px' }}>
+                  <h3
+                    style={{
+                      fontFamily: 'DM Sans, sans-serif',
+                      fontWeight: 700,
+                      fontSize: '24px',
+                      lineHeight: '120%',
+                      color: '#14358A',
+                      marginBottom: '8px',
+                    }}
+                  >
+                    Monthly Progress Reviews
+                  </h3>
+                  <p
+                    style={{
+                      fontFamily: 'Montserrat, sans-serif',
+                      fontWeight: 400,
+                      fontSize: '16px',
+                      lineHeight: '150%',
+                      color: '#333333',
+                      maxWidth: '280px',
+                    }}
+                  >
+                    Transparent reporting against agreed milestones and metrics.
+                  </p>
+                </div>
+              </div>
+
+              {/* Item 3 - Risk-Sharing Mechanisms */}
+              <div className="flex items-start gap-4 relative z-10">
+                <div
+                  style={{
+                    width: '150px',
+                    height: '150px',
+                    borderRadius: '50%',
+                    border: '3px solid #14358A',
+                    background: '#FFFFFF',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0,
+                  }}
+                >
+                  <div
+                    style={{
+                      width: '120px',
+                      height: '120px',
+                      borderRadius: '50%',
+                      background: '#14358A',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <img src="/users-four.png" alt="Risk-Sharing Mechanisms" style={{ width: '48px', height: '48px' }} />
+                  </div>
+                </div>
+                <div style={{ paddingTop: '20px' }}>
+                  <h3
+                    style={{
+                      fontFamily: 'DM Sans, sans-serif',
+                      fontWeight: 700,
+                      fontSize: '24px',
+                      lineHeight: '120%',
+                      color: '#14358A',
+                      marginBottom: '8px',
+                    }}
+                  >
+                    Risk-Sharing Mechanisms
+                  </h3>
+                  <p
+                    style={{
+                      fontFamily: 'Montserrat, sans-serif',
+                      fontWeight: 400,
+                      fontSize: '16px',
+                      lineHeight: '150%',
+                      color: '#333333',
+                      maxWidth: '280px',
+                    }}
+                  >
+                    Our equity and milestone-based models align incentives with outcomes.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Side - Average Heart ROI */}
+            <div className="flex flex-col items-center">
+              <h3
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: '28px',
+                  lineHeight: '120%',
+                  color: '#14358A',
+                  marginBottom: '24px',
+                }}
+              >
+                Average Heart ROI
+              </h3>
+              {/* ROI Circle */}
+              <div
+                style={{
+                  width: '300px',
+                  height: '300px',
+                  borderRadius: '50%',
+                  border: '12px solid #14358A',
+                  background: '#FFFFFF',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <span
+                  style={{
+                    fontFamily: 'DM Sans, sans-serif',
+                    fontWeight: 700,
+                    fontSize: '96px',
+                    lineHeight: '100%',
+                    color: '#14358A',
+                  }}
+                >
+                  22x
+                </span>
+              </div>
+              <p
+                style={{
+                  fontFamily: 'Montserrat, sans-serif',
+                  fontWeight: 400,
+                  fontSize: '16px',
+                  lineHeight: '150%',
+                  textAlign: 'center',
+                  color: '#333333',
+                  maxWidth: '300px',
+                  marginTop: '24px',
+                }}
+              >
+                Industry-leading returns, driven by a model built on tangible results and shared success.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Unsure Which Solution Fits Section */}
       <div className="relative z-10 py-16 lg:py-20" style={{ background: '#EBF7FF' }}>
         <div className="mx-auto px-6 lg:px-12 text-center">
@@ -784,6 +1067,212 @@ export default function OurSolutions() {
             }}
           >
             Find your ideal solution
+          </button>
+        </div>
+      </div>
+
+      {/* FAQ Section */}
+      <div className="relative z-10 py-20 bg-white">
+        <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
+          <h2
+            style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-3%',
+              textAlign: 'center',
+              color: '#14358A',
+              marginBottom: '64px',
+            }}
+          >
+            Frequently Asked Questions
+          </h2>
+
+          <div className="max-w-[900px] mx-auto flex flex-col gap-4">
+            {/* FAQ Item 1 */}
+            <div
+              className="w-full bg-white flex items-center justify-between px-6 py-4 cursor-pointer hover:bg-gray-50 transition-colors"
+              style={{
+                borderRadius: '10px',
+                border: '3px solid #14358A',
+                boxShadow: '0px 0px 1px 1px #00000026',
+                minHeight: '72px',
+              }}
+            >
+              <div className="flex items-center gap-4">
+                <div style={{ width: '24px', height: '24px', borderRadius: '50%', background: '#A5A6F6', flexShrink: 0 }}></div>
+                <span
+                  style={{
+                    fontFamily: 'Inter, sans-serif',
+                    fontWeight: 400,
+                    fontSize: '16px',
+                    lineHeight: '24px',
+                    color: '#000000',
+                  }}
+                >
+                  How do I know which engagement model is right for me?
+                </span>
+              </div>
+              <img src="/chevron-right.png" alt="Expand" style={{ width: '24px', height: '24px' }} />
+            </div>
+
+            {/* FAQ Item 2 */}
+            <div
+              className="w-full bg-white flex items-center justify-between px-6 py-4 cursor-pointer hover:bg-gray-50 transition-colors"
+              style={{
+                borderRadius: '10px',
+                border: '1px solid #E5E7EB',
+                minHeight: '72px',
+              }}
+            >
+              <div className="flex items-center gap-4">
+                <div style={{ width: '24px', height: '24px', borderRadius: '50%', background: '#A5A6F6', flexShrink: 0 }}></div>
+                <span
+                  style={{
+                    fontFamily: 'Inter, sans-serif',
+                    fontWeight: 400,
+                    fontSize: '16px',
+                    lineHeight: '24px',
+                    color: '#000000',
+                  }}
+                >
+                  What is a typical timeline for seeing measurable results?
+                </span>
+              </div>
+              <img src="/chevron-right.png" alt="Expand" style={{ width: '24px', height: '24px' }} />
+            </div>
+
+            {/* FAQ Item 3 */}
+            <div
+              className="w-full bg-white flex items-center justify-between px-6 py-4 cursor-pointer hover:bg-gray-50 transition-colors"
+              style={{
+                borderRadius: '10px',
+                border: '1px solid #E5E7EB',
+                minHeight: '72px',
+              }}
+            >
+              <div className="flex items-center gap-4">
+                <div style={{ width: '24px', height: '24px', borderRadius: '50%', background: '#A5A6F6', flexShrink: 0 }}></div>
+                <span
+                  style={{
+                    fontFamily: 'Inter, sans-serif',
+                    fontWeight: 400,
+                    fontSize: '16px',
+                    lineHeight: '24px',
+                    color: '#000000',
+                  }}
+                >
+                  How is PMG&apos;s pricing structured compared to other firms?
+                </span>
+              </div>
+              <img src="/chevron-right.png" alt="Expand" style={{ width: '24px', height: '24px' }} />
+            </div>
+
+            {/* FAQ Item 4 */}
+            <div
+              className="w-full bg-white flex items-center justify-between px-6 py-4 cursor-pointer hover:bg-gray-50 transition-colors"
+              style={{
+                borderRadius: '10px',
+                border: '1px solid #E5E7EB',
+                minHeight: '72px',
+              }}
+            >
+              <div className="flex items-center gap-4">
+                <div style={{ width: '24px', height: '24px', borderRadius: '50%', background: '#A5A6F6', flexShrink: 0 }}></div>
+                <span
+                  style={{
+                    fontFamily: 'Inter, sans-serif',
+                    fontWeight: 400,
+                    fontSize: '16px',
+                    lineHeight: '24px',
+                    color: '#000000',
+                  }}
+                >
+                  What makes your &apos;functional consulting&apos; approach different?
+                </span>
+              </div>
+              <img src="/chevron-right.png" alt="Expand" style={{ width: '24px', height: '24px' }} />
+            </div>
+
+            {/* FAQ Item 5 */}
+            <div
+              className="w-full bg-white flex items-center justify-between px-6 py-4 cursor-pointer hover:bg-gray-50 transition-colors"
+              style={{
+                borderRadius: '10px',
+                border: '1px solid #E5E7EB',
+                minHeight: '72px',
+              }}
+            >
+              <div className="flex items-center gap-4">
+                <div style={{ width: '24px', height: '24px', borderRadius: '50%', background: '#A5A6F6', flexShrink: 0 }}></div>
+                <span
+                  style={{
+                    fontFamily: 'Inter, sans-serif',
+                    fontWeight: 400,
+                    fontSize: '16px',
+                    lineHeight: '24px',
+                    color: '#000000',
+                  }}
+                >
+                  Do you only work with large corporations?
+                </span>
+              </div>
+              <img src="/chevron-right.png" alt="Expand" style={{ width: '24px', height: '24px' }} />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Ready to Elevate Your Business Section */}
+      <div className="relative z-10 py-16 lg:py-20" style={{ background: '#EBF7FF' }}>
+        <div className="mx-auto px-6 lg:px-12 text-center">
+          <h2
+            style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-3%',
+              textAlign: 'center',
+              color: '#14358A',
+              marginBottom: '24px',
+            }}
+          >
+            Ready to Elevate Your Business?
+          </h2>
+          <p
+            style={{
+              fontFamily: 'Montserrat, sans-serif',
+              fontWeight: 400,
+              fontSize: '32px',
+              lineHeight: '135%',
+              letterSpacing: '0%',
+              textAlign: 'center',
+              color: '#333333',
+              maxWidth: '1196px',
+              margin: '0 auto 48px auto',
+            }}
+          >
+            Let&apos;s discuss how PMG can help you navigate your challenges and seize new opportunities.
+          </p>
+          <button
+            className="hover:opacity-90 transition-all"
+            style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '20px',
+              lineHeight: '140%',
+              color: '#FFFFFF',
+              background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+              borderRadius: '10px',
+              width: '319px',
+              height: '65px',
+              border: 'none',
+              cursor: 'pointer',
+            }}
+          >
+            Request a Consultation
           </button>
         </div>
       </div>
