@@ -12,7 +12,9 @@ export default function Header() {
   const isYourIndustryPage = pathname === '/your-industry';
   const isFunctionalAreasPage = pathname === '/our-functional-areas';
   const isSolutionsPage = pathname === '/our-solutions';
+  const isBespokeSolutionsPage = pathname === '/bespoke-solutions';
   const isInsightsPage = pathname === '/insights';
+  const isInsightsInnovationsPage = pathname === '/insights-innovations';
   const isSaaSPage = pathname === '/saas-enterprise-technology';
   const isPublicSectorPage = pathname === '/public-sector-government';
   const isHigherEducationPage = pathname === '/higher-education-edtech';
@@ -23,7 +25,13 @@ export default function Header() {
   const isPeopleOrganizationsPage = pathname === '/people-organizations-consulting';
   const isCustomerExperiencePage = pathname === '/customer-experience-consulting';
   const isMergersAcquisitionsPage = pathname === '/mergers-acquisitions-consulting';
-  const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage || isInsightsPage || isSaaSPage || isPublicSectorPage || isHigherEducationPage || isFoodAgribusinessPage || isTravelHospitalityPage || isWhyFunctionalConsultingPage || isStrategyOperationsPage || isPeopleOrganizationsPage || isCustomerExperiencePage || isMergersAcquisitionsPage;
+  const isActiveManagementPage = pathname === '/active-management-solutions';
+  const isEquitySolutionsPage = pathname === '/equity-solutions';
+  const isOutOfTheBoxPage = pathname === '/out-of-the-box-solutions';
+  const isPowerOfWorkingWithUsPage = pathname === '/power-of-working-with-us';
+  const isContactUsPage = pathname === '/contact-us';
+  const isSolutionAssessmentPage = pathname === '/solution-assessment-tool';
+  const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage || isBespokeSolutionsPage || isInsightsPage || isInsightsInnovationsPage || isSaaSPage || isPublicSectorPage || isHigherEducationPage || isFoodAgribusinessPage || isTravelHospitalityPage || isWhyFunctionalConsultingPage || isStrategyOperationsPage || isPeopleOrganizationsPage || isCustomerExperiencePage || isMergersAcquisitionsPage || isActiveManagementPage || isEquitySolutionsPage || isOutOfTheBoxPage || isPowerOfWorkingWithUsPage || isContactUsPage || isSolutionAssessmentPage;
 
   const textColor = isLightPage ? 'text-black' : 'text-white';
   const logoTextColor = isLightPage ? 'text-[#000000]' : 'text-white'; // purely black for logo text on light pages
@@ -33,9 +41,9 @@ export default function Header() {
     { name: 'About', hasDropdown: false, href: '/about' },
     { name: 'Your Industry', hasDropdown: true, href: '/your-industry' },
     { name: 'Our functional areas', hasDropdown: true, href: '/our-functional-areas' },
-    { name: 'Our Solutions', hasDropdown: false, href: '/our-solutions' },
-    { name: 'Insights', hasDropdown: false, href: '/insights' },
-    { name: 'Contact Us', hasDropdown: false, href: '#contact' },
+    { name: 'Our Solutions', hasDropdown: true, href: '/our-solutions' },
+    { name: 'Insights', hasDropdown: true, href: '/insights' },
+    { name: 'Contact Us', hasDropdown: false, href: '/contact-us' },
   ];
 
   const industryItems = [
@@ -61,8 +69,22 @@ export default function Header() {
     { title: 'Crisis & Transition Management', desc: 'Navigating Uncertainty with Decisive Leadership.', href: '/our-functional-areas' },
   ];
 
+  const solutionsItems = [
+    { title: 'Bespoke Solutions', desc: 'Fully customized strategies for complex challenges.', href: '/bespoke-solutions' },
+    { title: 'Active Management Solutions', desc: 'Embedded executive operators driving results from within.', href: '/active-management-solutions' },
+    { title: 'Equity Solutions', desc: 'A strategic partnership for accelerated growth & shared success.', href: '/equity-solutions' },
+    { title: 'Out of the Box Solutions', desc: 'Component tools and frameworks you can implement yourself.', href: '/out-of-the-box-solutions' },
+    { title: 'Power of Working With Us', desc: 'The quiet discipline and proven process behind every PMG engagement.', href: '/power-of-working-with-us' },
+    { title: 'Solution Assessment Tool', desc: 'Answer a few questions to get a recommendation on the right engagement model.', href: '/solution-assessment-tool' },
+  ];
+
+  const insightsItems = [
+    { title: 'Insights & Innovations', desc: 'Unfiltered thinking on strategy, leadership, and operations.', href: '/insights-innovations' },
+    { title: 'Sector Convergence Model', desc: 'Our flagship framework for cross-industry problem solving.', href: '/insights' },
+  ];
+
   return (
-    <header className="absolute top-0 left-0 right-0 z-50">
+    <header className="absolute top-0 left-0 right-0 z-[200]">
       <div className="max-w-[1440px] mx-auto relative" style={{ height: '100px' }}>
         {/* Logo Icon */}
         <div className="absolute" style={{ top: '23px', left: '85px' }}>
@@ -134,7 +156,7 @@ export default function Header() {
                 {/* Dropdown Menu */}
                 {item.hasDropdown && isOpen && (
                   <div 
-                    className="absolute top-full left-0 pt-4 w-[380px] z-50"
+                    className="absolute top-full left-0 pt-4 w-[380px] z-[200]"
                   >
                     <div className="bg-white rounded-lg shadow-xl border border-gray-100 overflow-hidden py-2">
                        {item.name === 'Your Industry' && (
@@ -158,7 +180,43 @@ export default function Header() {
                        {item.name === 'Our functional areas' && (
                         <div className="flex flex-col">
                           {functionalAreasItems.map((subItem, idx) => (
-                            <Link 
+                            <Link
+                              key={idx}
+                              href={subItem.href}
+                              className="px-6 py-4 hover:bg-gray-50 transition-colors group/item block"
+                            >
+                              <h4 className="text-[#14358A] font-inter font-semibold text-[15px] mb-1 group-hover/item:text-[#6A36FF] transition-colors">
+                                {subItem.title}
+                              </h4>
+                              <p className="text-[#5F6D7E] text-[13px] leading-snug font-inter">
+                                {subItem.desc}
+                              </p>
+                            </Link>
+                          ))}
+                        </div>
+                       )}
+                       {item.name === 'Our Solutions' && (
+                        <div className="flex flex-col">
+                          {solutionsItems.map((subItem, idx) => (
+                            <Link
+                              key={idx}
+                              href={subItem.href}
+                              className="px-6 py-4 hover:bg-gray-50 transition-colors group/item block"
+                            >
+                              <h4 className="text-[#14358A] font-inter font-semibold text-[15px] mb-1 group-hover/item:text-[#6A36FF] transition-colors">
+                                {subItem.title}
+                              </h4>
+                              <p className="text-[#5F6D7E] text-[13px] leading-snug font-inter">
+                                {subItem.desc}
+                              </p>
+                            </Link>
+                          ))}
+                        </div>
+                       )}
+                       {item.name === 'Insights' && (
+                        <div className="flex flex-col">
+                          {insightsItems.map((subItem, idx) => (
+                            <Link
                               key={idx}
                               href={subItem.href}
                               className="px-6 py-4 hover:bg-gray-50 transition-colors group/item block"
