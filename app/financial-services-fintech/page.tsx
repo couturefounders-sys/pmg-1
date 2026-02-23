@@ -101,26 +101,44 @@ export default function FinancialServicesFinTech() {
 
       </div>
 
-      {/* Rest of the content sections would go here */}
-      <div className="bg-white py-24 px-6">
-        <div className="max-w-[1400px] mx-auto text-center">
+      {/* Your Strategic Partner Section */}
+      <div className="relative w-full bg-white" style={{ paddingTop: '120px', paddingBottom: '120px' }}>
+        <div className="relative max-w-[1440px] mx-auto">
+
+          {/* Section Title */}
           <h2
-            className="font-poppins font-semibold text-[#14358A] mb-16"
-            style={{ fontSize: '50px', lineHeight: '46px' }}
-          >
-            Trusted by Leading Financial Institutions
-          </h2>
-          <p
-            className="font-montserrat font-normal text-[#333333] mx-auto"
+            className="font-poppins font-semibold text-center mx-auto"
             style={{
-              fontSize: '30px',
-              lineHeight: '140%',
-              maxWidth: '1200px',
-              textAlign: 'center'
+              width: '625px',
+              fontSize: '50px',
+              lineHeight: '46px',
+              color: '#14358A',
+              letterSpacing: '0%',
+              marginBottom: '60px'
             }}
           >
-            From traditional banks to cryptocurrency exchanges, we provide the strategic frameworks and operational excellence needed to balance innovation with compliance in an increasingly complex regulatory environment.
-          </p>
+            Your Strategic Partner
+          </h2>
+
+          {/* Section Description */}
+          <div
+            className="font-montserrat font-normal text-center mx-auto"
+            style={{
+              width: '1342px',
+              fontSize: '32px',
+              lineHeight: '100%',
+              color: '#333333',
+              letterSpacing: '0%'
+            }}
+          >
+            <p style={{ marginBottom: '32px' }}>
+              PMG partners with banks, asset managers, insurers, & fintechs to deliver a balance of strategic insight & operational expertise. We enable organizations to strengthen performance, manage risk, & deliver sustainable value in an environment of constant disruption.
+            </p>
+            <p>
+              Our financial services work is complemented by PMG&apos;s cross-sector expertise in technology & organizational transformation, equipping leaders to address challenges across governance, digital adoption, & market positioning.
+            </p>
+          </div>
+
         </div>
       </div>
 
