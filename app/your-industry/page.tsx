@@ -7,47 +7,47 @@ export default function YourIndustry() {
     {
       title: 'Due Diligence & Deal Sourcing',
       description: 'We provide commercial, operational, and technical due diligence to help you assess opportunities with precision, ensuring your investment thesis is built on a solid foundation.',
-      icon: '/icon-growth-market.png'
+      icon: '/icon-strategy-transformation.png'
     },
     {
       title: 'Portfolio Company Value Creation',
       description: 'Our hands-on operators work with portfolio company leadership to implement operational efficiencies, accelerate growth, and maximize EBITDA, from 100-day plans to long-term transformations.',
-      icon: '/icon-check-correct.png'
+      icon: '/icon-risk-resilience.png'
     },
     {
       title: 'Interim & Fractional Leadership',
       description: 'We fill critical leadership gaps within your portfolio companies with our own seasoned executives, providing stability and driving performance during transitions or high-growth phases.',
-      icon: '/icon-heart-funding.png'
+      icon: '/icon-customer-experience.png'
     },
     {
       title: 'Exit Strategy & Preparation',
       description: 'We help you prepare portfolio companies for a successful exit, whether through IPO, strategic sale, or secondary exit, ensuring you maximize returns.',
-      icon: '/icon-innovation.png'
+      icon: '/icon-regulatory-compliance.png'
     },
     {
       title: 'Fund Strategy & Operations',
       description: 'We advise investment firms on fund strategy, operational efficiency, and LP reporting to enhance performance and strengthen investor relations.',
-      icon: '/icon-ai-automation.png'
+      icon: '/icon-innovation-fintech.png'
     },
     {
       title: 'Risk Management & Turnaround',
       description: 'We fill critical leadership gaps within your portfolio companies with our own seasoned executives, providing stability and driving performance during transitions or high-growth phases.',
-      icon: '/icon-cloud-strategy.png'
+      icon: '/icon-capital-performance.png'
     },
     {
       title: 'Commercialization Strategy',
       description: 'We develop and execute go-to-market strategies for portfolio companies, aligning product, sales, and marketing to accelerate revenue growth and capture market share.',
-      icon: '/icon-innovation.png'
+      icon: '/icon-strategy-transformation.png'
     },
     {
       title: 'Post-Acquisition Integrations',
       description: 'Our experts manage the post-acquisition process, seamlessly integrating operations, technology, and culture to realize synergies and ensure the deal thesis is achieved.',
-      icon: '/icon-ai-automation.png'
+      icon: '/icon-risk-resilience.png'
     },
     {
       title: 'Multi-Industry Portfolio Design',
       description: 'Leveraging our Sector Convergence model, we help firms build resilient, diversified portfolios by identifying high-potential sectors in non-obvious, adjacent sectors.',
-      icon: '/icon-cloud-strategy.png'
+      icon: '/icon-capital-performance.png'
     }
   ];
 
@@ -203,8 +203,8 @@ export default function YourIndustry() {
                   borderRadius: '10px'
                 }}
               >
-                <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
-                  <img src={card.icon} alt={card.title} style={{ width: '40px', height: '40px', objectFit: 'contain' }} />
+                <div className="mb-6">
+                  <img src={card.icon} alt={card.title} style={{ width: '64px', height: '64px' }} />
                 </div>
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
