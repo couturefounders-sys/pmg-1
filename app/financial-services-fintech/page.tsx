@@ -739,6 +739,50 @@ export default function FinancialServicesFinTech() {
         </div>
       </div>
 
+      {/* The Functional Consulting Advantage Section */}
+      <div className="relative bg-white py-32 px-6">
+        <div className="relative max-w-[1440px] mx-auto" style={{ minHeight: '700px' }}>
+
+          {/* Section Title */}
+          <h2
+            className="absolute font-dm-sans font-bold text-center"
+            style={{
+              top: '80px',
+              left: '328px',
+              width: '785px',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-3%',
+              color: '#14358A'
+            }}
+          >
+            The Functional Consulting Advantage
+          </h2>
+
+          {/* Section Content */}
+          <div
+            className="absolute font-dm-sans font-normal text-center"
+            style={{
+              top: '173px',
+              left: '207px',
+              width: '1082px',
+              fontSize: '30px',
+              lineHeight: '140%',
+              letterSpacing: '0%',
+              color: '#333333'
+            }}
+          >
+            <p style={{ marginBottom: '32px' }}>
+              Financial Services and FinTech operate at the intersection of hyper-regulation and rapid technological change. Generalist consultants often provide broad recommendations on market trends or digital strategy that fail to account for the core challenges of regulatory compliance, legacy system modernization, and risk management. Their advice is often rendered impractical by the necessity of robust audit trails and jurisdictional complexity.
+            </p>
+            <p>
+              PMG&apos;s model delivers validated, compliant execution. We deploy specialized functional operators, experts in areas like modernizing core banking systems, implementing AI-driven risk models, optimizing regulatory reporting (e.g., Basel, KYC/AML), and scaling new FinTech products. Our specialists don&apos;t just advise; they implement proven systems and processes that ensure your transformation is not only efficient and differentiated in the market but is fully auditable and compliant from day one.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
       {/* Call to Action Section */}
       <div
         className="text-center flex flex-col items-center"
