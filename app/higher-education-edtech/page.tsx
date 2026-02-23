@@ -141,18 +141,15 @@ export default function HigherEducationEdTech() {
         <div className="max-w-[1312px] mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Card 1 - Transformation Strategy & Implementation */}
-            <div 
+            <div
               className="bg-white rounded-[10px] p-8"
               style={{
                 border: '3px solid #14358A',
                 minHeight: '260px'
               }}
             >
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/policy-strategy.png" alt="Transformation Strategy" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              <div className="mb-6">
+                <img src="/icon-strategy-transformation.png" alt="Transformation Strategy" style={{ width: '64px', height: '64px' }} />
               </div>
 
               <h3 
@@ -181,18 +178,15 @@ export default function HigherEducationEdTech() {
             </div>
 
             {/* Card 2 - Operational Efficiency */}
-            <div 
+            <div
               className="bg-white rounded-[10px] p-8"
               style={{
                 border: '3px solid #14358A',
                 minHeight: '260px'
               }}
             >
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/operational-efficiency.png" alt="Operational Efficiency" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              <div className="mb-6">
+                <img src="/icon-risk-resilience.png" alt="Operational Efficiency" style={{ width: '64px', height: '64px' }} />
               </div>
 
               <h3 
@@ -221,18 +215,15 @@ export default function HigherEducationEdTech() {
             </div>
 
             {/* Card 3 - Digital Government & Service Transformation */}
-            <div 
+            <div
               className="bg-white rounded-[10px] p-8"
               style={{
                 border: '3px solid #14358A',
                 minHeight: '260px'
               }}
             >
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/digital-government.png" alt="Digital Transformation" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              <div className="mb-6">
+                <img src="/icon-customer-experience.png" alt="Digital Transformation" style={{ width: '64px', height: '64px' }} />
               </div>
 
               <h3 
@@ -261,18 +252,15 @@ export default function HigherEducationEdTech() {
             </div>
 
             {/* Card 4 - Academic Portfolio & Program Design */}
-            <div 
+            <div
               className="bg-white rounded-[10px] p-8"
               style={{
                 border: '3px solid #14358A',
                 minHeight: '260px'
               }}
             >
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/infrastructure.png" alt="Academic Portfolio" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              <div className="mb-6">
+                <img src="/icon-regulatory-compliance.png" alt="Academic Portfolio" style={{ width: '64px', height: '64px' }} />
               </div>
 
               <h3 
@@ -301,18 +289,15 @@ export default function HigherEducationEdTech() {
             </div>
 
             {/* Card 5 - Governance & Risk */}
-            <div 
+            <div
               className="bg-white rounded-[10px] p-8"
               style={{
                 border: '3px solid #14358A',
                 minHeight: '260px'
               }}
             >
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/fiscal-management.png" alt="Governance & Risk" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              <div className="mb-6">
+                <img src="/icon-innovation-fintech.png" alt="Governance & Risk" style={{ width: '64px', height: '64px' }} />
               </div>
 
               <h3 
@@ -341,18 +326,15 @@ export default function HigherEducationEdTech() {
             </div>
 
             {/* Card 6 - Faculty & Staff Engagement */}
-            <div 
+            <div
               className="bg-white rounded-[10px] p-8"
               style={{
                 border: '3px solid #14358A',
                 minHeight: '260px'
               }}
             >
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/workforce.png" alt="Faculty & Staff Engagement" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              <div className="mb-6">
+                <img src="/icon-capital-performance.png" alt="Faculty & Staff Engagement" style={{ width: '64px', height: '64px' }} />
               </div>
 
               <h3 
@@ -381,18 +363,15 @@ export default function HigherEducationEdTech() {
             </div>
 
             {/* Card 7 - Program Evaluation & Impact Measurement */}
-            <div 
+            <div
               className="bg-white rounded-[10px] p-8"
               style={{
                 border: '3px solid #14358A',
                 minHeight: '260px'
               }}
             >
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/program-evaluation.png" alt="Program Evaluation" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              <div className="mb-6">
+                <img src="/icon-regulatory-compliance.png" alt="Program Evaluation" style={{ width: '64px', height: '64px' }} />
               </div>
 
               <h3 
@@ -421,18 +400,15 @@ export default function HigherEducationEdTech() {
             </div>
 
             {/* Card 8 - Research Performance */}
-            <div 
+            <div
               className="bg-white rounded-[10px] p-8"
               style={{
                 border: '3px solid #14358A',
                 minHeight: '260px'
               }}
             >
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/stakeholder-engagement.png" alt="Research Performance" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              <div className="mb-6">
+                <img src="/icon-innovation-fintech.png" alt="Research Performance" style={{ width: '64px', height: '64px' }} />
               </div>
 
               <h3 
@@ -461,18 +437,15 @@ export default function HigherEducationEdTech() {
             </div>
 
             {/* Card 9 - Alumni Relations & Fundraising */}
-            <div 
+            <div
               className="bg-white rounded-[10px] p-8"
               style={{
                 border: '3px solid #14358A',
                 minHeight: '260px'
               }}
             >
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/icons/procurement.png" alt="Alumni Relations" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+              <div className="mb-6">
+                <img src="/icon-capital-performance.png" alt="Alumni Relations" style={{ width: '64px', height: '64px' }} />
               </div>
 
               <h3 
