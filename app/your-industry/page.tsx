@@ -7,47 +7,47 @@ export default function YourIndustry() {
     {
       title: 'Due Diligence & Deal Sourcing',
       description: 'We provide commercial, operational, and technical due diligence to help you assess opportunities with precision, ensuring your investment thesis is built on a solid foundation.',
-      icon: '/icon-strategy-transformation.png'
+      icon: '/icon-strategy-transformation.png'  // Circular arrows/refresh icon
     },
     {
       title: 'Portfolio Company Value Creation',
       description: 'Our hands-on operators work with portfolio company leadership to implement operational efficiencies, accelerate growth, and maximize EBITDA, from 100-day plans to long-term transformations.',
-      icon: '/icon-risk-resilience.png'
+      icon: '/icon-risk-resilience.png'  // Checkmark icon
     },
     {
       title: 'Interim & Fractional Leadership',
       description: 'We fill critical leadership gaps within your portfolio companies with our own seasoned executives, providing stability and driving performance during transitions or high-growth phases.',
-      icon: '/icon-customer-experience.png'
+      icon: '/icon-customer-experience.png'  // Heart icon
     },
     {
       title: 'Exit Strategy & Preparation',
-      description: 'We help you prepare portfolio companies for a successful exit, whether through IPO, strategic sale, or secondary exit, ensuring you maximize returns.',
-      icon: '/icon-regulatory-compliance.png'
+      description: 'We help you prepare portfolio companies for a successful exit, whether through IPO, strategic sale, or secondary buyout, ensuring you maximize returns.',
+      icon: '/icon-regulatory-compliance.png'  // Building/pillars icon
     },
     {
       title: 'Fund Strategy & Operations',
       description: 'We advise investment firms on fund strategy, operational efficiency, and LP reporting to enhance performance and strengthen investor relations.',
-      icon: '/icon-innovation-fintech.png'
+      icon: '/icon-innovation-fintech.png'  // Lightbulb icon
     },
     {
       title: 'Risk Management & Turnaround',
       description: 'We fill critical leadership gaps within your portfolio companies with our own seasoned executives, providing stability and driving performance during transitions or high-growth phases.',
-      icon: '/icon-capital-performance.png'
+      icon: '/icon-capital-performance.png'  // Bar chart icon
     },
     {
       title: 'Commercialization Strategy',
       description: 'We develop and execute go-to-market strategies for portfolio companies, aligning product, sales, and marketing to accelerate revenue growth and capture market share.',
-      icon: '/icon-strategy-transformation.png'
+      icon: '/icon-regulatory-compliance.png'  // Building/pillars icon
     },
     {
       title: 'Post-Acquisition Integrations',
       description: 'Our experts manage the post-acquisition process, seamlessly integrating operations, technology, and culture to realize synergies and ensure the deal thesis is achieved.',
-      icon: '/icon-risk-resilience.png'
+      icon: '/icon-innovation-fintech.png'  // Lightbulb icon
     },
     {
       title: 'Multi-Industry Portfolio Design',
-      description: 'Leveraging our Sector Convergence model, we help firms build resilient, diversified portfolios by identifying high-potential sectors in non-obvious, adjacent sectors.',
-      icon: '/icon-capital-performance.png'
+      description: 'Leveraging our Sector Convergence model, we help firms build resilient, diversified portfolios by identifying high-potential assets in non-obvious, adjacent sectors.',
+      icon: '/icon-capital-performance.png'  // Bar chart icon
     }
   ];
 
