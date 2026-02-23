@@ -134,7 +134,7 @@ export default function FinancialServicesFinTech() {
 
           {/* Work Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Card 1: Strategy & Transformation */}
+            {/* Card 1: Growth & Go-to-Market Strategy */}
             <div
               className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
               style={{
@@ -145,23 +145,23 @@ export default function FinancialServicesFinTech() {
               }}
             >
               <div className="mb-6">
-                <img src="/icon-strategy-transformation.png" alt="Strategy & Transformation" style={{ width: '64px', height: '64px' }} />
+                <img src="/icon-strategy-transformation.png" alt="Growth & Go-to-Market Strategy" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
                 style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
               >
-                Strategy & Transformation
+                Growth & Go-to-Market Strategy
               </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '16px', lineHeight: '140%' }}
               >
-                Set bold enterprise strategies and deliver transformation at scale, covering M&A integration, digital roadmaps, and operating model modernization.
+                Define and implement growth strategies that balance speed with sustainability, covering GTM planning, international expansion, and optimized pricing models.
               </p>
             </div>
 
-            {/* Card 2: Risk & Operational Resilience */}
+            {/* Card 2: Operational Excellence & Scalability */}
             <div
               className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
               style={{
@@ -172,23 +172,23 @@ export default function FinancialServicesFinTech() {
               }}
             >
               <div className="mb-6">
-                <img src="/icon-risk-resilience.png" alt="Risk & Operational Resilience" style={{ width: '64px', height: '64px' }} />
+                <img src="/icon-risk-resilience.png" alt="Operational Excellence & Scalability" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
                 style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
               >
-                Risk & Operational Resilience
+                Operational Excellence & Scalability
               </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '16px', lineHeight: '140%' }}
               >
-                Optimize processes and strengthen risk frameworks to enhance operational resilience, ensure regulatory compliance, and drive performance improvements.
+                Improve organizational performance, optimize core processes, and deploy digital transformation initiatives to ensure sustained efficiency at scale.
               </p>
             </div>
 
-            {/* Card 3: Customer & Digital Experience */}
+            {/* Card 3: M&A, Funding, & Financial Performance */}
             <div
               className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
               style={{
@@ -199,23 +199,23 @@ export default function FinancialServicesFinTech() {
               }}
             >
               <div className="mb-6">
-                <img src="/icon-customer-experience.png" alt="Customer & Digital Experience" style={{ width: '64px', height: '64px' }} />
+                <img src="/icon-customer-experience.png" alt="M&A, Funding, & Financial Performance" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
                 style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
               >
-                Customer & Digital Experience
+                M&A, Funding, & Financial Performance
               </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '16px', lineHeight: '140%' }}
               >
-                Build digital-first experiences, modernize service delivery, and improve customer acquisition and loyalty in a highly competitive market.
+                Support M&A, capital funding, and IPO readiness by strengthening financial performance, optimizing portfolios, and enhancing the investment story.
               </p>
             </div>
 
-            {/* Card 4: Regulatory & Compliance Strategy */}
+            {/* Card 4: Innovation & Product Strategy */}
             <div
               className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
               style={{
@@ -226,23 +226,23 @@ export default function FinancialServicesFinTech() {
               }}
             >
               <div className="mb-6">
-                <img src="/icon-regulatory-compliance.png" alt="Regulatory & Compliance Strategy" style={{ width: '64px', height: '64px' }} />
+                <img src="/icon-regulatory-compliance.png" alt="Innovation & Product Strategy" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
                 style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
               >
-                Regulatory & Compliance Strategy
+                Innovation & Product Strategy
               </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '16px', lineHeight: '140%' }}
               >
-                Navigate evolving regulations, enhance compliance frameworks, and embed risk management practices for data governance, capital adequacy, and regulatory reporting.
+                Shape innovation agendas, prioritize R&D, and design product strategies (including portfolio and roadmap development) that align with market opportunities.
               </p>
             </div>
 
-            {/* Card 5: Innovation & Fintech Partnerships */}
+            {/* Card 5: AI & Automation Integration */}
             <div
               className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
               style={{
@@ -253,23 +253,23 @@ export default function FinancialServicesFinTech() {
               }}
             >
               <div className="mb-6">
-                <img src="/icon-innovation-fintech.png" alt="Innovation & Fintech Partnerships" style={{ width: '64px', height: '64px' }} />
+                <img src="/icon-innovation-fintech.png" alt="AI & Automation Integration" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
                 style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
               >
-                Innovation & Fintech Partnerships
+                AI & Automation Integration
               </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '16px', lineHeight: '140%' }}
               >
-                Advise on innovation strategy, product development, and strategic partnerships to capture value from emerging trends in payments, lending, and digital assets.
+                Harness AI and automation to enhance product offerings, dramatically improve internal efficiency, and create new, measurable sources of value.
               </p>
             </div>
 
-            {/* Card 6: Capital & Financial Performance */}
+            {/* Card 6: Cloud Strategy & Migration */}
             <div
               className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
               style={{
@@ -280,19 +280,19 @@ export default function FinancialServicesFinTech() {
               }}
             >
               <div className="mb-6">
-                <img src="/icon-capital-performance.png" alt="Capital & Financial Performance" style={{ width: '64px', height: '64px' }} />
+                <img src="/icon-capital-performance.png" alt="Cloud Strategy & Migration" style={{ width: '64px', height: '64px' }} />
               </div>
               <h3
                 className="font-dm-sans font-bold text-[#14358A] mb-4"
                 style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
               >
-                Capital & Financial Performance
+                Cloud Strategy & Migration
               </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '16px', lineHeight: '140%' }}
               >
-                Strengthen financial performance through capital optimization, portfolio review, and advanced financial modeling to ensure market competitiveness.
+                Develop and execute cloud strategies (public, private, or hybrid) that optimize cost, improve scalability, and accelerate organizational innovation.
               </p>
             </div>
           </div>
