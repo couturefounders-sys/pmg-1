@@ -113,6 +113,212 @@ export default function FinancialServicesFinTech() {
         </div>
       </div>
 
+      {/* Our Work Section */}
+      <div className="bg-[#F8FAFC] py-24 px-6">
+        <div className="max-w-[1300px] mx-auto">
+          {/* Section Header */}
+          <div className="text-center mb-16">
+            <h2
+              className="font-dm-sans font-bold text-[#14358A] mb-6"
+              style={{ fontSize: '48px', lineHeight: '105%', letterSpacing: '-3%' }}
+            >
+              Our Work
+            </h2>
+            <p
+              className="font-montserrat font-normal text-[#333333] mx-auto"
+              style={{ fontSize: '30px', lineHeight: '140%', maxWidth: '1082px', textAlign: 'center' }}
+            >
+              Our work supports strategy, operations, & transformation—equipping financial leaders with the tools to deliver meaningful change.
+            </p>
+          </div>
+
+          {/* Work Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Card 1: Strategy & Transformation */}
+            <div
+              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              style={{
+                minHeight: '260px',
+                padding: '32px',
+                border: '3px solid #14358A',
+                borderRadius: '10px'
+              }}
+            >
+              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16 8L20 12L16 16L12 12L16 8Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M8 16L12 20L8 24L4 20L8 16Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M24 16L28 20L24 24L20 20L24 16Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M16 16L20 20L16 24L12 20L16 16Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </div>
+              <h3
+                className="font-dm-sans font-bold text-[#14358A] mb-4"
+                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+              >
+                Strategy & Transformation
+              </h3>
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{ fontSize: '16px', lineHeight: '140%' }}
+              >
+                Set bold enterprise strategies and deliver transformation at scale, covering M&A integration, digital roadmaps, and operating model modernization.
+              </p>
+            </div>
+
+            {/* Card 2: Risk & Operational Resilience */}
+            <div
+              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              style={{
+                minHeight: '260px',
+                padding: '32px',
+                border: '3px solid #14358A',
+                borderRadius: '10px'
+              }}
+            >
+              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16 4L4 10L16 16L28 10L16 4Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M4 16L16 22L28 16" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M4 22L16 28L28 22" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </div>
+              <h3
+                className="font-dm-sans font-bold text-[#14358A] mb-4"
+                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+              >
+                Risk & Operational Resilience
+              </h3>
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{ fontSize: '16px', lineHeight: '140%' }}
+              >
+                Optimize processes and strengthen risk frameworks to enhance operational resilience, ensure regulatory compliance, and drive performance improvements.
+              </p>
+            </div>
+
+            {/* Card 3: Customer & Digital Experience */}
+            <div
+              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              style={{
+                minHeight: '260px',
+                padding: '32px',
+                border: '3px solid #14358A',
+                borderRadius: '10px'
+              }}
+            >
+              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z" stroke="white" strokeWidth="2"/>
+                  <path d="M16 12V16L19 19" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                </svg>
+              </div>
+              <h3
+                className="font-dm-sans font-bold text-[#14358A] mb-4"
+                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+              >
+                Customer & Digital Experience
+              </h3>
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{ fontSize: '16px', lineHeight: '140%' }}
+              >
+                Build digital-first experiences, modernize service delivery, and improve customer acquisition and loyalty in a highly competitive market.
+              </p>
+            </div>
+
+            {/* Card 4: Regulatory & Compliance Strategy */}
+            <div
+              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              style={{
+                minHeight: '260px',
+                padding: '32px',
+                border: '3px solid #14358A',
+                borderRadius: '10px'
+              }}
+            >
+              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="8" y="4" width="16" height="24" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M12 4V2M20 4V2M8 10H24M12 14H20M12 18H20M12 22H16" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                </svg>
+              </div>
+              <h3
+                className="font-dm-sans font-bold text-[#14358A] mb-4"
+                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+              >
+                Regulatory & Compliance Strategy
+              </h3>
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{ fontSize: '16px', lineHeight: '140%' }}
+              >
+                Navigate evolving regulations, enhance compliance frameworks, and embed risk management practices for data governance, capital adequacy, and regulatory reporting.
+              </p>
+            </div>
+
+            {/* Card 5: Innovation & Fintech Partnerships */}
+            <div
+              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              style={{
+                minHeight: '260px',
+                padding: '32px',
+                border: '3px solid #14358A',
+                borderRadius: '10px'
+              }}
+            >
+              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16 6L19 12L26 13L21 18L22 25L16 22L10 25L11 18L6 13L13 12L16 6Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </div>
+              <h3
+                className="font-dm-sans font-bold text-[#14358A] mb-4"
+                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+              >
+                Innovation & Fintech Partnerships
+              </h3>
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{ fontSize: '16px', lineHeight: '140%' }}
+              >
+                Advise on innovation strategy, product development, and strategic partnerships to capture value from emerging trends in payments, lending, and digital assets.
+              </p>
+            </div>
+
+            {/* Card 6: Capital & Financial Performance */}
+            <div
+              className="bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+              style={{
+                minHeight: '260px',
+                padding: '32px',
+                border: '3px solid #14358A',
+                borderRadius: '10px'
+              }}
+            >
+              <div className="mb-6 inline-flex items-center justify-center" style={{ width: '64px', height: '64px', backgroundColor: '#14358A', borderRadius: '8px' }}>
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 28L10 22L16 26L28 14" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M20 14H28V22" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </div>
+              <h3
+                className="font-dm-sans font-bold text-[#14358A] mb-4"
+                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+              >
+                Capital & Financial Performance
+              </h3>
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{ fontSize: '16px', lineHeight: '140%' }}
+              >
+                Strengthen financial performance through capital optimization, portfolio review, and advanced financial modeling to ensure market competitiveness.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Call to Action Section */}
       <div
         className="text-center flex flex-col items-center"
