@@ -23,12 +23,12 @@ export default function InsightsInnovationsPage() {
           <h1 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '1.1', color: '#14358A', marginBottom: '20px' }}>
             Insights &amp; Innovations
           </h1>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.8', color: '#3A3A3A', marginBottom: '36px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '32px', lineHeight: '100%', letterSpacing: '0%', textAlign: 'center', color: '#3A3A3A', marginBottom: '36px' }}>
             Unfiltered thoughts on whatever matters right now: Universal Basic Income, Management Consulting, Culture Transformation, Existentialism, and everything in between. Each piece represents where our curiosity has taken us this month.
           </p>
 
           {/* Note box */}
-          <div style={{ border: '1.5px solid #C8D5F0', borderRadius: '10px', padding: '24px 28px', background: '#FFFFFF', textAlign: 'center', maxWidth: '580px' }}>
+          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '24px 28px', background: '#FFFFFF', textAlign: 'center', maxWidth: '580px' }}>
             <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '16px', color: '#14358A', marginBottom: '10px' }}>
               Note to Prospective Partners
             </h3>
@@ -41,10 +41,10 @@ export default function InsightsInnovationsPage() {
 
       {/* ─── Section 2: Articles ─── */}
       <section className="w-full py-12 px-6 bg-white">
-        <div className="max-w-[560px] mx-auto flex flex-col gap-8">
+        <div className="max-w-[660px] mx-auto flex flex-col gap-6">
 
           {/* Search */}
-          <div style={{ border: '1.5px solid #C8D5F0', borderRadius: '8px', padding: '12px 16px', display: 'flex', alignItems: 'center', gap: '10px', background: '#FFFFFF' }}>
+          <div style={{ border: '3px solid #14358A', borderRadius: '8px', padding: '12px 16px', display: 'flex', alignItems: 'center', gap: '10px', background: '#FFFFFF' }}>
             <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
               <circle cx="9" cy="9" r="7" stroke="#9AA6B4" strokeWidth="2" />
               <path d="M14.5 14.5L18 18" stroke="#9AA6B4" strokeWidth="2" strokeLinecap="round" />
@@ -61,29 +61,29 @@ export default function InsightsInnovationsPage() {
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', color: '#5F6D7E', marginBottom: '10px', textAlign: 'center' }}>Filter by tag:</p>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', justifyContent: 'center' }}>
               {tags.map((tag, i) => (
-                <span key={i} style={{ border: '1.5px solid #C8D5F0', borderRadius: '20px', padding: '5px 14px', fontFamily: 'Montserrat, sans-serif', fontSize: '12px', color: '#14358A', cursor: 'pointer', background: '#FFFFFF' }}>{tag}</span>
+                <span key={i} style={{ border: '3px solid #14358A', borderRadius: '20px', padding: '5px 14px', fontFamily: 'Montserrat, sans-serif', fontSize: '12px', color: '#14358A', cursor: 'pointer', background: '#FFFFFF' }}>{tag}</span>
               ))}
             </div>
           </div>
 
           {/* Article cards */}
           {articles.map((article, i) => (
-            <div key={i} style={{ border: '1.5px solid #C8D5F0', borderRadius: '10px', padding: '24px 28px', background: '#FFFFFF' }}>
-              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '17px', color: '#14358A', marginBottom: '6px' }}>{article.title}</h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '12px', color: '#9AA6B4', marginBottom: '14px' }}>{article.date}</p>
-              <a href="#" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '13px', color: '#14358A', textDecoration: 'none' }}>Read More &rsaquo;</a>
+            <div key={i} style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '40px 36px', background: '#FFFFFF' }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '19px', color: '#14358A', marginBottom: '8px' }}>{article.title}</h3>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', color: '#9AA6B4', marginBottom: '20px' }}>{article.date}</p>
+              <a href="#" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '14px', color: '#14358A', textDecoration: 'none' }}>Read More &rsaquo;</a>
             </div>
           ))}
 
           {/* Featured article */}
-          <div style={{ border: '1.5px solid #C8D5F0', borderRadius: '10px', padding: '28px', background: '#FFFFFF' }}>
+          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px', background: '#FFFFFF' }}>
             <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '18px', color: '#14358A', marginBottom: '8px' }}>Deconstructing Risk</h3>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '14px', fontWeight: 600, color: '#14358A', marginBottom: '10px' }}>How Modern Portfolio Theory Applies to Business Operations</p>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', lineHeight: '1.7', color: '#5F6D7E' }}>Explore how principles from finance can be used to build more resilient, diversified, and antifragile business operations.</p>
           </div>
 
           {/* Email signup */}
-          <div style={{ border: '1.5px solid #C8D5F0', borderRadius: '10px', padding: '28px', background: '#FFFFFF', display: 'flex', gap: '24px', alignItems: 'center', flexWrap: 'wrap' }}>
+          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px', background: '#FFFFFF', display: 'flex', gap: '24px', alignItems: 'center', flexWrap: 'wrap' }}>
             <div style={{ flex: 1, minWidth: '200px' }}>
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '17px', color: '#14358A', marginBottom: '8px' }}>Get Our Latest Thinking</h3>
               <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '12.5px', lineHeight: '1.7', color: '#5F6D7E' }}>Join executives who receive our monthly intellectual wanderings. No business platitudes, just interesting ideas applied to complex problems.</p>
@@ -92,9 +92,9 @@ export default function InsightsInnovationsPage() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                style={{ border: '1.5px solid #C8D5F0', borderRadius: '6px', padding: '10px 14px', fontFamily: 'Montserrat, sans-serif', fontSize: '13px', color: '#3A3A3A', outline: 'none' }}
+                style={{ border: '3px solid #14358A', borderRadius: '6px', padding: '10px 14px', fontFamily: 'Montserrat, sans-serif', fontSize: '13px', color: '#3A3A3A', outline: 'none' }}
               />
-              <button style={{ background: 'linear-gradient(135deg, #1B45B4 0%, #1C2792 100%)', color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '13px', padding: '10px 20px', borderRadius: '6px', border: 'none', cursor: 'pointer' }}>
+              <button style={{ background: 'linear-gradient(135deg, #6A36FF 0%, #AC5FE6 100%)', color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '13px', padding: '10px 20px', borderRadius: '6px', border: 'none', cursor: 'pointer' }}>
                 Submit
               </button>
             </div>
@@ -117,7 +117,7 @@ export default function InsightsInnovationsPage() {
           </p>
           <a
             href="/contact-us"
-            style={{ display: 'inline-block', background: 'rgba(255,255,255,0.15)', border: '1.5px solid rgba(255,255,255,0.5)', color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '14px', padding: '13px 32px', borderRadius: '8px', textDecoration: 'none' }}
+            style={{ display: 'inline-block', background: 'linear-gradient(135deg, #6A36FF 0%, #AC5FE6 100%)', border: 'none', color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '14px', padding: '13px 32px', borderRadius: '8px', textDecoration: 'none' }}
           >
             Let&apos;s Connect
           </a>

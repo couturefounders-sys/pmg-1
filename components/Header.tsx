@@ -33,7 +33,9 @@ export default function Header() {
   const isSolutionAssessmentPage = pathname === '/solution-assessment-tool';
   const isFinancialServicesPage = pathname === '/financial-services-fintech';
   const isB2BProfessionalServicesPage = pathname === '/b2b-professional-services';
-  const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage || isBespokeSolutionsPage || isInsightsPage || isInsightsInnovationsPage || isSaaSPage || isPublicSectorPage || isHigherEducationPage || isFoodAgribusinessPage || isTravelHospitalityPage || isWhyFunctionalConsultingPage || isStrategyOperationsPage || isPeopleOrganizationsPage || isCustomerExperiencePage || isMergersAcquisitionsPage || isActiveManagementPage || isEquitySolutionsPage || isOutOfTheBoxPage || isPowerOfWorkingWithUsPage || isContactUsPage || isSolutionAssessmentPage || isFinancialServicesPage || isB2BProfessionalServicesPage;
+  const isIOArchitecturePage = pathname === '/io-architecture-model';
+  const isBVUModelPage = pathname === '/business-value-unit-model';
+  const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage || isBespokeSolutionsPage || isInsightsPage || isInsightsInnovationsPage || isSaaSPage || isPublicSectorPage || isHigherEducationPage || isFoodAgribusinessPage || isTravelHospitalityPage || isWhyFunctionalConsultingPage || isStrategyOperationsPage || isPeopleOrganizationsPage || isCustomerExperiencePage || isMergersAcquisitionsPage || isActiveManagementPage || isEquitySolutionsPage || isOutOfTheBoxPage || isPowerOfWorkingWithUsPage || isContactUsPage || isSolutionAssessmentPage || isFinancialServicesPage || isB2BProfessionalServicesPage || isIOArchitecturePage || isBVUModelPage;
 
   const textColor = isLightPage ? 'text-black' : 'text-white';
   const logoTextColor = isLightPage ? 'text-[#000000]' : 'text-white'; // purely black for logo text on light pages
@@ -83,6 +85,8 @@ export default function Header() {
   const insightsItems = [
     { title: 'Insights & Innovations', desc: 'Unfiltered thinking on strategy, leadership, and operations.', href: '/insights-innovations' },
     { title: 'Sector Convergence Model', desc: 'Our flagship framework for cross-industry problem solving.', href: '/insights' },
+    { title: 'The I-O Architecture Model', desc: 'Our proprietary engineering framework for operational consistency.', href: '/io-architecture-model' },
+    { title: 'The Business Value Unit (BVU) Model', desc: 'A financial framework for quantifying non-commercial team contributions.', href: '/business-value-unit-model' },
   ];
 
   return (

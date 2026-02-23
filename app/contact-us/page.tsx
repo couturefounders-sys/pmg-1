@@ -2,13 +2,19 @@
 import { useState } from 'react';
 import Header from '@/components/Header';
 
-const inquiryTypes = [
-  { icon: '🏢', label: 'New Consulting Services' },
-  { icon: '📋', label: 'Existing Consulting Services' },
-  { icon: '📰', label: 'Media Inquiry' },
-  { icon: '🎤', label: 'Speaking Engagements & Events' },
-  { icon: '🛒', label: 'Vendor & Supplier Inquiries' },
-  { icon: '❓', label: 'Other Business Inquiry' },
+type InquiryItem = {
+  iconPath?: string;
+  iconEmoji?: string;
+  label: string;
+};
+
+const inquiryTypes: InquiryItem[] = [
+  { iconPath: '/icons/consulting.png', label: 'New Consulting Services' },
+  { iconPath: '/icons/existing-consulting.png', label: 'Existing Consulting Services' },
+  { iconEmoji: '📰', label: 'Media Inquiry' },
+  { iconPath: '/icons/speaking-events.png', label: 'Speaking Engagements & Events' },
+  { iconPath: '/icons/vendor-supplier.png', label: 'Vendor & Supplier Inquiries' },
+  { iconPath: '/icons/other-business.png', label: 'Other Business Inquiry' },
 ];
 
 export default function ContactUs() {
@@ -21,20 +27,20 @@ export default function ContactUs() {
       <Header />
 
       {/* ─── Hero / Form Section ─── */}
-      <section className="w-full pt-36 pb-24 px-6">
-        <div className="max-w-[860px] mx-auto">
+      <section className="w-full pt-24 lg:pt-32 xl:pt-36 pb-14 lg:pb-20 xl:pb-24 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[860px] w-full mx-auto">
 
           {/* Heading */}
-          <div className="flex flex-col items-center text-center mb-12">
+          <div className="flex flex-col items-center text-center mb-8 lg:mb-10 xl:mb-12">
             <h1
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '52px',
+                fontSize: 'clamp(30px, 3.61vw, 52px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
-                marginBottom: '20px',
+                marginBottom: 'clamp(12px, 1.39vw, 20px)',
               }}
             >
               Apply to Partner with Us
@@ -43,10 +49,10 @@ export default function ContactUs() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '18px',
+                fontSize: 'clamp(13px, 1.25vw, 18px)',
                 lineHeight: '160%',
                 color: '#333333',
-                maxWidth: '700px',
+                maxWidth: 'min(700px, 100%)',
               }}
             >
               We are selective about our partners to ensure every engagement delivers exceptional
@@ -56,26 +62,31 @@ export default function ContactUs() {
           </div>
 
           {/* Two-column layout */}
-          <div className="flex flex-col md:flex-row gap-6 items-start">
+          <div className="flex flex-col lg:flex-row items-start" style={{ gap: 'clamp(14px, 1.67vw, 24px)' }}>
 
             {/* ── Left column ── */}
-            <div className="flex flex-col gap-6 w-full md:w-[340px] flex-shrink-0">
-
+            <div
+              className="flex flex-col w-full lg:w-auto flex-shrink-0"
+              style={{
+                gap: 'clamp(14px, 1.67vw, 24px)',
+                flexBasis: 'clamp(240px, 23.6vw, 340px)',
+              }}
+            >
               {/* Contact Information box */}
               <div
                 style={{
                   border: '1.5px solid #14358A',
                   borderRadius: '12px',
-                  padding: '24px',
+                  padding: 'clamp(14px, 1.67vw, 24px)',
                 }}
               >
                 <h2
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: '20px',
+                    fontSize: 'clamp(14px, 1.39vw, 20px)',
                     color: '#14358A',
-                    marginBottom: '20px',
+                    marginBottom: 'clamp(12px, 1.39vw, 20px)',
                   }}
                 >
                   Contact Information
@@ -83,13 +94,23 @@ export default function ContactUs() {
 
                 {/* Email */}
                 <div className="flex items-start gap-3 mb-4">
-                  <span style={{ color: '#14358A', fontSize: '18px', marginTop: '2px' }}>✉</span>
+                  <img
+                    src="/icons/email.png"
+                    alt="Email"
+                    style={{
+                      width: 'clamp(16px, 1.39vw, 20px)',
+                      height: 'clamp(16px, 1.39vw, 20px)',
+                      marginTop: '2px',
+                      objectFit: 'contain',
+                      flexShrink: 0,
+                    }}
+                  />
                   <div>
                     <p
                       style={{
                         fontFamily: 'DM Sans, sans-serif',
                         fontWeight: 700,
-                        fontSize: '15px',
+                        fontSize: 'clamp(12px, 1.04vw, 15px)',
                         color: '#14358A',
                       }}
                     >
@@ -99,7 +120,7 @@ export default function ContactUs() {
                       style={{
                         fontFamily: 'Montserrat, sans-serif',
                         fontWeight: 400,
-                        fontSize: '14px',
+                        fontSize: 'clamp(11px, 0.97vw, 14px)',
                         color: '#333333',
                       }}
                     >
@@ -110,13 +131,23 @@ export default function ContactUs() {
 
                 {/* Phone */}
                 <div className="flex items-start gap-3">
-                  <span style={{ color: '#14358A', fontSize: '18px', marginTop: '2px' }}>📞</span>
+                  <img
+                    src="/icons/call.png"
+                    alt="Call"
+                    style={{
+                      width: 'clamp(16px, 1.39vw, 20px)',
+                      height: 'clamp(16px, 1.39vw, 20px)',
+                      marginTop: '2px',
+                      objectFit: 'contain',
+                      flexShrink: 0,
+                    }}
+                  />
                   <div>
                     <p
                       style={{
                         fontFamily: 'DM Sans, sans-serif',
                         fontWeight: 700,
-                        fontSize: '15px',
+                        fontSize: 'clamp(12px, 1.04vw, 15px)',
                         color: '#14358A',
                       }}
                     >
@@ -126,7 +157,7 @@ export default function ContactUs() {
                       style={{
                         fontFamily: 'Montserrat, sans-serif',
                         fontWeight: 400,
-                        fontSize: '14px',
+                        fontSize: 'clamp(11px, 0.97vw, 14px)',
                         color: '#333333',
                       }}
                     >
@@ -141,16 +172,16 @@ export default function ContactUs() {
                 style={{
                   border: '1.5px solid #14358A',
                   borderRadius: '12px',
-                  padding: '24px',
+                  padding: 'clamp(14px, 1.67vw, 24px)',
                 }}
               >
                 <h2
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: '20px',
+                    fontSize: 'clamp(14px, 1.39vw, 20px)',
                     color: '#14358A',
-                    marginBottom: '16px',
+                    marginBottom: 'clamp(10px, 1.11vw, 16px)',
                   }}
                 >
                   What is your primary inquiry?
@@ -168,24 +199,39 @@ export default function ContactUs() {
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'space-between',
-                        padding: '12px 16px',
+                        padding: 'clamp(7px, 0.83vw, 12px) clamp(9px, 1.11vw, 16px)',
                         borderRadius: '8px',
-                        border: 'none',
+                        border: `1.5px solid ${selectedInquiry === i ? '#14358A' : 'transparent'}`,
                         cursor: 'pointer',
                         backgroundColor: selectedInquiry === i ? '#14358A' : 'transparent',
                         color: selectedInquiry === i ? '#FFFFFF' : '#333333',
                         fontFamily: 'Montserrat, sans-serif',
                         fontWeight: selectedInquiry === i ? 600 : 400,
-                        fontSize: '14px',
+                        fontSize: 'clamp(11px, 0.97vw, 14px)',
                         textAlign: 'left',
                         transition: 'all 0.15s ease',
+                        width: '100%',
                       }}
                     >
-                      <span className="flex items-center gap-3">
-                        <span style={{ fontSize: '16px' }}>{item.icon}</span>
-                        {item.label}
+                      <span className="flex items-center" style={{ gap: 'clamp(6px, 0.69vw, 10px)' }}>
+                        {item.iconPath ? (
+                          <img
+                            src={item.iconPath}
+                            alt=""
+                            style={{
+                              width: 'clamp(14px, 1.25vw, 18px)',
+                              height: 'clamp(14px, 1.25vw, 18px)',
+                              objectFit: 'contain',
+                              filter: selectedInquiry === i ? 'brightness(0) invert(1)' : 'none',
+                              flexShrink: 0,
+                            }}
+                          />
+                        ) : (
+                          <span style={{ fontSize: 'clamp(13px, 1.11vw, 16px)' }}>{item.iconEmoji}</span>
+                        )}
+                        <span>{item.label}</span>
                       </span>
-                      <span style={{ fontSize: '16px', opacity: 0.7 }}>›</span>
+                      <span style={{ fontSize: '14px', opacity: 0.7, marginLeft: '4px', flexShrink: 0 }}>›</span>
                     </button>
                   ))}
                 </div>
@@ -197,27 +243,27 @@ export default function ContactUs() {
               style={{
                 border: '1.5px solid #14358A',
                 borderRadius: '12px',
-                padding: '28px',
+                padding: 'clamp(16px, 1.94vw, 28px)',
                 flex: 1,
-                width: '100%',
+                minWidth: 0,
               }}
             >
               <h2
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '22px',
+                  fontSize: 'clamp(15px, 1.53vw, 22px)',
                   color: '#14358A',
-                  marginBottom: '24px',
+                  marginBottom: 'clamp(14px, 1.67vw, 24px)',
                 }}
               >
                 Expression of Interest
               </h2>
 
-              <div className="flex flex-col gap-5">
+              <div className="flex flex-col" style={{ gap: 'clamp(12px, 1.39vw, 20px)' }}>
 
                 {/* Row 1: Title + Full Name */}
-                <div className="flex gap-4">
+                <div className="flex" style={{ gap: 'clamp(10px, 1.11vw, 16px)' }}>
                   <div className="flex flex-col gap-1 flex-1">
                     <label style={labelStyle}>Title</label>
                     <input style={inputStyle} type="text" />
@@ -229,7 +275,7 @@ export default function ContactUs() {
                 </div>
 
                 {/* Row 2: Email + Phone */}
-                <div className="flex gap-4">
+                <div className="flex" style={{ gap: 'clamp(10px, 1.11vw, 16px)' }}>
                   <div className="flex flex-col gap-1 flex-1">
                     <label style={labelStyle}>Email Address</label>
                     <input style={inputStyle} type="email" placeholder="you@example.com" />
@@ -256,7 +302,7 @@ export default function ContactUs() {
                           color: contactMethod === method ? '#14358A' : '#666666',
                           fontFamily: 'Montserrat, sans-serif',
                           fontWeight: contactMethod === method ? 600 : 400,
-                          fontSize: '14px',
+                          fontSize: 'clamp(12px, 0.97vw, 14px)',
                           cursor: 'pointer',
                         }}
                       >
@@ -267,7 +313,7 @@ export default function ContactUs() {
                 </div>
 
                 {/* Row 3: Business Name + Location */}
-                <div className="flex gap-4">
+                <div className="flex" style={{ gap: 'clamp(10px, 1.11vw, 16px)' }}>
                   <div className="flex flex-col gap-1 flex-1">
                     <label style={labelStyle}>Business/Organization Name</label>
                     <input style={inputStyle} type="text" placeholder="Acme Inc." />
@@ -305,17 +351,22 @@ export default function ContactUs() {
                         color: '#6A36FF',
                         fontFamily: 'Montserrat, sans-serif',
                         fontWeight: 600,
-                        fontSize: '12px',
+                        fontSize: 'clamp(11px, 0.83vw, 12px)',
                         cursor: 'pointer',
                       }}
                     >
-                      ✦ Draft with AI
+                      <img
+                        src="/icons/draft-with-ai.png"
+                        alt=""
+                        style={{ width: '14px', height: '14px', objectFit: 'contain', flexShrink: 0 }}
+                      />
+                      Draft with AI
                     </button>
                   </div>
                   <textarea
                     style={{
                       ...inputStyle,
-                      height: '130px',
+                      height: 'clamp(100px, 9.03vw, 130px)',
                       resize: 'none',
                       paddingTop: '12px',
                     }}
@@ -327,14 +378,14 @@ export default function ContactUs() {
                 <button
                   style={{
                     width: '100%',
-                    padding: '16px',
+                    padding: 'clamp(12px, 1.11vw, 16px)',
                     borderRadius: '8px',
                     border: 'none',
                     background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)',
                     color: '#FFFFFF',
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 700,
-                    fontSize: '16px',
+                    fontSize: 'clamp(14px, 1.11vw, 16px)',
                     cursor: 'pointer',
                     marginTop: '4px',
                   }}
@@ -420,18 +471,18 @@ export default function ContactUs() {
 const labelStyle: React.CSSProperties = {
   fontFamily: 'Montserrat, sans-serif',
   fontWeight: 500,
-  fontSize: '13px',
+  fontSize: 'clamp(11px, 0.9vw, 13px)',
   color: '#333333',
 };
 
 const inputStyle: React.CSSProperties = {
   width: '100%',
-  padding: '10px 14px',
+  padding: 'clamp(8px, 0.69vw, 10px) clamp(10px, 0.97vw, 14px)',
   borderRadius: '6px',
   border: '1.5px solid #D0D0D0',
   fontFamily: 'Montserrat, sans-serif',
   fontWeight: 400,
-  fontSize: '14px',
+  fontSize: 'clamp(12px, 0.97vw, 14px)',
   color: '#333333',
   outline: 'none',
   backgroundColor: '#FFFFFF',

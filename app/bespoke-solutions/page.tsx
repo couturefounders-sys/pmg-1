@@ -46,7 +46,7 @@ export default function BespokeSolutions() {
               fontSize: '20px',
               lineHeight: '100%',
               letterSpacing: '0%',
-              color: '#6A36FF',
+              color: '#14358A',
               marginBottom: '20px',
             }}
           >
@@ -189,8 +189,8 @@ export default function BespokeSolutions() {
                   <Image
                     src={step.icon}
                     alt={step.step}
-                    width={32}
-                    height={32}
+                    width={24}
+                    height={24}
                     style={{ objectFit: 'contain' }}
                   />
                 </div>
@@ -235,10 +235,9 @@ export default function BespokeSolutions() {
           padding: '80px 24px',
         }}
       >
-        {/* Decorative background component image — covers entire section */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
+        {/* component-10.png — full-cover decorative overlay */}
         <img
-          src="/bespoke-component-10.png"
+          src="/component-10.png"
           alt=""
           aria-hidden="true"
           style={{
@@ -246,8 +245,7 @@ export default function BespokeSolutions() {
             inset: 0,
             width: '100%',
             height: '100%',
-            objectFit: 'cover',
-            objectPosition: 'center',
+            objectFit: 'fill',
             pointerEvents: 'none',
             userSelect: 'none',
             zIndex: 0,
@@ -301,27 +299,10 @@ export default function BespokeSolutions() {
                   <Image src="/bespoke-arrow.png" alt="arrow" width={28} height={20} style={{ objectFit: 'contain' }} />
                 </div>
                 <div>
-                  <h3
-                    style={{
-                      fontFamily: 'Poppins, sans-serif',
-                      fontWeight: 700,
-                      fontSize: '20px',
-                      color: '#FFFFFF',
-                      marginBottom: '8px',
-                    }}
-                  >
+                  <h3 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: '20px', color: '#FFFFFF', marginBottom: '8px' }}>
                     Deep-Dive Analysis
                   </h3>
-                  <p
-                    style={{
-                      fontFamily: 'Montserrat, sans-serif',
-                      fontWeight: 400,
-                      fontSize: '16px',
-                      lineHeight: '160%',
-                      color: '#FFFFFF',
-                      maxWidth: '520px',
-                    }}
-                  >
+                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '160%', color: '#FFFFFF', maxWidth: '520px' }}>
                     A PMG functional expert performs a thorough analysis to isolate the true root
                     causes of your challenge, moving beyond surface-level symptoms.
                   </p>
@@ -334,27 +315,10 @@ export default function BespokeSolutions() {
                   <Image src="/bespoke-arrow.png" alt="arrow" width={28} height={20} style={{ objectFit: 'contain' }} />
                 </div>
                 <div>
-                  <h3
-                    style={{
-                      fontFamily: 'Poppins, sans-serif',
-                      fontWeight: 700,
-                      fontSize: '20px',
-                      color: '#FFFFFF',
-                      marginBottom: '8px',
-                    }}
-                  >
+                  <h3 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: '20px', color: '#FFFFFF', marginBottom: '8px' }}>
                     Tailored Solution Architecture
                   </h3>
-                  <p
-                    style={{
-                      fontFamily: 'Montserrat, sans-serif',
-                      fontWeight: 400,
-                      fontSize: '16px',
-                      lineHeight: '160%',
-                      color: '#FFFFFF',
-                      maxWidth: '520px',
-                    }}
-                  >
+                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '160%', color: '#FFFFFF', maxWidth: '520px' }}>
                     We design a high-level solution blueprint, selecting the optimal tools and
                     methodologies for your specific context.
                   </p>
@@ -367,27 +331,10 @@ export default function BespokeSolutions() {
                   <Image src="/bespoke-arrow.png" alt="arrow" width={28} height={20} style={{ objectFit: 'contain' }} />
                 </div>
                 <div>
-                  <h3
-                    style={{
-                      fontFamily: 'Poppins, sans-serif',
-                      fontWeight: 700,
-                      fontSize: '20px',
-                      color: '#FFFFFF',
-                      marginBottom: '8px',
-                    }}
-                  >
+                  <h3 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: '20px', color: '#FFFFFF', marginBottom: '8px' }}>
                     Internal Peer Validation
                   </h3>
-                  <p
-                    style={{
-                      fontFamily: 'Montserrat, sans-serif',
-                      fontWeight: 400,
-                      fontSize: '16px',
-                      lineHeight: '160%',
-                      color: '#FFFFFF',
-                      maxWidth: '520px',
-                    }}
-                  >
+                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '160%', color: '#FFFFFF', maxWidth: '520px' }}>
                     Our internal, double-blind QA process stress-tests the proposed strategy,
                     ensuring it&apos;s robust, logical, and free from individual bias.
                   </p>
@@ -400,27 +347,10 @@ export default function BespokeSolutions() {
                   <Image src="/bespoke-arrow.png" alt="arrow" width={28} height={20} style={{ objectFit: 'contain' }} />
                 </div>
                 <div>
-                  <h3
-                    style={{
-                      fontFamily: 'Poppins, sans-serif',
-                      fontWeight: 700,
-                      fontSize: '20px',
-                      color: '#FFFFFF',
-                      marginBottom: '8px',
-                    }}
-                  >
+                  <h3 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: '20px', color: '#FFFFFF', marginBottom: '8px' }}>
                     Transparent Blueprint Delivery
                   </h3>
-                  <p
-                    style={{
-                      fontFamily: 'Montserrat, sans-serif',
-                      fontWeight: 400,
-                      fontSize: '16px',
-                      lineHeight: '160%',
-                      color: '#FFFFFF',
-                      maxWidth: '520px',
-                    }}
-                  >
+                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '160%', color: '#FFFFFF', maxWidth: '520px' }}>
                     We present the validated blueprint to you. The full engagement only moves forward
                     once you have confidence in the plan and its expected outcomes.
                   </p>
@@ -429,63 +359,37 @@ export default function BespokeSolutions() {
 
             </div>
 
-            {/* Right: Your Advantage box */}
+            {/* Right: Your Advantage box — component-12 background */}
             <div
               className="flex-shrink-0 relative"
               style={{
                 width: '514px',
-                height: '188px',
+                minHeight: '188px',
                 alignSelf: 'center',
-                flexShrink: 0,
+                borderRadius: '16px',
+                overflow: 'hidden',
               }}
             >
-              {/* Box background image */}
-              <Image
-                src="/bespoke-component-12.png"
-                alt="Your Advantage background"
-                fill
+              <img
+                src="/component-12.png"
+                alt=""
                 style={{
+                  position: 'absolute',
+                  inset: 0,
+                  width: '100%',
+                  height: '100%',
                   objectFit: 'cover',
-                  borderTopLeftRadius: '10px',
-                  borderTopRightRadius: '10px',
-                  borderBottomLeftRadius: '10px',
-                  borderBottomRightRadius: '10px',
-                  border: '1px solid rgba(255,255,255,0.4)',
+                  zIndex: 0,
                 }}
               />
-              {/* Box content overlay */}
               <div
                 className="absolute inset-0 flex flex-col items-center justify-center text-center"
-                style={{
-                  padding: '28px 32px',
-                  borderTopLeftRadius: '10px',
-                  borderTopRightRadius: '10px',
-                  borderWidth: '1px',
-                  borderStyle: 'solid',
-                  borderColor: 'rgba(255,255,255,0.3)',
-                  borderRadius: '10px',
-                }}
+                style={{ padding: '36px 32px', zIndex: 1 }}
               >
-                <h4
-                  style={{
-                    fontFamily: 'Poppins, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '22px',
-                    color: '#14358A',
-                    marginBottom: '12px',
-                  }}
-                >
+                <h4 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: '22px', color: '#14358A', marginBottom: '12px' }}>
                   Your Advantage:
                 </h4>
-                <p
-                  style={{
-                    fontFamily: 'Montserrat, sans-serif',
-                    fontWeight: 400,
-                    fontSize: '15px',
-                    lineHeight: '160%',
-                    color: '#333333',
-                  }}
-                >
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '15px', lineHeight: '160%', color: '#333333' }}>
                   Clarity before commitment. You invest in a pre-vetted execution plan, not just a
                   consultant&apos;s time.
                 </p>
@@ -495,7 +399,6 @@ export default function BespokeSolutions() {
           </div>
         </div>
       </section>
-
       {/* ─── Section 4: Our Bespoke Consulting Process ─── */}
       <section className="w-full bg-white pt-20 pb-0 overflow-hidden">
         {/* Header text */}
@@ -854,14 +757,12 @@ export default function BespokeSolutions() {
 
           {/* Row 1 — icon LEFT, text RIGHT */}
           <div className="flex flex-row items-center gap-12 mb-16">
-            {/* Icon circle */}
+            {/* Icon */}
             <div
               className="flex-shrink-0"
               style={{
-                width: '220px',
-                height: '220px',
-                borderRadius: '50%',
-                backgroundColor: '#EEF1F8',
+                width: '100px',
+                height: '100px',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -967,14 +868,12 @@ export default function BespokeSolutions() {
                 (Avolin), strategic divestitures.
               </p>
             </div>
-            {/* Icon circle */}
+            {/* Icon */}
             <div
               className="flex-shrink-0"
               style={{
-                width: '220px',
-                height: '220px',
-                borderRadius: '50%',
-                backgroundColor: '#EEF1F8',
+                width: '100px',
+                height: '100px',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -986,14 +885,12 @@ export default function BespokeSolutions() {
 
           {/* Row 3 — icon LEFT, text RIGHT */}
           <div className="flex flex-row items-center gap-12 mb-16">
-            {/* Icon circle */}
+            {/* Icon */}
             <div
               className="flex-shrink-0"
               style={{
-                width: '220px',
-                height: '220px',
-                borderRadius: '50%',
-                backgroundColor: '#EEF1F8',
+                width: '100px',
+                height: '100px',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -1099,14 +996,12 @@ export default function BespokeSolutions() {
                 legacy platforms.
               </p>
             </div>
-            {/* Icon circle */}
+            {/* Icon */}
             <div
               className="flex-shrink-0"
               style={{
-                width: '220px',
-                height: '220px',
-                borderRadius: '50%',
-                backgroundColor: '#EEF1F8',
+                width: '100px',
+                height: '100px',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',

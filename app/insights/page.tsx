@@ -55,7 +55,7 @@ export default function InsightsPage() {
         style={{ background: 'linear-gradient(135deg, #1B45B4 0%, #1C2792 100%)' }}
       >
         <img
-          src="/equity-ccc.png"
+          src="/bespoke-component-10.png"
           alt=""
           aria-hidden="true"
           style={{
@@ -65,7 +65,7 @@ export default function InsightsPage() {
             height: '100%',
             objectFit: 'cover',
             objectPosition: 'center',
-            opacity: 0.12,
+            opacity: 1,
             pointerEvents: 'none',
           }}
         />
@@ -105,248 +105,129 @@ export default function InsightsPage() {
           >
             <div
               style={{
-                background: '#FDF5F0',
+                position: 'relative',
+                overflow: 'hidden',
                 borderRadius: '16px',
-                padding: '36px 32px',
-                textAlign: 'center',
+                minHeight: '280px',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
               }}
             >
-              <h3
+              <img
+                src="/component-13.png"
+                alt=""
+                aria-hidden="true"
                 style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '20px',
-                  color: '#D0021B',
-                  marginBottom: '16px',
+                  position: 'absolute',
+                  inset: 0,
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  objectPosition: 'center',
+                  pointerEvents: 'none',
+                  zIndex: 0,
                 }}
-              >
-                The Old Playbook
-              </h3>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontWeight: 400,
-                  fontSize: '15px',
-                  lineHeight: '1.75',
-                  color: '#5F6D7E',
-                }}
-              >
-                Traditional consulting offers linear, industry-siloed
-                &ldquo;best practices&rdquo; that lead to incremental gains at
-                best and expensive, failed implementations at worst.
-                It is a model built for a world that no longer exists.
-              </p>
+              />
+              <div style={{ position: 'relative', zIndex: 1 }}>
+                <h3
+                  style={{
+                    fontFamily: 'Montserrat, sans-serif',
+                    fontWeight: 700,
+                    fontSize: '20px',
+                    color: '#D0021B',
+                    marginBottom: '16px',
+                  }}
+                >
+                  The Old Playbook
+                </h3>
+                <p
+                  style={{
+                    fontFamily: 'Montserrat, sans-serif',
+                    fontWeight: 400,
+                    fontSize: '15px',
+                    lineHeight: '1.75',
+                    color: '#5F6D7E',
+                  }}
+                >
+                  Traditional consulting offers linear, industry-siloed
+                  &ldquo;best practices&rdquo; that lead to incremental gains at
+                  best and expensive, failed implementations at worst.
+                  It is a model built for a world that no longer exists.
+                </p>
+              </div>
             </div>
             <div
               style={{
-                background: '#EBF4FF',
+                position: 'relative',
+                overflow: 'hidden',
                 borderRadius: '16px',
-                padding: '36px 32px',
-                textAlign: 'center',
+                minHeight: '280px',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
               }}
             >
-              <h3
+              <img
+                src="/component-12.png"
+                alt=""
+                aria-hidden="true"
                 style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '20px',
-                  color: '#14358A',
-                  marginBottom: '16px',
+                  position: 'absolute',
+                  inset: 0,
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  objectPosition: 'center',
+                  pointerEvents: 'none',
+                  zIndex: 0,
                 }}
-              >
-                The PMG Model
-              </h3>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontWeight: 400,
-                  fontSize: '15px',
-                  lineHeight: '1.75',
-                  color: '#5F6D7E',
-                }}
-              >
-                Sector Convergence is a strategic reset. We
-                architect non-obvious solutions by synthesizing
-                proven operational models from entirely different
-                sectors, creating a durable, first-mover advantage
-                that competitors cannot easily replicate.
-              </p>
+              />
+              <div style={{ position: 'relative', zIndex: 1, padding: '36px 32px', textAlign: 'center' }}>
+                <h3
+                  style={{
+                    fontFamily: 'Montserrat, sans-serif',
+                    fontWeight: 700,
+                    fontSize: '20px',
+                    color: '#14358A',
+                    marginBottom: '16px',
+                  }}
+                >
+                  The PMG Model
+                </h3>
+                <p
+                  style={{
+                    fontFamily: 'Montserrat, sans-serif',
+                    fontWeight: 400,
+                    fontSize: '15px',
+                    lineHeight: '1.75',
+                    color: '#5F6D7E',
+                  }}
+                >
+                  Sector Convergence is a strategic reset. We
+                  architect non-obvious solutions by synthesizing
+                  proven operational models from entirely different
+                  sectors, creating a durable, first-mover advantage
+                  that competitors cannot easily replicate.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* ─── Section 3: The Six-Step Strategic Framework ─── */}
-      <section className="w-full py-20 px-6 bg-white" style={{ position: 'relative', overflow: 'hidden' }}>
-        {/* ss.png decorative background */}
-        <img
-          src="/ss.png"
-          alt=""
-          aria-hidden="true"
-          style={{
-            position: 'absolute',
-            inset: 0,
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            objectPosition: 'center',
-            opacity: 0.06,
-            pointerEvents: 'none',
-          }}
-        />
-        <div className="max-w-[760px] mx-auto flex flex-col items-center text-center">
-          <h2
+      <section className="w-full bg-white py-20 px-6">
+        <div className="max-w-[860px] mx-auto flex justify-center">
+          <img
+            src="/ss.png"
+            alt="The Six-Step Strategic Framework"
             style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontWeight: 700,
-              fontSize: '36px',
-              lineHeight: '1.2',
-              color: '#14358A',
-              marginBottom: '16px',
+              width: '100%',
+              height: 'auto',
+              display: 'block',
             }}
-          >
-            The Six-Step Strategic Framework
-          </h2>
-          <p
-            style={{
-              fontFamily: 'Montserrat, sans-serif',
-              fontWeight: 400,
-              fontSize: '16px',
-              lineHeight: '1.75',
-              color: '#3A3A3A',
-              maxWidth: '580px',
-              marginBottom: '56px',
-            }}
-          >
-            An application-first framework built for rapid impact and sustained
-            optimization. Strategic velocity matters more than initial precision.
-          </p>
-
-          {/* Timeline */}
-          <div style={{ position: 'relative', width: '100%' }}>
-            {/* Central vertical line */}
-            <div
-              style={{
-                position: 'absolute',
-                left: '50%',
-                top: 0,
-                bottom: 0,
-                width: '2px',
-                background: '#14358A',
-                transform: 'translateX(-50%)',
-              }}
-            />
-
-            {[
-              {
-                side: 'left',
-                title: 'Isolate Strategic Outcome',
-                desc: 'Articulate one clear, measurable strategic outcome. This is your North Star.',
-              },
-              {
-                side: 'right',
-                title: 'Determine Most Important Problems (MIPs)',
-                desc: 'Pinpoint the critical barriers preventing your objective using root-cause analysis.',
-              },
-              {
-                side: 'left',
-                title: 'Map Divergent Sectors',
-                desc: 'Identify sectors with contrasting strategic DNA to draw novel insights from.',
-              },
-              {
-                side: 'right',
-                title: 'Source Cross-Sector Solutions',
-                desc: 'Leverage your defined MIP to ask precise, actionable questions of sector experts.',
-              },
-              {
-                side: 'left',
-                title: 'Integration & Execution',
-                desc: 'Execute a decisive transition, replacing legacy systems with the new, integrated solution.',
-              },
-              {
-                side: 'right',
-                title: 'Validation & Continuous Iteration',
-                desc: 'Continuously monitor outcomes, using real-time data to refine and optimize.',
-              },
-            ].map((step, i) => (
-              <div
-                key={i}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: step.side === 'left' ? 'flex-start' : 'flex-end',
-                  position: 'relative',
-                  marginBottom: '32px',
-                  width: '100%',
-                }}
-              >
-                {/* Card */}
-                <div
-                  style={{
-                    width: '42%',
-                    border: '2px solid #14358A',
-                    borderRadius: '10px',
-                    padding: '20px 22px',
-                    textAlign: step.side === 'left' ? 'center' : 'left',
-                    background: '#FFFFFF',
-                    position: 'relative',
-                  }}
-                >
-                  <h3
-                    style={{
-                      fontFamily: 'Montserrat, sans-serif',
-                      fontWeight: 700,
-                      fontSize: '15px',
-                      color: '#14358A',
-                      marginBottom: '8px',
-                    }}
-                  >
-                    {step.title}
-                  </h3>
-                  <p
-                    style={{
-                      fontFamily: 'Montserrat, sans-serif',
-                      fontWeight: 400,
-                      fontSize: '13px',
-                      lineHeight: '1.6',
-                      color: '#5F6D7E',
-                    }}
-                  >
-                    {step.desc}
-                  </p>
-                </div>
-
-                {/* Dot on the center line */}
-                <div
-                  style={{
-                    position: 'absolute',
-                    left: '50%',
-                    transform: 'translateX(-50%)',
-                    width: '16px',
-                    height: '16px',
-                    borderRadius: '50%',
-                    background: '#14358A',
-                    border: '3px solid #FFFFFF',
-                    boxShadow: '0 0 0 2px #14358A',
-                    zIndex: 1,
-                  }}
-                />
-
-                {/* Dashed connector */}
-                <div
-                  style={{
-                    position: 'absolute',
-                    top: '50%',
-                    [step.side === 'left' ? 'left' : 'right']: '42%',
-                    width: 'calc(8% + 2px)',
-                    height: '2px',
-                    borderTop: '2px dashed #14358A',
-                    transform: 'translateY(-50%)',
-                  }}
-                />
-              </div>
-            ))}
-          </div>
+          />
         </div>
       </section>
 
@@ -388,7 +269,7 @@ export default function InsightsPage() {
               <div key={i} style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
                 <img src="/vector.png" alt="" aria-hidden="true" style={{ width: '18px', height: '18px', objectFit: 'contain', marginTop: '2px', flexShrink: 0 }} />
                 <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.75', color: '#3A3A3A' }}>
-                  <strong style={{ color: '#14358A' }}>{item.label}</strong>{' '}
+                  <strong style={{ color: '#000000' }}>{item.label}</strong>{' '}
                   {item.text}
                 </p>
               </div>
@@ -406,18 +287,18 @@ export default function InsightsPage() {
       </section>
 
       {/* ─── Section 5: From Theory to ROI ─── */}
-      <section className="w-full py-20 px-6" style={{ background: '#F7F9FF' }}>
+      <section className="w-full py-20 px-6" style={{ background: '#FFFFFF' }}>
         <div className="max-w-[700px] mx-auto flex flex-col items-center text-center">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '36px', color: '#14358A', marginBottom: '20px' }}>
             From Theory to ROI
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.8', color: '#3A3A3A', marginBottom: '24px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '32px', lineHeight: '100%', letterSpacing: '0%', textAlign: 'center', color: '#3A3A3A', marginBottom: '24px' }}>
             This model emerged from high-stakes engagements where traditional, linear consulting methods proved fundamentally inadequate to solve multi-faceted challenges. Such challenges include simultaneously unifying customer experience, reducing operational overhead, and enhancing quality across complex, disparate business lines.
           </p>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.8', color: '#3A3A3A', marginBottom: '32px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '32px', lineHeight: '100%', letterSpacing: '0%', textAlign: 'center', color: '#3A3A3A', marginBottom: '32px' }}>
             The Sector Convergence Model was created by reframing the challenge to ignore industry boundaries. Instead, we abstracted and synthesized proven operational excellence models: successful customer experience systems from regulated industries, advanced automation strategies from high-volume telecom, and robust training systems from specialized professional services.
           </p>
-          <a href="#" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '15px', color: '#14358A', textDecoration: 'none' }}>
+          <a href="#" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 600, fontSize: '30px', lineHeight: '30px', letterSpacing: '0px', verticalAlign: 'middle', color: '#14358A', textDecoration: 'none' }}>
             Read Full White Paper &rsaquo;
           </a>
         </div>
@@ -434,42 +315,41 @@ export default function InsightsPage() {
           </p>
 
           {/* Formula diagram */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '16px', width: '100%', flexWrap: 'wrap', justifyContent: 'center' }}>
+          <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+            <div style={{ position: 'relative', width: '100%', maxWidth: '900px' }}>
+              <img src="/bbbbox.png" alt="Real World Impact Formula" style={{ width: '100%', height: 'auto', display: 'block' }} />
 
-            {/* Struggling Businesses pill */}
-            <div style={{ background: '#14358A', borderRadius: '8px', padding: '14px 18px', display: 'flex', alignItems: 'center', gap: '12px' }}>
-              <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '13px', color: '#FFFFFF', whiteSpace: 'nowrap' }}>Struggling Businesses</span>
-            </div>
-
-            <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '28px', color: '#14358A' }}>+</span>
-
-            {/* Center column: 3 stacked boxes */}
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px' }}>
-              {[
-                'Customer Lifecycle Management from D2C Services',
-                'Training Systems from Defence Forces',
-                'Failsafe Engineering from Space Exploration',
-              ].map((label, i) => (
-                <div key={i} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px' }}>
-                  <div style={{ border: '1.5px solid #14358A', borderRadius: '8px', padding: '12px 18px', background: '#FFFFFF', minWidth: '220px', textAlign: 'center' }}>
-                    <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '12px', color: '#14358A' }}>{label}</span>
-                  </div>
-                  {i < 2 && <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', color: '#14358A' }}>+</span>}
-                </div>
-              ))}
-              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', color: '#14358A' }}>+</span>
-              <div style={{ border: '1.5px solid #14358A', borderRadius: '8px', padding: '12px 18px', background: '#FFFFFF', minWidth: '220px', textAlign: 'center' }}>
-                <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '12px', color: '#14358A' }}>PMG Consulting Expertise</span>
+              {/* Left: Struggling Businesses — box x:0-30%, y:33-56% */}
+              <div style={{ position: 'absolute', top: '33%', left: '0%', width: '30%', height: '23%', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '0 8px' }}>
+                <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(10px, 1.5vw, 16px)', color: '#FFFFFF', lineHeight: 1.3 }}>Struggling Businesses</span>
               </div>
+
+              {/* Center top box — x:39-69%, y:0-23% */}
+              <div style={{ position: 'absolute', top: '0%', left: '39%', width: '30%', height: '23%', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '0 10px' }}>
+                <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 1.1vw, 12px)', color: '#14358A', lineHeight: 1.35 }}>Customer Lifecycle Management from D2C Services</span>
+              </div>
+
+              {/* Center middle box — x:39-69%, y:35-57% */}
+              <div style={{ position: 'absolute', top: '35%', left: '39%', width: '30%', height: '22%', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '0 10px' }}>
+                <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 1.1vw, 12px)', color: '#14358A', lineHeight: 1.35 }}>Training Systems from Defence Forces</span>
+              </div>
+
+              {/* Center bottom box — x:39-69%, y:68-90% */}
+              <div style={{ position: 'absolute', top: '68%', left: '39%', width: '30%', height: '22%', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '0 10px' }}>
+                <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 1.1vw, 12px)', color: '#14358A', lineHeight: 1.35 }}>Failsafe Engineering from Space Exploration</span>
+              </div>
+
+              {/* PMG Consulting Expertise — below bottom box */}
+              <div style={{ position: 'absolute', top: '92%', left: '39%', width: '30%', textAlign: 'center' }}>
+                <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(7px, 1vw, 11px)', color: '#14358A' }}>PMG Consulting Expertise</span>
+              </div>
+
+              {/* Right: An industry-defining business — x:78-100%, y:33-57% */}
+              <div style={{ position: 'absolute', top: '33%', left: '78%', width: '22%', height: '24%', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '0 8px' }}>
+                <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 1.1vw, 12px)', color: '#FFFFFF', lineHeight: 1.35 }}>An industry-defining business.</span>
+              </div>
+
             </div>
-
-            <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '28px', color: '#14358A' }}>=</span>
-
-            {/* Result pill */}
-            <div style={{ background: '#14358A', borderRadius: '8px', padding: '14px 18px', textAlign: 'center' }}>
-              <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '13px', color: '#FFFFFF' }}>An industry-<br />defining<br />business.</span>
-            </div>
-
           </div>
         </div>
       </section>
@@ -498,9 +378,9 @@ export default function InsightsPage() {
                 text: 'A comprehensive partnership where we lead the end-to-end design, implementation, and optimisation of a Sector Convergence strategy to solve a core business challenge.',
               },
             ].map((card, i) => (
-              <div key={i} style={{ border: '1.5px solid #C8D5F0', borderRadius: '12px', padding: '28px 24px', background: '#FFFFFF', display: 'flex', flexDirection: 'column', gap: '14px' }}>
+              <div key={i} style={{ border: '3px solid #14358A', borderRadius: '12px', padding: '28px 24px', background: '#FFFFFF', display: 'flex', flexDirection: 'column', gap: '14px' }}>
                 <div style={{ width: '44px', height: '44px', background: '#14358A', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <div style={{ width: '22px', height: '22px', background: 'rgba(255,255,255,0.4)', borderRadius: '4px' }} />
+                  <div style={{ width: '22px', height: '22px', background: '#14358A', borderRadius: '4px' }} />
                 </div>
                 <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '17px', color: '#14358A', lineHeight: '1.3' }}>{card.title}</h3>
                 <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', lineHeight: '1.75', color: '#5F6D7E' }}>{card.text}</p>
@@ -545,12 +425,13 @@ export default function InsightsPage() {
                         margin: isLast ? '0 auto' : undefined,
                       }}
                     >
-                      {/* Left navy icon block */}
-                      <div style={{ width: '88px', flexShrink: 0, background: '#14358A', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                        <img src="/concept-icon.png" alt="" aria-hidden="true" style={{ width: '56px', height: '56px', objectFit: 'contain' }} />
+                      {/* Left block: hands.png as background with icon on top */}
+                      <div style={{ width: '110px', flexShrink: 0, position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '20px 0' }}>
+                        <img src="/hands.png" alt="" aria-hidden="true" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'fill' }} />
+                        <img src="/concept-icon.png" alt="" aria-hidden="true" style={{ position: 'relative', zIndex: 1, width: '52px', height: '52px', objectFit: 'contain' }} />
                       </div>
-                      {/* Right text */}
-                      <div style={{ padding: '20px 22px', display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '6px' }}>
+                      {/* Right text — white background */}
+                      <div style={{ padding: '20px 22px', display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '6px', flex: 1, background: '#FFFFFF' }}>
                         <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '15px', color: '#14358A', margin: 0 }}>{c.title}</h3>
                         <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '12.5px', lineHeight: '1.7', color: '#5F6D7E', margin: 0 }}>{c.text}</p>
                       </div>
@@ -564,7 +445,7 @@ export default function InsightsPage() {
       </section>
 
       {/* ─── Section 9: Shape the Next Market Standard ─── */}
-      <section className="w-full py-24 px-6 bg-white">
+      <section className="w-full py-24 px-6" style={{ background: '#EBF7FF' }}>
         <div className="max-w-[680px] mx-auto flex flex-col items-center text-center">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '38px', color: '#14358A', marginBottom: '20px' }}>
             Shape the Next Market Standard

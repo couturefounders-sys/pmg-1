@@ -53,9 +53,11 @@ export default function SolutionAssessmentTool() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
-                lineHeight: '1.75',
-                color: '#3A3A3A',
+                fontSize: '30px',
+                lineHeight: '140%',
+                letterSpacing: '0%',
+                color: '#333333',
+                textAlign: 'center',
                 maxWidth: '600px',
               }}
             >
@@ -66,14 +68,17 @@ export default function SolutionAssessmentTool() {
           {/* Form Card */}
           <div
             style={{
-              border: '1.5px solid #D0D9F0',
+              borderTop: '1.6px solid #E5E7EB',
+              borderRight: '1.5px solid #D0D9F0',
+              borderBottom: '1.5px solid #D0D9F0',
+              borderLeft: '1.5px solid #D0D9F0',
               borderRadius: '16px',
               padding: '40px 36px',
               background: '#FFFFFF',
             }}
           >
             {/* Q1: Business Area */}
-            <div style={{ marginBottom: '32px' }}>
+            <div style={{ marginBottom: '32px', borderTop: '1.6px solid #E5E7EB', paddingTop: '32px' }}>
               <label
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
@@ -141,7 +146,7 @@ export default function SolutionAssessmentTool() {
             </div>
 
             {/* Q3 + Q4: Two columns */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '32px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '32px', borderTop: '0.8px solid #D1D5DC', paddingTop: '32px' }}>
               <div>
                 <label
                   style={{
@@ -162,7 +167,7 @@ export default function SolutionAssessmentTool() {
                   placeholder=""
                   style={{
                     width: '100%',
-                    border: '1.5px solid #D0D9F0',
+                    border: '0.8px solid #D1D5DC',
                     borderRadius: '8px',
                     padding: '10px 12px',
                     fontFamily: 'Montserrat, sans-serif',
@@ -193,7 +198,7 @@ export default function SolutionAssessmentTool() {
                   placeholder=""
                   style={{
                     width: '100%',
-                    border: '1.5px solid #D0D9F0',
+                    border: '0.8px solid #D1D5DC',
                     borderRadius: '8px',
                     padding: '10px 12px',
                     fontFamily: 'Montserrat, sans-serif',
@@ -207,7 +212,7 @@ export default function SolutionAssessmentTool() {
             </div>
 
             {/* Q5: Company Size */}
-            <div style={{ marginBottom: '24px' }}>
+            <div style={{ marginBottom: '24px', borderTop: '0.8px solid #D1D5DC', paddingTop: '32px' }}>
               <label
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
@@ -227,7 +232,7 @@ export default function SolutionAssessmentTool() {
                 placeholder=""
                 style={{
                   width: '100%',
-                  border: '1.5px solid #D0D9F0',
+                  border: '0.8px solid #D1D5DC',
                   borderRadius: '8px',
                   padding: '10px 12px',
                   fontFamily: 'Montserrat, sans-serif',

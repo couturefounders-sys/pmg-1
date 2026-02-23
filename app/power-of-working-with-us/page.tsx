@@ -38,7 +38,7 @@ export default function PowerOfWorkingWithUs() {
       </section>
 
       {/* ─── Section 2: The Unseen Discipline Behind Quiet Results ─── */}
-      <section className="w-full py-16 px-6 bg-gray-50">
+      <section className="w-full py-16 px-6 bg-white">
         <div className="max-w-[760px] mx-auto flex flex-col items-center text-center">
           <h2
             style={{
@@ -128,7 +128,7 @@ export default function PowerOfWorkingWithUs() {
       </section>
 
       {/* ─── Section 4: Global Network and Strategic Engagements ─── */}
-      <section className="w-full py-16 px-6 bg-gray-50">
+      <section className="w-full py-16 px-6 bg-white">
         <div className="max-w-[760px] mx-auto flex flex-col items-center text-center">
           <h2
             style={{
