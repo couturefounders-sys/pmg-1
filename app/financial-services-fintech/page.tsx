@@ -740,44 +740,14 @@ export default function FinancialServicesFinTech() {
       </div>
 
       {/* The Functional Consulting Advantage Section */}
-      <div className="relative bg-white py-32 px-6 overflow-hidden">
-        <div className="relative max-w-[1440px] mx-auto" style={{ minHeight: '700px' }}>
-
-          {/* Decorative Top Left Shape */}
-          <div
-            className="absolute pointer-events-none"
-            style={{
-              top: '-50px',
-              left: '-100px',
-              width: '350px',
-              height: '200px',
-              background: 'linear-gradient(135deg, #3B82F6 0%, #60A5FA 100%)',
-              clipPath: 'polygon(0 0, 100% 0, 60% 100%, 0 80%)',
-              opacity: 0.8
-            }}
-          />
-
-          {/* Decorative Bottom Right Shape */}
-          <div
-            className="absolute pointer-events-none"
-            style={{
-              bottom: '-50px',
-              right: '-100px',
-              width: '350px',
-              height: '200px',
-              background: 'linear-gradient(135deg, #3B82F6 0%, #60A5FA 100%)',
-              clipPath: 'polygon(40% 0, 100% 20%, 100% 100%, 0 100%)',
-              opacity: 0.8
-            }}
-          />
+      <div className="relative bg-white py-32 px-6">
+        <div className="max-w-[1440px] mx-auto">
 
           {/* Section Title */}
           <h2
-            className="absolute font-dm-sans font-bold text-center"
+            className="font-dm-sans font-bold text-center mx-auto mb-16"
             style={{
-              top: '80px',
-              left: '328px',
-              width: '785px',
+              maxWidth: '785px',
               fontSize: '48px',
               lineHeight: '105%',
               letterSpacing: '-3%',
@@ -789,11 +759,9 @@ export default function FinancialServicesFinTech() {
 
           {/* Section Content */}
           <div
-            className="absolute font-dm-sans font-normal text-center"
+            className="font-dm-sans font-normal text-center mx-auto"
             style={{
-              top: '173px',
-              left: '207px',
-              width: '1082px',
+              maxWidth: '1082px',
               fontSize: '30px',
               lineHeight: '140%',
               letterSpacing: '0%',
