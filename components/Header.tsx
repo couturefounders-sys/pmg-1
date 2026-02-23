@@ -31,7 +31,8 @@ export default function Header() {
   const isPowerOfWorkingWithUsPage = pathname === '/power-of-working-with-us';
   const isContactUsPage = pathname === '/contact-us';
   const isSolutionAssessmentPage = pathname === '/solution-assessment-tool';
-  const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage || isBespokeSolutionsPage || isInsightsPage || isInsightsInnovationsPage || isSaaSPage || isPublicSectorPage || isHigherEducationPage || isFoodAgribusinessPage || isTravelHospitalityPage || isWhyFunctionalConsultingPage || isStrategyOperationsPage || isPeopleOrganizationsPage || isCustomerExperiencePage || isMergersAcquisitionsPage || isActiveManagementPage || isEquitySolutionsPage || isOutOfTheBoxPage || isPowerOfWorkingWithUsPage || isContactUsPage || isSolutionAssessmentPage;
+  const isFinancialServicesPage = pathname === '/financial-services-fintech';
+  const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage || isBespokeSolutionsPage || isInsightsPage || isInsightsInnovationsPage || isSaaSPage || isPublicSectorPage || isHigherEducationPage || isFoodAgribusinessPage || isTravelHospitalityPage || isWhyFunctionalConsultingPage || isStrategyOperationsPage || isPeopleOrganizationsPage || isCustomerExperiencePage || isMergersAcquisitionsPage || isActiveManagementPage || isEquitySolutionsPage || isOutOfTheBoxPage || isPowerOfWorkingWithUsPage || isContactUsPage || isSolutionAssessmentPage || isFinancialServicesPage;
 
   const textColor = isLightPage ? 'text-black' : 'text-white';
   const logoTextColor = isLightPage ? 'text-[#000000]' : 'text-white'; // purely black for logo text on light pages
@@ -47,7 +48,7 @@ export default function Header() {
   ];
 
   const industryItems = [
-    { title: 'Financial Services & FinTech', desc: 'Navigating compliance, risk, and transformation.', href: '/your-industry' },
+    { title: 'Financial Services & FinTech', desc: 'Navigating compliance, risk, and transformation.', href: '/financial-services-fintech' },
     { title: 'SaaS & Enterprise Technology', desc: 'Accelerating growth and innovation.', href: '/saas-enterprise-technology' },
     { title: 'PE, VC, and Capital Management', desc: 'Maximizing portfolio value for investors.', href: '/your-industry' },
     { title: 'Public Sector & Government Services', desc: 'Enhancing public sector efficiency.', href: '/public-sector-government' },
@@ -124,8 +125,9 @@ export default function Header() {
                 onMouseLeave={() => setOpenDropdown(null)}
               >
                 {item.hasDropdown ? (
-                  <button 
-                    className={`nav-text flex items-center gap-1 ${textColor} hover:opacity-80 transition-opacity whitespace-nowrap`}
+                  <Link
+                    href={item.href}
+                    className={`nav-text flex items-center gap-1 hover:opacity-80 transition-opacity whitespace-nowrap ${isActive ? 'bg-[#cbdbf6] text-black px-4 py-1 rounded-[20px]' : textColor}`}
                   >
                     {item.name}
                     <svg
@@ -143,7 +145,7 @@ export default function Header() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                  </button>
+                  </Link>
                 ) : (
                   <Link
                     href={item.href}
@@ -155,10 +157,15 @@ export default function Header() {
 
                 {/* Dropdown Menu */}
                 {item.hasDropdown && isOpen && (
-                  <div 
-                    className="absolute top-full left-0 pt-4 w-[380px] z-[200]"
-                  >
-                    <div className="bg-white rounded-lg shadow-xl border border-gray-100 overflow-hidden py-2">
+                  <>
+                    {/* Invisible bridge for smooth hover */}
+                    <div className="absolute top-full left-0 w-[380px] h-[16px] z-[250]" />
+
+                    <div
+                      className="absolute top-full left-0 w-[380px] z-[250]"
+                      style={{ marginTop: '16px' }}
+                    >
+                      <div className="bg-white rounded-lg shadow-xl border border-gray-100 overflow-hidden py-2">
                        {item.name === 'Your Industry' && (
                         <div className="flex flex-col">
                           {industryItems.map((subItem, idx) => (
@@ -231,8 +238,9 @@ export default function Header() {
                           ))}
                         </div>
                        )}
+                      </div>
                     </div>
-                  </div>
+                  </>
                 )}
               </div>
             );
