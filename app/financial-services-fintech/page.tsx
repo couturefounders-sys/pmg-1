@@ -93,21 +93,19 @@ export default function FinancialServicesFinTech() {
 
           {/* Section Description */}
           <div
-            className="font-montserrat font-normal text-center mx-auto"
+            className="font-montserrat font-normal mx-auto"
             style={{
-              width: '1342px',
+              maxWidth: '1092px',
               fontSize: '32px',
-              lineHeight: '100%',
+              lineHeight: '150%',
               color: '#333333',
-              letterSpacing: '0%'
+              letterSpacing: '0%',
+              textAlign: 'center'
             }}
           >
-            <p style={{ marginBottom: '32px' }}>
-              PMG partners with banks, asset managers, insurers, & fintechs to deliver a balance of strategic insight & operational expertise. We enable organizations to strengthen performance, manage risk, & deliver sustainable value in an environment of constant disruption.
-            </p>
-            <p>
-              Our financial services work is complemented by PMG&apos;s cross-sector expertise in technology & organizational transformation, equipping leaders to address challenges across governance, digital adoption, & market positioning.
-            </p>
+            PMG partners with banks, asset managers, insurers, & fintechs to deliver a balance of strategic insight & operational expertise. We enable organizations to strengthen performance, manage risk, & deliver sustainable value in an environment of constant disruption.
+            <br /><br />
+            Our financial services work is complemented by PMG&apos;s cross-sector expertise in technology & organizational transformation, equipping leaders to address challenges across governance, digital adoption, & market positioning.
           </div>
 
         </div>
