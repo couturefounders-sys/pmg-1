@@ -740,8 +740,36 @@ export default function FinancialServicesFinTech() {
       </div>
 
       {/* The Functional Consulting Advantage Section */}
-      <div className="relative bg-white py-32 px-6">
+      <div className="relative bg-white py-32 px-6 overflow-hidden">
         <div className="relative max-w-[1440px] mx-auto" style={{ minHeight: '700px' }}>
+
+          {/* Decorative Top Left Shape */}
+          <div
+            className="absolute pointer-events-none"
+            style={{
+              top: '-50px',
+              left: '-100px',
+              width: '350px',
+              height: '200px',
+              background: 'linear-gradient(135deg, #3B82F6 0%, #60A5FA 100%)',
+              clipPath: 'polygon(0 0, 100% 0, 60% 100%, 0 80%)',
+              opacity: 0.8
+            }}
+          />
+
+          {/* Decorative Bottom Right Shape */}
+          <div
+            className="absolute pointer-events-none"
+            style={{
+              bottom: '-50px',
+              right: '-100px',
+              width: '350px',
+              height: '200px',
+              background: 'linear-gradient(135deg, #3B82F6 0%, #60A5FA 100%)',
+              clipPath: 'polygon(40% 0, 100% 20%, 100% 100%, 0 100%)',
+              opacity: 0.8
+            }}
+          />
 
           {/* Section Title */}
           <h2
