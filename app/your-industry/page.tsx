@@ -1,6 +1,7 @@
 'use client';
 
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export default function YourIndustry() {
   const workCards = [
@@ -713,83 +714,7 @@ export default function YourIndustry() {
         </button>
       </div>
 
-      {/* Footer */}
-      <footer
-        className="text-white pt-16 pb-12 px-6 relative z-20"
-        style={{
-          background: 'linear-gradient(83.95deg, #1B45B4 3%, #1C2792 96.84%)'
-        }}
-      >
-        <div className="max-w-[1200px] mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-8">
-            {/* Logo */}
-            <div className="md:col-span-1">
-              <div className="mb-6">
-                <img
-                  src="/pmg-logo-footer.png"
-                  alt="PMG Logo"
-                  className="object-contain"
-                  style={{ width: '100px', height: 'auto' }}
-                />
-              </div>
-            </div>
-
-            {/* What we Do */}
-            <div>
-              <h4 className="font-dm-sans font-bold text-xl mb-4">What we Do</h4>
-              <ul className="space-y-2 font-dm-sans text-white/80">
-                <li><a href="#" className="hover:text-white">Our Services</a></li>
-                <li><a href="#" className="hover:text-white">Our Solutions</a></li>
-                <li><a href="#" className="hover:text-white">Rebuilding from within</a></li>
-                <li><a href="#" className="hover:text-white">Why Consulting?</a></li>
-              </ul>
-            </div>
-
-            {/* Our Content & Working with PMG */}
-            <div className="flex flex-col gap-6">
-              <div>
-                <h4 className="font-dm-sans font-bold text-xl mb-4">Our Content</h4>
-                <ul className="space-y-2 font-dm-sans text-white/80">
-                  <li><a href="#" className="hover:text-white">FAQs</a></li>
-                  <li><a href="#" className="hover:text-white">Insights & Innovations</a></li>
-                  <li><a href="#" className="hover:text-white">Community Programs</a></li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-dm-sans font-bold text-xl mb-4">Working with PMG</h4>
-                <ul className="space-y-2 font-dm-sans text-white/80">
-                  <li><a href="#" className="hover:text-white">Careers</a></li>
-                  <li><a href="#" className="hover:text-white">Licensing</a></li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Our Models */}
-            <div>
-              <h4 className="font-dm-sans font-bold text-xl mb-4">Our Models</h4>
-              <ul className="space-y-2 font-dm-sans text-white/80">
-                <li><a href="#" className="hover:text-white">Sector Convergence Model</a></li>
-                <li><a href="#" className="hover:text-white">I-O Enterprise Architecture</a></li>
-                <li><a href="#" className="hover:text-white">Bussiness Value-Unit Model</a></li>
-              </ul>
-            </div>
-
-            {/* Legal */}
-            <div>
-              <h4 className="font-dm-sans font-bold text-xl mb-4">Legal</h4>
-              <ul className="space-y-2 font-dm-sans text-white/80 text-sm">
-                <li><a href="#" className="hover:text-white">Privacy & Cookie Policy</a></li>
-                <li><a href="#" className="hover:text-white">Hiring & Equal Opportunity</a></li>
-                <li><a href="#" className="hover:text-white">AI & Data Ethics Statement</a></li>
-                <li><a href="#" className="hover:text-white">Anti-Modern Slavery Policy</a></li>
-                <li><a href="#" className="hover:text-white">Intellectual Property</a></li>
-                <li><a href="#" className="hover:text-white">Regionalization Policy</a></li>
-                <li><a href="#" className="hover:text-white">Digital Terms of Use</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </main >
   );
 }

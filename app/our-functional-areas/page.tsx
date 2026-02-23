@@ -106,11 +106,11 @@ export default function OurFunctionalAreas() {
               minHeight: '237px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/operations-strategy.png"
+                src="/functional-operations-strategy.png"
                 alt="Operations & Strategy"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -163,13 +163,12 @@ export default function OurFunctionalAreas() {
               minHeight: '237px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <circle cx="9" cy="7" r="4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
+            <div className="mb-6">
+              <img
+                src="/functional-people-organizations.png"
+                alt="People & Organizations"
+                style={{ width: '64px', height: '64px' }}
+              />
             </div>
             <h3
               className="mb-2"
@@ -224,11 +223,11 @@ export default function OurFunctionalAreas() {
               minHeight: '237px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/customer-experience.png"
+                src="/functional-customer-experience.png"
                 alt="Customer Experience"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -281,11 +280,11 @@ export default function OurFunctionalAreas() {
               minHeight: '237px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/mergers-acquisitions.png"
+                src="/functional-mergers-acquisitions.png"
                 alt="Mergers & Acquisitions"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -338,11 +337,11 @@ export default function OurFunctionalAreas() {
               minHeight: '237px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/branding-marketing.png"
+                src="/functional-branding-marketing.png"
                 alt="Branding & Marketing"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -398,11 +397,11 @@ export default function OurFunctionalAreas() {
               minHeight: '237px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/bpo-talent.png"
+                src="/functional-bpo-talent.png"
                 alt="BPO & Fractional Talent"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -455,11 +454,12 @@ export default function OurFunctionalAreas() {
               minHeight: '237px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2"/>
-                <path d="M12 8v4l3 3" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
+            <div className="mb-6">
+              <img
+                src="/functional-crisis-management.png"
+                alt="Crisis & Transition Management"
+                style={{ width: '64px', height: '64px' }}
+              />
             </div>
             <h3
               className="mb-2"
@@ -551,11 +551,11 @@ export default function OurFunctionalAreas() {
               minHeight: '335px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/out-of-the-box.png"
+                src="/solution-out-of-box.png"
                 alt="Out-of-the-Box Solutions"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -620,10 +620,12 @@ export default function OurFunctionalAreas() {
               minHeight: '335px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
+            <div className="mb-6">
+              <img
+                src="/solution-bespoke.png"
+                alt="Bespoke Solutions"
+                style={{ width: '64px', height: '64px' }}
+              />
             </div>
             <h3
               className="mb-2"
@@ -687,11 +689,11 @@ export default function OurFunctionalAreas() {
               minHeight: '335px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/active-management.png"
+                src="/solution-active-management.png"
                 alt="Active Management Solutions"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -756,11 +758,11 @@ export default function OurFunctionalAreas() {
               minHeight: '335px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/equity-engagements.png"
+                src="/solution-equity.png"
                 alt="Equity Engagements"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3

@@ -87,11 +87,11 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/capital-excellence.png"
+                src="/help-capital-excellence.png"
                 alt="Capital Excellence"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -128,11 +128,11 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/cost-management.png"
+                src="/help-cost-management.png"
                 alt="Cost Management"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -169,11 +169,11 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/enterprise-architecture.png"
+                src="/help-enterprise-architecture.png"
                 alt="Enterprise Architecture"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -210,11 +210,11 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/facility-resource.png"
+                src="/help-facility-resource.png"
                 alt="Facility & Resource Management"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -251,11 +251,11 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/lean-sigma.png"
+                src="/help-lean-sigma.png"
                 alt="Lean, Six Sigma, Agile"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -292,11 +292,11 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/multi-unit-strategy.png"
+                src="/help-multi-unit-strategy.png"
                 alt="Multi-unit Strategy"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -333,11 +333,11 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/operations-scalability.png"
+                src="/help-operations-scalability.png"
                 alt="Operations Scalability"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -374,11 +374,11 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/performance-metrics.png"
+                src="/help-performance-metrics.png"
                 alt="Performance Metrics"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -415,11 +415,11 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/risk-crisis.png"
+                src="/help-risk-crisis.png"
                 alt="Risk & Crisis Management"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -456,11 +456,11 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/supply-chain.png"
+                src="/help-supply-chain.png"
                 alt="Supply Chain & Procurement"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -497,11 +497,11 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+            <div className="mb-6">
               <img
-                src="/icons/technology-integration.png"
+                src="/help-technology-integration.png"
                 alt="Technology Integration"
-                style={{ width: '24px', height: '24px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }}
+                style={{ width: '64px', height: '64px' }}
               />
             </div>
             <h3
@@ -538,12 +538,12 @@ export default function StrategyOperationsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M2 17L12 22L22 17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M2 12L12 17L22 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
+            <div className="mb-6">
+              <img
+                src="/help-product-development.png"
+                alt="Product Development"
+                style={{ width: '64px', height: '64px' }}
+              />
             </div>
             <h3
               className="mb-2"
@@ -666,17 +666,103 @@ export default function StrategyOperationsConsulting() {
           </div>
         </div>
 
-        {/* Roadmap Image */}
+        {/* Roadmap Image with Numbered Circles */}
         <div className="flex justify-center my-8">
-          <img
-            src="/approach-roadmap.png"
-            alt="Our Approach Roadmap"
-            style={{
-              maxWidth: '1030px',
-              width: '100%',
-              height: 'auto',
-            }}
-          />
+          <div className="relative" style={{ maxWidth: '1030px', width: '100%' }}>
+            <img
+              src="/approach-roadmap.png"
+              alt="Our Approach Roadmap"
+              style={{
+                width: '100%',
+                height: 'auto',
+                display: 'block',
+              }}
+            />
+
+            {/* Circle 1 - Top Left (on upward branch) */}
+            <div
+              className="absolute flex items-center justify-center"
+              style={{
+                width: '80px',
+                height: '80px',
+                borderRadius: '50%',
+                background: '#14358A',
+                top: '15%',
+                left: '24%',
+                transform: 'translate(-50%, -50%)',
+              }}
+            >
+              <span
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: '50px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
+                  textAlign: 'center',
+                  color: '#FFFFFF',
+                }}
+              >
+                1
+              </span>
+            </div>
+
+            {/* Circle 2 - Bottom Center (on downward branch) */}
+            <div
+              className="absolute flex items-center justify-center"
+              style={{
+                width: '80px',
+                height: '80px',
+                borderRadius: '50%',
+                background: '#14358A',
+                bottom: '15%',
+                left: '50%',
+                transform: 'translate(-50%, 50%)',
+              }}
+            >
+              <span
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: '50px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
+                  textAlign: 'center',
+                  color: '#FFFFFF',
+                }}
+              >
+                2
+              </span>
+            </div>
+
+            {/* Circle 3 - Top Right (on upward branch) */}
+            <div
+              className="absolute flex items-center justify-center"
+              style={{
+                width: '80px',
+                height: '80px',
+                borderRadius: '50%',
+                background: '#14358A',
+                top: '15%',
+                right: '24%',
+                transform: 'translate(50%, -50%)',
+              }}
+            >
+              <span
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: '50px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
+                  textAlign: 'center',
+                  color: '#FFFFFF',
+                }}
+              >
+                3
+              </span>
+            </div>
+          </div>
         </div>
 
         {/* Bottom - Step 2 - Empower Your Organization */}

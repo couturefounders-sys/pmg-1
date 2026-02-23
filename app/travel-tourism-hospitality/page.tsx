@@ -1,6 +1,7 @@
 'use client';
 
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export default function TravelTourismHospitality() {
   return (
@@ -999,126 +1000,7 @@ export default function TravelTourismHospitality() {
         </div>
       </div>
 
-      {/* Footer */}
-      <footer className="relative z-10 py-20" style={{ background: '#1B45B4' }}>
-        <div className="max-w-[1440px] mx-auto px-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
-            {/* Logo Column */}
-            <div>
-              <img 
-                src="/pmg-logo.png" 
-                alt="PMG Logo" 
-                style={{ 
-                  width: 'auto', 
-                  height: '80px',
-                  objectFit: 'contain'
-                }} 
-              />
-            </div>
-
-            {/* What we Do Column */}
-            <div>
-              <h3 
-                className="text-white mb-6" 
-                style={{ 
-                  fontFamily: 'Trade Gothic LT Std, sans-serif', 
-                  fontWeight: 700, 
-                  fontSize: '25px', 
-                  lineHeight: '100%' 
-                }}
-              >
-                What we Do
-              </h3>
-              <ul className="space-y-4">
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>Our Services</a></li>
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>Our Solutions</a></li>
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>Rebuilding from within</a></li>
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>Why Consulting?</a></li>
-              </ul>
-            </div>
-
-            {/* Our Content & Working with PMG Column */}
-            <div>
-              <h3 
-                className="text-white mb-6" 
-                style={{ 
-                  fontFamily: 'Trade Gothic LT Std, sans-serif', 
-                  fontWeight: 700, 
-                  fontSize: '25px', 
-                  lineHeight: '100%' 
-                }}
-              >
-                Our Content
-              </h3>
-              <ul className="space-y-4 mb-10">
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>FAQs</a></li>
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>Insights & Innovations</a></li>
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>Community Programs</a></li>
-              </ul>
-              
-              <h3 
-                className="text-white mb-6" 
-                style={{ 
-                  fontFamily: 'Trade Gothic LT Std, sans-serif', 
-                  fontWeight: 700, 
-                  fontSize: '25px', 
-                  lineHeight: '100%' 
-                }}
-              >
-                Working with PMG
-              </h3>
-              <ul className="space-y-4">
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>Careers</a></li>
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>Licensing</a></li>
-              </ul>
-            </div>
-
-            {/* Our Models Column */}
-            <div>
-              <h3 
-                className="text-white mb-6" 
-                style={{ 
-                  fontFamily: 'Trade Gothic LT Std, sans-serif', 
-                  fontWeight: 700, 
-                  fontSize: '25px', 
-                  lineHeight: '100%' 
-                }}
-              >
-                Our Models
-              </h3>
-              <ul className="space-y-4">
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>Sector Convergence Model</a></li>
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>I-O Enterprise Architecture</a></li>
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>Bussiness Value-Unit Model</a></li>
-              </ul>
-            </div>
-
-            {/* Legal Column */}
-            <div>
-              <h3 
-                className="text-white mb-6" 
-                style={{ 
-                  fontFamily: 'Trade Gothic LT Std, sans-serif', 
-                  fontWeight: 700, 
-                  fontSize: '25px', 
-                  lineHeight: '100%' 
-                }}
-              >
-                Legal
-              </h3>
-              <ul className="space-y-4">
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>Privacy & Cookie Policy</a></li>
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>Hiring & Equal Opportunity</a></li>
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>AI & Data Ethics Statement</a></li>
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>Anti-Modern Slavery Policy</a></li>
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>Intellectual Property</a></li>
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>Regionalization Policy</a></li>
-                <li><a href="#" className="text-white opacity-80 hover:opacity-100 transition-opacity" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 500, fontSize: '20px', lineHeight: '100%', display: 'block' }}>Digital Terms of Use</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }
