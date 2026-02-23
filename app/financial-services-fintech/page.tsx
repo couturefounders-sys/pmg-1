@@ -67,35 +67,6 @@ export default function FinancialServicesFinTech() {
             />
           </div>
 
-          {/* Decorative Diagonal Bars - Bottom Left */}
-          <div className="absolute pointer-events-none" style={{ bottom: '-100px', left: '0', width: '600px', height: '300px' }}>
-            {/* Light Blue Bar */}
-            <div
-              className="absolute"
-              style={{
-                width: '600px',
-                height: '80px',
-                left: '-100px',
-                bottom: '150px',
-                background: 'linear-gradient(90deg, #D4E2F8 0%, rgba(212, 226, 248, 0) 100%)',
-                transform: 'rotate(-15deg)',
-                opacity: 0.8
-              }}
-            />
-            {/* Dark Blue Bar */}
-            <div
-              className="absolute"
-              style={{
-                width: '500px',
-                height: '100px',
-                left: '-50px',
-                bottom: '80px',
-                background: 'linear-gradient(90deg, #3B82F6 0%, rgba(59, 130, 246, 0) 100%)',
-                transform: 'rotate(-15deg)',
-                opacity: 0.8
-              }}
-            />
-          </div>
 
         </div>
 
