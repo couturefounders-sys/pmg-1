@@ -32,7 +32,8 @@ export default function Header() {
   const isContactUsPage = pathname === '/contact-us';
   const isSolutionAssessmentPage = pathname === '/solution-assessment-tool';
   const isFinancialServicesPage = pathname === '/financial-services-fintech';
-  const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage || isBespokeSolutionsPage || isInsightsPage || isInsightsInnovationsPage || isSaaSPage || isPublicSectorPage || isHigherEducationPage || isFoodAgribusinessPage || isTravelHospitalityPage || isWhyFunctionalConsultingPage || isStrategyOperationsPage || isPeopleOrganizationsPage || isCustomerExperiencePage || isMergersAcquisitionsPage || isActiveManagementPage || isEquitySolutionsPage || isOutOfTheBoxPage || isPowerOfWorkingWithUsPage || isContactUsPage || isSolutionAssessmentPage || isFinancialServicesPage;
+  const isB2BProfessionalServicesPage = pathname === '/b2b-professional-services';
+  const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage || isBespokeSolutionsPage || isInsightsPage || isInsightsInnovationsPage || isSaaSPage || isPublicSectorPage || isHigherEducationPage || isFoodAgribusinessPage || isTravelHospitalityPage || isWhyFunctionalConsultingPage || isStrategyOperationsPage || isPeopleOrganizationsPage || isCustomerExperiencePage || isMergersAcquisitionsPage || isActiveManagementPage || isEquitySolutionsPage || isOutOfTheBoxPage || isPowerOfWorkingWithUsPage || isContactUsPage || isSolutionAssessmentPage || isFinancialServicesPage || isB2BProfessionalServicesPage;
 
   const textColor = isLightPage ? 'text-black' : 'text-white';
   const logoTextColor = isLightPage ? 'text-[#000000]' : 'text-white'; // purely black for logo text on light pages
@@ -55,7 +56,7 @@ export default function Header() {
     { title: 'Higher Education & EdTech', desc: 'Modernizing institutions for student success.', href: '/higher-education-edtech' },
     { title: 'Food, Beverage & Agribusiness', desc: 'Optimizing the food value chain.', href: '/food-beverage-agribusiness' },
     { title: 'Travel, Tourism & Hospitality', desc: 'Creating world-class guest experiences.', href: '/travel-tourism-hospitality' },
-    { title: 'B2B & Professional Services', desc: 'Optimizing corporate service delivery.', href: '/your-industry' },
+    { title: 'B2B & Professional Services', desc: 'Optimizing corporate service delivery.', href: '/b2b-professional-services' },
     { title: 'Why Functional Consulting?', desc: 'The advantage of deep expertise over generalists.', href: '/why-functional-consulting' },
   ];
 
