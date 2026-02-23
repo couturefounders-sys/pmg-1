@@ -91,47 +91,23 @@ export default function FinancialServicesFinTech() {
           </h2>
 
           {/* Section Description */}
-          <div className="relative" style={{ paddingRight: '48px' }}>
-            <p
-              className="font-montserrat font-normal"
-              style={{
-                fontSize: '32px',
-                lineHeight: '140%',
-                color: '#333333',
-                letterSpacing: '0%',
-                textAlign: 'left',
-                marginBottom: '48px'
-              }}
-            >
+          <div
+            className="font-montserrat font-normal mx-auto"
+            style={{
+              width: '1342px',
+              fontSize: '32px',
+              lineHeight: '100%',
+              color: '#333333',
+              letterSpacing: '0%',
+              textAlign: 'center'
+            }}
+          >
+            <p style={{ marginBottom: '40px' }}>
               PMG partners with banks, asset managers, insurers, & fintechs to deliver a balance of strategic insight & operational expertise. We enable organizations to strengthen performance, manage risk, & deliver sustainable value in an environment of constant disruption.
             </p>
-
-            <p
-              className="font-montserrat font-normal"
-              style={{
-                fontSize: '32px',
-                lineHeight: '140%',
-                color: '#333333',
-                letterSpacing: '0%',
-                textAlign: 'left',
-                marginBottom: '0'
-              }}
-            >
+            <p>
               Our financial services work is complemented by PMG&apos;s cross-sector expertise in technology & organizational transformation, equipping leaders to address challenges across governance, digital adoption, & market positioning.
             </p>
-
-            {/* Blue decorative element bottom right */}
-            <div
-              className="absolute"
-              style={{
-                bottom: '-40px',
-                right: '0',
-                width: '60px',
-                height: '8px',
-                background: 'linear-gradient(90deg, rgba(59, 130, 246, 0) 0%, #3B82F6 100%)',
-                opacity: 0.6
-              }}
-            />
           </div>
 
         </div>
