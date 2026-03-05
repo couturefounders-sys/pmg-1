@@ -415,21 +415,26 @@ export default function BrandingMarketingConsulting() {
           {/* Left Side - Capability Pills */}
           <div className="flex flex-col gap-4">
             <div className="relative pl-8">
-              <div
-                className="absolute left-0 top-0 h-full"
-                style={{ width: '4px', background: '#14358A', borderRadius: '2px' }}
-              />
+              <div className="absolute left-0 top-0 h-full flex flex-col items-center" style={{ width: '8px' }}>
+                {Array.from({ length: 40 }).map((_, i) => (
+                  <div key={i} className="rounded-full flex-shrink-0" style={{ width: '4px', height: '4px', background: '#424856', marginBottom: '6px' }} />
+                ))}
+              </div>
 
               {/* Product Lifecycle Management */}
               <div className="flex items-center gap-4 mb-4">
                 <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center">
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-                      <rect x="3" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
-                      <rect x="14" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
-                      <rect x="3" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
-                      <rect x="14" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
-                    </svg>
+                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
+                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
+                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <rect x="3" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
+                          <rect x="14" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
+                          <rect x="3" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
+                          <rect x="14" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
+                        </svg>
+                      </div>
+                    </div>
                   </div>
                   <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
                     Product Lifecycle Management
@@ -440,8 +445,12 @@ export default function BrandingMarketingConsulting() {
               {/* Capital Excellence */}
               <div className="flex items-center gap-4 mb-4">
                 <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center">
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M20 4L12 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M19.5 2.5a2.12 2.12 0 013 3L16 12l-4 1 1-4 6.5-6.5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M13.5 6.5L17.5 10.5" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M10 12.5C10 12.5 8 14 6.5 17.5C5 21 2 22 2 22s1-3 4.5-4.5C10 14 11.5 12 11.5 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
+                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
+                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 4L12 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M19.5 2.5a2.12 2.12 0 013 3L16 12l-4 1 1-4 6.5-6.5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M13.5 6.5L17.5 10.5" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M10 12.5C10 12.5 8 14 6.5 17.5C5 21 2 22 2 22s1-3 4.5-4.5C10 14 11.5 12 11.5 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                      </div>
+                    </div>
                   </div>
                   <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
                     Capital Excellence
@@ -452,8 +461,12 @@ export default function BrandingMarketingConsulting() {
               {/* Data-Driven Insights */}
               <div className="flex items-center gap-4 mb-4">
                 <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center">
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M4 4l7.07 17 2.51-7.39L21 11.1 4 4z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M13 13l6 6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
+                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
+                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 4l7.07 17 2.51-7.39L21 11.1 4 4z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M13 13l6 6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                      </div>
+                    </div>
                   </div>
                   <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
                     Data-Driven Insights
@@ -464,8 +477,12 @@ export default function BrandingMarketingConsulting() {
               {/* KPI Optimization */}
               <div className="flex items-center gap-4 mb-4">
                 <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center">
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 00-2.91-.09z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M12 15l-3-3" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M18 4s-1 0-4 3l-7 7 3 3 7-7c3-3 3-4 3-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M15 6l3 3" stroke="white" strokeWidth="2" strokeLinecap="round"/></svg>
+                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
+                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
+                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 00-2.91-.09z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M12 15l-3-3" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M18 4s-1 0-4 3l-7 7 3 3 7-7c3-3 3-4 3-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M15 6l3 3" stroke="white" strokeWidth="2" strokeLinecap="round"/></svg>
+                      </div>
+                    </div>
                   </div>
                   <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
                     KPI Optimization
@@ -476,8 +493,12 @@ export default function BrandingMarketingConsulting() {
               {/* Lean Six Sigma */}
               <div className="flex items-center gap-4">
                 <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center">
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
+                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
+                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                      </div>
+                    </div>
                   </div>
                   <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
                     Lean Six Sigma
