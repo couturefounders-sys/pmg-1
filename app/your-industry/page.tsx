@@ -116,34 +116,10 @@ export default function YourIndustry() {
 
       </div>
 
-      {/* Background Shapes - Bottom Left */}
-      <div className="absolute bottom-0 left-0 w-[500px] h-[400px] pointer-events-none z-0">
-        {/* Light Blue Bar */}
-        <div
-          className="absolute"
-          style={{
-            width: '600px',
-            height: '100px',
-            left: '-100px',
-            bottom: '100px',
-            background: 'linear-gradient(90deg, #D4E2F8 0%, rgba(212, 226, 248, 0) 100%)',
-            transform: 'rotate(-15deg)',
-            opacity: 0.8
-          }}
-        />
-        {/* Dark Blue Bar */}
-        <div
-          className="absolute"
-          style={{
-            width: '500px',
-            height: '120px',
-            left: '-50px',
-            bottom: '50px',
-            background: 'linear-gradient(90deg, #3B82F6 0%, rgba(59, 130, 246, 0) 100%)',
-            transform: 'rotate(-15deg)',
-            opacity: 0.8
-          }}
-        />
+      {/* Decorative Bars - Top Left */}
+      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
+        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', top: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
+        <div className="absolute" style={{ width: '200px', height: '60px', left: '-10px', top: '60px', opacity: 1, background: 'linear-gradient(90deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
       </div>
 
       {/* Your Partner in Value Creation Section */}
@@ -169,6 +145,12 @@ export default function YourIndustry() {
             Our work in PE & VC is strengthened by our deep functional expertise in M&A, operations, finance, and technology, allowing us to provide end-to-end support throughout the investment lifecycle.
           </p>
         </div>
+      </div>
+
+      {/* Decorative Bars - Bottom Right */}
+      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
+        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
+        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
       </div>
 
       {/* Our Work Section */}
@@ -228,7 +210,7 @@ export default function YourIndustry() {
 
       {/* Our Projects Section */}
       <div
-        className="relative py-24 px-6"
+        className="relative py-24 px-6 overflow-hidden"
         style={{
           backgroundImage: 'url(/projects-bg.png)',
           backgroundSize: 'cover',
@@ -236,6 +218,13 @@ export default function YourIndustry() {
           minHeight: '852px'
         }}
       >
+        {/* Decorative Rectangle - Top Right */}
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
+        {/* Decorative Rectangle - Bottom Left */}
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+        {/* Decorative Border Rectangle - Top Left */}
+        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+
         <div className="max-w-[1300px] mx-auto">
           {/* Section Title */}
           <h2
@@ -608,6 +597,12 @@ export default function YourIndustry() {
         </div>
       </div>
 
+      {/* Decorative Bars - Top Left */}
+      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
+        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', top: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
+        <div className="absolute" style={{ width: '200px', height: '60px', left: '-10px', top: '60px', opacity: 1, background: 'linear-gradient(90deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
+      </div>
+
       {/* The Functional Consulting Advantage */}
       <div className="bg-white py-24 px-6">
         <div className="max-w-[1440px] mx-auto flex flex-col items-center">
@@ -684,7 +679,14 @@ export default function YourIndustry() {
         </div>
       </div>
 
+      {/* Decorative Bars - Bottom Right */}
+      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
+        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
+        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
+      </div>
+
       {/* Maximize Your Portfolio's Potential Section */}
+
       <div 
         className="text-center flex flex-col items-center"
         style={{

@@ -60,6 +60,12 @@ export default function HigherEducationEdTech() {
 
       </div>
 
+      {/* Decorative Bars - Top Left */}
+      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
+        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', top: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
+        <div className="absolute" style={{ width: '200px', height: '60px', left: '-10px', top: '60px', opacity: 1, background: 'linear-gradient(90deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
+      </div>
+
       {/* Navigating a Sector in Transition Section */}
       <div className="relative w-full max-w-[1440px] mx-auto px-4 sm:px-[52px] py-24">
         <h2
@@ -102,6 +108,12 @@ export default function HigherEducationEdTech() {
             Our education work is strengthened by world-class expertise in operations, finance, and technology, combined with a deep understanding of academic culture. We provide university leaders with innovative strategies and practical insights that address core challenges, align governance and staff, and enable bold transformation.
           </p>
         </div>
+      </div>
+
+      {/* Decorative Bars - Bottom Right */}
+      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
+        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
+        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
       </div>
 
       {/* Our Work Section */}
@@ -523,9 +535,16 @@ export default function HigherEducationEdTech() {
           backgroundRepeat: 'no-repeat',
         }}
       >
+        {/* Decorative Rectangle - Top Right */}
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
+        {/* Decorative Rectangle - Bottom Left */}
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+        {/* Decorative Border Rectangle - Top Left */}
+        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+
         <div className="relative max-w-[1440px] mx-auto px-4 sm:px-[52px]">
           {/* Section Heading */}
-          <h2 
+          <h2
             className="text-center text-white mb-16"
             style={{
               fontFamily: 'DM Sans, sans-serif',
@@ -786,11 +805,19 @@ export default function HigherEducationEdTech() {
         </div>
       </div>
 
+      {/* Decorative Bars - Top Left */}
+      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
+        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', top: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
+        <div className="absolute" style={{ width: '200px', height: '60px', left: '-10px', top: '60px', opacity: 1, background: 'linear-gradient(90deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
+      </div>
+
       {/* The Functional Consulting Advantage Section */}
-      <div className="bg-white py-24 px-6">
-        <div className="max-w-[1440px] mx-auto flex flex-col items-center">
-          <h2
-            className="text-center whitespace-nowrap mb-10"
+      <div className="relative w-full py-24 bg-white overflow-hidden">
+
+        <div className="relative max-w-[1440px] mx-auto px-4 sm:px-[179px]">
+          {/* Section Heading */}
+          <h2 
+            className="text-center mb-8"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
@@ -860,6 +887,12 @@ export default function HigherEducationEdTech() {
             </a>
           </div>
         </div>
+      </div>
+
+      {/* Decorative Bars - Bottom Right */}
+      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
+        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
+        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
       </div>
 
       {/* Partner with PMG CTA Section */}

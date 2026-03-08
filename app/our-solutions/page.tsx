@@ -1,4 +1,4 @@
-﻿import Header from '@/components/Header';
+import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export default function OurSolutions() {
@@ -56,11 +56,11 @@ export default function OurSolutions() {
             {/* Main Heading */}
             <h1
               style={{
-                fontFamily: 'Poppins, sans-serif',
-                fontWeight: 600,
-                fontSize: '50px',
-                lineHeight: '46px',
-                letterSpacing: '0%',
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 700,
+                fontSize: '48px',
+                lineHeight: '105%',
+                letterSpacing: '-0.03em',
                 textAlign: 'center',
                 color: '#14358A',
                 marginBottom: '24px',
@@ -219,7 +219,7 @@ export default function OurSolutions() {
 
       {/* Not Sure Where to Start Section */}
       <div
-        className="relative z-10 w-full"
+        className="relative z-10 w-full overflow-hidden"
         style={{
           backgroundImage: 'url(/bg-not-sure.png)',
           backgroundSize: 'cover',
@@ -227,6 +227,12 @@ export default function OurSolutions() {
           backgroundRepeat: 'no-repeat',
         }}
       >
+        {/* Decorative Rectangle - Top Right */}
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
+        {/* Decorative Rectangle - Bottom Left */}
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+        {/* Decorative Border Rectangle - Top Left */}
+        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
         <div className="mx-auto text-center" style={{ padding: '80px 24px' }}>
           {/* Heading */}
           <h2
@@ -774,192 +780,9 @@ export default function OurSolutions() {
 
           {/* Content Grid */}
           <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-            {/* Left Side - Framework Items */}
-            <div className="relative flex flex-col gap-8" style={{ width: '500px' }}>
-              {/* Connecting Lines SVG */}
-              <svg
-                className="absolute"
-                style={{ left: '75px', top: '60px', width: '60px', height: '280px', zIndex: 0 }}
-                viewBox="0 0 60 280"
-                fill="none"
-              >
-                {/* Line from first circle to second */}
-                <path d="M30 0 Q60 70 30 140" stroke="#14358A" strokeWidth="3" fill="none" />
-                {/* Line from second circle to third */}
-                <path d="M30 140 Q60 210 30 280" stroke="#14358A" strokeWidth="3" fill="none" />
-              </svg>
-
-              {/* Item 1 - Clear Success Metrics */}
-              <div className="flex items-start gap-4 relative z-10">
-                <div
-                  style={{
-                    width: '150px',
-                    height: '150px',
-                    borderRadius: '50%',
-                    border: '3px solid #14358A',
-                    background: '#FFFFFF',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    flexShrink: 0,
-                  }}
-                >
-                  <div
-                    style={{
-                      width: '120px',
-                      height: '120px',
-                      borderRadius: '50%',
-                      background: '#14358A',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                    }}
-                  >
-                    <img src="/list-checks.png" alt="Clear Success Metrics" style={{ width: '48px', height: '48px' }} />
-                  </div>
-                </div>
-                <div style={{ paddingTop: '20px' }}>
-                  <h3
-                    style={{
-                      fontFamily: 'DM Sans, sans-serif',
-                      fontWeight: 700,
-                      fontSize: '24px',
-                      lineHeight: '120%',
-                      color: '#14358A',
-                      marginBottom: '8px',
-                    }}
-                  >
-                    Clear Success Metrics
-                  </h3>
-                  <p
-                    style={{
-                      fontFamily: 'Montserrat, sans-serif',
-                      fontWeight: 400,
-                      fontSize: '16px',
-                      lineHeight: '150%',
-                      color: '#333333',
-                      maxWidth: '280px',
-                    }}
-                  >
-                    We define 3-5 key performance indicators before engagement begins.
-                  </p>
-                </div>
-              </div>
-
-              {/* Item 2 - Monthly Progress Reviews */}
-              <div className="flex items-start gap-4 relative z-10">
-                <div
-                  style={{
-                    width: '150px',
-                    height: '150px',
-                    borderRadius: '50%',
-                    border: '3px solid #14358A',
-                    background: '#FFFFFF',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    flexShrink: 0,
-                  }}
-                >
-                  <div
-                    style={{
-                      width: '120px',
-                      height: '120px',
-                      borderRadius: '50%',
-                      background: '#14358A',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                    }}
-                  >
-                    <img src="/strategy.png" alt="Monthly Progress Reviews" style={{ width: '48px', height: '48px' }} />
-                  </div>
-                </div>
-                <div style={{ paddingTop: '20px' }}>
-                  <h3
-                    style={{
-                      fontFamily: 'DM Sans, sans-serif',
-                      fontWeight: 700,
-                      fontSize: '24px',
-                      lineHeight: '120%',
-                      color: '#14358A',
-                      marginBottom: '8px',
-                    }}
-                  >
-                    Monthly Progress Reviews
-                  </h3>
-                  <p
-                    style={{
-                      fontFamily: 'Montserrat, sans-serif',
-                      fontWeight: 400,
-                      fontSize: '16px',
-                      lineHeight: '150%',
-                      color: '#333333',
-                      maxWidth: '280px',
-                    }}
-                  >
-                    Transparent reporting against agreed milestones and metrics.
-                  </p>
-                </div>
-              </div>
-
-              {/* Item 3 - Risk-Sharing Mechanisms */}
-              <div className="flex items-start gap-4 relative z-10">
-                <div
-                  style={{
-                    width: '150px',
-                    height: '150px',
-                    borderRadius: '50%',
-                    border: '3px solid #14358A',
-                    background: '#FFFFFF',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    flexShrink: 0,
-                  }}
-                >
-                  <div
-                    style={{
-                      width: '120px',
-                      height: '120px',
-                      borderRadius: '50%',
-                      background: '#14358A',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                    }}
-                  >
-                    <img src="/users-four.png" alt="Risk-Sharing Mechanisms" style={{ width: '48px', height: '48px' }} />
-                  </div>
-                </div>
-                <div style={{ paddingTop: '20px' }}>
-                  <h3
-                    style={{
-                      fontFamily: 'DM Sans, sans-serif',
-                      fontWeight: 700,
-                      fontSize: '24px',
-                      lineHeight: '120%',
-                      color: '#14358A',
-                      marginBottom: '8px',
-                    }}
-                  >
-                    Risk-Sharing Mechanisms
-                  </h3>
-                  <p
-                    style={{
-                      fontFamily: 'Montserrat, sans-serif',
-                      fontWeight: 400,
-                      fontSize: '16px',
-                      lineHeight: '150%',
-                      color: '#333333',
-                      maxWidth: '280px',
-                    }}
-                  >
-                    Our equity and milestone-based models align incentives with outcomes.
-                  </p>
-                </div>
-              </div>
-            </div>
+            {/* Left Side - Framework Illustration */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/left_side_our_accountability.png" alt="" style={{ width: '720px', height: 'auto', marginLeft: '-100px', marginTop: '20px' }} />
 
             {/* Right Side - Average Heart ROI */}
             <div className="flex flex-col items-center">
@@ -1028,7 +851,7 @@ export default function OurSolutions() {
               fontWeight: 700,
               fontSize: '48px',
               lineHeight: '105%',
-              letterSpacing: '-3%',
+              letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#14358A',
               marginBottom: '24px',
@@ -1081,7 +904,7 @@ export default function OurSolutions() {
               fontWeight: 700,
               fontSize: '48px',
               lineHeight: '105%',
-              letterSpacing: '-3%',
+              letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#14358A',
               marginBottom: '64px',
@@ -1234,7 +1057,7 @@ export default function OurSolutions() {
               fontWeight: 700,
               fontSize: '48px',
               lineHeight: '105%',
-              letterSpacing: '-3%',
+              letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#14358A',
               marginBottom: '24px',

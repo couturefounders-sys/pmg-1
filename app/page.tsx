@@ -1,4 +1,4 @@
-﻿import Header from '@/components/Header';
+import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -747,6 +747,368 @@ export default function Home() {
               Request a consultation
             </button>
           </div>
+        </div>
+      </div>
+
+      {/* Ready for a Definitive Path to Transformation Section */}
+      <div className="relative z-10 bg-white py-16 lg:py-24 overflow-hidden">
+<div className="max-w-[1440px] mx-auto px-6 lg:px-12 xl:px-20 relative">
+          {/* Section Heading */}
+          <h2 
+            className="text-center font-poppins font-semibold mb-8 lg:mb-12"
+            style={{
+              fontSize: 'clamp(32px, 3.5vw, 50px)',
+              lineHeight: '1.1',
+              color: '#14358A'
+            }}
+          >
+            Ready for a Definitive Path to Transformation?
+          </h2>
+
+          {/* Description */}
+          <p 
+            className="text-center font-montserrat font-normal mb-12 lg:mb-16 mx-auto"
+            style={{
+              fontSize: 'clamp(20px, 2vw, 30px)',
+              lineHeight: '1.4',
+              color: '#333333',
+              maxWidth: '1082px'
+            }}
+          >
+            PMG's expertise translates directly into superior results. Explore our structured engagement models, ensuring the right expertise is delivered in a way that aligns perfectly with your growth goals.
+          </p>
+
+          {/* Solution Cards Grid - Top Row */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 xl:gap-10 mb-6 lg:mb-8 xl:mb-10 max-w-[1200px] mx-auto">
+            {/* Out-of-the-Box Solutions Card */}
+            <div 
+              className="bg-white rounded-[10px] p-6 lg:p-8 relative"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '335px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/cube-three.png" alt="Out-of-the-Box Solutions" className="w-10 h-10" />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-dm-sans font-bold mb-2"
+                style={{
+                  fontSize: 'clamp(24px, 2vw, 29px)',
+                  lineHeight: '1.05',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Out-of-the-Box Solutions
+              </h3>
+
+              {/* Subtitle */}
+              <p 
+                className="font-dm-sans mb-4"
+                style={{
+                  fontSize: '16px',
+                  lineHeight: '1.4',
+                  color: '#68718B'
+                }}
+              >
+                Simple · Affordable · Self-Directed
+              </p>
+
+              {/* Description */}
+              <p 
+                className="font-dm-sans mb-6"
+                style={{
+                  fontSize: '18px',
+                  lineHeight: '1.67',
+                  color: '#68718B',
+                  marginBottom: 'auto'
+                }}
+              >
+                Pre-packaged, technology-enabled offerings designed to rapidly address common industry challenges and deliver immediate value.
+              </p>
+
+              {/* CTA Link */}
+              <a 
+                href="#"
+                className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all"
+                style={{
+                  fontSize: '21px',
+                  lineHeight: '1.43',
+                  color: '#14358A'
+                }}
+              >
+                Explore Strategic solutions
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+            </div>
+
+            {/* Bespoke Solutions Card */}
+            <div 
+              className="bg-white rounded-[10px] p-6 lg:p-8 relative"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '335px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/pencil.png" alt="Bespoke Solutions" className="w-10 h-10" />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-dm-sans font-bold mb-2"
+                style={{
+                  fontSize: 'clamp(24px, 2vw, 29px)',
+                  lineHeight: '1.05',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Bespoke Solutions
+              </h3>
+
+              {/* Subtitle */}
+              <p 
+                className="font-dm-sans mb-4"
+                style={{
+                  fontSize: '16px',
+                  lineHeight: '1.4',
+                  color: '#68718B'
+                }}
+              >
+                Custom · Flexible · Fully Supported
+              </p>
+
+              {/* Description */}
+              <p 
+                className="font-dm-sans mb-6"
+                style={{
+                  fontSize: '18px',
+                  lineHeight: '1.67',
+                  color: '#68718B'
+                }}
+              >
+                Tailored to your specific, complex needs. Our custom solutions are managed hands-on by our world-class expert team, ensuring high-impact innovation.
+              </p>
+
+              {/* CTA Link */}
+              <a 
+                href="#"
+                className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all"
+                style={{
+                  fontSize: '21px',
+                  lineHeight: '1.43',
+                  color: '#14358A'
+                }}
+              >
+                Explore Strategic solutions
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          {/* Solution Cards Grid - Bottom Row */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 xl:gap-10 max-w-[1200px] mx-auto">
+            {/* Active Management Solutions Card */}
+            <div 
+              className="bg-white rounded-[10px] p-6 lg:p-8 relative"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '335px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/right-user.png" alt="Active Management Solutions" className="w-10 h-10" />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-dm-sans font-bold mb-2"
+                style={{
+                  fontSize: 'clamp(24px, 2vw, 29px)',
+                  lineHeight: '1.05',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Active Management Solutions
+              </h3>
+
+              {/* Subtitle */}
+              <p 
+                className="font-dm-sans mb-4"
+                style={{
+                  fontSize: '16px',
+                  lineHeight: '1.4',
+                  color: '#68718B'
+                }}
+              >
+                Proactive · Expert-Led · Fully Managed
+              </p>
+
+              {/* Description */}
+              <p 
+                className="font-dm-sans mb-6"
+                style={{
+                  fontSize: '18px',
+                  lineHeight: '1.67',
+                  color: '#68718B'
+                }}
+              >
+                We don't just consult—we actively manage critical functions. PMG leads hands-on, end-to-end solution delivery with full accountability for results.
+              </p>
+
+              {/* CTA Link */}
+              <a 
+                href="#"
+                className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all"
+                style={{
+                  fontSize: '21px',
+                  lineHeight: '1.43',
+                  color: '#14358A'
+                }}
+              >
+                Explore Strategic solutions
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+            </div>
+
+            {/* Equity Engagements Card */}
+            <div 
+              className="bg-white rounded-[10px] p-6 lg:p-8 relative"
+              style={{
+                border: '3px solid #14358A',
+                minHeight: '335px'
+              }}
+            >
+              {/* Icon */}
+              <div 
+                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
+                style={{ background: '#14358A' }}
+              >
+                <img src="/efferent-four.png" alt="Equity Engagements" className="w-10 h-10" />
+              </div>
+
+              {/* Title */}
+              <h3 
+                className="font-dm-sans font-bold mb-2"
+                style={{
+                  fontSize: 'clamp(24px, 2vw, 29px)',
+                  lineHeight: '1.05',
+                  letterSpacing: '-0.03em',
+                  color: '#14358A'
+                }}
+              >
+                Equity Engagements
+              </h3>
+
+              {/* Subtitle */}
+              <p 
+                className="font-dm-sans mb-4"
+                style={{
+                  fontSize: '16px',
+                  lineHeight: '1.4',
+                  color: '#68718B'
+                }}
+              >
+                Aligned · Scalable · Capital-Efficient
+              </p>
+
+              {/* Description */}
+              <p 
+                className="font-dm-sans mb-6"
+                style={{
+                  fontSize: '18px',
+                  lineHeight: '1.67',
+                  color: '#68718B'
+                }}
+              >
+                Access top-tier strategy and execution without draining vital cash reserves. PMG invests proprietary expertise for equity, directly aligning our success with your maximized outcomes.
+              </p>
+
+              {/* CTA Link */}
+              <a 
+                href="#"
+                className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all"
+                style={{
+                  fontSize: '21px',
+                  lineHeight: '1.43',
+                  color: '#14358A'
+                }}
+              >
+                Explore Strategic solutions
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Unsure Which Solution Fits Section */}
+      <div className="relative z-10 py-16 lg:py-20" style={{ background: '#EBF7FF' }}>
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-12 text-center">
+          {/* Heading */}
+          <h2 
+            className="font-dm-sans font-bold mb-6 lg:mb-8"
+            style={{
+              fontSize: 'clamp(32px, 3.3vw, 48px)',
+              lineHeight: '1.05',
+              letterSpacing: '-0.03em',
+              color: '#14358A'
+            }}
+          >
+            Unsure which solution fits your business?
+          </h2>
+
+          {/* Description */}
+          <p 
+            className="font-montserrat font-normal mb-10 lg:mb-12 mx-auto"
+            style={{
+              fontSize: 'clamp(20px, 2.2vw, 32px)',
+              lineHeight: '1.35',
+              color: '#333333',
+              maxWidth: '1196px'
+            }}
+          >
+            Our proprietary Solutions Assessment Tool helps you pinpoint the perfect, expert-backed strategy for your unique challenges.
+          </p>
+
+          {/* CTA Button */}
+          <button 
+            className="text-white font-dm-sans font-bold rounded-[10px] hover:opacity-90 transition-all transform hover:scale-105"
+            style={{
+              background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+              padding: '16px 32px',
+              fontSize: 'clamp(18px, 1.4vw, 20px)',
+              lineHeight: '1.4',
+              minWidth: '280px'
+            }}
+          >
+            Find your ideal solution
+          </button>
         </div>
       </div>
 

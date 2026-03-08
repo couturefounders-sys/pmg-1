@@ -865,13 +865,19 @@ export default function MergersAcquisitionsConsulting() {
 
       {/* The Principle of Least Change Section */}
       <div
-        className="relative w-full py-20"
+        className="relative w-full py-20 overflow-hidden"
         style={{
           backgroundImage: 'url(/principle-bg.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
+        {/* Decorative Rectangle - Top Right */}
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
+        {/* Decorative Rectangle - Bottom Left */}
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+        {/* Decorative Border Rectangle - Top Left */}
+        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
         <div className="max-w-[1196px] mx-auto px-4 text-center">
           <p
             className="mb-4"

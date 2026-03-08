@@ -12,7 +12,17 @@
       "Bash(git push:*)",
       "Bash(cd:*)",
       "Bash(git fetch:*)",
-      "Bash(git stash:*)"
+      "Bash(git stash:*)",
+      "Bash(for f in app/active-management-solutions/page.tsx app/bespoke-solutions/page.tsx app/business-value-unit-model/page.tsx app/food-beverage-agribusiness/page.tsx app/higher-education-edtech/page.tsx app/insights-innovations/page.tsx app/insights/page.tsx app/our-solutions/page.tsx app/out-of-the-box-solutions/page.tsx app/power-of-working-with-us/page.tsx app/public-sector-government/page.tsx app/travel-tourism-hospitality/page.tsx)",
+      "Bash(do)",
+      "Bash(echo \"=== $f ===\")",
+      "Read(//Users/teja/pmg_final-v/pmg-z/**)",
+      "Bash(done)",
+      "Bash(python3:*)",
+      "mcp__figma__get_design_context",
+      "Bash(curl:*)",
+      "Bash(rm:*)",
+      "mcp__figma__get_screenshot"
     ]
   }
 }

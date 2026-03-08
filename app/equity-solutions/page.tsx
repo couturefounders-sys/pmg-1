@@ -135,228 +135,15 @@ export default function EquitySolutions() {
           </div>
 
           {/* Diagram */}
-          <div className="relative flex items-center justify-between" style={{ minHeight: '580px' }}>
+          <div className="flex flex-col gap-16">
 
-            {/* LEFT half-circle */}
-            <div
-              className="absolute left-0 top-1/2"
-              style={{
-                transform: 'translateY(-50%)',
-                width: '200px',
-                height: '400px',
-                zIndex: 0,
-              }}
-            >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/equity-half-circle.png"
-                alt=""
-                aria-hidden="true"
-                style={{
-                  width: '200px',
-                  height: '400px',
-                  objectFit: 'cover',
-                  objectPosition: 'left center',
-                  borderRadius: '0 200px 200px 0',
-                }}
-              />
-            </div>
+            {/* Row 1 — Left illustration */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/left_side.png" alt="" style={{ width: '720px', height: 'auto', marginLeft: '-208px', marginTop: '20px' }} />
 
-            {/* RIGHT half-circle */}
-            <div
-              className="absolute right-0 top-1/2"
-              style={{
-                transform: 'translateY(-50%)',
-                width: '200px',
-                height: '400px',
-                zIndex: 0,
-              }}
-            >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/equity-half-circle.png"
-                alt=""
-                aria-hidden="true"
-                style={{
-                  width: '200px',
-                  height: '400px',
-                  objectFit: 'cover',
-                  objectPosition: 'right center',
-                  transform: 'scaleX(-1)',
-                  borderRadius: '0 200px 200px 0',
-                }}
-              />
-            </div>
-
-            {/* LEFT column — Stage, Market Potential, Team */}
-            <div
-              className="relative flex flex-col gap-10 items-start"
-              style={{ zIndex: 1, paddingLeft: '220px', width: '50%' }}
-            >
-              {/* Stage */}
-              <div>
-                <div
-                  style={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    gap: '12px',
-                    backgroundColor: '#14358A',
-                    borderRadius: '999px',
-                    padding: '10px 22px',
-                    marginBottom: '10px',
-                  }}
-                >
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-                    <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                  <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '17px', color: '#FFFFFF' }}>
-                    Stage
-                  </span>
-                </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '14px', lineHeight: '160%', color: '#14358A', maxWidth: '260px' }}>
-                  Pre-seed to Series B, or established businesses in turnaround/recovery
-                </p>
-              </div>
-
-              {/* Market Potential */}
-              <div>
-                <div
-                  style={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    gap: '12px',
-                    backgroundColor: '#14358A',
-                    borderRadius: '999px',
-                    padding: '10px 22px',
-                    marginBottom: '10px',
-                  }}
-                >
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-                    <circle cx="12" cy="12" r="9" stroke="white" strokeWidth="1.8"/>
-                    <path d="M8 12l2 2 4-4" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M16 8l-2 2" stroke="white" strokeWidth="1.8" strokeLinecap="round"/>
-                  </svg>
-                  <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '17px', color: '#FFFFFF' }}>
-                    Market Potential
-                  </span>
-                </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '14px', lineHeight: '160%', color: '#14358A', maxWidth: '260px' }}>
-                  Addressable market &gt;$100M with clear differentiation
-                </p>
-              </div>
-
-              {/* Team */}
-              <div>
-                <div
-                  style={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    gap: '12px',
-                    backgroundColor: '#14358A',
-                    borderRadius: '999px',
-                    padding: '10px 22px',
-                    marginBottom: '10px',
-                  }}
-                >
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-                    <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-                    <circle cx="9" cy="7" r="4" stroke="white" strokeWidth="1.8"/>
-                    <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                  <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '17px', color: '#FFFFFF' }}>
-                    Team
-                  </span>
-                </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '14px', lineHeight: '160%', color: '#14358A', maxWidth: '260px' }}>
-                  Founder/executive team with domain expertise and execution capability
-                </p>
-              </div>
-            </div>
-
-            {/* RIGHT column — Clear Success Metrics, Alignment, Risk-Sharing */}
-            <div
-              className="relative flex flex-col gap-10 items-end"
-              style={{ zIndex: 1, paddingRight: '220px', width: '50%' }}
-            >
-              {/* Clear Success Metrics */}
-              <div className="flex flex-col items-end">
-                <div
-                  style={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    gap: '12px',
-                    backgroundColor: '#14358A',
-                    borderRadius: '999px',
-                    padding: '10px 22px',
-                    marginBottom: '10px',
-                  }}
-                >
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-                    <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                  <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '17px', color: '#FFFFFF' }}>
-                    Clear Success Metrics
-                  </span>
-                </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '14px', lineHeight: '160%', color: '#14358A', maxWidth: '260px', textAlign: 'right' }}>
-                  Early revenue, product-market fit, or clear path to both
-                </p>
-              </div>
-
-              {/* Alignment */}
-              <div className="flex flex-col items-end">
-                <div
-                  style={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    gap: '12px',
-                    backgroundColor: '#14358A',
-                    borderRadius: '999px',
-                    padding: '10px 22px',
-                    marginBottom: '10px',
-                  }}
-                >
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-                    <circle cx="12" cy="12" r="9" stroke="white" strokeWidth="1.8"/>
-                    <path d="M8 12l2 2 4-4" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-                    <path d="M16 8l-2 2" stroke="white" strokeWidth="1.8" strokeLinecap="round"/>
-                  </svg>
-                  <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '17px', color: '#FFFFFF' }}>
-                    Alignment
-                  </span>
-                </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '14px', lineHeight: '160%', color: '#14358A', maxWidth: '260px', textAlign: 'right' }}>
-                  Values and vision that align with PMG&apos;s partnership approach
-                </p>
-              </div>
-
-              {/* Risk-Sharing Mechanisms */}
-              <div className="flex flex-col items-end">
-                <div
-                  style={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    gap: '12px',
-                    backgroundColor: '#14358A',
-                    borderRadius: '999px',
-                    padding: '10px 22px',
-                    marginBottom: '10px',
-                  }}
-                >
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-                    <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-                    <circle cx="9" cy="7" r="4" stroke="white" strokeWidth="1.8"/>
-                    <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                  <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '17px', color: '#FFFFFF' }}>
-                    Risk-Sharing Mechanisms
-                  </span>
-                </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '14px', lineHeight: '160%', color: '#14358A', maxWidth: '260px', textAlign: 'right' }}>
-                  Our equity and milestone-based models align incentives with outcomes.
-                </p>
-              </div>
-            </div>
+            {/* Row 2 — Right illustration */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/right_side.png" alt="" style={{ width: '720px', height: 'auto', alignSelf: 'flex-end', marginRight: '-208px', marginTop: '-550px' }} />
 
           </div>
         </div>
@@ -365,24 +152,6 @@ export default function EquitySolutions() {
       {/* ─── Section 3: How a PMG Equity Partnership Works ─── */}
       <section className="w-full bg-white py-20 px-6 overflow-hidden relative">
 
-        {/* Background zigzag pattern */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/equity-zigzag-bg.png"
-          alt=""
-          aria-hidden="true"
-          style={{
-            position: 'absolute',
-            inset: 0,
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            objectPosition: 'center',
-            opacity: 0.08,
-            pointerEvents: 'none',
-            zIndex: 0,
-          }}
-        />
 
         <div className="max-w-[1000px] mx-auto relative" style={{ zIndex: 1 }}>
 
@@ -710,6 +479,12 @@ export default function EquitySolutions() {
         className="w-full relative overflow-hidden py-20 px-6"
         style={{ background: 'linear-gradient(135deg, #1B45B4 0%, #1C2792 100%)' }}
       >
+        {/* Decorative Rectangle - Top Right */}
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
+        {/* Decorative Rectangle - Bottom Left */}
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+        {/* Decorative Border Rectangle - Top Left */}
+        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
         <div className="max-w-[1200px] mx-auto flex flex-col items-center gap-12">
 
           {/* Main design image */}

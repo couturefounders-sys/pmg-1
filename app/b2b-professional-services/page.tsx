@@ -55,6 +55,12 @@ export default function B2BProfessionalServices() {
         </div>
       </div>
 
+      {/* Decorative Bars - Top Left */}
+      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
+        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', top: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
+        <div className="absolute" style={{ width: '200px', height: '60px', left: '-10px', top: '60px', opacity: 1, background: 'linear-gradient(90deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
+      </div>
+
       {/* Your Partner in Service Excellence Section */}
       <div className="relative w-full bg-white" style={{ paddingTop: '120px', paddingBottom: '120px' }}>
         <div className="relative max-w-[1440px] mx-auto flex flex-col items-center px-6">
@@ -94,6 +100,12 @@ export default function B2BProfessionalServices() {
           </div>
 
         </div>
+      </div>
+
+      {/* Decorative Bars - Bottom Right */}
+      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
+        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
+        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
       </div>
 
       {/* Our Work Section */}
@@ -295,7 +307,7 @@ export default function B2BProfessionalServices() {
 
       {/* Our Projects Section */}
       <div
-        className="relative py-24 px-6"
+        className="relative py-24 px-6 overflow-hidden"
         style={{
           backgroundImage: 'url(/projects-bg-financial.png)',
           backgroundSize: 'cover',
@@ -303,6 +315,13 @@ export default function B2BProfessionalServices() {
           minHeight: '700px'
         }}
       >
+        {/* Decorative Rectangle - Top Right */}
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
+        {/* Decorative Rectangle - Bottom Left */}
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+        {/* Decorative Border Rectangle - Top Left */}
+        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+
         <div className="max-w-[1300px] mx-auto relative z-10">
           <h2
             className="font-poppins font-semibold text-white text-center mb-16"
@@ -619,6 +638,12 @@ export default function B2BProfessionalServices() {
         </div>
       </div>
 
+      {/* Decorative Bars - Top Left */}
+      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
+        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', top: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
+        <div className="absolute" style={{ width: '200px', height: '60px', left: '-10px', top: '60px', opacity: 1, background: 'linear-gradient(90deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
+      </div>
+
       {/* The Functional Consulting Advantage Section */}
       <div className="bg-white py-24 px-6">
         <div className="max-w-[1440px] mx-auto flex flex-col items-center">
@@ -693,6 +718,12 @@ export default function B2BProfessionalServices() {
             </a>
           </div>
         </div>
+      </div>
+
+      {/* Decorative Bars - Bottom Right */}
+      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
+        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
+        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
       </div>
 
       {/* Call to Action Section */}
