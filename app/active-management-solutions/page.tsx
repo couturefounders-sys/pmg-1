@@ -107,7 +107,7 @@ export default function ActiveManagementSolutions() {
               fontWeight: 600,
               fontSize: '20px',
               lineHeight: '100%',
-              color: '#6A36FF',
+              color: '#14358A',
               marginBottom: '20px',
             }}
           >
@@ -209,20 +209,7 @@ export default function ActiveManagementSolutions() {
                   gap: '14px',
                 }}
               >
-                <div
-                  style={{
-                    width: '52px',
-                    height: '52px',
-                    borderRadius: '10px',
-                    backgroundColor: '#14358A',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    flexShrink: 0,
-                  }}
-                >
-                  <Image src={card.icon} alt={card.title} width={28} height={28} style={{ objectFit: 'contain' }} />
-                </div>
+                <Image src={card.icon} alt={card.title} width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
                 <h3
                   style={{
                     fontFamily: 'Poppins, sans-serif',
@@ -284,20 +271,7 @@ export default function ActiveManagementSolutions() {
                   gap: '14px',
                 }}
               >
-                <div
-                  style={{
-                    width: '52px',
-                    height: '52px',
-                    borderRadius: '10px',
-                    backgroundColor: '#14358A',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    flexShrink: 0,
-                  }}
-                >
-                  <Image src={card.icon} alt={card.title} width={28} height={28} style={{ objectFit: 'contain' }} />
-                </div>
+                <Image src={card.icon} alt={card.title} width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
                 <h3
                   style={{
                     fontFamily: 'Poppins, sans-serif',

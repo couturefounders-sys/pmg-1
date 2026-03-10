@@ -49,7 +49,7 @@ export default function Header() {
     { name: 'Your Industry', hasDropdown: true, href: '/your-industry' },
     { name: 'Our functional areas', hasDropdown: true, href: '/our-functional-areas' },
     { name: 'Our Solutions', hasDropdown: true, href: '/our-solutions' },
-    { name: 'Insights', hasDropdown: true, href: '/insights' },
+    { name: 'Insights & Innovations', hasDropdown: true, href: '/insights-innovations' },
     { name: 'Contact Us', hasDropdown: false, href: '/contact-us' },
   ];
 
@@ -77,6 +77,7 @@ export default function Header() {
   ];
 
   const solutionsItems = [
+    { title: 'Solutions & Pricing', desc: 'Find the right package for your business needs.', href: '/our-solutions' },
     { title: 'Bespoke Solutions', desc: 'Fully customized strategies for complex challenges.', href: '/bespoke-solutions' },
     { title: 'Active Management Solutions', desc: 'Embedded executive operators driving results from within.', href: '/active-management-solutions' },
     { title: 'Equity Solutions', desc: 'A strategic partnership for accelerated growth & shared success.', href: '/equity-solutions' },
@@ -85,11 +86,15 @@ export default function Header() {
     { title: 'Solution Assessment Tool', desc: 'Answer a few questions to get a recommendation on the right engagement model.', href: '/solution-assessment-tool' },
   ];
 
-  const insightsItems = [
-    { title: 'Insights & Innovations', desc: 'Unfiltered thinking on strategy, leadership, and operations.', href: '/insights-innovations' },
-    { title: 'Sector Convergence Model', desc: 'Our flagship framework for cross-industry problem solving.', href: '/insights' },
-    { title: 'The I-O Architecture Model', desc: 'Our proprietary engineering framework for operational consistency.', href: '/io-architecture-model' },
-    { title: 'The Business Value Unit (BVU) Model', desc: 'A financial framework for quantifying non-commercial team contributions.', href: '/business-value-unit-model' },
+  const insightsTopItems = [
+    { title: 'Articles & Thought Leadership', desc: 'Explore our latest thinking on the trends and challenges shaping modern business.', href: '/insights-innovations' },
+    { title: 'Our Resources', desc: 'Explore our dictionary, metacognitive principles, and more.', href: '/resources' },
+  ];
+
+  const insightsModelItems = [
+    { title: 'The Sector Convergence Model', desc: 'A framework for cross-industry innovation.', href: '/insights' },
+    { title: 'The I-O Architecture Model', desc: 'An architectural blueprint for operational predictability.', href: '/io-architecture-model' },
+    { title: 'The Business Value-Unit Model', desc: 'A method for quantifying the value of non-commercial teams.', href: '/business-value-unit-model' },
   ];
 
   return (
@@ -228,9 +233,9 @@ export default function Header() {
                           ))}
                         </div>
                        )}
-                       {item.name === 'Insights' && (
+                       {item.name === 'Insights & Innovations' && (
                         <div className="flex flex-col">
-                          {insightsItems.map((subItem, idx) => (
+                          {insightsTopItems.map((subItem, idx) => (
                             <Link
                               key={idx}
                               href={subItem.href}
@@ -244,6 +249,25 @@ export default function Header() {
                               </p>
                             </Link>
                           ))}
+                          <hr className="mx-6 my-1 border-gray-200" />
+                          <div className="px-6 pt-3 pb-1">
+                            <p className="text-[#14358A] font-inter font-semibold text-[13px]">Our Proprietary Models</p>
+                          </div>
+                          {insightsModelItems.map((subItem, idx) => (
+                            <Link
+                              key={idx}
+                              href={subItem.href}
+                              className="pl-8 pr-6 py-3 hover:bg-gray-50 transition-colors group/item block border-l-2 border-gray-200 mx-6 mb-1"
+                            >
+                              <h4 className="text-[#14358A] font-inter font-semibold text-[15px] mb-0.5 group-hover/item:text-[#6A36FF] transition-colors">
+                                {subItem.title}
+                              </h4>
+                              <p className="text-[#5F6D7E] text-[13px] leading-snug font-inter">
+                                {subItem.desc}
+                              </p>
+                            </Link>
+                          ))}
+                          <div className="pb-2" />
                         </div>
                        )}
                       </div>

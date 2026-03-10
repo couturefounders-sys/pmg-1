@@ -796,7 +796,7 @@ export default function OurSolutions() {
                   marginBottom: '24px',
                 }}
               >
-                Average Heart ROI
+                Average Client ROI
               </h3>
               {/* ROI Circle */}
               <div
@@ -839,59 +839,6 @@ export default function OurSolutions() {
               </p>
             </div>
           </div>
-        </div>
-      </div>
-
-      {/* Unsure Which Solution Fits Section */}
-      <div className="relative z-10 py-16 lg:py-20" style={{ background: '#EBF7FF' }}>
-        <div className="mx-auto px-6 lg:px-12 text-center">
-          <h2
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontWeight: 700,
-              fontSize: '48px',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em',
-              textAlign: 'center',
-              color: '#14358A',
-              marginBottom: '24px',
-            }}
-          >
-            Unsure which solution fits your business?
-          </h2>
-          <p
-            style={{
-              fontFamily: 'Montserrat, sans-serif',
-              fontWeight: 400,
-              fontSize: '32px',
-              lineHeight: '135%',
-              letterSpacing: '0%',
-              textAlign: 'center',
-              color: '#333333',
-              maxWidth: '1196px',
-              margin: '0 auto 48px auto',
-            }}
-          >
-            Our proprietary Solutions Assessment Tool helps you pinpoint the perfect, expert-backed strategy for your unique challenges.
-          </p>
-          <button
-            className="hover:opacity-90 transition-all"
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontWeight: 700,
-              fontSize: '20px',
-              lineHeight: '140%',
-              color: '#FFFFFF',
-              background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-              borderRadius: '10px',
-              width: '319px',
-              height: '65px',
-              border: 'none',
-              cursor: 'pointer',
-            }}
-          >
-            Find your ideal solution
-          </button>
         </div>
       </div>
 

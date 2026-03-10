@@ -6,25 +6,25 @@ export default function BespokeSolutions() {
   const steps = [
     {
       icon: '/bespoke-icon-1.png',
-      step: 'Step 1: The Diagnostic',
+      step: 'Step 1:\nThe Diagnostic',
       description:
         'We perform a comprehensive analysis to identify the root causes of your challenges, not just the symptoms.',
     },
     {
       icon: '/bespoke-icon-2.png',
-      step: 'Step 2: Tool Selection & Architecture',
+      step: 'Step 2:\nTool Selection &\nArchitecture',
       description:
         'Based on our findings, we architect a solution using the most appropriate tool. This could be one of our proprietary models, a proven industry framework, or a completely custom approach.',
     },
     {
       icon: '/bespoke-icon-3.png',
-      step: 'Step 3: Transparent Rationale & Blueprint',
+      step: 'Step 3:\nTransparent\nRationale &\nBlueprint',
       description:
         'We present you with a complete strategic blueprint, including a clear rationale for why the chosen approach is the optimal path to achieve your specific goals.',
     },
     {
-      icon: '/icon-check-correct.png',
-      step: 'Step 4: Client Approval Before Engagement',
+      icon: '/bespoke-icon-4.png',
+      step: 'Step 4:\nClient Approval\nBefore\nEngagement',
       description:
         'You review the complete, validated plan. An engagement only begins once you have full confidence in the strategy and the measurable outcomes we\'ve defined together.',
     },
@@ -39,57 +39,55 @@ export default function BespokeSolutions() {
       <section className="w-full pt-32 pb-16 px-4">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
 
-          {/* Eyebrow Label */}
+          {/* Eyebrow Label — DM Sans Bold 29px, node 0:5834 */}
           <p
             style={{
-              fontFamily: 'Poppins, sans-serif',
-              fontWeight: 600,
-              fontSize: '20px',
-              lineHeight: '100%',
-              letterSpacing: '0%',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '29px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
               color: '#14358A',
+              textAlign: 'center',
               marginBottom: '20px',
             }}
           >
             Bespoke Solutions
           </p>
 
-          {/* Main Heading */}
+          {/* Main Heading — Poppins SemiBold 50px, node 0:5831 */}
           <h1
             style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontWeight: 700,
+              fontFamily: 'Poppins, sans-serif',
+              fontWeight: 600,
               fontStyle: 'normal',
-              fontSize: '48px',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em',
+              fontSize: '50px',
+              lineHeight: '110%',
               textAlign: 'center',
               color: '#14358A',
-              marginBottom: '32px',
-              maxWidth: '900px',
+              marginBottom: '24px',
+              maxWidth: '1200px',
+              whiteSpace: 'nowrap',
             }}
           >
             Solving Your Most Important Problem (MIP)
           </h1>
 
-          {/* Sub-paragraph */}
+          {/* Sub-paragraph — Montserrat Regular 32px, node 0:5832 */}
           <p
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
               fontStyle: 'normal',
               fontSize: '32px',
-              lineHeight: '100%',
-              letterSpacing: '0%',
+              lineHeight: 'normal',
               textAlign: 'center',
               color: '#333333',
               marginBottom: '48px',
-              maxWidth: '860px',
+              maxWidth: '1200px',
             }}
           >
-            When you face challenges that off-the-shelf solutions can&apos;t fix, you need a partner
-            who architects strategy from first principles. Our Bespoke Consulting services deliver
-            tangible, project-based outcomes by crafting a plan meticulously aligned with your vision.
+            When you face challenges that off-the-shelf solutions can&apos;t fix, you need a partner who architects strategy from first principles. Our Bespoke Consulting services deliver tangible, project-based outcomes by crafting a plan meticulously aligned with your vision.
           </p>
 
           {/* CTA Button */}
@@ -102,10 +100,11 @@ export default function BespokeSolutions() {
               width: '339px',
               height: '65px',
               borderRadius: '10px',
-              background: 'linear-gradient(135deg, #6A36FF 0%, #AC5FE6 100%)',
-              fontFamily: 'Poppins, sans-serif',
-              fontWeight: 600,
-              fontSize: '18px',
+              background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '20px',
+              lineHeight: '140%',
               color: '#FFFFFF',
               textDecoration: 'none',
               cursor: 'pointer',
@@ -140,18 +139,15 @@ export default function BespokeSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '20px',
-              lineHeight: '160%',
+              fontSize: '30px',
+              lineHeight: '140%',
               letterSpacing: '0%',
               color: '#333333',
-              maxWidth: '900px',
+              maxWidth: '1201px',
               marginBottom: '60px',
             }}
           >
-            We don&apos;t sell pre-packaged solutions; we solve specific, high-stakes problems. Our approach is
-            tool-agnostic, meaning we diagnose your unique challenge first, then architect the right approach
-            to deliver a concrete, project-based outcome. This might involve our proprietary models, a proven
-            industry framework, or a completely custom-built strategy.
+            We don&apos;t sell pre-packaged solutions; we solve specific, high-stakes problems. Our approach is tool-agnostic, meaning we diagnose your unique challenge first, then architect the right approach to deliver a concrete, project-based outcome. This might involve our proprietary models, a proven industry framework, or a completely custom-built strategy.
           </p>
 
           {/* Step Cards Grid */}
@@ -165,7 +161,7 @@ export default function BespokeSolutions() {
                   backgroundColor: '#FFFFFF',
                   border: '3px solid #14358A',
                   borderRadius: '10px',
-                  padding: '32px 24px',
+                  padding: '23px 25px',
                   minHeight: '338px',
                   display: 'flex',
                   flexDirection: 'column',
@@ -173,51 +169,41 @@ export default function BespokeSolutions() {
                   textAlign: 'left',
                 }}
               >
-                {/* Icon Box */}
-                <div
-                  style={{
-                    width: '60px',
-                    height: '60px',
-                    borderRadius: '10px',
-                    backgroundColor: '#14358A',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    marginBottom: '24px',
-                    flexShrink: 0,
-                  }}
-                >
+                <div className="flex items-start gap-3 mb-6">
+                  {/* Icon */}
                   <Image
                     src={step.icon}
                     alt={step.step}
-                    width={24}
-                    height={24}
-                    style={{ objectFit: 'contain' }}
+                    width={64}
+                    height={64}
+                    style={{ objectFit: 'contain', flexShrink: 0 }}
                   />
-                </div>
 
-                {/* Step Title */}
-                <h3
-                  style={{
-                    fontFamily: 'Poppins, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '20px',
-                    lineHeight: '130%',
-                    color: '#14358A',
-                    marginBottom: '16px',
-                  }}
-                >
-                  {step.step}
-                </h3>
+                  {/* Step Title */}
+                  <h3
+                    style={{
+                      fontFamily: 'DM Sans, sans-serif',
+                      fontWeight: 700,
+                      fontSize: '29px',
+                      lineHeight: '105%',
+                      letterSpacing: '-0.03em',
+                      color: '#14358A',
+                      margin: '3px 0 0 0',
+                      whiteSpace: 'pre-wrap',
+                    }}
+                  >
+                    {step.step}
+                  </h3>
+                </div>
 
                 {/* Step Description */}
                 <p
                   style={{
-                    fontFamily: 'Montserrat, sans-serif',
+                    fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 400,
-                    fontSize: '15px',
-                    lineHeight: '160%',
-                    color: '#333333',
+                    fontSize: '16px',
+                    lineHeight: '140%',
+                    color: '#68718B',
                   }}
                 >
                   {step.description}
@@ -263,11 +249,11 @@ export default function BespokeSolutions() {
           {/* Heading */}
           <h2
             style={{
-              fontFamily: 'Poppins, sans-serif',
+              fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '38px',
-              lineHeight: '115%',
-              letterSpacing: '0%',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-1.44px',
               color: '#FFFFFF',
               textAlign: 'center',
               marginBottom: '28px',
@@ -281,11 +267,11 @@ export default function BespokeSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '18px',
-              lineHeight: '165%',
+              fontSize: '32px',
+              lineHeight: '135%',
               color: '#FFFFFF',
               textAlign: 'center',
-              maxWidth: '780px',
+              maxWidth: '1196px',
               margin: '0 auto 52px auto',
             }}
           >
@@ -298,83 +284,73 @@ export default function BespokeSolutions() {
           <div className="flex flex-col lg:flex-row gap-10 items-start justify-between">
 
             {/* Left: bullet list */}
-            <div className="flex flex-col gap-8 flex-1">
+            <div className="flex flex-col flex-1" style={{ maxWidth: '700px', gap: '32px' }}>
 
-              {/* Item 1 */}
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 mt-1">
-                  <Image src="/bespoke-arrow.png" alt="arrow" width={28} height={20} style={{ objectFit: 'contain' }} />
+              {[
+                {
+                  heading: 'Deep-Dive Analysis',
+                  body: 'A PMG functional expert performs a thorough analysis to isolate the true root causes of your challenge, moving beyond surface-level symptoms.',
+                },
+                {
+                  heading: 'Tailored Solution Architecture',
+                  body: 'We design a high-level solution blueprint, selecting the optimal tools and methodologies for your specific context.',
+                },
+                {
+                  heading: 'Internal Peer Validation',
+                  body: "Our internal, double-blind QA process stress-tests the proposed strategy, ensuring it's robust, logical, and free from individual bias.",
+                },
+                {
+                  heading: 'Transparent Blueprint Delivery',
+                  body: 'We present the validated blueprint to you. The full engagement only moves forward once you have confidence in the plan and its expected outcomes.',
+                },
+              ].map((item, idx) => (
+                <div key={idx} className="flex items-start" style={{ gap: '12px' }}>
+                  <div className="flex-shrink-0" style={{ marginTop: '3px' }}>
+                    <Image src="/bespoke-arrow.png" alt="arrow" width={24} height={18} style={{ objectFit: 'contain' }} />
+                  </div>
+                  <div>
+                    <h3 style={{
+                      fontFamily: 'Montserrat, sans-serif',
+                      fontWeight: 700,
+                      fontSize: '27px',
+                      lineHeight: '1.4',
+                      color: '#FFFFFF',
+                      margin: '0 0 6px 0',
+                    }}>
+                      {item.heading}
+                    </h3>
+                    <p style={{
+                      fontFamily: 'Montserrat, sans-serif',
+                      fontWeight: 400,
+                      fontSize: '25px',
+                      lineHeight: '1.4',
+                      color: '#FFFFFF',
+                      margin: 0,
+                    }}>
+                      {item.body}
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h3 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: '20px', color: '#FFFFFF', marginBottom: '8px' }}>
-                    Deep-Dive Analysis
-                  </h3>
-                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '160%', color: '#FFFFFF', maxWidth: '520px' }}>
-                    A PMG functional expert performs a thorough analysis to isolate the true root
-                    causes of your challenge, moving beyond surface-level symptoms.
-                  </p>
-                </div>
-              </div>
-
-              {/* Item 2 */}
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 mt-1">
-                  <Image src="/bespoke-arrow.png" alt="arrow" width={28} height={20} style={{ objectFit: 'contain' }} />
-                </div>
-                <div>
-                  <h3 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: '20px', color: '#FFFFFF', marginBottom: '8px' }}>
-                    Tailored Solution Architecture
-                  </h3>
-                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '160%', color: '#FFFFFF', maxWidth: '520px' }}>
-                    We design a high-level solution blueprint, selecting the optimal tools and
-                    methodologies for your specific context.
-                  </p>
-                </div>
-              </div>
-
-              {/* Item 3 */}
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 mt-1">
-                  <Image src="/bespoke-arrow.png" alt="arrow" width={28} height={20} style={{ objectFit: 'contain' }} />
-                </div>
-                <div>
-                  <h3 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: '20px', color: '#FFFFFF', marginBottom: '8px' }}>
-                    Internal Peer Validation
-                  </h3>
-                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '160%', color: '#FFFFFF', maxWidth: '520px' }}>
-                    Our internal, double-blind QA process stress-tests the proposed strategy,
-                    ensuring it&apos;s robust, logical, and free from individual bias.
-                  </p>
-                </div>
-              </div>
-
-              {/* Item 4 */}
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 mt-1">
-                  <Image src="/bespoke-arrow.png" alt="arrow" width={28} height={20} style={{ objectFit: 'contain' }} />
-                </div>
-                <div>
-                  <h3 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: '20px', color: '#FFFFFF', marginBottom: '8px' }}>
-                    Transparent Blueprint Delivery
-                  </h3>
-                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '160%', color: '#FFFFFF', maxWidth: '520px' }}>
-                    We present the validated blueprint to you. The full engagement only moves forward
-                    once you have confidence in the plan and its expected outcomes.
-                  </p>
-                </div>
-              </div>
+              ))}
 
             </div>
 
-            {/* Right: Your Advantage box — component-12 background */}
+            {/* Right: Your Advantage box */}
             <div
               className="flex-shrink-0 relative"
               style={{
                 width: '514px',
-                minHeight: '188px',
+                minHeight: '178px',
                 alignSelf: 'center',
-                borderRadius: '16px',
+                borderRadius: '10px',
                 overflow: 'hidden',
+                background: '#FFFFFF',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '16px',
+                padding: '24px',
               }}
             >
               <img
@@ -389,27 +365,48 @@ export default function BespokeSolutions() {
                   zIndex: 0,
                 }}
               />
-              <div
-                className="absolute inset-0 flex flex-col items-center justify-center text-center"
-                style={{ padding: '36px 32px', zIndex: 1 }}
+              <h4
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: '30px',
+                  lineHeight: '110%',
+                  letterSpacing: '-0.9px',
+                  color: '#006FBA',
+                  textAlign: 'center',
+                  margin: 0,
+                  position: 'relative',
+                  zIndex: 1,
+                }}
               >
-                <h4 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: '22px', color: '#14358A', marginBottom: '12px' }}>
-                  Your Advantage:
-                </h4>
-                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '15px', lineHeight: '160%', color: '#333333' }}>
-                  Clarity before commitment. You invest in a pre-vetted execution plan, not just a
-                  consultant&apos;s time.
-                </p>
-              </div>
+                Your Advantage:
+              </h4>
+              <p
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 400,
+                  fontSize: '20px',
+                  lineHeight: '140%',
+                  color: '#68718B',
+                  textAlign: 'center',
+                  margin: 0,
+                  position: 'relative',
+                  zIndex: 1,
+                  maxWidth: '485px',
+                }}
+              >
+                Clarity before commitment. You invest in a pre-vetted execution plan, not just a
+                consultant&apos;s time.
+              </p>
             </div>
 
           </div>
         </div>
       </section>
       {/* ─── Section 4: Our Bespoke Consulting Process ─── */}
-      <section className="w-full bg-white pt-20 pb-0 overflow-hidden">
+      <section className="w-full bg-white pt-20 pb-16">
         {/* Header text */}
-        <div className="max-w-[1100px] mx-auto px-6 flex flex-col items-center text-center mb-10">
+        <div className="max-w-[1100px] mx-auto px-6 flex flex-col items-center text-center mb-12">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
@@ -442,7 +439,6 @@ export default function BespokeSolutions() {
               fontWeight: 400,
               fontSize: '28px',
               lineHeight: '140%',
-              letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',
               maxWidth: '860px',
@@ -454,9 +450,9 @@ export default function BespokeSolutions() {
         </div>
 
         {/* Wave + phases layout */}
-        <div className="relative w-full" style={{ minHeight: '500px' }}>
+        <div className="relative w-full" style={{ minHeight: '560px' }}>
 
-          {/* Wave image — full width, positioned in the vertical middle */}
+          {/* Wave image — full width, vertically centered */}
           <div
             className="absolute left-0 right-0"
             style={{ top: '50%', transform: 'translateY(-50%)', zIndex: 0 }}
@@ -465,132 +461,64 @@ export default function BespokeSolutions() {
               src="/bespoke-wave.png"
               alt="process wave"
               width={1440}
-              height={220}
+              height={226}
               style={{ width: '100%', height: 'auto', display: 'block' }}
             />
           </div>
 
-          {/* Four phases overlay */}
+          {/* Four phases grid overlay */}
           <div
-            className="relative max-w-[1300px] mx-auto px-6 grid grid-cols-4 gap-0"
-            style={{ zIndex: 1 }}
+            className="relative w-full max-w-[1400px] mx-auto px-8 grid grid-cols-4"
+            style={{ zIndex: 1, height: '560px' }}
           >
 
-            {/* Phase 1 — TOP */}
-            <div className="flex flex-col items-center" style={{ paddingBottom: '20px' }}>
-              <div
-                style={{
-                  maxWidth: '220px',
-                  textAlign: 'center',
-                  paddingBottom: '32px',
-                }}
-              >
+            {/* Phase 1 — text TOP, dot at bottom-left of wave */}
+            <div className="flex flex-col items-center justify-between" style={{ paddingBottom: '220px' }}>
+              <div style={{ maxWidth: '280px', textAlign: 'left', alignSelf: 'flex-start', transform: 'translateX(-30px)' }}>
                 <h3
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 700,
-                    fontSize: '24px',
-                    lineHeight: '32px',
+                    fontSize: '26px',
+                    lineHeight: '1.3',
                     color: '#14358A',
-                    marginBottom: '10px',
+                    marginBottom: '12px',
                   }}
                 >
                   Phase 1: Deep Dive &amp; Discovery
                 </h3>
-                <p
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '14px',
-                    lineHeight: '18px',
-                    color: '#5F5F5F',
-                    marginBottom: '8px',
-                  }}
-                >
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '17px', lineHeight: '1.4', color: '#424242', marginBottom: '10px' }}>
                   We start by understanding your unique landscape.
                 </p>
-                <p
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontWeight: 400,
-                    fontSize: '14px',
-                    lineHeight: '18px',
-                    color: '#5F5F5F',
-                  }}
-                >
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '15px', lineHeight: '1.5', color: '#5F5F5F' }}>
                   Our experts partner with your team for an in-depth exploration of your operations,
                   culture, and challenges. This is where we gather the essential insights that lay the
                   foundation for a truly customized strategy aligned with your vision.
                 </p>
               </div>
-              {/* Dot on wave */}
-              <div
-                style={{
-                  width: '32px',
-                  height: '32px',
-                  borderRadius: '50%',
-                  background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)',
-                  border: '4px solid white',
-                  boxShadow: '0 2px 8px rgba(20,53,138,0.3)',
-                  flexShrink: 0,
-                }}
-              />
+              <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)', border: '4px solid white', boxShadow: '0 2px 8px rgba(20,53,138,0.3)', flexShrink: 0 }} />
             </div>
 
-            {/* Phase 2 — BOTTOM */}
-            <div className="flex flex-col items-center justify-end">
-              {/* Dot on wave */}
-              <div
-                style={{
-                  width: '32px',
-                  height: '32px',
-                  borderRadius: '50%',
-                  background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)',
-                  border: '4px solid white',
-                  boxShadow: '0 2px 8px rgba(20,53,138,0.3)',
-                  flexShrink: 0,
-                }}
-              />
-              <div
-                style={{
-                  maxWidth: '220px',
-                  textAlign: 'center',
-                  paddingTop: '32px',
-                }}
-              >
+            {/* Phase 2 — dot at top of first hump, text BOTTOM */}
+            <div className="flex flex-col items-center justify-between" style={{ paddingTop: '100px' }}>
+              <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)', border: '4px solid white', boxShadow: '0 2px 8px rgba(20,53,138,0.3)', flexShrink: 0 }} />
+              <div style={{ maxWidth: '280px', textAlign: 'center' }}>
                 <h3
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 700,
-                    fontSize: '24px',
-                    lineHeight: '32px',
+                    fontSize: '26px',
+                    lineHeight: '1.3',
                     color: '#14358A',
-                    marginBottom: '10px',
+                    marginBottom: '12px',
                   }}
                 >
                   Phase 2: Strategic Blueprint
                 </h3>
-                <p
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '14px',
-                    lineHeight: '18px',
-                    color: '#5F5F5F',
-                    marginBottom: '8px',
-                  }}
-                >
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '17px', lineHeight: '1.4', color: '#424242', marginBottom: '10px' }}>
                   We design your tailored plan for success.
                 </p>
-                <p
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontWeight: 400,
-                    fontSize: '14px',
-                    lineHeight: '18px',
-                    color: '#5F5F5F',
-                  }}
-                >
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '15px', lineHeight: '1.5', color: '#5F5F5F' }}>
                   Using the insights from our discovery, we design a comprehensive, actionable plan.
                   This blueprint is precisely tailored to address your challenges, capitalize on
                   opportunities, and deliver on the goals we&apos;ve set together.
@@ -598,121 +526,53 @@ export default function BespokeSolutions() {
               </div>
             </div>
 
-            {/* Phase 3 — TOP */}
-            <div className="flex flex-col items-center" style={{ paddingBottom: '20px' }}>
-              <div
-                style={{
-                  maxWidth: '220px',
-                  textAlign: 'center',
-                  paddingBottom: '32px',
-                }}
-              >
+            {/* Phase 3 — text TOP, dot at top of second hump */}
+            <div className="flex flex-col items-center justify-between" style={{ paddingBottom: '100px' }}>
+              <div style={{ maxWidth: '280px', textAlign: 'right', alignSelf: 'flex-end' }}>
                 <h3
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 700,
-                    fontSize: '24px',
-                    lineHeight: '32px',
+                    fontSize: '26px',
+                    lineHeight: '1.3',
                     color: '#14358A',
-                    marginBottom: '10px',
+                    marginBottom: '12px',
                   }}
                 >
                   Phase 3: Focused Implementation
                 </h3>
-                <p
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '14px',
-                    lineHeight: '18px',
-                    color: '#5F5F5F',
-                    marginBottom: '8px',
-                  }}
-                >
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '17px', lineHeight: '1.4', color: '#424242', marginBottom: '10px' }}>
                   We put the plan into action with precision.
                 </p>
-                <p
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontWeight: 400,
-                    fontSize: '14px',
-                    lineHeight: '18px',
-                    color: '#5F5F5F',
-                  }}
-                >
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '15px', lineHeight: '1.5', color: '#5F5F5F' }}>
                   A strategy is only as good as its execution. In this phase, our team works
                   diligently alongside yours to bring the blueprint to life, ensuring smooth
                   integration and adapting as needed based on real-time feedback and results.
                 </p>
               </div>
-              {/* Dot on wave */}
-              <div
-                style={{
-                  width: '32px',
-                  height: '32px',
-                  borderRadius: '50%',
-                  background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)',
-                  border: '4px solid white',
-                  boxShadow: '0 2px 8px rgba(20,53,138,0.3)',
-                  flexShrink: 0,
-                }}
-              />
+              <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)', border: '4px solid white', boxShadow: '0 2px 8px rgba(20,53,138,0.3)', flexShrink: 0 }} />
             </div>
 
-            {/* Phase 4 — BOTTOM */}
-            <div className="flex flex-col items-center justify-end">
-              {/* Dot on wave */}
-              <div
-                style={{
-                  width: '32px',
-                  height: '32px',
-                  borderRadius: '50%',
-                  background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)',
-                  border: '4px solid white',
-                  boxShadow: '0 2px 8px rgba(20,53,138,0.3)',
-                  flexShrink: 0,
-                }}
-              />
-              <div
-                style={{
-                  maxWidth: '220px',
-                  textAlign: 'center',
-                  paddingTop: '32px',
-                }}
-              >
+            {/* Phase 4 — dot at bottom-right of wave, text BOTTOM */}
+            <div className="flex flex-col items-center justify-between" style={{ paddingTop: '220px' }}>
+              <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)', border: '4px solid white', boxShadow: '0 2px 8px rgba(20,53,138,0.3)', flexShrink: 0 }} />
+              <div style={{ maxWidth: '280px', textAlign: 'right', alignSelf: 'flex-end', transform: 'translateX(40px)' }}>
                 <h3
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 700,
-                    fontSize: '24px',
-                    lineHeight: '32px',
+                    fontSize: '26px',
+                    lineHeight: '1.3',
                     color: '#14358A',
-                    marginBottom: '10px',
+                    marginBottom: '12px',
                   }}
                 >
                   Phase 4: Sustain &amp; Optimize
                 </h3>
-                <p
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '14px',
-                    lineHeight: '18px',
-                    color: '#5F5F5F',
-                    marginBottom: '8px',
-                  }}
-                >
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '17px', lineHeight: '1.4', color: '#424242', marginBottom: '10px' }}>
                   We measure impact to ensure long-term success.
                 </p>
-                <p
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontWeight: 400,
-                    fontSize: '14px',
-                    lineHeight: '18px',
-                    color: '#5F5F5F',
-                  }}
-                >
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '15px', lineHeight: '1.5', color: '#5F5F5F' }}>
                   Our partnership doesn&apos;t end at launch. We continuously monitor outcomes, using
                   data to evaluate what&apos;s working and proactively identifying areas for
                   refinement. This ensures your business is positioned for sustained excellence.
@@ -726,7 +586,7 @@ export default function BespokeSolutions() {
 
       {/* ─── Section 5: Common Project Types ─── */}
       <section className="w-full bg-white py-20 px-6">
-        <div className="max-w-[1100px] mx-auto">
+        <div className="max-w-[1200px] mx-auto">
 
           {/* Header */}
           <div className="flex flex-col items-center text-center mb-16">
@@ -734,9 +594,9 @@ export default function BespokeSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '48px',
+                fontSize: '50px',
                 lineHeight: '105%',
-                letterSpacing: '-0.03em',
+                letterSpacing: '-1.5px',
                 textAlign: 'center',
                 color: '#14358A',
                 marginBottom: '24px',
@@ -750,10 +610,9 @@ export default function BespokeSolutions() {
                 fontWeight: 400,
                 fontSize: '28px',
                 lineHeight: '140%',
-                letterSpacing: '0%',
                 textAlign: 'center',
                 color: '#333333',
-                maxWidth: '820px',
+                maxWidth: '1100px',
               }}
             >
               While every project is bespoke, they often fall into one of four core problem
@@ -763,63 +622,20 @@ export default function BespokeSolutions() {
           </div>
 
           {/* Row 1 — icon LEFT, text RIGHT */}
-          <div className="flex flex-row items-center gap-12 mb-16">
-            {/* Icon */}
-            <div
-              className="flex-shrink-0"
-              style={{
-                width: '100px',
-                height: '100px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-              }}
-            >
-              <Image src="/bespoke-proj-1.png" alt="Operational Turnarounds" width={100} height={100} style={{ objectFit: 'contain' }} />
+          <div className="flex flex-row items-center gap-16 mb-16">
+            <div className="flex-shrink-0">
+              <Image src="/bespoke-proj-1.png" alt="Operational Turnarounds" width={220} height={200} style={{ objectFit: 'contain' }} />
             </div>
-            {/* Text */}
-            <div className="flex flex-col" style={{ textAlign: 'right', flex: 1 }}>
-              <h3
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '32px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A',
-                  marginBottom: '16px',
-                }}
-              >
+            <div className="flex flex-col flex-1" style={{ textAlign: 'right' }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px' }}>
                 Operational Turnarounds &amp; Scaling
               </h3>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontWeight: 400,
-                  fontSize: '28px',
-                  lineHeight: '140%',
-                  letterSpacing: '0%',
-                  textAlign: 'right',
-                  color: '#333333',
-                  marginBottom: '12px',
-                }}
-              >
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '28px', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'right' }}>
                 For when core systems are broken or unable to scale. We diagnose the root cause of
                 operational drag, redesign core processes, and manage the turnaround to restore
                 efficiency and enable growth.
               </p>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontWeight: 400,
-                  fontStyle: 'italic',
-                  fontSize: '23px',
-                  lineHeight: '140%',
-                  letterSpacing: '0%',
-                  textAlign: 'right',
-                  color: '#333333',
-                }}
-              >
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: '23px', lineHeight: '140%', color: '#333333', textAlign: 'right' }}>
                 Example Engagements: Rescuing a $32M support operation (Trilogy), streamlining
                 enterprise architecture (Artemis Capital).
               </p>
@@ -827,127 +643,41 @@ export default function BespokeSolutions() {
           </div>
 
           {/* Row 2 — text LEFT, icon RIGHT */}
-          <div className="flex flex-row items-center gap-12 mb-16">
-            {/* Text */}
-            <div className="flex flex-col" style={{ textAlign: 'left', flex: 1 }}>
-              <h3
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '32px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A',
-                  marginBottom: '16px',
-                }}
-              >
+          <div className="flex flex-row items-center gap-16 mb-16">
+            <div className="flex flex-col flex-1" style={{ textAlign: 'left' }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px' }}>
                 M&amp;A Integration &amp; Carve-Outs
               </h3>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontWeight: 400,
-                  fontSize: '28px',
-                  lineHeight: '140%',
-                  letterSpacing: '0%',
-                  textAlign: 'left',
-                  color: '#333333',
-                  marginBottom: '12px',
-                }}
-              >
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '28px', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'left' }}>
                 For complex post-merger integrations or strategic divestitures. We manage the
                 intricate process of combining or separating systems, cultures, and operations to
                 maximize value and minimize disruption.
               </p>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontWeight: 400,
-                  fontStyle: 'italic',
-                  fontSize: '23px',
-                  lineHeight: '140%',
-                  letterSpacing: '0%',
-                  textAlign: 'left',
-                  color: '#333333',
-                }}
-              >
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: '23px', lineHeight: '140%', color: '#333333', textAlign: 'left' }}>
                 Example Engagements: Resolving post-acquisition technical debt and customer churn
                 (Avolin), strategic divestitures.
               </p>
             </div>
-            {/* Icon */}
-            <div
-              className="flex-shrink-0"
-              style={{
-                width: '100px',
-                height: '100px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-              }}
-            >
-              <Image src="/bespoke-proj-2.png" alt="M&A Integration" width={100} height={100} style={{ objectFit: 'contain' }} />
+            <div className="flex-shrink-0">
+              <Image src="/bespoke-proj-2.png" alt="M&A Integration" width={260} height={250} style={{ objectFit: 'contain' }} />
             </div>
           </div>
 
           {/* Row 3 — icon LEFT, text RIGHT */}
-          <div className="flex flex-row items-center gap-12 mb-16">
-            {/* Icon */}
-            <div
-              className="flex-shrink-0"
-              style={{
-                width: '100px',
-                height: '100px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-              }}
-            >
-              <Image src="/bespoke-proj-3.png" alt="Growth & Market Entry" width={100} height={100} style={{ objectFit: 'contain' }} />
+          <div className="flex flex-row items-center gap-16 mb-16">
+            <div className="flex-shrink-0">
+              <Image src="/bespoke-proj-3.png" alt="M&A Integration Carve-Outs" width={280} height={240} style={{ objectFit: 'contain' }} />
             </div>
-            {/* Text */}
-            <div className="flex flex-col" style={{ textAlign: 'right', flex: 1 }}>
-              <h3
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '32px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A',
-                  marginBottom: '16px',
-                }}
-              >
+            <div className="flex flex-col flex-1" style={{ textAlign: 'right' }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px', textAlign: 'right' }}>
                 M&amp;A Integration &amp; Carve-Outs
               </h3>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontWeight: 400,
-                  fontSize: '28px',
-                  lineHeight: '140%',
-                  letterSpacing: '0%',
-                  textAlign: 'right',
-                  color: '#333333',
-                  marginBottom: '12px',
-                }}
-              >
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '28px', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'right' }}>
                 For complex post-merger integrations or strategic divestitures. We manage the
                 intricate process of combining or separating systems, cultures, and operations to
                 maximize value and minimize disruption.
               </p>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontWeight: 400,
-                  fontStyle: 'italic',
-                  fontSize: '23px',
-                  lineHeight: '140%',
-                  letterSpacing: '0%',
-                  textAlign: 'right',
-                  color: '#333333',
-                }}
-              >
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: '23px', lineHeight: '140%', color: '#333333', textAlign: 'right' }}>
                 Example Engagements: Resolving post-acquisition technical debt and customer churn
                 (Avolin), strategic divestitures.
               </p>
@@ -955,66 +685,23 @@ export default function BespokeSolutions() {
           </div>
 
           {/* Row 4 — text LEFT, icon RIGHT */}
-          <div className="flex flex-row items-center gap-12">
-            {/* Text */}
-            <div className="flex flex-col" style={{ textAlign: 'left', flex: 1 }}>
-              <h3
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '32px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A',
-                  marginBottom: '16px',
-                }}
-              >
+          <div className="flex flex-row items-center gap-16">
+            <div className="flex flex-col flex-1" style={{ textAlign: 'left' }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px' }}>
                 Complex Systems &amp; Architecture
               </h3>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontWeight: 400,
-                  fontSize: '28px',
-                  lineHeight: '140%',
-                  letterSpacing: '0%',
-                  textAlign: 'left',
-                  color: '#333333',
-                  marginBottom: '12px',
-                }}
-              >
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '28px', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'left' }}>
                 For when your technology or data architecture is a barrier to growth. We deconstruct
                 monolithic systems, eliminate data silos, and design scalable, I-O based
                 architectures that provide a foundation for future innovation.
               </p>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontWeight: 400,
-                  fontStyle: 'italic',
-                  fontSize: '23px',
-                  lineHeight: '140%',
-                  letterSpacing: '0%',
-                  textAlign: 'left',
-                  color: '#333333',
-                }}
-              >
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: '23px', lineHeight: '140%', color: '#333333', textAlign: 'left' }}>
                 Example Engagements: Unifying enterprise data silos (Artemis Capital), redesigning
                 legacy platforms.
               </p>
             </div>
-            {/* Icon */}
-            <div
-              className="flex-shrink-0"
-              style={{
-                width: '100px',
-                height: '100px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-              }}
-            >
-              <Image src="/bespoke-proj-4.png" alt="Complex Systems" width={100} height={100} style={{ objectFit: 'contain' }} />
+            <div className="flex-shrink-0">
+              <Image src="/bespoke-proj-4.png" alt="Complex Systems" width={290} height={260} style={{ objectFit: 'contain' }} />
             </div>
           </div>
 
@@ -1057,16 +744,14 @@ export default function BespokeSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '22px',
-                lineHeight: '150%',
+                fontSize: '28px',
+                lineHeight: '140%',
                 color: '#333333',
-                maxWidth: '700px',
+                maxWidth: '1216px',
                 textAlign: 'center',
               }}
             >
-              Our partnerships are built on a foundation of transparency and measurable outcomes.
-              We don&apos;t just promise results; we provide concrete mechanisms to ensure we deliver
-              them.
+              Our partnerships are built on a foundation of transparency and measurable outcomes. We don&apos;t just promise results; we provide concrete mechanisms to ensure we deliver them.
             </p>
           </div>
 
@@ -1076,35 +761,23 @@ export default function BespokeSolutions() {
             {/* Card 1 */}
             <div
               style={{
-                border: '2px solid #14358A',
+                border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '28px 24px',
+                padding: '23px 25px',
                 backgroundColor: '#FFFFFF',
                 display: 'flex',
                 flexDirection: 'column',
                 gap: '16px',
               }}
             >
-              <div
-                style={{
-                  width: '52px',
-                  height: '52px',
-                  borderRadius: '10px',
-                  backgroundColor: '#14358A',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  flexShrink: 0,
-                }}
-              >
-                <Image src="/icon-vector-9.png" alt="Transparent Success Metrics" width={28} height={28} style={{ objectFit: 'contain' }} />
-              </div>
+              <Image src="/accountability-icon-1.png" alt="Transparent Success Metrics" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
               <h3
                 style={{
-                  fontFamily: 'Poppins, sans-serif',
+                  fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '20px',
-                  lineHeight: '130%',
+                  fontSize: '29px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
                   color: '#14358A',
                 }}
               >
@@ -1112,11 +785,11 @@ export default function BespokeSolutions() {
               </h3>
               <p
                 style={{
-                  fontFamily: 'Montserrat, sans-serif',
+                  fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '14px',
-                  lineHeight: '160%',
-                  color: '#333333',
+                  fontSize: '16px',
+                  lineHeight: '140%',
+                  color: '#68718B',
                 }}
               >
                 Before any project begins, we work with you to define specific, measurable KPIs that
@@ -1128,35 +801,23 @@ export default function BespokeSolutions() {
             {/* Card 2 */}
             <div
               style={{
-                border: '2px solid #14358A',
+                border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '28px 24px',
+                padding: '23px 25px',
                 backgroundColor: '#FFFFFF',
                 display: 'flex',
                 flexDirection: 'column',
                 gap: '16px',
               }}
             >
-              <div
-                style={{
-                  width: '52px',
-                  height: '52px',
-                  borderRadius: '10px',
-                  backgroundColor: '#14358A',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  flexShrink: 0,
-                }}
-              >
-                <Image src="/icon-blueprint.png" alt="Consistent Progress Reviews" width={28} height={28} style={{ objectFit: 'contain' }} />
-              </div>
+              <Image src="/accountability-icon-2.png" alt="Consistent Progress Reviews" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
               <h3
                 style={{
-                  fontFamily: 'Poppins, sans-serif',
+                  fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '20px',
-                  lineHeight: '130%',
+                  fontSize: '29px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
                   color: '#14358A',
                 }}
               >
@@ -1164,11 +825,11 @@ export default function BespokeSolutions() {
               </h3>
               <p
                 style={{
-                  fontFamily: 'Montserrat, sans-serif',
+                  fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '14px',
-                  lineHeight: '160%',
-                  color: '#333333',
+                  fontSize: '16px',
+                  lineHeight: '140%',
+                  color: '#68718B',
                 }}
               >
                 We establish a regular cadence of progress reviews, providing documented updates that
@@ -1180,35 +841,23 @@ export default function BespokeSolutions() {
             {/* Card 3 */}
             <div
               style={{
-                border: '2px solid #14358A',
+                border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '28px 24px',
+                padding: '23px 25px',
                 backgroundColor: '#FFFFFF',
                 display: 'flex',
                 flexDirection: 'column',
                 gap: '16px',
               }}
             >
-              <div
-                style={{
-                  width: '52px',
-                  height: '52px',
-                  borderRadius: '10px',
-                  backgroundColor: '#14358A',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  flexShrink: 0,
-                }}
-              >
-                <Image src="/icon-check-correct.png" alt="Post-Engagement Success Audit" width={28} height={28} style={{ objectFit: 'contain' }} />
-              </div>
+              <Image src="/accountability-icon-3.png" alt="Post-Engagement Success Audit" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
               <h3
                 style={{
-                  fontFamily: 'Poppins, sans-serif',
+                  fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '20px',
-                  lineHeight: '130%',
+                  fontSize: '29px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
                   color: '#14358A',
                 }}
               >
@@ -1216,11 +865,11 @@ export default function BespokeSolutions() {
               </h3>
               <p
                 style={{
-                  fontFamily: 'Montserrat, sans-serif',
+                  fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '14px',
-                  lineHeight: '160%',
-                  color: '#333333',
+                  fontSize: '16px',
+                  lineHeight: '140%',
+                  color: '#68718B',
                 }}
               >
                 Our commitment extends beyond project completion. We conduct 6- and 12-month
@@ -1236,14 +885,17 @@ export default function BespokeSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '24px',
-              lineHeight: '140%',
+              fontSize: '32px',
+              lineHeight: '105%',
+              letterSpacing: '-0.96px',
               color: '#14358A',
               textAlign: 'center',
+              maxWidth: '1011px',
+              margin: '0 auto',
+              whiteSpace: 'pre-wrap',
             }}
           >
-            The Result: You get more than a consulting firm. You get a partner whose success is
-            directly tied to your measurable project outcomes.
+            {`The Result: You get more than a consulting firm. You get a partner whose success is directly tied to your measurable project outcomes.`}
           </p>
 
         </div>
@@ -1252,7 +904,7 @@ export default function BespokeSolutions() {
       {/* ─── Section 7: How to Get Started ─── */}
       <section
         className="w-full py-20 px-6"
-        style={{ backgroundColor: '#EDF2FB' }}
+        style={{ backgroundColor: '#EBF7FF' }}
       >
         <div className="max-w-[1100px] mx-auto flex flex-col items-center">
 
@@ -1275,16 +927,15 @@ export default function BespokeSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '22px',
-              lineHeight: '150%',
+              fontSize: '32px',
+              lineHeight: '135%',
               color: '#333333',
               textAlign: 'center',
-              maxWidth: '700px',
+              maxWidth: '1196px',
               marginBottom: '48px',
             }}
           >
-            Our process is designed to be clear and efficient, moving from initial interest to
-            impactful engagement in a matter of weeks.
+            Our process is designed to be clear and efficient, moving from initial interest to impactful engagement in a matter of weeks.
           </p>
 
           {/* Two cards side by side */}
@@ -1293,82 +944,83 @@ export default function BespokeSolutions() {
             {/* Card: The Discovery Call */}
             <div
               style={{
-                border: '2px solid #14358A',
+                border: '3px solid #14358A',
                 borderRadius: '10px',
-                backgroundColor: '#FFFFFF',
-                padding: '28px 24px',
+                backgroundColor: '#EBF7FF',
+                padding: '23px 25px',
+                minHeight: '331px',
               }}
             >
               <h3
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '22px',
-                  lineHeight: '130%',
+                  fontSize: '29px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
                   color: '#14358A',
-                  marginBottom: '14px',
+                  marginBottom: '20px',
                 }}
               >
                 The Discovery Call
               </h3>
               <p
                 style={{
-                  fontFamily: 'Montserrat, sans-serif',
+                  fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '14px',
-                  lineHeight: '160%',
-                  color: '#333333',
+                  fontSize: '16px',
+                  lineHeight: '140%',
+                  color: '#68718B',
                   marginBottom: '10px',
                 }}
               >
-                This initial 30 to 45 minute conversation is designed for mutual discovery. We&apos;ll
-                discuss:
+                This initial 30 to 45 minute conversation is designed for mutual discovery. We&apos;ll discuss:
               </p>
-              <ul
+              <div
                 style={{
-                  fontFamily: 'Montserrat, sans-serif',
+                  fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '14px',
-                  lineHeight: '170%',
-                  color: '#333333',
-                  paddingLeft: '0',
-                  listStyle: 'none',
+                  fontSize: '16px',
+                  lineHeight: '140%',
+                  color: '#68718B',
                 }}
               >
-                <li>Your core business challenges and strategic goals.</li>
-                <li>Your previous attempts to solve these problems.</li>
-                <li>How PMG&apos;s Blueprint-First approach de-risks your investment in transformation.</li>
-              </ul>
+                <p style={{ margin: '0 0 4px 0' }}>Your core business challenges and strategic goals.</p>
+                <p style={{ margin: '0 0 4px 0' }}>Your previous attempts to solve these problems.</p>
+                <p style={{ margin: 0 }}>How PMG&apos;s Blueprint-First approach de-risks your investment in transformation.</p>
+              </div>
             </div>
 
             {/* Card: What to Expect */}
             <div
               style={{
-                border: '2px solid #14358A',
+                border: '3px solid #14358A',
                 borderRadius: '10px',
-                backgroundColor: '#FFFFFF',
-                padding: '28px 24px',
+                backgroundColor: '#EBF7FF',
+                padding: '23px 25px',
+                minHeight: '331px',
               }}
             >
               <h3
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '22px',
-                  lineHeight: '130%',
+                  fontSize: '29px',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
                   color: '#14358A',
-                  marginBottom: '14px',
+                  marginBottom: '20px',
                 }}
               >
                 What to Expect
               </h3>
               <p
                 style={{
-                  fontFamily: 'Montserrat, sans-serif',
+                  fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '14px',
-                  lineHeight: '160%',
-                  color: '#333333',
+                  fontSize: '16px',
+                  lineHeight: '140%',
+                  color: '#68718B',
                   marginBottom: '6px',
                 }}
               >
@@ -1376,24 +1028,23 @@ export default function BespokeSolutions() {
               </p>
               <p
                 style={{
-                  fontFamily: 'Montserrat, sans-serif',
+                  fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '14px',
-                  lineHeight: '170%',
-                  color: '#333333',
+                  fontSize: '16px',
+                  lineHeight: '140%',
+                  color: '#68718B',
                   marginBottom: '12px',
                 }}
               >
-                To ensure a productive conversation, please include the primary decision-makers
-                (e.g., CEO, COO, or Head of Operations).
+                To ensure a productive conversation, please include the primary decision-makers (e.g., CEO, COO, or Head of Operations).
               </p>
               <p
                 style={{
-                  fontFamily: 'Montserrat, sans-serif',
+                  fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '14px',
-                  lineHeight: '160%',
-                  color: '#333333',
+                  fontSize: '16px',
+                  lineHeight: '140%',
+                  color: '#68718B',
                   marginBottom: '6px',
                 }}
               >
@@ -1401,15 +1052,14 @@ export default function BespokeSolutions() {
               </p>
               <p
                 style={{
-                  fontFamily: 'Montserrat, sans-serif',
+                  fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '14px',
-                  lineHeight: '170%',
-                  color: '#333333',
+                  fontSize: '16px',
+                  lineHeight: '140%',
+                  color: '#68718B',
                 }}
               >
-                Most bespoke consulting engagements begin within 2 to 4 weeks of our initial
-                discovery call.
+                Most bespoke consulting engagements begin within 2 to 4 weeks of our initial discovery call.
               </p>
             </div>
 
@@ -1422,13 +1072,14 @@ export default function BespokeSolutions() {
               display: 'inline-flex',
               alignItems: 'center',
               justifyContent: 'center',
-              width: '339px',
+              width: '319px',
               height: '65px',
               borderRadius: '10px',
-              background: 'linear-gradient(135deg, #6A36FF 0%, #AC5FE6 100%)',
-              fontFamily: 'Poppins, sans-serif',
-              fontWeight: 600,
-              fontSize: '18px',
+              background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '20px',
+              lineHeight: '140%',
               color: '#FFFFFF',
               textDecoration: 'none',
               cursor: 'pointer',

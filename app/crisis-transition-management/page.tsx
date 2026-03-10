@@ -1,7 +1,8 @@
-﻿"use client";
+"use client";
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ApproachRoadmap from '@/components/ApproachRoadmap';
 
 export default function CrisisTransitionManagement() {
   return (
@@ -31,8 +32,11 @@ export default function CrisisTransitionManagement() {
           {/* Business Continuity & Resilience Planning */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="white" strokeWidth="1.5"/><circle cx="12" cy="12" r="5" stroke="white" strokeWidth="1.5"/><circle cx="12" cy="12" r="1.5" fill="white"/><line x1="12" y1="2" x2="12" y2="7" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><line x1="12" y1="17" x2="12" y2="22" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><line x1="2" y1="12" x2="7" y2="12" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><line x1="17" y1="12" x2="22" y2="12" stroke="white" strokeWidth="1.5" strokeLinecap="round"/></svg>
+              <div
+                className="flex items-center justify-center flex-shrink-0"
+                style={{ width: 64, height: 64, borderRadius: '10px', background: '#14358A' }}
+              >
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="white" strokeWidth="1.5"/><circle cx="12" cy="12" r="5" stroke="white" strokeWidth="1.5"/><circle cx="12" cy="12" r="1.5" fill="white"/><line x1="12" y1="2" x2="12" y2="7" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><line x1="12" y1="17" x2="12" y2="22" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><line x1="2" y1="12" x2="7" y2="12" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><line x1="17" y1="12" x2="22" y2="12" stroke="white" strokeWidth="1.5" strokeLinecap="round"/></svg>
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Business Continuity & Resilience Planning</h3>
             </div>
@@ -42,8 +46,11 @@ export default function CrisisTransitionManagement() {
           {/* Interim Executive Leadership */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><line x1="12" y1="1" x2="12" y2="23" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+              <div
+                className="flex items-center justify-center flex-shrink-0"
+                style={{ width: 64, height: 64, borderRadius: '10px', background: '#14358A' }}
+              >
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><line x1="12" y1="1" x2="12" y2="23" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Interim Executive Leadership</h3>
             </div>
@@ -53,8 +60,11 @@ export default function CrisisTransitionManagement() {
           {/* Turnaround & Restructuring Strategy */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="8" rx="4" stroke="white" strokeWidth="1.5"/><circle cx="18" cy="6" r="2" fill="white"/><rect x="2" y="14" width="20" height="8" rx="4" stroke="white" strokeWidth="1.5"/><circle cx="6" cy="18" r="2" stroke="white" strokeWidth="1.5"/></svg>
+              <div
+                className="flex items-center justify-center flex-shrink-0"
+                style={{ width: 64, height: 64, borderRadius: '10px', background: '#14358A' }}
+              >
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="8" rx="4" stroke="white" strokeWidth="1.5"/><circle cx="18" cy="6" r="2" fill="white"/><rect x="2" y="14" width="20" height="8" rx="4" stroke="white" strokeWidth="1.5"/><circle cx="6" cy="18" r="2" stroke="white" strokeWidth="1.5"/></svg>
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Turnaround & Restructuring Strategy</h3>
             </div>
@@ -64,8 +74,11 @@ export default function CrisisTransitionManagement() {
           {/* Crisis Communication & Reputation Defense */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="5" y="2" width="14" height="20" rx="2" stroke="white" strokeWidth="1.5"/><line x1="9" y1="18" x2="15" y2="18" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><line x1="10" y1="5" x2="14" y2="5" stroke="white" strokeWidth="1.5" strokeLinecap="round"/></svg>
+              <div
+                className="flex items-center justify-center flex-shrink-0"
+                style={{ width: 64, height: 64, borderRadius: '10px', background: '#14358A' }}
+              >
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><rect x="5" y="2" width="14" height="20" rx="2" stroke="white" strokeWidth="1.5"/><line x1="9" y1="18" x2="15" y2="18" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><line x1="10" y1="5" x2="14" y2="5" stroke="white" strokeWidth="1.5" strokeLinecap="round"/></svg>
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Crisis Communication & Reputation Defense</h3>
             </div>
@@ -75,8 +88,11 @@ export default function CrisisTransitionManagement() {
           {/* Post-Crisis Recovery & Learning */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><rect x="2" y="7" width="20" height="14" rx="2" stroke="white" strokeWidth="1.5"/><path d="M2 13h20" stroke="white" strokeWidth="1.5"/><rect x="9" y="13" width="6" height="4" rx="1" stroke="white" strokeWidth="1.5"/></svg>
+              <div
+                className="flex items-center justify-center flex-shrink-0"
+                style={{ width: 64, height: 64, borderRadius: '10px', background: '#14358A' }}
+              >
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><rect x="2" y="7" width="20" height="14" rx="2" stroke="white" strokeWidth="1.5"/><path d="M2 13h20" stroke="white" strokeWidth="1.5"/><rect x="9" y="13" width="6" height="4" rx="1" stroke="white" strokeWidth="1.5"/></svg>
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Post-Crisis Recovery & Learning</h3>
             </div>
@@ -86,8 +102,11 @@ export default function CrisisTransitionManagement() {
           {/* Succession Transition Coaching */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="white" strokeWidth="1.5"/><line x1="12" y1="12" x2="12" y2="6" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><polyline points="9.5,8.5 12,6 14.5,8.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><line x1="12" y1="12" x2="16.5" y2="16.5" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><polyline points="14,17.5 17,17.5 17,14.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><line x1="12" y1="12" x2="7.5" y2="16.5" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><polyline points="7,14.5 7,17.5 10,17.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+              <div
+                className="flex items-center justify-center flex-shrink-0"
+                style={{ width: 64, height: 64, borderRadius: '10px', background: '#14358A' }}
+              >
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="white" strokeWidth="1.5"/><line x1="12" y1="12" x2="12" y2="6" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><polyline points="9.5,8.5 12,6 14.5,8.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><line x1="12" y1="12" x2="16.5" y2="16.5" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><polyline points="14,17.5 17,17.5 17,14.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><line x1="12" y1="12" x2="7.5" y2="16.5" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><polyline points="7,14.5 7,17.5 10,17.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Succession Transition Coaching</h3>
             </div>
@@ -97,8 +116,11 @@ export default function CrisisTransitionManagement() {
           {/* Financial Liquidity Management */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 3v18h18" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><rect x="5" y="14" width="3" height="5" stroke="white" strokeWidth="1.2" fill="none"/><rect x="10" y="10" width="3" height="9" stroke="white" strokeWidth="1.2" fill="none"/><rect x="15" y="6" width="3" height="13" stroke="white" strokeWidth="1.2" fill="none"/></svg>
+              <div
+                className="flex items-center justify-center flex-shrink-0"
+                style={{ width: 64, height: 64, borderRadius: '10px', background: '#14358A' }}
+              >
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M3 3v18h18" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><rect x="5" y="14" width="3" height="5" stroke="white" strokeWidth="1.2" fill="none"/><rect x="10" y="10" width="3" height="9" stroke="white" strokeWidth="1.2" fill="none"/><rect x="15" y="6" width="3" height="13" stroke="white" strokeWidth="1.2" fill="none"/></svg>
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Financial Liquidity Management</h3>
             </div>
@@ -108,8 +130,11 @@ export default function CrisisTransitionManagement() {
           {/* Organizational Stabilization */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 3v18h18" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><path d="M5 17l4-6 4 3 5-8" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><path d="M5 17l4-6 4 3 5-8v9H5z" fill="white" fillOpacity="0.25"/></svg>
+              <div
+                className="flex items-center justify-center flex-shrink-0"
+                style={{ width: 64, height: 64, borderRadius: '10px', background: '#14358A' }}
+              >
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M3 3v18h18" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><path d="M5 17l4-6 4 3 5-8" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><path d="M5 17l4-6 4 3 5-8v9H5z" fill="white" fillOpacity="0.25"/></svg>
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Organizational Stabilization</h3>
             </div>
@@ -119,8 +144,11 @@ export default function CrisisTransitionManagement() {
           {/* Scenario Planning & War Gaming */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><line x1="7" y1="8" x2="12" y2="8" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><line x1="7" y1="11" x2="10" y2="11" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><path d="M15 7v1.5a2 2 0 0 1 4 0V7" stroke="white" strokeWidth="1.2" strokeLinecap="round"/><rect x="14" y="8.5" width="6" height="4" rx="1" stroke="white" strokeWidth="1.2" fill="none"/></svg>
+              <div
+                className="flex items-center justify-center flex-shrink-0"
+                style={{ width: 64, height: 64, borderRadius: '10px', background: '#14358A' }}
+              >
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><line x1="7" y1="8" x2="12" y2="8" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><line x1="7" y1="11" x2="10" y2="11" stroke="white" strokeWidth="1.5" strokeLinecap="round"/><path d="M15 7v1.5a2 2 0 0 1 4 0V7" stroke="white" strokeWidth="1.2" strokeLinecap="round"/><rect x="14" y="8.5" width="6" height="4" rx="1" stroke="white" strokeWidth="1.2" fill="none"/></svg>
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Scenario Planning & War Gaming</h3>
             </div>
@@ -149,8 +177,9 @@ export default function CrisisTransitionManagement() {
           </div>
         </div>
 
+        {/* Roadmap Image */}
         <div className="flex justify-center my-8">
-          <img src="/approach-roadmap.png" alt="Our Approach Roadmap" style={{ maxWidth: '1030px', width: '100%', height: 'auto' }} />
+          <ApproachRoadmap />
         </div>
 
         <div className="text-center max-w-[625px] mx-auto">
