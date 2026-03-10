@@ -35,7 +35,10 @@ export default function Header() {
   const isB2BProfessionalServicesPage = pathname === '/b2b-professional-services';
   const isIOArchitecturePage = pathname === '/io-architecture-model';
   const isBVUModelPage = pathname === '/business-value-unit-model';
-  const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage || isBespokeSolutionsPage || isInsightsPage || isInsightsInnovationsPage || isSaaSPage || isPublicSectorPage || isHigherEducationPage || isFoodAgribusinessPage || isTravelHospitalityPage || isWhyFunctionalConsultingPage || isStrategyOperationsPage || isPeopleOrganizationsPage || isCustomerExperiencePage || isMergersAcquisitionsPage || isActiveManagementPage || isEquitySolutionsPage || isOutOfTheBoxPage || isPowerOfWorkingWithUsPage || isContactUsPage || isSolutionAssessmentPage || isFinancialServicesPage || isB2BProfessionalServicesPage || isIOArchitecturePage || isBVUModelPage;
+  const isBrandingMarketingPage = pathname === '/branding-marketing-consulting';
+  const isBPOFractionalPage = pathname === '/bpo-fractional-talent-consulting';
+  const isCrisisTransitionPage = pathname === '/crisis-transition-management';
+  const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage || isBespokeSolutionsPage || isInsightsPage || isInsightsInnovationsPage || isSaaSPage || isPublicSectorPage || isHigherEducationPage || isFoodAgribusinessPage || isTravelHospitalityPage || isWhyFunctionalConsultingPage || isStrategyOperationsPage || isPeopleOrganizationsPage || isCustomerExperiencePage || isMergersAcquisitionsPage || isActiveManagementPage || isEquitySolutionsPage || isOutOfTheBoxPage || isPowerOfWorkingWithUsPage || isContactUsPage || isSolutionAssessmentPage || isFinancialServicesPage || isB2BProfessionalServicesPage || isIOArchitecturePage || isBVUModelPage || isBrandingMarketingPage || isBPOFractionalPage || isCrisisTransitionPage;
 
   const textColor = isLightPage ? 'text-black' : 'text-white';
   const logoTextColor = isLightPage ? 'text-[#000000]' : 'text-white'; // purely black for logo text on light pages
@@ -68,9 +71,9 @@ export default function Header() {
     { title: 'People & Organizations', desc: 'Unleashing Potential, Driving Performance.', href: '/people-organizations-consulting' },
     { title: 'Customer Experience', desc: 'Turning Transactions Into Relationships.', href: '/customer-experience-consulting' },
     { title: 'Mergers & Acquisitions', desc: 'Navigating Transitions, Maximizing Value.', href: '/mergers-acquisitions-consulting' },
-    { title: 'Branding & Marketing', desc: 'Crafting Identities That Captivate.', href: '/our-functional-areas' },
-    { title: 'BPO & Fractional Talent', desc: 'Seamless Solutions, Made Global.', href: '/our-functional-areas' },
-    { title: 'Crisis & Transition Management', desc: 'Navigating Uncertainty with Decisive Leadership.', href: '/our-functional-areas' },
+    { title: 'Branding & Marketing', desc: 'Crafting Identities That Captivate.', href: '/branding-marketing-consulting' },
+    { title: 'BPO & Fractional Talent', desc: 'Seamless Solutions, Made Global.', href: '/bpo-fractional-talent-consulting' },
+    { title: 'Crisis & Transition Management', desc: 'Navigating Uncertainty with Decisive Leadership.', href: '/crisis-transition-management' },
   ];
 
   const solutionsItems = [

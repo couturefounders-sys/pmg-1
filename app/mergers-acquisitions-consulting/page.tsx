@@ -92,24 +92,26 @@ export default function MergersAcquisitionsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '22px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '22px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Compliance & Risk Assessment
-            </h3>
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -131,24 +133,26 @@ export default function MergersAcquisitionsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M16 3h5v5M4 20L21 3M21 16v5h-5M14 14l7 7M3 8V3h5M10 10L3 3" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '22px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '22px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Divestitures & Spin-offs
-            </h3>
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -170,26 +174,28 @@ export default function MergersAcquisitionsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <circle cx="9" cy="7" r="4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '22px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '22px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Joint Ventures & Alliances
-            </h3>
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -211,25 +217,27 @@ export default function MergersAcquisitionsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '22px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '22px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               M&A Capability Building
-            </h3>
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -251,25 +259,27 @@ export default function MergersAcquisitionsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '22px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '22px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               M&A Strategy & Due Diligence
-            </h3>
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -291,27 +301,29 @@ export default function MergersAcquisitionsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <rect x="2" y="2" width="20" height="8" rx="2" ry="2" stroke="white" strokeWidth="2"/>
                 <rect x="2" y="14" width="20" height="8" rx="2" ry="2" stroke="white" strokeWidth="2"/>
                 <line x1="6" y1="6" x2="6.01" y2="6" stroke="white" strokeWidth="2" strokeLinecap="round"/>
                 <line x1="6" y1="18" x2="6.01" y2="18" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '22px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '22px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Post-Acquisition Integration
-            </h3>
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -333,25 +345,27 @@ export default function MergersAcquisitionsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M13.73 21a2 2 0 0 1-3.46 0" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '22px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '22px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Separations & IPOs
-            </h3>
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -373,24 +387,26 @@ export default function MergersAcquisitionsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '22px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '22px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Stakeholder Communication
-            </h3>
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -412,26 +428,28 @@ export default function MergersAcquisitionsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M2 17l10 5 10-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M2 12l10 5 10-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '22px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '22px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Transaction Structuring
-            </h3>
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -453,25 +471,27 @@ export default function MergersAcquisitionsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <line x1="12" y1="1" x2="12" y2="23" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '22px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '22px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Valuation & Negotiations
-            </h3>
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -493,24 +513,26 @@ export default function MergersAcquisitionsConsulting() {
               minHeight: '257px',
             }}
           >
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M18 20V10M12 20V4M6 20v-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '22px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '22px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Valuation Support
-            </h3>
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -660,31 +682,13 @@ export default function MergersAcquisitionsConsulting() {
           <div className="flex flex-col gap-4">
              {/* Capability Pills with Figma Connector */}
             <div className="relative flex gap-6">
-              {/* Left Connector SVG — blue bullets per pill + gray dots between */}
-              <div className="flex-shrink-0" style={{ width: '50px' }}>
-                <svg width="50" height="424" viewBox="0 0 50 424" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="10" cy="36" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="124" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="212" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="300" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="388" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="68" r="5" fill="#424856"/>
-                  <circle cx="10" cy="80" r="5" fill="#424856"/>
-                  <circle cx="10" cy="92" r="5" fill="#424856"/>
-                  <circle cx="36" cy="80" r="5" fill="#424856"/>
-                  <circle cx="10" cy="156" r="5" fill="#424856"/>
-                  <circle cx="10" cy="168" r="5" fill="#424856"/>
-                  <circle cx="10" cy="180" r="5" fill="#424856"/>
-                  <circle cx="36" cy="168" r="5" fill="#424856"/>
-                  <circle cx="10" cy="244" r="5" fill="#424856"/>
-                  <circle cx="10" cy="256" r="5" fill="#424856"/>
-                  <circle cx="10" cy="268" r="5" fill="#424856"/>
-                  <circle cx="36" cy="256" r="5" fill="#424856"/>
-                  <circle cx="10" cy="332" r="5" fill="#424856"/>
-                  <circle cx="10" cy="344" r="5" fill="#424856"/>
-                  <circle cx="10" cy="356" r="5" fill="#424856"/>
-                  <circle cx="36" cy="344" r="5" fill="#424856"/>
-                </svg>
+              {/* Left Connector — Figma infographic elements stacked */}
+              <div className="flex-shrink-0 relative" style={{ width: '50px', height: '440px' }}>
+                <img src="/ma-infographic-1.svg" alt="" style={{ position: 'absolute', top: '0', left: '0', width: '50px', height: '88px' }} />
+                <img src="/ma-infographic-2.svg" alt="" style={{ position: 'absolute', top: '88px', left: '0', width: '50px', height: '88px' }} />
+                <img src="/ma-infographic-3.svg" alt="" style={{ position: 'absolute', top: '176px', left: '0', width: '50px', height: '88px' }} />
+                <img src="/ma-infographic-4.svg" alt="" style={{ position: 'absolute', top: '264px', left: '0', width: '50px', height: '88px' }} />
+                <img src="/ma-infographic-5.svg" alt="" style={{ position: 'absolute', top: '352px', left: '0', width: '50px', height: '88px' }} />
               </div>
 
               {/* Pills Column */}
@@ -692,16 +696,7 @@ export default function MergersAcquisitionsConsulting() {
                 {/* Product Lifecycle Management */}
                 <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                          <rect x="3" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
-                          <rect x="14" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
-                          <rect x="3" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
-                          <rect x="14" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
-                        </svg>
-                      </div>
-                    </div>
+                    <img src="/ma-icon-file-search.svg" alt="" width="48" height="48" />
                   </div>
                   <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
                     Product Lifecycle Management
@@ -711,11 +706,7 @@ export default function MergersAcquisitionsConsulting() {
                 {/* Capital Excellence */}
                 <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 4L12 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M19.5 2.5a2.12 2.12 0 013 3L16 12l-4 1 1-4 6.5-6.5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M13.5 6.5L17.5 10.5" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M10 12.5C10 12.5 8 14 6.5 17.5C5 21 2 22 2 22s1-3 4.5-4.5C10 14 11.5 12 11.5 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                      </div>
-                    </div>
+                    <img src="/ma-icon-paint-brush.svg" alt="" width="48" height="48" />
                   </div>
                   <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
                     Capital Excellence
@@ -725,11 +716,7 @@ export default function MergersAcquisitionsConsulting() {
                 {/* Data-Driven Insights */}
                 <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 4l7.07 17 2.51-7.39L21 11.1 4 4z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M13 13l6 6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                      </div>
-                    </div>
+                    <img src="/ma-icon-cursor-click.svg" alt="" width="48" height="48" />
                   </div>
                   <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
                     Data-Driven Insights
@@ -739,11 +726,7 @@ export default function MergersAcquisitionsConsulting() {
                 {/* KPI Optimization */}
                 <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 00-2.91-.09z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M12 15l-3-3" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M18 4s-1 0-4 3l-7 7 3 3 7-7c3-3 3-4 3-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M15 6l3 3" stroke="white" strokeWidth="2" strokeLinecap="round"/></svg>
-                      </div>
-                    </div>
+                    <img src="/ma-icon-rocket-launch.svg" alt="" width="48" height="48" />
                   </div>
                   <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
                     KPI Optimization
@@ -753,11 +736,7 @@ export default function MergersAcquisitionsConsulting() {
                 {/* Lean Six Sigma */}
                 <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                      </div>
-                    </div>
+                    <img src="/ma-icon-wrench.svg" alt="" width="48" height="48" />
                   </div>
                   <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
                     Lean Six Sigma
@@ -791,7 +770,6 @@ export default function MergersAcquisitionsConsulting() {
                 fontSize: '20px',
                 lineHeight: '150%',
                 color: '#333333',
-                textAlign: 'right',
               }}
             >
               Our team isn't confined to a single sector; we've assembled a diverse group of experts with a proven track record of success in executing complex M&A transactions. This unique blend of experience and methodology allows us to think beyond traditional deal structures.
@@ -867,11 +845,11 @@ export default function MergersAcquisitionsConsulting() {
       <div
         className="relative w-full py-20 overflow-hidden"
         style={{
-          backgroundImage: 'url(/principle-bg.png)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          background: 'linear-gradient(180deg, #0B1B5E 0%, #14358A 100%)',
         }}
       >
+        {/* Figma background SVG */}
+        <img src="/ma-principle-bg.svg" alt="" aria-hidden="true" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none' }} />
         {/* Decorative Rectangle - Top Right */}
         <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
         {/* Decorative Rectangle - Bottom Left */}
@@ -923,11 +901,12 @@ export default function MergersAcquisitionsConsulting() {
 
       {/* Ready to Guarantee the Success CTA Section */}
       <div
-        className="relative w-full py-20"
+        className="relative w-full py-20 overflow-hidden"
         style={{
           background: 'linear-gradient(180deg, #EBF7FF 0%, #D9ECFA 100%)',
         }}
       >
+        <img src="/ma-cta-bg.svg" alt="" aria-hidden="true" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none', opacity: 0.15 }} />
         <div className="max-w-[1440px] mx-auto px-4 text-center">
           <h2
             className="mb-6"

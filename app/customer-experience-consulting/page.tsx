@@ -78,16 +78,18 @@ export default function CustomerExperienceConsulting() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1140px] mx-auto">
           {/* Agent Training & Continuous Development */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              {/* Open Book icon - training */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                {/* Open Book icon - training */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+                </svg>
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Agent Training & Continuous Development
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Implement continuous agent training and tools to guarantee delivery of exceptional service and drive operational efficiency.
             </p>
@@ -95,17 +97,19 @@ export default function CustomerExperienceConsulting() {
 
           {/* AI & Service Automation */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              {/* Monitor/Computer icon - automation/tech */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                {/* Monitor/Computer icon - automation/tech */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="white" strokeWidth="2"/>
                 <line x1="8" y1="21" x2="16" y2="21" stroke="white" strokeWidth="2" strokeLinecap="round"/>
                 <line x1="12" y1="17" x2="12" y2="21" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+                </svg>
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               AI & Service Automation
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Drive immediate efficiency and reduce support costs using cutting-edge AI and service automation solutions.
             </p>
@@ -113,17 +117,19 @@ export default function CustomerExperienceConsulting() {
 
           {/* Customer Advocacy & Referral Programs */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              {/* Users/Group icon - advocacy */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                {/* Users/Group icon - advocacy */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <circle cx="9" cy="7" r="4" stroke="white" strokeWidth="2"/>
                 <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+                </svg>
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Customer Advocacy & Referral Programs
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Architect high-ROI customer advocacy and referral programs that guarantee organic growth and reduce acquisition costs.
             </p>
@@ -131,16 +137,18 @@ export default function CustomerExperienceConsulting() {
 
           {/* Customer Experience Design */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              {/* Edit/Pen-Square icon - design */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                {/* Edit/Pen-Square icon - design */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+                </svg>
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Customer Experience Design
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Craft exceptional, data-informed customer experiences using innovative design strategies that maximize engagement and loyalty.
             </p>
@@ -148,15 +156,17 @@ export default function CustomerExperienceConsulting() {
 
           {/* Customer Journey Mapping */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              {/* Expand/Diverge icon - journey mapping */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                {/* Expand/Diverge icon - journey mapping */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+                </svg>
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Customer Journey Mapping
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Precisely map the customer journey to eliminate friction and boost long-term retention and loyalty.
             </p>
@@ -164,17 +174,19 @@ export default function CustomerExperienceConsulting() {
 
           {/* Customer Lifecycle Management */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              {/* Refresh/Turnaround Arrows icon - lifecycle */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                {/* Refresh/Turnaround Arrows icon - lifecycle */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M23 4v6h-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M1 20v-6h6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+                </svg>
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Customer Lifecycle Management
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Strategically manage the customer lifecycle, from acquisition to retention, to maximize customer lifetime value (CLV).
             </p>
@@ -182,16 +194,18 @@ export default function CustomerExperienceConsulting() {
 
           {/* Customer Persona Development */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              {/* Single User icon - persona */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                {/* Single User icon - persona */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <circle cx="12" cy="7" r="4" stroke="white" strokeWidth="2"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+                </svg>
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Customer Persona Development
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Build detailed, validated customer profiles to personalize interactions and enhance marketing ROI and effectiveness.
             </p>
@@ -199,15 +213,17 @@ export default function CustomerExperienceConsulting() {
 
           {/* Customer Retention Strategies */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              {/* Shield icon - retention/protection */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                {/* Shield icon - retention/protection */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+                </svg>
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Customer Retention Strategies
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Implement proven retention strategies designed to significantly increase loyalty, repeat business, and subscription rates.
             </p>
@@ -215,17 +231,19 @@ export default function CustomerExperienceConsulting() {
 
           {/* Customer Self-Service Solutions */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              {/* Question Mark Circle icon - self-service */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                {/* Question Mark Circle icon - self-service */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2"/>
                 <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <line x1="12" y1="17" x2="12.01" y2="17" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+                </svg>
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Customer Self-Service Solutions
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Empower customers with self-service solutions that reduce support volume and improve first-contact resolution rates.
             </p>
@@ -233,15 +251,17 @@ export default function CustomerExperienceConsulting() {
 
           {/* Customer Support Excellence Programs */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              {/* Chat/Message Bubble icon - support */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                {/* Chat/Message Bubble icon - support */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+                </svg>
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Customer Support Excellence Programs
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Establish best-in-class support systems that maximize issue resolution speed and enhance customer satisfaction (CSAT).
             </p>
@@ -249,15 +269,17 @@ export default function CustomerExperienceConsulting() {
 
           {/* Data Analytics & Reporting */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              {/* Bar Chart icon - analytics */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                {/* Bar Chart icon - analytics */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M18 20V10M12 20V4M6 20v-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+                </svg>
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Data Analytics & Reporting
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Provide actionable data-driven insights and reporting from customer behavior trends to inform high-stakes strategic decisions.
             </p>
@@ -265,16 +287,18 @@ export default function CustomerExperienceConsulting() {
 
           {/* Digital Engagement & Experience */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              {/* 3D Box/Cube icon - digital experience */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                {/* 3D Box/Cube icon - digital experience */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+                </svg>
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Digital Engagement & Experience
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Drive deep customer engagement via innovative digital strategies, including UX design and mobile optimization.
             </p>
@@ -282,17 +306,19 @@ export default function CustomerExperienceConsulting() {
 
           {/* Omnichannel Communication & Integration */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              {/* Layers/Stack icon - omnichannel */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                {/* Layers/Stack icon - omnichannel */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M2 17l10 5 10-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M2 12l10 5 10-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+                </svg>
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Omnichannel Communication & Integration
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Guarantee a seamless, consistent customer experience across all physical and digital communication channels.
             </p>
@@ -300,16 +326,18 @@ export default function CustomerExperienceConsulting() {
 
           {/* Predictive Analytics */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              {/* Clock icon - predictive/future */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
+                {/* Clock icon - predictive/future */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2"/>
                 <path d="M12 6v6l4 2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+                </svg>
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Predictive Analytics
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Anticipate customer needs and preferences using predictive analytics to secure a competitive edge and drive proactive service.
             </p>

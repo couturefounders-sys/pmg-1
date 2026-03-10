@@ -367,25 +367,27 @@ export default function WhyFunctionalConsulting() {
                 border: '3px solid #14358A',
               }}
             >
-              <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <rect x="4" y="4" width="16" height="16" rx="2" stroke="white" strokeWidth="2"/>
                   <path d="M8 12H16M8 8H16M8 16H12" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                </svg>
-              </div>
-              <h3
-                className="mb-3"
+                  </svg>
+                </div>
+                <h3
+                className="mb-0"
                 style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A',
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 700,
+                fontSize: '29px',
+                lineHeight: '105%',
+                letterSpacing: '-0.03em',
+                color: '#14358A',
                 }}
-              >
+                >
                 Impact, Not Deliverables
-              </h3>
+                </h3>
+              </div>
               <p
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
@@ -408,25 +410,27 @@ export default function WhyFunctionalConsulting() {
                 border: '3px solid #14358A',
               }}
             >
-              <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <rect x="4" y="4" width="16" height="16" rx="2" stroke="white" strokeWidth="2"/>
                   <path d="M8 12H16M8 8H16M8 16H12" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                </svg>
-              </div>
-              <h3
-                className="mb-3"
+                  </svg>
+                </div>
+                <h3
+                className="mb-0"
                 style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A',
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 700,
+                fontSize: '29px',
+                lineHeight: '105%',
+                letterSpacing: '-0.03em',
+                color: '#14358A',
                 }}
-              >
+                >
                 Functional Depth
-              </h3>
+                </h3>
+              </div>
               <p
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
@@ -449,25 +453,27 @@ export default function WhyFunctionalConsulting() {
                 border: '3px solid #14358A',
               }}
             >
-              <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <rect x="4" y="4" width="16" height="16" rx="2" stroke="white" strokeWidth="2"/>
                   <path d="M8 12H16M8 8H16M8 16H12" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                </svg>
-              </div>
-              <h3
-                className="mb-3"
+                  </svg>
+                </div>
+                <h3
+                className="mb-0"
                 style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A',
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 700,
+                fontSize: '29px',
+                lineHeight: '105%',
+                letterSpacing: '-0.03em',
+                color: '#14358A',
                 }}
-              >
+                >
                 Cross-Industry Innovation
-              </h3>
+                </h3>
+              </div>
               <p
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
@@ -490,25 +496,27 @@ export default function WhyFunctionalConsulting() {
                 border: '3px solid #14358A',
               }}
             >
-              <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-12 h-12 flex items-center justify-center bg-[#14358A] rounded-lg">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <rect x="4" y="4" width="16" height="16" rx="2" stroke="white" strokeWidth="2"/>
                   <path d="M8 12H16M8 8H16M8 16H12" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                </svg>
-              </div>
-              <h3
-                className="mb-3"
+                  </svg>
+                </div>
+                <h3
+                className="mb-0"
                 style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A',
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 700,
+                fontSize: '29px',
+                lineHeight: '105%',
+                letterSpacing: '-0.03em',
+                color: '#14358A',
                 }}
-              >
+                >
                 Practical Execution
-              </h3>
+                </h3>
+              </div>
               <p
                 style={{
                   fontFamily: 'DM Sans, sans-serif',

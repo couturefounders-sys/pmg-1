@@ -3,6 +3,20 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
+import {
+  IconOthersTarget,
+  IconMoneyFunds,
+  IconComponentsSwitchButton,
+  IconHardwarePhone,
+  IconClothesRetroBag,
+  IconArrowsEfferentThree,
+  IconChartsHistogram,
+  IconChartsLineArea,
+  IconCommunicateMessageSecurity,
+  IconMoneyShoppingCartTwo,
+  IconHardwareChip,
+  IconOfficeInbox,
+} from '@/components/BrandingIcons';
 
 export default function BrandingMarketingConsulting() {
   return (
@@ -85,16 +99,14 @@ export default function BrandingMarketingConsulting() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1140px] mx-auto">
           {/* Brand Building */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M2 17l10 5 10-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M2 12l10 5 10-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <IconOthersTarget size={24} />
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Brand Building
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
               Engineer a unique brand identity and experience that guarantees consistent messaging and superior market cut-through.
             </p>
@@ -102,14 +114,14 @@ export default function BrandingMarketingConsulting() {
 
           {/* Change Measurement & Evaluation */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M18 20V10M12 20V4M6 20v-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <IconMoneyFunds size={24} />
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Change Measurement & Evaluation
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
               Maximize Customer Lifetime Value (CLV) by fostering advocacy and converting loyal customers into passionate brand promoters.
             </p>
@@ -117,16 +129,14 @@ export default function BrandingMarketingConsulting() {
 
           {/* Consumer & Shopper Insights */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <circle cx="9" cy="7" r="4" stroke="white" strokeWidth="2"/>
-                <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <IconComponentsSwitchButton size={24} />
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Consumer & Shopper Insights
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
               Leverage deep consumer and shopper insights to inform strategy and create impactful experiences that guarantee sales growth.
             </p>
@@ -134,15 +144,14 @@ export default function BrandingMarketingConsulting() {
 
           {/* Content Creation & Management */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <IconHardwarePhone size={24} />
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Content Creation & Management
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
               Develop and manage high-quality, engaging content pipelines that drive measurable audience resonance and strategic alignment.
             </p>
@@ -150,15 +159,14 @@ export default function BrandingMarketingConsulting() {
 
           {/* Content Marketing & Storytelling */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <IconClothesRetroBag size={24} />
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Content Marketing & Storytelling
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
               Tell your brand's story with compelling content strategies designed to build lasting audience relationships and accelerate conversion.
             </p>
@@ -166,17 +174,14 @@ export default function BrandingMarketingConsulting() {
 
           {/* Customer Acquisition Strategies */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <circle cx="8.5" cy="7" r="4" stroke="white" strokeWidth="2"/>
-                <line x1="20" y1="8" x2="20" y2="14" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                <line x1="23" y1="11" x2="17" y2="11" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <IconArrowsEfferentThree size={24} />
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Customer Acquisition Strategies
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
               Design and implement high-ROI customer acquisition strategies that aggressively expand market share and reduce cost-per-lead.
             </p>
@@ -184,16 +189,14 @@ export default function BrandingMarketingConsulting() {
 
           {/* Digital Marketing */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke="white" strokeWidth="2"/>
-                <line x1="8" y1="21" x2="16" y2="21" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                <line x1="12" y1="17" x2="12" y2="21" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <IconChartsHistogram size={24} />
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Digital Marketing
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
               Execute high-performance digital marketing campaigns across all platforms to maximize traffic generation and lead volume.
             </p>
@@ -201,15 +204,14 @@ export default function BrandingMarketingConsulting() {
 
           {/* Marketing & Business Analytics */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <IconChartsLineArea size={24} />
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Marketing & Business Analytics
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
               Provide actionable, data-driven insights, analytics, and modeling to rigorously evaluate campaign effectiveness and guide high-stakes decision-making.
             </p>
@@ -217,15 +219,14 @@ export default function BrandingMarketingConsulting() {
 
           {/* Market Positioning & Go-to-Market Strategy */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2"/>
-                <path d="M12 8v4l3 3" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <IconCommunicateMessageSecurity size={24} />
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Market Positioning & Go-to-Market Strategy
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
               Define a defensible market position and design effective Go-to-Market strategies that ensure successful product launches.
             </p>
@@ -233,15 +234,14 @@ export default function BrandingMarketingConsulting() {
 
           {/* Marketing Return on Investment */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <line x1="12" y1="1" x2="12" y2="23" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <IconMoneyShoppingCartTwo size={24} />
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Marketing Return on Investment
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
               Maximize profitability by rigorously measuring and optimizing the financial Return on Investment (ROI) of all marketing expenditure.
             </p>
@@ -249,17 +249,14 @@ export default function BrandingMarketingConsulting() {
 
           {/* Organization & Capabilities */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <rect x="3" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
-                <rect x="14" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
-                <rect x="3" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
-                <rect x="14" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <IconHardwareChip size={24} />
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Organization & Capabilities
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
               Build structures and capabilities required to execute integrated, effective marketing and sales strategies.
             </p>
@@ -267,15 +264,14 @@ export default function BrandingMarketingConsulting() {
 
           {/* Pricing & Enablement */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
-            <div className="w-12 h-12 mb-4 flex items-center justify-center bg-[#14358A] rounded-lg flex-shrink-0">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <line x1="7" y1="7" x2="7.01" y2="7" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-              </svg>
-            </div>
-            <h3 className="mb-2" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <IconOfficeInbox size={24} />
+              </div>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Pricing & Enablement
-            </h3>
+              </h3>
+            </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
               Establish optimal competitive pricing and enable sales teams with the tools and knowledge required to maximize revenue and profitability.
             </p>
@@ -451,12 +447,7 @@ export default function BrandingMarketingConsulting() {
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
                     <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
                       <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                          <rect x="3" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
-                          <rect x="14" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
-                          <rect x="3" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
-                          <rect x="14" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
-                        </svg>
+                        <img src="/ma-icon-file-search.svg" alt="" width={24} height={24} />
                       </div>
                     </div>
                   </div>
@@ -470,7 +461,7 @@ export default function BrandingMarketingConsulting() {
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
                     <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
                       <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 4L12 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M19.5 2.5a2.12 2.12 0 013 3L16 12l-4 1 1-4 6.5-6.5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M13.5 6.5L17.5 10.5" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M10 12.5C10 12.5 8 14 6.5 17.5C5 21 2 22 2 22s1-3 4.5-4.5C10 14 11.5 12 11.5 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                        <img src="/ma-icon-paint-brush.svg" alt="" width={24} height={24} />
                       </div>
                     </div>
                   </div>
@@ -484,7 +475,7 @@ export default function BrandingMarketingConsulting() {
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
                     <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
                       <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 4l7.07 17 2.51-7.39L21 11.1 4 4z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M13 13l6 6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                        <img src="/ma-icon-cursor-click.svg" alt="" width={24} height={24} />
                       </div>
                     </div>
                   </div>
@@ -498,7 +489,7 @@ export default function BrandingMarketingConsulting() {
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
                     <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
                       <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 00-2.91-.09z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M12 15l-3-3" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M18 4s-1 0-4 3l-7 7 3 3 7-7c3-3 3-4 3-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M15 6l3 3" stroke="white" strokeWidth="2" strokeLinecap="round"/></svg>
+                        <img src="/ma-icon-rocket-launch.svg" alt="" width={24} height={24} />
                       </div>
                     </div>
                   </div>
@@ -512,7 +503,7 @@ export default function BrandingMarketingConsulting() {
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
                     <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
                       <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                        <img src="/ma-icon-wrench.svg" alt="" width={24} height={24} />
                       </div>
                     </div>
                   </div>
@@ -548,7 +539,6 @@ export default function BrandingMarketingConsulting() {
                 fontSize: '25px',
                 lineHeight: '140%',
                 color: '#333333',
-                textAlign: 'right',
               }}
             >
               Our team of seasoned marketing and branding experts isn't confined to a single sector; we've assembled a diverse group of experts with a proven track record of success in creating and building iconic brands. This unique blend of experience and expertise allows us to think beyond traditional marketing channels.
@@ -608,18 +598,18 @@ export default function BrandingMarketingConsulting() {
       <div
         className="relative w-full py-20 overflow-hidden"
         style={{
-          backgroundImage: 'url(/principle-bg.png)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          background: 'linear-gradient(180deg, #0B1B5E 0%, #14358A 100%)',
         }}
       >
+        {/* Figma background SVG */}
+        <img src="/ma-principle-bg.svg" alt="" aria-hidden="true" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none' }} />
         {/* Decorative Rectangle - Top Right */}
         <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
         {/* Decorative Rectangle - Bottom Left */}
         <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
         {/* Decorative Border Rectangle - Top Left */}
         <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        <div className="max-w-[1196px] mx-auto px-4 text-center">
+        <div className="relative z-10 max-w-[1196px] mx-auto px-4 text-center">
           <p
             className="mb-4"
             style={{

@@ -109,25 +109,27 @@ export default function OurFunctionalAreas() {
               paddingBottom: '24px',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-              {/* Bar Chart icon - strategy/operations */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                {/* Bar Chart icon - strategy/operations */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M18 20V10M12 20V4M6 20v-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '29px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '29px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Operations & Strategy
-            </h3>
+              </h3>
+            </div>
             <p
               className="mb-4"
               style={{
@@ -169,27 +171,29 @@ export default function OurFunctionalAreas() {
               paddingBottom: '24px',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-              {/* Users/Group icon - people */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                {/* Users/Group icon - people */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <circle cx="9" cy="7" r="4" stroke="white" strokeWidth="2"/>
                 <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '29px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '29px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               People & Organizations
-            </h3>
+              </h3>
+            </div>
             <p
               className="mb-4"
               style={{
@@ -234,25 +238,27 @@ export default function OurFunctionalAreas() {
               paddingBottom: '24px',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-              {/* Chat/Message Bubble icon - customer experience */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                {/* Chat/Message Bubble icon - customer experience */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '29px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '29px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Customer Experience
-            </h3>
+              </h3>
+            </div>
             <p
               className="mb-4"
               style={{
@@ -294,25 +300,27 @@ export default function OurFunctionalAreas() {
               paddingBottom: '24px',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-              {/* Expand/Diverge icon - M&A */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                {/* Expand/Diverge icon - M&A */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '29px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '29px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Mergers & Acquisitions
-            </h3>
+              </h3>
+            </div>
             <p
               className="mb-4"
               style={{
@@ -354,26 +362,28 @@ export default function OurFunctionalAreas() {
               paddingBottom: '24px',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-              {/* Price Tag icon - branding */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                {/* Price Tag icon - branding */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <line x1="7" y1="7" x2="7.01" y2="7" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '29px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '29px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Branding & Marketing
-            </h3>
+              </h3>
+            </div>
             <p
               className="mb-4"
               style={{
@@ -418,28 +428,30 @@ export default function OurFunctionalAreas() {
               paddingBottom: '24px',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-              {/* User-Plus icon - talent */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                {/* User-Plus icon - talent */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <circle cx="8.5" cy="7" r="4" stroke="white" strokeWidth="2"/>
                 <line x1="20" y1="8" x2="20" y2="14" stroke="white" strokeWidth="2" strokeLinecap="round"/>
                 <line x1="23" y1="11" x2="17" y2="11" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '29px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '29px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               BPO & Fractional Talent
-            </h3>
+              </h3>
+            </div>
             <p
               className="mb-4"
               style={{
@@ -481,25 +493,27 @@ export default function OurFunctionalAreas() {
               paddingBottom: '24px',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-              {/* Shield icon - crisis/protection */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                {/* Shield icon - crisis/protection */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '26px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '26px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Crisis & Transition Management
-            </h3>
+              </h3>
+            </div>
             <p
               className="mb-4"
               style={{
@@ -581,26 +595,28 @@ export default function OurFunctionalAreas() {
               paddingBottom: '24px',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-              {/* 3D Box/Cube icon - out-of-the-box */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                {/* 3D Box/Cube icon - out-of-the-box */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '29px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '29px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Out-of-the-Box Solutions
-            </h3>
+              </h3>
+            </div>
             <p
               className="mb-3"
               style={{
@@ -655,26 +671,28 @@ export default function OurFunctionalAreas() {
               paddingBottom: '24px',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-              {/* Edit/Pen-Square icon - bespoke/custom */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                {/* Edit/Pen-Square icon - bespoke/custom */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '29px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '29px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Bespoke Solutions
-            </h3>
+              </h3>
+            </div>
             <p
               className="mb-3"
               style={{
@@ -729,26 +747,28 @@ export default function OurFunctionalAreas() {
               paddingBottom: '24px',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-              {/* Single User icon - active management */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                {/* Single User icon - active management */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <circle cx="12" cy="7" r="4" stroke="white" strokeWidth="2"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '29px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '29px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Active Management Solutions
-            </h3>
+              </h3>
+            </div>
             <p
               className="mb-3"
               style={{
@@ -803,26 +823,28 @@ export default function OurFunctionalAreas() {
               paddingBottom: '24px',
             }}
           >
-            <div className="w-16 h-16 mb-4 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-              {/* Dollar Sign icon - equity */}
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                {/* Dollar Sign icon - equity */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <line x1="12" y1="1" x2="12" y2="23" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-            <h3
-              className="mb-2"
+                </svg>
+              </div>
+              <h3
+              className="mb-0"
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '29px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '29px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
               }}
-            >
+              >
               Equity Engagements
-            </h3>
+              </h3>
+            </div>
             <p
               className="mb-3"
               style={{
