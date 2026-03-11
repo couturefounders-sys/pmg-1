@@ -1099,17 +1099,17 @@ export default function ActiveManagementSolutions() {
               {
                 icon: '/approach-icon-1.png',
                 title: 'Architects & Implementers, Not Just Advisors',
-                desc: 'We don\'t stop at ideas. Our engagement does not end with a slide deck. We stay on the ground, integrating with your teams to manage the transformation end-to-end, ensuring the solutions we deliver.',
+                desc: 'We own the outcome. Our engagement does not end with a strategy deck; we stay to execute the plan, integrating with your teams to manage the transformation and ensure the solutions we design are the solutions we deliver.',
               },
               {
                 icon: '/approach-icon-2.png',
                 title: 'Industry-Agnostic Innovation',
-                desc: 'We believe the best solutions are not confined to a single industry. We deliberately cross-pollinate proven strategies from diverse fields to solve problems with a speed and creativity that industry-siloed consultants cannot match.',
+                desc: 'We believe the best solutions are not confined to a single industry. By applying our Sector Convergence Model, we pull proven strategies from diverse fields to solve problems with a speed and creativity that industry-siloed consultants cannot match.',
               },
               {
                 icon: '/approach-icon-3.png',
                 title: 'Rigorous Quality Assurance & Continuous Improvement',
-                desc: 'We don\'t just implement and leave. We embed a rigorous internal QA process to ensure fidelity and alignment with your goals. After every engagement, we codify our learnings to continuously refine our methods. This is how we maintain our industry-leading 23x average client ROI.',
+                desc: 'Every project plan, financial model, and key deliverable undergoes a rigorous internal QA process to ensure viability and alignment with your goals. After every engagement, we codify our learnings to continuously refine our methods. This is how we maintain our industry-leading 22x average client ROI.',
               },
             ].map((card, idx) => (
               <div key={idx} className="flex flex-col items-start">
