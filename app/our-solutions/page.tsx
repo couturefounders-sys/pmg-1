@@ -138,32 +138,32 @@ export default function OurSolutions() {
                   minHeight: '391px',
                 }}
               >
-                {/* Icon */}
-                <img
-                  src={card.icon}
-                  alt={card.title}
-                  style={{
-                    width: '64px',
-                    height: '64px',
-                    borderRadius: '10px',
-                    marginBottom: '24px',
-                  }}
-                />
-
-                {/* Title */}
-                <h3
-                  style={{
-                    fontFamily: 'DM Sans, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '29px',
-                    lineHeight: '105%',
-                    letterSpacing: '-0.03em',
-                    color: '#14358A',
-                    marginBottom: '8px',
-                  }}
-                >
-                  {card.title}
-                </h3>
+                {/* Icon + Title row */}
+                <div className="flex items-center gap-4 mb-4">
+                  <img
+                    src={card.icon}
+                    alt={card.title}
+                    style={{
+                      width: '64px',
+                      height: '64px',
+                      borderRadius: '10px',
+                      flexShrink: 0,
+                    }}
+                  />
+                  <h3
+                    style={{
+                      fontFamily: 'DM Sans, sans-serif',
+                      fontWeight: 700,
+                      fontSize: '29px',
+                      lineHeight: '105%',
+                      letterSpacing: '-0.03em',
+                      color: '#14358A',
+                      margin: 0,
+                    }}
+                  >
+                    {card.title}
+                  </h3>
+                </div>
 
                 {/* Subtitle */}
                 <p

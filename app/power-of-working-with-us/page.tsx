@@ -577,8 +577,10 @@ export default function PowerOfWorkingWithUs() {
               { icon: '/container-2.png', title: 'Business Value-Unit Model', desc: 'Our unique method for quantifying the true ROI of cross-revenue generating departments such as HR & IT, creating holistic performance measurement and precise strategic alignment.' },
             ].map((card, i) => (
               <div key={i} style={{ background: '#FFFFFF', border: '1.5px solid #D0D9F0', borderRadius: '14px', padding: '28px 20px', textAlign: 'left' }}>
-                <img src={card.icon} alt={card.title} style={{ width: '44px', height: '44px', objectFit: 'contain', marginBottom: '14px' }} />
-                <div style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '15px', color: '#14358A', marginBottom: '10px' }}>{card.title}</div>
+                <div className="flex items-center gap-4 mb-4">
+                  <img src={card.icon} alt={card.title} style={{ width: '44px', height: '44px', objectFit: 'contain', flexShrink: 0 }} />
+                  <div style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '15px', color: '#14358A', margin: 0 }}>{card.title}</div>
+                </div>
                 <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', lineHeight: '1.7', color: '#5F6D7E' }}>{card.desc}</p>
                 <a href="#" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '13px', color: '#14358A', marginTop: '14px', display: 'inline-block' }}>Read More ›</a>
               </div>

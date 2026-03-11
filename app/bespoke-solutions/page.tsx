@@ -770,19 +770,22 @@ export default function BespokeSolutions() {
                 gap: '16px',
               }}
             >
-              <Image src="/accountability-icon-1.png" alt="Transparent Success Metrics" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
-              <h3
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A',
-                }}
-              >
-                Transparent Success Metrics
-              </h3>
+              <div className="flex items-center gap-4">
+                <Image src="/accountability-icon-1.png" alt="Transparent Success Metrics" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
+                <h3
+                  style={{
+                    fontFamily: 'DM Sans, sans-serif',
+                    fontWeight: 700,
+                    fontSize: '29px',
+                    lineHeight: '105%',
+                    letterSpacing: '-0.03em',
+                    color: '#14358A',
+                    margin: 0,
+                  }}
+                >
+                  Transparent Success Metrics
+                </h3>
+              </div>
               <p
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
@@ -810,19 +813,22 @@ export default function BespokeSolutions() {
                 gap: '16px',
               }}
             >
-              <Image src="/accountability-icon-2.png" alt="Consistent Progress Reviews" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
-              <h3
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A',
-                }}
-              >
-                Consistent Progress Reviews
-              </h3>
+              <div className="flex items-center gap-4">
+                <Image src="/accountability-icon-2.png" alt="Consistent Progress Reviews" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
+                <h3
+                  style={{
+                    fontFamily: 'DM Sans, sans-serif',
+                    fontWeight: 700,
+                    fontSize: '29px',
+                    lineHeight: '105%',
+                    letterSpacing: '-0.03em',
+                    color: '#14358A',
+                    margin: 0,
+                  }}
+                >
+                  Consistent Progress Reviews
+                </h3>
+              </div>
               <p
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
@@ -850,19 +856,22 @@ export default function BespokeSolutions() {
                 gap: '16px',
               }}
             >
-              <Image src="/accountability-icon-3.png" alt="Post-Engagement Success Audit" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
-              <h3
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A',
-                }}
-              >
-                Post-Engagement Success Audit
-              </h3>
+              <div className="flex items-center gap-4">
+                <Image src="/accountability-icon-3.png" alt="Post-Engagement Success Audit" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
+                <h3
+                  style={{
+                    fontFamily: 'DM Sans, sans-serif',
+                    fontWeight: 700,
+                    fontSize: '29px',
+                    lineHeight: '105%',
+                    letterSpacing: '-0.03em',
+                    color: '#14358A',
+                    margin: 0,
+                  }}
+                >
+                  Post-Engagement Success Audit
+                </h3>
+              </div>
               <p
                 style={{
                   fontFamily: 'DM Sans, sans-serif',

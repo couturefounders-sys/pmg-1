@@ -33,7 +33,7 @@ export default function ActiveManagementSolutions() {
       desc: 'Access to PMG\'s proprietary frameworks, tools, and knowledge base that individual companies can\'t provide.',
     },
     {
-      icon: '/ams-icon-6.png',
+      icon: '/ams-icon-8.png',
       title: 'Turnover Cost Avoidance',
       desc: 'Solve different types of problems across multiple businesses, building a richer skill set than any single role offers.',
     },
@@ -43,7 +43,7 @@ export default function ActiveManagementSolutions() {
       desc: 'Collaborate with other top operators in PMG\'s ecosystem, sharing insights and solving challenges collectively.',
     },
     {
-      icon: '/ams-icon-8.png',
+      icon: '/ams-icon-5.png',
       title: 'Reduced Risk',
       desc: 'PMG provides stability, benefits, and support, freeing operators to focus on execution without administrative burdens.',
     },
@@ -55,42 +55,11 @@ export default function ActiveManagementSolutions() {
   ];
 
   const compareRows = [
-    {
-      category: 'Accountability',
-      traditional: 'Traditional Recruiting',
-      interim: 'Interim Management',
-      pmg: 'PMG Active Management',
-    },
-    {
-      category: 'Flexibility',
-      traditional: 'Limited (individual)',
-      interim: 'Limited (individual)',
-      pmg: 'PMG corporate guarantee',
-    },
-    {
-      category: 'Cost',
-      traditional: 'Low (fixed hire)',
-      interim: 'Medium (contract)',
-      pmg: 'High (can switch executives)',
-    },
-    {
-      category: 'Support',
-      traditional: 'High (salary + benefits)',
-      interim: 'Medium-High',
-      pmg: 'Predictable monthly investment',
-    },
-    {
-      category: 'ROI Focus',
-      traditional: 'James Clear',
-      interim: 'Limited',
-      pmg: 'Full PMG backing & resources',
-    },
-    {
-      category: 'Dune',
-      traditional: 'Variable',
-      interim: 'Project-based',
-      pmg: 'Outcome-driven, supported by track record of industry-beating ROI.',
-    },
+    { category: 'Flexibility', traditional: 'Limited (individual)', interim: 'Limited (individual)', pmg: 'PMG corporate guarantee' },
+    { category: 'Cost', traditional: 'Low (fixed hire)', interim: 'Medium (contract)', pmg: 'High (can switch executives)' },
+    { category: 'Support', traditional: 'High (salary + benefits)', interim: 'Medium-high', pmg: 'Predictable monthly investment' },
+    { category: 'ROI Focus', traditional: 'James Clear', interim: 'Limited', pmg: 'Full PMG backing & resources' },
+    { category: 'Dune', traditional: 'Variable', interim: 'Project-based', pmg: 'Outcome-driven, supported by track record of industry-beating ROI.' },
   ];
 
   return (
@@ -209,18 +178,21 @@ export default function ActiveManagementSolutions() {
                   gap: '14px',
                 }}
               >
-                <Image src={card.icon} alt={card.title} width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
-                <h3
-                  style={{
-                    fontFamily: 'Poppins, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '20px',
-                    lineHeight: '130%',
-                    color: '#14358A',
-                  }}
-                >
-                  {card.title}
-                </h3>
+                <div className="flex items-center gap-4">
+                  <Image src={card.icon} alt={card.title} width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
+                  <h3
+                    style={{
+                      fontFamily: 'Poppins, sans-serif',
+                      fontWeight: 700,
+                      fontSize: '20px',
+                      lineHeight: '130%',
+                      color: '#14358A',
+                      margin: 0,
+                    }}
+                  >
+                    {card.title}
+                  </h3>
+                </div>
                 <p
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
@@ -271,18 +243,21 @@ export default function ActiveManagementSolutions() {
                   gap: '14px',
                 }}
               >
-                <Image src={card.icon} alt={card.title} width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
-                <h3
-                  style={{
-                    fontFamily: 'Poppins, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '20px',
-                    lineHeight: '130%',
-                    color: '#14358A',
-                  }}
-                >
-                  {card.title}
-                </h3>
+                <div className="flex items-center gap-4">
+                  <Image src={card.icon} alt={card.title} width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
+                  <h3
+                    style={{
+                      fontFamily: 'Poppins, sans-serif',
+                      fontWeight: 700,
+                      fontSize: '20px',
+                      lineHeight: '130%',
+                      color: '#14358A',
+                      margin: 0,
+                    }}
+                  >
+                    {card.title}
+                  </h3>
+                </div>
                 <p
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
@@ -301,12 +276,15 @@ export default function ActiveManagementSolutions() {
           {/* Result statement */}
           <p
             style={{
-              fontFamily: 'DM Sans, sans-serif',
+              fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: '30px',
               lineHeight: '140%',
-              color: '#14358A',
+              letterSpacing: '0%',
+              color: '#333333',
               textAlign: 'center',
+              maxWidth: '1201px',
+              margin: '0 auto',
             }}
           >
             This means you get access to executives who would be unattainable through traditional
@@ -336,9 +314,11 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '22px',
-                lineHeight: '150%',
-                color: '#333333',
+                fontSize: '28px',
+                lineHeight: '140%',
+                letterSpacing: '0%',
+                color: '#68718B',
+                marginBottom: '40px',
               }}
             >
               Understand the clear benefits of partnering with PMG for active management.
@@ -347,61 +327,68 @@ export default function ActiveManagementSolutions() {
 
           {/* Comparison table */}
           <div className="w-full overflow-x-auto">
-            <table className="w-full border-collapse">
+            <table className="w-full border-collapse" style={{ borderSpacing: 0 }}>
               <thead>
                 <tr>
                   <th
                     style={{
-                      fontFamily: 'DM Sans, sans-serif',
+                      fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 700,
-                      fontSize: '15px',
-                      color: '#14358A',
-                      padding: '14px 16px',
+                      fontSize: '18px',
+                      color: '#333333',
+                      padding: '18px 20px',
                       textAlign: 'left',
-                      borderBottom: '2px solid #14358A',
+                      borderBottom: '1px solid #E5E7EB',
+                      borderRight: '1px solid #E5E7EB',
                       width: '18%',
+                      backgroundColor: '#FFFFFF',
                     }}
-                  />
+                  >
+                    Accountability
+                  </th>
                   <th
                     style={{
-                      fontFamily: 'DM Sans, sans-serif',
+                      fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 700,
-                      fontSize: '15px',
-                      color: '#14358A',
-                      padding: '14px 16px',
+                      fontSize: '18px',
+                      color: '#333333',
+                      padding: '18px 20px',
                       textAlign: 'left',
-                      borderBottom: '2px solid #14358A',
+                      borderBottom: '1px solid #E5E7EB',
+                      borderRight: '1px solid #E5E7EB',
                       width: '27%',
+                      backgroundColor: '#FFFFFF',
                     }}
                   >
                     Traditional Recruiting
                   </th>
                   <th
                     style={{
-                      fontFamily: 'DM Sans, sans-serif',
+                      fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 700,
-                      fontSize: '15px',
-                      color: '#14358A',
-                      padding: '14px 16px',
+                      fontSize: '18px',
+                      color: '#333333',
+                      padding: '18px 20px',
                       textAlign: 'left',
-                      borderBottom: '2px solid #14358A',
+                      borderBottom: '1px solid #E5E7EB',
+                      borderRight: '1px solid #E5E7EB',
                       width: '27%',
+                      backgroundColor: '#FFFFFF',
                     }}
                   >
                     Interim Management
                   </th>
                   <th
                     style={{
-                      fontFamily: 'DM Sans, sans-serif',
+                      fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 700,
-                      fontSize: '15px',
-                      color: '#14358A',
-                      padding: '14px 16px',
+                      fontSize: '18px',
+                      color: '#333333',
+                      padding: '18px 20px',
                       textAlign: 'left',
-                      borderBottom: '2px solid #14358A',
+                      borderBottom: '1px solid #E5E7EB',
                       width: '28%',
-                      backgroundColor: '#EEF1F8',
-                      borderRadius: '8px 8px 0 0',
+                      backgroundColor: '#FFFFFF',
                     }}
                   >
                     PMG Active Management
@@ -410,15 +397,18 @@ export default function ActiveManagementSolutions() {
               </thead>
               <tbody>
                 {compareRows.map((row, idx) => (
-                  <tr key={idx} style={{ borderBottom: '1px solid #E0E6F0' }}>
+                  <tr key={idx}>
                     <td
                       style={{
-                        fontFamily: 'DM Sans, sans-serif',
-                        fontWeight: 700,
-                        fontSize: '14px',
-                        color: '#14358A',
-                        padding: '14px 16px',
-                        verticalAlign: 'top',   //hi 
+                        fontFamily: 'Montserrat, sans-serif',
+                        fontWeight: 400,
+                        fontSize: '18px',
+                        color: '#333333',
+                        padding: '18px 20px',
+                        verticalAlign: 'top',
+                        lineHeight: '160%',
+                        borderRight: '1px solid #E5E7EB',
+                        backgroundColor: '#FFFFFF',
                       }}
                     >
                       {row.category}
@@ -427,11 +417,13 @@ export default function ActiveManagementSolutions() {
                       style={{
                         fontFamily: 'Montserrat, sans-serif',
                         fontWeight: 400,
-                        fontSize: '14px',
+                        fontSize: '16px',
                         color: '#333333',
-                        padding: '14px 16px',
+                        padding: '18px 20px',
                         verticalAlign: 'top',
                         lineHeight: '160%',
+                        borderRight: '1px solid #E5E7EB',
+                        backgroundColor: '#FFFFFF',
                       }}
                     >
                       {row.traditional}
@@ -440,11 +432,13 @@ export default function ActiveManagementSolutions() {
                       style={{
                         fontFamily: 'Montserrat, sans-serif',
                         fontWeight: 400,
-                        fontSize: '14px',
+                        fontSize: '16px',
                         color: '#333333',
-                        padding: '14px 16px',
+                        padding: '18px 20px',
                         verticalAlign: 'top',
                         lineHeight: '160%',
+                        borderRight: '1px solid #E5E7EB',
+                        backgroundColor: '#FFFFFF',
                       }}
                     >
                       {row.interim}
@@ -452,13 +446,13 @@ export default function ActiveManagementSolutions() {
                     <td
                       style={{
                         fontFamily: 'Montserrat, sans-serif',
-                        fontWeight: 600,
-                        fontSize: '14px',
-                        color: '#14358A',
-                        padding: '14px 16px',
+                        fontWeight: 400,
+                        fontSize: '16px',
+                        color: '#333333',
+                        padding: '18px 20px',
                         verticalAlign: 'top',
                         lineHeight: '160%',
-                        backgroundColor: '#EEF1F8',
+                        backgroundColor: '#FFFFFF',
                       }}
                     >
                       {row.pmg}

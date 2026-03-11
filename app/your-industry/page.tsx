@@ -189,15 +189,15 @@ export default function YourIndustry() {
                   overflow: 'hidden'
                 }}
               >
-                <div className="mb-6">
-                  <img src={card.icon} alt={card.title} style={{ width: '64px', height: '64px' }} />
+                <div className="flex items-center gap-4 mb-4">
+                  <img src={card.icon} alt={card.title} style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                  <h3
+                    className="font-dm-sans font-bold text-[#14358A] mb-0"
+                    style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%', margin: 0 }}
+                  >
+                    {card.title}
+                  </h3>
                 </div>
-                <h3
-                  className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-                >
-                  {card.title}
-                </h3>
                 <p
                   className="font-dm-sans font-normal text-[#68718B]"
                   style={{ fontSize: '16px', lineHeight: '140%' }}

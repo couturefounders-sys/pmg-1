@@ -1,4 +1,4 @@
-﻿import Image from 'next/image';
+import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -363,31 +363,34 @@ export default function EquitySolutions() {
                   gap: '14px',
                 }}
               >
-                <div
-                  style={{
-                    width: '52px',
-                    height: '52px',
-                    borderRadius: '10px',
-                    backgroundColor: '#14358A',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    flexShrink: 0,
-                  }}
-                >
-                  <Image src="/equity-icon-13.png" alt={card.title} width={28} height={28} style={{ objectFit: 'contain' }} />
+                <div className="flex items-center gap-4">
+                  <div
+                    style={{
+                      width: '52px',
+                      height: '52px',
+                      borderRadius: '10px',
+                      backgroundColor: '#14358A',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      flexShrink: 0,
+                    }}
+                  >
+                    <Image src="/equity-icon-13.png" alt={card.title} width={28} height={28} style={{ objectFit: 'contain' }} />
+                  </div>
+                  <h3
+                    style={{
+                      fontFamily: 'DM Sans, sans-serif',
+                      fontWeight: 700,
+                      fontSize: '20px',
+                      lineHeight: '130%',
+                      color: '#14358A',
+                      margin: 0,
+                    }}
+                  >
+                    {card.title}
+                  </h3>
                 </div>
-                <h3
-                  style={{
-                    fontFamily: 'DM Sans, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '20px',
-                    lineHeight: '130%',
-                    color: '#14358A',
-                  }}
-                >
-                  {card.title}
-                </h3>
                 <p
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
@@ -431,31 +434,34 @@ export default function EquitySolutions() {
                   gap: '14px',
                 }}
               >
-                <div
-                  style={{
-                    width: '52px',
-                    height: '52px',
-                    borderRadius: '10px',
-                    backgroundColor: '#14358A',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    flexShrink: 0,
-                  }}
-                >
-                  <Image src="/equity-icon-13.png" alt={card.title} width={28} height={28} style={{ objectFit: 'contain' }} />
+                <div className="flex items-center gap-4">
+                  <div
+                    style={{
+                      width: '52px',
+                      height: '52px',
+                      borderRadius: '10px',
+                      backgroundColor: '#14358A',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      flexShrink: 0,
+                    }}
+                  >
+                    <Image src="/equity-icon-13.png" alt={card.title} width={28} height={28} style={{ objectFit: 'contain' }} />
+                  </div>
+                  <h3
+                    style={{
+                      fontFamily: 'DM Sans, sans-serif',
+                      fontWeight: 700,
+                      fontSize: '20px',
+                      lineHeight: '130%',
+                      color: '#14358A',
+                      margin: 0,
+                    }}
+                  >
+                    {card.title}
+                  </h3>
                 </div>
-                <h3
-                  style={{
-                    fontFamily: 'DM Sans, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '20px',
-                    lineHeight: '130%',
-                    color: '#14358A',
-                  }}
-                >
-                  {card.title}
-                </h3>
                 <p
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
@@ -553,8 +559,10 @@ export default function EquitySolutions() {
                   gap: '12px',
                 }}
               >
-                <div style={{ width: '52px', height: '52px', borderRadius: '10px', backgroundColor: '#14358A', flexShrink: 0 }} />
-                <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '20px', color: '#14358A' }}>{card.title}</h3>
+                <div className="flex items-center gap-4 mb-2">
+                  <div style={{ width: '52px', height: '52px', borderRadius: '10px', backgroundColor: '#14358A', flexShrink: 0 }} />
+                  <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '20px', color: '#14358A', margin: 0 }}>{card.title}</h3>
+                </div>
                 <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '160%', color: '#333333' }}>{card.desc}</p>
               </div>
             ))}
@@ -576,8 +584,10 @@ export default function EquitySolutions() {
                 gap: '12px',
               }}
             >
-              <div style={{ width: '52px', height: '52px', borderRadius: '10px', backgroundColor: '#14358A', flexShrink: 0 }} />
-              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '20px', color: '#14358A' }}>Proven Returns</h3>
+              <div className="flex items-center gap-4 mb-2">
+                <div style={{ width: '52px', height: '52px', borderRadius: '10px', backgroundColor: '#14358A', flexShrink: 0 }} />
+                <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '20px', color: '#14358A', margin: 0 }}>Proven Returns</h3>
+              </div>
               <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '160%', color: '#333333' }}>Our equity partnerships consistently outperform traditional consulting engagements in long-term value creation.</p>
             </div>
           </div>
@@ -664,8 +674,10 @@ export default function EquitySolutions() {
                   gap: '14px',
                 }}
               >
-                <div style={{ width: '48px', height: '48px', borderRadius: '8px', backgroundColor: '#14358A', flexShrink: 0 }} />
-                <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '20px', color: '#14358A' }}>{card.title}</h3>
+                <div className="flex items-center gap-4 mb-2">
+                  <div style={{ width: '48px', height: '48px', borderRadius: '8px', backgroundColor: '#14358A', flexShrink: 0 }} />
+                  <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '20px', color: '#14358A', margin: 0 }}>{card.title}</h3>
+                </div>
                 <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '160%', color: '#333333' }}>{card.desc}</p>
               </div>
             ))}
@@ -1191,8 +1203,10 @@ export default function EquitySolutions() {
                   alignItems: 'flex-start',
                 }}
               >
-                <div style={{ width: '52px', height: '52px', borderRadius: '10px', backgroundColor: '#14358A' }} />
-                <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', color: '#14358A' }}>{card.title}</h3>
+                <div className="flex items-center gap-4 mb-2">
+                  <div style={{ width: '52px', height: '52px', borderRadius: '10px', backgroundColor: '#14358A', flexShrink: 0 }} />
+                  <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', color: '#14358A', margin: 0 }}>{card.title}</h3>
+                </div>
                 <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '160%', color: '#333333' }}>{card.desc}</p>
                 <button
                   style={{
