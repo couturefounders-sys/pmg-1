@@ -775,7 +775,17 @@ export default function ActiveManagementSolutions() {
                   { text: 'Branding & Marketing', icon: '/functional-icon-5.png' },
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center gap-3">
-                    <Image src={item.icon} alt="" width={20} height={20} />
+                    <Image 
+                      src={item.icon} 
+                      alt="" 
+                      width={20} 
+                      height={20}
+                      style={{
+                        height: '20px',
+                        flexShrink: 0,
+                        alignSelf: 'stretch',
+                      }}
+                    />
                     <span
                       style={{
                         fontFamily: 'Arimo, sans-serif',
