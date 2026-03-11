@@ -466,7 +466,7 @@ export default function ActiveManagementSolutions() {
       </section>
 
       {/* ─── Section 5: Our Process Wave ─── */}
-      <section className="w-full bg-white pt-16 pb-0 overflow-hidden">
+      <section className="w-full bg-white pt-16 pb-16 overflow-hidden">
         {/* Header */}
         <div className="max-w-[1100px] mx-auto px-6 flex flex-col items-center text-center mb-10">
           <h2
@@ -492,13 +492,12 @@ export default function ActiveManagementSolutions() {
               maxWidth: '680px',
             }}
           >
-            From the first conversation to sustained execution, here&apos;s how we embed the right
-            leader into your organization.
+            From the first conversation to sustained execution, here&apos;s how we embed the right leader into your organization.
           </p>
         </div>
 
-        {/* Wave + phases */}
-        <div className="relative w-full" style={{ minHeight: '460px' }}>
+        {/* Wave + phases — absolute positioning per Figma */}
+        <div className="relative w-full" style={{ height: '520px' }}>
 
           {/* Wave image — full width, vertically centred */}
           <div
@@ -514,181 +513,690 @@ export default function ActiveManagementSolutions() {
             />
           </div>
 
-          {/* Four phases overlaid on wave */}
+          {/* Phase 1 — above wave, far left (Figma x≈0%) */}
           <div
-            className="relative max-w-[1300px] mx-auto px-6 grid grid-cols-4 gap-0"
-            style={{ zIndex: 1 }}
+            style={{
+              position: 'absolute',
+              left: '6%',
+              top: '30px',
+              width: '250px',
+              textAlign: 'left',
+              zIndex: 1,
+            }}
           >
-
-            {/* Phase 1 — TOP */}
-            <div className="flex flex-col items-center">
-              <div style={{ maxWidth: '210px', textAlign: 'center', paddingBottom: '28px' }}>
-                <h3
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '20px',
-                    lineHeight: '130%',
-                    color: '#14358A',
-                    marginBottom: '10px',
-                  }}
-                >
-                  Needs Assessment
-                </h3>
-                <p
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontWeight: 400,
-                    fontSize: '14px',
-                    lineHeight: '160%',
-                    color: '#5F5F5F',
-                  }}
-                >
-                  We begin with a comprehensive, collaborative deep dive to fully understand your
-                  specific needs.
-                </p>
-              </div>
-              {/* Dot */}
-              <div
-                style={{
-                  width: '32px',
-                  height: '32px',
-                  borderRadius: '50%',
-                  background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)',
-                  border: '4px solid white',
-                  boxShadow: '0 2px 8px rgba(20,53,138,0.3)',
-                  flexShrink: 0,
-                }}
-              />
-            </div>
-
-            {/* Phase 2 — BOTTOM */}
-            <div className="flex flex-col items-center justify-end">
-              {/* Dot */}
-              <div
-                style={{
-                  width: '32px',
-                  height: '32px',
-                  borderRadius: '50%',
-                  background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)',
-                  border: '4px solid white',
-                  boxShadow: '0 2px 8px rgba(20,53,138,0.3)',
-                  flexShrink: 0,
-                }}
-              />
-              <div style={{ maxWidth: '210px', textAlign: 'center', paddingTop: '28px' }}>
-                <h3
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '20px',
-                    lineHeight: '130%',
-                    color: '#14358A',
-                    marginBottom: '10px',
-                  }}
-                >
-                  Strategic Deep-Dive
-                </h3>
-                <p
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontWeight: 400,
-                    fontSize: '14px',
-                    lineHeight: '160%',
-                    color: '#5F5F5F',
-                  }}
-                >
-                  Our consultants perform a focused diagnostic review to uncover the most pressing
-                  needs and opportunities.
-                </p>
-              </div>
-            </div>
-
-            {/* Phase 3 — TOP */}
-            <div className="flex flex-col items-center">
-              <div style={{ maxWidth: '210px', textAlign: 'center', paddingBottom: '28px' }}>
-                <h3
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '20px',
-                    lineHeight: '130%',
-                    color: '#14358A',
-                    marginBottom: '10px',
-                  }}
-                >
-                  Placement &amp; Integration
-                </h3>
-                <p
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontWeight: 400,
-                    fontSize: '14px',
-                    lineHeight: '160%',
-                    color: '#5F5F5F',
-                  }}
-                >
-                  We select and embed the ideal PMG executive, ensuring they are fully integrated
-                  within your business&apos;s daily operations.
-                </p>
-              </div>
-              {/* Dot */}
-              <div
-                style={{
-                  width: '32px',
-                  height: '32px',
-                  borderRadius: '50%',
-                  background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)',
-                  border: '4px solid white',
-                  boxShadow: '0 2px 8px rgba(20,53,138,0.3)',
-                  flexShrink: 0,
-                }}
-              />
-            </div>
-
-            {/* Phase 4 — BOTTOM */}
-            <div className="flex flex-col items-center justify-end">
-              {/* Dot */}
-              <div
-                style={{
-                  width: '32px',
-                  height: '32px',
-                  borderRadius: '50%',
-                  background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)',
-                  border: '4px solid white',
-                  boxShadow: '0 2px 8px rgba(20,53,138,0.3)',
-                  flexShrink: 0,
-                }}
-              />
-              <div style={{ maxWidth: '210px', textAlign: 'center', paddingTop: '28px' }}>
-                <h3
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '20px',
-                    lineHeight: '130%',
-                    color: '#14358A',
-                    marginBottom: '10px',
-                  }}
-                >
-                  Ongoing PMG Support
-                </h3>
-                <p
-                  style={{
-                    fontFamily: 'Inter, sans-serif',
-                    fontWeight: 400,
-                    fontSize: '14px',
-                    lineHeight: '160%',
-                    color: '#5F5F5F',
-                  }}
-                >
-                  The embedded executive has continuous access to PMG&apos;s knowledge base,
-                  methodologies, and fractional resources.
-                </p>
-              </div>
-            </div>
-
+            <h3
+              style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 700,
+                fontSize: '24px',
+                lineHeight: '130%',
+                color: '#14358A',
+                marginBottom: '10px',
+              }}
+            >
+              Needs Assessment
+            </h3>
+            <p
+              style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 400,
+                fontSize: '16px',
+                lineHeight: '160%',
+                color: '#6C757D',
+              }}
+            >
+              We begin with a comprehensive, collaborative deep dive to fully understand your
+              specific needs.
+            </p>
           </div>
+
+          {/* Phase 2 — below wave, center-left (Figma x≈28%) */}
+          <div
+            style={{
+              position: 'absolute',
+              left: '32%',
+              bottom: '40px',
+              width: '250px',
+              textAlign: 'left',
+              zIndex: 1,
+            }}
+          >
+            <h3
+              style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 700,
+                fontSize: '24px',
+                lineHeight: '130%',
+                color: '#14358A',
+                marginBottom: '10px',
+              }}
+            >
+              Strategic Deep-Dive
+            </h3>
+            <p
+              style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 400,
+                fontSize: '16px',
+                lineHeight: '160%',
+                color: '#6C757D',
+              }}
+            >
+              Our consultants perform a focused diagnostic review to uncover the most pressing
+              needs and opportunities.
+            </p>
+          </div>
+
+          {/* Phase 3 — above wave, center-right (Figma x≈55%) */}
+          <div
+            style={{
+              position: 'absolute',
+              left: '59%',
+              top: '30px',
+              width: '250px',
+              textAlign: 'left',
+              zIndex: 1,
+            }}
+          >
+            <h3
+              style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 700,
+                fontSize: '24px',
+                lineHeight: '130%',
+                color: '#14358A',
+                marginBottom: '10px',
+              }}
+            >
+              Placement &amp; Integration
+            </h3>
+            <p
+              style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 400,
+                fontSize: '16px',
+                lineHeight: '160%',
+                color: '#6C757D',
+              }}
+            >
+              We select and embed the ideal PMG executive, ensuring they are fully integrated
+              within your business&apos;s daily operations.
+            </p>
+          </div>
+
+          {/* Phase 4 — below wave, far right (Figma x≈80%) */}
+          <div
+            style={{
+              position: 'absolute',
+              left: '84%',
+              bottom: '40px',
+              width: '250px',
+              textAlign: 'left',
+              zIndex: 1,
+            }}
+          >
+            <h3
+              style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 700,
+                fontSize: '24px',
+                lineHeight: '130%',
+                color: '#14358A',
+                marginBottom: '10px',
+              }}
+            >
+              Ongoing PMG Support
+            </h3>
+            <p
+              style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 400,
+                fontSize: '16px',
+                lineHeight: '160%',
+                color: '#6C757D',
+              }}
+            >
+              The embedded executive has continuous access to PMG&apos;s knowledge base,
+              methodologies, and fractional resources.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      {/* ─── Section 6: Engagement Models ─── */}
+      <section className="w-full py-16 px-6 bg-white">
+        <div className="max-w-[1100px] mx-auto">
+          <div className="flex flex-col items-center text-center mb-12">
+            <h2
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 700,
+                fontSize: '48px',
+                lineHeight: '105%',
+                letterSpacing: '-0.03em',
+                color: '#14358A',
+                marginBottom: '16px',
+              }}
+            >
+              Engagement Models
+            </h2>
+            <p
+              style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 400,
+                fontSize: '22px',
+                lineHeight: '150%',
+                color: '#333333',
+                maxWidth: '900px',
+              }}
+            >
+              We offer two distinct engagement models to provide the right level of support for your specific goals.
+            </p>
+          </div>
+
+          {/* Toggle buttons */}
+          <div className="flex justify-center mb-12">
+            <div
+              style={{
+                display: 'inline-flex',
+                border: '2px solid #14358A',
+                borderRadius: '50px',
+                overflow: 'hidden',
+              }}
+            >
+              <button
+                style={{
+                  fontFamily: 'Poppins, sans-serif',
+                  fontWeight: 600,
+                  fontSize: '18px',
+                  padding: '14px 40px',
+                  backgroundColor: '#14358A',
+                  color: '#FFFFFF',
+                  border: 'none',
+                  cursor: 'pointer',
+                }}
+              >
+                Leadership Support
+              </button>
+              <button
+                style={{
+                  fontFamily: 'Poppins, sans-serif',
+                  fontWeight: 600,
+                  fontSize: '18px',
+                  padding: '14px 40px',
+                  backgroundColor: '#FFFFFF',
+                  color: '#14358A',
+                  border: 'none',
+                  cursor: 'pointer',
+                }}
+              >
+                Business Autopilot
+              </button>
+            </div>
+          </div>
+
+          {/* Two-column layout */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Left column - Leadership Support */}
+            <div>
+              <h3
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: '32px',
+                  lineHeight: '120%',
+                  color: '#14358A',
+                  marginBottom: '16px',
+                }}
+              >
+                Leadership Support
+              </h3>
+              <p
+                style={{
+                  fontFamily: 'Montserrat, sans-serif',
+                  fontWeight: 400,
+                  fontSize: '16px',
+                  lineHeight: '160%',
+                  color: '#333333',
+                  marginBottom: '24px',
+                }}
+              >
+                For owners who wish to remain operationally involved, we embed PMG executives to lead critical functions, drive high-priority transformation initiatives, or fill acute leadership gaps collaboratively. We embed consultants as leaders in a variety of corporate functional areas, including:
+              </p>
+
+              {/* Functional areas list */}
+              <div className="space-y-3 mb-6">
+                {[
+                  'Operations & Strategy',
+                  'People & Organizations',
+                  'Mergers & Acquisitions',
+                  'Customer Experience',
+                  'Branding & Marketing',
+                ].map((item, idx) => (
+                  <div key={idx} className="flex items-center gap-3">
+                    <Image src="/check-icon.png" alt="" width={20} height={20} />
+                    <span
+                      style={{
+                        fontFamily: 'Montserrat, sans-serif',
+                        fontWeight: 400,
+                        fontSize: '16px',
+                        color: '#333333',
+                      }}
+                    >
+                      {item}
+                    </span>
+                  </div>
+                ))}
+              </div>
+
+              {/* What Leadership Support Delivers */}
+              <h4
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: '24px',
+                  lineHeight: '130%',
+                  color: '#14358A',
+                  marginTop: '32px',
+                  marginBottom: '16px',
+                }}
+              >
+                What Leadership Support Delivers
+              </h4>
+
+              {/* Two columns: We Do / We Do Not */}
+              <div className="grid grid-cols-2 gap-6">
+                {/* We Do */}
+                <div>
+                  <h5
+                    style={{
+                      fontFamily: 'Poppins, sans-serif',
+                      fontWeight: 600,
+                      fontSize: '18px',
+                      color: '#00A86B',
+                      marginBottom: '12px',
+                    }}
+                  >
+                    We Do:
+                  </h5>
+                  <ul className="space-y-2">
+                    {[
+                      'Lead specific functions as department (e.g., COO, Head of CX)',
+                      'Drive high-priority transformation initiatives',
+                      'Collaborate with you and your existing leadership team',
+                      'Mentor and develop internal talent',
+                      'Report progress and results to you as your designated leader',
+                    ].map((item, idx) => (
+                      <li key={idx} className="flex items-start gap-2">
+                        <span style={{ color: '#00A86B', marginTop: '4px' }}>✓</span>
+                        <span
+                          style={{
+                            fontFamily: 'Montserrat, sans-serif',
+                            fontWeight: 400,
+                            fontSize: '14px',
+                            lineHeight: '160%',
+                            color: '#333333',
+                          }}
+                        >
+                          {item}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* We Do Not */}
+                <div>
+                  <h5
+                    style={{
+                      fontFamily: 'Poppins, sans-serif',
+                      fontWeight: 600,
+                      fontSize: '18px',
+                      color: '#E74C3C',
+                      marginBottom: '12px',
+                    }}
+                  >
+                    We Do Not:
+                  </h5>
+                  <ul className="space-y-2">
+                    {[
+                      'Make unilateral decisions outside our defined scope',
+                      'Replace existing, effective leadership',
+                      'Operate in a silo without collaboration',
+                      'Disengage without a thorough knowledge transfer',
+                    ].map((item, idx) => (
+                      <li key={idx} className="flex items-start gap-2">
+                        <span style={{ color: '#E74C3C', marginTop: '4px' }}>✗</span>
+                        <span
+                          style={{
+                            fontFamily: 'Montserrat, sans-serif',
+                            fontWeight: 400,
+                            fontSize: '14px',
+                            lineHeight: '160%',
+                            color: '#333333',
+                          }}
+                        >
+                          {item}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Right column - Ideal For & Your Involvement */}
+            <div>
+              {/* Ideal For box */}
+              <div
+                style={{
+                  border: '2px solid #14358A',
+                  borderRadius: '10px',
+                  padding: '24px',
+                  backgroundColor: '#FFFFFF',
+                  marginBottom: '20px',
+                }}
+              >
+                <h4
+                  style={{
+                    fontFamily: 'DM Sans, sans-serif',
+                    fontWeight: 700,
+                    fontSize: '24px',
+                    lineHeight: '130%',
+                    color: '#14358A',
+                    marginBottom: '12px',
+                  }}
+                >
+                  Ideal For
+                </h4>
+                <p
+                  style={{
+                    fontFamily: 'Montserrat, sans-serif',
+                    fontWeight: 400,
+                    fontSize: '16px',
+                    lineHeight: '160%',
+                    color: '#333333',
+                  }}
+                >
+                  Companies facing high-impact transformation initiatives, departments, organizations in transition, or owners who need to strengthen their executive leadership team.
+                </p>
+              </div>
+
+              {/* Your Involvement box */}
+              <div
+                style={{
+                  border: '2px solid #14358A',
+                  borderRadius: '10px',
+                  padding: '24px',
+                  backgroundColor: '#FFFFFF',
+                }}
+              >
+                <h4
+                  style={{
+                    fontFamily: 'DM Sans, sans-serif',
+                    fontWeight: 700,
+                    fontSize: '24px',
+                    lineHeight: '130%',
+                    color: '#14358A',
+                    marginBottom: '12px',
+                  }}
+                >
+                  Your Involvement:
+                </h4>
+                <p
+                  style={{
+                    fontFamily: 'Montserrat, sans-serif',
+                    fontWeight: 400,
+                    fontSize: '16px',
+                    lineHeight: '160%',
+                    color: '#333333',
+                  }}
+                >
+                  You remain actively involved in strategic decision-making and high-level involvement. The PMG executive works within your existing structure, reporting to ownership or the leadership team.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Section 7: Our Commitment: True Accountability ─── */}
+      <section className="w-full py-16 px-6 bg-white">
+        <div className="max-w-[1100px] mx-auto">
+          <div className="flex flex-col items-center text-center mb-12">
+            <h2
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 700,
+                fontSize: '48px',
+                lineHeight: '105%',
+                letterSpacing: '-0.03em',
+                color: '#14358A',
+                marginBottom: '16px',
+              }}
+            >
+              Our Commitment: True Accountability
+            </h2>
+            <p
+              style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 400,
+                fontSize: '22px',
+                lineHeight: '150%',
+                color: '#333333',
+                maxWidth: '900px',
+              }}
+            >
+              Our partnerships are built on a foundation of transparency and measurable outcomes. We don&apos;t just promise results; we provide concrete mechanisms to ensure we deliver them.
+            </p>
+          </div>
+
+          {/* 3 cards */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                icon: '/accountability-icon-1.png',
+                title: 'Transparent Success Metrics',
+                desc: 'Before any project begins, we work with you to define specific, measurable KPIs that align directly with your business objectives. These metrics are tracked in real-time, so success looks like from day one.',
+              },
+              {
+                icon: '/accountability-icon-2.png',
+                title: 'Consistent Progress Reviews',
+                desc: 'We establish a regular cadence of structured reviews, providing documented updates that track our performance against the agreed-upon targets. This ensures you always have clear reporting.',
+              },
+              {
+                icon: '/accountability-icon-3.png',
+                title: 'Post-Engagement Success Audit',
+                desc: 'Our commitment extends beyond project completion. We conduct a 3- and 12-month follow-up audits to ensure the long-term impact of our work, verifying that improvements are sustained and continue to grow.',
+              },
+            ].map((card, idx) => (
+              <div
+                key={idx}
+                style={{
+                  border: '2px solid #14358A',
+                  borderRadius: '10px',
+                  padding: '28px 24px',
+                  backgroundColor: '#FFFFFF',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '14px',
+                }}
+              >
+                <div className="flex items-center gap-4">
+                  <Image src={card.icon} alt={card.title} width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
+                  <h3
+                    style={{
+                      fontFamily: 'DM Sans, sans-serif',
+                      fontWeight: 700,
+                      fontSize: '24px',
+                      lineHeight: '130%',
+                      color: '#14358A',
+                      margin: 0,
+                    }}
+                  >
+                    {card.title}
+                  </h3>
+                </div>
+                <p
+                  style={{
+                    fontFamily: 'Montserrat, sans-serif',
+                    fontWeight: 400,
+                    fontSize: '14px',
+                    lineHeight: '160%',
+                    color: '#333333',
+                  }}
+                >
+                  {card.desc}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Section 8: Our Approach: From Insight to Impact ─── */}
+      <section className="w-full py-16 px-6 bg-white">
+        <div className="max-w-[1100px] mx-auto">
+          <div className="flex flex-col items-center text-center mb-12">
+            <h2
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 700,
+                fontSize: '48px',
+                lineHeight: '105%',
+                letterSpacing: '-0.03em',
+                color: '#14358A',
+                marginBottom: '16px',
+              }}
+            >
+              Our Approach: From Insight to Impact
+            </h2>
+            <p
+              style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontWeight: 400,
+                fontSize: '22px',
+                lineHeight: '150%',
+                color: '#333333',
+                maxWidth: '900px',
+              }}
+            >
+              We do not just deliver advice; we deliver outcomes. Our methodology is built on deep analysis, hands-on execution, and a relentless commitment to quality. We do not rely on recycled industry playbooks. Instead, we architect and implement first-principle solutions designed for one purpose: to solve your most critical challenges effectively and permanently.
+            </p>
+          </div>
+
+          {/* 3 cards with icons */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                icon: '/approach-icon-1.png',
+                title: 'Architects & Implementers, Not Just Advisors',
+                desc: 'We don\'t stop at ideas. Our engagement does not end with a slide deck. We stay on the ground, integrating with your teams to manage the transformation end-to-end, ensuring the solutions we deliver.',
+              },
+              {
+                icon: '/approach-icon-2.png',
+                title: 'Industry-Agnostic Innovation',
+                desc: 'We believe the best solutions are not confined to a single industry. We deliberately cross-pollinate proven strategies from diverse fields to solve problems with a speed and creativity that industry-siloed consultants cannot match.',
+              },
+              {
+                icon: '/approach-icon-3.png',
+                title: 'Rigorous Quality Assurance & Continuous Improvement',
+                desc: 'We don\'t just implement and leave. We embed a rigorous internal QA process to ensure fidelity and alignment with your goals. After every engagement, we codify our learnings to continuously refine our methods. This is how we maintain our industry-leading 23x average client ROI.',
+              },
+            ].map((card, idx) => (
+              <div key={idx} className="flex flex-col items-start">
+                <div
+                  style={{
+                    width: '80px',
+                    height: '80px',
+                    borderRadius: '50% 0 50% 50%',
+                    backgroundColor: '#14358A',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    marginBottom: '20px',
+                  }}
+                >
+                  <Image src={card.icon} alt={card.title} width={40} height={40} style={{ objectFit: 'contain' }} />
+                </div>
+                <h3
+                  style={{
+                    fontFamily: 'DM Sans, sans-serif',
+                    fontWeight: 700,
+                    fontSize: '24px',
+                    lineHeight: '130%',
+                    color: '#222222',
+                    marginBottom: '12px',
+                  }}
+                >
+                  {card.title}
+                </h3>
+                <p
+                  style={{
+                    fontFamily: 'Montserrat, sans-serif',
+                    fontWeight: 400,
+                    fontSize: '16px',
+                    lineHeight: '160%',
+                    color: '#333333',
+                  }}
+                >
+                  {card.desc}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Section 9: Ready to Elevate Your Business? ─── */}
+      <section
+        className="w-full py-20 px-6"
+        style={{
+          background: 'linear-gradient(135deg, #EBF7FF 0%, #FFFFFF 100%)',
+        }}
+      >
+        <div className="max-w-[900px] mx-auto flex flex-col items-center text-center">
+          <h2
+            style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
+              marginBottom: '20px',
+            }}
+          >
+            Ready to Elevate Your Business?
+          </h2>
+          <p
+            style={{
+              fontFamily: 'Montserrat, sans-serif',
+              fontWeight: 400,
+              fontSize: '22px',
+              lineHeight: '150%',
+              color: '#333333',
+              marginBottom: '32px',
+            }}
+          >
+            Let&apos;s discuss how PMG can help you navigate your challenges and seize new opportunities.
+          </p>
+          <button
+            style={{
+              fontFamily: 'Poppins, sans-serif',
+              fontWeight: 600,
+              fontSize: '18px',
+              padding: '16px 40px',
+              backgroundColor: '#8B5CF6',
+              color: '#FFFFFF',
+              border: 'none',
+              borderRadius: '8px',
+              cursor: 'pointer',
+            }}
+          >
+            Request a Consultation
+          </button>
         </div>
       </section>
 
