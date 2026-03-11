@@ -744,7 +744,7 @@ export default function ActiveManagementSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '32px',
+                  fontSize: '27px',
                   lineHeight: '120%',
                   color: '#14358A',
                   marginBottom: '16px',
@@ -754,11 +754,11 @@ export default function ActiveManagementSolutions() {
               </h3>
               <p
                 style={{
-                  fontFamily: 'Montserrat, sans-serif',
+                  fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '16px',
-                  lineHeight: '160%',
-                  color: '#333333',
+                  fontSize: '20px',
+                  lineHeight: '130%',
+                  color: '#4A5565',
                   marginBottom: '24px',
                 }}
               >
@@ -778,10 +778,11 @@ export default function ActiveManagementSolutions() {
                     <Image src="/check-icon.png" alt="" width={20} height={20} />
                     <span
                       style={{
-                        fontFamily: 'Montserrat, sans-serif',
+                        fontFamily: 'Arimo, sans-serif',
                         fontWeight: 400,
                         fontSize: '16px',
-                        color: '#333333',
+                        lineHeight: '150%',
+                        color: '#364153',
                       }}
                     >
                       {item}
@@ -795,8 +796,8 @@ export default function ActiveManagementSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '24px',
-                  lineHeight: '130%',
+                  fontSize: '20px',
+                  lineHeight: '140%',
                   color: '#14358A',
                   marginTop: '32px',
                   marginBottom: '16px',
@@ -811,32 +812,32 @@ export default function ActiveManagementSolutions() {
                 <div>
                   <h5
                     style={{
-                      fontFamily: 'Poppins, sans-serif',
-                      fontWeight: 600,
-                      fontSize: '18px',
-                      color: '#00A86B',
+                      fontFamily: 'DM Sans, sans-serif',
+                      fontWeight: 700,
+                      fontSize: '16px',
+                      color: '#008236',
                       marginBottom: '12px',
                     }}
                   >
                     We Do:
                   </h5>
-                  <ul className="space-y-2">
+                  <ul className="space-y-3">
                     {[
-                      'Lead specific functions as department (e.g., COO, Head of CX)',
+                      'Lead specific functions or departments (e.g., COO, Head of CX)',
                       'Drive high-priority transformation initiatives',
-                      'Collaborate with you and your existing leadership team',
+                      'Provide strategic guidance to the existing leadership team',
                       'Mentor and develop internal talent',
-                      'Report progress and results to you as your designated leader',
+                      'Report progress and results to you or your designated leader',
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2">
-                        <span style={{ color: '#00A86B', marginTop: '4px' }}>✓</span>
+                        <span style={{ color: '#008236', marginTop: '2px', fontSize: '16px' }}>✓</span>
                         <span
                           style={{
-                            fontFamily: 'Montserrat, sans-serif',
+                            fontFamily: 'DM Sans, sans-serif',
                             fontWeight: 400,
                             fontSize: '14px',
-                            lineHeight: '160%',
-                            color: '#333333',
+                            lineHeight: '140%',
+                            color: '#364153',
                           }}
                         >
                           {item}
@@ -850,16 +851,16 @@ export default function ActiveManagementSolutions() {
                 <div>
                   <h5
                     style={{
-                      fontFamily: 'Poppins, sans-serif',
-                      fontWeight: 600,
-                      fontSize: '18px',
-                      color: '#E74C3C',
+                      fontFamily: 'DM Sans, sans-serif',
+                      fontWeight: 700,
+                      fontSize: '16px',
+                      color: '#C10007',
                       marginBottom: '12px',
                     }}
                   >
                     We Do Not:
                   </h5>
-                  <ul className="space-y-2">
+                  <ul className="space-y-3">
                     {[
                       'Make unilateral decisions outside our defined scope',
                       'Replace existing, effective leadership',
@@ -867,14 +868,14 @@ export default function ActiveManagementSolutions() {
                       'Disengage without a thorough knowledge transfer',
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2">
-                        <span style={{ color: '#E74C3C', marginTop: '4px' }}>✗</span>
+                        <span style={{ color: '#C10007', marginTop: '2px', fontSize: '16px' }}>✗</span>
                         <span
                           style={{
-                            fontFamily: 'Montserrat, sans-serif',
+                            fontFamily: 'DM Sans, sans-serif',
                             fontWeight: 400,
                             fontSize: '14px',
-                            lineHeight: '160%',
-                            color: '#333333',
+                            lineHeight: '140%',
+                            color: '#364153',
                           }}
                         >
                           {item}
