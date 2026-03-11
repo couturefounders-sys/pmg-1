@@ -836,7 +836,7 @@ export default function ActiveManagementSolutions() {
                       'Report progress and results to you or your designated leader',
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2">
-                        <span style={{ color: '#008236', marginTop: '2px', fontSize: '16px' }}>✓</span>
+                        <Image src="/we-do-icon.png" alt="✓" width={20} height={20} style={{ flexShrink: 0, marginTop: '2px' }} />
                         <span
                           style={{
                             fontFamily: 'DM Sans, sans-serif',
@@ -874,7 +874,7 @@ export default function ActiveManagementSolutions() {
                       'Disengage without a thorough knowledge transfer',
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2">
-                        <span style={{ color: '#C10007', marginTop: '2px', fontSize: '16px' }}>✗</span>
+                        <Image src="/we-do-not-icon.png" alt="✗" width={20} height={20} style={{ flexShrink: 0, marginTop: '2px' }} />
                         <span
                           style={{
                             fontFamily: 'DM Sans, sans-serif',
