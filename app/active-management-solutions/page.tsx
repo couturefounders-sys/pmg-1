@@ -898,7 +898,7 @@ export default function ActiveManagementSolutions() {
               {/* Ideal For box */}
               <div
                 style={{
-                  border: '2px solid #14358A',
+                  border: '3px solid #14358A',
                   borderRadius: '10px',
                   padding: '24px',
                   backgroundColor: '#FFFFFF',
@@ -909,8 +909,8 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: '24px',
-                    lineHeight: '130%',
+                    fontSize: '25px',
+                    lineHeight: '24px',
                     color: '#14358A',
                     marginBottom: '12px',
                   }}
@@ -919,21 +919,21 @@ export default function ActiveManagementSolutions() {
                 </h4>
                 <p
                   style={{
-                    fontFamily: 'Montserrat, sans-serif',
+                    fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 400,
                     fontSize: '16px',
-                    lineHeight: '160%',
-                    color: '#333333',
+                    lineHeight: '22.75px',
+                    color: '#68718B',
                   }}
                 >
-                  Companies facing high-impact transformation initiatives, departments, organizations in transition, or owners who need to strengthen their executive leadership team.
+                  Businesses needing high-impact leadership for specific departments, organizations in transition, or owners who need to strengthen their executive team.
                 </p>
               </div>
 
               {/* Your Involvement box */}
               <div
                 style={{
-                  border: '2px solid #14358A',
+                  border: '3px solid #14358A',
                   borderRadius: '10px',
                   padding: '24px',
                   backgroundColor: '#FFFFFF',
@@ -943,8 +943,8 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: '24px',
-                    lineHeight: '130%',
+                    fontSize: '25px',
+                    lineHeight: '24px',
                     color: '#14358A',
                     marginBottom: '12px',
                   }}
@@ -953,14 +953,14 @@ export default function ActiveManagementSolutions() {
                 </h4>
                 <p
                   style={{
-                    fontFamily: 'Montserrat, sans-serif',
+                    fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 400,
                     fontSize: '16px',
-                    lineHeight: '160%',
-                    color: '#333333',
+                    lineHeight: '22.75px',
+                    color: '#68718B',
                   }}
                 >
-                  You remain actively involved in strategic decision-making and high-level involvement. The PMG executive works within your existing structure, reporting to ownership or the leadership team.
+                  You define your level of involvement. The PMG executive works within your existing structure, reporting to ownership or the board as agreed.
                 </p>
               </div>
             </div>
