@@ -768,14 +768,14 @@ export default function ActiveManagementSolutions() {
               {/* Functional areas list */}
               <div className="space-y-3 mb-6">
                 {[
-                  'Operations & Strategy',
-                  'People & Organizations',
-                  'Mergers & Acquisitions',
-                  'Customer Experience',
-                  'Branding & Marketing',
+                  { text: 'Operations & Strategy', icon: '/functional-icon-1.png' },
+                  { text: 'People & Organizations', icon: '/functional-icon-2.png' },
+                  { text: 'Mergers & Acquisitions', icon: '/functional-icon-3.png' },
+                  { text: 'Customer Experience', icon: '/functional-icon-4.png' },
+                  { text: 'Branding & Marketing', icon: '/functional-icon-5.png' },
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center gap-3">
-                    <Image src="/check-icon.png" alt="" width={20} height={20} />
+                    <Image src={item.icon} alt="" width={20} height={20} />
                     <span
                       style={{
                         fontFamily: 'Arimo, sans-serif',
@@ -785,7 +785,7 @@ export default function ActiveManagementSolutions() {
                         color: '#364153',
                       }}
                     >
-                      {item}
+                      {item.text}
                     </span>
                   </div>
                 ))}
