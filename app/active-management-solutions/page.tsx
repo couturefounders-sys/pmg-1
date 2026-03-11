@@ -780,7 +780,14 @@ export default function ActiveManagementSolutions() {
                       alt=""
                       width={20}
                       height={20}
-                      style={{ height: '20px', width: 'auto', flexShrink: 0, alignSelf: 'stretch', objectFit: 'contain' }}
+                      style={{
+                        height: '20px',
+                        width: 'auto',
+                        flexShrink: 0,
+                        alignSelf: 'stretch',
+                        objectFit: 'contain',
+                        filter: 'brightness(0) saturate(100%) invert(23%) sepia(19%) saturate(685%) hue-rotate(181deg) brightness(96%) contrast(91%)',
+                      }}
                     />
                     <span
                       style={{
