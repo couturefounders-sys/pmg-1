@@ -1063,95 +1063,117 @@ export default function ActiveManagementSolutions() {
       </section>
 
       {/* ─── Section 8: Our Approach: From Insight to Impact ─── */}
-      <section className="w-full py-16 px-6 bg-white">
-        <div className="max-w-[1100px] mx-auto">
-          <div className="flex flex-col items-center text-center mb-12">
-            <h2
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '48px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
-                marginBottom: '16px',
-              }}
-            >
-              Our Approach: From Insight to Impact
-            </h2>
-            <p
-              style={{
-                fontFamily: 'Montserrat, sans-serif',
-                fontWeight: 400,
-                fontSize: '22px',
-                lineHeight: '150%',
-                color: '#333333',
-                maxWidth: '900px',
-              }}
-            >
-              We do not just deliver advice; we deliver outcomes. Our methodology is built on deep analysis, hands-on execution, and a relentless commitment to quality. We do not rely on recycled industry playbooks. Instead, we architect and implement first-principle solutions designed for one purpose: to solve your most critical challenges effectively and permanently.
-            </p>
-          </div>
+      <section className="relative z-10 py-20 bg-white">
+        <div className="max-w-[1440px] mx-auto px-16">
+          {/* Heading */}
+          <h2
+            style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              textAlign: 'center',
+              color: '#14358A',
+              marginBottom: '16px',
+            }}
+          >
+            Our Approach: From Insight to Impact
+          </h2>
 
-          {/* 3 cards with icons */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Description */}
+          <p
+            style={{
+              fontFamily: 'Montserrat, sans-serif',
+              fontWeight: 400,
+              fontSize: '30px',
+              lineHeight: '140%',
+              letterSpacing: '0%',
+              textAlign: 'center',
+              color: '#333333',
+              maxWidth: '1201px',
+              margin: '0 auto 48px auto',
+            }}
+          >
+            We do not just deliver advice; we deliver outcomes. Our methodology is built on deep analysis, hands-on execution, and a relentless commitment to quality. We do not rely on recycled industry playbooks. Instead, we architect and implement first-principle solutions designed for one purpose: to solve your most critical challenges effectively and permanently.
+          </p>
+
+          {/* Approach Cards — same design as Flexible Pricing Options */}
+          <div className="flex flex-wrap justify-center gap-8 max-w-[1200px] mx-auto">
             {[
               {
                 icon: '/approach-icon-1.png',
                 title: 'Architects & Implementers, Not Just Advisors',
-                desc: 'We own the outcome. Our engagement does not end with a strategy deck; we stay to execute the plan, integrating with your teams to manage the transformation and ensure the solutions we design are the solutions we deliver.',
+                subtitle: 'We Own the Outcome.',
+                desc: 'Our engagement does not end with a strategy deck; we stay to execute the plan, integrating with your teams to manage the transformation and ensure the solutions we design are the solutions we deliver.',
               },
               {
                 icon: '/approach-icon-2.png',
                 title: 'Industry-Agnostic Innovation',
+                subtitle: 'Proven Strategies Beyond Sector Silos.',
                 desc: 'We believe the best solutions are not confined to a single industry. By applying our Sector Convergence Model, we pull proven strategies from diverse fields to solve problems with a speed and creativity that industry-siloed consultants cannot match.',
               },
               {
                 icon: '/approach-icon-3.png',
                 title: 'Rigorous Quality Assurance & Continuous Improvement',
+                subtitle: 'Built for Excellence. Refined for Results.',
                 desc: 'Every project plan, financial model, and key deliverable undergoes a rigorous internal QA process to ensure viability and alignment with your goals. After every engagement, we codify our learnings to continuously refine our methods. This is how we maintain our industry-leading 22x average client ROI.',
               },
-            ].map((card, idx) => (
-              <div key={idx} className="flex flex-col items-start">
+            ].map((card, idx) => {
+              const isThirdCard = idx === 2;
+              const tabHeight = isThirdCard ? 177 : 153;
+              const cardPadding = isThirdCard ? '24px 24px 24px 150px' : '24px 24px 24px 140px';
+              return (
+              <div
+                key={idx}
+                className="relative flex items-stretch"
+                style={{ width: '540px' }}
+              >
+                {/* Blue Tab */}
                 <div
                   style={{
-                    width: '80px',
-                    height: '80px',
-                    borderRadius: '50% 0 50% 50%',
-                    backgroundColor: '#14358A',
+                    position: 'absolute',
+                    left: '-16px',
+                    top: '-4px',
+                    width: isThirdCard ? '158px' : '144px',
+                    height: tabHeight,
+                    background: '#14358A',
+                    borderRadius: '13px 0 0 13px',
+                    clipPath: 'polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    marginBottom: '20px',
+                    paddingRight: '20px',
+                    zIndex: 1,
                   }}
                 >
-                  <Image src={card.icon} alt={card.title} width={40} height={40} style={{ objectFit: 'contain' }} />
+                  <Image src={card.icon} alt={card.title} width={64} height={64} style={{ objectFit: 'contain' }} />
                 </div>
-                <h3
+
+                {/* Card Content */}
+                <div
+                  className="depth-card"
                   style={{
-                    fontFamily: 'DM Sans, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '24px',
-                    lineHeight: '130%',
-                    color: '#222222',
-                    marginBottom: '12px',
+                    border: '1px solid #99A1AF',
+                    borderRadius: '13.06px',
+                    padding: cardPadding,
+                    width: '100%',
+                    minHeight: `${tabHeight}px`,
                   }}
                 >
-                  {card.title}
-                </h3>
-                <p
-                  style={{
-                    fontFamily: 'Montserrat, sans-serif',
-                    fontWeight: 400,
-                    fontSize: '16px',
-                    lineHeight: '160%',
-                    color: '#333333',
-                  }}
-                >
-                  {card.desc}
-                </p>
+                  <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '18px', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
+                    {card.title}
+                  </h3>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '12px', lineHeight: '24px', color: '#14358A', marginBottom: '4px' }}>
+                    {card.subtitle}
+                  </p>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '24px', color: '#5F5F5F' }}>
+                    {card.desc}
+                  </p>
+                </div>
               </div>
-            ))}
+            );
+            })}
           </div>
         </div>
       </section>

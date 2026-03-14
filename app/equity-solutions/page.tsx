@@ -14,11 +14,14 @@ export default function EquitySolutions() {
           {/* Eyebrow */}
           <p
             style={{
-              fontFamily: 'Poppins, sans-serif',
-              fontWeight: 600,
-              fontSize: '20px',
-              lineHeight: '100%',
-              color: '#6A36FF',
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: '29px',
+              fontStyle: 'normal',
+              lineHeight: '105%',
+              letterSpacing: '-0.87px',
+              color: '#14358A',
+              textAlign: 'center',
               marginBottom: '20px',
             }}
           >
@@ -28,25 +31,29 @@ export default function EquitySolutions() {
           {/* Main Heading */}
           <h1
             style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontWeight: 700,
-              fontSize: '56px',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em',
+              fontFamily: 'Poppins, sans-serif',
+              fontWeight: 600,
+              fontSize: '50px',
+              lineHeight: '55px',
+              letterSpacing: '0%',
+              textAlign: 'center',
               color: '#14358A',
               marginBottom: '40px',
               maxWidth: '860px',
             }}
           >
-            A Strategic Partnership for Accelerated Growth &amp; Shared Success
+            A Strategic Partnership for Accelerated
+            <br />
+            Growth &amp; Shared Success
           </h1>
 
           {/* How Our Model Works box */}
           <div
             style={{
               width: '100%',
-              border: '2px solid #14358A',
-              borderRadius: '12px',
+              border: '3px solid #14358A',
+              borderRadius: '10px',
+              background: '#FFFFFF',
               padding: '36px 48px',
               textAlign: 'center',
             }}
@@ -55,9 +62,9 @@ export default function EquitySolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '28px',
-                lineHeight: '120%',
-                letterSpacing: '-0.02em',
+                fontSize: '29px',
+                lineHeight: '105%',
+                letterSpacing: '-0.03em',
                 color: '#14358A',
                 marginBottom: '20px',
               }}
@@ -66,11 +73,13 @@ export default function EquitySolutions() {
             </h2>
             <p
               style={{
-                fontFamily: 'Montserrat, sans-serif',
+                fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '18px',
-                lineHeight: '160%',
-                color: '#333333',
+                fontSize: '20px',
+                lineHeight: '140%',
+                letterSpacing: '0%',
+                textAlign: 'center',
+                color: '#68718B',
                 marginBottom: '20px',
                 maxWidth: '760px',
                 margin: '0 auto 20px auto',
@@ -83,12 +92,14 @@ export default function EquitySolutions() {
             </p>
             <p
               style={{
-                fontFamily: 'Montserrat, sans-serif',
+                fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
                 fontStyle: 'italic',
-                fontSize: '18px',
-                lineHeight: '160%',
-                color: '#333333',
+                fontSize: '20px',
+                lineHeight: '140%',
+                letterSpacing: '0%',
+                textAlign: 'center',
+                color: '#68718B',
               }}
             >
               This is not investment capital—it&apos;s expertise capital.
@@ -197,7 +208,7 @@ export default function EquitySolutions() {
                 top: '24px',
                 bottom: '24px',
                 width: '2px',
-                backgroundColor: '#14358A',
+                backgroundColor: '#006FBA',
                 transform: 'translateX(-50%)',
                 zIndex: 0,
               }}
@@ -233,12 +244,14 @@ export default function EquitySolutions() {
                   justifyContent: item.side === 'left' ? 'flex-start' : 'flex-end',
                 }}
               >
-                {/* Card */}
+                {/* Card — Vector 148 design */}
                 <div
                   style={{
                     width: '42%',
-                    border: '1.5px solid #14358A',
-                    borderRadius: '10px',
+                    minWidth: '227px',
+                    minHeight: '184px',
+                    border: '3px solid #006FBA',
+                    borderRadius: '16px',
                     padding: '20px 24px',
                     backgroundColor: '#FFFFFF',
                     position: 'relative',
@@ -250,7 +263,7 @@ export default function EquitySolutions() {
                       fontWeight: 700,
                       fontSize: '20px',
                       lineHeight: '130%',
-                      color: '#14358A',
+                      color: '#006FBA',
                       marginBottom: '10px',
                     }}
                   >
@@ -258,7 +271,7 @@ export default function EquitySolutions() {
                   </h3>
                   <p
                     style={{
-                      fontFamily: 'Montserrat, sans-serif',
+                      fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 400,
                       fontSize: '14px',
                       lineHeight: '160%',
@@ -276,7 +289,7 @@ export default function EquitySolutions() {
                       [item.side === 'left' ? 'right' : 'left']: '-16%',
                       width: '16%',
                       height: '2px',
-                      borderTop: '2px dashed #14358A',
+                      borderTop: '2px dashed #006FBA',
                       transform: 'translateY(-50%)',
                     }}
                   />
@@ -291,7 +304,7 @@ export default function EquitySolutions() {
                     width: '18px',
                     height: '18px',
                     borderRadius: '50%',
-                    backgroundColor: '#14358A',
+                    backgroundColor: '#006FBA',
                     zIndex: 2,
                     flexShrink: 0,
                   }}
@@ -366,9 +379,9 @@ export default function EquitySolutions() {
                 <div className="flex items-center gap-4">
                   <div
                     style={{
-                      width: '52px',
-                      height: '52px',
-                      borderRadius: '10px',
+                      width: '48px',
+                      height: '48px',
+                      borderRadius: '8px',
                       backgroundColor: '#14358A',
                       display: 'flex',
                       alignItems: 'center',
@@ -376,7 +389,7 @@ export default function EquitySolutions() {
                       flexShrink: 0,
                     }}
                   >
-                    <Image src="/equity-icon-13.png" alt={card.title} width={28} height={28} style={{ objectFit: 'contain' }} />
+                    <Image src="/equity-icon-13.png" alt={card.title} width={24} height={24} style={{ objectFit: 'contain' }} />
                   </div>
                   <h3
                     style={{
@@ -437,9 +450,9 @@ export default function EquitySolutions() {
                 <div className="flex items-center gap-4">
                   <div
                     style={{
-                      width: '52px',
-                      height: '52px',
-                      borderRadius: '10px',
+                      width: '48px',
+                      height: '48px',
+                      borderRadius: '8px',
                       backgroundColor: '#14358A',
                       display: 'flex',
                       alignItems: 'center',
@@ -447,7 +460,7 @@ export default function EquitySolutions() {
                       flexShrink: 0,
                     }}
                   >
-                    <Image src="/equity-icon-13.png" alt={card.title} width={28} height={28} style={{ objectFit: 'contain' }} />
+                    <Image src="/equity-icon-13.png" alt={card.title} width={24} height={24} style={{ objectFit: 'contain' }} />
                   </div>
                   <h3
                     style={{
@@ -482,37 +495,124 @@ export default function EquitySolutions() {
 
       {/* ─── Section 5: Gradient content section ─── */}
       <section
-        className="w-full relative overflow-hidden py-20 px-6"
-        style={{ background: 'linear-gradient(135deg, #1B45B4 0%, #1C2792 100%)' }}
+        className="w-full relative overflow-hidden py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8"
+        style={{
+          background: 'linear-gradient(135deg, #1B45B4 0%, #1C2792 100%)',
+          backgroundAttachment: 'fixed',
+          backgroundSize: 'cover',
+        }}
       >
-        {/* Decorative Rectangle - Top Right */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
-        {/* Decorative Rectangle - Bottom Left */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        {/* Decorative Border Rectangle - Top Left */}
-        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        <div className="max-w-[1200px] mx-auto flex flex-col items-center gap-12">
+        {/* Decorative shapes — fill background, no gaps */}
+        {/* Top Right */}
+        <div className="absolute pointer-events-none" style={{ width: 'min(300px, 20vw)', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
+        <div className="absolute pointer-events-none" style={{ width: 'min(220px, 15vw)', height: '55px', right: '5%', top: '12%', background: '#0097FE', opacity: 0.75, transform: 'rotate(12deg)', transformOrigin: 'center' }} />
+        <div className="absolute pointer-events-none" style={{ width: 'min(180px, 12vw)', height: '50px', right: '25%', top: '8%', background: '#0097FE', opacity: 0.5, transform: 'rotate(-8deg)', transformOrigin: 'center' }} />
+        {/* Top Left */}
+        <div className="absolute pointer-events-none" style={{ width: 'min(315px, 22vw)', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+        <div className="absolute pointer-events-none" style={{ width: 'min(200px, 14vw)', height: '65px', left: '8%', top: '18%', background: 'transparent', border: '1px solid rgba(102,193,255,0.65)', transform: 'rotate(-8deg)', transformOrigin: 'center' }} />
+        <div className="absolute pointer-events-none" style={{ width: 'min(160px, 11vw)', height: '50px', left: '22%', top: '25%', background: 'transparent', border: '1px solid rgba(102,193,255,0.45)', transform: 'rotate(5deg)', transformOrigin: 'center' }} />
+        {/* Center — behind title area */}
+        <div className="absolute pointer-events-none" style={{ width: 'min(320px, 22vw)', height: '80px', left: '30%', top: '35%', background: '#0097FE', opacity: 0.4, transform: 'rotate(-5deg)', transformOrigin: 'center' }} />
+        <div className="absolute pointer-events-none" style={{ width: 'min(280px, 19vw)', height: '65px', right: '28%', top: '42%', background: 'transparent', border: '1px solid rgba(102,193,255,0.4)', transform: 'rotate(8deg)', transformOrigin: 'center' }} />
+        <div className="absolute pointer-events-none" style={{ width: 'min(200px, 14vw)', height: '55px', left: '45%', top: '55%', background: '#0097FE', opacity: 0.3, transform: 'rotate(-12deg)', transformOrigin: 'center' }} />
+        {/* Bottom Left */}
+        <div className="absolute pointer-events-none" style={{ width: 'min(300px, 20vw)', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+        <div className="absolute pointer-events-none" style={{ width: 'min(240px, 16vw)', height: '60px', left: '3%', bottom: '22%', background: '#1C2792', opacity: 0.55, transform: 'rotate(10deg)', transformOrigin: 'center' }} />
+        <div className="absolute pointer-events-none" style={{ width: 'min(190px, 13vw)', height: '50px', left: '18%', bottom: '12%', background: '#0097FE', opacity: 0.4, transform: 'rotate(-6deg)', transformOrigin: 'center' }} />
+        {/* Bottom Right */}
+        <div className="absolute pointer-events-none" style={{ width: 'min(280px, 18vw)', height: '65px', right: '-15px', bottom: '30px', background: '#0097FE', opacity: 0.6, transform: 'rotate(15deg)', transformOrigin: 'right center' }} />
+        <div className="absolute pointer-events-none" style={{ width: 'min(220px, 15vw)', height: '55px', right: '12%', bottom: '18%', background: '#0097FE', opacity: 0.5, transform: 'rotate(-10deg)', transformOrigin: 'center' }} />
+        <div className="absolute pointer-events-none" style={{ width: 'min(260px, 17vw)', height: '60px', right: '5%', bottom: '8%', background: '#0097FE', opacity: 0.45, transform: 'rotate(6deg)', transformOrigin: 'center' }} />
+        <div className="w-full max-w-[1200px] mx-auto flex flex-col items-center gap-8 sm:gap-10 md:gap-12">
 
           {/* Main design image */}
-          <div className="w-full flex justify-center">
+          <div className="w-full flex justify-center px-0 sm:px-4">
             <Image
               src="/equity-ccc.png"
               alt="Equity Solutions"
               width={1200}
               height={693}
-              style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+              className="w-full h-auto"
+              style={{ maxWidth: '100%', objectFit: 'contain' }}
             />
           </div>
 
-          {/* "We don't provide cash investment" box */}
-          <div className="w-full flex justify-center">
-            <Image
-              src="/equity-component-13.png"
-              alt="We don't provide cash investment"
-              width={1100}
-              height={497}
-              style={{ width: '100%', maxWidth: '1100px', height: 'auto', objectFit: 'contain' }}
-            />
+          {/* What We Don't Do — responsive for all desktop sizes */}
+          <div className="w-full flex flex-col items-center gap-6 sm:gap-8 px-2 sm:px-4">
+            <h2
+              style={{
+                fontFamily: 'Poppins, sans-serif',
+                fontWeight: 600,
+                fontSize: 'clamp(28px, 4vw, 50px)',
+                lineHeight: 1.1,
+                letterSpacing: '0%',
+                textAlign: 'center',
+                color: '#FFFFFF',
+                margin: 0,
+              }}
+            >
+              What We Don&apos;t Do
+            </h2>
+            <p
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 400,
+                fontSize: 'clamp(18px, 2.2vw, 29px)',
+                lineHeight: 1.05,
+                letterSpacing: '-0.03em',
+                textAlign: 'center',
+                color: '#FFFFFF',
+                maxWidth: 'min(947px, 90vw)',
+                margin: 0,
+              }}
+            >
+              Clarity is key. To ensure our partnerships are built on mutual understanding,
+              <br />
+              here&apos;s what our Equity Solutions model does not involve.
+            </p>
+            <div
+              style={{
+                width: '100%',
+                maxWidth: 'min(643px, 92vw)',
+                minHeight: '263px',
+                borderRadius: '10px',
+                padding: 'clamp(20px, 2.5vw, 24px)',
+                background: '#FFFFFF',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: 'clamp(32px, 4vw, 48px)',
+                boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
+              }}
+            >
+              {[
+                'We don\'t provide cash investment (we provide expertise)',
+                'We don\'t take controlling stakes (typically 2-15% equity)',
+                'We don\'t replace your leadership (we augment it)',
+                'We don\'t work with direct competitors of current partners',
+              ].map((text, idx) => (
+                <div key={idx} className="flex items-start gap-3">
+                  <Image
+                    src="/we-do-not-icon.png"
+                    alt=""
+                    width={24}
+                    height={24}
+                    className="flex-shrink-0 mt-0.5"
+                  />
+                  <span
+                    style={{
+                      fontFamily: 'DM Sans, sans-serif',
+                      fontWeight: 400,
+                      fontSize: 'clamp(16px, 1.5vw, 20px)',
+                      lineHeight: 1.4,
+                      letterSpacing: '0%',
+                      color: '#FF3B44',
+                    }}
+                  >
+                    {text}
+                  </span>
+                </div>
+              ))}
+            </div>
           </div>
 
         </div>
