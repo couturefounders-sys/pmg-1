@@ -36,9 +36,10 @@ export default function Header() {
   const isIOArchitecturePage = pathname === '/io-architecture-model';
   const isBVUModelPage = pathname === '/business-value-unit-model';
   const isBrandingMarketingPage = pathname === '/branding-marketing-consulting';
-  const isBPOFractionalPage = pathname === '/bpo-fractional-talent-consulting';
-  const isCrisisTransitionPage = pathname === '/crisis-transition-management';
-  const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage || isBespokeSolutionsPage || isInsightsPage || isInsightsInnovationsPage || isSaaSPage || isPublicSectorPage || isHigherEducationPage || isFoodAgribusinessPage || isTravelHospitalityPage || isWhyFunctionalConsultingPage || isStrategyOperationsPage || isPeopleOrganizationsPage || isCustomerExperiencePage || isMergersAcquisitionsPage || isActiveManagementPage || isEquitySolutionsPage || isOutOfTheBoxPage || isPowerOfWorkingWithUsPage || isContactUsPage || isSolutionAssessmentPage || isFinancialServicesPage || isB2BProfessionalServicesPage || isIOArchitecturePage || isBVUModelPage || isBrandingMarketingPage || isBPOFractionalPage || isCrisisTransitionPage;
+   const isBPOFractionalPage = pathname === '/bpo-fractional-talent-consulting';
+   const isCrisisTransitionPage = pathname === '/crisis-transition-management';
+   const isResourcesPage = pathname === '/resources';
+   const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage || isBespokeSolutionsPage || isInsightsPage || isInsightsInnovationsPage || isSaaSPage || isPublicSectorPage || isHigherEducationPage || isFoodAgribusinessPage || isTravelHospitalityPage || isWhyFunctionalConsultingPage || isStrategyOperationsPage || isPeopleOrganizationsPage || isCustomerExperiencePage || isMergersAcquisitionsPage || isActiveManagementPage || isEquitySolutionsPage || isOutOfTheBoxPage || isPowerOfWorkingWithUsPage || isContactUsPage || isSolutionAssessmentPage || isFinancialServicesPage || isB2BProfessionalServicesPage || isIOArchitecturePage || isBVUModelPage || isBrandingMarketingPage || isBPOFractionalPage || isCrisisTransitionPage || isResourcesPage;
 
   const textColor = isLightPage ? 'text-black' : 'text-white';
   const logoTextColor = isLightPage ? 'text-[#000000]' : 'text-white'; // purely black for logo text on light pages

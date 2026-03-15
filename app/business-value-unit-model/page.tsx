@@ -34,29 +34,386 @@ export default function BusinessValueUnitModelPage() {
           >
             The End of Arbitrary Capital Allocation
           </h1>
-          <p
-            style={{
-              fontFamily: 'Montserrat, sans-serif',
-              fontWeight: 400,
-              fontSize: '16px',
-              lineHeight: '1.75',
-              color: '#3A3A3A',
-              maxWidth: '640px',
-            }}
-          >
-            The Business Value Unit (BVU) Model is a proprietary financial framework that
-            solves the most critical flaw in modern finance: the failure to quantify the
-            contribution of non-commercial teams. We translate all diverse internal
-            outputs (from risk mitigation and compliance to efficiency gains) into a single,
-            normalized abstraction of value. The BVU Model eliminates &ldquo;apples-to-oranges&rdquo;
-            comparisons, transforming support functions from unquantifiable cost centres
-            into auditable, high-yield investment platforms.
-          </p>
-        </div>
-      </section>
+           <p
+             style={{
+               fontFamily: 'Montserrat, sans-serif',
+               fontWeight: 400,
+               fontStyle: 'normal',
+               fontSize: '32px',
+               lineHeight: '100%',
+               letterSpacing: '0%',
+               textAlign: 'center',
+               color: '#333333',
+               maxWidth: '640px',
+             }}
+           >
+             The Business Value Unit (BVU) Model is a proprietary financial framework that
+             solves the most critical flaw in modern finance: the failure to quantify the
+             contribution of non-commercial teams. We translate all diverse internal
+             outputs (from risk mitigation and compliance to efficiency gains) into a single,
+             normalized abstraction of value. The BVU Model eliminates &ldquo;apples-to-oranges&rdquo;
+             comparisons, transforming support functions from unquantifiable cost centres
+             into auditable, high-yield investment platforms.
+           </p>
+         </div>
+       </section>
 
-      {/* Section 3: The BVU Model in Practice */}
-      <section className="w-full py-20 px-6" style={{ background: '#F7F9FF' }}>
+       {/* Section 2: The Unquantified Cost of Flawed Executive Decisions */}
+       <section 
+         className="w-full py-20 px-6 relative overflow-hidden" 
+         style={{ 
+           background: 'linear-gradient(135deg, #1B45B4 0%, #1C2792 100%)',
+         }}
+       >
+         {/* Background diagonal pattern image */}
+         <div 
+           style={{
+             position: 'absolute',
+             top: 0,
+             left: 0,
+             right: 0,
+             bottom: 0,
+             backgroundImage: 'url(/dig desi.png)',
+             backgroundSize: 'cover',
+             backgroundPosition: 'center',
+             opacity: 0.3,
+             pointerEvents: 'none',
+           }}
+         />
+
+         <div className="max-w-[1200px] mx-auto relative z-10">
+           <h2
+             style={{
+               fontFamily: 'DM Sans, sans-serif',
+               fontWeight: 700,
+               fontSize: '48px',
+               lineHeight: '105%',
+               letterSpacing: '-0.03em',
+               color: '#FFFFFF',
+               textAlign: 'center',
+               marginBottom: '20px',
+             }}
+           >
+             The Unquantified Cost of Flawed Executive Decisions
+           </h2>
+           <p
+             style={{
+               fontFamily: 'Montserrat, sans-serif',
+               fontWeight: 400,
+               fontSize: '18px',
+               lineHeight: '160%',
+               color: '#FFFFFF',
+               textAlign: 'center',
+               maxWidth: '800px',
+               margin: '0 auto 48px',
+             }}
+           >
+             Traditional business metrics fail to capture the true value of non-commercial teams, leading to flawed decision-making and wasted resources.
+           </p>
+
+           {/* Comparison Cards Grid */}
+           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '24px' }}>
+             
+             {/* Card 1: The Comparison Flaw */}
+             <div
+               style={{
+                 backgroundImage: 'url(/red.png)',
+                 backgroundSize: 'cover',
+                 backgroundPosition: 'center',
+                 borderRadius: '16px',
+                 padding: '32px 28px',
+                 boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
+                 position: 'relative',
+               }}
+             >
+               <h3
+                 style={{
+                   fontFamily: 'DM Sans, sans-serif',
+                   fontWeight: 700,
+                   fontSize: '22px',
+                   color: '#D32F2F',
+                   marginBottom: '20px',
+                   textAlign: 'center',
+                 }}
+               >
+                 The Comparison Flaw
+               </h3>
+               <p
+                 style={{
+                   fontFamily: 'Montserrat, sans-serif',
+                   fontWeight: 400,
+                   fontSize: '15px',
+                   lineHeight: '160%',
+                   color: '#4A4A4A',
+                   marginBottom: '16px',
+                 }}
+               >
+                 Traditional accounting forces executives to compare lines of code to legal risk and sales dollars, leading to fictional, opinion-driven investment decisions.
+               </p>
+               <p
+                 style={{
+                   fontFamily: 'Montserrat, sans-serif',
+                   fontWeight: 600,
+                   fontSize: '13px',
+                   lineHeight: '160%',
+                   color: '#666666',
+                 }}
+               >
+                 <strong style={{ color: '#D32F2F' }}>Risk:</strong> Misallocation of Resources: Teams waste time fixing problems outside their core competency, diverting capital and expertise from strategic initiatives.
+               </p>
+             </div>
+
+             {/* Card 2: The BVU Solution */}
+             <div
+               style={{
+                 backgroundImage: 'url(/blue.png)',
+                 backgroundSize: 'cover',
+                 backgroundPosition: 'center',
+                 borderRadius: '16px',
+                 padding: '32px 28px',
+                 boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
+                 position: 'relative',
+               }}
+             >
+               <h3
+                 style={{
+                   fontFamily: 'DM Sans, sans-serif',
+                   fontWeight: 700,
+                   fontSize: '22px',
+                   color: '#1565C0',
+                   marginBottom: '20px',
+                   textAlign: 'center',
+                 }}
+               >
+                 The BVU Solution
+               </h3>
+               <p
+                 style={{
+                   fontFamily: 'Montserrat, sans-serif',
+                   fontWeight: 400,
+                   fontSize: '15px',
+                   lineHeight: '160%',
+                   color: '#4A4A4A',
+                   marginBottom: '16px',
+                 }}
+               >
+                 <strong>Normalized Investment:</strong> The BVU Model abstracts every team's output into a single, universal metric (BVU), enabling direct, objective investment comparison across all functions—from IT to Sales.
+               </p>
+               <p
+                 style={{
+                   fontFamily: 'Montserrat, sans-serif',
+                   fontWeight: 600,
+                   fontSize: '13px',
+                   lineHeight: '160%',
+                   color: '#666666',
+                 }}
+               >
+                 <strong style={{ color: '#1565C0' }}>Benefit:</strong> Eliminates Ambiguity: Instantly defines clear interfaces between teams, preventing scope creep and ensuring transparent accountability.
+               </p>
+             </div>
+
+             {/* Card 3: The Cost Center Trap */}
+             <div
+               style={{
+                 backgroundImage: 'url(/red.png)',
+                 backgroundSize: 'cover',
+                 backgroundPosition: 'center',
+                 borderRadius: '16px',
+                 padding: '32px 28px',
+                 boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
+                 position: 'relative',
+               }}
+             >
+               <h3
+                 style={{
+                   fontFamily: 'DM Sans, sans-serif',
+                   fontWeight: 700,
+                   fontSize: '22px',
+                   color: '#D32F2F',
+                   marginBottom: '20px',
+                   textAlign: 'center',
+                 }}
+               >
+                 The Cost Center Trap
+               </h3>
+               <p
+                 style={{
+                   fontFamily: 'Montserrat, sans-serif',
+                   fontWeight: 400,
+                   fontSize: '15px',
+                   lineHeight: '160%',
+                   color: '#4A4A4A',
+                   marginBottom: '16px',
+                 }}
+               >
+                 Teams like IT, HR, and Internal Legal are seen only as expenses. Their essential contributions (risk reduction, efficiency) are unquantifiable, making them targets for arbitrary budget cuts.
+               </p>
+               <p
+                 style={{
+                   fontFamily: 'Montserrat, sans-serif',
+                   fontWeight: 600,
+                   fontSize: '13px',
+                   lineHeight: '160%',
+                   color: '#666666',
+                 }}
+               >
+                 <strong style={{ color: '#D32F2F' }}>Risk:</strong> Systemic Inconsistency: Without an immutable process, products and services vary widely in quality, eroding customer trust and inflating operational overhead.
+               </p>
+             </div>
+
+             {/* Card 4: The BVU Solution */}
+             <div
+               style={{
+                 backgroundImage: 'url(/blue.png)',
+                 backgroundSize: 'cover',
+                 backgroundPosition: 'center',
+                 borderRadius: '16px',
+                 padding: '32px 28px',
+                 boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
+                 position: 'relative',
+               }}
+             >
+               <h3
+                 style={{
+                   fontFamily: 'DM Sans, sans-serif',
+                   fontWeight: 700,
+                   fontSize: '22px',
+                   color: '#1565C0',
+                   marginBottom: '20px',
+                   textAlign: 'center',
+                 }}
+               >
+                 The BVU Solution
+               </h3>
+               <p
+                 style={{
+                   fontFamily: 'Montserrat, sans-serif',
+                   fontWeight: 400,
+                   fontSize: '15px',
+                   lineHeight: '160%',
+                   color: '#4A4A4A',
+                   marginBottom: '16px',
+                 }}
+               >
+                 <strong>Auditable Value Stream:</strong> It transforms non-commercial functions from expense items into auditable value producers, where investment is justified by the measurable BVUs generated per staff hour and dollar spent.
+               </p>
+               <p
+                 style={{
+                   fontFamily: 'Montserrat, sans-serif',
+                   fontWeight: 600,
+                   fontSize: '13px',
+                   lineHeight: '160%',
+                   color: '#666666',
+                 }}
+               >
+                 <strong style={{ color: '#1565C0' }}>Benefit:</strong> Enables Automation: Process stability allows for automated verification, dramatically reducing human error and scaling quality control.
+               </p>
+             </div>
+
+             {/* Card 5: The Misaligned Activity Trap */}
+             <div
+               style={{
+                 backgroundImage: 'url(/red.png)',
+                 backgroundSize: 'cover',
+                 backgroundPosition: 'center',
+                 borderRadius: '16px',
+                 padding: '32px 28px',
+                 boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
+                 position: 'relative',
+               }}
+             >
+               <h3
+                 style={{
+                   fontFamily: 'DM Sans, sans-serif',
+                   fontWeight: 700,
+                   fontSize: '22px',
+                   color: '#D32F2F',
+                   marginBottom: '20px',
+                   textAlign: 'center',
+                 }}
+               >
+                 The Misaligned Activity Trap
+               </h3>
+               <p
+                 style={{
+                   fontFamily: 'Montserrat, sans-serif',
+                   fontWeight: 400,
+                   fontSize: '15px',
+                   lineHeight: '160%',
+                   color: '#4A4A4A',
+                   marginBottom: '16px',
+                 }}
+               >
+                 Teams focus on clearing a queue (e.g., tickets, feature requests) quickly, regardless of whether that activity produces low-value outcomes, leading to significant wasted effort.
+               </p>
+               <p
+                 style={{
+                   fontFamily: 'Montserrat, sans-serif',
+                   fontWeight: 600,
+                   fontSize: '13px',
+                   lineHeight: '160%',
+                   color: '#666666',
+                 }}
+               >
+                 <strong style={{ color: '#D32F2F' }}>Risk:</strong> Cascading Failure: An undefined output at Team A becomes an integration error at Team B, which then results in a massive customer failure at Team C. The system amplifies low-level errors into high-level crises.
+               </p>
+             </div>
+
+             {/* Card 6: The BVU Solution */}
+             <div
+               style={{
+                 backgroundImage: 'url(/blue.png)',
+                 backgroundSize: 'cover',
+                 backgroundPosition: 'center',
+                 borderRadius: '16px',
+                 padding: '32px 28px',
+                 boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
+                 position: 'relative',
+               }}
+             >
+               <h3
+                 style={{
+                   fontFamily: 'DM Sans, sans-serif',
+                   fontWeight: 700,
+                   fontSize: '22px',
+                   color: '#1565C0',
+                   marginBottom: '20px',
+                   textAlign: 'center',
+                 }}
+               >
+                 The BVU Solution
+               </h3>
+               <p
+                 style={{
+                   fontFamily: 'Montserrat, sans-serif',
+                   fontWeight: 400,
+                   fontSize: '15px',
+                   lineHeight: '160%',
+                   color: '#4A4A4A',
+                   marginBottom: '16px',
+                 }}
+               >
+                 <strong>Strategic Prioritization:</strong> By measuring the BVU generated by specific activities within a team's mandate, leadership can surgically shift resources away from high-volume, low-value work and focus effort on the activities that yield the greatest enterprise return.
+               </p>
+               <p
+                 style={{
+                   fontFamily: 'Montserrat, sans-serif',
+                   fontWeight: 600,
+                   fontSize: '13px',
+                   lineHeight: '160%',
+                   color: '#666666',
+                 }}
+               >
+                 <strong style={{ color: '#1565C0' }}>Benefit:</strong> Guarantees Quality Chain: Breaks the cycle of compounding failure. Rejection forces resolution upstream, ensuring quality is maintained across the entire organizational flow.
+               </p>
+             </div>
+
+           </div>
+         </div>
+       </section>
+
+        {/* Section 3: The BVU Model in Practice */}
+       <section className="w-full py-20 px-6" style={{ background: '#FFFFFF' }}>
         <div className="max-w-[700px] mx-auto flex flex-col items-center text-center">
           <h2
             style={{
@@ -71,18 +428,22 @@ export default function BusinessValueUnitModelPage() {
           >
             The BVU Model in Practice
           </h2>
-          <p
-            style={{
-              fontFamily: 'Montserrat, sans-serif',
-              fontSize: '15px',
-              lineHeight: '1.8',
-              color: '#3A3A3A',
-              marginBottom: '24px',
-            }}
-          >
-            The real power of the BVU model is in its practical application. It transforms
-            abstract theories about value into concrete, data-driven decisions.
-          </p>
+           <p
+             style={{
+               fontFamily: 'Montserrat, sans-serif',
+               fontWeight: 400,
+               fontStyle: 'normal',
+               fontSize: '30px',
+               lineHeight: '140%',
+               letterSpacing: '0%',
+               textAlign: 'center',
+               color: '#333333',
+               marginBottom: '24px',
+             }}
+           >
+             The real power of the BVU model is in its practical application. It transforms
+             abstract theories about value into concrete, data-driven decisions.
+           </p>
           <a
             href="#"
             style={{
@@ -115,20 +476,23 @@ export default function BusinessValueUnitModelPage() {
           >
             Mechanics and Strategic Benefits
           </h2>
-          <p
-            style={{
-              fontFamily: 'Montserrat, sans-serif',
-              fontSize: '15px',
-              lineHeight: '1.75',
-              color: '#3A3A3A',
-              textAlign: 'center',
-              maxWidth: '680px',
-              margin: '0 auto 48px',
-            }}
-          >
-            The BVU Model is both a measurement framework and a strategic tool for capital
-            allocation and risk management.
-          </p>
+           <p
+             style={{
+               fontFamily: 'Montserrat, sans-serif',
+               fontWeight: 400,
+               fontStyle: 'normal',
+               fontSize: '30px',
+               lineHeight: '140%',
+               letterSpacing: '0%',
+               textAlign: 'center',
+               color: '#333333',
+               maxWidth: '680px',
+               margin: '0 auto 48px',
+             }}
+           >
+             The BVU Model is both a measurement framework and a strategic tool for capital
+             allocation and risk management.
+           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '24px' }}>
             <div
               style={{
@@ -143,20 +507,23 @@ export default function BusinessValueUnitModelPage() {
             >
               <div
                 style={{
-                  width: '44px',
-                  height: '44px',
+                  width: '56px',
+                  height: '56px',
                   background: '#14358A',
                   borderRadius: '8px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '20px',
-                  color: '#FFFFFF',
                 }}
               >
-                1
+                <img
+                  src="/calibration.png"
+                  alt="BVU Calibration"
+                  style={{
+                    width: '32px',
+                    height: '32px',
+                  }}
+                />
               </div>
               <h3
                 style={{
@@ -193,20 +560,23 @@ export default function BusinessValueUnitModelPage() {
             >
               <div
                 style={{
-                  width: '44px',
-                  height: '44px',
+                  width: '56px',
+                  height: '56px',
                   background: '#14358A',
                   borderRadius: '8px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '20px',
-                  color: '#FFFFFF',
                 }}
               >
-                2
+                <img
+                  src="/calibration.png"
+                  alt="Integration with I-O Architecture"
+                  style={{
+                    width: '32px',
+                    height: '32px',
+                  }}
+                />
               </div>
               <h3
                 style={{
@@ -243,20 +613,23 @@ export default function BusinessValueUnitModelPage() {
             >
               <div
                 style={{
-                  width: '44px',
-                  height: '44px',
+                  width: '56px',
+                  height: '56px',
                   background: '#14358A',
                   borderRadius: '8px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '20px',
-                  color: '#FFFFFF',
                 }}
               >
-                3
+                <img
+                  src="/calibration.png"
+                  alt="Strategic Benefit: Capital Allocation"
+                  style={{
+                    width: '32px',
+                    height: '32px',
+                  }}
+                />
               </div>
               <h3
                 style={{
@@ -293,20 +666,23 @@ export default function BusinessValueUnitModelPage() {
             >
               <div
                 style={{
-                  width: '44px',
-                  height: '44px',
+                  width: '56px',
+                  height: '56px',
                   background: '#14358A',
                   borderRadius: '8px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '20px',
-                  color: '#FFFFFF',
                 }}
               >
-                4
+                <img
+                  src="/calibration.png"
+                  alt="Strategic Benefit: Risk Hedging"
+                  style={{
+                    width: '32px',
+                    height: '32px',
+                  }}
+                />
               </div>
               <h3
                 style={{
@@ -334,8 +710,8 @@ export default function BusinessValueUnitModelPage() {
         </div>
       </section>
 
-      {/* Section 5: Managing Performance Over Time */}
-      <section className="w-full py-24 px-6" style={{ background: '#F7F9FF' }}>
+       {/* Section 5: Managing Performance Over Time */}
+       <section className="w-full py-24 px-6" style={{ background: '#FFFFFF' }}>
         <div className="max-w-[680px] mx-auto flex flex-col items-center text-center">
           <p
             style={{
@@ -363,17 +739,21 @@ export default function BusinessValueUnitModelPage() {
           >
             Managing Performance Over Time
           </h2>
-          <p
-            style={{
-              fontFamily: 'Montserrat, sans-serif',
-              fontSize: '15px',
-              lineHeight: '1.8',
-              color: '#3A3A3A',
-              marginBottom: '36px',
-            }}
-          >
-            The real strategic advantage of the BVU Model is not just in creating a universal metric, but in tracking efficiency trends over time. The BVU is constantly evolving, allowing leadership to identify declining performance, reward high-performing teams, and make capital reallocation decisions proactively. If a team&apos;s BVU-to-dollar ratio is improving quarter over quarter, that&apos;s empirical proof they are optimizing. If it&apos;s declining, it&apos;s an early signal that intervention is needed.
-          </p>
+           <p
+             style={{
+               fontFamily: 'Montserrat, sans-serif',
+               fontWeight: 400,
+               fontStyle: 'normal',
+               fontSize: '30px',
+               lineHeight: '140%',
+               letterSpacing: '0%',
+               textAlign: 'center',
+               color: '#333333',
+               marginBottom: '36px',
+             }}
+           >
+             The real power of the BVU is not in a one-time calculation. It is in creating a stable benchmark to track efficiency trends. Once calibrated, you can see if a team's Cost-Per-BVU is improving quarter-over-quarter, or if a new process generates more BVUs per personnel hour. It turns abstract goals into a continuous performance dashboard.
+           </p>
           <a
             href="/contact-us"
             style={{
@@ -411,10 +791,10 @@ export default function BusinessValueUnitModelPage() {
           >
             How We Help
           </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px', marginBottom: '20px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', marginBottom: '20px' }}>
             <div
               style={{
-                border: '1.5px solid #14358A',
+                border: '3px solid #14358A',
                 borderRadius: '12px',
                 padding: '24px 20px',
                 background: '#FFFFFF',
@@ -425,20 +805,23 @@ export default function BusinessValueUnitModelPage() {
             >
               <div
                 style={{
-                  width: '40px',
-                  height: '40px',
+                  width: '56px',
+                  height: '56px',
                   background: '#14358A',
                   borderRadius: '8px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '18px',
-                  color: '#FFFFFF',
                 }}
               >
-                1
+                <img
+                  src="/Value Abstraction.png"
+                  alt="Value Abstraction"
+                  style={{
+                    width: '32px',
+                    height: '32px',
+                  }}
+                />
               </div>
               <h3
                 style={{
@@ -464,7 +847,7 @@ export default function BusinessValueUnitModelPage() {
             </div>
             <div
               style={{
-                border: '1.5px solid #14358A',
+                border: '3px solid #14358A',
                 borderRadius: '12px',
                 padding: '24px 20px',
                 background: '#FFFFFF',
@@ -475,20 +858,23 @@ export default function BusinessValueUnitModelPage() {
             >
               <div
                 style={{
-                  width: '40px',
-                  height: '40px',
+                  width: '56px',
+                  height: '56px',
                   background: '#14358A',
                   borderRadius: '8px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '18px',
-                  color: '#FFFFFF',
                 }}
               >
-                2
+                <img
+                  src="/funds.png"
+                  alt="Business Value Unit (BVU)"
+                  style={{
+                    width: '32px',
+                    height: '32px',
+                  }}
+                />
               </div>
               <h3
                 style={{
@@ -525,20 +911,23 @@ export default function BusinessValueUnitModelPage() {
             >
               <div
                 style={{
-                  width: '40px',
-                  height: '40px',
+                  width: '56px',
+                  height: '56px',
                   background: '#14358A',
                   borderRadius: '8px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '18px',
-                  color: '#FFFFFF',
                 }}
               >
-                3
+                <img
+                  src="/phone.png"
+                  alt="Facility & Resource Management"
+                  style={{
+                    width: '32px',
+                    height: '32px',
+                  }}
+                />
               </div>
               <h3
                 style={{
@@ -563,10 +952,10 @@ export default function BusinessValueUnitModelPage() {
               </p>
             </div>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', marginBottom: '20px', maxWidth: '730px', margin: '0 auto 20px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px', marginBottom: '20px' }}>
             <div
               style={{
-                border: '1.5px solid #14358A',
+                border: '3px solid #14358A',
                 borderRadius: '12px',
                 padding: '24px 20px',
                 background: '#FFFFFF',
@@ -577,20 +966,76 @@ export default function BusinessValueUnitModelPage() {
             >
               <div
                 style={{
-                  width: '40px',
-                  height: '40px',
+                  width: '56px',
+                  height: '56px',
                   background: '#14358A',
                   borderRadius: '8px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '18px',
-                  color: '#FFFFFF',
                 }}
               >
-                4
+                <img
+                  src="/phone.png"
+                  alt="Facility & Resource Management"
+                  style={{
+                    width: '32px',
+                    height: '32px',
+                  }}
+                />
+              </div>
+              <h3
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: '16px',
+                  color: '#14358A',
+                  lineHeight: '1.3',
+                }}
+              >
+                Facility & Resource Management
+              </h3>
+              <p
+                style={{
+                  fontFamily: 'Montserrat, sans-serif',
+                  fontSize: '13px',
+                  lineHeight: '1.75',
+                  color: '#5F6D7E',
+                }}
+              >
+                Teams that maintain physical or digital infrastructure (e.g., IT, Facilities) are measured by the BVU-enabling capacity they provide, such as system uptime, infrastructure reliability, or workspace availability.
+              </p>
+            </div>
+            <div
+              style={{
+                border: '3px solid #14358A',
+                borderRadius: '12px',
+                padding: '24px 20px',
+                background: '#FFFFFF',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '12px',
+              }}
+            >
+              <div
+                style={{
+                  width: '56px',
+                  height: '56px',
+                  background: '#14358A',
+                  borderRadius: '8px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <img
+                  src="/retro-bag.png"
+                  alt="BVU-Per-Personnel Hour"
+                  style={{
+                    width: '32px',
+                    height: '32px',
+                  }}
+                />
               </div>
               <h3
                 style={{
@@ -616,7 +1061,7 @@ export default function BusinessValueUnitModelPage() {
             </div>
             <div
               style={{
-                border: '1.5px solid #14358A',
+                border: '3px solid #14358A',
                 borderRadius: '12px',
                 padding: '24px 20px',
                 background: '#FFFFFF',
@@ -627,20 +1072,23 @@ export default function BusinessValueUnitModelPage() {
             >
               <div
                 style={{
-                  width: '40px',
-                  height: '40px',
+                  width: '56px',
+                  height: '56px',
                   background: '#14358A',
                   borderRadius: '8px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '18px',
-                  color: '#FFFFFF',
                 }}
               >
-                5
+                <img
+                  src="/efferent-three.png"
+                  alt="Value Equivalence"
+                  style={{
+                    width: '32px',
+                    height: '32px',
+                  }}
+                />
               </div>
               <h3
                 style={{
@@ -668,7 +1116,7 @@ export default function BusinessValueUnitModelPage() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', maxWidth: '730px', margin: '0 auto' }}>
             <div
               style={{
-                border: '1.5px solid #14358A',
+                border: '3px solid #14358A',
                 borderRadius: '12px',
                 padding: '24px 20px',
                 background: '#FFFFFF',
@@ -679,20 +1127,23 @@ export default function BusinessValueUnitModelPage() {
             >
               <div
                 style={{
-                  width: '40px',
-                  height: '40px',
+                  width: '56px',
+                  height: '56px',
                   background: '#14358A',
                   borderRadius: '8px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '18px',
-                  color: '#FFFFFF',
                 }}
               >
-                6
+                <img
+                  src="/Value Abstraction.png"
+                  alt="Cost-Per-BVU Baseline"
+                  style={{
+                    width: '32px',
+                    height: '32px',
+                  }}
+                />
               </div>
               <h3
                 style={{
@@ -718,7 +1169,7 @@ export default function BusinessValueUnitModelPage() {
             </div>
             <div
               style={{
-                border: '1.5px solid #14358A',
+                border: '3px solid #14358A',
                 borderRadius: '12px',
                 padding: '24px 20px',
                 background: '#FFFFFF',
@@ -729,20 +1180,23 @@ export default function BusinessValueUnitModelPage() {
             >
               <div
                 style={{
-                  width: '40px',
-                  height: '40px',
+                  width: '56px',
+                  height: '56px',
                   background: '#14358A',
                   borderRadius: '8px',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: '18px',
-                  color: '#FFFFFF',
                 }}
               >
-                7
+                <img
+                  src="/funds.png"
+                  alt="BVU-Per-Personnel Hour/Spend"
+                  style={{
+                    width: '32px',
+                    height: '32px',
+                  }}
+                />
               </div>
               <h3
                 style={{
@@ -770,8 +1224,8 @@ export default function BusinessValueUnitModelPage() {
         </div>
       </section>
 
-      {/* Section 7: Final CTA */}
-      <section className="w-full py-24 px-6 bg-white" style={{ border: '1px solid #0097FE' }}>
+       {/* Section 7: Final CTA */}
+       <section className="w-full py-24 px-6 bg-white" style={{ background: '#EBF7FF' }}>
         <div className="max-w-[680px] mx-auto flex flex-col items-center text-center">
           <h2
             style={{
@@ -797,23 +1251,23 @@ export default function BusinessValueUnitModelPage() {
           >
             Eliminate gut-driven capital allocation. Let our team help you implement the BVU Model and bring quantitative, auditable clarity to your most critical investment and resource decisions.
           </p>
-          <a
-            href="/contact-us"
-            style={{
-              display: 'inline-block',
-              background: 'linear-gradient(135deg, #1B45B4 0%, #1C2792 100%)',
-              color: '#FFFFFF',
-              fontFamily: 'Montserrat, sans-serif',
-              fontWeight: 700,
-              fontSize: '14px',
-              letterSpacing: '0.04em',
-              padding: '14px 32px',
-              borderRadius: '8px',
-              textDecoration: 'none',
-            }}
-          >
-            Request a Consultation
-          </a>
+           <a
+             href="/contact-us"
+             style={{
+               display: 'inline-block',
+               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+               color: '#FFFFFF',
+               fontFamily: 'Montserrat, sans-serif',
+               fontWeight: 700,
+               fontSize: '14px',
+               letterSpacing: '0.04em',
+               padding: '14px 32px',
+               borderRadius: '8px',
+               textDecoration: 'none',
+             }}
+           >
+             Request a Consultation
+           </a>
         </div>
       </section>
 

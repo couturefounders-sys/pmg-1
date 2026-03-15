@@ -50,8 +50,11 @@ export default function ContactUs() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.25vw, 18px)',
-                lineHeight: '160%',
+                fontStyle: 'normal',
+                fontSize: '32px',
+                lineHeight: '100%',
+                letterSpacing: '0%',
+                textAlign: 'center',
                 color: '#333333',
                 maxWidth: 'min(700px, 100%)',
               }}
@@ -62,25 +65,31 @@ export default function ContactUs() {
             </p>
           </div>
 
-          {/* Two-column layout */}
-          <div className="flex flex-col lg:flex-row items-start" style={{ gap: 'clamp(14px, 1.67vw, 24px)' }}>
+           {/* Two-column layout */}
+           <div className="flex flex-col lg:flex-row items-stretch" style={{ gap: 'clamp(14px, 1.67vw, 24px)' }}>
 
-            {/* ── Left column ── */}
-            <div
-              className="flex flex-col w-full lg:w-auto flex-shrink-0"
-              style={{
-                gap: 'clamp(14px, 1.67vw, 24px)',
-                flexBasis: 'clamp(240px, 23.6vw, 340px)',
-              }}
-            >
-              {/* Contact Information box */}
-              <div
-                style={{
-                  border: '1.5px solid #14358A',
-                  borderRadius: '12px',
-                  padding: 'clamp(14px, 1.67vw, 24px)',
-                }}
-              >
+             {/* ── Left column ── */}
+             <div
+               className="flex flex-col w-full lg:w-auto flex-shrink-0"
+               style={{
+                 gap: 'clamp(14px, 1.67vw, 24px)',
+                 flexBasis: 'clamp(240px, 23.6vw, 340px)',
+                 display: 'flex',
+                 flexDirection: 'column',
+                 minHeight: '763px',
+               }}
+             >
+               {/* Contact Information box */}
+               <div
+                 style={{
+                   border: '1.5px solid #14358A',
+                   borderRadius: '12px',
+                   padding: 'clamp(14px, 1.67vw, 24px)',
+                   flex: 1,
+                   display: 'flex',
+                   flexDirection: 'column',
+                 }}
+               >
                 <h2
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
@@ -168,14 +177,17 @@ export default function ContactUs() {
                 </div>
               </div>
 
-              {/* Inquiry type box */}
-              <div
-                style={{
-                  border: '1.5px solid #14358A',
-                  borderRadius: '12px',
-                  padding: 'clamp(14px, 1.67vw, 24px)',
-                }}
-              >
+               {/* Inquiry type box */}
+               <div
+                 style={{
+                   border: '1.5px solid #14358A',
+                   borderRadius: '12px',
+                   padding: 'clamp(14px, 1.67vw, 24px)',
+                   flex: 1,
+                   display: 'flex',
+                   flexDirection: 'column',
+                 }}
+               >
                 <h2
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
@@ -188,8 +200,8 @@ export default function ContactUs() {
                   What is your primary inquiry?
                 </h2>
 
-                <div className="flex flex-col gap-2">
-                  {inquiryTypes.map((item, i) => (
+                <div className="flex flex-col gap-2" style={{ flex: 1 }}>
+                   {inquiryTypes.map((item, i) => (
                     <button
                       key={i}
                       onClick={() => {
