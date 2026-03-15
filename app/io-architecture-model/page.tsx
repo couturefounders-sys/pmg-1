@@ -60,15 +60,9 @@ export default function IOArchitectureModelPage() {
         className="w-full relative overflow-hidden py-24 px-6"
         style={{ background: 'linear-gradient(135deg, #1B45B4 0%, #1C2792 100%)' }}
       >
-        {/* Decorative Rectangle - Top Right */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
-        {/* Decorative Rectangle - Bottom Left */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        {/* Decorative Border Rectangle - Top Left */}
-        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        {/* lll.png full-cover design overlay */}
+        {/* desi design.png full-cover design overlay */}
         <img
-          src="/lll.png"
+          src="/desi design.png"
           alt=""
           aria-hidden="true"
           style={{
@@ -79,7 +73,7 @@ export default function IOArchitectureModelPage() {
             objectFit: 'cover',
             objectPosition: 'center',
             pointerEvents: 'none',
-            opacity: 1,
+            opacity: 0.3,
             zIndex: 0,
           }}
         />
@@ -166,10 +160,10 @@ export default function IOArchitectureModelPage() {
               },
             ].map((row, i) => (
               <div key={i} style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
-                {/* Left — Problem box (Component 13 as full background) */}
+                {/* Left — Problem box (red.png as full background) */}
                 <div style={{ position: 'relative', overflow: 'hidden', borderRadius: '16px', textAlign: 'center', width: '597px', minHeight: '382px', maxWidth: '100%' }}>
                   <img
-                    src="/component-13.png"
+                    src="/red.png"
                     alt=""
                     aria-hidden="true"
                     style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', pointerEvents: 'none', zIndex: 0 }}
@@ -180,10 +174,10 @@ export default function IOArchitectureModelPage() {
                     <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '12px', lineHeight: '1.7', color: '#5F6D7E' }}>{row.problem.risk}</p>
                   </div>
                 </div>
-                {/* Right — Solution box (Component 12 as full background) */}
+                {/* Right — Solution box (blue.png as full background) */}
                 <div style={{ position: 'relative', overflow: 'hidden', borderRadius: '16px', textAlign: 'center', width: '597px', minHeight: '382px', maxWidth: '100%' }}>
                   <img
-                    src="/component-12.png"
+                    src="/blue.png"
                     alt=""
                     aria-hidden="true"
                     style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', pointerEvents: 'none', zIndex: 0 }}
