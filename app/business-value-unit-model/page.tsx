@@ -8,7 +8,7 @@ export default function BusinessValueUnitModelPage() {
 
       {/* Section 1: Hero */}
       <section className="w-full pt-36 pb-20 px-6 bg-white">
-        <div className="max-w-[760px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <p
             style={{
               fontFamily: 'Montserrat, sans-serif',
@@ -39,12 +39,12 @@ export default function BusinessValueUnitModelPage() {
                fontFamily: 'Montserrat, sans-serif',
                fontWeight: 400,
                fontStyle: 'normal',
-               fontSize: '32px',
-               lineHeight: '100%',
+               fontSize: '30px',
+               lineHeight: '140%',
                letterSpacing: '0%',
                textAlign: 'center',
                color: '#333333',
-               maxWidth: '640px',
+               maxWidth: '900px',
              }}
            >
              The Business Value Unit (BVU) Model is a proprietary financial framework that
@@ -144,7 +144,7 @@ export default function BusinessValueUnitModelPage() {
                    fontWeight: 400,
                    fontSize: '15px',
                    lineHeight: '160%',
-                   color: '#4A4A4A',
+                   color: '#333333',
                    marginBottom: '16px',
                  }}
                >
@@ -156,7 +156,7 @@ export default function BusinessValueUnitModelPage() {
                    fontWeight: 600,
                    fontSize: '13px',
                    lineHeight: '160%',
-                   color: '#666666',
+                   color: '#68718B',
                  }}
                >
                  <strong style={{ color: '#D32F2F' }}>Risk:</strong> Misallocation of Resources: Teams waste time fixing problems outside their core competency, diverting capital and expertise from strategic initiatives.
@@ -193,7 +193,7 @@ export default function BusinessValueUnitModelPage() {
                    fontWeight: 400,
                    fontSize: '15px',
                    lineHeight: '160%',
-                   color: '#4A4A4A',
+                   color: '#333333',
                    marginBottom: '16px',
                  }}
                >
@@ -205,7 +205,7 @@ export default function BusinessValueUnitModelPage() {
                    fontWeight: 600,
                    fontSize: '13px',
                    lineHeight: '160%',
-                   color: '#666666',
+                   color: '#68718B',
                  }}
                >
                  <strong style={{ color: '#1565C0' }}>Benefit:</strong> Eliminates Ambiguity: Instantly defines clear interfaces between teams, preventing scope creep and ensuring transparent accountability.
@@ -242,7 +242,7 @@ export default function BusinessValueUnitModelPage() {
                    fontWeight: 400,
                    fontSize: '15px',
                    lineHeight: '160%',
-                   color: '#4A4A4A',
+                   color: '#333333',
                    marginBottom: '16px',
                  }}
                >
@@ -254,7 +254,7 @@ export default function BusinessValueUnitModelPage() {
                    fontWeight: 600,
                    fontSize: '13px',
                    lineHeight: '160%',
-                   color: '#666666',
+                   color: '#68718B',
                  }}
                >
                  <strong style={{ color: '#D32F2F' }}>Risk:</strong> Systemic Inconsistency: Without an immutable process, products and services vary widely in quality, eroding customer trust and inflating operational overhead.
@@ -291,7 +291,7 @@ export default function BusinessValueUnitModelPage() {
                    fontWeight: 400,
                    fontSize: '15px',
                    lineHeight: '160%',
-                   color: '#4A4A4A',
+                   color: '#333333',
                    marginBottom: '16px',
                  }}
                >
@@ -303,7 +303,7 @@ export default function BusinessValueUnitModelPage() {
                    fontWeight: 600,
                    fontSize: '13px',
                    lineHeight: '160%',
-                   color: '#666666',
+                   color: '#68718B',
                  }}
                >
                  <strong style={{ color: '#1565C0' }}>Benefit:</strong> Enables Automation: Process stability allows for automated verification, dramatically reducing human error and scaling quality control.
@@ -340,7 +340,7 @@ export default function BusinessValueUnitModelPage() {
                    fontWeight: 400,
                    fontSize: '15px',
                    lineHeight: '160%',
-                   color: '#4A4A4A',
+                   color: '#333333',
                    marginBottom: '16px',
                  }}
                >
@@ -352,7 +352,7 @@ export default function BusinessValueUnitModelPage() {
                    fontWeight: 600,
                    fontSize: '13px',
                    lineHeight: '160%',
-                   color: '#666666',
+                   color: '#68718B',
                  }}
                >
                  <strong style={{ color: '#D32F2F' }}>Risk:</strong> Cascading Failure: An undefined output at Team A becomes an integration error at Team B, which then results in a massive customer failure at Team C. The system amplifies low-level errors into high-level crises.
@@ -389,7 +389,7 @@ export default function BusinessValueUnitModelPage() {
                    fontWeight: 400,
                    fontSize: '15px',
                    lineHeight: '160%',
-                   color: '#4A4A4A',
+                   color: '#333333',
                    marginBottom: '16px',
                  }}
                >
@@ -401,7 +401,7 @@ export default function BusinessValueUnitModelPage() {
                    fontWeight: 600,
                    fontSize: '13px',
                    lineHeight: '160%',
-                   color: '#666666',
+                   color: '#68718B',
                  }}
                >
                  <strong style={{ color: '#1565C0' }}>Benefit:</strong> Guarantees Quality Chain: Breaks the cycle of compounding failure. Rejection forces resolution upstream, ensuring quality is maintained across the entire organizational flow.
@@ -414,7 +414,7 @@ export default function BusinessValueUnitModelPage() {
 
         {/* Section 3: The BVU Model in Practice */}
        <section className="w-full py-20 px-6" style={{ background: '#FFFFFF' }}>
-        <div className="max-w-[700px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[1100px] mx-auto flex flex-col items-center text-center">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
@@ -1245,7 +1245,7 @@ export default function BusinessValueUnitModelPage() {
               fontFamily: 'Montserrat, sans-serif',
               fontSize: '15px',
               lineHeight: '1.8',
-              color: '#3A3A3A',
+              color: '#333333',
               marginBottom: '36px',
             }}
           >

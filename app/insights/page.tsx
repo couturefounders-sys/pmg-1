@@ -8,7 +8,7 @@ export default function InsightsPage() {
 
       {/* ─── Section 1: Hero ─── */}
       <section className="w-full pt-36 pb-20 px-6 bg-white">
-        <div className="max-w-[760px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <p
             style={{
               fontFamily: 'Montserrat, sans-serif',
@@ -25,8 +25,9 @@ export default function InsightsPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '52px',
-              lineHeight: '1.1',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
               color: '#14358A',
               marginBottom: '28px',
             }}
@@ -37,10 +38,10 @@ export default function InsightsPage() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '16px',
-              lineHeight: '1.75',
-              color: '#3A3A3A',
-              maxWidth: '640px',
+              fontSize: '30px',
+              lineHeight: '140%',
+              color: '#333333',
+              maxWidth: '900px',
             }}
           >
             Business as usual guarantees obsolescence. The Sector Convergence Model is
@@ -94,8 +95,8 @@ export default function InsightsPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '46px',
-              lineHeight: '1.15',
+              fontSize: '48px',
+              lineHeight: '105%',
               color: '#FFFFFF',
               marginBottom: '48px',
             }}
@@ -141,7 +142,7 @@ export default function InsightsPage() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 700,
-                    fontSize: '20px',
+                    fontSize: '29px',
                     color: '#D0021B',
                     marginBottom: '16px',
                   }}
@@ -195,7 +196,7 @@ export default function InsightsPage() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 700,
-                    fontSize: '20px',
+                    fontSize: '29px',
                     color: '#14358A',
                     marginBottom: '16px',
                   }}
@@ -240,17 +241,17 @@ export default function InsightsPage() {
 
       {/* ─── Section 4: How We Select Sectors ─── */}
       <section className="w-full py-20 px-6 bg-white">
-        <div className="max-w-[700px] mx-auto">
+        <div className="max-w-[1100px] mx-auto">
           {/* Eyebrow */}
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '14px', letterSpacing: '0.06em', color: '#14358A', textAlign: 'center', marginBottom: '12px' }}>
             The Logic of Operational DNA
           </p>
           {/* Heading */}
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '36px', color: '#14358A', textAlign: 'center', marginBottom: '20px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'center', marginBottom: '20px' }}>
             How We Select Sectors
           </h2>
           {/* Intro */}
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.75', color: '#3A3A3A', textAlign: 'center', marginBottom: '36px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.75', color: '#333333', textAlign: 'center', marginBottom: '36px' }}>
             Sector Convergence is not about random creativity. It is a systematic search for proven operational DNA. We do not look for &ldquo;similar companies.&rdquo; We look for sectors where your core challenge is their central competency.
           </p>
 
@@ -275,7 +276,7 @@ export default function InsightsPage() {
             ].map((item, i) => (
               <div key={i} style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
                 <img src="/vector.png" alt="" aria-hidden="true" style={{ width: '18px', height: '18px', objectFit: 'contain', marginTop: '2px', flexShrink: 0 }} />
-                <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.75', color: '#3A3A3A' }}>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.75', color: '#333333' }}>
                   <strong style={{ color: '#000000' }}>{item.label}</strong>{' '}
                   {item.text}
                 </p>
@@ -287,7 +288,7 @@ export default function InsightsPage() {
           <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '16px', color: '#14358A', marginBottom: '12px' }}>
             Example
           </h3>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.75', color: '#3A3A3A' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.75', color: '#333333' }}>
             For a FinTech firm needing trust, we did not look at other banks. We looked at industries built on fragile trust: psychotherapy (confidentiality, safe space) and precious metals trading (verification, audits). We adapted their principles of secure communication and transparent verification to rebuild user confidence.
           </p>
         </div>
@@ -295,14 +296,14 @@ export default function InsightsPage() {
 
       {/* ─── Section 5: From Theory to ROI ─── */}
       <section className="w-full py-20 px-6" style={{ background: '#FFFFFF' }}>
-        <div className="max-w-[700px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '36px', color: '#14358A', marginBottom: '20px' }}>
+        <div className="max-w-[1100px] mx-auto flex flex-col items-center text-center">
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
             From Theory to ROI
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '32px', lineHeight: '100%', letterSpacing: '0%', textAlign: 'center', color: '#3A3A3A', marginBottom: '24px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '140%', letterSpacing: '0%', textAlign: 'center', color: '#333333', marginBottom: '24px' }}>
             This model emerged from high-stakes engagements where traditional, linear consulting methods proved fundamentally inadequate to solve multi-faceted challenges. Such challenges include simultaneously unifying customer experience, reducing operational overhead, and enhancing quality across complex, disparate business lines.
           </p>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '32px', lineHeight: '100%', letterSpacing: '0%', textAlign: 'center', color: '#3A3A3A', marginBottom: '32px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '140%', letterSpacing: '0%', textAlign: 'center', color: '#333333', marginBottom: '32px' }}>
             The Sector Convergence Model was created by reframing the challenge to ignore industry boundaries. Instead, we abstracted and synthesized proven operational excellence models: successful customer experience systems from regulated industries, advanced automation strategies from high-volume telecom, and robust training systems from specialized professional services.
           </p>
           <a href="#" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 600, fontSize: '30px', lineHeight: '30px', letterSpacing: '0px', verticalAlign: 'middle', color: '#14358A', textDecoration: 'none' }}>
@@ -313,11 +314,11 @@ export default function InsightsPage() {
 
       {/* ─── Section 6: Real World Impact ─── */}
       <section className="w-full py-20 px-6 bg-white">
-        <div className="max-w-[620px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '36px', color: '#14358A', marginBottom: '16px' }}>
+        <div className="max-w-[1100px] mx-auto flex flex-col items-center text-center">
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
             Real World Impact
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.75', color: '#3A3A3A', marginBottom: '48px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.75', color: '#333333', marginBottom: '48px' }}>
             With our support, organizations across diverse sectors have leveraged Sector Convergence to restructure operations, rescue customer relationships, and reframe past failures as opportunities for innovation.
           </p>
 
@@ -364,10 +365,10 @@ export default function InsightsPage() {
       {/* ─── Section 7: From Blueprint to Reality ─── */}
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[1100px] mx-auto">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '36px', color: '#14358A', textAlign: 'center', marginBottom: '16px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'center', marginBottom: '16px' }}>
             From Blueprint to Reality
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.75', color: '#3A3A3A', textAlign: 'center', maxWidth: '680px', margin: '0 auto 48px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.75', color: '#333333', textAlign: 'center', maxWidth: '680px', margin: '0 auto 48px' }}>
             Our Sector Convergence model is not just a theoretical exercise. We offer structured engagement paths to translate cross-industry insights into tangible business outcomes.
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '24px' }}>
@@ -385,7 +386,7 @@ export default function InsightsPage() {
                 text: 'A comprehensive partnership where we lead the end-to-end design, implementation, and optimisation of a Sector Convergence strategy to solve a core business challenge.',
               },
             ].map((card, i) => (
-              <div key={i} style={{ border: '3px solid #14358A', borderRadius: '12px', padding: '28px 24px', background: '#FFFFFF', display: 'flex', flexDirection: 'column', gap: '14px' }}>
+              <div key={i} style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px 24px', background: '#FFFFFF', display: 'flex', flexDirection: 'column', gap: '14px' }}>
                 <div style={{ width: '44px', height: '44px', background: '#14358A', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <div style={{ width: '22px', height: '22px', background: '#14358A', borderRadius: '4px' }} />
                 </div>
@@ -398,9 +399,9 @@ export default function InsightsPage() {
       </section>
 
       {/* ─── Section 8: Core Concepts of Sector Convergence ─── */}
-      <section className="w-full py-20 px-6" style={{ background: '#F7F9FF' }}>
+      <section className="w-full py-20 px-6" style={{ background: '#F8FAFC' }}>
         <div className="max-w-[1100px] mx-auto">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '36px', color: '#14358A', textAlign: 'center', marginBottom: '48px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'center', marginBottom: '48px' }}>
             Core Concepts of Sector Convergence
           </h2>
           {(() => {
@@ -453,11 +454,11 @@ export default function InsightsPage() {
 
       {/* ─── Section 9: Shape the Next Market Standard ─── */}
       <section className="w-full py-24 px-6" style={{ background: '#EBF7FF' }}>
-        <div className="max-w-[680px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '38px', color: '#14358A', marginBottom: '20px' }}>
+        <div className="max-w-[1100px] mx-auto flex flex-col items-center text-center">
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
             Shape the Next Market Standard
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.8', color: '#3A3A3A', marginBottom: '36px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.8', color: '#333333', marginBottom: '36px' }}>
             In a world without pre-written playbooks, Sector Convergence equips leaders not just to survive disruption, but to weaponize it. Transform constraint into capability, and crisis into acceleration.
           </p>
           <a

@@ -58,16 +58,16 @@ export default function BespokeSolutions() {
           {/* Main Heading — Poppins SemiBold 50px, node 0:5831 */}
           <h1
             style={{
-              fontFamily: 'Poppins, sans-serif',
-              fontWeight: 600,
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
               fontStyle: 'normal',
-              fontSize: '50px',
-              lineHeight: '110%',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#14358A',
               marginBottom: '24px',
               maxWidth: '1200px',
-              whiteSpace: 'nowrap',
             }}
           >
             Solving Your Most Important Problem (MIP)
@@ -79,8 +79,8 @@ export default function BespokeSolutions() {
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
               fontStyle: 'normal',
-              fontSize: '32px',
-              lineHeight: 'normal',
+              fontSize: '30px',
+              lineHeight: '140%',
               textAlign: 'center',
               color: '#333333',
               marginBottom: '48px',
@@ -253,7 +253,7 @@ export default function BespokeSolutions() {
               fontWeight: 700,
               fontSize: '48px',
               lineHeight: '105%',
-              letterSpacing: '-1.44px',
+              letterSpacing: '-0.03em',
               color: '#FFFFFF',
               textAlign: 'center',
               marginBottom: '28px',
@@ -385,8 +385,8 @@ export default function BespokeSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '20px',
-                  lineHeight: '140%',
+                  fontSize: '18px',
+                  lineHeight: '1.75',
                   color: '#68718B',
                   textAlign: 'center',
                   margin: 0,
@@ -423,7 +423,7 @@ export default function BespokeSolutions() {
           </h2>
           <p
             style={{
-              fontFamily: 'Poppins, sans-serif',
+              fontFamily: 'Montserrat, sans-serif',
               fontWeight: 600,
               fontSize: '20px',
               lineHeight: '130%',
@@ -594,9 +594,9 @@ export default function BespokeSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '50px',
+                fontSize: '48px',
                 lineHeight: '105%',
-                letterSpacing: '-1.5px',
+                letterSpacing: '-0.03em',
                 textAlign: 'center',
                 color: '#14358A',
                 marginBottom: '24px',

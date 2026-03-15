@@ -8,7 +8,7 @@ export default function ResourcesPage() {
 
       {/* Hero Section - Our Resources */}
       <section className="w-full pt-36 pb-20 px-6 bg-white">
-        <div className="max-w-[900px] mx-auto">
+        <div className="max-w-[1200px] mx-auto">
           <h1
             className="text-center mb-8"
             style={{
@@ -27,10 +27,10 @@ export default function ResourcesPage() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '18px',
-              lineHeight: '160%',
+              fontSize: '30px',
+              lineHeight: '140%',
               color: '#333333',
-              maxWidth: '800px',
+              maxWidth: '1082px',
               margin: '0 auto',
             }}
           >
@@ -40,14 +40,17 @@ export default function ResourcesPage() {
       </section>
 
       {/* How PMG's Language Creates Better Outcomes */}
-      <section className="w-full py-16 px-6" style={{ background: '#F7F9FF' }}>
+      {/* Decorative bar */}
+      <div style={{ width: '100%', height: '4px', background: 'linear-gradient(90deg, #14358A 0%, #6A36FF 100%)' }} />
+
+      <section className="w-full py-16 px-6" style={{ background: '#F8FAFC' }}>
         <div className="max-w-[1200px] mx-auto">
           <h2
             className="text-center mb-6"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '42px',
+              fontSize: '48px',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -60,10 +63,10 @@ export default function ResourcesPage() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '16px',
-              lineHeight: '160%',
+              fontSize: '18px',
+              lineHeight: '1.75',
               color: '#333333',
-              maxWidth: '900px',
+              maxWidth: '1082px',
               margin: '0 auto 48px',
             }}
           >
@@ -76,8 +79,8 @@ export default function ResourcesPage() {
             <div
               style={{
                 background: '#FFFFFF',
-                border: '2px solid #14358A',
-                borderRadius: '12px',
+                border: '3px solid #14358A',
+                borderRadius: '10px',
                 padding: '32px 24px',
                 display: 'flex',
                 flexDirection: 'column',
@@ -103,7 +106,7 @@ export default function ResourcesPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '20px',
+                  fontSize: '29px',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -114,9 +117,9 @@ export default function ResourcesPage() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 400,
-                  fontSize: '14px',
+                  fontSize: '15px',
                   lineHeight: '160%',
-                  color: '#5F6D7E',
+                  color: '#68718B',
                 }}
               >
                 Shared language eliminates ambiguity and accelerates decision-making
@@ -127,8 +130,8 @@ export default function ResourcesPage() {
             <div
               style={{
                 background: '#FFFFFF',
-                border: '2px solid #14358A',
-                borderRadius: '12px',
+                border: '3px solid #14358A',
+                borderRadius: '10px',
                 padding: '32px 24px',
                 display: 'flex',
                 flexDirection: 'column',
@@ -154,7 +157,7 @@ export default function ResourcesPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '20px',
+                  fontSize: '29px',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -165,9 +168,9 @@ export default function ResourcesPage() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 400,
-                  fontSize: '14px',
+                  fontSize: '15px',
                   lineHeight: '160%',
-                  color: '#5F6D7E',
+                  color: '#68718B',
                 }}
               >
                 Anti-concepts help identify and eliminate flawed thinking patterns before they cause damage
@@ -178,8 +181,8 @@ export default function ResourcesPage() {
             <div
               style={{
                 background: '#FFFFFF',
-                border: '2px solid #14358A',
-                borderRadius: '12px',
+                border: '3px solid #14358A',
+                borderRadius: '10px',
                 padding: '32px 24px',
                 display: 'flex',
                 flexDirection: 'column',
@@ -205,7 +208,7 @@ export default function ResourcesPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '20px',
+                  fontSize: '29px',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -216,9 +219,9 @@ export default function ResourcesPage() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 400,
-                  fontSize: '14px',
+                  fontSize: '15px',
                   lineHeight: '160%',
-                  color: '#5F6D7E',
+                  color: '#68718B',
                 }}
               >
                 Common frameworks mean less explanation and more action
@@ -230,8 +233,8 @@ export default function ResourcesPage() {
           <div
             style={{
               background: '#FFFFFF',
-              border: '2px solid #14358A',
-              borderRadius: '12px',
+              border: '3px solid #14358A',
+              borderRadius: '10px',
               padding: '32px',
               marginTop: '48px',
             }}
@@ -260,7 +263,7 @@ export default function ResourcesPage() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: '24px',
+                    fontSize: '29px',
                     color: '#14358A',
                     marginBottom: '12px',
                   }}
@@ -273,7 +276,7 @@ export default function ResourcesPage() {
                     fontWeight: 400,
                     fontSize: '15px',
                     lineHeight: '160%',
-                    color: '#5F6D7E',
+                    color: '#68718B',
                   }}
                 >
                   This resource serves multiple audiences. For potential clients, it offers a foundational understanding of our strategic approach before an engagement begins. For current partners, it's a shared vocabulary to streamline communication and align on project frameworks. For industry peers, it provides a transparent look at how PMG's thinking and methodologies differ from traditional consulting.
@@ -284,15 +287,18 @@ export default function ResourcesPage() {
         </div>
       </section>
 
+      {/* Decorative bar */}
+      <div style={{ width: '100%', height: '4px', background: 'linear-gradient(90deg, #14358A 0%, #6A36FF 100%)' }} />
+
       {/* Ready to Apply These Concepts? CTA */}
       <section className="w-full py-20 px-6 bg-white">
-        <div className="max-w-[800px] mx-auto text-center">
+        <div className="max-w-[1200px] mx-auto text-center">
           <h2
             className="mb-6"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '42px',
+              fontSize: '48px',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -305,10 +311,10 @@ export default function ResourcesPage() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '16px',
+              fontSize: '18px',
               lineHeight: '160%',
               color: '#333333',
-              maxWidth: '700px',
+              maxWidth: '900px',
               margin: '0 auto 32px',
             }}
           >

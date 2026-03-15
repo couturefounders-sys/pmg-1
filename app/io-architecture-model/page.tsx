@@ -10,7 +10,7 @@ export default function IOArchitectureModelPage() {
 
       {/* ─── Section 1: Hero ─── */}
       <section className="w-full pt-36 pb-20 px-6 bg-white">
-        <div className="max-w-[760px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[1100px] mx-auto flex flex-col items-center text-center">
           <p
             style={{
               fontFamily: 'Montserrat, sans-serif',
@@ -40,10 +40,10 @@ export default function IOArchitectureModelPage() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '16px',
-              lineHeight: '1.75',
-              color: '#3A3A3A',
-              maxWidth: '640px',
+              fontSize: '30px',
+              lineHeight: '140%',
+              color: '#333333',
+              maxWidth: '900px',
             }}
           >
             The I-O Model is our proprietary engineering framework that solves systemic
@@ -84,8 +84,8 @@ export default function IOArchitectureModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '42px',
-              lineHeight: '1.2',
+              fontSize: '48px',
+              lineHeight: '105%',
               color: '#FFFFFF',
               marginBottom: '20px',
             }}
@@ -170,7 +170,7 @@ export default function IOArchitectureModelPage() {
                   />
                   <div style={{ position: 'relative', zIndex: 1, padding: '32px 28px', height: '100%' }}>
                     <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '17px', color: '#D0021B', marginBottom: '12px', lineHeight: '1.4' }}>{row.problem.title}</h3>
-                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '13px', lineHeight: '1.7', color: '#3A3A3A', marginBottom: '10px' }}>{row.problem.body}</p>
+                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '13px', lineHeight: '1.7', color: '#333333', marginBottom: '10px' }}>{row.problem.body}</p>
                     <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '12px', lineHeight: '1.7', color: '#5F6D7E' }}>{row.problem.risk}</p>
                   </div>
                 </div>
@@ -184,7 +184,7 @@ export default function IOArchitectureModelPage() {
                   />
                   <div style={{ position: 'relative', zIndex: 1, padding: '32px 28px', height: '100%' }}>
                     <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '17px', color: '#14358A', marginBottom: '12px', lineHeight: '1.4' }}>{row.solution.title}</h3>
-                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', lineHeight: '1.7', color: '#3A3A3A', marginBottom: '10px' }}>{row.solution.body}</p>
+                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', lineHeight: '1.7', color: '#333333', marginBottom: '10px' }}>{row.solution.body}</p>
                     <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '12px', lineHeight: '1.7', color: '#5F6D7E' }}>{row.solution.benefit}</p>
                   </div>
                 </div>
@@ -218,7 +218,7 @@ export default function IOArchitectureModelPage() {
                 <img src="/component-12.png" alt="" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', zIndex: 0 }} />
                 <div style={{ position: 'relative', zIndex: 1, padding: '32px 36px' }}>
                   <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', color: '#14358A', marginBottom: '16px' }}>The PMG Model</h3>
-                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.75', color: '#3A3A3A', textAlign: 'center' }}>
+                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.75', color: '#333333', textAlign: 'center' }}>
                     Sector Convergence is a strategic reset. We architect non-obvious solutions by synthesizing proven operational models from entirely different sectors, creating a durable, first-mover advantage that competitors cannot easily replicate.
                   </p>
                 </div>
@@ -229,7 +229,7 @@ export default function IOArchitectureModelPage() {
                 <img src="/component-13.png" alt="" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', zIndex: 0 }} />
                 <div style={{ position: 'relative', zIndex: 1, padding: '32px 36px' }}>
                   <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', color: '#D0021B', marginBottom: '16px' }}>The Old Playbook</h3>
-                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.75', color: '#3A3A3A', textAlign: 'center' }}>
+                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.75', color: '#333333', textAlign: 'center' }}>
                     Traditional consulting offers linear, industry-siloed &ldquo;best practices&rdquo; that lead to incremental gains at best and expensive, failed implementations at worst. It is a model built for a world that no longer exists.
                   </p>
                 </div>
@@ -303,7 +303,7 @@ export default function IOArchitectureModelPage() {
                   {/* Content */}
                   <div style={{ flex: 1 }}>
                     <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', color: '#14358A', marginBottom: '10px', lineHeight: '1.3' }}>{step.title}</h3>
-                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.75', color: '#3A3A3A', marginBottom: '16px' }}>{step.body}</p>
+                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.75', color: '#333333', marginBottom: '16px' }}>{step.body}</p>
                     {/* Objective box */}
                     <div style={{ background: '#F5F7FA', borderRadius: '8px', padding: '16px 20px' }}>
                       <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '11px', letterSpacing: '0.08em', color: '#14358A', textTransform: 'uppercase', marginBottom: '8px' }}>Objective</p>

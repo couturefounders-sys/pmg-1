@@ -72,10 +72,10 @@ export default function ActiveManagementSolutions() {
           {/* Eyebrow */}
           <p
             style={{
-              fontFamily: 'Poppins, sans-serif',
-              fontWeight: 600,
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
               fontSize: '20px',
-              lineHeight: '100%',
+              lineHeight: '105%',
               color: '#14358A',
               marginBottom: '20px',
             }}
@@ -103,8 +103,8 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '22px',
-              lineHeight: '150%',
+              fontSize: '30px',
+              lineHeight: '140%',
               color: '#333333',
               marginBottom: '24px',
             }}
@@ -119,8 +119,8 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '22px',
-              lineHeight: '150%',
+              fontSize: '30px',
+              lineHeight: '140%',
               color: '#333333',
             }}
           >
@@ -152,7 +152,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '22px',
+                fontSize: '18px',
                 lineHeight: '150%',
                 color: '#333333',
                 maxWidth: '680px',
@@ -169,7 +169,7 @@ export default function ActiveManagementSolutions() {
               <div
                 key={idx}
                 style={{
-                  border: '2px solid #14358A',
+                  border: '3px solid #14358A',
                   borderRadius: '10px',
                   padding: '28px 24px',
                   backgroundColor: '#FFFFFF',
@@ -182,9 +182,9 @@ export default function ActiveManagementSolutions() {
                   <Image src={card.icon} alt={card.title} width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
                   <h3
                     style={{
-                      fontFamily: 'Poppins, sans-serif',
+                      fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: '20px',
+                      fontSize: '29px',
                       lineHeight: '130%',
                       color: '#14358A',
                       margin: 0,
@@ -197,7 +197,7 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
-                    fontSize: '14px',
+                    fontSize: '15px',
                     lineHeight: '160%',
                     color: '#333333',
                   }}
@@ -234,7 +234,7 @@ export default function ActiveManagementSolutions() {
               <div
                 key={idx}
                 style={{
-                  border: '2px solid #14358A',
+                  border: '3px solid #14358A',
                   borderRadius: '10px',
                   padding: '28px 24px',
                   backgroundColor: '#FFFFFF',
@@ -247,9 +247,9 @@ export default function ActiveManagementSolutions() {
                   <Image src={card.icon} alt={card.title} width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
                   <h3
                     style={{
-                      fontFamily: 'Poppins, sans-serif',
+                      fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: '20px',
+                      fontSize: '29px',
                       lineHeight: '130%',
                       color: '#14358A',
                       margin: 0,
@@ -262,7 +262,7 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
-                    fontSize: '14px',
+                    fontSize: '15px',
                     lineHeight: '160%',
                     color: '#333333',
                   }}
@@ -314,8 +314,8 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '28px',
-                lineHeight: '140%',
+                fontSize: '18px',
+                lineHeight: '1.75',
                 letterSpacing: '0%',
                 color: '#68718B',
                 marginBottom: '40px',
@@ -486,8 +486,8 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '22px',
-              lineHeight: '150%',
+              fontSize: '18px',
+              lineHeight: '1.75',
               color: '#333333',
               maxWidth: '680px',
             }}
@@ -528,7 +528,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 700,
-                fontSize: '24px',
+                fontSize: '29px',
                 lineHeight: '130%',
                 color: '#14358A',
                 marginBottom: '10px',
@@ -565,7 +565,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 700,
-                fontSize: '24px',
+                fontSize: '29px',
                 lineHeight: '130%',
                 color: '#14358A',
                 marginBottom: '10px',
@@ -602,7 +602,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 700,
-                fontSize: '24px',
+                fontSize: '29px',
                 lineHeight: '130%',
                 color: '#14358A',
                 marginBottom: '10px',
@@ -639,7 +639,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 700,
-                fontSize: '24px',
+                fontSize: '29px',
                 lineHeight: '130%',
                 color: '#14358A',
                 marginBottom: '10px',
@@ -685,7 +685,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '22px',
+                fontSize: '18px',
                 lineHeight: '150%',
                 color: '#333333',
                 maxWidth: '900px',
@@ -700,16 +700,16 @@ export default function ActiveManagementSolutions() {
             <div
               style={{
                 display: 'inline-flex',
-                border: '2px solid #14358A',
+                border: '3px solid #14358A',
                 borderRadius: '50px',
                 overflow: 'hidden',
               }}
             >
               <button
                 style={{
-                  fontFamily: 'Poppins, sans-serif',
-                  fontWeight: 600,
-                  fontSize: '18px',
+                  fontFamily: 'Montserrat, sans-serif',
+                  fontWeight: 700,
+                  fontSize: '16px',
                   padding: '14px 40px',
                   backgroundColor: '#14358A',
                   color: '#FFFFFF',
@@ -721,9 +721,9 @@ export default function ActiveManagementSolutions() {
               </button>
               <button
                 style={{
-                  fontFamily: 'Poppins, sans-serif',
-                  fontWeight: 600,
-                  fontSize: '18px',
+                  fontFamily: 'Montserrat, sans-serif',
+                  fontWeight: 700,
+                  fontSize: '16px',
                   padding: '14px 40px',
                   backgroundColor: '#FFFFFF',
                   color: '#14358A',
@@ -754,11 +754,11 @@ export default function ActiveManagementSolutions() {
               </h3>
               <p
                 style={{
-                  fontFamily: 'DM Sans, sans-serif',
+                  fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 400,
-                  fontSize: '20px',
-                  lineHeight: '130%',
-                  color: '#4A5565',
+                  fontSize: '18px',
+                  lineHeight: '1.75',
+                  color: '#333333',
                   marginBottom: '24px',
                 }}
               >
@@ -989,7 +989,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '22px',
+                fontSize: '18px',
                 lineHeight: '150%',
                 color: '#333333',
                 maxWidth: '900px',
@@ -1021,7 +1021,7 @@ export default function ActiveManagementSolutions() {
               <div
                 key={idx}
                 style={{
-                  border: '2px solid #14358A',
+                  border: '3px solid #14358A',
                   borderRadius: '10px',
                   padding: '28px 24px',
                   backgroundColor: '#FFFFFF',
@@ -1036,7 +1036,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: '24px',
+                      fontSize: '29px',
                       lineHeight: '130%',
                       color: '#14358A',
                       margin: 0,
@@ -1049,7 +1049,7 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
-                    fontSize: '14px',
+                    fontSize: '15px',
                     lineHeight: '160%',
                     color: '#333333',
                   }}
@@ -1203,8 +1203,8 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '22px',
-              lineHeight: '150%',
+              fontSize: '18px',
+              lineHeight: '1.75',
               color: '#333333',
               marginBottom: '32px',
             }}
@@ -1213,9 +1213,9 @@ export default function ActiveManagementSolutions() {
           </p>
           <button
             style={{
-              fontFamily: 'Poppins, sans-serif',
-              fontWeight: 600,
-              fontSize: '18px',
+              fontFamily: 'Montserrat, sans-serif',
+              fontWeight: 700,
+              fontSize: '16px',
               padding: '16px 40px',
               backgroundColor: '#8B5CF6',
               color: '#FFFFFF',

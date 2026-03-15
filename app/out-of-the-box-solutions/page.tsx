@@ -8,7 +8,7 @@ export default function OutOfTheBoxSolutions() {
 
       {/* ─── Section 1: Hero ─── */}
       <section className="w-full pt-36 pb-20 px-6">
-        <div className="max-w-[800px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
 
           {/* Eyebrow */}
           <p
@@ -29,7 +29,7 @@ export default function OutOfTheBoxSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '56px',
+              fontSize: '48px',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -44,8 +44,8 @@ export default function OutOfTheBoxSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '20px',
-              lineHeight: '160%',
+              fontSize: '30px',
+              lineHeight: '140%',
               color: '#333333',
               marginBottom: '32px',
               maxWidth: '700px',
@@ -58,8 +58,8 @@ export default function OutOfTheBoxSolutions() {
           {/* Note box */}
           <div
             style={{
-              border: '1.5px solid #14358A',
-              borderRadius: '8px',
+              border: '3px solid #14358A',
+              borderRadius: '10px',
               padding: '14px 24px',
               maxWidth: '640px',
               width: '100%',
@@ -88,14 +88,14 @@ export default function OutOfTheBoxSolutions() {
 
       {/* ─── Section 2: Why The Foundry? ─── */}
       <section className="w-full bg-white py-20 px-6">
-        <div className="max-w-[900px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
 
           {/* Heading */}
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '46px',
+              fontSize: '48px',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -111,7 +111,7 @@ export default function OutOfTheBoxSolutions() {
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
               fontSize: '18px',
-              lineHeight: '165%',
+              lineHeight: '1.75',
               color: '#333333',
               maxWidth: '720px',
               marginBottom: '48px',
@@ -143,8 +143,8 @@ export default function OutOfTheBoxSolutions() {
               <div
                 key={i}
                 style={{
-                  border: '1.5px solid #14358A',
-                  borderRadius: '12px',
+                  border: '3px solid #14358A',
+                  borderRadius: '10px',
                   padding: '28px 24px',
                   backgroundColor: '#FFFFFF',
                   display: 'flex',
@@ -157,7 +157,7 @@ export default function OutOfTheBoxSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: '18px',
+                    fontSize: '29px',
                     lineHeight: '130%',
                     color: '#14358A',
                   }}
@@ -168,7 +168,7 @@ export default function OutOfTheBoxSolutions() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
-                    fontSize: '14px',
+                    fontSize: '15px',
                     lineHeight: '160%',
                     color: '#333333',
                   }}
@@ -216,7 +216,7 @@ export default function OutOfTheBoxSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '46px',
+              fontSize: '48px',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#FFFFFF',
@@ -232,7 +232,7 @@ export default function OutOfTheBoxSolutions() {
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
               fontSize: '18px',
-              lineHeight: '160%',
+              lineHeight: '1.75',
               color: 'rgba(255,255,255,0.85)',
               marginBottom: '40px',
               maxWidth: '640px',
@@ -287,7 +287,7 @@ export default function OutOfTheBoxSolutions() {
             <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
               The Foundry Catalog
             </h2>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '18px', lineHeight: '160%', color: '#333333', maxWidth: '560px' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '18px', lineHeight: '1.75', color: '#333333', maxWidth: '560px' }}>
               Explore our toolkits, organized by the proprietary PMG models they help you implement.
             </p>
           </div>
@@ -318,8 +318,8 @@ export default function OutOfTheBoxSolutions() {
               <div
                 key={i}
                 style={{
-                  border: '1.5px solid #14358A',
-                  borderRadius: '12px',
+                  border: '3px solid #14358A',
+                  borderRadius: '10px',
                   padding: '28px 24px',
                   backgroundColor: '#FFFFFF',
                   display: 'flex',
@@ -330,11 +330,11 @@ export default function OutOfTheBoxSolutions() {
                 <div style={{ width: '48px', height: '48px', borderRadius: '10px', backgroundColor: '#14358A', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                   <img src="/ootb-icon-14.png" alt="" style={{ width: '26px', height: '26px', objectFit: 'contain' }} />
                 </div>
-                <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '18px', color: '#14358A' }}>{card.title}</h3>
-                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '13px', lineHeight: '160%', color: '#333333' }}>
+                <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '29px', color: '#14358A' }}>{card.title}</h3>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '15px', lineHeight: '160%', color: '#333333' }}>
                   <span style={{ fontWeight: 600 }}>For:</span> {card.tag.replace('For: ', '')}
                 </p>
-                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '13px', lineHeight: '160%', color: '#333333' }}>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '15px', lineHeight: '160%', color: '#333333' }}>
                   <span style={{ fontWeight: 600 }}>Contains:</span> {card.contains}
                 </p>
               </div>
@@ -344,7 +344,7 @@ export default function OutOfTheBoxSolutions() {
       </section>
 
       {/* ─── Section 5: Which Solution Is Right for You? ─── */}
-      <section className="w-full bg-[#F7F9FC] py-20 px-6">
+      <section className="w-full py-20 px-6" style={{ background: '#F8FAFC' }}>
         <div className="max-w-[1100px] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
             <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '0' }}>
@@ -397,8 +397,8 @@ export default function OutOfTheBoxSolutions() {
         <div className="max-w-[860px] mx-auto">
           <div
             style={{
-              border: '1.5px solid #14358A',
-              borderRadius: '14px',
+              border: '3px solid #14358A',
+              borderRadius: '10px',
               padding: '40px 48px',
               textAlign: 'center',
             }}
@@ -440,7 +440,7 @@ export default function OutOfTheBoxSolutions() {
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '18px' }}>
             Ready to Elevate Your Business?
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '18px', lineHeight: '160%', color: '#333333', marginBottom: '32px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '18px', lineHeight: '1.75', color: '#333333', marginBottom: '32px' }}>
             Let&apos;s discuss how PMG can help you navigate your challenges and seize new opportunities.
           </p>
           <a

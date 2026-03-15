@@ -8,7 +8,7 @@ export default function PowerOfWorkingWithUs() {
 
       {/* ─── Section 1: The Power of Quiet Consulting ─── */}
       <section className="w-full pt-36 pb-20 px-6">
-        <div className="max-w-[760px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <h1
             style={{
               fontFamily: 'DM Sans, sans-serif',
@@ -26,9 +26,9 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '16px',
-              lineHeight: '1.75',
-              color: '#1a1a1a',
+              fontSize: '30px',
+              lineHeight: '140%',
+              color: '#333333',
             }}
           >
             Consulting does not need to be loud or flashy. And it should never overshadow
@@ -41,13 +41,14 @@ export default function PowerOfWorkingWithUs() {
 
       {/* ─── Section 2: The Unseen Discipline Behind Quiet Results ─── */}
       <section className="w-full py-16 px-6 bg-white">
-        <div className="max-w-[760px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '32px',
-              lineHeight: '1.2',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
               color: '#14358A',
               marginBottom: '20px',
             }}
@@ -58,9 +59,9 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '16px',
+              fontSize: '18px',
               lineHeight: '1.75',
-              color: '#1a1a1a',
+              color: '#333333',
             }}
           >
             Quiet consulting is not just an attitude; it is a built-in system. Before any PMG
@@ -72,13 +73,14 @@ export default function PowerOfWorkingWithUs() {
 
       {/* ─── Section 3: Our Blueprint for Certainty ─── */}
       <section className="w-full py-16 px-6">
-        <div className="max-w-[760px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '32px',
-              lineHeight: '1.2',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
               color: '#14358A',
               marginBottom: '10px',
             }}
@@ -101,9 +103,9 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '16px',
+              fontSize: '18px',
               lineHeight: '1.75',
-              color: '#1a1a1a',
+              color: '#333333',
               marginBottom: '20px',
             }}
           >
@@ -116,9 +118,9 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '16px',
+              fontSize: '18px',
               lineHeight: '1.75',
-              color: '#1a1a1a',
+              color: '#333333',
             }}
           >
             But here is where we differ: that expert&apos;s blueprint is then submitted to our
@@ -131,13 +133,14 @@ export default function PowerOfWorkingWithUs() {
 
       {/* ─── Section 4: Global Network and Strategic Engagements ─── */}
       <section className="w-full py-16 px-6 bg-white">
-        <div className="max-w-[760px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '32px',
-              lineHeight: '1.2',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
               color: '#14358A',
               marginBottom: '20px',
             }}
@@ -148,9 +151,9 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '16px',
+              fontSize: '18px',
               lineHeight: '1.75',
-              color: '#1a1a1a',
+              color: '#333333',
               marginBottom: '20px',
             }}
           >
@@ -163,9 +166,9 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: '16px',
+              fontSize: '18px',
               lineHeight: '1.75',
-              color: '#1a1a1a',
+              color: '#333333',
             }}
           >
             Only a C2 Spec that passes this internal gauntlet becomes a PMG strategy. This
@@ -178,13 +181,14 @@ export default function PowerOfWorkingWithUs() {
 
       {/* ─── Section 5: The Problem with "Loud" Consulting ─── */}
       <section className="w-full py-16 px-6">
-        <div className="max-w-[760px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '32px',
-              lineHeight: '1.2',
+              fontSize: '48px',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
               color: '#14358A',
               marginBottom: '20px',
             }}
@@ -195,9 +199,9 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '16px',
+              fontSize: '18px',
               lineHeight: '1.75',
-              color: '#1a1a1a',
+              color: '#333333',
               marginBottom: '32px',
             }}
           >
@@ -208,8 +212,8 @@ export default function PowerOfWorkingWithUs() {
           {/* Pull Quote */}
           <div
             style={{
-              border: '2px solid #14358A',
-              borderRadius: '8px',
+              border: '3px solid #14358A',
+              borderRadius: '10px',
               padding: '24px 32px',
               maxWidth: '540px',
             }}
@@ -280,8 +284,8 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '42px',
-              lineHeight: '1.15',
+              fontSize: '48px',
+              lineHeight: '105%',
               color: '#FFFFFF',
               marginBottom: '48px',
               maxWidth: '760px',
@@ -451,7 +455,7 @@ export default function PowerOfWorkingWithUs() {
                     style={{
                       fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 700,
-                      fontSize: '20px',
+                      fontSize: '29px',
                       color: '#14358A',
                       marginBottom: '16px',
                     }}
@@ -464,7 +468,7 @@ export default function PowerOfWorkingWithUs() {
                       fontWeight: 400,
                       fontSize: '15px',
                       lineHeight: '1.75',
-                      color: '#3A3A3A',
+                      color: '#333333',
                     }}
                   >
                     Sector Convergence is a strategic reset. We architect non-obvious solutions by synthesizing
@@ -497,7 +501,7 @@ export default function PowerOfWorkingWithUs() {
                     style={{
                       fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 700,
-                      fontSize: '20px',
+                      fontSize: '29px',
                       color: '#D0021B',
                       marginBottom: '16px',
                     }}
@@ -510,7 +514,7 @@ export default function PowerOfWorkingWithUs() {
                       fontWeight: 400,
                       fontSize: '15px',
                       lineHeight: '1.75',
-                      color: '#3A3A3A',
+                      color: '#333333',
                     }}
                   >
                     Traditional consulting offers linear, industry-siloed &ldquo;best practices&rdquo; that lead to incremental gains at
@@ -531,7 +535,7 @@ export default function PowerOfWorkingWithUs() {
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
             The Proof is in the Performance
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '1.75', color: '#3A3A3A', marginBottom: '48px', maxWidth: '640px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '18px', lineHeight: '1.75', color: '#333333', marginBottom: '48px', maxWidth: '640px' }}>
             Our quiet, focused approach delivers loud results. We consistently outperform industry averages across key performance indicators.
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px', width: '100%' }}>
@@ -554,12 +558,12 @@ export default function PowerOfWorkingWithUs() {
       </section>
 
       {/* ─── Section 9: Our Approach & Methodology ─── */}
-      <section className="w-full py-20 px-6" style={{ background: '#F7F9FF' }}>
+      <section className="w-full py-20 px-6" style={{ background: '#F8FAFC' }}>
         <div className="max-w-[960px] mx-auto flex flex-col items-center text-center">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
             Our Approach &amp; Methodology
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '1.75', color: '#3A3A3A', marginBottom: '40px', maxWidth: '700px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '18px', lineHeight: '1.75', color: '#333333', marginBottom: '40px', maxWidth: '700px' }}>
             We use proven methodologies and cutting-edge frameworks to deliver results. But what sets PMG apart is our proprietary models: tools that provide deeper insight and unlock solutions the industry cannot match.
           </p>
 
@@ -615,7 +619,7 @@ export default function PowerOfWorkingWithUs() {
       </section>
 
       {/* ─── Section 11: The Right Solution, Every Time ─── */}
-      <section className="w-full py-16 px-6" style={{ background: '#F7F9FF' }}>
+      <section className="w-full py-16 px-6" style={{ background: '#F8FAFC' }}>
         <div className="max-w-[780px] mx-auto flex flex-col items-center text-center">
           {/* Formula row */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '20px', marginBottom: '40px', flexWrap: 'wrap', justifyContent: 'center' }}>
@@ -635,12 +639,12 @@ export default function PowerOfWorkingWithUs() {
           </div>
 
           {/* Philosophy box */}
-          <div style={{ border: '2px solid #14358A', borderRadius: '14px', padding: '28px 32px', textAlign: 'left', width: '100%' }}>
+          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px 32px', textAlign: 'left', width: '100%' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px' }}>
               <span style={{ width: '10px', height: '10px', borderRadius: '50%', border: '2px solid #14358A', display: 'inline-block' }} />
               <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '16px', color: '#14358A' }}>Our Philosophy of Application</h3>
             </div>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.75', color: '#3A3A3A' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.75', color: '#333333' }}>
               No single method is right for every situation. PMG selects and adapts frameworks based on each client&apos;s specific needs, culture, and goals. Our objective is to use the least-change-demanding methods first, balancing the amount of disruption with the impact it will create, based on your needs and the results you are looking for.
             </p>
           </div>
@@ -654,7 +658,7 @@ export default function PowerOfWorkingWithUs() {
             <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
               A Commitment to Continuous Improvement
             </h2>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#3A3A3A' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#333333' }}>
               Our 22x ROI was not instant. It was earned. In 2018, we matched the industry average of 6–8x. But average was never the goal. In 2020, we made client ROI our north star. That focus pushed us to 10x and continues to drive improvement today. Whatever our current benchmark, we refine, learn, and raise it. Continuous improvement is not a slogan; it is our operating model.
             </p>
           </div>
@@ -665,7 +669,7 @@ export default function PowerOfWorkingWithUs() {
       </section>
 
       {/* ─── Section 13: Still Not Convinced? ─── */}
-      <section className="w-full py-20 px-6" style={{ background: '#F7F9FF' }}>
+      <section className="w-full py-20 px-6" style={{ background: '#F8FAFC' }}>
         <div className="max-w-[960px] mx-auto">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'center', marginBottom: '48px' }}>
             Still Not Convinced?
@@ -673,16 +677,16 @@ export default function PowerOfWorkingWithUs() {
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '48px' }}>
             {/* Left */}
             <div>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#3A3A3A', marginBottom: '20px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#333333', marginBottom: '20px' }}>
                 We understand the skepticism. In many cases, it is earned. Almost one-third of our clients come to us after a major consulting engagement failed to deliver meaningful results.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#3A3A3A', marginBottom: '20px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#333333', marginBottom: '20px' }}>
                 If you are not confident we are the right partner, you should not hire us yet.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#3A3A3A', marginBottom: '20px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#333333', marginBottom: '20px' }}>
                 We are not here to trap you. We are here to help.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#3A3A3A', marginBottom: '20px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#333333', marginBottom: '20px' }}>
                 If you choose another firm and later find that you are still not where you would like to be, we will be here when you are ready.
               </p>
               <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#5F6D7E' }}>
@@ -694,10 +698,10 @@ export default function PowerOfWorkingWithUs() {
               <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '17px', color: '#14358A', marginBottom: '16px' }}>
                 Why Are We So Confident?
               </h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#3A3A3A', marginBottom: '16px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#333333', marginBottom: '16px' }}>
                 We are often asked how we back our bold claims. The answer is simple: we built a system to check our own work.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#3A3A3A', marginBottom: '16px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#333333', marginBottom: '16px' }}>
                 Our proprietary C2 Specification and Anonymous QA Review means every strategy we propose has already been stress-tested by a separate committee of experts before we even present it to you. We are as committed to eliminating our own blind spots and biases that we have institutionalized the peer review process. Our confidence comes not from arrogance, but from a proven, systematic method of validation.
               </p>
             </div>

@@ -29,7 +29,7 @@ export default function ContactUs() {
 
       {/* ─── Hero / Form Section ─── */}
       <section className="w-full pt-24 lg:pt-32 xl:pt-36 pb-14 lg:pb-20 xl:pb-24 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-[860px] w-full mx-auto">
+        <div className="max-w-[1100px] w-full mx-auto">
 
           {/* Heading */}
           <div className="flex flex-col items-center text-center mb-8 lg:mb-10 xl:mb-12">
@@ -51,8 +51,8 @@ export default function ContactUs() {
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
                 fontStyle: 'normal',
-                fontSize: '32px',
-                lineHeight: '100%',
+                fontSize: '30px',
+                lineHeight: '140%',
                 letterSpacing: '0%',
                 textAlign: 'center',
                 color: '#333333',
@@ -82,8 +82,8 @@ export default function ContactUs() {
                {/* Contact Information box */}
                <div
                  style={{
-                   border: '1.5px solid #14358A',
-                   borderRadius: '12px',
+                   border: '3px solid #14358A',
+                   borderRadius: '10px',
                    padding: 'clamp(14px, 1.67vw, 24px)',
                    flex: 1,
                    display: 'flex',
@@ -180,8 +180,8 @@ export default function ContactUs() {
                {/* Inquiry type box */}
                <div
                  style={{
-                   border: '1.5px solid #14358A',
-                   borderRadius: '12px',
+                   border: '3px solid #14358A',
+                   borderRadius: '10px',
                    padding: 'clamp(14px, 1.67vw, 24px)',
                    flex: 1,
                    display: 'flex',
@@ -254,8 +254,8 @@ export default function ContactUs() {
             {/* ── Right column: form ── */}
             <div
               style={{
-                border: '1.5px solid #14358A',
-                borderRadius: '12px',
+                border: '3px solid #14358A',
+                borderRadius: '10px',
                 padding: 'clamp(16px, 1.94vw, 28px)',
                 flex: 1,
                 minWidth: 0,

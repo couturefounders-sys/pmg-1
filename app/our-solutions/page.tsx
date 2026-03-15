@@ -74,8 +74,8 @@ export default function OurSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '32px',
-                lineHeight: '100%',
+                fontSize: '30px',
+                lineHeight: '140%',
                 letterSpacing: '0%',
                 textAlign: 'center',
                 color: '#333333',
@@ -1016,8 +1016,8 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '32px',
-              lineHeight: '135%',
+              fontSize: '30px',
+              lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',

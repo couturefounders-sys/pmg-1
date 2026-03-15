@@ -34,7 +34,7 @@ export default function SolutionAssessmentTool() {
 
       {/* ─── Hero / Form Section ─── */}
       <section className="w-full pt-36 pb-24 px-6">
-        <div className="max-w-[700px] mx-auto">
+        <div className="max-w-[900px] mx-auto">
 
           {/* Heading */}
           <div className="flex flex-col items-center text-center mb-10">
@@ -42,8 +42,9 @@ export default function SolutionAssessmentTool() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '36px',
-                lineHeight: '1.2',
+                fontSize: '48px',
+                lineHeight: '105%',
+                letterSpacing: '-0.03em',
                 color: '#14358A',
                 marginBottom: '20px',
               }}
@@ -85,7 +86,7 @@ export default function SolutionAssessmentTool() {
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 600,
                   fontSize: '15px',
-                  color: '#1a1a1a',
+                  color: '#333333',
                   display: 'block',
                   marginBottom: '14px',
                 }}
@@ -103,7 +104,7 @@ export default function SolutionAssessmentTool() {
                       cursor: 'pointer',
                       fontFamily: 'Montserrat, sans-serif',
                       fontSize: '13px',
-                      color: '#3A3A3A',
+                      color: '#333333',
                     }}
                   >
                     <input
@@ -125,7 +126,7 @@ export default function SolutionAssessmentTool() {
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 600,
                   fontSize: '15px',
-                  color: '#1a1a1a',
+                  color: '#333333',
                   display: 'block',
                   marginBottom: '14px',
                 }}
@@ -154,7 +155,7 @@ export default function SolutionAssessmentTool() {
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 600,
                     fontSize: '14px',
-                    color: '#1a1a1a',
+                    color: '#333333',
                     display: 'block',
                     marginBottom: '8px',
                   }}
@@ -173,7 +174,7 @@ export default function SolutionAssessmentTool() {
                     padding: '10px 12px',
                     fontFamily: 'Montserrat, sans-serif',
                     fontSize: '14px',
-                    color: '#1a1a1a',
+                    color: '#333333',
                     outline: 'none',
                     boxSizing: 'border-box',
                   }}
@@ -185,7 +186,7 @@ export default function SolutionAssessmentTool() {
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 600,
                     fontSize: '14px',
-                    color: '#1a1a1a',
+                    color: '#333333',
                     display: 'block',
                     marginBottom: '8px',
                   }}
@@ -204,7 +205,7 @@ export default function SolutionAssessmentTool() {
                     padding: '10px 12px',
                     fontFamily: 'Montserrat, sans-serif',
                     fontSize: '14px',
-                    color: '#1a1a1a',
+                    color: '#333333',
                     outline: 'none',
                     boxSizing: 'border-box',
                   }}
@@ -219,7 +220,7 @@ export default function SolutionAssessmentTool() {
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 600,
                   fontSize: '14px',
-                  color: '#1a1a1a',
+                  color: '#333333',
                   display: 'block',
                   marginBottom: '8px',
                 }}
@@ -238,7 +239,7 @@ export default function SolutionAssessmentTool() {
                   padding: '10px 12px',
                   fontFamily: 'Montserrat, sans-serif',
                   fontSize: '14px',
-                  color: '#1a1a1a',
+                  color: '#333333',
                   outline: 'none',
                   boxSizing: 'border-box',
                 }}
@@ -292,7 +293,7 @@ export default function SolutionAssessmentTool() {
                     padding: '10px 12px',
                     fontFamily: 'Montserrat, sans-serif',
                     fontSize: '14px',
-                    color: '#1a1a1a',
+                    color: '#333333',
                     outline: 'none',
                     boxSizing: 'border-box',
                     marginTop: '10px',
