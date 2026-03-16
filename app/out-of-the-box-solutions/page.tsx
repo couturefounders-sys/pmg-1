@@ -241,25 +241,63 @@ export default function OutOfTheBoxSolutions() {
             While our Foundry toolkits provide quick improvements, they have inherent limitations:
           </p>
 
-          {/* Component 13 — limitations box */}
-          <img
-            src="/equity-component-13.png"
-            alt="One-size-fits-all limitations"
+          {/* Limitations box */}
+          <div
             style={{
               width: '100%',
               maxWidth: '780px',
-              height: 'auto',
-              objectFit: 'contain',
+              backgroundColor: '#F5E6D3',
               borderRadius: '12px',
+              padding: '32px',
               marginBottom: '40px',
+              textAlign: 'left',
             }}
-          />
+          >
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+              <div style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
+                <span style={{ color: '#FF3B44', fontSize: '20px', flexShrink: 0, marginTop: '2px' }}>⊗</span>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '1.6', color: '#FF3B44', margin: 0 }}>
+                  One-size-fits-all approach may not address unique challenges
+                </p>
+              </div>
+              <div style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
+                <span style={{ color: '#FF3B44', fontSize: '20px', flexShrink: 0, marginTop: '2px' }}>⊗</span>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '1.6', color: '#FF3B44', margin: 0 }}>
+                  Limited customization options compared to bespoke solutions
+                </p>
+              </div>
+              <div style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
+                <span style={{ color: '#FF3B44', fontSize: '20px', flexShrink: 0, marginTop: '2px' }}>⊗</span>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '1.6', color: '#FF3B44', margin: 0 }}>
+                  Self-implementation requires internal resources and expertise
+                </p>
+              </div>
+              <div style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
+                <span style={{ color: '#FF3B44', fontSize: '20px', flexShrink: 0, marginTop: '2px' }}>⊗</span>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '1.6', color: '#FF3B44', margin: 0 }}>
+                  Generic templates lack industry-specific optimizations
+                </p>
+              </div>
+              <div style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
+                <span style={{ color: '#FF3B44', fontSize: '20px', flexShrink: 0, marginTop: '2px' }}>⊗</span>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '1.6', color: '#FF3B44', margin: 0 }}>
+                  No dedicated PMG team for ongoing support and optimization
+                </p>
+              </div>
+              <div style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
+                <span style={{ color: '#FF3B44', fontSize: '20px', flexShrink: 0, marginTop: '2px' }}>⊗</span>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '1.6', color: '#FF3B44', margin: 0 }}>
+                  Lacks the critical context and adaptation only our embedded leaders provide.
+                </p>
+              </div>
+            </div>
+          </div>
 
           {/* Bottom CTA text */}
           <p
             style={{
               fontFamily: 'Montserrat, sans-serif',
-              fontWeight: 700,
+              fontWeight: 400,
               fontSize: '18px',
               lineHeight: '160%',
               color: '#FFFFFF',
@@ -268,11 +306,11 @@ export default function OutOfTheBoxSolutions() {
             }}
           >
             For complex challenges or maximum impact, consider our{' '}
-            <a href="/bespoke-solutions" style={{ color: '#FFFFFF', textDecoration: 'underline' }}>
+            <a href="/bespoke-solutions" style={{ color: '#FFFFFF', textDecoration: 'underline', fontWeight: 700 }}>
               Bespoke Consulting
             </a>{' '}
             or{' '}
-            <a href="/equity-solutions" style={{ color: '#FFFFFF', textDecoration: 'underline' }}>
+            <a href="/equity-solutions" style={{ color: '#FFFFFF', textDecoration: 'underline', fontWeight: 700 }}>
               Equity Solutions
             </a>
             .
@@ -344,8 +382,8 @@ export default function OutOfTheBoxSolutions() {
       </section>
 
       {/* ─── Section 5: Which Solution Is Right for You? ─── */}
-      <section className="w-full py-20 px-6" style={{ background: '#F8FAFC' }}>
-        <div className="max-w-[1100px] mx-auto">
+      <section className="w-full py-20 px-6" style={{ background: '#FFFFFF' }}>
+        <div className="max-w-[1300px] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
             <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '0' }}>
               Which Solution Is Right for u?
@@ -353,11 +391,11 @@ export default function OutOfTheBoxSolutions() {
           </div>
 
           {/* Comparison table */}
-          <div style={{ border: '1.5px solid #E0E0E0', borderRadius: '14px', overflow: 'hidden', marginBottom: '24px' }}>
+          <div style={{ border: '2px solid #E5E7EB', borderRadius: '12px', overflow: 'hidden', marginBottom: '32px', backgroundColor: '#FFFFFF' }}>
             {/* Header */}
-            <div className="grid grid-cols-5" style={{ borderBottom: '1.5px solid #E0E0E0', backgroundColor: '#F7F9FC' }}>
+            <div className="grid grid-cols-5" style={{ borderBottom: '2px solid #E5E7EB', backgroundColor: '#F9FAFB' }}>
               {['Feature', 'Foundry (OOTB)', 'Bespoke', 'Equity', 'Active Management'].map((col, i) => (
-                <div key={i} style={{ padding: '14px 16px', fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '13px', color: i === 1 ? '#14A44D' : '#14358A', backgroundColor: i === 1 ? '#EEF1F8' : 'transparent', borderLeft: i > 0 ? '1px solid #E0E0E0' : 'none', textAlign: 'center' }}>
+                <div key={i} style={{ padding: '20px 24px', fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '16px', color: '#14358A', borderLeft: i > 0 ? '2px solid #E5E7EB' : 'none', textAlign: i === 0 ? 'left' : 'center' }}>
                   {col}
                 </div>
               ))}
@@ -370,10 +408,10 @@ export default function OutOfTheBoxSolutions() {
               { feature: 'Risk/Effort', foundry: 'High (on you)', bespoke: 'Low (on us)', equity: 'Low (on us)', active: 'Low (on us)' },
               { feature: 'Best For', foundry: 'Quick fixes, common challenges', bespoke: 'Complex, unique problems', equity: 'Capital-constrained growth', active: 'Leadership gaps, execution needs' },
             ].map((row, ri) => (
-              <div key={ri} className="grid grid-cols-5" style={{ borderBottom: ri < 5 ? '1px solid #E0E0E0' : 'none' }}>
-                <div style={{ padding: '14px 16px', fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '13px', color: '#14358A' }}>{row.feature}</div>
+              <div key={ri} className="grid grid-cols-5" style={{ borderBottom: ri < 5 ? '1px solid #E5E7EB' : 'none', backgroundColor: '#FFFFFF' }}>
+                <div style={{ padding: '20px 24px', fontFamily: 'DM Sans, sans-serif', fontWeight: 600, fontSize: '15px', color: '#14358A', borderRight: '2px solid #E5E7EB' }}>{row.feature}</div>
                 {[row.foundry, row.bespoke, row.equity, row.active].map((val, ci) => (
-                  <div key={ci} style={{ padding: '14px 16px', fontFamily: 'Montserrat, sans-serif', fontWeight: ci === 0 ? 600 : 400, fontSize: '13px', color: ci === 0 ? '#14A44D' : '#333333', backgroundColor: ci === 0 ? '#EEF1F8' : 'transparent', borderLeft: '1px solid #E0E0E0', textAlign: 'center' }}>
+                  <div key={ci} style={{ padding: '20px 24px', fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '15px', color: '#4B5563', borderLeft: ci > 0 ? '1px solid #E5E7EB' : 'none', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     {val}
                   </div>
                 ))}
@@ -382,10 +420,10 @@ export default function OutOfTheBoxSolutions() {
           </div>
 
           <div className="flex flex-col items-center gap-3">
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '14px', color: '#555555', fontStyle: 'italic' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '15px', color: '#6B7280', fontStyle: 'italic' }}>
               Still unsure? Get a personalised recommendation.
             </p>
-            <a href="/contact-us" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '14px', color: '#14358A', textDecoration: 'underline', display: 'flex', alignItems: 'center', gap: '4px' }}>
+            <a href="/contact-us" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '15px', color: '#14358A', textDecoration: 'underline', display: 'flex', alignItems: 'center', gap: '4px' }}>
               Use our Solutions Assessment Tool →
             </a>
           </div>
@@ -435,7 +473,7 @@ export default function OutOfTheBoxSolutions() {
       </section>
 
       {/* ─── Section 7: Ready to Elevate Your Business? ─── */}
-      <section className="w-full bg-white py-16 px-6">
+      <section className="w-full py-16 px-6" style={{ background: '#EBF7FF' }}>
         <div className="max-w-[700px] mx-auto flex flex-col items-center text-center">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '18px' }}>
             Ready to Elevate Your Business?

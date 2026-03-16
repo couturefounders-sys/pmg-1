@@ -198,120 +198,62 @@ export default function EquitySolutions() {
           </div>
 
           {/* Timeline */}
-          <div className="relative flex flex-col" style={{ gap: '0' }}>
+          <div className="relative max-w-5xl mx-auto">
+            {/* Center Line */}
+            <div className="absolute left-1/2 top-0 bottom-0 w-[4px] bg-[#006FBA] transform -translate-x-1/2 rounded-full"></div>
 
-            {/* Vertical line */}
-            <div
-              style={{
-                position: 'absolute',
-                left: '50%',
-                top: '24px',
-                bottom: '24px',
-                width: '2px',
-                backgroundColor: '#006FBA',
-                transform: 'translateX(-50%)',
-                zIndex: 0,
-              }}
-            />
+            {/* Timeline Items */}
+            <div className="relative z-10 space-y-24">
+              {[
+                { title: "Eligibility & Fit Assessment", text: "We begin with a comprehensive review of your company's stage, market potential, team, and specific challenges to ensure a strong mutual fit." },
+                { title: "Define Scope & Negotiate Terms", text: "We clearly define the scope of support PMG will provide and negotiate the equity agreement, aligning our investment of expertise with the potential value we help create." },
+                { title: "Execute the Consulting Engagement", text: "We seamlessly integrate our standard, results-oriented four-phase consulting model to address the agreed-upon scope and achieve the defined objectives." },
+                { title: "Ongoing Advisory & Support (Optional)", text: "Following the initial engagement, we can provide ongoing strategic advisory or fractional support to nurture the long-term partnership." }
+              ].map((item, index) => (
+                <div key={index} className={`flex items-center w-full ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
+                  {/* Content Box */}
+                  <div className={`w-1/2 ${index % 2 === 0 ? 'pr-16 text-right' : 'pl-16 text-left'} relative`}>
+                    {/* Shadow/Offset Box */}
+                    <div
+                      className={`absolute ${index % 2 === 0 ? 'right-[50px] top-[8px]' : 'left-[50px] top-[8px]'} w-full max-w-[412px] h-full`}
+                      style={{
+                        border: '3px solid #006FBA',
+                        borderRadius: '16px',
+                        zIndex: 0
+                      }}
+                    ></div>
 
-            {[
-              {
-                side: 'left',
-                title: 'Eligibility & Fit Assessment',
-                desc: 'We begin with a comprehensive review of your company\'s stage, market potential, team, and specific challenges to ensure a strong mutual fit.',
-              },
-              {
-                side: 'right',
-                title: 'Define Scope & Negotiate Terms',
-                desc: 'We clearly define the scope of support PMG will provide and negotiate the equity agreement, aligning our investment of expertise with the potential value we help create.',
-              },
-              {
-                side: 'left',
-                title: 'Execute the Consulting Engagement',
-                desc: 'We seamlessly integrate our standard, results-oriented four-phase consulting model to address the agreed-upon scope and achieve the defined objectives.',
-              },
-              {
-                side: 'right',
-                title: 'Ongoing Advisory & Support (Optional)',
-                desc: 'Following the initial engagement, we can provide ongoing strategic advisory or fractional support to nurture the long-term partnership.',
-              },
-            ].map((item, idx) => (
-              <div
-                key={idx}
-                className="relative flex items-center"
-                style={{
-                  marginBottom: idx < 3 ? '48px' : '0',
-                  justifyContent: item.side === 'left' ? 'flex-start' : 'flex-end',
-                }}
-              >
-                {/* Card — Vector 148 design */}
-                <div
-                  style={{
-                    width: '42%',
-                    minWidth: '227px',
-                    minHeight: '184px',
-                    border: '3px solid #006FBA',
-                    borderRadius: '16px',
-                    padding: '20px 24px',
-                    backgroundColor: '#FFFFFF',
-                    position: 'relative',
-                  }}
-                >
-                  <h3
-                    style={{
-                      fontFamily: 'DM Sans, sans-serif',
-                      fontWeight: 700,
-                      fontSize: '24px',
-                      lineHeight: '130%',
-                      color: '#006FBA',
-                      marginBottom: '10px',
-                    }}
-                  >
-                    {item.title}
-                  </h3>
-                  <p
-                    style={{
-                      fontFamily: 'DM Sans, sans-serif',
-                      fontWeight: 400,
-                      fontSize: '15px',
-                      lineHeight: '160%',
-                      color: '#333333',
-                    }}
-                  >
-                    {item.desc}
-                  </p>
+                    {/* Main Card */}
+                    <div
+                      className="inline-block w-full max-w-[412px] p-6 relative bg-white"
+                      style={{
+                        background: 'linear-gradient(#fff, #fff) padding-box, linear-gradient(270.31deg, #14358A 0.32%, #006FBA 97.73%) border-box',
+                        border: '3px solid transparent',
+                        borderRadius: '16px',
+                        zIndex: 1,
+                        position: 'relative'
+                      }}
+                    >
+                      <h4 className="text-[#14358A] font-bold font-dm-sans text-[24px] mb-3">{item.title}</h4>
+                      <p className="font-dm-sans font-normal text-[16px] leading-[140%] text-[#68718B]">{item.text}</p>
+                    </div>
+                    {/* Dotted Connector */}
+                    <div
+                      className={`absolute top-1/2 -translate-y-1/2 border-t-2 border-dotted border-[#006FBA] w-12 ${index % 2 === 0 ? 'right-4' : 'left-4'}`}
+                      style={{ zIndex: 2 }}
+                    ></div>
+                  </div>
 
-                  {/* Dashed connector line from card to dot */}
-                  <div
-                    style={{
-                      position: 'absolute',
-                      top: '50%',
-                      [item.side === 'left' ? 'right' : 'left']: '-16%',
-                      width: '16%',
-                      height: '2px',
-                      borderTop: '2px dashed #006FBA',
-                      transform: 'translateY(-50%)',
-                    }}
-                  />
+                  {/* Center Dot */}
+                  <div className="absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-[#006FBA] border-4 border-white shadow-sm z-20"></div>
+
+                  {/* Empty Space for Balance */}
+                  <div className="w-1/2"></div>
                 </div>
-
-                {/* Centre dot on the timeline */}
-                <div
-                  style={{
-                    position: 'absolute',
-                    left: '50%',
-                    transform: 'translateX(-50%)',
-                    width: '18px',
-                    height: '18px',
-                    borderRadius: '50%',
-                    backgroundColor: '#006FBA',
-                    zIndex: 2,
-                    flexShrink: 0,
-                  }}
-                />
-              </div>
-            ))}
-
+              ))}
+            </div>
+            {/* End Cap */}
+            <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 w-[4px] h-12 bg-[#006FBA]"></div>
           </div>
         </div>
       </section>
@@ -389,7 +331,7 @@ export default function EquitySolutions() {
                       flexShrink: 0,
                     }}
                   >
-                    <Image src="/equity-icon-13.png" alt={card.title} width={24} height={24} style={{ objectFit: 'contain' }} />
+                    <Image src="/equity-icon-13.png" alt={card.title} width={36} height={36} style={{ objectFit: 'contain' }} />
                   </div>
                   <h3
                     style={{
@@ -460,7 +402,7 @@ export default function EquitySolutions() {
                       flexShrink: 0,
                     }}
                   >
-                    <Image src="/equity-icon-13.png" alt={card.title} width={24} height={24} style={{ objectFit: 'contain' }} />
+                    <Image src="/equity-icon-13.png" alt={card.title} width={36} height={36} style={{ objectFit: 'contain' }} />
                   </div>
                   <h3
                     style={{
@@ -493,62 +435,37 @@ export default function EquitySolutions() {
         </div>
       </section>
 
-      {/* ─── Section 5: Gradient content section ─── */}
+      {/* ─── Section 5: What We Don't Do (with Not Sure Where to Start design) ─── */}
       <section
-        className="w-full relative overflow-hidden py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8"
+        className="relative z-10 w-full overflow-hidden"
         style={{
-          background: 'linear-gradient(135deg, #1B45B4 0%, #1C2792 100%)',
-          backgroundAttachment: 'fixed',
+          backgroundImage: 'url(/bg-not-sure.png)',
           backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
         }}
       >
-        {/* Decorative shapes — fill background, no gaps */}
-        {/* Top Right */}
-        <div className="absolute pointer-events-none" style={{ width: 'min(300px, 20vw)', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(220px, 15vw)', height: '55px', right: '5%', top: '12%', background: '#0097FE', opacity: 0.75, transform: 'rotate(12deg)', transformOrigin: 'center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(180px, 12vw)', height: '50px', right: '25%', top: '8%', background: '#0097FE', opacity: 0.5, transform: 'rotate(-8deg)', transformOrigin: 'center' }} />
-        {/* Top Left */}
-        <div className="absolute pointer-events-none" style={{ width: 'min(315px, 22vw)', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(200px, 14vw)', height: '65px', left: '8%', top: '18%', background: 'transparent', border: '1px solid rgba(102,193,255,0.65)', transform: 'rotate(-8deg)', transformOrigin: 'center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(160px, 11vw)', height: '50px', left: '22%', top: '25%', background: 'transparent', border: '1px solid rgba(102,193,255,0.45)', transform: 'rotate(5deg)', transformOrigin: 'center' }} />
-        {/* Center — behind title area */}
-        <div className="absolute pointer-events-none" style={{ width: 'min(320px, 22vw)', height: '80px', left: '30%', top: '35%', background: '#0097FE', opacity: 0.4, transform: 'rotate(-5deg)', transformOrigin: 'center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(280px, 19vw)', height: '65px', right: '28%', top: '42%', background: 'transparent', border: '1px solid rgba(102,193,255,0.4)', transform: 'rotate(8deg)', transformOrigin: 'center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(200px, 14vw)', height: '55px', left: '45%', top: '55%', background: '#0097FE', opacity: 0.3, transform: 'rotate(-12deg)', transformOrigin: 'center' }} />
-        {/* Bottom Left */}
-        <div className="absolute pointer-events-none" style={{ width: 'min(300px, 20vw)', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(240px, 16vw)', height: '60px', left: '3%', bottom: '22%', background: '#1C2792', opacity: 0.55, transform: 'rotate(10deg)', transformOrigin: 'center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(190px, 13vw)', height: '50px', left: '18%', bottom: '12%', background: '#0097FE', opacity: 0.4, transform: 'rotate(-6deg)', transformOrigin: 'center' }} />
-        {/* Bottom Right */}
-        <div className="absolute pointer-events-none" style={{ width: 'min(280px, 18vw)', height: '65px', right: '-15px', bottom: '30px', background: '#0097FE', opacity: 0.6, transform: 'rotate(15deg)', transformOrigin: 'right center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(220px, 15vw)', height: '55px', right: '12%', bottom: '18%', background: '#0097FE', opacity: 0.5, transform: 'rotate(-10deg)', transformOrigin: 'center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(260px, 17vw)', height: '60px', right: '5%', bottom: '8%', background: '#0097FE', opacity: 0.45, transform: 'rotate(6deg)', transformOrigin: 'center' }} />
-        <div className="w-full max-w-[1200px] mx-auto flex flex-col items-center gap-8 sm:gap-10 md:gap-12">
-
-          {/* Main design image */}
-          <div className="w-full flex justify-center px-0 sm:px-4">
-            <Image
-              src="/equity-ccc.png"
-              alt="Equity Solutions"
-              width={1200}
-              height={693}
-              className="w-full h-auto"
-              style={{ maxWidth: '100%', objectFit: 'contain' }}
-            />
-          </div>
-
-          {/* What We Don't Do — responsive for all desktop sizes */}
-          <div className="w-full flex flex-col items-center gap-6 sm:gap-8 px-2 sm:px-4">
+        {/* Decorative Rectangle - Top Right */}
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
+        {/* Decorative Rectangle - Bottom Left */}
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+        {/* Decorative Border Rectangle - Top Left */}
+        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+        
+        <div className="mx-auto text-center relative z-10" style={{ padding: '80px 24px' }}>
+          {/* What We Don't Do */}
+          <div className="w-full flex flex-col items-center gap-6">
             <h2
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 4vw, 48px)',
+                fontSize: '48px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 textAlign: 'center',
                 color: '#FFFFFF',
                 margin: 0,
+                marginBottom: '24px',
               }}
             >
               What We Don&apos;t Do
@@ -557,13 +474,13 @@ export default function EquitySolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(18px, 2.2vw, 29px)',
-                lineHeight: 1.05,
+                fontSize: '29px',
+                lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 textAlign: 'center',
                 color: '#FFFFFF',
-                maxWidth: 'min(947px, 90vw)',
                 margin: 0,
+                marginBottom: '32px',
               }}
             >
               Clarity is key. To ensure our partnerships are built on mutual understanding,
@@ -572,18 +489,36 @@ export default function EquitySolutions() {
             </p>
             <div
               style={{
-                width: '100%',
-                maxWidth: 'min(643px, 92vw)',
+                position: 'relative',
+                width: '643px',
+                maxWidth: '100%',
+                height: 'auto',
                 minHeight: '263px',
                 borderRadius: '10px',
-                padding: 'clamp(20px, 2.5vw, 24px)',
-                background: '#FFFFFF',
+                padding: '40px',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: 'clamp(32px, 4vw, 48px)',
+                justifyContent: 'space-between',
                 boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
+                overflow: 'hidden',
               }}
             >
+              {/* red.png background */}
+              <div
+                style={{
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  backgroundImage: 'url(/red.png)',
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  borderRadius: '10px',
+                  zIndex: 0,
+                }}
+              />
+              <div style={{ position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', gap: '20px' }}>
               {[
                 'We don\'t provide cash investment (we provide expertise)',
                 'We don\'t take controlling stakes (typically 2-15% equity)',
@@ -602,8 +537,8 @@ export default function EquitySolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 400,
-                      fontSize: 'clamp(16px, 1.5vw, 20px)',
-                      lineHeight: 1.4,
+                      fontSize: '20px',
+                      lineHeight: '140%',
                       letterSpacing: '0%',
                       color: '#FF3B44',
                     }}
@@ -612,6 +547,7 @@ export default function EquitySolutions() {
                   </span>
                 </div>
               ))}
+              </div>
             </div>
           </div>
 
@@ -630,79 +566,158 @@ export default function EquitySolutions() {
             </p>
           </div>
 
-          {/* Row 1: 2 cards */}
-          <div className="flex justify-center gap-6 mb-6">
-            {[
-              {
-                bg: '/equity-c2.png',
-                title: 'Maximum Alignment',
-                desc: "When our success depends on yours, we're 100% focused on delivering exceptional results.",
-              },
-              {
-                bg: '/equity-com.png',
-                title: 'Access to Exceptional Companies',
-                desc: 'Equity allows us to partner with innovative companies that have potential but limited cash.',
-              },
-            ].map((card, i) => (
+          {/* Cards with blue tab design */}
+          <div className="flex flex-wrap justify-center gap-8">
+            {/* Card 1 - Maximum Alignment */}
+            <div
+              className="relative flex items-stretch"
+              style={{ width: '540px' }}
+            >
+              {/* Blue Tab */}
               <div
-                key={i}
                 style={{
-                  width: '340px',
-                  minHeight: '200px',
-                  borderRadius: '10px',
-                  backgroundImage: `url(${card.bg})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                  padding: '28px 24px',
+                  position: 'absolute',
+                  left: '-16px',
+                  top: '-4px',
+                  width: '144px',
+                  height: '153px',
+                  background: '#14358A',
+                  borderRadius: '13px 0 0 13px',
+                  clipPath: 'polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%)',
                   display: 'flex',
-                  flexDirection: 'column',
-                  gap: '12px',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  paddingRight: '20px',
+                  zIndex: 1,
                 }}
               >
-                <div className="flex items-center gap-4 mb-2">
-                  <div style={{ width: '52px', height: '52px', borderRadius: '10px', backgroundColor: '#14358A', flexShrink: 0 }} />
-                  <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '29px', color: '#14358A', margin: 0 }}>{card.title}</h3>
-                </div>
-                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '15px', lineHeight: '160%', color: '#333333' }}>{card.desc}</p>
+                <img src="/icon-palette.png" alt="Maximum Alignment" style={{ width: '64px', height: '64px' }} />
               </div>
-            ))}
-          </div>
 
-          {/* Row 2: 1 centered card */}
-          <div className="flex justify-center">
-            <div
-              style={{
-                width: '340px',
-                minHeight: '200px',
-                borderRadius: '10px',
-                backgroundImage: 'url(/equity-c4.png)',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                padding: '28px 24px',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '12px',
-              }}
-            >
-              <div className="flex items-center gap-4 mb-2">
-                <div style={{ width: '52px', height: '52px', borderRadius: '10px', backgroundColor: '#14358A', flexShrink: 0 }} />
-                <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '29px', color: '#14358A', margin: 0 }}>Proven Returns</h3>
+              {/* Card Content */}
+              <div
+                className="depth-card"
+                style={{
+                  border: '1px solid #99A1AF',
+                  borderRadius: '13.06px',
+                  padding: '24px 24px 24px 140px',
+                  width: '100%',
+                  minHeight: '153px',
+                }}
+              >
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '18px', lineHeight: '24px', color: '#000000', marginBottom: '8px' }}>
+                  Maximum Alignment
+                </h3>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '24px', color: '#5F5F5F' }}>
+                  When our success depends on yours, we're 100% focused on delivering exceptional results.
+                </p>
               </div>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '15px', lineHeight: '160%', color: '#333333' }}>Our equity partnerships consistently outperform traditional consulting engagements in long-term value creation.</p>
+            </div>
+
+            {/* Card 2 - Access to Exceptional Companies */}
+            <div
+              className="relative flex items-stretch"
+              style={{ width: '540px' }}
+            >
+              {/* Blue Tab */}
+              <div
+                style={{
+                  position: 'absolute',
+                  left: '-16px',
+                  top: '-4px',
+                  width: '144px',
+                  height: '153px',
+                  background: '#14358A',
+                  borderRadius: '13px 0 0 13px',
+                  clipPath: 'polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  paddingRight: '20px',
+                  zIndex: 1,
+                }}
+              >
+                <img src="/icon-users-four.png" alt="Access to Exceptional Companies" style={{ width: '64px', height: '64px' }} />
+              </div>
+
+              {/* Card Content */}
+              <div
+                className="depth-card"
+                style={{
+                  border: '1px solid #99A1AF',
+                  borderRadius: '13.06px',
+                  padding: '24px 24px 24px 140px',
+                  width: '100%',
+                  minHeight: '153px',
+                }}
+              >
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '18px', lineHeight: '24px', color: '#000000', marginBottom: '8px' }}>
+                  Access to Exceptional Companies
+                </h3>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '24px', color: '#5F5F5F' }}>
+                  Equity allows us to partner with innovative companies that have potential but limited cash.
+                </p>
+              </div>
+            </div>
+
+            {/* Card 3 - Proven Returns */}
+            <div
+              className="relative flex items-stretch"
+              style={{ width: '540px' }}
+            >
+              {/* Blue Tab */}
+              <div
+                style={{
+                  position: 'absolute',
+                  left: '-16px',
+                  top: '-4px',
+                  width: '144px',
+                  height: '153px',
+                  background: '#14358A',
+                  borderRadius: '13px 0 0 13px',
+                  clipPath: 'polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  paddingRight: '20px',
+                  zIndex: 1,
+                }}
+              >
+                <img src="/icon-handshake.png" alt="Proven Returns" style={{ width: '64px', height: '64px' }} />
+              </div>
+
+              {/* Card Content */}
+              <div
+                className="depth-card"
+                style={{
+                  border: '1px solid #99A1AF',
+                  borderRadius: '13.06px',
+                  padding: '24px 24px 24px 140px',
+                  width: '100%',
+                  minHeight: '153px',
+                }}
+              >
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '18px', lineHeight: '24px', color: '#000000', marginBottom: '8px' }}>
+                  Proven Returns
+                </h3>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '24px', color: '#5F5F5F' }}>
+                  Our equity partnerships consistently outperform traditional consulting engagements in long-term value creation.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* ─── Section 7: Proven Partnerships, Measurable Impact ─── */}
-      <section className="w-full py-20 px-6" style={{ background: '#F8FAFC' }}>
+      <section className="w-full py-14 lg:py-20 px-4 sm:px-6" style={{ background: '#FFFFFF' }}>
         <div className="max-w-[1000px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '48px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 48px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(32px, 3.33vw, 48px)' }}>
             Proven Partnerships, Measurable Impact
           </h2>
 
           {/* 2 stat boxes */}
-          <div className="flex flex-wrap justify-center gap-6 mb-10 w-full">
+          <div className="flex flex-wrap justify-center gap-4 lg:gap-6 mb-8 lg:mb-10 w-full">
             {[
               { stat: '$3,000,000+', label: 'In Consulting Fees Saved for Our Partners' },
               { stat: '12+', label: 'Expertise-for-Equity Partnerships Established' },
@@ -710,26 +725,26 @@ export default function EquitySolutions() {
               <div
                 key={i}
                 style={{
-                  border: '3px solid #14358A',
+                  border: '1px solid #99A1AF',
                   borderRadius: '10px',
-                  padding: '32px 40px',
+                  padding: 'clamp(20px, 2.22vw, 32px) clamp(24px, 2.78vw, 40px)',
                   minWidth: '280px',
                   flex: '1',
                   maxWidth: '380px',
                   textAlign: 'left',
                 }}
               >
-                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '42px', color: '#14358A', marginBottom: '8px' }}>{item.stat}</p>
-                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', color: '#333333', lineHeight: '150%' }}>{item.label}</p>
+                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(32px, 2.92vw, 42px)', color: '#14358A', marginBottom: '8px' }}>{item.stat}</p>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.11vw, 16px)', color: '#000000', lineHeight: '150%' }}>{item.label}</p>
               </div>
             ))}
           </div>
 
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '16px', color: '#14358A', marginBottom: '8px' }}>
+          <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.74vw, 25px)', lineHeight: '24px', letterSpacing: '0%', color: '#000000', marginBottom: '8px' }}>
             Our partnerships span across North America, including:
           </p>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '16px', color: '#333333' }}>
-            British Columbia &nbsp;·&nbsp; Ontario &nbsp;·&nbsp; Nova Scotia &nbsp;·&nbsp; California &nbsp;·&nbsp; Texas &nbsp;·&nbsp; New York
+          <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(20px, 2.08vw, 30px)', lineHeight: '24px', letterSpacing: '0%', color: '#000000' }}>
+            British Columbia · Ontario · Nova Scotia · California · Texas · New York
           </p>
         </div>
       </section>
@@ -750,14 +765,17 @@ export default function EquitySolutions() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
             {[
               {
+                icon: '/bcdimspx.png',
                 title: 'Transparent Success Metrics',
                 desc: 'We begin by aligning on the 2–3 key drivers of valuation that our work will directly impact. Whether it\'s scaling ARR, achieving product-led growth milestones, or executing an operational turnaround to improve EBITDA margins, we define success in the language of your next funding round or exit.',
               },
               {
+                icon: '/c_dk_ml.png',
                 title: 'Governance & Transparent Stewardship',
                 desc: 'Our involvement is designed for clarity, not control. We establish clear, lightweight governance—often through an Advisory Board—where you retain clear rights—to provide oversight and insight. You receive direct access to the same operational dashboards (built on our PMG and <12 framework) that we use to track progress.',
               },
               {
+                icon: '/c_djckd.png',
                 title: 'Exit-Readiness Reviews',
                 desc: "Quarterly, we conduct an 'Exit-Readiness Audit.' This isn't just a project update. It's a disciplined review of the company's health against the criteria of potential acquirors or Series B+ investors. We identify gaps in documentation, operational metrics, or financial storytelling, and work proactively to close them. Our goal is to ensure the company is always positioned for a successful liquidity event.",
               },
@@ -775,7 +793,26 @@ export default function EquitySolutions() {
                 }}
               >
                 <div className="flex items-center gap-4 mb-2">
-                  <div style={{ width: '48px', height: '48px', borderRadius: '8px', backgroundColor: '#14358A', flexShrink: 0 }} />
+                  <div
+                    style={{
+                      width: '52px',
+                      height: '52px',
+                      borderRadius: '12px',
+                      backgroundColor: '#14358A',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      flexShrink: 0,
+                    }}
+                  >
+                    <Image
+                      src={card.icon}
+                      alt={card.title}
+                      width={24}
+                      height={24}
+                      style={{ objectFit: 'contain' }}
+                    />
+                  </div>
                   <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '29px', color: '#14358A', margin: 0 }}>{card.title}</h3>
                 </div>
                 <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '15px', lineHeight: '160%', color: '#333333' }}>{card.desc}</p>
@@ -790,484 +827,237 @@ export default function EquitySolutions() {
       </section>
 
       {/* ─── Section 9: How We Compare ─── */}
-      <section className="w-full py-20 px-6" style={{ background: '#F8FAFC' }}>
-        <div className="max-w-[1000px] mx-auto">
-          <div className="flex flex-col items-center text-center mb-12">
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '14px' }}>
+      <section className="w-full py-14 lg:py-20 px-4 sm:px-6" style={{ background: '#FFFFFF' }}>
+        <div className="max-w-[1200px] mx-auto">
+          {/* Icon and Heading */}
+          <div className="flex flex-col items-center text-center mb-10 lg:mb-12">
+            {/* Icon */}
+            <div style={{ marginBottom: 'clamp(16px, 1.67vw, 24px)' }}>
+              <img src="/equity-icon-compare.png" alt="Compare" style={{ width: 'clamp(60px, 5.56vw, 80px)', height: 'clamp(60px, 5.56vw, 80px)' }} />
+            </div>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 48px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(16px, 1.67vw, 24px)' }}>
               How We Compare
             </h2>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '18px', lineHeight: '1.75', color: '#333333', maxWidth: '600px', textAlign: 'center' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.25vw, 18px)', lineHeight: '1.75', color: '#333333', maxWidth: '900px', textAlign: 'center' }}>
               PMG&apos;s Equity model offers a unique alternative to traditional funding routes, focused on hands-on expertise instead of just capital.
             </p>
           </div>
 
-          {/* Comparison table */}
-          <div style={{ border: '1.5px solid #E0E0E0', borderRadius: '14px', overflow: 'hidden' }}>
-            {/* Header row */}
-            <div className="grid grid-cols-4" style={{ borderBottom: '1.5px solid #E0E0E0' }}>
-              <div style={{ padding: '18px 20px', fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '15px', color: '#333' }} />
-              {['PMG Equity Solutions', 'Traditional VC', 'Traditional Consulting'].map((col, i) => (
-                <div
-                  key={i}
-                  style={{
-                    padding: '18px 20px',
-                    fontFamily: 'DM Sans, sans-serif',
-                    fontWeight: 700,
-                    fontSize: '15px',
-                    color: i === 0 ? '#14A44D' : '#333333',
-                    backgroundColor: i === 0 ? '#EEF1F8' : 'transparent',
-                    borderLeft: i === 0 ? '2px solid #14A44D' : '1px solid #E0E0E0',
-                    textAlign: 'center',
-                  }}
-                >
-                  {col}
-                </div>
-              ))}
-            </div>
-
-            {[
-              {
-                label: 'Capital',
-                pmg: 'Capital Preserved',
-                vc: '$ Cash',
-                tc: '$ Capital & Salary',
-              },
-              {
-                label: 'Expertise',
-                pmg: 'Full PMG team',
-                vc: 'Limited (board only)',
-                tc: 'Fractional / limited',
-              },
-              {
-                label: 'Alignment',
-                pmg: 'Complete (equity)',
-                vc: 'Partial (equity)',
-                tc: 'Project-based',
-              },
-              {
-                label: 'Speed',
-                pmg: 'Immediate',
-                vc: '3–6 months',
-                tc: 'Immediate',
-              },
-              {
-                label: 'Cost',
-                pmg: 'Equity only',
-                vc: 'Equity + dilution',
-                tc: 'Cash ($200k/m)',
-              },
-            ].map((row, ri) => (
-              <div
-                key={ri}
-                className="grid grid-cols-4"
-                style={{ borderBottom: ri < 4 ? '1px solid #E0E0E0' : 'none' }}
-              >
-                <div style={{ padding: '16px 20px', fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '14px', color: '#14358A' }}>{row.label}</div>
-                {[row.pmg, row.vc, row.tc].map((val, ci) => (
-                  <div
-                    key={ci}
-                    style={{
-                      padding: '16px 20px',
-                      fontFamily: 'Montserrat, sans-serif',
-                      fontWeight: ci === 0 ? 600 : 400,
-                      fontSize: '14px',
-                      color: ci === 0 ? '#14A44D' : '#333333',
-                      backgroundColor: ci === 0 ? '#EEF1F8' : 'transparent',
-                      borderLeft: ci === 0 ? '2px solid #14A44D' : '1px solid #E0E0E0',
-                      textAlign: 'center',
-                    }}
-                  >
-                    {val}
-                  </div>
-                ))}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ─── Our Projects Section ─── */}
-      <section
-        className="relative w-full py-24 px-6"
-        style={{
-          background: 'linear-gradient(135deg, #1B45B4 0%, #0D1A7A 100%)',
-          minHeight: '852px'
-        }}
-      >
-        <div className="max-w-[1300px] mx-auto relative z-10">
-          {/* Section Title */}
-          <h2
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontWeight: 700,
-              fontSize: '48px',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em',
-              color: '#FFFFFF',
-              textAlign: 'center',
-              marginBottom: '64px',
-            }}
-          >
-            Our Projects
-          </h2>
-
-          {/* Project Cards Grid */}
-          <div
-            className="flex justify-center flex-wrap"
-            style={{ gap: '64px' }}
-          >
-            {/* Card 1: Trilogy Software */}
+          {/* Comparison Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* PMG Equity Solutions Card - Green border */}
             <div
-              className="bg-white relative overflow-hidden"
               style={{
-                width: '381px',
-                minHeight: '378px',
-                borderRadius: '10px',
-                border: '1px solid #E0E7EF',
-                padding: '24px',
+                border: '2px solid #4CAF50',
+                borderRadius: '16px',
+                padding: '32px 24px',
+                backgroundColor: '#FFFFFF',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '48px'
+                gap: '24px',
               }}
             >
-              {/* Pattern Overlay */}
-              <div
-                className="absolute top-0 left-0"
-                style={{
-                  width: '375px',
-                  height: '240px',
-                  background: '#EBF7FF',
-                  clipPath: 'polygon(0 0, 100% 0, 100% 40%, 0 100%)',
-                  zIndex: 0
-                }}
-              />
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', color: '#4CAF50', textAlign: 'center', marginBottom: '8px' }}>
+                PMG Equity Solutions
+              </h3>
 
-              {/* Content */}
-              <div className="relative z-10 flex flex-col" style={{ gap: '24px' }}>
-                <h3
-                  className="font-dm-sans font-bold text-center"
-                  style={{
-                    fontSize: '30px',
-                    lineHeight: '1.1',
-                    letterSpacing: '-0.9px',
-                    color: '#006FBA'
-                  }}
-                >
-                  Trilogy Software
-                </h3>
-
-                {/* Stats */}
-                <div className="flex flex-col" style={{ gap: '20px' }}>
-                  <div>
-                    <div className="flex items-center" style={{ gap: '8px' }}>
-                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
-                        <circle cx="14" cy="14" r="6" stroke="#006FBA" strokeWidth="2"/>
-                        <path d="M14 11V17M12 14.5H16" stroke="#006FBA" strokeWidth="2" strokeLinecap="round"/>
-                      </svg>
-                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
-                        $8M
-                      </p>
-                    </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
-                      in annual support costs saved
-                    </p>
-                  </div>
-
-                  <div>
-                    <div className="flex items-center" style={{ gap: '8px' }}>
-                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
-                        <path d="M8 18L12 13L16 15L20 10" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                        <path d="M17 10H20V13" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
-                        16%
-                      </p>
-                    </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
-                      increase in Customer Satisfaction
-                    </p>
-                  </div>
-
-                  <div>
-                    <div className="flex items-center" style={{ gap: '8px' }}>
-                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
-                        <rect x="6" y="10" width="16" height="10" rx="1" stroke="#006FBA" strokeWidth="2"/>
-                        <circle cx="11" cy="15" r="2" stroke="#006FBA" strokeWidth="1.5"/>
-                        <path d="M17 20L15 17L13 19" stroke="#006FBA" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
-                        77x
-                      </p>
-                    </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
-                      Return on Investment
-                    </p>
-                  </div>
+              {/* Capital */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                  <Image src="/capital.png" alt="Capital" width={20} height={20} style={{ objectFit: 'contain' }} />
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', color: '#666666', margin: 0 }}>Capital</p>
                 </div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '16px', color: '#4CAF50', margin: 0, paddingLeft: '28px' }}>
+                  Preserved
+                </p>
               </div>
 
-              {/* Learn More Button */}
-              <div className="mt-auto mx-auto relative z-10">
-                <button
-                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
-                  style={{
-                    width: '157px',
-                    height: '60px',
-                    borderRadius: '10px',
-                    padding: '16px 32px',
-                    background: 'linear-gradient(137.73deg, #6A36FF 15.76%, #AC5FE6 102.86%)',
-                    fontSize: '20px',
-                    lineHeight: '1.4',
-                    border: 'none',
-                    cursor: 'pointer',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    gap: '4px',
-                    whiteSpace: 'nowrap'
-                  }}
-                >
-                  Learn More
-                </button>
+              {/* Expertise */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                  <Image src="/expertise.png" alt="Expertise" width={20} height={20} style={{ objectFit: 'contain' }} />
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', color: '#666666', margin: 0 }}>Expertise</p>
+                </div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '16px', color: '#4CAF50', margin: 0, paddingLeft: '28px' }}>
+                  Full PMG team
+                </p>
+              </div>
+
+              {/* Alignment */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                  <Image src="/alignmenyt.png" alt="Alignment" width={20} height={20} style={{ objectFit: 'contain' }} />
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', color: '#666666', margin: 0 }}>Alignment</p>
+                </div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '16px', color: '#4CAF50', margin: 0, paddingLeft: '28px' }}>
+                  Complete (equity)
+                </p>
+              </div>
+
+              {/* Speed */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                  <Image src="/speed.png" alt="Speed" width={20} height={20} style={{ objectFit: 'contain' }} />
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', color: '#666666', margin: 0 }}>Speed</p>
+                </div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '16px', color: '#4CAF50', margin: 0, paddingLeft: '28px' }}>
+                  Immediate
+                </p>
+              </div>
+
+              {/* Cost */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                  <Image src="/cost.png" alt="Cost" width={20} height={20} style={{ objectFit: 'contain' }} />
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', color: '#666666', margin: 0 }}>Cost</p>
+                </div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '16px', color: '#4CAF50', margin: 0, paddingLeft: '28px' }}>
+                  Equity only
+                </p>
               </div>
             </div>
 
-            {/* Card 2: Kraken */}
+            {/* Traditional VC Card - Gray border */}
             <div
-              className="bg-white relative overflow-hidden"
               style={{
-                width: '381px',
-                minHeight: '378px',
-                borderRadius: '10px',
-                border: '1px solid #E0E7EF',
-                padding: '24px',
+                border: '1px solid #E0E0E0',
+                borderRadius: '16px',
+                padding: '32px 24px',
+                backgroundColor: '#FFFFFF',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '48px'
+                gap: '24px',
               }}
             >
-              {/* Pattern Overlay */}
-              <div
-                className="absolute top-0 left-0"
-                style={{
-                  width: '375px',
-                  height: '240px',
-                  background: '#EBF7FF',
-                  clipPath: 'polygon(0 0, 100% 0, 100% 40%, 0 100%)',
-                  zIndex: 0
-                }}
-              />
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', color: '#333333', textAlign: 'center', marginBottom: '8px' }}>
+                Traditional VC
+              </h3>
 
-              {/* Content */}
-              <div className="relative z-10 flex flex-col" style={{ gap: '24px' }}>
-                <h3
-                  className="font-dm-sans font-bold text-center"
-                  style={{
-                    fontSize: '30px',
-                    lineHeight: '1.1',
-                    letterSpacing: '-0.9px',
-                    color: '#006FBA'
-                  }}
-                >
-                  Kraken
-                </h3>
-
-                {/* Stats */}
-                <div className="flex flex-col" style={{ gap: '20px' }}>
-                  <div>
-                    <div className="flex items-center" style={{ gap: '8px' }}>
-                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
-                        <circle cx="14" cy="14" r="6" stroke="#006FBA" strokeWidth="2"/>
-                        <path d="M14 11V17M12 14.5H16" stroke="#006FBA" strokeWidth="2" strokeLinecap="round"/>
-                      </svg>
-                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
-                        3,500
-                      </p>
-                    </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
-                      ticket backlog eliminated
-                    </p>
-                  </div>
-
-                  <div>
-                    <div className="flex items-center" style={{ gap: '8px' }}>
-                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
-                        <rect x="6" y="10" width="16" height="10" rx="1" stroke="#006FBA" strokeWidth="2"/>
-                        <circle cx="11" cy="15" r="2" stroke="#006FBA" strokeWidth="1.5"/>
-                        <path d="M17 20L15 17L13 19" stroke="#006FBA" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
-                        65%
-                      </p>
-                    </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
-                      reduction in first-response time
-                    </p>
-                  </div>
-
-                  <div>
-                    <div className="flex items-center" style={{ gap: '8px' }}>
-                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
-                        <path d="M10 14L13 17L19 11" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
-                        23x
-                      </p>
-                    </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
-                      Return on Investment
-                    </p>
-                  </div>
+              {/* Capital */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                  <Image src="/capital.png" alt="Capital" width={20} height={20} style={{ objectFit: 'contain' }} />
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', color: '#666666', margin: 0 }}>Capital</p>
                 </div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '16px', color: '#FFA500', margin: 0, paddingLeft: '28px' }}>
+                  $ Cash
+                </p>
               </div>
 
-              {/* Learn More Button */}
-              <div className="mt-auto mx-auto relative z-10">
-                <button
-                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
-                  style={{
-                    width: '157px',
-                    height: '60px',
-                    borderRadius: '10px',
-                    padding: '16px 32px',
-                    background: 'linear-gradient(137.73deg, #6A36FF 15.76%, #AC5FE6 102.86%)',
-                    fontSize: '20px',
-                    lineHeight: '1.4',
-                    border: 'none',
-                    cursor: 'pointer',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    gap: '4px',
-                    whiteSpace: 'nowrap'
-                  }}
-                >
-                  Learn More
-                </button>
+              {/* Expertise */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                  <Image src="/expertise.png" alt="Expertise" width={20} height={20} style={{ objectFit: 'contain' }} />
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', color: '#666666', margin: 0 }}>Expertise</p>
+                </div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '16px', color: '#333333', margin: 0, paddingLeft: '28px' }}>
+                  Limited (board only)
+                </p>
+              </div>
+
+              {/* Alignment */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                  <Image src="/alignmenyt.png" alt="Alignment" width={20} height={20} style={{ objectFit: 'contain' }} />
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', color: '#666666', margin: 0 }}>Alignment</p>
+                </div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '16px', color: '#FFA500', margin: 0, paddingLeft: '28px' }}>
+                  Partial (equity)
+                </p>
+              </div>
+
+              {/* Speed */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                  <Image src="/speed.png" alt="Speed" width={20} height={20} style={{ objectFit: 'contain' }} />
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', color: '#666666', margin: 0 }}>Speed</p>
+                </div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '16px', color: '#333333', margin: 0, paddingLeft: '28px' }}>
+                  3-6 months
+                </p>
+              </div>
+
+              {/* Cost */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                  <Image src="/cost.png" alt="Cost" width={20} height={20} style={{ objectFit: 'contain' }} />
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', color: '#666666', margin: 0 }}>Cost</p>
+                </div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '16px', color: '#333333', margin: 0, paddingLeft: '28px' }}>
+                  Equity + dilution
+                </p>
               </div>
             </div>
 
-            {/* Card 3: Artemis Capital */}
+            {/* Traditional Consulting Card - Gray border */}
             <div
-              className="bg-white relative overflow-hidden"
               style={{
-                width: '381px',
-                minHeight: '378px',
-                borderRadius: '10px',
-                border: '1px solid #E0E7EF',
-                padding: '24px',
+                border: '1px solid #E0E0E0',
+                borderRadius: '16px',
+                padding: '32px 24px',
+                backgroundColor: '#FFFFFF',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '48px'
+                gap: '24px',
               }}
             >
-              {/* Pattern Overlay */}
-              <div
-                className="absolute top-0 left-0"
-                style={{
-                  width: '375px',
-                  height: '240px',
-                  background: '#EBF7FF',
-                  clipPath: 'polygon(0 0, 100% 0, 100% 40%, 0 100%)',
-                  zIndex: 0
-                }}
-              />
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', color: '#333333', textAlign: 'center', marginBottom: '8px' }}>
+                Traditional Consulting
+              </h3>
 
-              {/* Content */}
-              <div className="relative z-10 flex flex-col" style={{ gap: '24px' }}>
-                <h3
-                  className="font-dm-sans font-bold text-center"
-                  style={{
-                    fontSize: '30px',
-                    lineHeight: '1.1',
-                    letterSpacing: '-0.9px',
-                    color: '#006FBA'
-                  }}
-                >
-                  Artemis Capital
-                </h3>
-
-                {/* Stats */}
-                <div className="flex flex-col" style={{ gap: '20px' }}>
-                  <div>
-                    <div className="flex items-center" style={{ gap: '8px' }}>
-                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
-                        <circle cx="14" cy="14" r="6" stroke="#006FBA" strokeWidth="2"/>
-                        <path d="M14 11V17M12 14.5H16" stroke="#006FBA" strokeWidth="2" strokeLinecap="round"/>
-                      </svg>
-                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
-                        22%
-                      </p>
-                    </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
-                      reduction in customer churn
-                    </p>
-                  </div>
-
-                  <div>
-                    <div className="flex items-center" style={{ gap: '8px' }}>
-                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
-                        <rect x="6" y="10" width="16" height="10" rx="1" stroke="#006FBA" strokeWidth="2"/>
-                        <circle cx="11" cy="15" r="2" stroke="#006FBA" strokeWidth="1.5"/>
-                        <path d="M17 20L15 17L13 19" stroke="#006FBA" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
-                        14%
-                      </p>
-                    </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
-                      increase in post-acquisition margin
-                    </p>
-                  </div>
-
-                  <div>
-                    <div className="flex items-center" style={{ gap: '8px' }}>
-                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="1" y="1" width="26" height="26" rx="4" stroke="#006FBA" strokeWidth="2"/>
-                        <path d="M10 14L13 17L19 11" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                      <p className="font-dm-sans font-bold" style={{ fontSize: '24px', lineHeight: '1.1', letterSpacing: '-0.72px', color: '#006FBA' }}>
-                        20x
-                      </p>
-                    </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: '16px', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
-                      Return on Investment
-                    </p>
-                  </div>
+              {/* Capital */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                  <Image src="/capital.png" alt="Capital" width={20} height={20} style={{ objectFit: 'contain' }} />
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', color: '#666666', margin: 0 }}>Capital</p>
                 </div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '16px', color: '#333333', margin: 0, paddingLeft: '28px' }}>
+                  $ Outlay
+                </p>
               </div>
 
-              {/* Learn More Button */}
-              <div className="mt-auto mx-auto relative z-10">
-                <button
-                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
-                  style={{
-                    width: '157px',
-                    height: '60px',
-                    borderRadius: '10px',
-                    padding: '16px 32px',
-                    background: 'linear-gradient(137.73deg, #6A36FF 15.76%, #AC5FE6 102.86%)',
-                    fontSize: '20px',
-                    lineHeight: '1.4',
-                    border: 'none',
-                    cursor: 'pointer',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    gap: '4px',
-                    whiteSpace: 'nowrap'
-                  }}
-                >
-                  Learn More
-                </button>
+              {/* Expertise */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                  <Image src="/expertise.png" alt="Expertise" width={20} height={20} style={{ objectFit: 'contain' }} />
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', color: '#666666', margin: 0 }}>Expertise</p>
+                </div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '16px', color: '#333333', margin: 0, paddingLeft: '28px' }}>
+                  Full PMG team
+                </p>
+              </div>
+
+              {/* Alignment */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                  <Image src="/alignmenyt.png" alt="Alignment" width={20} height={20} style={{ objectFit: 'contain' }} />
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', color: '#666666', margin: 0 }}>Alignment</p>
+                </div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '16px', color: '#FFA500', margin: 0, paddingLeft: '28px' }}>
+                  Project-based
+                </p>
+              </div>
+
+              {/* Speed */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                  <Image src="/speed.png" alt="Speed" width={20} height={20} style={{ objectFit: 'contain' }} />
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', color: '#666666', margin: 0 }}>Speed</p>
+                </div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '16px', color: '#333333', margin: 0, paddingLeft: '28px' }}>
+                  Immediate
+                </p>
+              </div>
+
+              {/* Cost */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+                  <Image src="/cost.png" alt="Cost" width={20} height={20} style={{ objectFit: 'contain' }} />
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', color: '#666666', margin: 0 }}>Cost</p>
+                </div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '16px', color: '#333333', margin: 0, paddingLeft: '28px' }}>
+                  Cash ($250K+)
+                </p>
               </div>
             </div>
           </div>
@@ -1275,62 +1065,154 @@ export default function EquitySolutions() {
       </section>
 
       {/* ─── Section 10: Ready to Explore an Equity Partnership? ─── */}
-      <section className="w-full bg-white py-20 px-6">
-        <div className="max-w-[800px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '48px' }}>
+      <section className="w-full py-14 lg:py-20 px-4 sm:px-6" style={{ background: '#EBF7FF' }}>
+        <div className="max-w-[1100px] mx-auto flex flex-col items-center text-center">
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 48px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(40px, 4.44vw, 64px)' }}>
             Ready to Explore an Equity Partnership?
           </h2>
 
-          <div className="flex flex-wrap justify-center gap-6">
-            {[
-              {
-                title: 'Start with Exploration',
-                desc: "Not sure if equity is right for you? Let's discuss your situation.",
-                btn: 'Schedule Discovery Call',
-              },
-              {
-                title: 'Ready to Apply',
-                desc: 'Understand our model and want to pursue a partnership.',
-                btn: 'Begin Application',
-              },
-            ].map((card, i) => (
+          <div className="flex flex-wrap justify-center gap-6 lg:gap-8">
+            {/* Card 1: Start with Exploration */}
+            <div
+              style={{
+                border: '2px solid #14358A',
+                borderRadius: 'clamp(12px, 1.11vw, 16px)',
+                padding: 'clamp(28px, 2.78vw, 40px) clamp(24px, 2.22vw, 32px)',
+                width: '100%',
+                maxWidth: '480px',
+                minHeight: '280px',
+                backgroundColor: '#FFFFFF',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: 'clamp(16px, 1.39vw, 20px)',
+                alignItems: 'flex-start',
+              }}
+            >
+              {/* Icon */}
               <div
-                key={i}
                 style={{
-                  border: '3px solid #14358A',
-                  borderRadius: '10px',
-                  padding: '32px 28px',
-                  width: '300px',
+                  width: 'clamp(48px, 3.89vw, 56px)',
+                  height: 'clamp(48px, 3.89vw, 56px)',
+                  borderRadius: '12px',
+                  backgroundColor: '#14358A',
                   display: 'flex',
-                  flexDirection: 'column',
-                  gap: '14px',
-                  alignItems: 'flex-start',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  flexShrink: 0,
+                  marginBottom: '8px',
                 }}
               >
-                <div className="flex items-center gap-4 mb-2">
-                  <div style={{ width: '52px', height: '52px', borderRadius: '10px', backgroundColor: '#14358A', flexShrink: 0 }} />
-                  <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '29px', color: '#14358A', margin: 0 }}>{card.title}</h3>
-                </div>
-                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '15px', lineHeight: '160%', color: '#333333' }}>{card.desc}</p>
-                <button
-                  style={{
-                    marginTop: '8px',
-                    background: 'linear-gradient(90deg, #6A36FF 0%, #AC5FE6 100%)',
-                    color: '#FFFFFF',
-                    border: 'none',
-                    borderRadius: '8px',
-                    padding: '12px 22px',
-                    fontFamily: 'Montserrat, sans-serif',
-                    fontWeight: 600,
-                    fontSize: '14px',
-                    cursor: 'pointer',
-                    whiteSpace: 'nowrap',
-                  }}
-                >
-                  {card.btn}
-                </button>
+                <Image
+                  src="/switch-button.png"
+                  alt="Start with Exploration"
+                  width={24}
+                  height={24}
+                  style={{ objectFit: 'contain' }}
+                />
               </div>
-            ))}
+
+              {/* Title */}
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.22vw, 32px)', lineHeight: '120%', color: '#14358A', margin: 0 }}>
+                Start with Exploration
+              </h3>
+
+              {/* Description */}
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.11vw, 16px)', lineHeight: '150%', color: '#333333', margin: 0 }}>
+                Not sure if equity is right for you? Let&apos;s discuss your situation.
+              </p>
+
+              {/* Button */}
+              <button
+                style={{
+                  marginTop: 'auto',
+                  background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+                  color: '#FFFFFF',
+                  border: 'none',
+                  borderRadius: '10px',
+                  padding: 'clamp(12px, 0.97vw, 14px) clamp(24px, 2.22vw, 32px)',
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: 'clamp(14px, 1.11vw, 16px)',
+                  cursor: 'pointer',
+                  whiteSpace: 'nowrap',
+                  transition: 'opacity 0.3s',
+                }}
+                className="hover:opacity-90"
+              >
+                Schedule Discovery Call
+              </button>
+            </div>
+
+            {/* Card 2: Ready to Apply */}
+            <div
+              style={{
+                border: '2px solid #14358A',
+                borderRadius: 'clamp(12px, 1.11vw, 16px)',
+                padding: 'clamp(28px, 2.78vw, 40px) clamp(24px, 2.22vw, 32px)',
+                width: '100%',
+                maxWidth: '480px',
+                minHeight: '280px',
+                backgroundColor: '#FFFFFF',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: 'clamp(16px, 1.39vw, 20px)',
+                alignItems: 'flex-start',
+              }}
+            >
+              {/* Icon */}
+              <div
+                style={{
+                  width: 'clamp(48px, 3.89vw, 56px)',
+                  height: 'clamp(48px, 3.89vw, 56px)',
+                  borderRadius: '12px',
+                  backgroundColor: '#14358A',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  flexShrink: 0,
+                  marginBottom: '8px',
+                }}
+              >
+                <Image
+                  src="/efferent-three.png"
+                  alt="Ready to Apply"
+                  width={24}
+                  height={24}
+                  style={{ objectFit: 'contain' }}
+                />
+              </div>
+
+              {/* Title */}
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.22vw, 32px)', lineHeight: '120%', color: '#14358A', margin: 0 }}>
+                Ready to Apply
+              </h3>
+
+              {/* Description */}
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.11vw, 16px)', lineHeight: '150%', color: '#333333', margin: 0 }}>
+                Understand our model and want to pursue a partnership.
+              </p>
+
+              {/* Button */}
+              <button
+                style={{
+                  marginTop: 'auto',
+                  background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
+                  color: '#FFFFFF',
+                  border: 'none',
+                  borderRadius: '10px',
+                  padding: 'clamp(12px, 0.97vw, 14px) clamp(24px, 2.22vw, 32px)',
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: 'clamp(14px, 1.11vw, 16px)',
+                  cursor: 'pointer',
+                  whiteSpace: 'nowrap',
+                  transition: 'opacity 0.3s',
+                }}
+                className="hover:opacity-90"
+              >
+                Begin Application
+              </button>
+            </div>
           </div>
         </div>
       </section>

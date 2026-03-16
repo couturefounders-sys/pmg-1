@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@400;600;700&family=Montserrat:wght@400;500;600&family=Poppins:wght@600&display=swap');
+@import './responsive-utils.css';
 
 @tailwind base;
 @tailwind components;
@@ -129,4 +130,253 @@ img {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* ── Responsive Design System ── */
+
+/* Container max-widths for different screen sizes */
+.responsive-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Mobile devices (portrait phones, less than 640px) */
+@media (max-width: 639px) {
+  .responsive-container {
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  h1 {
+    font-size: clamp(28px, 5vw, 48px) !important;
+  }
+  
+  h2 {
+    font-size: clamp(24px, 4.5vw, 40px) !important;
+  }
+  
+  h3 {
+    font-size: clamp(20px, 4vw, 32px) !important;
+  }
+  
+  p {
+    font-size: clamp(14px, 3vw, 18px) !important;
+  }
+}
+
+/* Tablets (landscape phones, 640px and up) */
+@media (min-width: 640px) {
+  .responsive-container {
+    max-width: 640px;
+  }
+}
+
+/* Small laptops (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .responsive-container {
+    max-width: 768px;
+  }
+}
+
+/* Medium laptops (small desktops, 1024px and up) */
+@media (min-width: 1024px) {
+  .responsive-container {
+    max-width: 1024px;
+  }
+}
+
+/* Large laptops (MacBook Air 15", 1280px and up) */
+@media (min-width: 1280px) {
+  .responsive-container {
+    max-width: 1280px;
+  }
+}
+
+/* Extra large screens (large desktops, 1440px and up) */
+@media (min-width: 1440px) {
+  .responsive-container {
+    max-width: 1440px;
+  }
+}
+
+/* Ultra wide screens (1920px and up) */
+@media (min-width: 1920px) {
+  .responsive-container {
+    max-width: 1600px;
+  }
+}
+
+/* Responsive Typography Scale */
+.responsive-heading-xl {
+  font-size: clamp(32px, 4vw, 64px);
+  line-height: 1.1;
+}
+
+.responsive-heading-lg {
+  font-size: clamp(28px, 3.5vw, 48px);
+  line-height: 1.1;
+}
+
+.responsive-heading-md {
+  font-size: clamp(24px, 3vw, 40px);
+  line-height: 1.2;
+}
+
+.responsive-heading-sm {
+  font-size: clamp(20px, 2.5vw, 32px);
+  line-height: 1.2;
+}
+
+.responsive-text-lg {
+  font-size: clamp(16px, 2vw, 30px);
+  line-height: 1.4;
+}
+
+.responsive-text-md {
+  font-size: clamp(14px, 1.5vw, 20px);
+  line-height: 1.5;
+}
+
+.responsive-text-sm {
+  font-size: clamp(12px, 1.2vw, 16px);
+  line-height: 1.5;
+}
+
+/* Responsive Spacing */
+.responsive-section-padding {
+  padding-top: clamp(40px, 8vw, 120px);
+  padding-bottom: clamp(40px, 8vw, 120px);
+}
+
+.responsive-gap-lg {
+  gap: clamp(24px, 4vw, 64px);
+}
+
+.responsive-gap-md {
+  gap: clamp(16px, 3vw, 48px);
+}
+
+.responsive-gap-sm {
+  gap: clamp(8px, 2vw, 32px);
+}
+
+/* Responsive Grid System */
+.responsive-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(16px, 3vw, 32px);
+}
+
+@media (min-width: 768px) {
+  .responsive-grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.responsive-grid-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(16px, 3vw, 32px);
+}
+
+@media (min-width: 768px) {
+  .responsive-grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .responsive-grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.responsive-grid-4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(16px, 3vw, 24px);
+}
+
+@media (min-width: 640px) {
+  .responsive-grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .responsive-grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Responsive Card Widths */
+.responsive-card {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 640px) {
+  .responsive-card {
+    max-width: calc(50% - 12px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .responsive-card {
+    max-width: 380px;
+  }
+}
+
+/* Responsive Image Containers */
+.responsive-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* Ensure buttons remain readable */
+button, .button {
+  font-size: clamp(14px, 1.5vw, 20px) !important;
+  padding: clamp(10px, 1.5vw, 16px) clamp(20px, 3vw, 40px) !important;
+}
+
+/* Responsive flex layouts */
+.responsive-flex {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(16px, 3vw, 32px);
+}
+
+@media (min-width: 768px) {
+  .responsive-flex {
+    flex-direction: row;
+  }
+}
+
+/* Viewport-specific optimizations */
+@media (min-width: 1280px) and (max-width: 1440px) {
+  /* MacBook Air 15" optimization */
+  body {
+    font-size: 16px;
+  }
+  
+  .responsive-container {
+    max-width: 1280px;
+  }
+}
+
+/* Prevent horizontal scrolling */
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Ensure all sections respect viewport width */
+section, main {
+  max-width: 100%;
 }

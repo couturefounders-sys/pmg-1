@@ -59,9 +59,10 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '18px',
-              lineHeight: '1.75',
+              fontSize: '30px',
+              lineHeight: '140%',
               color: '#333333',
+              textAlign: 'center',
             }}
           >
             Quiet consulting is not just an attitude; it is a built-in system. Before any PMG
@@ -103,9 +104,10 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '18px',
-              lineHeight: '1.75',
+              fontSize: '32px',
+              lineHeight: '100%',
               color: '#333333',
+              textAlign: 'center',
               marginBottom: '20px',
             }}
           >
@@ -118,9 +120,10 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '18px',
-              lineHeight: '1.75',
+              fontSize: '32px',
+              lineHeight: '100%',
               color: '#333333',
+              textAlign: 'center',
             }}
           >
             But here is where we differ: that expert&apos;s blueprint is then submitted to our
@@ -151,9 +154,10 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '18px',
-              lineHeight: '1.75',
+              fontSize: '30px',
+              lineHeight: '100%',
               color: '#333333',
+              textAlign: 'center',
               marginBottom: '20px',
             }}
           >
@@ -166,9 +170,10 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: '18px',
-              lineHeight: '1.75',
+              fontSize: '30px',
+              lineHeight: '100%',
               color: '#333333',
+              textAlign: 'center',
             }}
           >
             Only a C2 Spec that passes this internal gauntlet becomes a PMG strategy. This
@@ -199,9 +204,10 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '18px',
-              lineHeight: '1.75',
+              fontSize: '30px',
+              lineHeight: '140%',
               color: '#333333',
+              textAlign: 'center',
               marginBottom: '32px',
             }}
           >
@@ -563,14 +569,14 @@ export default function PowerOfWorkingWithUs() {
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
             Our Approach &amp; Methodology
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '18px', lineHeight: '1.75', color: '#333333', marginBottom: '40px', maxWidth: '700px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '140%', color: '#333333', textAlign: 'center', marginBottom: '40px', maxWidth: '700px' }}>
             We use proven methodologies and cutting-edge frameworks to deliver results. But what sets PMG apart is our proprietary models: tools that provide deeper insight and unlock solutions the industry cannot match.
           </p>
 
           <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '26px', color: '#14358A', marginBottom: '10px' }}>
             Our Proprietary Models
           </h3>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', color: '#5F6D7E', marginBottom: '36px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '140%', color: '#333333', textAlign: 'center', marginBottom: '36px' }}>
             Unique frameworks developed by PMG that unlock insights and solutions the industry cannot match.
           </p>
 
@@ -619,32 +625,32 @@ export default function PowerOfWorkingWithUs() {
       </section>
 
       {/* ─── Section 11: The Right Solution, Every Time ─── */}
-      <section className="w-full py-16 px-6" style={{ background: '#F8FAFC' }}>
+      <section className="w-full py-16 px-6" style={{ background: '#364153' }}>
         <div className="max-w-[780px] mx-auto flex flex-col items-center text-center">
           {/* Formula row */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '20px', marginBottom: '40px', flexWrap: 'wrap', justifyContent: 'center' }}>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '6px' }}>
-              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '36px', color: '#14358A' }}>3</span>
-              <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', color: '#5F6D7E' }}>Proprietary Models</span>
+              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '36px', color: '#FFFFFF' }}>3</span>
+              <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', color: '#CCCCCC' }}>Proprietary Models</span>
             </div>
-            <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', color: '#14358A' }}>+</span>
+            <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', color: '#FFFFFF' }}>+</span>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '6px' }}>
-              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '36px', color: '#14358A' }}>8</span>
-              <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', color: '#5F6D7E' }}>Proven Frameworks</span>
+              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '36px', color: '#FFFFFF' }}>8</span>
+              <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', color: '#CCCCCC' }}>Proven Frameworks</span>
             </div>
-            <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', color: '#14358A' }}>=</span>
+            <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', color: '#FFFFFF' }}>=</span>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', background: '#14358A', borderRadius: '999px', padding: '12px 24px' }}>
               <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '15px', color: '#FFFFFF' }}>🎯 The Right Solution, Every Time</span>
             </div>
           </div>
 
           {/* Philosophy box */}
-          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px 32px', textAlign: 'left', width: '100%' }}>
+          <div style={{ border: '3px solid #FFFFFF', borderRadius: '10px', padding: '28px 32px', textAlign: 'left', width: '100%', background: 'rgba(255,255,255,0.05)' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px' }}>
-              <span style={{ width: '10px', height: '10px', borderRadius: '50%', border: '2px solid #14358A', display: 'inline-block' }} />
-              <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '16px', color: '#14358A' }}>Our Philosophy of Application</h3>
+              <span style={{ width: '10px', height: '10px', borderRadius: '50%', border: '2px solid #FFFFFF', display: 'inline-block' }} />
+              <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '16px', color: '#FFFFFF' }}>Our Philosophy of Application</h3>
             </div>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.75', color: '#333333' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '25px', lineHeight: '30px', color: '#FFFFFF' }}>
               No single method is right for every situation. PMG selects and adapts frameworks based on each client&apos;s specific needs, culture, and goals. Our objective is to use the least-change-demanding methods first, balancing the amount of disruption with the impact it will create, based on your needs and the results you are looking for.
             </p>
           </div>
@@ -652,13 +658,13 @@ export default function PowerOfWorkingWithUs() {
       </section>
 
       {/* ─── Section 12: A Commitment to Continuous Improvement ─── */}
-      <section className="w-full py-20 px-6 bg-white">
+      <section className="w-full py-20 px-6" style={{ background: '#364153' }}>
         <div className="max-w-[960px] mx-auto" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center' }}>
           <div>
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#FFFFFF', marginBottom: '20px' }}>
               A Commitment to Continuous Improvement
             </h2>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#333333' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '20px', lineHeight: '26px', color: '#FFFFFF' }}>
               Our 22x ROI was not instant. It was earned. In 2018, we matched the industry average of 6–8x. But average was never the goal. In 2020, we made client ROI our north star. That focus pushed us to 10x and continues to drive improvement today. Whatever our current benchmark, we refine, learn, and raise it. Continuous improvement is not a slogan; it is our operating model.
             </p>
           </div>

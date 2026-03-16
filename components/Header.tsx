@@ -100,7 +100,7 @@ export default function Header() {
 
   return (
     <header className="absolute top-0 left-0 right-0 z-[200]">
-      <div className="max-w-[1440px] mx-auto relative" style={{ height: '100px' }}>
+      <div className="max-w-[1440px] mx-auto relative overflow-visible" style={{ height: '100px' }}>
         {/* Logo Icon */}
         <div className="absolute" style={{ top: '23px', left: '85px' }}>
           <Image

@@ -195,41 +195,41 @@ export default function IOArchitectureModelPage() {
       </section>
 
       {/* ─── Section 3: I-O Model Breakdown ─── */}
-      <section className="w-full py-20 px-6 bg-white">
+      <section className="w-full py-14 lg:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-[1100px] mx-auto">
-          <div style={{ display: 'grid', gridTemplateColumns: '320px 1fr', gap: '40px', alignItems: 'start' }}>
+          <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-8 lg:gap-10 items-start">
 
             {/* Left: component-18.png as base image with labels overlaid */}
-            <div style={{ position: 'relative', width: '320px' }}>
+            <div style={{ position: 'relative', width: '100%', maxWidth: '320px', margin: '0 auto' }}>
               <img src="/component-18.png" alt="Navigation menu" style={{ width: '100%', height: 'auto', display: 'block' }} />
               {/* Labels overlaid on the image */}
               <div style={{ position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', justifyContent: 'space-around', paddingTop: '4%', paddingBottom: '4%', paddingLeft: '28%' }}>
                 {['Engagement Model', 'Talent Model', 'Key Deliverable', 'Pricing Model', 'Core IP (Strategy)', 'Quality Assurance', 'Follow-Through'].map((label, i) => (
-                  <span key={i} style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '15px', color: '#FFFFFF', whiteSpace: 'nowrap' }}>{label}</span>
+                  <span key={i} style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.04vw, 15px)', color: '#FFFFFF', whiteSpace: 'nowrap' }}>{label}</span>
                 ))}
               </div>
             </div>
 
             {/* Right: PMG Model + Old Playbook stacked */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+            <div className="flex flex-col gap-4 lg:gap-6">
 
               {/* The PMG Model — component-12 background */}
-              <div style={{ position: 'relative', borderRadius: '16px', overflow: 'hidden', minHeight: '200px', boxShadow: '0 4px 24px rgba(0,0,0,0.1)' }}>
+              <div style={{ position: 'relative', borderRadius: 'clamp(12px, 1.11vw, 16px)', overflow: 'hidden', minHeight: '200px', boxShadow: '0 4px 24px rgba(0,0,0,0.1)' }}>
                 <img src="/component-12.png" alt="" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', zIndex: 0 }} />
-                <div style={{ position: 'relative', zIndex: 1, padding: '32px 36px' }}>
-                  <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', color: '#14358A', marginBottom: '16px' }}>The PMG Model</h3>
-                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.75', color: '#333333', textAlign: 'center' }}>
+                <div style={{ position: 'relative', zIndex: 1, padding: 'clamp(20px, 2.22vw, 32px) clamp(24px, 2.5vw, 36px)' }}>
+                  <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.53vw, 22px)', color: '#14358A', marginBottom: 'clamp(12px, 1.11vw, 16px)' }}>The PMG Model</h3>
+                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.04vw, 15px)', lineHeight: '1.75', color: '#333333', textAlign: 'center' }}>
                     Sector Convergence is a strategic reset. We architect non-obvious solutions by synthesizing proven operational models from entirely different sectors, creating a durable, first-mover advantage that competitors cannot easily replicate.
                   </p>
                 </div>
               </div>
 
               {/* The Old Playbook — component-13 background */}
-              <div style={{ position: 'relative', borderRadius: '16px', overflow: 'hidden', minHeight: '200px', boxShadow: '0 4px 24px rgba(0,0,0,0.1)' }}>
+              <div style={{ position: 'relative', borderRadius: 'clamp(12px, 1.11vw, 16px)', overflow: 'hidden', minHeight: '200px', boxShadow: '0 4px 24px rgba(0,0,0,0.1)' }}>
                 <img src="/component-13.png" alt="" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', zIndex: 0 }} />
-                <div style={{ position: 'relative', zIndex: 1, padding: '32px 36px' }}>
-                  <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', color: '#D0021B', marginBottom: '16px' }}>The Old Playbook</h3>
-                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', lineHeight: '1.75', color: '#333333', textAlign: 'center' }}>
+                <div style={{ position: 'relative', zIndex: 1, padding: 'clamp(20px, 2.22vw, 32px) clamp(24px, 2.5vw, 36px)' }}>
+                  <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.53vw, 22px)', color: '#D0021B', marginBottom: 'clamp(12px, 1.11vw, 16px)' }}>The Old Playbook</h3>
+                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.04vw, 15px)', lineHeight: '1.75', color: '#333333', textAlign: 'center' }}>
                     Traditional consulting offers linear, industry-siloed &ldquo;best practices&rdquo; that lead to incremental gains at best and expensive, failed implementations at worst. It is a model built for a world that no longer exists.
                   </p>
                 </div>
