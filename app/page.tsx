@@ -1,4 +1,4 @@
-import Header from '@/components/Header';
+import HeroSection from '@/components/HeroSection';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -6,99 +6,7 @@ export default function Home() {
     <main
       className="relative w-full min-h-screen overflow-x-hidden"
     >
-      {/* Hero Section with Background Image */}
-      <div 
-        className="hero-section relative w-full min-h-screen"
-        style={{
-          backgroundImage: 'url(/hero-background.png)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center center',
-          backgroundRepeat: 'no-repeat',
-          backgroundColor: '#1e3a8a'
-        }}
-      >
-        {/* Header */}
-        <Header />
-
-        {/* Hero Content - Centered */}
-        <div className="relative z-10 flex flex-col items-center justify-center px-4" style={{ minHeight: '100vh', paddingTop: '100px' }}>
-        {/* Main Heading */}
-        <h1
-          className="text-center text-white font-bold"
-          style={{
-            fontFamily: 'DM Sans, sans-serif',
-            fontSize: '48px',
-            fontWeight: 700,
-            lineHeight: '105%',
-            letterSpacing: '-0.03em',
-            maxWidth: '760px',
-            marginBottom: '20px'
-          }}
-        >
-          Strategy is Intention.
-          <br />
-          Execution is Reality.
-        </h1>
-
-        {/* Description */}
-        <p 
-          className="text-center"
-          style={{
-            fontFamily: 'DM Sans, sans-serif',
-            fontSize: '18px',
-            fontWeight: 400,
-            lineHeight: '135%',
-            maxWidth: '820px',
-            color: '#FFFFFF',
-            marginBottom: '40px',
-            opacity: 0.95
-          }}
-        >
-          PMG bridges the gap between high-level blueprints and verifiable enterprise value.
-          We do not just advise from the sidelines. We provide the embedded leadership 
-          and functional mastery required to turn strategic goals into measurable ROI
-        </p>
-
-        {/* CTA Buttons */}
-        <div className="flex items-center justify-center gap-5 flex-wrap">
-          {/* Primary Button */}
-          <button 
-            className="rounded-[10px] text-white hover:opacity-90 transition-opacity"
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontWeight: 700,
-              fontSize: '18px',
-              lineHeight: '135%',
-              background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-              padding: '20px 40px',
-              border: 'none',
-              cursor: 'pointer'
-            }}
-          >
-            Request a Private Executive Briefing
-          </button>
-
-          {/* Secondary Button */}
-          <button 
-            className="rounded-[10px] text-white border border-white hover:bg-white/10 transition-all flex items-center justify-center gap-2"
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontWeight: 700,
-              fontSize: '18px',
-              lineHeight: '135%',
-              padding: '20px 40px',
-              background: 'transparent',
-              cursor: 'pointer'
-            }}
-          >
-            Explore Strategic solutions
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          </button>
-        </div>
-      </div>
-      </div>
+      <HeroSection />
 
       {/* What We Can Do Section */}
       <div className="relative z-10 bg-white pt-24 pb-16">
@@ -800,26 +708,26 @@ export default function Home() {
                 minHeight: '335px'
               }}
             >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/cube-three.png" alt="Out-of-the-Box Solutions" className="w-10 h-10" />
+              {/* Icon + Title */}
+              <div className="flex items-start gap-4 mb-6">
+                <div 
+                  className="w-16 h-16 rounded-[10px] flex items-center justify-center flex-shrink-0"
+                  style={{ background: '#14358A' }}
+                >
+                  <img src="/cube-three.png" alt="Out-of-the-Box Solutions" className="w-10 h-10" />
+                </div>
+                <h3 
+                  className="font-dm-sans font-bold mb-0"
+                  style={{
+                    fontSize: 'clamp(24px, 2vw, 29px)',
+                    lineHeight: '1.05',
+                    letterSpacing: '-0.03em',
+                    color: '#14358A'
+                  }}
+                >
+                  Out-of-the-Box Solutions
+                </h3>
               </div>
-
-              {/* Title */}
-              <h3 
-                className="font-dm-sans font-bold mb-2"
-                style={{
-                  fontSize: 'clamp(24px, 2vw, 29px)',
-                  lineHeight: '1.05',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Out-of-the-Box Solutions
-              </h3>
 
               {/* Subtitle */}
               <p 
@@ -871,26 +779,26 @@ export default function Home() {
                 minHeight: '335px'
               }}
             >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/pencil.png" alt="Bespoke Solutions" className="w-10 h-10" />
+              {/* Icon + Title */}
+              <div className="flex items-start gap-4 mb-6">
+                <div 
+                  className="w-16 h-16 rounded-[10px] flex items-center justify-center flex-shrink-0"
+                  style={{ background: '#14358A' }}
+                >
+                  <img src="/pencil.png" alt="Bespoke Solutions" className="w-10 h-10" />
+                </div>
+                <h3 
+                  className="font-dm-sans font-bold mb-0"
+                  style={{
+                    fontSize: 'clamp(24px, 2vw, 29px)',
+                    lineHeight: '1.05',
+                    letterSpacing: '-0.03em',
+                    color: '#14358A'
+                  }}
+                >
+                  Bespoke Solutions
+                </h3>
               </div>
-
-              {/* Title */}
-              <h3 
-                className="font-dm-sans font-bold mb-2"
-                style={{
-                  fontSize: 'clamp(24px, 2vw, 29px)',
-                  lineHeight: '1.05',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Bespoke Solutions
-              </h3>
 
               {/* Subtitle */}
               <p 
@@ -944,26 +852,26 @@ export default function Home() {
                 minHeight: '335px'
               }}
             >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/right-user.png" alt="Active Management Solutions" className="w-10 h-10" />
+              {/* Icon + Title */}
+              <div className="flex items-start gap-4 mb-6">
+                <div 
+                  className="w-16 h-16 rounded-[10px] flex items-center justify-center flex-shrink-0"
+                  style={{ background: '#14358A' }}
+                >
+                  <img src="/right-user.png" alt="Active Management Solutions" className="w-10 h-10" />
+                </div>
+                <h3 
+                  className="font-dm-sans font-bold mb-0"
+                  style={{
+                    fontSize: 'clamp(24px, 2vw, 29px)',
+                    lineHeight: '1.05',
+                    letterSpacing: '-0.03em',
+                    color: '#14358A'
+                  }}
+                >
+                  Active Management Solutions
+                </h3>
               </div>
-
-              {/* Title */}
-              <h3 
-                className="font-dm-sans font-bold mb-2"
-                style={{
-                  fontSize: 'clamp(24px, 2vw, 29px)',
-                  lineHeight: '1.05',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Active Management Solutions
-              </h3>
 
               {/* Subtitle */}
               <p 
@@ -1014,26 +922,26 @@ export default function Home() {
                 minHeight: '335px'
               }}
             >
-              {/* Icon */}
-              <div 
-                className="w-16 h-16 rounded-[10px] flex items-center justify-center mb-6"
-                style={{ background: '#14358A' }}
-              >
-                <img src="/efferent-four.png" alt="Equity Engagements" className="w-10 h-10" />
+              {/* Icon + Title */}
+              <div className="flex items-start gap-4 mb-6">
+                <div 
+                  className="w-16 h-16 rounded-[10px] flex items-center justify-center flex-shrink-0"
+                  style={{ background: '#14358A' }}
+                >
+                  <img src="/efferent-four.png" alt="Equity Engagements" className="w-10 h-10" />
+                </div>
+                <h3 
+                  className="font-dm-sans font-bold mb-0"
+                  style={{
+                    fontSize: 'clamp(24px, 2vw, 29px)',
+                    lineHeight: '1.05',
+                    letterSpacing: '-0.03em',
+                    color: '#14358A'
+                  }}
+                >
+                  Equity Engagements
+                </h3>
               </div>
-
-              {/* Title */}
-              <h3 
-                className="font-dm-sans font-bold mb-2"
-                style={{
-                  fontSize: 'clamp(24px, 2vw, 29px)',
-                  lineHeight: '1.05',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Equity Engagements
-              </h3>
 
               {/* Subtitle */}
               <p 

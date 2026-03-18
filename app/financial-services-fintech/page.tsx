@@ -152,36 +152,12 @@ export default function FinancialServicesFinTech() {
         </div>
       </div>
 
-      {/* Decorative Bars - Between Partner and Our Work Section */}
+      {/* Decorative Bars - Top Right + Bottom Left */}
       <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        {/* Bar 1 - Blue, right side, top */}
-        <div
-          className="absolute"
-          style={{
-            width: '200px',
-            height: '60px',
-            right: '-10px',
-            top: '20px',
-            opacity: 1,
-            background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)',
-            transform: 'rotate(8deg)',
-            transformOrigin: 'right center'
-          }}
-        />
-        {/* Bar 2 - Light gray, right side, bottom */}
-        <div
-          className="absolute"
-          style={{
-            width: '325px',
-            height: '60px',
-            right: '-10px',
-            top: '60px',
-            opacity: 0.2,
-            background: '#5B9BD5',
-            transform: 'rotate(8deg)',
-            transformOrigin: 'right center'
-          }}
-        />
+        {/* Top Right */}
+        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(-8deg)', transformOrigin: 'right center' }} />
+        {/* Bottom Left */}
+        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', bottom: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(-8deg)', transformOrigin: 'left center' }} />
       </div>
 
       {/* Our Work Section */}
@@ -217,12 +193,9 @@ export default function FinancialServicesFinTech() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
                 padding: '23px 25px',
-                position: 'relative',
-                overflow: 'hidden'
               }}
             >
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
@@ -247,12 +220,9 @@ export default function FinancialServicesFinTech() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
                 padding: '23px 25px',
-                position: 'relative',
-                overflow: 'hidden'
               }}
             >
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
@@ -277,12 +247,9 @@ export default function FinancialServicesFinTech() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
                 padding: '23px 25px',
-                position: 'relative',
-                overflow: 'hidden'
               }}
             >
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
@@ -307,12 +274,9 @@ export default function FinancialServicesFinTech() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
                 padding: '23px 25px',
-                position: 'relative',
-                overflow: 'hidden'
               }}
             >
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
@@ -337,12 +301,9 @@ export default function FinancialServicesFinTech() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
                 padding: '23px 25px',
-                position: 'relative',
-                overflow: 'hidden'
               }}
             >
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
@@ -367,12 +328,9 @@ export default function FinancialServicesFinTech() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
                 padding: '23px 25px',
-                position: 'relative',
-                overflow: 'hidden'
               }}
             >
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
@@ -798,38 +756,6 @@ export default function FinancialServicesFinTech() {
         </div>
       </div>
 
-      {/* Decorative Bars - Above Functional Consulting Advantage */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        {/* Bar 1 - Light gray, wider, top */}
-        <div
-          className="absolute"
-          style={{
-            width: '325px',
-            height: '60px',
-            left: '-10px',
-            top: '20px',
-            opacity: 0.2,
-            background: '#888895',
-            transform: 'rotate(8deg)',
-            transformOrigin: 'left center'
-          }}
-        />
-        {/* Bar 2 - Blue, narrower, bottom */}
-        <div
-          className="absolute"
-          style={{
-            width: '200px',
-            height: '60px',
-            left: '-10px',
-            top: '60px',
-            opacity: 1,
-            background: 'linear-gradient(90deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)',
-            transform: 'rotate(8deg)',
-            transformOrigin: 'left center'
-          }}
-        />
-      </div>
-
       {/* The Functional Consulting Advantage Section */}
       <div className="bg-white py-24 px-6">
         <div className="max-w-[1440px] mx-auto flex flex-col items-center">
@@ -872,38 +798,6 @@ export default function FinancialServicesFinTech() {
             </p>
           </div>
         </div>
-      </div>
-
-      {/* Decorative Bars - Below Functional Consulting Advantage */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        {/* Bar 1 - Blue, right side, top */}
-        <div
-          className="absolute"
-          style={{
-            width: '200px',
-            height: '60px',
-            right: '-10px',
-            top: '20px',
-            opacity: 1,
-            background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)',
-            transform: 'rotate(8deg)',
-            transformOrigin: 'right center'
-          }}
-        />
-        {/* Bar 2 - Light gray, right side, bottom */}
-        <div
-          className="absolute"
-          style={{
-            width: '325px',
-            height: '60px',
-            right: '-10px',
-            top: '60px',
-            opacity: 0.2,
-            background: '#5B9BD5',
-            transform: 'rotate(8deg)',
-            transformOrigin: 'right center'
-          }}
-        />
       </div>
 
       {/* Call to Action Section */}

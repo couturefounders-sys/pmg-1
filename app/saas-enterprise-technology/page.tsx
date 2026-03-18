@@ -83,10 +83,12 @@ export default function SaaSEnterpriseTechnology() {
         </div>
       </div>
 
-      {/* Decorative Bars - Bottom Right */}
+      {/* Decorative Bars - Top Right + Bottom Left */}
       <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
-        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
+        {/* Top Right */}
+        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(-8deg)', transformOrigin: 'right center' }} />
+        {/* Bottom Left */}
+        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', bottom: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(-8deg)', transformOrigin: 'left center' }} />
       </div>
 
       {/* Our Work Section */}
@@ -114,22 +116,20 @@ export default function SaaSEnterpriseTechnology() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                overflow: 'hidden'
               }}
             >
-              <div className="mb-6">
-                <img src="/icon-strategy-transformation.png" alt="Growth & Go-to-Market Strategy" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-strategy-transformation.png" alt="Growth & Go-to-Market Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A] mb-4"
+                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                >
+                  Growth & Go-to-Market Strategy
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                Growth & Go-to-Market Strategy
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '15px', lineHeight: '140%' }}
@@ -143,22 +143,20 @@ export default function SaaSEnterpriseTechnology() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                overflow: 'hidden'
               }}
             >
-              <div className="mb-6">
-                <img src="/icon-risk-resilience.png" alt="Operational Excellence & Scalability" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-risk-resilience.png" alt="Operational Excellence & Scalability" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A] mb-4"
+                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                >
+                  Operational Excellence & Scalability
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                Operational Excellence & Scalability
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '15px', lineHeight: '140%' }}
@@ -172,22 +170,20 @@ export default function SaaSEnterpriseTechnology() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                overflow: 'hidden'
               }}
             >
-              <div className="mb-6">
-                <img src="/icon-customer-experience.png" alt="M&A, Funding, & Financial Performance" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-customer-experience.png" alt="M&A, Funding, & Financial Performance" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A] mb-4"
+                  style={{ fontSize: '28px', lineHeight: '105%', letterSpacing: '-3%' }}
+                >
+                  M&A, Funding, & Financial Performance
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '28px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                M&A, Funding, & Financial Performance
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '15px', lineHeight: '140%' }}
@@ -201,22 +197,20 @@ export default function SaaSEnterpriseTechnology() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                overflow: 'hidden'
               }}
             >
-              <div className="mb-6">
-                <img src="/icon-regulatory-compliance.png" alt="Innovation & Product Strategy" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-regulatory-compliance.png" alt="Innovation & Product Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A] mb-4"
+                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                >
+                  Innovation & Product Strategy
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                Innovation & Product Strategy
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '16px', lineHeight: '140%' }}
@@ -230,22 +224,20 @@ export default function SaaSEnterpriseTechnology() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                overflow: 'hidden'
               }}
             >
-              <div className="mb-6">
-                <img src="/icon-innovation-fintech.png" alt="AI & Automation Integration" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-innovation-fintech.png" alt="AI & Automation Integration" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A] mb-4"
+                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                >
+                  AI & Automation Integration
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                AI & Automation Integration
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '15px', lineHeight: '140%' }}
@@ -259,22 +251,20 @@ export default function SaaSEnterpriseTechnology() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                overflow: 'hidden'
               }}
             >
-              <div className="mb-6">
-                <img src="/icon-capital-performance.png" alt="Cloud Strategy & Migration" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-capital-performance.png" alt="Cloud Strategy & Migration" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A] mb-4"
+                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                >
+                  Cloud Strategy & Migration
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                Cloud Strategy & Migration
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '15px', lineHeight: '140%' }}
@@ -675,11 +665,6 @@ export default function SaaSEnterpriseTechnology() {
         </div>
       </div>
 
-      {/* Decorative Bars - Top Left */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', top: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
-        <div className="absolute" style={{ width: '200px', height: '60px', left: '-10px', top: '60px', opacity: 1, background: 'linear-gradient(90deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
-      </div>
 
       {/* The Functional Consulting Advantage Section */}
       <div className="relative py-24 bg-white overflow-hidden">
@@ -758,11 +743,6 @@ export default function SaaSEnterpriseTechnology() {
         
       </div>
 
-      {/* Decorative Bars - Bottom Right */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
-        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
-      </div>
 
       {/* Partner with PMG Section */}
       <div className="bg-[#EAF5FF] py-24 px-6">

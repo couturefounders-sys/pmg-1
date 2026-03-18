@@ -502,27 +502,17 @@ export default function EquitySolutions() {
           backgroundSize: 'cover',
         }}
       >
-        {/* Decorative shapes — fill background, no gaps */}
-        {/* Top Right */}
-        <div className="absolute pointer-events-none" style={{ width: 'min(300px, 20vw)', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(220px, 15vw)', height: '55px', right: '5%', top: '12%', background: '#0097FE', opacity: 0.75, transform: 'rotate(12deg)', transformOrigin: 'center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(180px, 12vw)', height: '50px', right: '25%', top: '8%', background: '#0097FE', opacity: 0.5, transform: 'rotate(-8deg)', transformOrigin: 'center' }} />
-        {/* Top Left */}
-        <div className="absolute pointer-events-none" style={{ width: 'min(315px, 22vw)', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(200px, 14vw)', height: '65px', left: '8%', top: '18%', background: 'transparent', border: '1px solid rgba(102,193,255,0.65)', transform: 'rotate(-8deg)', transformOrigin: 'center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(160px, 11vw)', height: '50px', left: '22%', top: '25%', background: 'transparent', border: '1px solid rgba(102,193,255,0.45)', transform: 'rotate(5deg)', transformOrigin: 'center' }} />
-        {/* Center — behind title area */}
-        <div className="absolute pointer-events-none" style={{ width: 'min(320px, 22vw)', height: '80px', left: '30%', top: '35%', background: '#0097FE', opacity: 0.4, transform: 'rotate(-5deg)', transformOrigin: 'center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(280px, 19vw)', height: '65px', right: '28%', top: '42%', background: 'transparent', border: '1px solid rgba(102,193,255,0.4)', transform: 'rotate(8deg)', transformOrigin: 'center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(200px, 14vw)', height: '55px', left: '45%', top: '55%', background: '#0097FE', opacity: 0.3, transform: 'rotate(-12deg)', transformOrigin: 'center' }} />
+        {/* Decorative shapes */}
+        {/* Top Right (solid, behind) */}
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
+        {/* Top Right (solid, in front, offset) */}
+        <div className="absolute pointer-events-none" style={{ width: '220px', height: '55px', right: '-20px', top: '80px', background: '#0097FE', opacity: 0.7, transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
         {/* Bottom Left */}
-        <div className="absolute pointer-events-none" style={{ width: 'min(300px, 20vw)', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(240px, 16vw)', height: '60px', left: '3%', bottom: '22%', background: '#1C2792', opacity: 0.55, transform: 'rotate(10deg)', transformOrigin: 'center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(190px, 13vw)', height: '50px', left: '18%', bottom: '12%', background: '#0097FE', opacity: 0.4, transform: 'rotate(-6deg)', transformOrigin: 'center' }} />
-        {/* Bottom Right */}
-        <div className="absolute pointer-events-none" style={{ width: 'min(280px, 18vw)', height: '65px', right: '-15px', bottom: '30px', background: '#0097FE', opacity: 0.6, transform: 'rotate(15deg)', transformOrigin: 'right center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(220px, 15vw)', height: '55px', right: '12%', bottom: '18%', background: '#0097FE', opacity: 0.5, transform: 'rotate(-10deg)', transformOrigin: 'center' }} />
-        <div className="absolute pointer-events-none" style={{ width: 'min(260px, 17vw)', height: '60px', right: '5%', bottom: '8%', background: '#0097FE', opacity: 0.45, transform: 'rotate(6deg)', transformOrigin: 'center' }} />
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+        {/* Top Left (outer outlined) */}
+        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+        {/* Top Left (inner outlined, offset) */}
+        <div className="absolute pointer-events-none" style={{ width: '240px', height: '80px', left: '20px', top: '70px', background: 'transparent', border: '1px solid rgba(102,193,255,0.55)', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
         <div className="w-full max-w-[1200px] mx-auto flex flex-col items-center gap-8 sm:gap-10 md:gap-12">
 
           {/* Main design image */}

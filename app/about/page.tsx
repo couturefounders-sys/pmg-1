@@ -68,10 +68,12 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
             {/* Card 1 - Functional Mastery */}
             <div className="border-[3px] border-[#14358A] rounded-[10px] p-8 w-full max-w-[410px] min-h-[260px] flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300">
-              <img src="/icon-functional.png" alt="Functional Mastery Icon" width={64} height={64} className="mb-6" />
-              <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-4">
-                Functional Mastery
-              </h4>
+              <div className="flex items-center gap-4 mb-4">
+                <img src="/icon-functional.png" alt="Functional Mastery Icon" width={64} height={64} className="flex-shrink-0" />
+                <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-0">
+                  Functional Mastery
+                </h4>
+              </div>
               <p className="font-dm-sans font-normal text-[16px] leading-[140%] text-[#68718B]">
                 We don't just know your industry; we master the functions that drive it, from P&L engineering to workflow architecture.
               </p>
@@ -79,10 +81,12 @@ export default function About() {
 
             {/* Card 2 - Passion for Results */}
             <div className="border-[3px] border-[#14358A] rounded-[10px] p-8 w-full max-w-[410px] min-h-[260px] flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300">
-              <img src="/icon-passion.png" alt="Passion for Results Icon" width={64} height={64} className="mb-6" />
-              <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-4">
-                Passion for Results
-              </h4>
+              <div className="flex items-center gap-4 mb-4">
+                <img src="/icon-passion.png" alt="Passion for Results Icon" width={64} height={64} className="flex-shrink-0" />
+                <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-0">
+                  Passion for Results
+                </h4>
+              </div>
               <p className="font-dm-sans font-normal text-[16px] leading-[140%] text-[#68718B]">
                 Our dedication to execution means we own the outcome. This relentless drive accelerates project timelines and ensures we exceed key performance indicators.
               </p>
@@ -90,10 +94,12 @@ export default function About() {
 
             {/* Card 3 - An Expert Network */}
             <div className="border-[3px] border-[#14358A] rounded-[10px] p-8 w-full max-w-[410px] min-h-[260px] flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300">
-              <img src="/icon-network.png" alt="Expert Network Icon" width={64} height={64} className="mb-6" />
-              <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-4">
-                An Expert Network
-              </h4>
+              <div className="flex items-center gap-4 mb-4">
+                <img src="/icon-network.png" alt="Expert Network Icon" width={64} height={64} className="flex-shrink-0" />
+                <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-0">
+                  An Expert Network
+                </h4>
+              </div>
               <p className="font-dm-sans font-normal text-[16px] leading-[140%] text-[#68718B]">
                 A curated global network of functional specialists ensures clients receive bespoke expertise, providing a decisive advantage in complex markets.
               </p>
@@ -101,10 +107,12 @@ export default function About() {
 
             {/* Card 4 - Relentless Innovation */}
             <div className="border-[3px] border-[#14358A] rounded-[10px] p-8 w-full max-w-[410px] min-h-[260px] flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300">
-              <img src="/icon-innovation.png" alt="Relentless Innovation Icon" width={64} height={64} className="mb-6" />
-              <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-4">
-                Relentless Innovation
-              </h4>
+              <div className="flex items-center gap-4 mb-4">
+                <img src="/icon-innovation.png" alt="Relentless Innovation Icon" width={64} height={64} className="flex-shrink-0" />
+                <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-0">
+                  Relentless Innovation
+                </h4>
+              </div>
               <p className="font-dm-sans font-normal text-[16px] leading-[140%] text-[#68718B]">
                 We embed future-proof strategies into your operations, positioning your business to immediately capitalize on new market opportunities.
               </p>
@@ -112,10 +120,12 @@ export default function About() {
 
             {/* Card 5 - People-Focused Leadership */}
             <div className="border-[3px] border-[#14358A] rounded-[10px] p-8 w-full max-w-[410px] min-h-[260px] flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300">
-              <img src="/icon-leadership.png" alt="People-Focused Leadership Icon" width={64} height={64} className="mb-6" />
-              <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-4">
-                People-Focused Leadership
-              </h4>
+              <div className="flex items-center gap-4 mb-4">
+                <img src="/icon-leadership.png" alt="People-Focused Leadership Icon" width={64} height={64} className="flex-shrink-0" />
+                <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-0">
+                  People-Focused Leadership
+                </h4>
+              </div>
               <p className="font-dm-sans font-normal text-[16px] leading-[140%] text-[#68718B]">
                 We focus on talent and organizational design to ensure change management is effective, accelerating adoption and securing long-term institutional value.
               </p>
@@ -123,10 +133,12 @@ export default function About() {
 
             {/* Card 6 - Evidence-Based Strategy */}
             <div className="border-[3px] border-[#14358A] rounded-[10px] p-8 w-full max-w-[410px] min-h-[260px] flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300">
-              <img src="/icon-evidence.png" alt="Evidence-Based Strategy Icon" width={64} height={64} className="mb-6" />
-              <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-4">
-                Evidence-Based Strategy
-              </h4>
+              <div className="flex items-center gap-4 mb-4">
+                <img src="/icon-evidence.png" alt="Evidence-Based Strategy Icon" width={64} height={64} className="flex-shrink-0" />
+                <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-0">
+                  Evidence-Based Strategy
+                </h4>
+              </div>
               <p className="font-dm-sans font-normal text-[16px] leading-[140%] text-[#68718B]">
                 We replace "gut feelings" with forensic data analysis, ensuring every move is backed by quantifiable reality.
               </p>

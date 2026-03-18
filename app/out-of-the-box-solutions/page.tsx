@@ -186,12 +186,16 @@ export default function OutOfTheBoxSolutions() {
         className="w-full relative overflow-hidden py-24 px-6"
         style={{ background: 'linear-gradient(135deg, #1B45B4 0%, #1C2792 100%)' }}
       >
-        {/* Decorative Rectangle - Top Right */}
+        {/* Decorative Rectangle - Top Right (solid, behind) */}
         <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
+        {/* Decorative Rectangle - Top Right (solid, in front, offset) */}
+        <div className="absolute pointer-events-none" style={{ width: '220px', height: '55px', right: '-20px', top: '80px', background: '#0097FE', opacity: 0.7, transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
         {/* Decorative Rectangle - Bottom Left */}
         <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        {/* Decorative Border Rectangle - Top Left */}
+        {/* Decorative Border Rectangle - Top Left (outer) */}
         <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+        {/* Decorative Border Rectangle - Top Left (inner, offset) */}
+        <div className="absolute pointer-events-none" style={{ width: '240px', height: '80px', left: '20px', top: '70px', background: 'transparent', border: '1px solid rgba(102,193,255,0.55)', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
         {/* ccc.png decorative overlay on gradient background */}
         <img
           src="/equity-ccc.png"
@@ -241,19 +245,29 @@ export default function OutOfTheBoxSolutions() {
             While our Foundry toolkits provide quick improvements, they have inherent limitations:
           </p>
 
-          {/* Component 13 — limitations box */}
-          <img
-            src="/equity-component-13.png"
-            alt="One-size-fits-all limitations"
-            style={{
-              width: '100%',
-              maxWidth: '780px',
-              height: 'auto',
-              objectFit: 'contain',
-              borderRadius: '12px',
-              marginBottom: '40px',
-            }}
-          />
+          {/* Limitations list — no container, directly on blue background */}
+          <div style={{ width: '100%', maxWidth: '640px', textAlign: 'left', marginBottom: '40px' }}>
+            {[
+              'One-size-fits-all frameworks that don\'t account for your unique context',
+              'Surface-level diagnostics that miss root causes',
+              'Generic recommendations that lack implementation depth',
+              'No mechanism to track or sustain change after delivery',
+              'Inability to integrate across functions or business units',
+              'Limited accountability — toolkits don\'t take ownership of outcomes',
+            ].map((item, i) => (
+              <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '14px', marginBottom: i < 5 ? '20px' : 0 }}>
+                {/* Circle-X icon */}
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: 0, marginTop: '2px' }}>
+                  <circle cx="12" cy="12" r="11" stroke="rgba(255,255,255,0.7)" strokeWidth="2" fill="none" />
+                  <line x1="7.5" y1="7.5" x2="16.5" y2="16.5" stroke="rgba(255,255,255,0.7)" strokeWidth="2" strokeLinecap="round" />
+                  <line x1="16.5" y1="7.5" x2="7.5" y2="16.5" stroke="rgba(255,255,255,0.7)" strokeWidth="2" strokeLinecap="round" />
+                </svg>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '17px', lineHeight: '1.65', color: 'rgba(255,255,255,0.9)', margin: 0 }}>
+                  {item}
+                </p>
+              </div>
+            ))}
+          </div>
 
           {/* Bottom CTA text */}
           <p

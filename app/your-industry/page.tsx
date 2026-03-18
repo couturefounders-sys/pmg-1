@@ -149,10 +149,12 @@ export default function YourIndustry() {
         </div>
       </div>
 
-      {/* Decorative Bars - Bottom Right */}
+      {/* Decorative Bars - Top Right + Bottom Left */}
       <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
-        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
+        {/* Top Right */}
+        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(-8deg)', transformOrigin: 'right center' }} />
+        {/* Bottom Left */}
+        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', bottom: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(-8deg)', transformOrigin: 'left center' }} />
       </div>
 
       {/* Our Work Section */}
@@ -182,11 +184,9 @@ export default function YourIndustry() {
                 className="bg-white"
                 style={{
                   width: '412px',
-                  height: '227px',
                   padding: '23px 25px',
                   border: '3px solid #14358A',
                   borderRadius: '10px',
-                  overflow: 'hidden'
                 }}
               >
                 <div className="flex items-center gap-4 mb-4">
@@ -599,11 +599,6 @@ export default function YourIndustry() {
         </div>
       </div>
 
-      {/* Decorative Bars - Top Left */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', top: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
-        <div className="absolute" style={{ width: '200px', height: '60px', left: '-10px', top: '60px', opacity: 1, background: 'linear-gradient(90deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
-      </div>
 
       {/* The Functional Consulting Advantage */}
       <div className="bg-white py-24 px-6">
@@ -681,11 +676,6 @@ export default function YourIndustry() {
         </div>
       </div>
 
-      {/* Decorative Bars - Bottom Right */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
-        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
-      </div>
 
       {/* Maximize Your Portfolio's Potential Section */}
 

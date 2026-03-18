@@ -94,10 +94,12 @@ export default function PublicSectorGovernment() {
         </div>
       </div>
 
-      {/* Decorative Bars - Bottom Right */}
+      {/* Decorative Bars - Top Right + Bottom Left */}
       <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
-        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
+        {/* Top Right */}
+        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(-8deg)', transformOrigin: 'right center' }} />
+        {/* Bottom Left */}
+        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', bottom: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(-8deg)', transformOrigin: 'left center' }} />
       </div>
 
       {/* Our Work Section */}
@@ -126,117 +128,126 @@ export default function PublicSectorGovernment() {
         {/* Cards Grid */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 412px)', gap: '60px 26px', justifyContent: 'center' }}>
           {/* Policy & Strategy Development */}
-          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
-            <div className="mb-5">
-              <img src="/icon-strategy-transformation.png" alt="Policy & Strategy" style={{ width: '64px', height: '64px' }} />
+          <div className="bg-white" style={{ width: '412px',
+                border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+              <img src="/icon-strategy-transformation.png" alt="Policy & Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <h3 className="font-bold text-[#14358A] mb-3 leading-tight" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+                Policy & Strategy<br />Development
+              </h3>
             </div>
-            <h3 className="font-bold text-[#14358A] mb-3 leading-tight" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
-              Policy & Strategy<br />Development
-            </h3>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '14px', lineHeight: '140%', color: '#68718B' }}>
               Craft, refine and operationalize policies and strategies to support economic growth, improve public service delivery, and maximize long-term societal impact.
             </p>
           </div>
 
           {/* Operational Efficiency */}
-          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
-            <div className="mb-5">
-              <img src="/icon-risk-resilience.png" alt="Operational Efficiency" style={{ width: '64px', height: '64px' }} />
+          <div className="bg-white" style={{ width: '412px',
+                border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+              <img src="/icon-risk-resilience.png" alt="Operational Efficiency" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+                Operational Efficiency
+              </h3>
             </div>
-            <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
-              Operational Efficiency
-            </h3>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '14px', lineHeight: '140%', color: '#68718B' }}>
               Support efficiency initiatives through process improvement, performance measurement, and resource allocation, enabling departments to do more with less.
             </p>
           </div>
 
           {/* Digital Government & Service Transformation */}
-          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
-            <div className="mb-5">
-              <img src="/icon-customer-experience.png" alt="Digital Government" style={{ width: '64px', height: '64px' }} />
+          <div className="bg-white" style={{ width: '412px',
+                border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+              <img src="/icon-customer-experience.png" alt="Digital Government" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+                Digital Government &<br />Service Transformation
+              </h3>
             </div>
-            <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
-              Digital Government &<br />Service Transformation
-            </h3>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '14px', lineHeight: '140%', color: '#68718B' }}>
               Design and implement digital platforms, data infrastructure, and self-service tools to significantly improve citizen accessibility and satisfaction.
             </p>
           </div>
 
           {/* Public Infrastructure & Capital Projects */}
-          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
-            <div className="mb-5">
-              <img src="/icon-regulatory-compliance.png" alt="Infrastructure" style={{ width: '64px', height: '64px' }} />
+          <div className="bg-white" style={{ width: '412px',
+                border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+              <img src="/icon-regulatory-compliance.png" alt="Infrastructure" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+                Public Infrastructure &<br />Capital Projects
+              </h3>
             </div>
-            <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
-              Public Infrastructure &<br />Capital Projects
-            </h3>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '14px', lineHeight: '140%', color: '#68718B' }}>
               Advise on the planning, financing, and delivery of major infrastructure projects, ensuring maximum public value is delivered on time and on budget.
             </p>
           </div>
 
           {/* Fiscal & Financial Management */}
-          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
-            <div className="mb-5">
-              <img src="/icon-innovation-fintech.png" alt="Fiscal Management" style={{ width: '64px', height: '64px' }} />
+          <div className="bg-white" style={{ width: '412px',
+                border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+              <img src="/icon-innovation-fintech.png" alt="Fiscal Management" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+                Fiscal & Financial<br />Management
+              </h3>
             </div>
-            <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
-              Fiscal & Financial<br />Management
-            </h3>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '14px', lineHeight: '140%', color: '#68718B' }}>
               Advise on fiscal strategy, budget optimization, and cost reduction to ensure long-term financial sustainability while maintaining critical service stability.
             </p>
           </div>
 
           {/* Workforce & Organizational Transformation */}
-          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
-            <div className="mb-5">
-              <img src="/icon-capital-performance.png" alt="Workforce" style={{ width: '64px', height: '64px' }} />
+          <div className="bg-white" style={{ width: '412px',
+                border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+              <img src="/icon-capital-performance.png" alt="Workforce" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+                Workforce & Organizational<br />Transformation
+              </h3>
             </div>
-            <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
-              Workforce & Organizational<br />Transformation
-            </h3>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '14px', lineHeight: '140%', color: '#68718B' }}>
               Strengthen workforce strategies and enhance training, and build organizational cultures that promote innovation and internal accountability.
             </p>
           </div>
 
           {/* Program Evaluation & Impact Measurement */}
-          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
-            <div className="mb-5">
-              <img src="/icon-regulatory-compliance.png" alt="Program Evaluation" style={{ width: '64px', height: '64px' }} />
+          <div className="bg-white" style={{ width: '412px',
+                border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+              <img src="/icon-regulatory-compliance.png" alt="Program Evaluation" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+                Program Evaluation &<br />Impact Measurement
+              </h3>
             </div>
-            <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
-              Program Evaluation &<br />Impact Measurement
-            </h3>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '14px', lineHeight: '140%', color: '#68718B' }}>
               Design and implement frameworks to rigorously measure program outcomes, evaluate efficacy, and ensure government investments deliver meaningful community impact.
             </p>
           </div>
 
           {/* Stakeholder Engagement & Public Consultation */}
-          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
-            <div className="mb-5">
-              <img src="/icon-innovation-fintech.png" alt="Stakeholder Engagement" style={{ width: '64px', height: '64px' }} />
+          <div className="bg-white" style={{ width: '412px',
+                border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+              <img src="/icon-innovation-fintech.png" alt="Stakeholder Engagement" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+                Stakeholder Engagement &<br />Public Consultation
+              </h3>
             </div>
-            <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
-              Stakeholder Engagement &<br />Public Consultation
-            </h3>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '14px', lineHeight: '140%', color: '#68718B' }}>
               Facilitate transparent dialogue and public consultation processes, ensuring that decisions are informed by diverse citizen and stakeholder perspectives.
             </p>
           </div>
 
           {/* Procurement & Sourcing Modernization */}
-          <div className="bg-white" style={{ width: '412px', height: '227px', border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px', overflow: 'hidden' }}>
-            <div className="mb-5">
-              <img src="/icon-capital-performance.png" alt="Procurement" style={{ width: '64px', height: '64px' }} />
+          <div className="bg-white" style={{ width: '412px',
+                border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+              <img src="/icon-capital-performance.png" alt="Procurement" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+                Procurement & Sourcing<br />Modernization
+              </h3>
             </div>
-            <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
-              Procurement & Sourcing<br />Modernization
-            </h3>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '14px', lineHeight: '140%', color: '#68718B' }}>
               Reform procurement processes to enhance transparency, achieve greater value for money, and support strategic goals like economic development and sustainability.
             </p>
@@ -524,11 +535,6 @@ export default function PublicSectorGovernment() {
         </div>
       </div>
 
-      {/* Decorative Bars - Top Left */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', top: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
-        <div className="absolute" style={{ width: '200px', height: '60px', left: '-10px', top: '60px', opacity: 1, background: 'linear-gradient(90deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
-      </div>
 
       {/* The Functional Consulting Advantage Section */}
       <div className="relative w-full py-24 bg-white overflow-hidden">
@@ -608,11 +614,6 @@ export default function PublicSectorGovernment() {
         </div>
       </div>
 
-      {/* Decorative Bars - Bottom Right */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
-        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
-      </div>
 
       {/* Partner with PMG CTA Section */}
       <div 

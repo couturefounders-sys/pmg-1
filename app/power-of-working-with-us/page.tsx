@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ROIChart from '@/components/ROIChart';
 
 export default function PowerOfWorkingWithUs() {
   return (
@@ -59,8 +60,8 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '18px',
-              lineHeight: '1.75',
+              fontSize: '30px',
+              lineHeight: '140%',
               color: '#333333',
             }}
           >
@@ -91,7 +92,7 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: '14px',
+              fontSize: '16px',
               letterSpacing: '0.04em',
               color: '#14358A',
               marginBottom: '24px',
@@ -103,8 +104,8 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '18px',
-              lineHeight: '1.75',
+              fontSize: '30px',
+              lineHeight: '140%',
               color: '#333333',
               marginBottom: '20px',
             }}
@@ -118,8 +119,8 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '18px',
-              lineHeight: '1.75',
+              fontSize: '30px',
+              lineHeight: '140%',
               color: '#333333',
             }}
           >
@@ -151,8 +152,8 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '18px',
-              lineHeight: '1.75',
+              fontSize: '30px',
+              lineHeight: '140%',
               color: '#333333',
               marginBottom: '20px',
             }}
@@ -166,8 +167,8 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: '18px',
-              lineHeight: '1.75',
+              fontSize: '30px',
+              lineHeight: '140%',
               color: '#333333',
             }}
           >
@@ -199,8 +200,8 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '18px',
-              lineHeight: '1.75',
+              fontSize: '30px',
+              lineHeight: '140%',
               color: '#333333',
               marginBottom: '32px',
             }}
@@ -214,15 +215,15 @@ export default function PowerOfWorkingWithUs() {
             style={{
               border: '3px solid #14358A',
               borderRadius: '10px',
-              padding: '24px 32px',
-              maxWidth: '540px',
+              padding: '32px 40px',
+              maxWidth: '640px',
             }}
           >
             <p
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 700,
-                fontSize: '16px',
+                fontSize: '20px',
                 lineHeight: '1.6',
                 color: '#14358A',
                 fontStyle: 'italic',
@@ -263,13 +264,13 @@ export default function PowerOfWorkingWithUs() {
           }}
         />
 
-        <div className="max-w-[960px] mx-auto relative z-10 flex flex-col items-center text-center">
+        <div className="max-w-[1200px] mx-auto relative z-10 flex flex-col items-center text-center">
           {/* Eyebrow */}
           <p
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 600,
-              fontSize: '14px',
+              fontSize: '16px',
               letterSpacing: '0.08em',
               color: 'rgba(255,255,255,0.75)',
               textTransform: 'uppercase',
@@ -326,17 +327,19 @@ export default function PowerOfWorkingWithUs() {
                 style={{
                   background: '#FDF5F0',
                   borderRadius: '16px',
-                  padding: '32px',
+                  padding: '36px',
                   textAlign: 'left',
                 }}
               >
                 <h3
                   style={{
-                    fontFamily: 'Montserrat, sans-serif',
+                    fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: '17px',
+                    fontSize: '29px',
+                    lineHeight: '105%',
+                    letterSpacing: '-0.03em',
                     color: '#D0021B',
-                    marginBottom: '12px',
+                    marginBottom: '16px',
                   }}
                 >
                   {card.title}
@@ -345,10 +348,9 @@ export default function PowerOfWorkingWithUs() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
-                    fontSize: '14px',
-                    lineHeight: '1.7',
+                    fontSize: '16px',
+                    lineHeight: '140%',
                     color: '#5F6D7E',
-                    textAlign: 'center',
                   }}
                 >
                   {card.desc}
@@ -361,7 +363,7 @@ export default function PowerOfWorkingWithUs() {
 
       {/* ─── Section 7: Engagement Breakdown ─── */}
       <section className="w-full py-24 px-6 bg-white">
-        <div className="max-w-[1100px] mx-auto">
+        <div className="max-w-[1200px] mx-auto">
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'start' }}>
 
             {/* Left — dotted rows with pill buttons */}
@@ -408,16 +410,16 @@ export default function PowerOfWorkingWithUs() {
                         gap: '12px',
                         background: '#14358A',
                         borderRadius: '999px',
-                        padding: '12px 24px',
-                        minWidth: '260px',
+                        padding: '14px 28px',
+                        minWidth: '300px',
                       }}
                     >
-                      <span style={{ fontSize: '20px' }}>{row.icon}</span>
+                      <span style={{ fontSize: '22px' }}>{row.icon}</span>
                       <span
                         style={{
                           fontFamily: 'Montserrat, sans-serif',
                           fontWeight: 700,
-                          fontSize: '15px',
+                          fontSize: '18px',
                           color: '#FFFFFF',
                         }}
                       >
@@ -433,7 +435,7 @@ export default function PowerOfWorkingWithUs() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '28px' }}>
 
               {/* PMG Model box */}
-              <div style={{ position: 'relative', borderRadius: '16px', overflow: 'hidden', background: '#EBF4FF', padding: '36px 32px' }}>
+              <div style={{ position: 'relative', borderRadius: '16px', overflow: 'hidden', background: '#EBF4FF', padding: '40px 36px' }}>
                 <img
                   src="/component-12.png"
                   alt=""
@@ -453,9 +455,11 @@ export default function PowerOfWorkingWithUs() {
                 <div style={{ position: 'relative', zIndex: 1, textAlign: 'center' }}>
                   <h3
                     style={{
-                      fontFamily: 'Montserrat, sans-serif',
+                      fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
                       fontSize: '29px',
+                      lineHeight: '105%',
+                      letterSpacing: '-0.03em',
                       color: '#14358A',
                       marginBottom: '16px',
                     }}
@@ -466,8 +470,8 @@ export default function PowerOfWorkingWithUs() {
                     style={{
                       fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 400,
-                      fontSize: '15px',
-                      lineHeight: '1.75',
+                      fontSize: '16px',
+                      lineHeight: '140%',
                       color: '#333333',
                     }}
                   >
@@ -479,7 +483,7 @@ export default function PowerOfWorkingWithUs() {
               </div>
 
               {/* Old Playbook box */}
-              <div style={{ position: 'relative', borderRadius: '16px', overflow: 'hidden', background: '#FDF0EE', padding: '36px 32px' }}>
+              <div style={{ position: 'relative', borderRadius: '16px', overflow: 'hidden', background: '#FDF0EE', padding: '40px 36px' }}>
                 <img
                   src="/component-13.png"
                   alt=""
@@ -499,9 +503,11 @@ export default function PowerOfWorkingWithUs() {
                 <div style={{ position: 'relative', zIndex: 1, textAlign: 'center' }}>
                   <h3
                     style={{
-                      fontFamily: 'Montserrat, sans-serif',
+                      fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
                       fontSize: '29px',
+                      lineHeight: '105%',
+                      letterSpacing: '-0.03em',
                       color: '#D0021B',
                       marginBottom: '16px',
                     }}
@@ -512,8 +518,8 @@ export default function PowerOfWorkingWithUs() {
                     style={{
                       fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 400,
-                      fontSize: '15px',
-                      lineHeight: '1.75',
+                      fontSize: '16px',
+                      lineHeight: '140%',
                       color: '#333333',
                     }}
                   >
@@ -531,14 +537,14 @@ export default function PowerOfWorkingWithUs() {
 
       {/* ─── Section 8: The Proof is in the Performance ─── */}
       <section className="w-full py-20 px-6 bg-white">
-        <div className="max-w-[960px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
             The Proof is in the Performance
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '18px', lineHeight: '1.75', color: '#333333', marginBottom: '48px', maxWidth: '640px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '30px', lineHeight: '140%', color: '#333333', marginBottom: '48px', maxWidth: '900px' }}>
             Our quiet, focused approach delivers loud results. We consistently outperform industry averages across key performance indicators.
           </p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px', width: '100%' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '24px', width: '100%' }}>
             {[
               { stat: '22x', label: 'Consultation ROI', desc: 'Industry-leading returns on every engagement.' },
               { stat: '30%', label: 'Higher Cost Reduction', desc: 'Efficiency gains that far surpass the industry.' },
@@ -547,10 +553,10 @@ export default function PowerOfWorkingWithUs() {
               { stat: '95%', label: 'On-Time Resolution', desc: 'A reliable partner committed to timely execution.' },
               { stat: 'Proven', label: 'Track Record', desc: 'A history of delivering measurable, tangible success.' },
             ].map((item, i) => (
-              <div key={i} style={{ border: '1.5px solid #D0D9F0', borderRadius: '12px', padding: '28px 20px', textAlign: 'left' }}>
-                <div style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '28px', color: '#14358A', marginBottom: '4px' }}>{item.stat}</div>
-                <div style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '14px', color: '#14358A', marginBottom: '8px' }}>{item.label}</div>
-                <div style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '12px', color: '#5F6D7E', lineHeight: '1.6' }}>{item.desc}</div>
+              <div key={i} style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '32px 28px', textAlign: 'left' }}>
+                <div style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '8px' }}>{item.stat}</div>
+                <div style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '12px' }}>{item.label}</div>
+                <div style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>{item.desc}</div>
               </div>
             ))}
           </div>
@@ -559,34 +565,34 @@ export default function PowerOfWorkingWithUs() {
 
       {/* ─── Section 9: Our Approach & Methodology ─── */}
       <section className="w-full py-20 px-6" style={{ background: '#F8FAFC' }}>
-        <div className="max-w-[960px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
             Our Approach &amp; Methodology
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '18px', lineHeight: '1.75', color: '#333333', marginBottom: '40px', maxWidth: '700px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '30px', lineHeight: '140%', color: '#333333', marginBottom: '48px', maxWidth: '1000px' }}>
             We use proven methodologies and cutting-edge frameworks to deliver results. But what sets PMG apart is our proprietary models: tools that provide deeper insight and unlock solutions the industry cannot match.
           </p>
 
-          <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '26px', color: '#14358A', marginBottom: '10px' }}>
+          <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '12px' }}>
             Our Proprietary Models
           </h3>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', color: '#5F6D7E', marginBottom: '36px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '140%', color: '#68718B', marginBottom: '40px' }}>
             Unique frameworks developed by PMG that unlock insights and solutions the industry cannot match.
           </p>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px', width: '100%' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '24px', width: '100%' }}>
             {[
               { icon: '/container-1.png', title: 'Sector Convergence Model', desc: 'Our proprietary framework for identifying and leveraging next-generation disruption opportunities at the intersection of industries, creating unique, durable competitive advantages.' },
               { icon: '/container-3.png', title: 'Input-Output Model', desc: 'Our integrated approach to enterprise architecture, built on field-scope work tools that drive unprecedented consistency, standardization and automation, resulting in superior quality control and reduced failure rates.' },
               { icon: '/container-2.png', title: 'Business Value-Unit Model', desc: 'Our unique method for quantifying the true ROI of cross-revenue generating departments such as HR & IT, creating holistic performance measurement and precise strategic alignment.' },
             ].map((card, i) => (
-              <div key={i} style={{ background: '#FFFFFF', border: '1.5px solid #D0D9F0', borderRadius: '14px', padding: '28px 20px', textAlign: 'left' }}>
+              <div key={i} style={{ background: '#FFFFFF', border: '3px solid #14358A', borderRadius: '10px', padding: '32px 28px', textAlign: 'left' }}>
                 <div className="flex items-center gap-4 mb-4">
-                  <img src={card.icon} alt={card.title} style={{ width: '44px', height: '44px', objectFit: 'contain', flexShrink: 0 }} />
-                  <div style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '15px', color: '#14358A', margin: 0 }}>{card.title}</div>
+                  <img src={card.icon} alt={card.title} style={{ width: '64px', height: '64px', objectFit: 'contain', flexShrink: 0 }} />
+                  <div style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', margin: 0 }}>{card.title}</div>
                 </div>
-                <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', lineHeight: '1.7', color: '#5F6D7E' }}>{card.desc}</p>
-                <a href="#" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '13px', color: '#14358A', marginTop: '14px', display: 'inline-block' }}>Read More ›</a>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>{card.desc}</p>
+                <a href="#" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '16px', color: '#14358A', marginTop: '16px', display: 'inline-block' }}>Read More ›</a>
               </div>
             ))}
           </div>
@@ -595,23 +601,23 @@ export default function PowerOfWorkingWithUs() {
 
       {/* ─── Section 10: Proven Industry Frameworks ─── */}
       <section className="w-full py-20 px-6 bg-white">
-        <div className="max-w-[780px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '12px' }}>
             Proven Industry Frameworks
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '15px', color: '#5F6D7E', marginBottom: '40px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '140%', color: '#68718B', marginBottom: '40px' }}>
             We leverage established methodologies that have stood the test of time across industries.
           </p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '16px', width: '100%', border: '2px dashed #A0B4E8', borderRadius: '14px', padding: '28px 20px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '24px', width: '100%', border: '3px dashed #A0B4E8', borderRadius: '10px', padding: '36px 28px' }}>
             {[
               { icon: '/p.png', label: 'Agile' },
               { icon: '/q.png', label: 'Lean' },
               { icon: '/q.png', label: 'Six Sigma' },
               { icon: '/p.png', label: 'Waterfall' },
             ].map((fw, i) => (
-              <div key={i} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}>
-                <img src={fw.icon} alt={fw.label} style={{ width: '48px', height: '48px', objectFit: 'contain' }} />
-                <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: '14px', color: '#14358A' }}>{fw.label}</span>
+              <div key={i} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px' }}>
+                <img src={fw.icon} alt={fw.label} style={{ width: '64px', height: '64px', objectFit: 'contain' }} />
+                <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '105%', color: '#14358A' }}>{fw.label}</span>
               </div>
             ))}
           </div>
@@ -620,31 +626,31 @@ export default function PowerOfWorkingWithUs() {
 
       {/* ─── Section 11: The Right Solution, Every Time ─── */}
       <section className="w-full py-16 px-6" style={{ background: '#F8FAFC' }}>
-        <div className="max-w-[780px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[900px] mx-auto flex flex-col items-center text-center">
           {/* Formula row */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '20px', marginBottom: '40px', flexWrap: 'wrap', justifyContent: 'center' }}>
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '6px' }}>
-              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '36px', color: '#14358A' }}>3</span>
-              <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', color: '#5F6D7E' }}>Proprietary Models</span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '24px', marginBottom: '48px', flexWrap: 'wrap', justifyContent: 'center' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px' }}>
+              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', color: '#14358A' }}>3</span>
+              <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>Proprietary Models</span>
             </div>
-            <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', color: '#14358A' }}>+</span>
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '6px' }}>
-              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '36px', color: '#14358A' }}>8</span>
-              <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', color: '#5F6D7E' }}>Proven Frameworks</span>
+            <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', color: '#14358A' }}>+</span>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px' }}>
+              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', color: '#14358A' }}>8</span>
+              <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>Proven Frameworks</span>
             </div>
-            <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', color: '#14358A' }}>=</span>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', background: '#14358A', borderRadius: '999px', padding: '12px 24px' }}>
-              <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '15px', color: '#FFFFFF' }}>🎯 The Right Solution, Every Time</span>
+            <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', color: '#14358A' }}>=</span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', background: '#14358A', borderRadius: '999px', padding: '16px 32px' }}>
+              <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '18px', color: '#FFFFFF' }}>🎯 The Right Solution, Every Time</span>
             </div>
           </div>
 
           {/* Philosophy box */}
-          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px 32px', textAlign: 'left', width: '100%' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '14px' }}>
-              <span style={{ width: '10px', height: '10px', borderRadius: '50%', border: '2px solid #14358A', display: 'inline-block' }} />
-              <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '16px', color: '#14358A' }}>Our Philosophy of Application</h3>
+          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '36px 40px', textAlign: 'left', width: '100%' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
+              <span style={{ width: '12px', height: '12px', borderRadius: '50%', border: '2px solid #14358A', display: 'inline-block', flexShrink: 0 }} />
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Our Philosophy of Application</h3>
             </div>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.75', color: '#333333' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '140%', color: '#333333' }}>
               No single method is right for every situation. PMG selects and adapts frameworks based on each client&apos;s specific needs, culture, and goals. Our objective is to use the least-change-demanding methods first, balancing the amount of disruption with the impact it will create, based on your needs and the results you are looking for.
             </p>
           </div>
@@ -653,55 +659,53 @@ export default function PowerOfWorkingWithUs() {
 
       {/* ─── Section 12: A Commitment to Continuous Improvement ─── */}
       <section className="w-full py-20 px-6 bg-white">
-        <div className="max-w-[960px] mx-auto" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center' }}>
+        <div className="max-w-[1200px] mx-auto" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center' }}>
           <div>
             <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
               A Commitment to Continuous Improvement
             </h2>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#333333' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '140%', color: '#333333' }}>
               Our 22x ROI was not instant. It was earned. In 2018, we matched the industry average of 6–8x. But average was never the goal. In 2020, we made client ROI our north star. That focus pushed us to 10x and continues to drive improvement today. Whatever our current benchmark, we refine, learn, and raise it. Continuous improvement is not a slogan; it is our operating model.
             </p>
           </div>
-          <div style={{ borderRadius: '14px', overflow: 'hidden', border: '1.5px solid #D0D9F0' }}>
-            <img src="/line.png" alt="Continuous Improvement Chart" style={{ width: '100%', height: 'auto', display: 'block' }} />
-          </div>
+          <ROIChart />
         </div>
       </section>
 
       {/* ─── Section 13: Still Not Convinced? ─── */}
       <section className="w-full py-20 px-6" style={{ background: '#F8FAFC' }}>
-        <div className="max-w-[960px] mx-auto">
+        <div className="max-w-[1200px] mx-auto">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'center', marginBottom: '48px' }}>
             Still Not Convinced?
           </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '48px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px' }}>
             {/* Left */}
             <div>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#333333', marginBottom: '20px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '140%', color: '#333333', marginBottom: '20px' }}>
                 We understand the skepticism. In many cases, it is earned. Almost one-third of our clients come to us after a major consulting engagement failed to deliver meaningful results.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#333333', marginBottom: '20px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '140%', color: '#333333', marginBottom: '20px' }}>
                 If you are not confident we are the right partner, you should not hire us yet.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#333333', marginBottom: '20px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '140%', color: '#333333', marginBottom: '20px' }}>
                 We are not here to trap you. We are here to help.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#333333', marginBottom: '20px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '140%', color: '#333333', marginBottom: '20px' }}>
                 If you choose another firm and later find that you are still not where you would like to be, we will be here when you are ready.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#5F6D7E' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
                 No pressure. No long-term commitment. Just a conversation.
               </p>
             </div>
             {/* Right */}
             <div>
-              <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '17px', color: '#14358A', marginBottom: '16px' }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
                 Why Are We So Confident?
               </h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#333333', marginBottom: '16px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '140%', color: '#333333', marginBottom: '20px' }}>
                 We are often asked how we back our bold claims. The answer is simple: we built a system to check our own work.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.8', color: '#333333', marginBottom: '16px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '140%', color: '#333333' }}>
                 Our proprietary C2 Specification and Anonymous QA Review means every strategy we propose has already been stress-tested by a separate committee of experts before we even present it to you. We are as committed to eliminating our own blind spots and biases that we have institutionalized the peer review process. Our confidence comes not from arrogance, but from a proven, systematic method of validation.
               </p>
             </div>
@@ -718,13 +722,14 @@ export default function PowerOfWorkingWithUs() {
           <a
             href="/contact-us"
             style={{
-              background: '#6A36FF',
+              background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
               color: '#FFFFFF',
-              fontFamily: 'Montserrat, sans-serif',
+              fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '15px',
-              padding: '16px 36px',
-              borderRadius: '999px',
+              fontSize: '20px',
+              lineHeight: '140%',
+              padding: '20px 48px',
+              borderRadius: '10px',
               textDecoration: 'none',
               display: 'inline-block',
             }}

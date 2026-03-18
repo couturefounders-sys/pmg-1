@@ -103,10 +103,12 @@ export default function B2BProfessionalServices() {
         </div>
       </div>
 
-      {/* Decorative Bars - Bottom Right */}
+      {/* Decorative Bars - Top Right + Bottom Left */}
       <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
-        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
+        {/* Top Right */}
+        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(-8deg)', transformOrigin: 'right center' }} />
+        {/* Bottom Left */}
+        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', bottom: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(-8deg)', transformOrigin: 'left center' }} />
       </div>
 
       {/* Our Work Section */}
@@ -134,22 +136,19 @@ export default function B2BProfessionalServices() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px',
-                overflow: 'hidden'
-              }}
+                borderRadius: '10px',}}
             >
-              <div className="mb-6">
-                <img src="/icon-strategy-transformation.png" alt="Service Delivery" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-strategy-transformation.png" alt="Service Delivery" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A] mb-4"
+                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                >
+                  Service Delivery & Margin Optimization
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                Service Delivery & Margin Optimization
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '16px', lineHeight: '140%' }}
@@ -163,22 +162,19 @@ export default function B2BProfessionalServices() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px',
-                overflow: 'hidden'
-              }}
+                borderRadius: '10px',}}
             >
-              <div className="mb-6">
-                <img src="/icon-risk-resilience.png" alt="Operational Excellence" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-risk-resilience.png" alt="Operational Excellence" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A] mb-4"
+                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                >
+                  Operational Excellence for Corporate Functions
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                Operational Excellence for Corporate Functions
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '16px', lineHeight: '140%' }}
@@ -192,22 +188,19 @@ export default function B2BProfessionalServices() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px',
-                overflow: 'hidden'
-              }}
+                borderRadius: '10px',}}
             >
-              <div className="mb-6">
-                <img src="/icon-customer-experience.png" alt="Client Relationship" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-customer-experience.png" alt="Client Relationship" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A] mb-4"
+                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                >
+                  Client Relationship & Lifecycle Management
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                Client Relationship & Lifecycle Management
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '16px', lineHeight: '140%' }}
@@ -221,22 +214,19 @@ export default function B2BProfessionalServices() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px',
-                overflow: 'hidden'
-              }}
+                borderRadius: '10px',}}
             >
-              <div className="mb-6">
-                <img src="/icon-regulatory-compliance.png" alt="Talent Management" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-regulatory-compliance.png" alt="Talent Management" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A] mb-4"
+                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                >
+                  Talent Management & Professional Development
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                Talent Management & Professional Development
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '16px', lineHeight: '140%' }}
@@ -250,22 +240,19 @@ export default function B2BProfessionalServices() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px',
-                overflow: 'hidden'
-              }}
+                borderRadius: '10px',}}
             >
-              <div className="mb-6">
-                <img src="/icon-innovation-fintech.png" alt="Partnership Governance" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-innovation-fintech.png" alt="Partnership Governance" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A] mb-4"
+                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                >
+                  Partnership & Firm Governance
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                Partnership & Firm Governance
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '16px', lineHeight: '140%' }}
@@ -279,22 +266,19 @@ export default function B2BProfessionalServices() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
-                borderRadius: '10px',
-                overflow: 'hidden'
-              }}
+                borderRadius: '10px',}}
             >
-              <div className="mb-6">
-                <img src="/icon-capital-performance.png" alt="Risk Management" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-capital-performance.png" alt="Risk Management" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A] mb-4"
+                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                >
+                  Risk Management & Quality Assurance
+                </h3>
               </div>
-              <h3
-                className="font-dm-sans font-bold text-[#14358A] mb-4"
-                style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
-              >
-                Risk Management & Quality Assurance
-              </h3>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: '16px', lineHeight: '140%' }}
@@ -639,11 +623,6 @@ export default function B2BProfessionalServices() {
         </div>
       </div>
 
-      {/* Decorative Bars - Top Left */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', top: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
-        <div className="absolute" style={{ width: '200px', height: '60px', left: '-10px', top: '60px', opacity: 1, background: 'linear-gradient(90deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
-      </div>
 
       {/* The Functional Consulting Advantage Section */}
       <div className="bg-white py-24 px-6">
@@ -721,11 +700,6 @@ export default function B2BProfessionalServices() {
         </div>
       </div>
 
-      {/* Decorative Bars - Bottom Right */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
-        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
-      </div>
 
       {/* Call to Action Section */}
       <div

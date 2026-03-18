@@ -110,10 +110,12 @@ export default function HigherEducationEdTech() {
         </div>
       </div>
 
-      {/* Decorative Bars - Bottom Right */}
+      {/* Decorative Bars - Top Right + Bottom Left */}
       <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
-        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
+        {/* Top Right */}
+        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(-8deg)', transformOrigin: 'right center' }} />
+        {/* Bottom Left */}
+        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', bottom: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(-8deg)', transformOrigin: 'left center' }} />
       </div>
 
       {/* Our Work Section */}
@@ -158,29 +160,19 @@ export default function HigherEducationEdTech() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '23px 25px',
-                overflow: 'hidden'
-              }}
+                padding: '23px 25px',}}
             >
-              <div className="mb-6">
-                <img src="/icon-strategy-transformation.png" alt="Transformation Strategy" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-strategy-transformation.png" alt="Transformation Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-bold mb-3"
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                >
+                  Transformation Strategy & Implementation
+                </h3>
               </div>
-
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Transformation Strategy & Implementation
-              </h3>
 
               <p 
                 style={{
@@ -199,29 +191,19 @@ export default function HigherEducationEdTech() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '23px 25px',
-                overflow: 'hidden'
-              }}
+                padding: '23px 25px',}}
             >
-              <div className="mb-6">
-                <img src="/icon-risk-resilience.png" alt="Operational Efficiency" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-risk-resilience.png" alt="Operational Efficiency" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-bold mb-3"
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                >
+                  Operational Efficiency
+                </h3>
               </div>
-
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Operational Efficiency
-              </h3>
 
               <p 
                 style={{
@@ -240,29 +222,19 @@ export default function HigherEducationEdTech() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '23px 25px',
-                overflow: 'hidden'
-              }}
+                padding: '23px 25px',}}
             >
-              <div className="mb-6">
-                <img src="/icon-customer-experience.png" alt="Digital Transformation" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-customer-experience.png" alt="Digital Transformation" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-bold mb-3"
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                >
+                  Digital Government & Service Transformation
+                </h3>
               </div>
-
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Digital Government & Service Transformation
-              </h3>
 
               <p 
                 style={{
@@ -281,29 +253,19 @@ export default function HigherEducationEdTech() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '23px 25px',
-                overflow: 'hidden'
-              }}
+                padding: '23px 25px',}}
             >
-              <div className="mb-6">
-                <img src="/icon-regulatory-compliance.png" alt="Academic Portfolio" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-regulatory-compliance.png" alt="Academic Portfolio" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-bold mb-3"
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                >
+                  Academic Portfolio & Program Design
+                </h3>
               </div>
-
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Academic Portfolio & Program Design
-              </h3>
 
               <p 
                 style={{
@@ -322,29 +284,19 @@ export default function HigherEducationEdTech() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '23px 25px',
-                overflow: 'hidden'
-              }}
+                padding: '23px 25px',}}
             >
-              <div className="mb-6">
-                <img src="/icon-innovation-fintech.png" alt="Governance & Risk" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-innovation-fintech.png" alt="Governance & Risk" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-bold mb-3"
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                >
+                  Governance & Risk
+                </h3>
               </div>
-
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Governance & Risk
-              </h3>
 
               <p 
                 style={{
@@ -363,29 +315,19 @@ export default function HigherEducationEdTech() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '23px 25px',
-                overflow: 'hidden'
-              }}
+                padding: '23px 25px',}}
             >
-              <div className="mb-6">
-                <img src="/icon-capital-performance.png" alt="Faculty & Staff Engagement" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-capital-performance.png" alt="Faculty & Staff Engagement" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-bold mb-3"
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                >
+                  Faculty & Staff Engagement
+                </h3>
               </div>
-
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Faculty & Staff Engagement
-              </h3>
 
               <p 
                 style={{
@@ -404,29 +346,19 @@ export default function HigherEducationEdTech() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '23px 25px',
-                overflow: 'hidden'
-              }}
+                padding: '23px 25px',}}
             >
-              <div className="mb-6">
-                <img src="/icon-regulatory-compliance.png" alt="Program Evaluation" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-regulatory-compliance.png" alt="Program Evaluation" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-bold mb-3"
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                >
+                  Program Evaluation & Impact Measurement
+                </h3>
               </div>
-
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Program Evaluation & Impact Measurement
-              </h3>
 
               <p 
                 style={{
@@ -445,29 +377,19 @@ export default function HigherEducationEdTech() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '23px 25px',
-                overflow: 'hidden'
-              }}
+                padding: '23px 25px',}}
             >
-              <div className="mb-6">
-                <img src="/icon-innovation-fintech.png" alt="Research Performance" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-innovation-fintech.png" alt="Research Performance" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-bold mb-3"
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                >
+                  Research Performance
+                </h3>
               </div>
-
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Research Performance
-              </h3>
 
               <p 
                 style={{
@@ -486,29 +408,19 @@ export default function HigherEducationEdTech() {
               className="bg-white"
               style={{
                 width: '412px',
-                height: '227px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '23px 25px',
-                overflow: 'hidden'
-              }}
+                padding: '23px 25px',}}
             >
-              <div className="mb-6">
-                <img src="/icon-capital-performance.png" alt="Alumni Relations" style={{ width: '64px', height: '64px' }} />
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-capital-performance.png" alt="Alumni Relations" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-bold mb-3"
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '29px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                >
+                  Alumni Relations & Fundraising
+                </h3>
               </div>
-
-              <h3 
-                className="font-bold mb-3"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontSize: '29px',
-                  lineHeight: '105%',
-                  letterSpacing: '-0.03em',
-                  color: '#14358A'
-                }}
-              >
-                Alumni Relations & Fundraising
-              </h3>
 
               <p 
                 style={{
@@ -805,11 +717,6 @@ export default function HigherEducationEdTech() {
         </div>
       </div>
 
-      {/* Decorative Bars - Top Left */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', top: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
-        <div className="absolute" style={{ width: '200px', height: '60px', left: '-10px', top: '60px', opacity: 1, background: 'linear-gradient(90deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
-      </div>
 
       {/* The Functional Consulting Advantage Section */}
       <div className="relative w-full py-24 bg-white overflow-hidden">
@@ -887,12 +794,6 @@ export default function HigherEducationEdTech() {
             </a>
           </div>
         </div>
-      </div>
-
-      {/* Decorative Bars - Bottom Right */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
-        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
       </div>
 
       {/* Partner with PMG CTA Section */}

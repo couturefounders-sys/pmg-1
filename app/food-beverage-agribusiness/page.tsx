@@ -116,10 +116,12 @@ export default function FoodBeverageAgribusiness() {
         </div>
       </div>
 
-      {/* Decorative Bars - Bottom Right */}
+      {/* Decorative Bars - Top Right + Bottom Left */}
       <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
-        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
+        {/* Top Right */}
+        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(-8deg)', transformOrigin: 'right center' }} />
+        {/* Bottom Left */}
+        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', bottom: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(-8deg)', transformOrigin: 'left center' }} />
       </div>
 
       {/* Our Work Section */}
@@ -163,36 +165,24 @@ export default function FoodBeverageAgribusiness() {
             className="bg-white"
             style={{
               width: '412px',
-              height: '227px',
-              border: '3px solid #14358A',
+                border: '3px solid #14358A',
               borderRadius: '10px',
-              padding: '23px 25px',
-              overflow: 'hidden'
-            }}
+              padding: '23px 25px',}}
           >
-            <div className="mb-4">
-              <img
-                src="/icon-strategy-transformation.png"
-                alt="Growth & Market Strategy"
-                style={{
-                  width: '64px',
-                  height: '64px',
-                }}
-              />
-            </div>
-            <h3
-              className="mb-3"
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+              <img src="/icon-strategy-transformation.png" alt="Growth & Market Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <h3
+                className="mb-3"
+                style={{ fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
                 fontSize: '29px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
-                color: '#14358A',
-              }}
-            >
-              Growth & Market Strategy
-            </h3>
+                color: '#14358A', }}
+              >
+                Growth & Market Strategy
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -212,36 +202,24 @@ export default function FoodBeverageAgribusiness() {
             className="bg-white"
             style={{
               width: '412px',
-              height: '227px',
-              border: '3px solid #14358A',
+                border: '3px solid #14358A',
               borderRadius: '10px',
-              padding: '23px 25px',
-              overflow: 'hidden'
-            }}
+              padding: '23px 25px',}}
           >
-            <div className="mb-4">
-              <img
-                src="/icon-risk-resilience.png"
-                alt="Operational Excellence"
-                style={{
-                  width: '64px',
-                  height: '64px',
-                }}
-              />
-            </div>
-            <h3
-              className="mb-3"
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+              <img src="/icon-risk-resilience.png" alt="Operational Excellence" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <h3
+                className="mb-3"
+                style={{ fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
                 fontSize: '29px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
-                color: '#14358A',
-              }}
-            >
-              Operational Excellence
-            </h3>
+                color: '#14358A', }}
+              >
+                Operational Excellence
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -261,36 +239,24 @@ export default function FoodBeverageAgribusiness() {
             className="bg-white"
             style={{
               width: '412px',
-              height: '227px',
-              border: '3px solid #14358A',
+                border: '3px solid #14358A',
               borderRadius: '10px',
-              padding: '23px 25px',
-              overflow: 'hidden'
-            }}
+              padding: '23px 25px',}}
           >
-            <div className="mb-4">
-              <img
-                src="/icon-customer-experience.png"
-                alt="Customer & Guest Experience"
-                style={{
-                  width: '64px',
-                  height: '64px',
-                }}
-              />
-            </div>
-            <h3
-              className="mb-3"
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+              <img src="/icon-customer-experience.png" alt="Customer & Guest Experience" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <h3
+                className="mb-3"
+                style={{ fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
                 fontSize: '29px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
-                color: '#14358A',
-              }}
-            >
-              Customer & Guest Experience
-            </h3>
+                color: '#14358A', }}
+              >
+                Customer & Guest Experience
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -310,36 +276,24 @@ export default function FoodBeverageAgribusiness() {
             className="bg-white"
             style={{
               width: '412px',
-              height: '227px',
-              border: '3px solid #14358A',
+                border: '3px solid #14358A',
               borderRadius: '10px',
-              padding: '23px 25px',
-              overflow: 'hidden'
-            }}
+              padding: '23px 25px',}}
           >
-            <div className="mb-4">
-              <img
-                src="/icon-regulatory-compliance.png"
-                alt="Supply Chain & Sustainability"
-                style={{
-                  width: '64px',
-                  height: '64px',
-                }}
-              />
-            </div>
-            <h3
-              className="mb-3"
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+              <img src="/icon-regulatory-compliance.png" alt="Supply Chain & Sustainability" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <h3
+                className="mb-3"
+                style={{ fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
                 fontSize: '29px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
-                color: '#14358A',
-              }}
-            >
-              Supply Chain & Sustainability
-            </h3>
+                color: '#14358A', }}
+              >
+                Supply Chain & Sustainability
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -359,36 +313,24 @@ export default function FoodBeverageAgribusiness() {
             className="bg-white"
             style={{
               width: '412px',
-              height: '227px',
-              border: '3px solid #14358A',
+                border: '3px solid #14358A',
               borderRadius: '10px',
-              padding: '23px 25px',
-              overflow: 'hidden'
-            }}
+              padding: '23px 25px',}}
           >
-            <div className="mb-4">
-              <img
-                src="/icon-innovation-fintech.png"
-                alt="Labor & Workforce Transformation"
-                style={{
-                  width: '64px',
-                  height: '64px',
-                }}
-              />
-            </div>
-            <h3
-              className="mb-3"
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+              <img src="/icon-innovation-fintech.png" alt="Labor & Workforce Transformation" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <h3
+                className="mb-3"
+                style={{ fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
                 fontSize: '29px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
-                color: '#14358A',
-              }}
-            >
-              Labor & Workforce Transformation
-            </h3>
+                color: '#14358A', }}
+              >
+                Labor & Workforce Transformation
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -408,36 +350,24 @@ export default function FoodBeverageAgribusiness() {
             className="bg-white"
             style={{
               width: '412px',
-              height: '227px',
-              border: '3px solid #14358A',
+                border: '3px solid #14358A',
               borderRadius: '10px',
-              padding: '23px 25px',
-              overflow: 'hidden'
-            }}
+              padding: '23px 25px',}}
           >
-            <div className="mb-4">
-              <img
-                src="/icon-capital-performance.png"
-                alt="Financial Performance & Turnaround"
-                style={{
-                  width: '64px',
-                  height: '64px',
-                }}
-              />
-            </div>
-            <h3
-              className="mb-3"
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
+                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+              <img src="/icon-capital-performance.png" alt="Financial Performance & Turnaround" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <h3
+                className="mb-3"
+                style={{ fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
                 fontSize: '29px',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
-                color: '#14358A',
-              }}
-            >
-              Financial Performance & Turnaround
-            </h3>
+                color: '#14358A', }}
+              >
+                Financial Performance & Turnaround
+              </h3>
+            </div>
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -891,12 +821,6 @@ export default function FoodBeverageAgribusiness() {
         </div>
       </div>
 
-      {/* Decorative Bars - Top Left */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', top: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
-        <div className="absolute" style={{ width: '200px', height: '60px', left: '-10px', top: '60px', opacity: 1, background: 'linear-gradient(90deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
-      </div>
-
       {/* The Functional Consulting Advantage Section */}
       <div className="relative w-full py-20 bg-white overflow-hidden">
 
@@ -972,12 +896,6 @@ export default function FoodBeverageAgribusiness() {
             </a>
           </div>
         </div>
-      </div>
-
-      {/* Decorative Bars - Bottom Right */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
-        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
-        <div className="absolute" style={{ width: '325px', height: '60px', right: '-10px', top: '60px', opacity: 0.2, background: '#5B9BD5', transform: 'rotate(8deg)', transformOrigin: 'right center' }} />
       </div>
 
       {/* Partner with PMG CTA Section */}

@@ -8,41 +8,12 @@ import { usePathname } from 'next/navigation';
 export default function Header() {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const pathname = usePathname();
-  const isAboutPage = pathname === '/about';
-  const isYourIndustryPage = pathname === '/your-industry';
-  const isFunctionalAreasPage = pathname === '/our-functional-areas';
-  const isSolutionsPage = pathname === '/our-solutions';
-  const isBespokeSolutionsPage = pathname === '/bespoke-solutions';
-  const isInsightsPage = pathname === '/insights';
-  const isInsightsInnovationsPage = pathname === '/insights-innovations';
-  const isSaaSPage = pathname === '/saas-enterprise-technology';
-  const isPublicSectorPage = pathname === '/public-sector-government';
-  const isHigherEducationPage = pathname === '/higher-education-edtech';
-  const isFoodAgribusinessPage = pathname === '/food-beverage-agribusiness';
-  const isTravelHospitalityPage = pathname === '/travel-tourism-hospitality';
-  const isWhyFunctionalConsultingPage = pathname === '/why-functional-consulting';
-  const isStrategyOperationsPage = pathname === '/strategy-operations-consulting';
-  const isPeopleOrganizationsPage = pathname === '/people-organizations-consulting';
-  const isCustomerExperiencePage = pathname === '/customer-experience-consulting';
-  const isMergersAcquisitionsPage = pathname === '/mergers-acquisitions-consulting';
-  const isActiveManagementPage = pathname === '/active-management-solutions';
-  const isEquitySolutionsPage = pathname === '/equity-solutions';
-  const isOutOfTheBoxPage = pathname === '/out-of-the-box-solutions';
-  const isPowerOfWorkingWithUsPage = pathname === '/power-of-working-with-us';
-  const isContactUsPage = pathname === '/contact-us';
-  const isSolutionAssessmentPage = pathname === '/solution-assessment-tool';
-  const isFinancialServicesPage = pathname === '/financial-services-fintech';
-  const isB2BProfessionalServicesPage = pathname === '/b2b-professional-services';
-  const isIOArchitecturePage = pathname === '/io-architecture-model';
-  const isBVUModelPage = pathname === '/business-value-unit-model';
-  const isBrandingMarketingPage = pathname === '/branding-marketing-consulting';
-   const isBPOFractionalPage = pathname === '/bpo-fractional-talent-consulting';
-   const isCrisisTransitionPage = pathname === '/crisis-transition-management';
-   const isResourcesPage = pathname === '/resources';
-   const isLightPage = isAboutPage || isYourIndustryPage || isFunctionalAreasPage || isSolutionsPage || isBespokeSolutionsPage || isInsightsPage || isInsightsInnovationsPage || isSaaSPage || isPublicSectorPage || isHigherEducationPage || isFoodAgribusinessPage || isTravelHospitalityPage || isWhyFunctionalConsultingPage || isStrategyOperationsPage || isPeopleOrganizationsPage || isCustomerExperiencePage || isMergersAcquisitionsPage || isActiveManagementPage || isEquitySolutionsPage || isOutOfTheBoxPage || isPowerOfWorkingWithUsPage || isContactUsPage || isSolutionAssessmentPage || isFinancialServicesPage || isB2BProfessionalServicesPage || isIOArchitecturePage || isBVUModelPage || isBrandingMarketingPage || isBPOFractionalPage || isCrisisTransitionPage || isResourcesPage;
+
+  // Only the home page has a dark background, all other pages have light backgrounds
+  const isHomePage = pathname === '/';
+  const isLightPage = !isHomePage;
 
   const textColor = isLightPage ? 'text-black' : 'text-white';
-  const logoTextColor = isLightPage ? 'text-[#000000]' : 'text-white'; // purely black for logo text on light pages
   const chevronColor = isLightPage ? '#000000' : 'white';
 
   const navItems = [
@@ -102,7 +73,7 @@ export default function Header() {
     <header className="absolute top-0 left-0 right-0 z-[200]">
       <div className="max-w-[1440px] mx-auto relative" style={{ height: '100px' }}>
         {/* Logo Icon */}
-        <div className="absolute" style={{ top: '23px', left: '85px' }}>
+        <div className="absolute" style={{ top: '23px', left: '0px' }}>
           <Image
             src="/logo.png"
             alt="PMG Logo Icon"
@@ -112,23 +83,33 @@ export default function Header() {
           />
         </div>
 
-        {/* PMG Text */}
-        <div
-          className={`absolute ${logoTextColor} logo-text text-center`}
-          style={{
-            top: '32px',
-            left: '140px',
-            fontSize: '35px',
-            lineHeight: '100%',
-          }}
-        >
-          PMG
+        {/* PMG Logo Image */}
+        <div className="absolute" style={{ top: '37px', left: '62px' }}>
+          <Image
+            src={isLightPage ? '/PMG_dark.png' : '/PMG.png'}
+            alt="PMG"
+            width={80}
+            height={40}
+            priority
+            style={{ objectFit: 'contain' }}
+          />
         </div>
 
         {/* Navigation - Centered Group */}
         <nav className="absolute flex items-center gap-12" style={{ top: '38px', left: '50%', transform: 'translateX(-50%)' }}>
           {navItems.map((item) => {
-            const isActive = pathname === item.href;
+            // Map sub-pages to their parent nav item so the active pill shows correctly
+            const industryPaths = ['/your-industry', '/financial-services-fintech', '/saas-enterprise-technology', '/public-sector-government', '/higher-education-edtech', '/food-beverage-agribusiness', '/travel-tourism-hospitality', '/b2b-professional-services', '/why-functional-consulting'];
+            const functionalAreasPaths = ['/our-functional-areas', '/strategy-operations-consulting', '/people-organizations-consulting', '/customer-experience-consulting', '/mergers-acquisitions-consulting', '/branding-marketing-consulting', '/bpo-fractional-talent-consulting', '/crisis-transition-management'];
+            const solutionsPaths = ['/our-solutions', '/bespoke-solutions', '/active-management-solutions', '/equity-solutions', '/out-of-the-box-solutions', '/power-of-working-with-us', '/solution-assessment-tool'];
+            const insightsPaths = ['/insights-innovations', '/insights', '/resources', '/io-architecture-model', '/business-value-unit-model'];
+
+            const isActive =
+              item.name === 'Your Industry' ? industryPaths.includes(pathname) :
+              item.name === 'Our functional areas' ? functionalAreasPaths.includes(pathname) :
+              item.name === 'Our Solutions' ? solutionsPaths.includes(pathname) :
+              item.name === 'Insights & Innovations' ? insightsPaths.includes(pathname) :
+              pathname === item.href;
             const isOpen = openDropdown === item.name;
 
             return (
@@ -280,6 +261,7 @@ export default function Header() {
           })}
         </nav>
       </div>
+
     </header>
   );
 }
