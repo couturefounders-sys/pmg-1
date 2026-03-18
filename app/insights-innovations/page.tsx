@@ -67,14 +67,14 @@ export default function InsightsInnovationsPage() {
           ))}
 
           {/* Featured article */}
-          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px', background: '#FFFFFF', width: '100%', maxWidth: '945px' }}>
+          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px', background: '#FFFFFF', width: '100%', maxWidth: '945px', alignSelf: 'center', textAlign: 'center' }}>
             <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '18px', color: '#14358A', marginBottom: '8px' }}>Deconstructing Risk</h3>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '14px', fontWeight: 600, color: '#68718B', marginBottom: '10px' }}>How Modern Portfolio Theory Applies to Business Operations</p>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', lineHeight: '1.7', color: '#5F6D7E' }}>Explore how principles from finance can be used to build more resilient, diversified, and antifragile business operations.</p>
           </div>
 
           {/* Email signup */}
-          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px', background: '#FFFFFF', display: 'flex', gap: '24px', alignItems: 'center', flexWrap: 'wrap', width: '100%', maxWidth: '945px' }}>
+          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px', background: '#FFFFFF', display: 'flex', gap: '24px', alignItems: 'center', flexWrap: 'wrap', width: '100%', maxWidth: '945px', alignSelf: 'center' }}>
             <div style={{ flex: 1, minWidth: '200px' }}>
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '17px', color: '#14358A', marginBottom: '8px' }}>Get Our Latest Thinking</h3>
               <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '12.5px', lineHeight: '1.7', color: '#5F6D7E' }}>Join executives who receive our monthly intellectual wanderings. No business platitudes, just interesting ideas applied to complex problems.</p>

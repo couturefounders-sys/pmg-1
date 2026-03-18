@@ -7,16 +7,16 @@ export default function BusinessValueUnitModelPage() {
       <Header />
 
       {/* Section 1: Hero */}
-      <section className="w-full pt-36 pb-20 px-6 bg-white">
+      <section className="w-full pt-24 lg:pt-36 pb-14 lg:pb-20 px-4 sm:px-6 bg-white">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <p
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: '16px',
+              fontSize: 'clamp(12px, 1.11vw, 16px)',
               letterSpacing: '0.04em',
               color: '#14358A',
-              marginBottom: '16px',
+              marginBottom: 'clamp(12px, 1.11vw, 16px)',
             }}
           >
             The Business Value Unit (BVU) Model
@@ -25,11 +25,11 @@ export default function BusinessValueUnitModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(30px, 3.33vw, 48px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
-              marginBottom: '28px',
+              marginBottom: 'clamp(16px, 1.94vw, 28px)',
             }}
           >
             The End of Arbitrary Capital Allocation
@@ -39,7 +39,7 @@ export default function BusinessValueUnitModelPage() {
                fontFamily: 'Montserrat, sans-serif',
                fontWeight: 400,
                fontStyle: 'normal',
-               fontSize: '30px',
+               fontSize: 'clamp(16px, 2.08vw, 30px)',
                lineHeight: '140%',
                letterSpacing: '0%',
                textAlign: 'center',
@@ -60,7 +60,7 @@ export default function BusinessValueUnitModelPage() {
 
        {/* Section 2: The Unquantified Cost of Flawed Executive Decisions */}
        <section 
-         className="w-full py-20 px-6 relative overflow-hidden" 
+         className="w-full py-14 lg:py-20 px-4 sm:px-6 relative overflow-hidden" 
          style={{ 
            background: 'linear-gradient(135deg, #1B45B4 0%, #1C2792 100%)',
          }}
@@ -86,12 +86,12 @@ export default function BusinessValueUnitModelPage() {
              style={{
                fontFamily: 'DM Sans, sans-serif',
                fontWeight: 700,
-               fontSize: '48px',
+               fontSize: 'clamp(28px, 3.33vw, 48px)',
                lineHeight: '105%',
                letterSpacing: '-0.03em',
                color: '#FFFFFF',
                textAlign: 'center',
-               marginBottom: '20px',
+               marginBottom: 'clamp(16px, 1.39vw, 20px)',
              }}
            >
              The Unquantified Cost of Flawed Executive Decisions
@@ -100,19 +100,22 @@ export default function BusinessValueUnitModelPage() {
              style={{
                fontFamily: 'Montserrat, sans-serif',
                fontWeight: 400,
-               fontSize: '18px',
+               fontSize: 'clamp(14px, 1.25vw, 18px)',
                lineHeight: '160%',
                color: '#FFFFFF',
                textAlign: 'center',
                maxWidth: '800px',
-               margin: '0 auto 48px',
+               margin: '0 auto',
+               marginBottom: 'clamp(32px, 3.33vw, 48px)',
              }}
            >
              Traditional business metrics fail to capture the true value of non-commercial teams, leading to flawed decision-making and wasted resources.
            </p>
 
            {/* Comparison Cards Grid */}
-           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '24px' }}>
+           <div 
+             className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6"
+           >
              
              {/* Card 1: The Comparison Flaw */}
              <div
@@ -120,8 +123,8 @@ export default function BusinessValueUnitModelPage() {
                  backgroundImage: 'url(/red.png)',
                  backgroundSize: 'cover',
                  backgroundPosition: 'center',
-                 borderRadius: '16px',
-                 padding: '32px 28px',
+                 borderRadius: 'clamp(12px, 1.11vw, 16px)',
+                 padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
                  position: 'relative',
                }}
@@ -130,9 +133,9 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'DM Sans, sans-serif',
                    fontWeight: 700,
-                   fontSize: '22px',
+                   fontSize: 'clamp(18px, 1.53vw, 22px)',
                    color: '#D32F2F',
-                   marginBottom: '20px',
+                   marginBottom: 'clamp(14px, 1.39vw, 20px)',
                    textAlign: 'center',
                  }}
                >
@@ -142,10 +145,10 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'Montserrat, sans-serif',
                    fontWeight: 400,
-                   fontSize: '15px',
+                   fontSize: 'clamp(13px, 1.04vw, 15px)',
                    lineHeight: '160%',
                    color: '#333333',
-                   marginBottom: '16px',
+                   marginBottom: 'clamp(12px, 1.11vw, 16px)',
                  }}
                >
                  Traditional accounting forces executives to compare lines of code to legal risk and sales dollars, leading to fictional, opinion-driven investment decisions.
@@ -154,7 +157,7 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'Montserrat, sans-serif',
                    fontWeight: 600,
-                   fontSize: '13px',
+                   fontSize: 'clamp(11px, 0.9vw, 13px)',
                    lineHeight: '160%',
                    color: '#68718B',
                  }}
@@ -169,8 +172,8 @@ export default function BusinessValueUnitModelPage() {
                  backgroundImage: 'url(/blue.png)',
                  backgroundSize: 'cover',
                  backgroundPosition: 'center',
-                 borderRadius: '16px',
-                 padding: '32px 28px',
+                 borderRadius: 'clamp(12px, 1.11vw, 16px)',
+                 padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
                  position: 'relative',
                }}
@@ -179,9 +182,9 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'DM Sans, sans-serif',
                    fontWeight: 700,
-                   fontSize: '22px',
+                   fontSize: 'clamp(18px, 1.53vw, 22px)',
                    color: '#1565C0',
-                   marginBottom: '20px',
+                   marginBottom: 'clamp(14px, 1.39vw, 20px)',
                    textAlign: 'center',
                  }}
                >
@@ -191,10 +194,10 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'Montserrat, sans-serif',
                    fontWeight: 400,
-                   fontSize: '15px',
+                   fontSize: 'clamp(13px, 1.04vw, 15px)',
                    lineHeight: '160%',
                    color: '#333333',
-                   marginBottom: '16px',
+                   marginBottom: 'clamp(12px, 1.11vw, 16px)',
                  }}
                >
                  <strong>Normalized Investment:</strong> The BVU Model abstracts every team's output into a single, universal metric (BVU), enabling direct, objective investment comparison across all functions—from IT to Sales.
@@ -203,7 +206,7 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'Montserrat, sans-serif',
                    fontWeight: 600,
-                   fontSize: '13px',
+                   fontSize: 'clamp(11px, 0.9vw, 13px)',
                    lineHeight: '160%',
                    color: '#68718B',
                  }}
@@ -218,8 +221,8 @@ export default function BusinessValueUnitModelPage() {
                  backgroundImage: 'url(/red.png)',
                  backgroundSize: 'cover',
                  backgroundPosition: 'center',
-                 borderRadius: '16px',
-                 padding: '32px 28px',
+                 borderRadius: 'clamp(12px, 1.11vw, 16px)',
+                 padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
                  position: 'relative',
                }}
@@ -228,9 +231,9 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'DM Sans, sans-serif',
                    fontWeight: 700,
-                   fontSize: '22px',
+                   fontSize: 'clamp(18px, 1.53vw, 22px)',
                    color: '#D32F2F',
-                   marginBottom: '20px',
+                   marginBottom: 'clamp(14px, 1.39vw, 20px)',
                    textAlign: 'center',
                  }}
                >
@@ -240,10 +243,10 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'Montserrat, sans-serif',
                    fontWeight: 400,
-                   fontSize: '15px',
+                   fontSize: 'clamp(13px, 1.04vw, 15px)',
                    lineHeight: '160%',
                    color: '#333333',
-                   marginBottom: '16px',
+                   marginBottom: 'clamp(12px, 1.11vw, 16px)',
                  }}
                >
                  Teams like IT, HR, and Internal Legal are seen only as expenses. Their essential contributions (risk reduction, efficiency) are unquantifiable, making them targets for arbitrary budget cuts.
@@ -252,7 +255,7 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'Montserrat, sans-serif',
                    fontWeight: 600,
-                   fontSize: '13px',
+                   fontSize: 'clamp(11px, 0.9vw, 13px)',
                    lineHeight: '160%',
                    color: '#68718B',
                  }}
@@ -267,8 +270,8 @@ export default function BusinessValueUnitModelPage() {
                  backgroundImage: 'url(/blue.png)',
                  backgroundSize: 'cover',
                  backgroundPosition: 'center',
-                 borderRadius: '16px',
-                 padding: '32px 28px',
+                 borderRadius: 'clamp(12px, 1.11vw, 16px)',
+                 padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
                  position: 'relative',
                }}
@@ -277,9 +280,9 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'DM Sans, sans-serif',
                    fontWeight: 700,
-                   fontSize: '22px',
+                   fontSize: 'clamp(18px, 1.53vw, 22px)',
                    color: '#1565C0',
-                   marginBottom: '20px',
+                   marginBottom: 'clamp(14px, 1.39vw, 20px)',
                    textAlign: 'center',
                  }}
                >
@@ -289,10 +292,10 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'Montserrat, sans-serif',
                    fontWeight: 400,
-                   fontSize: '15px',
+                   fontSize: 'clamp(13px, 1.04vw, 15px)',
                    lineHeight: '160%',
                    color: '#333333',
-                   marginBottom: '16px',
+                   marginBottom: 'clamp(12px, 1.11vw, 16px)',
                  }}
                >
                  <strong>Auditable Value Stream:</strong> It transforms non-commercial functions from expense items into auditable value producers, where investment is justified by the measurable BVUs generated per staff hour and dollar spent.
@@ -301,7 +304,7 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'Montserrat, sans-serif',
                    fontWeight: 600,
-                   fontSize: '13px',
+                   fontSize: 'clamp(11px, 0.9vw, 13px)',
                    lineHeight: '160%',
                    color: '#68718B',
                  }}
@@ -316,8 +319,8 @@ export default function BusinessValueUnitModelPage() {
                  backgroundImage: 'url(/red.png)',
                  backgroundSize: 'cover',
                  backgroundPosition: 'center',
-                 borderRadius: '16px',
-                 padding: '32px 28px',
+                 borderRadius: 'clamp(12px, 1.11vw, 16px)',
+                 padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
                  position: 'relative',
                }}
@@ -326,9 +329,9 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'DM Sans, sans-serif',
                    fontWeight: 700,
-                   fontSize: '22px',
+                   fontSize: 'clamp(18px, 1.53vw, 22px)',
                    color: '#D32F2F',
-                   marginBottom: '20px',
+                   marginBottom: 'clamp(14px, 1.39vw, 20px)',
                    textAlign: 'center',
                  }}
                >
@@ -338,10 +341,10 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'Montserrat, sans-serif',
                    fontWeight: 400,
-                   fontSize: '15px',
+                   fontSize: 'clamp(13px, 1.04vw, 15px)',
                    lineHeight: '160%',
                    color: '#333333',
-                   marginBottom: '16px',
+                   marginBottom: 'clamp(12px, 1.11vw, 16px)',
                  }}
                >
                  Teams focus on clearing a queue (e.g., tickets, feature requests) quickly, regardless of whether that activity produces low-value outcomes, leading to significant wasted effort.
@@ -350,7 +353,7 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'Montserrat, sans-serif',
                    fontWeight: 600,
-                   fontSize: '13px',
+                   fontSize: 'clamp(11px, 0.9vw, 13px)',
                    lineHeight: '160%',
                    color: '#68718B',
                  }}
@@ -365,8 +368,8 @@ export default function BusinessValueUnitModelPage() {
                  backgroundImage: 'url(/blue.png)',
                  backgroundSize: 'cover',
                  backgroundPosition: 'center',
-                 borderRadius: '16px',
-                 padding: '32px 28px',
+                 borderRadius: 'clamp(12px, 1.11vw, 16px)',
+                 padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
                  position: 'relative',
                }}
@@ -375,9 +378,9 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'DM Sans, sans-serif',
                    fontWeight: 700,
-                   fontSize: '22px',
+                   fontSize: 'clamp(18px, 1.53vw, 22px)',
                    color: '#1565C0',
-                   marginBottom: '20px',
+                   marginBottom: 'clamp(14px, 1.39vw, 20px)',
                    textAlign: 'center',
                  }}
                >
@@ -387,10 +390,10 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'Montserrat, sans-serif',
                    fontWeight: 400,
-                   fontSize: '15px',
+                   fontSize: 'clamp(13px, 1.04vw, 15px)',
                    lineHeight: '160%',
                    color: '#333333',
-                   marginBottom: '16px',
+                   marginBottom: 'clamp(12px, 1.11vw, 16px)',
                  }}
                >
                  <strong>Strategic Prioritization:</strong> By measuring the BVU generated by specific activities within a team's mandate, leadership can surgically shift resources away from high-volume, low-value work and focus effort on the activities that yield the greatest enterprise return.
@@ -399,7 +402,7 @@ export default function BusinessValueUnitModelPage() {
                  style={{
                    fontFamily: 'Montserrat, sans-serif',
                    fontWeight: 600,
-                   fontSize: '13px',
+                   fontSize: 'clamp(11px, 0.9vw, 13px)',
                    lineHeight: '160%',
                    color: '#68718B',
                  }}

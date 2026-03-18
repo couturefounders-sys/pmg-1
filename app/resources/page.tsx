@@ -7,14 +7,14 @@ export default function ResourcesPage() {
       <Header />
 
       {/* Hero Section - Our Resources */}
-      <section className="w-full pt-36 pb-20 px-6 bg-white">
+      <section className="w-full pt-24 lg:pt-36 pb-14 lg:pb-20 px-4 sm:px-6 bg-white">
         <div className="max-w-[1200px] mx-auto">
           <h1
-            className="text-center mb-8"
+            className="text-center mb-6 lg:mb-8"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(30px, 3.33vw, 48px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -27,7 +27,7 @@ export default function ResourcesPage() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: 'clamp(16px, 2.08vw, 30px)',
               lineHeight: '140%',
               color: '#333333',
               maxWidth: '1082px',
@@ -43,14 +43,14 @@ export default function ResourcesPage() {
       {/* Decorative bar */}
       <div style={{ width: '100%', height: '4px', background: 'linear-gradient(90deg, #14358A 0%, #6A36FF 100%)' }} />
 
-      <section className="w-full py-16 px-6" style={{ background: '#F8FAFC' }}>
+      <section className="w-full py-12 lg:py-16 px-4 sm:px-6" style={{ background: '#F8FAFC' }}>
         <div className="max-w-[1200px] mx-auto">
           <h2
-            className="text-center mb-6"
+            className="text-center mb-4 lg:mb-6"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 48px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -59,38 +59,39 @@ export default function ResourcesPage() {
             How PMG's Language Creates Better Outcomes
           </h2>
           <p
-            className="text-center mb-12"
+            className="text-center"
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '18px',
+              fontSize: 'clamp(14px, 1.25vw, 18px)',
               lineHeight: '1.75',
               color: '#333333',
               maxWidth: '1082px',
-              margin: '0 auto 48px',
+              margin: '0 auto',
+              marginBottom: 'clamp(32px, 3.33vw, 48px)',
             }}
           >
             The way we think about problems determines how we solve them. Our proprietary frameworks and mental models are not just academic - they are battle-tested tools that have delivered <strong style={{ fontWeight: 700 }}>22x average ROI</strong> for our clients.
           </p>
 
           {/* Three Benefit Cards */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '24px' }}>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-6">
             {/* Card 1: Precision Thinking */}
             <div
               style={{
                 background: '#FFFFFF',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '32px 24px',
+                padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.67vw, 24px)',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '16px',
+                gap: 'clamp(12px, 1.11vw, 16px)',
               }}
             >
               <div
                 style={{
-                  width: '48px',
-                  height: '48px',
+                  width: 'clamp(40px, 3.33vw, 48px)',
+                  height: 'clamp(40px, 3.33vw, 48px)',
                   background: '#14358A',
                   borderRadius: '8px',
                   display: 'flex',
@@ -106,7 +107,7 @@ export default function ResourcesPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '29px',
+                  fontSize: 'clamp(22px, 2.01vw, 29px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -117,7 +118,7 @@ export default function ResourcesPage() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 400,
-                  fontSize: '15px',
+                  fontSize: 'clamp(13px, 1.04vw, 15px)',
                   lineHeight: '160%',
                   color: '#68718B',
                 }}
@@ -132,16 +133,16 @@ export default function ResourcesPage() {
                 background: '#FFFFFF',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '32px 24px',
+                padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.67vw, 24px)',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '16px',
+                gap: 'clamp(12px, 1.11vw, 16px)',
               }}
             >
               <div
                 style={{
-                  width: '48px',
-                  height: '48px',
+                  width: 'clamp(40px, 3.33vw, 48px)',
+                  height: 'clamp(40px, 3.33vw, 48px)',
                   background: '#14358A',
                   borderRadius: '8px',
                   display: 'flex',
@@ -157,7 +158,7 @@ export default function ResourcesPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '29px',
+                  fontSize: 'clamp(22px, 2.01vw, 29px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -168,7 +169,7 @@ export default function ResourcesPage() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 400,
-                  fontSize: '15px',
+                  fontSize: 'clamp(13px, 1.04vw, 15px)',
                   lineHeight: '160%',
                   color: '#68718B',
                 }}
@@ -183,16 +184,16 @@ export default function ResourcesPage() {
                 background: '#FFFFFF',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '32px 24px',
+                padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.67vw, 24px)',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '16px',
+                gap: 'clamp(12px, 1.11vw, 16px)',
               }}
             >
               <div
                 style={{
-                  width: '48px',
-                  height: '48px',
+                  width: 'clamp(40px, 3.33vw, 48px)',
+                  height: 'clamp(40px, 3.33vw, 48px)',
                   background: '#14358A',
                   borderRadius: '8px',
                   display: 'flex',
@@ -208,7 +209,7 @@ export default function ResourcesPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '29px',
+                  fontSize: 'clamp(22px, 2.01vw, 29px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -219,7 +220,7 @@ export default function ResourcesPage() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 400,
-                  fontSize: '15px',
+                  fontSize: 'clamp(13px, 1.04vw, 15px)',
                   lineHeight: '160%',
                   color: '#68718B',
                 }}

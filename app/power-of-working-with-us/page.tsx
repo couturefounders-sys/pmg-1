@@ -63,6 +63,7 @@ export default function PowerOfWorkingWithUs() {
               fontSize: '30px',
               lineHeight: '140%',
               color: '#333333',
+              textAlign: 'center',
             }}
           >
             Quiet consulting is not just an attitude; it is a built-in system. Before any PMG
@@ -107,6 +108,7 @@ export default function PowerOfWorkingWithUs() {
               fontSize: '30px',
               lineHeight: '140%',
               color: '#333333',
+              textAlign: 'center',
               marginBottom: '20px',
             }}
           >
@@ -122,6 +124,7 @@ export default function PowerOfWorkingWithUs() {
               fontSize: '30px',
               lineHeight: '140%',
               color: '#333333',
+              textAlign: 'center',
             }}
           >
             But here is where we differ: that expert&apos;s blueprint is then submitted to our
@@ -155,6 +158,7 @@ export default function PowerOfWorkingWithUs() {
               fontSize: '30px',
               lineHeight: '140%',
               color: '#333333',
+              textAlign: 'center',
               marginBottom: '20px',
             }}
           >
@@ -170,6 +174,7 @@ export default function PowerOfWorkingWithUs() {
               fontSize: '30px',
               lineHeight: '140%',
               color: '#333333',
+              textAlign: 'center',
             }}
           >
             Only a C2 Spec that passes this internal gauntlet becomes a PMG strategy. This
@@ -203,6 +208,7 @@ export default function PowerOfWorkingWithUs() {
               fontSize: '30px',
               lineHeight: '140%',
               color: '#333333',
+              textAlign: 'center',
               marginBottom: '32px',
             }}
           >
@@ -661,7 +667,7 @@ export default function PowerOfWorkingWithUs() {
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center' }}>
           <div>
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#FFFFFF', marginBottom: '20px' }}>
               A Commitment to Continuous Improvement
             </h2>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '16px', lineHeight: '140%', color: '#333333' }}>
