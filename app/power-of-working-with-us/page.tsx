@@ -588,13 +588,15 @@ export default function PowerOfWorkingWithUs() {
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '24px', width: '100%' }}>
             {[
-              { icon: '/container-1.png', title: 'Sector Convergence Model', desc: 'Our proprietary framework for identifying and leveraging next-generation disruption opportunities at the intersection of industries, creating unique, durable competitive advantages.' },
-              { icon: '/container-3.png', title: 'Input-Output Model', desc: 'Our integrated approach to enterprise architecture, built on field-scope work tools that drive unprecedented consistency, standardization and automation, resulting in superior quality control and reduced failure rates.' },
-              { icon: '/container-2.png', title: 'Business Value-Unit Model', desc: 'Our unique method for quantifying the true ROI of cross-revenue generating departments such as HR & IT, creating holistic performance measurement and precise strategic alignment.' },
+              { icon: '/write.png', title: 'Sector Convergence Model', desc: 'Our proprietary framework for identifying and leveraging next-generation disruption opportunities at the intersection of industries, creating unique, durable competitive advantages.' },
+              { icon: '/box.png', title: 'Input-Output Model', desc: 'Our integrated approach to enterprise architecture, built on field-scope work tools that drive unprecedented consistency, standardization and automation, resulting in superior quality control and reduced failure rates.' },
+              { icon: '/balane-two.png', title: 'Business Value-Unit Model', desc: 'Our unique method for quantifying the true ROI of cross-revenue generating departments such as HR & IT, creating holistic performance measurement and precise strategic alignment.' },
             ].map((card, i) => (
               <div key={i} style={{ background: '#FFFFFF', border: '3px solid #14358A', borderRadius: '10px', padding: '32px 28px', textAlign: 'left' }}>
                 <div className="flex items-center gap-4 mb-4">
-                  <img src={card.icon} alt={card.title} style={{ width: '64px', height: '64px', objectFit: 'contain', flexShrink: 0 }} />
+                  <div style={{ width: '64px', height: '64px', background: '#14358A', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                    <img src={card.icon} alt={card.title} style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
+                  </div>
                   <div style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', margin: 0 }}>{card.title}</div>
                 </div>
                 <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>{card.desc}</p>
@@ -616,10 +618,10 @@ export default function PowerOfWorkingWithUs() {
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '24px', width: '100%', border: '3px dashed #A0B4E8', borderRadius: '10px', padding: '36px 28px' }}>
             {[
-              { icon: '/p.png', label: 'Agile' },
-              { icon: '/q.png', label: 'Lean' },
-              { icon: '/q.png', label: 'Six Sigma' },
-              { icon: '/p.png', label: 'Waterfall' },
+              { icon: '/12.png', label: 'Agile' },
+              { icon: '/23.png', label: 'Lean' },
+              { icon: '/34.png', label: 'Six Sigma' },
+              { icon: '/45.png', label: 'Waterfall' },
             ].map((fw, i) => (
               <div key={i} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px' }}>
                 <img src={fw.icon} alt={fw.label} style={{ width: '64px', height: '64px', objectFit: 'contain' }} />
@@ -635,18 +637,25 @@ export default function PowerOfWorkingWithUs() {
         <div className="max-w-[min(900px,_90%)] mx-auto flex flex-col items-center text-center">
           {/* Formula row */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '24px', marginBottom: '48px', flexWrap: 'wrap', justifyContent: 'center' }}>
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px' }}>
-              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', color: '#14358A' }}>3</span>
-              <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>Proprietary Models</span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <img src="/56.png" alt="Proprietary Models" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+                <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(22px, 2.5vw, 40px)', lineHeight: '105%', color: '#14358A' }}>3</span>
+                <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 1vw, 16px)', lineHeight: '140%', color: '#68718B' }}>Proprietary Models</span>
+              </div>
             </div>
-            <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', color: '#14358A' }}>+</span>
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px' }}>
-              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', color: '#14358A' }}>8</span>
-              <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>Proven Frameworks</span>
+            <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(22px, 2.5vw, 40px)', color: '#14358A' }}>+</span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <img src="/67.png" alt="Proven Frameworks" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+                <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(22px, 2.5vw, 40px)', lineHeight: '105%', color: '#14358A' }}>8</span>
+                <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 1vw, 16px)', lineHeight: '140%', color: '#68718B' }}>Proven Frameworks</span>
+              </div>
             </div>
-            <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', color: '#14358A' }}>=</span>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', background: '#14358A', borderRadius: '999px', padding: '16px 32px' }}>
-              <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.25vw, 20px)', color: '#FFFFFF' }}>🎯 The Right Solution, Every Time</span>
+            <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(22px, 2.5vw, 40px)', color: '#14358A' }}>=</span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', background: '#EEF2FF', borderRadius: '999px', padding: '14px 28px' }}>
+              <img src="/78.png" alt="The Right Solution" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
+              <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.25vw, 20px)', color: '#14358A' }}>The Right Solution, Every Time.</span>
             </div>
           </div>
 
