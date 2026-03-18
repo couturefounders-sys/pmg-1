@@ -3,20 +3,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
-import {
-  IconOthersTarget,
-  IconMoneyFunds,
-  IconComponentsSwitchButton,
-  IconHardwarePhone,
-  IconClothesRetroBag,
-  IconArrowsEfferentThree,
-  IconChartsHistogram,
-  IconChartsLineArea,
-  IconCommunicateMessageSecurity,
-  IconMoneyShoppingCartTwo,
-  IconHardwareChip,
-  IconOfficeInbox,
-} from '@/components/BrandingIcons';
+import Image from 'next/image';
 
 export default function BrandingMarketingConsulting() {
   return (
@@ -101,7 +88,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <IconOthersTarget size={24} />
+                <Image src="/target.png" alt="Brand Building" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Brand Building
@@ -116,7 +103,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <IconMoneyFunds size={24} />
+                <Image src="/oo.png" alt="Change Measurement & Evaluation" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Change Measurement & Evaluation
@@ -131,7 +118,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <IconComponentsSwitchButton size={24} />
+                <Image src="/ll.png" alt="Consumer & Shopper Insights" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Consumer & Shopper Insights
@@ -146,7 +133,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <IconHardwarePhone size={24} />
+                <Image src="/99.png" alt="Content Creation & Management" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Content Creation & Management
@@ -161,7 +148,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <IconClothesRetroBag size={24} />
+                <Image src="/98.png" alt="Content Marketing & Storytelling" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Content Marketing & Storytelling
@@ -176,7 +163,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <IconArrowsEfferentThree size={24} />
+                <Image src="/88.png" alt="Customer Acquisition Strategies" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Customer Acquisition Strategies
@@ -191,7 +178,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <IconChartsHistogram size={24} />
+                <Image src="/00.png" alt="Digital Marketing" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Digital Marketing
@@ -206,7 +193,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <IconChartsLineArea size={24} />
+                <Image src="/33.png" alt="Marketing & Business Analytics" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Marketing & Business Analytics
@@ -221,7 +208,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <IconCommunicateMessageSecurity size={24} />
+                <Image src="/22.png" alt="Market Positioning & Go-to-Market Strategy" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Market Positioning & Go-to-Market Strategy
@@ -236,7 +223,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <IconMoneyShoppingCartTwo size={24} />
+                <Image src="/7n.png" alt="Marketing Return on Investment" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Marketing Return on Investment
@@ -251,7 +238,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <IconHardwareChip size={24} />
+                <Image src="/6n.png" alt="Organization & Capabilities" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Organization & Capabilities
@@ -266,7 +253,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <IconOfficeInbox size={24} />
+                <Image src="/5n.png" alt="Pricing & Enablement" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Pricing & Enablement
