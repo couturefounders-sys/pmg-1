@@ -75,15 +75,15 @@ export default function YourIndustry() {
       <Header />
 
       {/* Hero Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 sm:px-[118px] pt-[200px] pb-24 flex flex-col lg:flex-row justify-between items-center lg:items-start gap-12">
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 sm:px-[clamp(24px,8.19vw,118px)] pt-[clamp(120px,13.89vw,200px)] pb-24 flex flex-col lg:flex-row justify-between items-center lg:items-start gap-12">
 
         {/* Left Content */}
-        <div className="flex flex-col gap-8 max-w-[803px] z-10">
+        <div className="flex flex-col gap-8 max-w-[min(803px,_90%)] z-10">
           <h1
             className="font-dm-sans font-bold text-[#14358A]"
             style={{
               fontFamily: 'DM Sans, sans-serif',
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
             }}
@@ -94,9 +94,9 @@ export default function YourIndustry() {
           <p
             className="font-montserrat font-normal text-[#333333]"
             style={{
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '140%',
-              maxWidth: '740px'
+              maxWidth: 'min(740px, 95%)'
             }}
           >
             In a competitive capital landscape, sustainable returns require more than just a strong thesis—they require superior execution. We act as the operational bridge for portfolio companies, helping investors unlock hidden value and accelerate the path to a high-multiple exit.
@@ -110,7 +110,7 @@ export default function YourIndustry() {
             alt="Operational Excellence"
             style={{
               width: '461px',
-              height: '447px',
+              height: 'clamp(280px, 31.04vw, 447px)',
               objectFit: 'cover'
             }}
           />
@@ -119,7 +119,7 @@ export default function YourIndustry() {
       </div>
 
       {/* Decorative Bars - Top Left */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
+      <div className="relative w-full pointer-events-none" style={{ height: 'clamp(80px, 11.11vw, 160px)' }}>
         <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', top: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
         <div className="absolute" style={{ width: '200px', height: '60px', left: '-10px', top: '60px', opacity: 1, background: 'linear-gradient(90deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
       </div>
@@ -129,16 +129,16 @@ export default function YourIndustry() {
         <div className="max-w-[1400px] mx-auto text-center">
           <h2
             className="font-dm-sans font-bold text-[#14358A] mb-16"
-            style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em' }}
+            style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em' }}
           >
             Your Partner in Value Creation
           </h2>
           <p
             className="font-montserrat font-normal text-[#333333] mx-auto"
             style={{
-              fontSize: '32px',
+              fontSize: 'clamp(20px, 2.22vw, 36px)',
               lineHeight: '100%',
-              maxWidth: '1342px',
+              maxWidth: 'min(1342px, 95%)',
               textAlign: 'center'
             }}
           >
@@ -150,7 +150,7 @@ export default function YourIndustry() {
       </div>
 
       {/* Decorative Bars - Top Right + Bottom Left */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
+      <div className="relative w-full pointer-events-none" style={{ height: 'clamp(80px, 11.11vw, 160px)' }}>
         {/* Top Right */}
         <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(-8deg)', transformOrigin: 'right center' }} />
         {/* Bottom Left */}
@@ -159,17 +159,17 @@ export default function YourIndustry() {
 
       {/* Our Work Section */}
       <div className="bg-[#F8FAFC] py-24 px-6">
-        <div className="max-w-[1300px] mx-auto">
+        <div className="max-w-[min(1300px,_95%)] mx-auto">
           <div className="text-center mb-16">
             <h2
               className="font-dm-sans font-bold text-[#14358A] mb-6"
-              style={{ fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em' }}
+              style={{ fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em' }}
             >
               Our Work
             </h2>
             <p
               className="font-montserrat font-normal text-[#333333] mx-auto"
-              style={{ fontSize: '30px', lineHeight: '140%', maxWidth: '1082px', textAlign: 'center' }}
+              style={{ fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', maxWidth: 'min(1082px, 95%)', textAlign: 'center' }}
             >
               Our work supports strategy, operations, & transformation—equipping
               financial leaders with the tools to deliver meaningful change.
@@ -177,13 +177,13 @@ export default function YourIndustry() {
           </div>
 
           {/* Work Cards Grid */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 412px)', gap: '60px 26px', justifyContent: 'center' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 350px), 1fr))', gap: '60px 26px', justifyContent: 'center' }}>
             {workCards.map((card, index) => (
               <div
                 key={index}
                 className="bg-white"
                 style={{
-                  width: '412px',
+                  width: 'min(412px, 100%)',
                   padding: '23px 25px',
                   border: '3px solid #14358A',
                   borderRadius: '10px',
@@ -193,14 +193,14 @@ export default function YourIndustry() {
                   <img src={card.icon} alt={card.title} style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                   <h3
                     className="font-dm-sans font-bold text-[#14358A] mb-0"
-                    style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%', margin: 0 }}
+                    style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%', margin: 0 }}
                   >
                     {card.title}
                   </h3>
                 </div>
                 <p
                   className="font-dm-sans font-normal text-[#68718B]"
-                  style={{ fontSize: '16px', lineHeight: '140%' }}
+                  style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%' }}
                 >
                   {card.description}
                 </p>
@@ -214,7 +214,7 @@ export default function YourIndustry() {
       <div
         className="relative py-24 px-6 overflow-hidden"
         style={{
-          backgroundImage: 'url(/projects-bg.png)',
+          backgroundImage: 'url(/projects-bg.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           minHeight: '852px'
@@ -227,12 +227,12 @@ export default function YourIndustry() {
         {/* Decorative Border Rectangle - Top Left */}
         <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
 
-        <div className="max-w-[1300px] mx-auto">
+        <div className="max-w-[min(1300px,_95%)] mx-auto">
           {/* Section Title */}
           <h2
             className="font-dm-sans font-bold text-white text-center mb-16"
             style={{
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em'
             }}
@@ -258,7 +258,7 @@ export default function YourIndustry() {
               <h3
                 className="font-dm-sans font-bold text-center"
                 style={{
-                  fontSize: '30px',
+                  fontSize: 'clamp(18px, 2.08vw, 34px)',
                   lineHeight: '110%',
                   letterSpacing: '-3%',
                   color: '#006FBA'
@@ -282,13 +282,13 @@ export default function YourIndustry() {
                   <div>
                     <p
                       className="font-dm-sans font-bold"
-                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
                     >
                       $10M
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       in new yearly profit generated
                     </p>
@@ -306,13 +306,13 @@ export default function YourIndustry() {
                   <div>
                     <p
                       className="font-dm-sans font-bold"
-                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
                     >
                       3x
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       higher ROI than typical investments
                     </p>
@@ -330,13 +330,13 @@ export default function YourIndustry() {
                   <div>
                     <p
                       className="font-dm-sans font-bold"
-                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
                     >
                       43x
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       Return on Investment
                     </p>
@@ -353,7 +353,7 @@ export default function YourIndustry() {
                     height: '60px',
                     borderRadius: '10px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                    fontSize: '20px',
+                    fontSize: 'clamp(15px, 1.39vw, 22px)',
                     lineHeight: '140%'
                   }}
                 >
@@ -378,7 +378,7 @@ export default function YourIndustry() {
               <h3
                 className="font-dm-sans font-bold text-center"
                 style={{
-                  fontSize: '30px',
+                  fontSize: 'clamp(18px, 2.08vw, 34px)',
                   lineHeight: '110%',
                   letterSpacing: '-3%',
                   color: '#006FBA'
@@ -399,13 +399,13 @@ export default function YourIndustry() {
                   <div>
                     <p
                       className="font-dm-sans font-bold"
-                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
                     >
                       22%
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       reduction in customer churn
                     </p>
@@ -423,13 +423,13 @@ export default function YourIndustry() {
                   <div>
                     <p
                       className="font-dm-sans font-bold"
-                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
                     >
                       14%
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       increase in post-acquisition margin
                     </p>
@@ -447,13 +447,13 @@ export default function YourIndustry() {
                   <div>
                     <p
                       className="font-dm-sans font-bold"
-                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
                     >
                       20x
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       Return on Investment
                     </p>
@@ -470,7 +470,7 @@ export default function YourIndustry() {
                     height: '60px',
                     borderRadius: '10px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                    fontSize: '20px',
+                    fontSize: 'clamp(15px, 1.39vw, 22px)',
                     lineHeight: '140%'
                   }}
                 >
@@ -495,7 +495,7 @@ export default function YourIndustry() {
               <h3
                 className="font-dm-sans font-bold text-center"
                 style={{
-                  fontSize: '30px',
+                  fontSize: 'clamp(18px, 2.08vw, 34px)',
                   lineHeight: '110%',
                   letterSpacing: '-3%',
                   color: '#006FBA'
@@ -516,13 +516,13 @@ export default function YourIndustry() {
                   <div>
                     <p
                       className="font-dm-sans font-bold"
-                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
                     >
                       12%
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       reduction in operating expenses
                     </p>
@@ -540,13 +540,13 @@ export default function YourIndustry() {
                   <div>
                     <p
                       className="font-dm-sans font-bold"
-                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
                     >
                       25%
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       reduction in low-value personnel spend
                     </p>
@@ -564,13 +564,13 @@ export default function YourIndustry() {
                   <div>
                     <p
                       className="font-dm-sans font-bold"
-                      style={{ fontSize: '24px', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
+                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
                     >
                       22x
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: '16px', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       Return on Investment
                     </p>
@@ -587,7 +587,7 @@ export default function YourIndustry() {
                     height: '60px',
                     borderRadius: '10px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                    fontSize: '20px',
+                    fontSize: 'clamp(15px, 1.39vw, 22px)',
                     lineHeight: '140%'
                   }}
                 >
@@ -602,13 +602,13 @@ export default function YourIndustry() {
 
       {/* The Functional Consulting Advantage */}
       <div className="bg-white py-24 px-6">
-        <div className="max-w-[1440px] mx-auto flex flex-col items-center">
+        <div className="max-w-[min(1440px,_95%)] mx-auto flex flex-col items-center">
           <h2
             className="text-center whitespace-nowrap mb-10"
             style={{ 
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px', 
+              fontSize: 'clamp(28px, 3.33vw, 56px)', 
               lineHeight: '105%', 
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -617,12 +617,12 @@ export default function YourIndustry() {
             The Functional Consulting Advantage
           </h2>
 
-          <div className="max-w-[1082px] text-center">
+          <div className="max-w-[min(1082px,_90%)] text-center">
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '30px',
+                fontSize: 'clamp(18px, 2.08vw, 34px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -633,7 +633,7 @@ export default function YourIndustry() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '30px',
+                fontSize: 'clamp(18px, 2.08vw, 34px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -648,7 +648,7 @@ export default function YourIndustry() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '30px',
+                fontSize: 'clamp(18px, 2.08vw, 34px)',
                 lineHeight: '140%',
                 color: '#364153',
               }}
@@ -661,7 +661,7 @@ export default function YourIndustry() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 600,
-                fontSize: '21.1px',
+                fontSize: 'clamp(16px, 1.46vw, 24px)',
                 lineHeight: '30px',
                 color: '#14358A',
                 textDecoration: 'none',
@@ -689,7 +689,7 @@ export default function YourIndustry() {
         <h2
           className="font-dm-sans font-bold text-[#14358A] mb-6"
           style={{ 
-            fontSize: '48px',
+            fontSize: 'clamp(28px, 3.33vw, 56px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em'
           }}
@@ -699,10 +699,10 @@ export default function YourIndustry() {
         <p
           className="font-montserrat font-normal text-[#333333] mb-10"
           style={{
-            fontSize: '32px',
+            fontSize: 'clamp(20px, 2.22vw, 36px)',
             lineHeight: '135%',
             letterSpacing: '0%',
-            maxWidth: '1196px'
+            maxWidth: 'min(1196px, 95%)'
           }}
         >
           Let&apos;s discuss how our execution-focused approach can drive superior returns for your fund.
@@ -714,7 +714,7 @@ export default function YourIndustry() {
             height: '65px',
             borderRadius: '10px',
             background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-            fontSize: '20px',
+            fontSize: 'clamp(15px, 1.39vw, 22px)',
             lineHeight: '140%',
             letterSpacing: '0%'
           }}

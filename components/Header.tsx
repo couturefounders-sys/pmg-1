@@ -71,34 +71,67 @@ export default function Header() {
 
   return (
     <header className="absolute top-0 left-0 right-0 z-[200]">
-      <div className="max-w-[1440px] mx-auto relative overflow-visible" style={{ height: '100px' }}>
+      <div
+        className="mx-auto relative overflow-visible px-[clamp(16px,2.5vw,48px)]"
+        style={{
+          maxWidth: 'min(95%, 2200px)',
+          height: 'clamp(70px, 6.94vw, 120px)',
+        }}
+      >
         {/* Logo Icon */}
-        <div className="absolute" style={{ top: '23px', left: '0px' }}>
+        <div
+          className="absolute"
+          style={{
+            top: 'clamp(16px, 1.6vw, 28px)',
+            left: 'clamp(16px, 2.5vw, 48px)',
+          }}
+        >
           <Image
             src="/logo.png"
             alt="PMG Logo Icon"
             width={53}
             height={51}
             priority
+            style={{
+              width: 'clamp(36px, 3.68vw, 60px)',
+              height: 'auto',
+            }}
           />
         </div>
 
         {/* PMG Logo Image */}
-        <div className="absolute" style={{ top: '37px', left: '62px' }}>
+        <div
+          className="absolute"
+          style={{
+            top: 'clamp(26px, 2.57vw, 44px)',
+            left: 'clamp(58px, 6.5vw, 118px)',
+          }}
+        >
           <Image
             src={isLightPage ? '/PMG_dark.png' : '/PMG.png'}
             alt="PMG"
             width={80}
             height={40}
             priority
-            style={{ objectFit: 'contain' }}
+            style={{
+              objectFit: 'contain',
+              width: 'clamp(55px, 5.56vw, 95px)',
+              height: 'auto',
+            }}
           />
         </div>
 
         {/* Navigation - Centered Group */}
-        <nav className="absolute flex items-center gap-12" style={{ top: '38px', left: '50%', transform: 'translateX(-50%)' }}>
+        <nav
+          className="absolute flex items-center"
+          style={{
+            top: 'clamp(26px, 2.64vw, 44px)',
+            left: '50%',
+            transform: 'translateX(-50%)',
+            gap: 'clamp(16px, 2.2vw, 48px)',
+          }}
+        >
           {navItems.map((item) => {
-            // Map sub-pages to their parent nav item so the active pill shows correctly
             const industryPaths = ['/your-industry', '/financial-services-fintech', '/saas-enterprise-technology', '/public-sector-government', '/higher-education-edtech', '/food-beverage-agribusiness', '/travel-tourism-hospitality', '/b2b-professional-services', '/why-functional-consulting'];
             const functionalAreasPaths = ['/our-functional-areas', '/strategy-operations-consulting', '/people-organizations-consulting', '/customer-experience-consulting', '/mergers-acquisitions-consulting', '/branding-marketing-consulting', '/bpo-fractional-talent-consulting', '/crisis-transition-management'];
             const solutionsPaths = ['/our-solutions', '/bespoke-solutions', '/active-management-solutions', '/equity-solutions', '/out-of-the-box-solutions', '/power-of-working-with-us', '/solution-assessment-tool'];
@@ -164,7 +197,7 @@ export default function Header() {
                        {item.name === 'Your Industry' && (
                         <div className="flex flex-col">
                           {industryItems.map((subItem, idx) => (
-                            <Link 
+                            <Link
                               key={idx}
                               href={subItem.href}
                               className="px-6 py-4 hover:bg-gray-50 transition-colors group/item block"

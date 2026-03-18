@@ -26,7 +26,16 @@
       "Bash(grep:*)",
       "Bash(npm install:*)",
       "Bash(npx tsc:*)",
-      "Bash(git merge:*)"
+      "Bash(git merge:*)",
+      "Bash(ls -lhS /Users/teja/pmg_final-v/pmg-z/public/*.png | head -20)",
+      "Bash(sips -g pixelWidth -g pixelHeight /Users/teja/pmg_final-v/pmg-z/public/hero-background.png)",
+      "Bash(sips -z 1325 2880 /Users/teja/pmg_final-v/pmg-z/public/hero-background.png --out /tmp/hero-bg-resized.png 2>&1)",
+      "Bash(cwebp -q 82 /tmp/hero-bg-resized.png -o /Users/teja/pmg_final-v/pmg-z/public/hero-background.webp 2>&1 && ls -lh /Users/teja/pmg_final-v/pmg-z/public/hero-background.webp)",
+      "Bash(sips -z 53 115 /tmp/hero-bg-resized.png --out /tmp/hero-blur-tiny.png)",
+      "Read(//tmp/**)",
+      "Bash(cd /Users/teja/pmg_final-v/pmg-z/public && for img in problem-consulting-bg.png projects-bg-financial.png project-bg.png projects-bg.png bg-not-sure.png principle-bg.png; do echo \"=== $img ===\" && sips -g pixelWidth -g pixelHeight \"$img\" 2>&1; done)",
+      "Bash(cwebp -q 82 world-map.png -o world-map.webp 2>/dev/null && ls -lh world-map.webp)",
+      "Bash(cd /Users/teja/pmg_final-v/pmg-z && sed -i '' \"s|url\\(/problem-consulting-bg.png\\)|url\\(/problem-consulting-bg.webp\\)|g\" app/why-functional-consulting/page.tsx && echo \"done: why-functional-consulting\")"
     ]
   },
   "enabledPlugins": {

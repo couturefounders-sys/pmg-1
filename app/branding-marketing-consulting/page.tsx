@@ -24,14 +24,14 @@ export default function BrandingMarketingConsulting() {
       <Header />
 
       {/* Hero Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto text-center" style={{ paddingTop: '142px' }}>
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto text-center" style={{ paddingTop: 'clamp(100px, 9.86vw, 142px)' }}>
 
         {/* Subheading */}
         <p
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: '29px',
+            fontSize: 'clamp(18px, 2.01vw, 33px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             color: '#14358A',
@@ -47,7 +47,7 @@ export default function BrandingMarketingConsulting() {
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: '48px',
+            fontSize: 'clamp(28px, 3.33vw, 56px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             textAlign: 'center',
@@ -65,7 +65,7 @@ export default function BrandingMarketingConsulting() {
           style={{
             fontFamily: 'Montserrat, sans-serif',
             fontWeight: 400,
-            fontSize: '32px',
+            fontSize: 'clamp(20px, 2.22vw, 36px)',
             lineHeight: '100%',
             letterSpacing: '0%',
             textAlign: 'center',
@@ -73,7 +73,7 @@ export default function BrandingMarketingConsulting() {
             width: '1258px',
             maxWidth: '100%',
             margin: '31px auto 0 auto',
-            paddingBottom: '80px',
+            paddingBottom: 'clamp(48px, 5.56vw, 80px)',
           }}
         >
           We treat brand and marketing as a direct investment in business value. We engineer integrated strategies and compelling narratives that guarantee audience resonance and deliver measurable, high-ROI revenue growth.
@@ -81,13 +81,13 @@ export default function BrandingMarketingConsulting() {
       </div>
 
       {/* How We Help Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 py-16">
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-16">
         <h2
           className="text-center mb-12"
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: '48px',
+            fontSize: 'clamp(28px, 3.33vw, 56px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             color: '#14358A',
@@ -103,11 +103,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <IconOthersTarget size={24} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Brand Building
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
               Engineer a unique brand identity and experience that guarantees consistent messaging and superior market cut-through.
             </p>
           </div>
@@ -118,11 +118,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <IconMoneyFunds size={24} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Change Measurement & Evaluation
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
               Maximize Customer Lifetime Value (CLV) by fostering advocacy and converting loyal customers into passionate brand promoters.
             </p>
           </div>
@@ -133,11 +133,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <IconComponentsSwitchButton size={24} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Consumer & Shopper Insights
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
               Leverage deep consumer and shopper insights to inform strategy and create impactful experiences that guarantee sales growth.
             </p>
           </div>
@@ -148,11 +148,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <IconHardwarePhone size={24} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Content Creation & Management
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
               Develop and manage high-quality, engaging content pipelines that drive measurable audience resonance and strategic alignment.
             </p>
           </div>
@@ -163,11 +163,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <IconClothesRetroBag size={24} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Content Marketing & Storytelling
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
               Tell your brand's story with compelling content strategies designed to build lasting audience relationships and accelerate conversion.
             </p>
           </div>
@@ -178,11 +178,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <IconArrowsEfferentThree size={24} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Customer Acquisition Strategies
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
               Design and implement high-ROI customer acquisition strategies that aggressively expand market share and reduce cost-per-lead.
             </p>
           </div>
@@ -193,11 +193,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <IconChartsHistogram size={24} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Digital Marketing
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
               Execute high-performance digital marketing campaigns across all platforms to maximize traffic generation and lead volume.
             </p>
           </div>
@@ -208,11 +208,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <IconChartsLineArea size={24} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Marketing & Business Analytics
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
               Provide actionable, data-driven insights, analytics, and modeling to rigorously evaluate campaign effectiveness and guide high-stakes decision-making.
             </p>
           </div>
@@ -223,11 +223,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <IconCommunicateMessageSecurity size={24} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Market Positioning & Go-to-Market Strategy
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
               Define a defensible market position and design effective Go-to-Market strategies that ensure successful product launches.
             </p>
           </div>
@@ -238,11 +238,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <IconMoneyShoppingCartTwo size={24} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Marketing Return on Investment
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
               Maximize profitability by rigorously measuring and optimizing the financial Return on Investment (ROI) of all marketing expenditure.
             </p>
           </div>
@@ -253,11 +253,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <IconHardwareChip size={24} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Organization & Capabilities
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
               Build structures and capabilities required to execute integrated, effective marketing and sales strategies.
             </p>
           </div>
@@ -268,11 +268,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <IconOfficeInbox size={24} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Pricing & Enablement
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
               Establish optimal competitive pricing and enable sales teams with the tools and knowledge required to maximize revenue and profitability.
             </p>
           </div>
@@ -280,14 +280,14 @@ export default function BrandingMarketingConsulting() {
       </div>
 
       {/* Our Approach Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 py-20">
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <div className="text-center mb-12">
           <h2
             className="mb-8"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -300,12 +300,12 @@ export default function BrandingMarketingConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',
-              maxWidth: '1201px',
+              maxWidth: 'min(1201px, 95%)',
               margin: '0 auto',
             }}
           >
@@ -316,7 +316,7 @@ export default function BrandingMarketingConsulting() {
         {/* Top Row - Steps 1 and 2 */}
         <div className="flex justify-between max-w-[1200px] mx-auto mb-0">
           {/* Step 1 - Uncover Brand Truths */}
-          <div className="text-center" style={{ maxWidth: '512px' }}>
+          <div className="text-center" style={{ maxWidth: 'min(512px, 95%)' }}>
             <h3
               className="mb-4"
               style={{
@@ -334,7 +334,7 @@ export default function BrandingMarketingConsulting() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 400,
-                fontSize: '20px',
+                fontSize: 'clamp(15px, 1.39vw, 22px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -344,7 +344,7 @@ export default function BrandingMarketingConsulting() {
           </div>
 
           {/* Step 2 - Develop a Compelling Brand Narrative */}
-          <div className="text-center" style={{ maxWidth: '491px' }}>
+          <div className="text-center" style={{ maxWidth: 'min(491px, 95%)' }}>
             <h3
               className="mb-4"
               style={{
@@ -362,7 +362,7 @@ export default function BrandingMarketingConsulting() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 400,
-                fontSize: '20px',
+                fontSize: 'clamp(15px, 1.39vw, 22px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -396,7 +396,7 @@ export default function BrandingMarketingConsulting() {
             style={{
               fontFamily: 'Inter, sans-serif',
               fontWeight: 400,
-              fontSize: '20px',
+              fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',
               color: '#333333',
             }}
@@ -407,7 +407,7 @@ export default function BrandingMarketingConsulting() {
       </div>
 
       {/* Crafting Compelling Brands Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 py-20">
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <div className="flex flex-col lg:flex-row gap-12 items-start">
           {/* Left Side - Capability Pills */}
           <div className="flex flex-col gap-4">
@@ -451,7 +451,7 @@ export default function BrandingMarketingConsulting() {
                       </div>
                     </div>
                   </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
+                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
                     Product Lifecycle Management
                   </span>
                 </div>
@@ -465,7 +465,7 @@ export default function BrandingMarketingConsulting() {
                       </div>
                     </div>
                   </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
+                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
                     Capital Excellence
                   </span>
                 </div>
@@ -479,7 +479,7 @@ export default function BrandingMarketingConsulting() {
                       </div>
                     </div>
                   </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
+                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
                     Data-Driven Insights
                   </span>
                 </div>
@@ -493,7 +493,7 @@ export default function BrandingMarketingConsulting() {
                       </div>
                     </div>
                   </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
+                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
                     KPI Optimization
                   </span>
                 </div>
@@ -507,7 +507,7 @@ export default function BrandingMarketingConsulting() {
                       </div>
                     </div>
                   </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
+                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
                     Lean Six Sigma
                   </span>
                 </div>
@@ -522,7 +522,7 @@ export default function BrandingMarketingConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '48px',
+                fontSize: 'clamp(28px, 3.33vw, 56px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -536,7 +536,7 @@ export default function BrandingMarketingConsulting() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '25px',
+                fontSize: 'clamp(16px, 1.74vw, 28px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -552,7 +552,7 @@ export default function BrandingMarketingConsulting() {
                   <path d="M4 6L10 12L4 18" stroke="#14358A" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '25px', lineHeight: '140%', color: '#333333' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(16px, 1.74vw, 28px)', lineHeight: '140%', color: '#333333' }}>
                 Develop innovative marketing strategies by leveraging best practices from diverse industries to craft compelling brand stories and create impactful campaigns.
               </p>
             </div>
@@ -565,7 +565,7 @@ export default function BrandingMarketingConsulting() {
                   <path d="M4 6L10 12L4 18" stroke="#14358A" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '25px', lineHeight: '140%', color: '#333333' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(16px, 1.74vw, 28px)', lineHeight: '140%', color: '#333333' }}>
                 Deliver unparalleled brand value from the collective wisdom of leaders who have successfully built and maintained strong brands in competitive markets.
               </p>
             </div>
@@ -580,7 +580,7 @@ export default function BrandingMarketingConsulting() {
             style={{
               fontFamily: 'Inter, sans-serif',
               fontWeight: 600,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '30px',
               color: '#14358A',
               textDecoration: 'none',
@@ -615,7 +615,7 @@ export default function BrandingMarketingConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#FFFFFF',
@@ -629,7 +629,7 @@ export default function BrandingMarketingConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#FFFFFF',
@@ -642,7 +642,7 @@ export default function BrandingMarketingConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '32px',
+              fontSize: 'clamp(20px, 2.22vw, 36px)',
               lineHeight: '135%',
               color: '#FFFFFF',
             }}
@@ -659,13 +659,13 @@ export default function BrandingMarketingConsulting() {
           background: 'linear-gradient(180deg, #EBF7FF 0%, #D9ECFA 100%)',
         }}
       >
-        <div className="max-w-[1440px] mx-auto px-4 text-center">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-4 text-center">
           <h2
             className="mb-6"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -679,10 +679,10 @@ export default function BrandingMarketingConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '32px',
+              fontSize: 'clamp(20px, 2.22vw, 36px)',
               lineHeight: '135%',
               color: '#333333',
-              maxWidth: '1196px',
+              maxWidth: 'min(1196px, 95%)',
               margin: '0 auto 2.5rem auto',
             }}
           >
@@ -697,7 +697,7 @@ export default function BrandingMarketingConsulting() {
               width: '319px',
               height: '65px',
               fontFamily: 'DM Sans, sans-serif',
-              fontSize: '20px',
+              fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',
               fontWeight: 700,
               border: 'none',

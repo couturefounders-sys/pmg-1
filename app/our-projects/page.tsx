@@ -30,13 +30,13 @@ export default function OurProjects() {
       <Header />
 
       {/* Hero Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 pt-[142px] pb-12">
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 pt-[clamp(100px,9.86vw,142px)] pb-12">
         <h1
           className="text-center mb-12"
           style={{
             fontFamily: 'Poppins, sans-serif',
             fontWeight: 600,
-            fontSize: '50px',
+            fontSize: 'clamp(28px, 3.47vw, 56px)',
             lineHeight: '46px',
             color: '#14358A',
           }}
@@ -64,7 +64,7 @@ export default function OurProjects() {
                   color: isSelected ? '#FFFFFF' : '#333333',
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 500,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   border: 'none',
                   cursor: 'pointer',
                 }}
@@ -81,7 +81,7 @@ export default function OurProjects() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '20px',
+              fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '100%',
               color: '#000000',
             }}
@@ -96,7 +96,7 @@ export default function OurProjects() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '25px',
+              fontSize: 'clamp(16px, 1.74vw, 28px)',
               lineHeight: '100%',
               color: '#000000',
             }}
@@ -107,13 +107,13 @@ export default function OurProjects() {
       </div>
 
       {/* Global Network Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 py-20">
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <h2
           className="text-center mb-8"
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: '50px',
+            fontSize: 'clamp(28px, 3.47vw, 56px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             color: '#14358A',
@@ -127,10 +127,10 @@ export default function OurProjects() {
           style={{
             fontFamily: 'Montserrat, sans-serif',
             fontWeight: 400,
-            fontSize: '30px',
+            fontSize: 'clamp(18px, 2.08vw, 34px)',
             lineHeight: '140%',
             color: '#333333',
-            maxWidth: '1201px',
+            maxWidth: 'min(1201px, 95%)',
           }}
         >
           Beyond our direct client engagements, PMG is a trusted strategic partner providing essential domain expertise and services across the global professional and startup ecosystem.
@@ -148,7 +148,7 @@ export default function OurProjects() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '24px',
+                fontSize: 'clamp(18px, 1.67vw, 28px)',
                 lineHeight: '110%',
                 letterSpacing: '-0.03em',
                 color: '#000000',
@@ -160,7 +160,7 @@ export default function OurProjects() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -179,7 +179,7 @@ export default function OurProjects() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '24px',
+                fontSize: 'clamp(18px, 1.67vw, 28px)',
                 lineHeight: '110%',
                 letterSpacing: '-0.03em',
                 color: '#000000',
@@ -191,7 +191,7 @@ export default function OurProjects() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}

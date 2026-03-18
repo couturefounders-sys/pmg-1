@@ -44,7 +44,7 @@ export default function BusinessValueUnitModelPage() {
                letterSpacing: '0%',
                textAlign: 'center',
                color: '#333333',
-               maxWidth: '900px',
+               maxWidth: 'min(900px, 95%)',
              }}
            >
              The Business Value Unit (BVU) Model is a proprietary financial framework that
@@ -104,7 +104,7 @@ export default function BusinessValueUnitModelPage() {
                lineHeight: '160%',
                color: '#FFFFFF',
                textAlign: 'center',
-               maxWidth: '800px',
+               maxWidth: 'min(800px, 95%)',
                margin: '0 auto',
                marginBottom: 'clamp(32px, 3.33vw, 48px)',
              }}
@@ -417,12 +417,12 @@ export default function BusinessValueUnitModelPage() {
 
         {/* Section 3: The BVU Model in Practice */}
        <section className="w-full py-20 px-6" style={{ background: '#FFFFFF' }}>
-        <div className="max-w-[1100px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[min(1100px,_90%)] mx-auto flex flex-col items-center text-center">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -436,7 +436,7 @@ export default function BusinessValueUnitModelPage() {
                fontFamily: 'Montserrat, sans-serif',
                fontWeight: 400,
                fontStyle: 'normal',
-               fontSize: '30px',
+               fontSize: 'clamp(18px, 2.08vw, 34px)',
                lineHeight: '140%',
                letterSpacing: '0%',
                textAlign: 'center',
@@ -452,7 +452,7 @@ export default function BusinessValueUnitModelPage() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: '15px',
+              fontSize: 'clamp(12px, 1.04vw, 17px)',
               color: '#14358A',
               textDecoration: 'none',
             }}
@@ -464,12 +464,12 @@ export default function BusinessValueUnitModelPage() {
 
       {/* Section 4: Mechanics and Strategic Benefits */}
       <section className="w-full py-20 px-6 bg-white">
-        <div className="max-w-[1100px] mx-auto">
+        <div className="max-w-[min(1100px,_90%)] mx-auto">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -484,12 +484,12 @@ export default function BusinessValueUnitModelPage() {
                fontFamily: 'Montserrat, sans-serif',
                fontWeight: 400,
                fontStyle: 'normal',
-               fontSize: '30px',
+               fontSize: 'clamp(18px, 2.08vw, 34px)',
                lineHeight: '140%',
                letterSpacing: '0%',
                textAlign: 'center',
                color: '#333333',
-               maxWidth: '680px',
+               maxWidth: 'min(680px, 95%)',
                margin: '0 auto 48px',
              }}
            >
@@ -532,7 +532,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '17px',
+                  fontSize: 'clamp(13px, 1.18vw, 19px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -542,7 +542,7 @@ export default function BusinessValueUnitModelPage() {
               <p
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '13px',
+                  fontSize: 'clamp(11px, 0.9vw, 15px)',
                   lineHeight: '1.75',
                   color: '#5F6D7E',
                 }}
@@ -585,7 +585,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '17px',
+                  fontSize: 'clamp(13px, 1.18vw, 19px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -595,7 +595,7 @@ export default function BusinessValueUnitModelPage() {
               <p
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '13px',
+                  fontSize: 'clamp(11px, 0.9vw, 15px)',
                   lineHeight: '1.75',
                   color: '#5F6D7E',
                 }}
@@ -638,7 +638,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '17px',
+                  fontSize: 'clamp(13px, 1.18vw, 19px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -648,7 +648,7 @@ export default function BusinessValueUnitModelPage() {
               <p
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '13px',
+                  fontSize: 'clamp(11px, 0.9vw, 15px)',
                   lineHeight: '1.75',
                   color: '#5F6D7E',
                 }}
@@ -691,7 +691,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '17px',
+                  fontSize: 'clamp(13px, 1.18vw, 19px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -701,7 +701,7 @@ export default function BusinessValueUnitModelPage() {
               <p
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '13px',
+                  fontSize: 'clamp(11px, 0.9vw, 15px)',
                   lineHeight: '1.75',
                   color: '#5F6D7E',
                 }}
@@ -720,7 +720,7 @@ export default function BusinessValueUnitModelPage() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: '14px',
+              fontSize: 'clamp(11px, 0.97vw, 16px)',
               letterSpacing: '0.06em',
               color: '#14358A',
               textTransform: 'uppercase',
@@ -733,7 +733,7 @@ export default function BusinessValueUnitModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -747,7 +747,7 @@ export default function BusinessValueUnitModelPage() {
                fontFamily: 'Montserrat, sans-serif',
                fontWeight: 400,
                fontStyle: 'normal',
-               fontSize: '30px',
+               fontSize: 'clamp(18px, 2.08vw, 34px)',
                lineHeight: '140%',
                letterSpacing: '0%',
                textAlign: 'center',
@@ -765,7 +765,7 @@ export default function BusinessValueUnitModelPage() {
               color: '#FFFFFF',
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: '14px',
+              fontSize: 'clamp(11px, 0.97vw, 16px)',
               letterSpacing: '0.04em',
               padding: '14px 32px',
               borderRadius: '8px',
@@ -779,12 +779,12 @@ export default function BusinessValueUnitModelPage() {
 
       {/* Section 6: How We Help */}
       <section className="w-full py-20 px-6 bg-white">
-        <div className="max-w-[1100px] mx-auto">
+        <div className="max-w-[min(1100px,_90%)] mx-auto">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -830,7 +830,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -840,7 +840,7 @@ export default function BusinessValueUnitModelPage() {
               <p
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '13px',
+                  fontSize: 'clamp(11px, 0.9vw, 15px)',
                   lineHeight: '1.75',
                   color: '#5F6D7E',
                 }}
@@ -883,7 +883,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -893,7 +893,7 @@ export default function BusinessValueUnitModelPage() {
               <p
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '13px',
+                  fontSize: 'clamp(11px, 0.9vw, 15px)',
                   lineHeight: '1.75',
                   color: '#5F6D7E',
                 }}
@@ -936,7 +936,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -946,7 +946,7 @@ export default function BusinessValueUnitModelPage() {
               <p
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '13px',
+                  fontSize: 'clamp(11px, 0.9vw, 15px)',
                   lineHeight: '1.75',
                   color: '#5F6D7E',
                 }}
@@ -991,7 +991,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -1001,7 +1001,7 @@ export default function BusinessValueUnitModelPage() {
               <p
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '13px',
+                  fontSize: 'clamp(11px, 0.9vw, 15px)',
                   lineHeight: '1.75',
                   color: '#5F6D7E',
                 }}
@@ -1044,7 +1044,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -1054,7 +1054,7 @@ export default function BusinessValueUnitModelPage() {
               <p
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '13px',
+                  fontSize: 'clamp(11px, 0.9vw, 15px)',
                   lineHeight: '1.75',
                   color: '#5F6D7E',
                 }}
@@ -1097,7 +1097,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -1107,7 +1107,7 @@ export default function BusinessValueUnitModelPage() {
               <p
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '13px',
+                  fontSize: 'clamp(11px, 0.9vw, 15px)',
                   lineHeight: '1.75',
                   color: '#5F6D7E',
                 }}
@@ -1116,7 +1116,7 @@ export default function BusinessValueUnitModelPage() {
               </p>
             </div>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', maxWidth: '730px', margin: '0 auto' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', maxWidth: 'min(730px, 95%)', margin: '0 auto' }}>
             <div
               style={{
                 border: '3px solid #14358A',
@@ -1152,7 +1152,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -1162,7 +1162,7 @@ export default function BusinessValueUnitModelPage() {
               <p
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '13px',
+                  fontSize: 'clamp(11px, 0.9vw, 15px)',
                   lineHeight: '1.75',
                   color: '#5F6D7E',
                 }}
@@ -1205,7 +1205,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -1215,7 +1215,7 @@ export default function BusinessValueUnitModelPage() {
               <p
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '13px',
+                  fontSize: 'clamp(11px, 0.9vw, 15px)',
                   lineHeight: '1.75',
                   color: '#5F6D7E',
                 }}
@@ -1234,7 +1234,7 @@ export default function BusinessValueUnitModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -1246,7 +1246,7 @@ export default function BusinessValueUnitModelPage() {
           <p
             style={{
               fontFamily: 'Montserrat, sans-serif',
-              fontSize: '15px',
+              fontSize: 'clamp(12px, 1.04vw, 17px)',
               lineHeight: '1.8',
               color: '#333333',
               marginBottom: '36px',
@@ -1262,7 +1262,7 @@ export default function BusinessValueUnitModelPage() {
                color: '#FFFFFF',
                fontFamily: 'Montserrat, sans-serif',
                fontWeight: 700,
-               fontSize: '14px',
+               fontSize: 'clamp(11px, 0.97vw, 16px)',
                letterSpacing: '0.04em',
                padding: '14px 32px',
                borderRadius: '8px',

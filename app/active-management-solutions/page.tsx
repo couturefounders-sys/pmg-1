@@ -68,13 +68,13 @@ export default function ActiveManagementSolutions() {
 
       {/* ─── Section 1: Hero ─── */}
       <section className="w-full pt-36 pb-16 px-6">
-        <div className="max-w-[900px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[min(900px,_90%)] mx-auto flex flex-col items-center text-center">
           {/* Eyebrow */}
           <p
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '20px',
+              fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '105%',
               color: '#14358A',
               marginBottom: '20px',
@@ -88,7 +88,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -103,7 +103,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '140%',
               color: '#333333',
               marginBottom: '24px',
@@ -119,7 +119,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '140%',
               color: '#333333',
             }}
@@ -133,13 +133,13 @@ export default function ActiveManagementSolutions() {
 
       {/* ─── Section 2: The PMG Advantage ─── */}
       <section className="w-full py-16 px-6 bg-white">
-        <div className="max-w-[1100px] mx-auto">
+        <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
             <h2
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '48px',
+                fontSize: 'clamp(28px, 3.33vw, 56px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -152,10 +152,10 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '18px',
+                fontSize: 'clamp(14px, 1.25vw, 20px)',
                 lineHeight: '150%',
                 color: '#333333',
-                maxWidth: '680px',
+                maxWidth: 'min(680px, 95%)',
               }}
             >
               Our embedded executive model delivers critical advantages over traditional recruitment
@@ -184,7 +184,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: '29px',
+                      fontSize: 'clamp(18px, 2.01vw, 33px)',
                       lineHeight: '130%',
                       color: '#14358A',
                       margin: 0,
@@ -197,7 +197,7 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
-                    fontSize: '15px',
+                    fontSize: 'clamp(12px, 1.04vw, 17px)',
                     lineHeight: '160%',
                     color: '#333333',
                   }}
@@ -212,13 +212,13 @@ export default function ActiveManagementSolutions() {
 
       {/* ─── Section 3: The Impact We Deliver ─── */}
       <section className="w-full py-16 px-6 bg-white">
-        <div className="max-w-[1100px] mx-auto">
+        <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
             <h2
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '48px',
+                fontSize: 'clamp(28px, 3.33vw, 56px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -249,7 +249,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: '29px',
+                      fontSize: 'clamp(18px, 2.01vw, 33px)',
                       lineHeight: '130%',
                       color: '#14358A',
                       margin: 0,
@@ -262,7 +262,7 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
-                    fontSize: '15px',
+                    fontSize: 'clamp(12px, 1.04vw, 17px)',
                     lineHeight: '160%',
                     color: '#333333',
                   }}
@@ -278,12 +278,12 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               color: '#333333',
               textAlign: 'center',
-              maxWidth: '1201px',
+              maxWidth: 'min(1201px, 95%)',
               margin: '0 auto',
             }}
           >
@@ -295,13 +295,13 @@ export default function ActiveManagementSolutions() {
 
       {/* ─── Section 4: How We Compare ─── */}
       <section className="w-full py-16 px-6 bg-white">
-        <div className="max-w-[1100px] mx-auto">
+        <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-10">
             <h2
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '48px',
+                fontSize: 'clamp(28px, 3.33vw, 56px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -314,7 +314,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '18px',
+                fontSize: 'clamp(14px, 1.25vw, 20px)',
                 lineHeight: '1.75',
                 letterSpacing: '0%',
                 color: '#68718B',
@@ -334,7 +334,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 700,
-                      fontSize: '18px',
+                      fontSize: 'clamp(14px, 1.25vw, 20px)',
                       color: '#333333',
                       padding: '18px 20px',
                       textAlign: 'left',
@@ -350,7 +350,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 700,
-                      fontSize: '18px',
+                      fontSize: 'clamp(14px, 1.25vw, 20px)',
                       color: '#333333',
                       padding: '18px 20px',
                       textAlign: 'left',
@@ -366,7 +366,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 700,
-                      fontSize: '18px',
+                      fontSize: 'clamp(14px, 1.25vw, 20px)',
                       color: '#333333',
                       padding: '18px 20px',
                       textAlign: 'left',
@@ -382,7 +382,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 700,
-                      fontSize: '18px',
+                      fontSize: 'clamp(14px, 1.25vw, 20px)',
                       color: '#333333',
                       padding: '18px 20px',
                       textAlign: 'left',
@@ -402,7 +402,7 @@ export default function ActiveManagementSolutions() {
                       style={{
                         fontFamily: 'Montserrat, sans-serif',
                         fontWeight: 400,
-                        fontSize: '18px',
+                        fontSize: 'clamp(14px, 1.25vw, 20px)',
                         color: '#333333',
                         padding: '18px 20px',
                         verticalAlign: 'top',
@@ -417,7 +417,7 @@ export default function ActiveManagementSolutions() {
                       style={{
                         fontFamily: 'Montserrat, sans-serif',
                         fontWeight: 400,
-                        fontSize: '16px',
+                        fontSize: 'clamp(13px, 1.11vw, 18px)',
                         color: '#333333',
                         padding: '18px 20px',
                         verticalAlign: 'top',
@@ -432,7 +432,7 @@ export default function ActiveManagementSolutions() {
                       style={{
                         fontFamily: 'Montserrat, sans-serif',
                         fontWeight: 400,
-                        fontSize: '16px',
+                        fontSize: 'clamp(13px, 1.11vw, 18px)',
                         color: '#333333',
                         padding: '18px 20px',
                         verticalAlign: 'top',
@@ -447,7 +447,7 @@ export default function ActiveManagementSolutions() {
                       style={{
                         fontFamily: 'Montserrat, sans-serif',
                         fontWeight: 400,
-                        fontSize: '16px',
+                        fontSize: 'clamp(13px, 1.11vw, 18px)',
                         color: '#333333',
                         padding: '18px 20px',
                         verticalAlign: 'top',
@@ -468,12 +468,12 @@ export default function ActiveManagementSolutions() {
       {/* ─── Section 5: Our Process Wave ─── */}
       <section className="w-full bg-white pt-16 pb-16 overflow-hidden">
         {/* Header */}
-        <div className="max-w-[1100px] mx-auto px-6 flex flex-col items-center text-center mb-10">
+        <div className="max-w-[min(1100px,_90%)] mx-auto px-6 flex flex-col items-center text-center mb-10">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -486,10 +486,10 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '18px',
+              fontSize: 'clamp(14px, 1.25vw, 20px)',
               lineHeight: '1.75',
               color: '#333333',
-              maxWidth: '680px',
+              maxWidth: 'min(680px, 95%)',
             }}
           >
             From the first conversation to sustained execution, here&apos;s how we embed the right leader into your organization.
@@ -497,7 +497,7 @@ export default function ActiveManagementSolutions() {
         </div>
 
         {/* Wave + phases — absolute positioning per Figma */}
-        <div className="relative w-full" style={{ height: '520px' }}>
+        <div className="relative w-full" style={{ height: 'clamp(320px, 36.11vw, 520px)' }}>
 
           {/* Wave image — full width, vertically centred */}
           <div
@@ -528,7 +528,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: 'clamp(18px, 2.01vw, 33px)',
                 lineHeight: '130%',
                 color: '#14358A',
                 marginBottom: '10px',
@@ -540,7 +540,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '160%',
                 color: '#6C757D',
               }}
@@ -565,7 +565,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: 'clamp(18px, 2.01vw, 33px)',
                 lineHeight: '130%',
                 color: '#14358A',
                 marginBottom: '10px',
@@ -577,7 +577,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '160%',
                 color: '#6C757D',
               }}
@@ -602,7 +602,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: 'clamp(18px, 2.01vw, 33px)',
                 lineHeight: '130%',
                 color: '#14358A',
                 marginBottom: '10px',
@@ -614,7 +614,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '160%',
                 color: '#6C757D',
               }}
@@ -639,7 +639,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: 'clamp(18px, 2.01vw, 33px)',
                 lineHeight: '130%',
                 color: '#14358A',
                 marginBottom: '10px',
@@ -651,7 +651,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '160%',
                 color: '#6C757D',
               }}
@@ -666,13 +666,13 @@ export default function ActiveManagementSolutions() {
 
       {/* ─── Section 6: Engagement Models ─── */}
       <section className="w-full py-16 px-6 bg-white">
-        <div className="max-w-[1100px] mx-auto">
+        <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
             <h2
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '48px',
+                fontSize: 'clamp(28px, 3.33vw, 56px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -685,10 +685,10 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '18px',
+                fontSize: 'clamp(14px, 1.25vw, 20px)',
                 lineHeight: '150%',
                 color: '#333333',
-                maxWidth: '900px',
+                maxWidth: 'min(900px, 95%)',
               }}
             >
               We offer two distinct engagement models to provide the right level of support for your specific goals.
@@ -709,7 +709,7 @@ export default function ActiveManagementSolutions() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 700,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   padding: '14px 40px',
                   backgroundColor: '#14358A',
                   color: '#FFFFFF',
@@ -723,7 +723,7 @@ export default function ActiveManagementSolutions() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 700,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   padding: '14px 40px',
                   backgroundColor: '#FFFFFF',
                   color: '#14358A',
@@ -756,7 +756,7 @@ export default function ActiveManagementSolutions() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 400,
-                  fontSize: '18px',
+                  fontSize: 'clamp(14px, 1.25vw, 20px)',
                   lineHeight: '1.75',
                   color: '#333333',
                   marginBottom: '24px',
@@ -786,7 +786,7 @@ export default function ActiveManagementSolutions() {
                       style={{
                         fontFamily: 'Arimo, sans-serif',
                         fontWeight: 400,
-                        fontSize: '16px',
+                        fontSize: 'clamp(13px, 1.11vw, 18px)',
                         lineHeight: '150%',
                         color: '#364153',
                       }}
@@ -802,7 +802,7 @@ export default function ActiveManagementSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '20px',
+                  fontSize: 'clamp(15px, 1.39vw, 22px)',
                   lineHeight: '140%',
                   color: '#14358A',
                   marginTop: '32px',
@@ -820,7 +820,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: '16px',
+                      fontSize: 'clamp(13px, 1.11vw, 18px)',
                       color: '#008236',
                       marginBottom: '12px',
                     }}
@@ -841,7 +841,7 @@ export default function ActiveManagementSolutions() {
                           style={{
                             fontFamily: 'DM Sans, sans-serif',
                             fontWeight: 400,
-                            fontSize: '14px',
+                            fontSize: 'clamp(11px, 0.97vw, 16px)',
                             lineHeight: '140%',
                             color: '#364153',
                           }}
@@ -859,7 +859,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: '16px',
+                      fontSize: 'clamp(13px, 1.11vw, 18px)',
                       color: '#C10007',
                       marginBottom: '12px',
                     }}
@@ -879,7 +879,7 @@ export default function ActiveManagementSolutions() {
                           style={{
                             fontFamily: 'DM Sans, sans-serif',
                             fontWeight: 400,
-                            fontSize: '14px',
+                            fontSize: 'clamp(11px, 0.97vw, 16px)',
                             lineHeight: '140%',
                             color: '#364153',
                           }}
@@ -909,7 +909,7 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: '25px',
+                    fontSize: 'clamp(16px, 1.74vw, 28px)',
                     lineHeight: '24px',
                     color: '#14358A',
                     marginBottom: '12px',
@@ -921,7 +921,7 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 400,
-                    fontSize: '16px',
+                    fontSize: 'clamp(13px, 1.11vw, 18px)',
                     lineHeight: '22.75px',
                     color: '#68718B',
                   }}
@@ -943,7 +943,7 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: '25px',
+                    fontSize: 'clamp(16px, 1.74vw, 28px)',
                     lineHeight: '24px',
                     color: '#14358A',
                     marginBottom: '12px',
@@ -955,7 +955,7 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 400,
-                    fontSize: '16px',
+                    fontSize: 'clamp(13px, 1.11vw, 18px)',
                     lineHeight: '22.75px',
                     color: '#68718B',
                   }}
@@ -970,13 +970,13 @@ export default function ActiveManagementSolutions() {
 
       {/* ─── Section 7: Our Commitment: True Accountability ─── */}
       <section className="w-full py-16 px-6 bg-white">
-        <div className="max-w-[1100px] mx-auto">
+        <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
             <h2
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '48px',
+                fontSize: 'clamp(28px, 3.33vw, 56px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -989,10 +989,10 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '18px',
+                fontSize: 'clamp(14px, 1.25vw, 20px)',
                 lineHeight: '150%',
                 color: '#333333',
-                maxWidth: '900px',
+                maxWidth: 'min(900px, 95%)',
               }}
             >
               Our partnerships are built on a foundation of transparency and measurable outcomes. We don&apos;t just promise results; we provide concrete mechanisms to ensure we deliver them.
@@ -1036,7 +1036,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: '29px',
+                      fontSize: 'clamp(18px, 2.01vw, 33px)',
                       lineHeight: '130%',
                       color: '#14358A',
                       margin: 0,
@@ -1049,7 +1049,7 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
-                    fontSize: '15px',
+                    fontSize: 'clamp(12px, 1.04vw, 17px)',
                     lineHeight: '160%',
                     color: '#333333',
                   }}
@@ -1064,13 +1064,13 @@ export default function ActiveManagementSolutions() {
 
       {/* ─── Section 8: Our Approach: From Insight to Impact ─── */}
       <section className="relative z-10 py-20 bg-white">
-        <div className="max-w-[1440px] mx-auto px-16">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-16">
           {/* Heading */}
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -1086,12 +1086,12 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',
-              maxWidth: '1201px',
+              maxWidth: 'min(1201px, 95%)',
               margin: '0 auto 48px auto',
             }}
           >
@@ -1161,13 +1161,13 @@ export default function ActiveManagementSolutions() {
                     minHeight: `${tabHeight}px`,
                   }}
                 >
-                  <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '18px', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
+                  <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
                     {card.title}
                   </h3>
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '12px', lineHeight: '24px', color: '#14358A', marginBottom: '4px' }}>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '24px', color: '#14358A', marginBottom: '4px' }}>
                     {card.subtitle}
                   </p>
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '24px', color: '#5F5F5F' }}>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '24px', color: '#5F5F5F' }}>
                     {card.desc}
                   </p>
                 </div>
@@ -1185,12 +1185,12 @@ export default function ActiveManagementSolutions() {
           background: 'linear-gradient(135deg, #EBF7FF 0%, #FFFFFF 100%)',
         }}
       >
-        <div className="max-w-[900px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[min(900px,_90%)] mx-auto flex flex-col items-center text-center">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -1203,7 +1203,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '18px',
+              fontSize: 'clamp(14px, 1.25vw, 20px)',
               lineHeight: '1.75',
               color: '#333333',
               marginBottom: '32px',
@@ -1215,7 +1215,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: '16px',
+              fontSize: 'clamp(13px, 1.11vw, 18px)',
               padding: '16px 40px',
               backgroundColor: '#8B5CF6',
               color: '#FFFFFF',

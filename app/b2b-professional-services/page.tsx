@@ -9,13 +9,13 @@ export default function B2BProfessionalServices() {
       <Header />
 
       {/* Hero Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 sm:px-[118px] pt-[200px] pb-24 flex flex-col lg:flex-row justify-between items-start gap-12">
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 sm:px-[clamp(24px,8.19vw,118px)] pt-[clamp(120px,13.89vw,200px)] pb-24 flex flex-col lg:flex-row justify-between items-start gap-12">
         {/* Left Content */}
         <div className="flex flex-col gap-8 max-w-[740px] z-10">
           <h1
             className="font-dm-sans font-bold text-[#14358A]"
             style={{
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
             }}
@@ -26,7 +26,7 @@ export default function B2BProfessionalServices() {
           <p
             className="font-montserrat font-normal text-[#333333]"
             style={{
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '140%',
             }}
           >
@@ -40,7 +40,7 @@ export default function B2BProfessionalServices() {
             className="rounded-full overflow-hidden"
             style={{
               width: '416px',
-              height: '424px',
+              height: 'clamp(270px, 29.44vw, 424px)',
             }}
           >
             <img
@@ -57,21 +57,21 @@ export default function B2BProfessionalServices() {
       </div>
 
       {/* Decorative Bars - Top Left */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
+      <div className="relative w-full pointer-events-none" style={{ height: 'clamp(80px, 11.11vw, 160px)' }}>
         <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', top: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
         <div className="absolute" style={{ width: '200px', height: '60px', left: '-10px', top: '60px', opacity: 1, background: 'linear-gradient(90deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
       </div>
 
       {/* Your Partner in Service Excellence Section */}
-      <div className="relative w-full bg-white" style={{ paddingTop: '120px', paddingBottom: '120px' }}>
-        <div className="relative max-w-[1440px] mx-auto flex flex-col items-center px-6">
+      <div className="relative w-full bg-white" style={{ paddingTop: 'clamp(80px, 8.33vw, 120px)', paddingBottom: 'clamp(80px, 8.33vw, 120px)' }}>
+        <div className="relative max-w-[min(1440px,_95%)] mx-auto flex flex-col items-center px-6">
 
           {/* Section Title */}
           <h2
             className="font-dm-sans font-bold text-center"
             style={{
               width: '1087px',
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               color: '#14358A',
               letterSpacing: '-0.03em',
@@ -86,7 +86,7 @@ export default function B2BProfessionalServices() {
             className="font-montserrat font-normal text-center"
             style={{
               width: '1342px',
-              fontSize: '32px',
+              fontSize: 'clamp(20px, 2.22vw, 36px)',
               lineHeight: '100%',
               color: '#333333',
               letterSpacing: '0%'
@@ -104,7 +104,7 @@ export default function B2BProfessionalServices() {
       </div>
 
       {/* Decorative Bars - Top Right + Bottom Left */}
-      <div className="relative w-full pointer-events-none" style={{ height: '160px' }}>
+      <div className="relative w-full pointer-events-none" style={{ height: 'clamp(80px, 11.11vw, 160px)' }}>
         {/* Top Right */}
         <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(-8deg)', transformOrigin: 'right center' }} />
         {/* Bottom Left */}
@@ -113,29 +113,29 @@ export default function B2BProfessionalServices() {
 
       {/* Our Work Section */}
       <div className="bg-[#F8FAFC] py-24 px-6">
-        <div className="max-w-[1300px] mx-auto">
+        <div className="max-w-[min(1300px,_95%)] mx-auto">
           <div className="text-center mb-16">
             <h2
               className="font-dm-sans font-bold text-[#14358A] mb-6"
-              style={{ fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em' }}
+              style={{ fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em' }}
             >
               Our Work
             </h2>
             <p
               className="font-montserrat font-normal text-[#333333] mx-auto"
-              style={{ fontSize: '30px', lineHeight: '140%', maxWidth: '1082px', textAlign: 'center' }}
+              style={{ fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', maxWidth: 'min(1082px, 95%)', textAlign: 'center' }}
             >
               We help service-based organizations build scalable, efficient, and client-centric operating models.
             </p>
           </div>
 
           {/* Work Cards Grid */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 412px)', gap: '60px 26px', justifyContent: 'center' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 350px), 1fr))', gap: '60px 26px', justifyContent: 'center' }}>
             {/* Card 1: Service Delivery & Margin Optimization */}
             <div
               className="bg-white"
               style={{
-                width: '412px',
+                width: 'min(412px, 100%)',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',}}
@@ -144,14 +144,14 @@ export default function B2BProfessionalServices() {
                 <img src="/icon-strategy-transformation.png" alt="Service Delivery" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   Service Delivery & Margin Optimization
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: '16px', lineHeight: '140%' }}
+                style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%' }}
               >
                 Refine service delivery models and implement value-based pricing to enhance profitability and optimize resource allocation.
               </p>
@@ -161,7 +161,7 @@ export default function B2BProfessionalServices() {
             <div
               className="bg-white"
               style={{
-                width: '412px',
+                width: 'min(412px, 100%)',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',}}
@@ -170,14 +170,14 @@ export default function B2BProfessionalServices() {
                 <img src="/icon-risk-resilience.png" alt="Operational Excellence" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   Operational Excellence for Corporate Functions
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: '16px', lineHeight: '140%' }}
+                style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%' }}
               >
                 Streamline internal HR, Finance, and IT workflows, leveraging automation and shared service models to drastically reduce overhead.
               </p>
@@ -187,7 +187,7 @@ export default function B2BProfessionalServices() {
             <div
               className="bg-white"
               style={{
-                width: '412px',
+                width: 'min(412px, 100%)',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',}}
@@ -196,14 +196,14 @@ export default function B2BProfessionalServices() {
                 <img src="/icon-customer-experience.png" alt="Client Relationship" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   Client Relationship & Lifecycle Management
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: '16px', lineHeight: '140%' }}
+                style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%' }}
               >
                 Develop robust client management strategies, optimizing acquisition, onboarding, retention, and growth using advanced CRM and analytics.
               </p>
@@ -213,7 +213,7 @@ export default function B2BProfessionalServices() {
             <div
               className="bg-white"
               style={{
-                width: '412px',
+                width: 'min(412px, 100%)',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',}}
@@ -222,14 +222,14 @@ export default function B2BProfessionalServices() {
                 <img src="/icon-regulatory-compliance.png" alt="Talent Management" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   Talent Management & Professional Development
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: '16px', lineHeight: '140%' }}
+                style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%' }}
               >
                 Design career pathways and learning systems to attract, develop, and retain top professional talent and institutional knowledge.
               </p>
@@ -239,7 +239,7 @@ export default function B2BProfessionalServices() {
             <div
               className="bg-white"
               style={{
-                width: '412px',
+                width: 'min(412px, 100%)',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',}}
@@ -248,14 +248,14 @@ export default function B2BProfessionalServices() {
                 <img src="/icon-innovation-fintech.png" alt="Partnership Governance" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   Partnership & Firm Governance
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: '16px', lineHeight: '140%' }}
+                style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%' }}
               >
                 Advise on partnership structures, succession planning, and governance to ensure long-term stability and strategic firm alignment.
               </p>
@@ -265,7 +265,7 @@ export default function B2BProfessionalServices() {
             <div
               className="bg-white"
               style={{
-                width: '412px',
+                width: 'min(412px, 100%)',
                 padding: '23px 25px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',}}
@@ -274,14 +274,14 @@ export default function B2BProfessionalServices() {
                 <img src="/icon-capital-performance.png" alt="Risk Management" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: '29px', lineHeight: '105%', letterSpacing: '-3%' }}
+                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   Risk Management & Quality Assurance
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: '16px', lineHeight: '140%' }}
+                style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%' }}
               >
                 Implement rigorous QA processes and risk frameworks to protect firm reputation, ensure compliance, and maintain service delivery standards.
               </p>
@@ -294,7 +294,7 @@ export default function B2BProfessionalServices() {
       <div
         className="relative py-24 px-6 overflow-hidden"
         style={{
-          backgroundImage: 'url(/projects-bg-financial.png)',
+          backgroundImage: 'url(/projects-bg-financial.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           minHeight: '700px'
@@ -307,11 +307,11 @@ export default function B2BProfessionalServices() {
         {/* Decorative Border Rectangle - Top Left */}
         <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
 
-        <div className="max-w-[1300px] mx-auto relative z-10">
+        <div className="max-w-[min(1300px,_95%)] mx-auto relative z-10">
           <h2
             className="font-dm-sans font-bold text-white text-center mb-16"
             style={{
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em'
             }}
@@ -336,7 +336,7 @@ export default function B2BProfessionalServices() {
               <h3
                 className="font-poppins font-semibold text-center"
                 style={{
-                  fontSize: '30px',
+                  fontSize: 'clamp(18px, 2.08vw, 34px)',
                   lineHeight: '110%',
                   color: '#1e40af',
                   marginBottom: '8px'
@@ -354,10 +354,10 @@ export default function B2BProfessionalServices() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}>
+                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
                       12%
                     </p>
-                    <p className="font-inter font-normal" style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}>
+                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#64748b' }}>
                       reduction in operating expenses
                     </p>
                   </div>
@@ -371,10 +371,10 @@ export default function B2BProfessionalServices() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}>
+                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
                       25%
                     </p>
-                    <p className="font-inter font-normal" style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}>
+                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#64748b' }}>
                       reduction in low-value personnel spend
                     </p>
                   </div>
@@ -388,10 +388,10 @@ export default function B2BProfessionalServices() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}>
+                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
                       22x
                     </p>
-                    <p className="font-inter font-normal" style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}>
+                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#64748b' }}>
                       Return on Investment
                     </p>
                   </div>
@@ -407,7 +407,7 @@ export default function B2BProfessionalServices() {
                     borderRadius: '10px',
                     padding: '16px 32px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                    fontSize: '20px',
+                    fontSize: 'clamp(15px, 1.39vw, 22px)',
                     lineHeight: '140%',
                     letterSpacing: '0%',
                     border: 'none',
@@ -436,7 +436,7 @@ export default function B2BProfessionalServices() {
               <h3
                 className="font-poppins font-semibold text-center"
                 style={{
-                  fontSize: '30px',
+                  fontSize: 'clamp(18px, 2.08vw, 34px)',
                   lineHeight: '110%',
                   color: '#1e40af',
                   marginBottom: '8px'
@@ -454,10 +454,10 @@ export default function B2BProfessionalServices() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}>
+                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
                       22%
                     </p>
-                    <p className="font-inter font-normal" style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}>
+                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#64748b' }}>
                       increase in customer satisfaction
                     </p>
                   </div>
@@ -471,10 +471,10 @@ export default function B2BProfessionalServices() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}>
+                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
                       40%
                     </p>
-                    <p className="font-inter font-normal" style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}>
+                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#64748b' }}>
                       reduction in signup-to-activation time
                     </p>
                   </div>
@@ -488,10 +488,10 @@ export default function B2BProfessionalServices() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}>
+                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
                       23x
                     </p>
-                    <p className="font-inter font-normal" style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}>
+                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#64748b' }}>
                       Return on Investment
                     </p>
                   </div>
@@ -507,7 +507,7 @@ export default function B2BProfessionalServices() {
                     borderRadius: '10px',
                     padding: '16px 32px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                    fontSize: '20px',
+                    fontSize: 'clamp(15px, 1.39vw, 22px)',
                     lineHeight: '140%',
                     letterSpacing: '0%',
                     border: 'none',
@@ -536,7 +536,7 @@ export default function B2BProfessionalServices() {
               <h3
                 className="font-poppins font-semibold text-center"
                 style={{
-                  fontSize: '30px',
+                  fontSize: 'clamp(18px, 2.08vw, 34px)',
                   lineHeight: '110%',
                   color: '#1e40af',
                   marginBottom: '8px'
@@ -554,10 +554,10 @@ export default function B2BProfessionalServices() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}>
+                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
                       25%
                     </p>
-                    <p className="font-inter font-normal" style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}>
+                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#64748b' }}>
                       increase in qualified leads
                     </p>
                   </div>
@@ -571,10 +571,10 @@ export default function B2BProfessionalServices() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}>
+                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
                       15%
                     </p>
-                    <p className="font-inter font-normal" style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}>
+                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#64748b' }}>
                       increase in customer renewal rates
                     </p>
                   </div>
@@ -588,10 +588,10 @@ export default function B2BProfessionalServices() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: '24px', lineHeight: '110%', color: '#1e40af' }}>
+                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
                       9x
                     </p>
-                    <p className="font-inter font-normal" style={{ fontSize: '14px', lineHeight: '140%', color: '#64748b' }}>
+                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#64748b' }}>
                       Return on Investment
                     </p>
                   </div>
@@ -607,7 +607,7 @@ export default function B2BProfessionalServices() {
                     borderRadius: '10px',
                     padding: '16px 32px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                    fontSize: '20px',
+                    fontSize: 'clamp(15px, 1.39vw, 22px)',
                     lineHeight: '140%',
                     letterSpacing: '0%',
                     border: 'none',
@@ -626,13 +626,13 @@ export default function B2BProfessionalServices() {
 
       {/* The Functional Consulting Advantage Section */}
       <div className="bg-white py-24 px-6">
-        <div className="max-w-[1440px] mx-auto flex flex-col items-center">
+        <div className="max-w-[min(1440px,_95%)] mx-auto flex flex-col items-center">
           <h2
             className="text-center whitespace-nowrap mb-10"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -641,12 +641,12 @@ export default function B2BProfessionalServices() {
             The Functional Consulting Advantage
           </h2>
 
-          <div className="max-w-[1082px] text-center">
+          <div className="max-w-[min(1082px,_90%)] text-center">
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '30px',
+                fontSize: 'clamp(18px, 2.08vw, 34px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -657,7 +657,7 @@ export default function B2BProfessionalServices() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '30px',
+                fontSize: 'clamp(18px, 2.08vw, 34px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -672,7 +672,7 @@ export default function B2BProfessionalServices() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '30px',
+                fontSize: 'clamp(18px, 2.08vw, 34px)',
                 lineHeight: '140%',
                 color: '#364153',
               }}
@@ -685,7 +685,7 @@ export default function B2BProfessionalServices() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 600,
-                fontSize: '21.1px',
+                fontSize: 'clamp(16px, 1.46vw, 24px)',
                 lineHeight: '30px',
                 color: '#14358A',
                 textDecoration: 'none',
@@ -712,7 +712,7 @@ export default function B2BProfessionalServices() {
         <h2
           className="font-dm-sans font-bold text-[#14358A] mb-6"
           style={{
-            fontSize: '48px',
+            fontSize: 'clamp(28px, 3.33vw, 56px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em'
           }}
@@ -722,10 +722,10 @@ export default function B2BProfessionalServices() {
         <p
           className="font-montserrat font-normal text-[#333333] mb-10"
           style={{
-            fontSize: '32px',
+            fontSize: 'clamp(20px, 2.22vw, 36px)',
             lineHeight: '135%',
             letterSpacing: '0%',
-            maxWidth: '1196px'
+            maxWidth: 'min(1196px, 95%)'
           }}
         >
           Let&apos;s discuss how PMG can help you enhance efficiency, delight your guests, and drive profitability.
@@ -737,7 +737,7 @@ export default function B2BProfessionalServices() {
             height: '65px',
             borderRadius: '10px',
             background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-            fontSize: '20px',
+            fontSize: 'clamp(15px, 1.39vw, 22px)',
             lineHeight: '140%',
             letterSpacing: '0%'
           }}

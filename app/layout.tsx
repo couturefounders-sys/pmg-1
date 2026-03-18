@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
-        <link rel="preload" href="/hero-background.png" as="image" />
+        <link rel="preload" href="/hero-background.webp" as="image" type="image/webp" />
         <meta name="format-detection" content="telephone=no" />
       </head>
       <body className={`${inter.className} no-overflow`}>{children}</body>

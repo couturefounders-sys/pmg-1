@@ -84,8 +84,8 @@ img {
 .nav-text {
   font-family: var(--font-inter), 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 14.8px;
-  line-height: 21px;
+  font-size: clamp(12px, 1.03vw, 16px);
+  line-height: 1.4;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -207,6 +207,13 @@ img {
 @media (min-width: 1920px) {
   .responsive-container {
     max-width: 1600px;
+  }
+}
+
+/* 4K / 32" monitors (2560px and up) */
+@media (min-width: 2560px) {
+  .responsive-container {
+    max-width: 2000px;
   }
 }
 
@@ -339,11 +346,7 @@ img {
   object-fit: contain;
 }
 
-/* Ensure buttons remain readable */
-button, .button {
-  font-size: clamp(14px, 1.5vw, 20px) !important;
-  padding: clamp(10px, 1.5vw, 16px) clamp(20px, 3vw, 40px) !important;
-}
+/* Ensure buttons remain readable - no !important to avoid overriding component styles */
 
 /* Responsive flex layouts */
 .responsive-flex {
@@ -360,13 +363,14 @@ button, .button {
 
 /* Viewport-specific optimizations */
 @media (min-width: 1280px) and (max-width: 1440px) {
-  /* MacBook Air 15" optimization */
   body {
     font-size: 16px;
   }
-  
-  .responsive-container {
-    max-width: 1280px;
+}
+
+@media (min-width: 2560px) {
+  body {
+    font-size: 18px;
   }
 }
 

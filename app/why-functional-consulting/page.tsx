@@ -9,14 +9,14 @@ export default function WhyFunctionalConsulting() {
       <Header />
 
       {/* Hero Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 pt-[230px] pb-24">
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 pt-[clamp(140px,15.97vw,230px)] pb-24">
         <div className="text-center max-w-[1224px] mx-auto">
           <h1
             className="mb-8"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -31,7 +31,7 @@ export default function WhyFunctionalConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '29px',
+              fontSize: 'clamp(18px, 2.01vw, 33px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -47,19 +47,19 @@ export default function WhyFunctionalConsulting() {
       <div 
         className="relative w-full py-20"
         style={{
-          backgroundImage: 'url(/problem-consulting-bg.png)',
+          backgroundImage: 'url(/problem-consulting-bg.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
-        <div className="max-w-[1440px] mx-auto px-4">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-4">
           <div className="text-center mb-12">
             <h2
               className="mb-6"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '48px',
+                fontSize: 'clamp(28px, 3.33vw, 56px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 textAlign: 'center',
@@ -74,7 +74,7 @@ export default function WhyFunctionalConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: 'clamp(18px, 2.01vw, 33px)',
                 lineHeight: '120%',
                 letterSpacing: '-0.03em',
                 textAlign: 'center',
@@ -96,7 +96,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '30px',
+                  fontSize: 'clamp(18px, 2.08vw, 34px)',
                   lineHeight: '110%',
                   letterSpacing: '-0.03em',
                   color: '#FF0000',
@@ -108,7 +108,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '20px',
+                  fontSize: 'clamp(15px, 1.39vw, 22px)',
                   lineHeight: '140%',
                   letterSpacing: '0%',
                   color: '#68718B',
@@ -127,7 +127,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '30px',
+                  fontSize: 'clamp(18px, 2.08vw, 34px)',
                   lineHeight: '110%',
                   letterSpacing: '-0.03em',
                   color: '#FF0000',
@@ -139,7 +139,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '20px',
+                  fontSize: 'clamp(15px, 1.39vw, 22px)',
                   lineHeight: '140%',
                   letterSpacing: '0%',
                   color: '#68718B',
@@ -158,7 +158,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '30px',
+                  fontSize: 'clamp(18px, 2.08vw, 34px)',
                   lineHeight: '110%',
                   letterSpacing: '-0.03em',
                   color: '#FF0000',
@@ -170,7 +170,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '20px',
+                  fontSize: 'clamp(15px, 1.39vw, 22px)',
                   lineHeight: '140%',
                   letterSpacing: '0%',
                   color: '#68718B',
@@ -189,7 +189,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '30px',
+                  fontSize: 'clamp(18px, 2.08vw, 34px)',
                   lineHeight: '110%',
                   letterSpacing: '-0.03em',
                   color: '#FF0000',
@@ -201,7 +201,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '20px',
+                  fontSize: 'clamp(15px, 1.39vw, 22px)',
                   lineHeight: '140%',
                   letterSpacing: '0%',
                   color: '#68718B',
@@ -216,19 +216,19 @@ export default function WhyFunctionalConsulting() {
 
       {/* Sound Familiar? The Echoes of Frustration Section */}
       <div className="relative w-full py-20 bg-white">
-        <div className="max-w-[1440px] mx-auto px-4">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-4">
           <div className="text-center">
             <h2
               className="mb-8"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '48px',
+                fontSize: 'clamp(28px, 3.33vw, 56px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 textAlign: 'center',
                 color: '#14358A',
-                maxWidth: '1224px',
+                maxWidth: 'min(1224px, 95%)',
                 margin: '0 auto 2rem auto',
               }}
             >
@@ -240,12 +240,12 @@ export default function WhyFunctionalConsulting() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '32px',
+                fontSize: 'clamp(20px, 2.22vw, 36px)',
                 lineHeight: '100%',
                 letterSpacing: '0%',
                 textAlign: 'center',
                 color: '#333333',
-                maxWidth: '1258px',
+                maxWidth: 'min(1258px, 95%)',
                 margin: '0 auto 2.5rem auto',
               }}
             >
@@ -256,7 +256,7 @@ export default function WhyFunctionalConsulting() {
             <div
               className="mb-10 mx-auto"
               style={{
-                maxWidth: '850px',
+                maxWidth: 'min(850px, 95%)',
                 padding: '24px',
                 border: '3px solid #14358A',
                 borderRadius: '10px',
@@ -267,7 +267,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '30px',
+                  fontSize: 'clamp(18px, 2.08vw, 34px)',
                   lineHeight: '140%',
                   letterSpacing: '0%',
                   textAlign: 'center',
@@ -282,12 +282,12 @@ export default function WhyFunctionalConsulting() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '32px',
+                fontSize: 'clamp(20px, 2.22vw, 36px)',
                 lineHeight: '100%',
                 letterSpacing: '0%',
                 textAlign: 'center',
                 color: '#000000',
-                maxWidth: '1337px',
+                maxWidth: 'min(1337px, 95%)',
                 margin: '0 auto',
               }}
             >
@@ -299,19 +299,19 @@ export default function WhyFunctionalConsulting() {
 
       {/* Why Functional Consulting Works Section */}
       <div className="relative w-full py-20 bg-white">
-        <div className="max-w-[1440px] mx-auto px-4">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-4">
           <div className="text-center max-w-[1258px] mx-auto">
             <h2
               className="mb-8"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '48px',
+                fontSize: 'clamp(28px, 3.33vw, 56px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 textAlign: 'center',
                 color: '#14358A',
-                maxWidth: '1224px',
+                maxWidth: 'min(1224px, 95%)',
                 margin: '0 auto 2rem auto',
               }}
             >
@@ -321,7 +321,7 @@ export default function WhyFunctionalConsulting() {
             <div
               style={{
                 fontFamily: 'Montserrat, sans-serif',
-                fontSize: '32px',
+                fontSize: 'clamp(20px, 2.22vw, 36px)',
                 lineHeight: '100%',
                 letterSpacing: '0%',
                 textAlign: 'center',
@@ -336,7 +336,7 @@ export default function WhyFunctionalConsulting() {
                 PMG does it differently:
               </p>
 
-              <ul className="text-left max-w-[1100px] mx-auto space-y-3 mb-6" style={{ fontWeight: 400, listStyleType: 'disc', paddingLeft: '40px' }}>
+              <ul className="text-left max-w-[min(1100px,_90%)] mx-auto space-y-3 mb-6" style={{ fontWeight: 400, listStyleType: 'disc', paddingLeft: '40px' }}>
                 <li>
                   We classify every project by its primary functional specialty (e.g., Strategy & Operations, Customer Experience, M&A).
                 </li>
@@ -358,7 +358,7 @@ export default function WhyFunctionalConsulting() {
 
       {/* Feature Cards Section */}
       <div className="relative w-full py-20 bg-white">
-        <div className="max-w-[1440px] mx-auto px-4">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[1200px] mx-auto">
             {/* Impact, Not Deliverables */}
             <div
@@ -379,7 +379,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: 'clamp(18px, 2.01vw, 33px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -392,7 +392,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '15px',
+                  fontSize: 'clamp(12px, 1.04vw, 17px)',
                   lineHeight: '140%',
                   letterSpacing: '0%',
                   textAlign: 'left',
@@ -422,7 +422,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: 'clamp(18px, 2.01vw, 33px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -435,7 +435,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '15px',
+                  fontSize: 'clamp(12px, 1.04vw, 17px)',
                   lineHeight: '140%',
                   letterSpacing: '0%',
                   textAlign: 'left',
@@ -465,7 +465,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: 'clamp(18px, 2.01vw, 33px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -478,7 +478,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '15px',
+                  fontSize: 'clamp(12px, 1.04vw, 17px)',
                   lineHeight: '140%',
                   letterSpacing: '0%',
                   textAlign: 'left',
@@ -508,7 +508,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: 'clamp(18px, 2.01vw, 33px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -521,7 +521,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '15px',
+                  fontSize: 'clamp(12px, 1.04vw, 17px)',
                   lineHeight: '140%',
                   letterSpacing: '0%',
                   textAlign: 'left',
@@ -537,17 +537,17 @@ export default function WhyFunctionalConsulting() {
 
       {/* Why Clients Choose Functional Consulting Section */}
       <div className="relative w-full py-20 bg-white">
-        <div className="max-w-[1440px] mx-auto px-4">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-4">
           <h2
             className="text-center mb-16"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
-              maxWidth: '1224px',
+              maxWidth: 'min(1224px, 95%)',
               margin: '0 auto 4rem auto',
             }}
           >
@@ -555,7 +555,7 @@ export default function WhyFunctionalConsulting() {
           </h2>
 
           {/* Timeline Layout */}
-          <div className="relative max-w-[1100px] mx-auto">
+          <div className="relative max-w-[min(1100px,_90%)] mx-auto">
             {/* Vertical Line */}
             <div 
               className="absolute left-1/2 transform -translate-x-1/2"
@@ -586,14 +586,14 @@ export default function WhyFunctionalConsulting() {
                     style={{
                       border: '3px solid #006FBA',
                       borderRadius: '16px',
-                      maxWidth: '350px',
+                      maxWidth: 'min(350px, 100%)',
                     }}
                   >
                     <p
                       style={{
                         fontFamily: 'DM Sans, sans-serif',
                         fontWeight: 700,
-                        fontSize: '30px',
+                        fontSize: 'clamp(18px, 2.08vw, 34px)',
                         lineHeight: '105%',
                         letterSpacing: '-0.03em',
                         textAlign: 'right',
@@ -636,14 +636,14 @@ export default function WhyFunctionalConsulting() {
                     style={{
                       border: '3px solid #006FBA',
                       borderRadius: '16px',
-                      maxWidth: '350px',
+                      maxWidth: 'min(350px, 100%)',
                     }}
                   >
                     <p
                       style={{
                         fontFamily: 'DM Sans, sans-serif',
                         fontWeight: 700,
-                        fontSize: '30px',
+                        fontSize: 'clamp(18px, 2.08vw, 34px)',
                         lineHeight: '105%',
                         letterSpacing: '-0.03em',
                         textAlign: 'left',
@@ -686,14 +686,14 @@ export default function WhyFunctionalConsulting() {
                     style={{
                       border: '3px solid #006FBA',
                       borderRadius: '16px',
-                      maxWidth: '350px',
+                      maxWidth: 'min(350px, 100%)',
                     }}
                   >
                     <p
                       style={{
                         fontFamily: 'DM Sans, sans-serif',
                         fontWeight: 700,
-                        fontSize: '30px',
+                        fontSize: 'clamp(18px, 2.08vw, 34px)',
                         lineHeight: '105%',
                         letterSpacing: '-0.03em',
                         textAlign: 'right',
@@ -736,14 +736,14 @@ export default function WhyFunctionalConsulting() {
                     style={{
                       border: '3px solid #006FBA',
                       borderRadius: '16px',
-                      maxWidth: '350px',
+                      maxWidth: 'min(350px, 100%)',
                     }}
                   >
                     <p
                       style={{
                         fontFamily: 'DM Sans, sans-serif',
                         fontWeight: 700,
-                        fontSize: '30px',
+                        fontSize: 'clamp(18px, 2.08vw, 34px)',
                         lineHeight: '105%',
                         letterSpacing: '-0.03em',
                         textAlign: 'left',
@@ -780,13 +780,13 @@ export default function WhyFunctionalConsulting() {
           background: 'linear-gradient(180deg, #EBF7FF 0%, #D9ECFA 100%)',
         }}
       >
-        <div className="max-w-[1440px] mx-auto px-4 text-center">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-4 text-center">
           <h2 
             className="mb-6"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -800,10 +800,10 @@ export default function WhyFunctionalConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '32px',
+              fontSize: 'clamp(20px, 2.22vw, 36px)',
               lineHeight: '135%',
               color: '#333333',
-              maxWidth: '1196px',
+              maxWidth: 'min(1196px, 95%)',
               margin: '0 auto 2.5rem auto',
             }}
           >
@@ -818,7 +818,7 @@ export default function WhyFunctionalConsulting() {
               width: '393px',
               height: '65px',
               fontFamily: 'DM Sans, sans-serif',
-              fontSize: '20px',
+              fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',
               fontWeight: 700,
               border: 'none',

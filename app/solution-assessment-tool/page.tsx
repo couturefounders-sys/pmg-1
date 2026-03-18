@@ -34,7 +34,7 @@ export default function SolutionAssessmentTool() {
 
       {/* ─── Hero / Form Section ─── */}
       <section className="w-full pt-36 pb-24 px-6">
-        <div className="max-w-[900px] mx-auto">
+        <div className="max-w-[min(900px,_90%)] mx-auto">
 
           {/* Heading */}
           <div className="flex flex-col items-center text-center mb-10">
@@ -42,7 +42,7 @@ export default function SolutionAssessmentTool() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '48px',
+                fontSize: 'clamp(28px, 3.33vw, 56px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -55,12 +55,12 @@ export default function SolutionAssessmentTool() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '30px',
+                fontSize: 'clamp(18px, 2.08vw, 34px)',
                 lineHeight: '140%',
                 letterSpacing: '0%',
                 color: '#333333',
                 textAlign: 'center',
-                maxWidth: '600px',
+                maxWidth: 'min(600px, 95%)',
               }}
             >
               This advisor applies the same diagnostic framework our consultants use in discovery calls. Answer a few questions to get a preliminary recommendation on which PMG engagement model would be most effective for your situation.
@@ -85,7 +85,7 @@ export default function SolutionAssessmentTool() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 600,
-                  fontSize: '15px',
+                  fontSize: 'clamp(12px, 1.04vw, 17px)',
                   color: '#333333',
                   display: 'block',
                   marginBottom: '14px',
@@ -103,7 +103,7 @@ export default function SolutionAssessmentTool() {
                       gap: '8px',
                       cursor: 'pointer',
                       fontFamily: 'Montserrat, sans-serif',
-                      fontSize: '13px',
+                      fontSize: 'clamp(11px, 0.9vw, 15px)',
                       color: '#333333',
                     }}
                   >
@@ -125,7 +125,7 @@ export default function SolutionAssessmentTool() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 600,
-                  fontSize: '15px',
+                  fontSize: 'clamp(12px, 1.04vw, 17px)',
                   color: '#333333',
                   display: 'block',
                   marginBottom: '14px',
@@ -154,7 +154,7 @@ export default function SolutionAssessmentTool() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 600,
-                    fontSize: '14px',
+                    fontSize: 'clamp(11px, 0.97vw, 16px)',
                     color: '#333333',
                     display: 'block',
                     marginBottom: '8px',
@@ -173,7 +173,7 @@ export default function SolutionAssessmentTool() {
                     borderRadius: '8px',
                     padding: '10px 12px',
                     fontFamily: 'Montserrat, sans-serif',
-                    fontSize: '14px',
+                    fontSize: 'clamp(11px, 0.97vw, 16px)',
                     color: '#333333',
                     outline: 'none',
                     boxSizing: 'border-box',
@@ -185,7 +185,7 @@ export default function SolutionAssessmentTool() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 600,
-                    fontSize: '14px',
+                    fontSize: 'clamp(11px, 0.97vw, 16px)',
                     color: '#333333',
                     display: 'block',
                     marginBottom: '8px',
@@ -204,7 +204,7 @@ export default function SolutionAssessmentTool() {
                     borderRadius: '8px',
                     padding: '10px 12px',
                     fontFamily: 'Montserrat, sans-serif',
-                    fontSize: '14px',
+                    fontSize: 'clamp(11px, 0.97vw, 16px)',
                     color: '#333333',
                     outline: 'none',
                     boxSizing: 'border-box',
@@ -219,7 +219,7 @@ export default function SolutionAssessmentTool() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 600,
-                  fontSize: '14px',
+                  fontSize: 'clamp(11px, 0.97vw, 16px)',
                   color: '#333333',
                   display: 'block',
                   marginBottom: '8px',
@@ -238,7 +238,7 @@ export default function SolutionAssessmentTool() {
                   borderRadius: '8px',
                   padding: '10px 12px',
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '14px',
+                  fontSize: 'clamp(11px, 0.97vw, 16px)',
                   color: '#333333',
                   outline: 'none',
                   boxSizing: 'border-box',
@@ -258,7 +258,7 @@ export default function SolutionAssessmentTool() {
                   border: 'none',
                   cursor: 'pointer',
                   fontFamily: 'Montserrat, sans-serif',
-                  fontSize: '13px',
+                  fontSize: 'clamp(11px, 0.9vw, 15px)',
                   color: '#5F6D7E',
                   padding: 0,
                 }}
@@ -292,7 +292,7 @@ export default function SolutionAssessmentTool() {
                     borderRadius: '8px',
                     padding: '10px 12px',
                     fontFamily: 'Montserrat, sans-serif',
-                    fontSize: '14px',
+                    fontSize: 'clamp(11px, 0.97vw, 16px)',
                     color: '#333333',
                     outline: 'none',
                     boxSizing: 'border-box',
@@ -310,7 +310,7 @@ export default function SolutionAssessmentTool() {
                 color: '#FFFFFF',
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 700,
-                fontSize: '15px',
+                fontSize: 'clamp(12px, 1.04vw, 17px)',
                 padding: '16px',
                 borderRadius: '10px',
                 border: 'none',

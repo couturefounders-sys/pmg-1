@@ -10,12 +10,12 @@ export default function IOArchitectureModelPage() {
 
       {/* ─── Section 1: Hero ─── */}
       <section className="w-full pt-36 pb-20 px-6 bg-white">
-        <div className="max-w-[1100px] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[min(1100px,_90%)] mx-auto flex flex-col items-center text-center">
           <p
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: '16px',
+              fontSize: 'clamp(13px, 1.11vw, 18px)',
               letterSpacing: '0.04em',
               color: '#14358A',
               marginBottom: '16px',
@@ -27,7 +27,7 @@ export default function IOArchitectureModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -40,10 +40,10 @@ export default function IOArchitectureModelPage() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '140%',
               color: '#333333',
-              maxWidth: '900px',
+              maxWidth: 'min(900px, 95%)',
             }}
           >
             The I-O Model is our proprietary engineering framework that solves systemic
@@ -84,7 +84,7 @@ export default function IOArchitectureModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               color: '#FFFFFF',
               marginBottom: '20px',
@@ -96,10 +96,10 @@ export default function IOArchitectureModelPage() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: '16px',
+              fontSize: 'clamp(13px, 1.11vw, 18px)',
               lineHeight: '1.6',
               color: 'rgba(255,255,255,0.9)',
-              maxWidth: '680px',
+              maxWidth: 'min(680px, 95%)',
               marginBottom: '56px',
             }}
           >
@@ -169,9 +169,9 @@ export default function IOArchitectureModelPage() {
                     style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', pointerEvents: 'none', zIndex: 0 }}
                   />
                   <div style={{ position: 'relative', zIndex: 1, padding: '32px 28px', height: '100%' }}>
-                    <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '17px', color: '#D0021B', marginBottom: '12px', lineHeight: '1.4' }}>{row.problem.title}</h3>
-                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '13px', lineHeight: '1.7', color: '#333333', marginBottom: '10px' }}>{row.problem.body}</p>
-                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '12px', lineHeight: '1.7', color: '#5F6D7E' }}>{row.problem.risk}</p>
+                    <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.18vw, 19px)', color: '#D0021B', marginBottom: '12px', lineHeight: '1.4' }}>{row.problem.title}</h3>
+                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(11px, 0.9vw, 15px)', lineHeight: '1.7', color: '#333333', marginBottom: '10px' }}>{row.problem.body}</p>
+                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '1.7', color: '#5F6D7E' }}>{row.problem.risk}</p>
                   </div>
                 </div>
                 {/* Right — Solution box (blue.png as full background) */}
@@ -183,9 +183,9 @@ export default function IOArchitectureModelPage() {
                     style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', pointerEvents: 'none', zIndex: 0 }}
                   />
                   <div style={{ position: 'relative', zIndex: 1, padding: '32px 28px', height: '100%' }}>
-                    <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '17px', color: '#14358A', marginBottom: '12px', lineHeight: '1.4' }}>{row.solution.title}</h3>
-                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', lineHeight: '1.7', color: '#333333', marginBottom: '10px' }}>{row.solution.body}</p>
-                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '12px', lineHeight: '1.7', color: '#5F6D7E' }}>{row.solution.benefit}</p>
+                    <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.18vw, 19px)', color: '#14358A', marginBottom: '12px', lineHeight: '1.4' }}>{row.solution.title}</h3>
+                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 0.9vw, 15px)', lineHeight: '1.7', color: '#333333', marginBottom: '10px' }}>{row.solution.body}</p>
+                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '1.7', color: '#5F6D7E' }}>{row.solution.benefit}</p>
                   </div>
                 </div>
               </div>
@@ -196,11 +196,11 @@ export default function IOArchitectureModelPage() {
 
       {/* ─── Section 3: I-O Model Breakdown ─── */}
       <section className="w-full py-14 lg:py-20 px-4 sm:px-6 bg-white">
-        <div className="max-w-[1100px] mx-auto">
+        <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-8 lg:gap-10 items-start">
 
             {/* Left: component-18.png as base image with labels overlaid */}
-            <div style={{ position: 'relative', width: '100%', maxWidth: '320px', margin: '0 auto' }}>
+            <div style={{ position: 'relative', width: '100%', maxWidth: 'min(320px, 100%)', margin: '0 auto' }}>
               <img src="/component-18.png" alt="Navigation menu" style={{ width: '100%', height: 'auto', display: 'block' }} />
               {/* Labels overlaid on the image */}
               <div style={{ position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', justifyContent: 'space-around', paddingTop: '4%', paddingBottom: '4%', paddingLeft: '28%' }}>
@@ -243,7 +243,7 @@ export default function IOArchitectureModelPage() {
       {/* ─── Section 4: Implementation Steps ─── */}
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[860px] mx-auto">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'center', marginBottom: '56px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'center', marginBottom: '56px' }}>
             How We Implement the I-O Model
           </h2>
 
@@ -297,17 +297,17 @@ export default function IOArchitectureModelPage() {
               ].map((step, i) => (
                 <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '24px', marginLeft: '24px' }}>
                   {/* Icon circle */}
-                  <div style={{ flexShrink: 0, width: '52px', height: '52px', borderRadius: '50%', background: '#FFFFFF', border: '2px solid #14358A', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '22px', marginTop: '2px' }}>
+                  <div style={{ flexShrink: 0, width: '52px', height: '52px', borderRadius: '50%', background: '#FFFFFF', border: '2px solid #14358A', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 'clamp(16px, 1.53vw, 24px)', marginTop: '2px' }}>
                     {step.icon}
                   </div>
                   {/* Content */}
                   <div style={{ flex: 1 }}>
-                    <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '22px', color: '#14358A', marginBottom: '10px', lineHeight: '1.3' }}>{step.title}</h3>
-                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '14px', lineHeight: '1.75', color: '#333333', marginBottom: '16px' }}>{step.body}</p>
+                    <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', color: '#14358A', marginBottom: '10px', lineHeight: '1.3' }}>{step.title}</h3>
+                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '1.75', color: '#333333', marginBottom: '16px' }}>{step.body}</p>
                     {/* Objective box */}
                     <div style={{ background: '#F5F7FA', borderRadius: '8px', padding: '16px 20px' }}>
                       <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '11px', letterSpacing: '0.08em', color: '#14358A', textTransform: 'uppercase', marginBottom: '8px' }}>Objective</p>
-                      <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '13px', lineHeight: '1.7', color: '#5F6D7E' }}>{step.objective}</p>
+                      <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 0.9vw, 15px)', lineHeight: '1.7', color: '#5F6D7E' }}>{step.objective}</p>
                     </div>
                   </div>
                 </div>

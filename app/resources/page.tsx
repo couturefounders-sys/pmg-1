@@ -30,7 +30,7 @@ export default function ResourcesPage() {
               fontSize: 'clamp(16px, 2.08vw, 30px)',
               lineHeight: '140%',
               color: '#333333',
-              maxWidth: '1082px',
+              maxWidth: 'min(1082px, 95%)',
               margin: '0 auto',
             }}
           >
@@ -66,7 +66,7 @@ export default function ResourcesPage() {
               fontSize: 'clamp(14px, 1.25vw, 18px)',
               lineHeight: '1.75',
               color: '#333333',
-              maxWidth: '1082px',
+              maxWidth: 'min(1082px, 95%)',
               margin: '0 auto',
               marginBottom: 'clamp(32px, 3.33vw, 48px)',
             }}
@@ -264,7 +264,7 @@ export default function ResourcesPage() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: '29px',
+                    fontSize: 'clamp(18px, 2.01vw, 33px)',
                     color: '#14358A',
                     marginBottom: '12px',
                   }}
@@ -275,7 +275,7 @@ export default function ResourcesPage() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
-                    fontSize: '15px',
+                    fontSize: 'clamp(12px, 1.04vw, 17px)',
                     lineHeight: '160%',
                     color: '#68718B',
                   }}
@@ -299,7 +299,7 @@ export default function ResourcesPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -312,10 +312,10 @@ export default function ResourcesPage() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '18px',
+              fontSize: 'clamp(14px, 1.25vw, 20px)',
               lineHeight: '160%',
               color: '#333333',
-              maxWidth: '900px',
+              maxWidth: 'min(900px, 95%)',
               margin: '0 auto 32px',
             }}
           >
@@ -329,7 +329,7 @@ export default function ResourcesPage() {
               color: '#FFFFFF',
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: '16px',
+              fontSize: 'clamp(13px, 1.11vw, 18px)',
               letterSpacing: '0.04em',
               padding: '16px 40px',
               borderRadius: '8px',

@@ -36,18 +36,18 @@ export default function OurSolutions() {
 
       {/* Hero Section */}
       <div className="w-full pt-24 pb-0 px-4">
-        <div className="max-w-[1440px] mx-auto">
+        <div className="max-w-[min(1440px,_95%)] mx-auto">
           <div className="flex flex-col items-center justify-center text-center pt-12 pb-8">
             {/* Eyebrow */}
             <p
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '29px',
+                fontSize: 'clamp(18px, 2.01vw, 32px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
-                marginBottom: '20px',
+                marginBottom: 'clamp(12px, 1.39vw, 20px)',
               }}
             >
               Customized Excellence
@@ -58,12 +58,12 @@ export default function OurSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '48px',
+                fontSize: 'clamp(28px, 3.33vw, 56px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 textAlign: 'center',
                 color: '#14358A',
-                marginBottom: '24px',
+                marginBottom: 'clamp(14px, 1.67vw, 24px)',
               }}
             >
               Solutions for Every Business Challenge
@@ -74,12 +74,12 @@ export default function OurSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '30px',
+                fontSize: 'clamp(18px, 2.22vw, 36px)',
                 lineHeight: '140%',
                 letterSpacing: '0%',
                 textAlign: 'center',
                 color: '#333333',
-                maxWidth: '1258px',
+                maxWidth: 'min(1258px, 90%)',
                 padding: '0 1rem',
               }}
             >
@@ -91,18 +91,18 @@ export default function OurSolutions() {
 
       {/* Our Engagement Models Section */}
       <div className="w-full py-16 px-4 bg-white">
-        <div className="max-w-[1440px] mx-auto">
+        <div className="max-w-[min(1440px,_95%)] mx-auto">
           {/* Section Heading */}
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#14358A',
-              marginBottom: '16px',
+              marginBottom: 'clamp(10px, 1.11vw, 16px)',
             }}
           >
             Our Engagement Models
@@ -113,13 +113,13 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.22vw, 36px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',
-              maxWidth: '1201px',
-              margin: '0 auto 48px auto',
+              maxWidth: 'min(1201px, 90%)',
+              margin: '0 auto clamp(28px, 3.33vw, 48px) auto',
             }}
           >
             One size never fits all. That&apos;s why we offer distinct ways to partner with us, each designed to deliver maximum value based on your specific needs.
@@ -134,8 +134,8 @@ export default function OurSolutions() {
                 style={{
                   border: '3px solid #14358A',
                   borderRadius: '10px',
-                  padding: '24px',
-                  minHeight: '391px',
+                  padding: 'clamp(16px, 1.67vw, 24px)',
+                  minHeight: 'clamp(300px, 27.15vw, 391px)',
                 }}
               >
                 {/* Icon + Title row */}
@@ -144,8 +144,8 @@ export default function OurSolutions() {
                     src={card.icon}
                     alt={card.title}
                     style={{
-                      width: '64px',
-                      height: '64px',
+                      width: 'clamp(48px, 4.44vw, 64px)',
+                      height: 'clamp(48px, 4.44vw, 64px)',
                       borderRadius: '10px',
                       flexShrink: 0,
                     }}
@@ -154,7 +154,7 @@ export default function OurSolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: '29px',
+                      fontSize: 'clamp(18px, 2.01vw, 32px)',
                       lineHeight: '105%',
                       letterSpacing: '-0.03em',
                       color: '#14358A',
@@ -170,11 +170,11 @@ export default function OurSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: '16px',
+                    fontSize: 'clamp(13px, 1.11vw, 18px)',
                     lineHeight: '140%',
                     letterSpacing: '0%',
                     color: '#68718B',
-                    marginBottom: '8px',
+                    marginBottom: 'clamp(6px, 0.56vw, 8px)',
                   }}
                 >
                   {card.subtitle}
@@ -185,7 +185,7 @@ export default function OurSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 400,
-                    fontSize: '16px',
+                    fontSize: 'clamp(13px, 1.11vw, 18px)',
                     lineHeight: '140%',
                     letterSpacing: '0%',
                     color: '#68718B',
@@ -202,14 +202,14 @@ export default function OurSolutions() {
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 600,
-                    fontSize: '21.1px',
+                    fontSize: 'clamp(15px, 1.46vw, 23px)',
                     lineHeight: '30px',
                     color: '#14358A',
-                    marginTop: '24px',
+                    marginTop: 'clamp(14px, 1.67vw, 24px)',
                   }}
                 >
                   Bespoke Solutions
-                  <span style={{ fontSize: '21px' }}>&rsaquo;</span>
+                  <span style={{ fontSize: 'clamp(15px, 1.46vw, 23px)' }}>&rsaquo;</span>
                 </a>
               </div>
             ))}
@@ -221,7 +221,7 @@ export default function OurSolutions() {
       <div
         className="relative z-10 w-full overflow-hidden"
         style={{
-          backgroundImage: 'url(/bg-not-sure.png)',
+          backgroundImage: 'url(/bg-not-sure.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
@@ -233,18 +233,18 @@ export default function OurSolutions() {
         <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
         {/* Decorative Border Rectangle - Top Left */}
         <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        <div className="mx-auto text-center" style={{ padding: '80px 24px' }}>
+        <div className="mx-auto text-center" style={{ padding: 'clamp(48px, 5.56vw, 80px) clamp(16px, 1.67vw, 24px)' }}>
           {/* Heading */}
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#FFFFFF',
-              marginBottom: '32px',
+              marginBottom: 'clamp(20px, 2.22vw, 32px)',
             }}
           >
             Not Sure Where to Start?
@@ -255,13 +255,13 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '32px',
+              fontSize: 'clamp(18px, 2.22vw, 36px)',
               lineHeight: '135%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#FFFFFF',
-              maxWidth: '1196px',
-              margin: '0 auto 48px auto',
+              maxWidth: 'min(1196px, 90%)',
+              margin: '0 auto clamp(28px, 3.33vw, 48px) auto',
             }}
           >
             Get a personalized recommendation in 3 minutes. Our AI-powered advisor analyzes your specific challenges and goals to match you with the optimal PMG solution
@@ -273,13 +273,13 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '20px',
+              fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',
               color: '#FFFFFF',
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
               borderRadius: '10px',
-              width: '384px',
-              height: '65px',
+              width: 'min(384px, 90%)',
+              height: 'clamp(52px, 4.51vw, 65px)',
               border: 'none',
               cursor: 'pointer',
             }}
@@ -291,18 +291,18 @@ export default function OurSolutions() {
 
       {/* The Impact We Deliver Section */}
       <div className="relative z-10 py-20 bg-white">
-        <div className="max-w-[1440px] mx-auto px-16">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-16">
           {/* Heading */}
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#14358A',
-              marginBottom: '16px',
+              marginBottom: 'clamp(10px, 1.11vw, 16px)',
             }}
           >
             The Impact We Deliver
@@ -313,13 +313,13 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.22vw, 36px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',
-              maxWidth: '1201px',
-              margin: '0 auto 48px auto',
+              maxWidth: 'min(1201px, 90%)',
+              margin: '0 auto clamp(28px, 3.33vw, 48px) auto',
             }}
           >
             Proven results across industries, driven by our proprietary approach to solving complex problems.
@@ -333,22 +333,22 @@ export default function OurSolutions() {
               style={{
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '24px 28px',
-                minHeight: '253px',
+                padding: 'clamp(16px, 1.67vw, 24px) clamp(18px, 1.94vw, 28px)',
+                minHeight: 'clamp(200px, 17.57vw, 253px)',
                 display: 'flex',
                 flexDirection: 'column',
               }}
             >
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
                 +$2.1M
               </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '8px' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(6px, 0.56vw, 8px)' }}>
                 Productivity Gain
               </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
                 Increased output from stable, trained teams and optimized scheduling.
               </p>
-              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '10px', lineHeight: '26px', color: '#FFFFFF', background: '#91AFFC', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: '12px' }}>
+              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 0.69vw, 12px)', lineHeight: '26px', color: '#FFFFFF', background: '#91AFFC', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: 'clamp(8px, 0.83vw, 12px)' }}>
                 Revenue/Growth
               </span>
             </div>
@@ -359,22 +359,22 @@ export default function OurSolutions() {
               style={{
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '24px 28px',
-                minHeight: '253px',
+                padding: 'clamp(16px, 1.67vw, 24px) clamp(18px, 1.94vw, 28px)',
+                minHeight: 'clamp(200px, 17.57vw, 253px)',
                 display: 'flex',
                 flexDirection: 'column',
               }}
             >
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
                 +$4.5M
               </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '8px' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(6px, 0.56vw, 8px)' }}>
                 Turnover Cost Avoidance
               </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
                 Reduction in recruitment and hiring costs from 60% lower turnover.
               </p>
-              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '10px', lineHeight: '26px', color: '#FFFFFF', background: '#91AFFC', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: '12px' }}>
+              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 0.69vw, 12px)', lineHeight: '26px', color: '#FFFFFF', background: '#91AFFC', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: 'clamp(8px, 0.83vw, 12px)' }}>
                 Revenue/Growth
               </span>
             </div>
@@ -385,22 +385,22 @@ export default function OurSolutions() {
               style={{
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '24px 28px',
-                minHeight: '253px',
+                padding: 'clamp(16px, 1.67vw, 24px) clamp(18px, 1.94vw, 28px)',
+                minHeight: 'clamp(200px, 17.57vw, 253px)',
                 display: 'flex',
                 flexDirection: 'column',
               }}
             >
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
                 +$34.3M
               </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '8px' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(6px, 0.56vw, 8px)' }}>
                 Revenue Retained
               </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
                 Annual Recurring Revenue preserved by increasing retention to 88%.
               </p>
-              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '10px', lineHeight: '26px', color: '#FFFFFF', background: '#91AFFC', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: '12px' }}>
+              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 0.69vw, 12px)', lineHeight: '26px', color: '#FFFFFF', background: '#91AFFC', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: 'clamp(8px, 0.83vw, 12px)' }}>
                 Revenue/Growth
               </span>
             </div>
@@ -411,19 +411,19 @@ export default function OurSolutions() {
               style={{
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '24px 28px',
-                minHeight: '253px',
+                padding: 'clamp(16px, 1.67vw, 24px) clamp(18px, 1.94vw, 28px)',
+                minHeight: 'clamp(200px, 17.57vw, 253px)',
                 display: 'flex',
                 flexDirection: 'column',
               }}
             >
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '40px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '12px' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.78vw, 44px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(8px, 0.83vw, 12px)' }}>
                 Employer Network
               </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
                 Strategic value of 50+ formal partnerships for graduate placement.
               </p>
-              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '10px', lineHeight: '26px', color: '#FFFFFF', background: '#91AFFC', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: '12px' }}>
+              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 0.69vw, 12px)', lineHeight: '26px', color: '#FFFFFF', background: '#91AFFC', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: 'clamp(8px, 0.83vw, 12px)' }}>
                 Revenue/Growth
               </span>
             </div>
@@ -434,22 +434,22 @@ export default function OurSolutions() {
               style={{
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '24px 28px',
-                minHeight: '253px',
+                padding: 'clamp(16px, 1.67vw, 24px) clamp(18px, 1.94vw, 28px)',
+                minHeight: 'clamp(200px, 17.57vw, 253px)',
                 display: 'flex',
                 flexDirection: 'column',
               }}
             >
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
                 -$8.4M
               </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '8px' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(6px, 0.56vw, 8px)' }}>
                 Direct Cost Savings
               </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
                 Reduction in support labor and infrastructure costs via automation.
               </p>
-              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '10px', lineHeight: '26px', color: '#FFFFFF', background: '#7DFF95', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: '12px' }}>
+              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 0.69vw, 12px)', lineHeight: '26px', color: '#FFFFFF', background: '#7DFF95', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: 'clamp(8px, 0.83vw, 12px)' }}>
                 Cost/Efficiency
               </span>
             </div>
@@ -460,22 +460,22 @@ export default function OurSolutions() {
               style={{
                 border: '3px solid #14358A',
                 borderRadius: '10px',
-                padding: '24px 28px',
-                minHeight: '253px',
+                padding: 'clamp(16px, 1.67vw, 24px) clamp(18px, 1.94vw, 28px)',
+                minHeight: 'clamp(200px, 17.57vw, 253px)',
                 display: 'flex',
                 flexDirection: 'column',
               }}
             >
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '48px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
                 +$500K
               </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '8px' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(6px, 0.56vw, 8px)' }}>
                 Revenue Protection
               </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '16px', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
                 Mitigated loss from customer dissatisfaction and service inconsistency.
               </p>
-              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '10px', lineHeight: '26px', color: '#FFFFFF', background: '#91AFFC', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: '12px' }}>
+              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 0.69vw, 12px)', lineHeight: '26px', color: '#FFFFFF', background: '#91AFFC', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: 'clamp(8px, 0.83vw, 12px)' }}>
                 Revenue/Growth
               </span>
             </div>
@@ -491,12 +491,12 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.22vw, 36px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#000000',
-              marginBottom: '8px',
+              marginBottom: 'clamp(6px, 0.56vw, 8px)',
             }}
           >
             Sample impact from displayed metrics:
@@ -507,12 +507,12 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#14358A',
-              marginBottom: '8px',
+              marginBottom: 'clamp(6px, 0.56vw, 8px)',
             }}
           >
             $31.0M+
@@ -523,11 +523,11 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.22vw, 36px)',
               lineHeight: '140%',
               textAlign: 'center',
               color: '#333333',
-              marginBottom: '32px',
+              marginBottom: 'clamp(20px, 2.22vw, 32px)',
             }}
           >
             In combined value delivered to clients
@@ -539,12 +539,12 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '20px',
+              fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',
               color: '#FFFFFF',
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
               borderRadius: '10px',
-              padding: '16px 40px',
+              padding: 'clamp(12px, 1.11vw, 16px) clamp(24px, 2.78vw, 40px)',
               border: 'none',
               cursor: 'pointer',
             }}
@@ -556,18 +556,18 @@ export default function OurSolutions() {
 
       {/* Flexible Pricing Options Section */}
       <div className="relative z-10 py-20 bg-white">
-        <div className="max-w-[1440px] mx-auto px-16">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-16">
           {/* Heading */}
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#14358A',
-              marginBottom: '16px',
+              marginBottom: 'clamp(10px, 1.11vw, 16px)',
             }}
           >
             Flexible Pricing Options
@@ -578,13 +578,13 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.22vw, 36px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',
-              maxWidth: '1201px',
-              margin: '0 auto 48px auto',
+              maxWidth: 'min(1201px, 90%)',
+              margin: '0 auto clamp(28px, 3.33vw, 48px) auto',
             }}
           >
             Your investment should be clear, fair, and deliver tangible value. Our pricing models are designed to be flexible, adapting to the solution you need and the scale of your business.
@@ -595,7 +595,7 @@ export default function OurSolutions() {
             {/* Card 1 - Project-Based Pricing */}
             <div
               className="relative flex items-stretch"
-              style={{ width: '540px' }}
+              style={{ width: 'min(540px, 90%)' }}
             >
               {/* Blue Tab */}
               <div
@@ -603,19 +603,19 @@ export default function OurSolutions() {
                   position: 'absolute',
                   left: '-16px',
                   top: '-4px',
-                  width: '144px',
-                  height: '153px',
+                  width: 'clamp(110px, 10vw, 144px)',
+                  height: 'clamp(120px, 10.63vw, 153px)',
                   background: '#14358A',
                   borderRadius: '13px 0 0 13px',
                   clipPath: 'polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%)',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  paddingRight: '20px',
+                  paddingRight: 'clamp(12px, 1.39vw, 20px)',
                   zIndex: 1,
                 }}
               >
-                <img src="/icon-palette.png" alt="Project-Based Pricing" style={{ width: '64px', height: '64px' }} />
+                <img src="/icon-palette.png" alt="Project-Based Pricing" style={{ width: 'clamp(48px, 4.44vw, 64px)', height: 'clamp(48px, 4.44vw, 64px)' }} />
               </div>
 
               {/* Card Content */}
@@ -624,18 +624,18 @@ export default function OurSolutions() {
                 style={{
                   border: '1px solid #99A1AF',
                   borderRadius: '13.06px',
-                  padding: '24px 24px 24px 140px',
+                  padding: 'clamp(16px, 1.67vw, 24px) clamp(16px, 1.67vw, 24px) clamp(16px, 1.67vw, 24px) clamp(100px, 9.72vw, 140px)',
                   width: '100%',
-                  minHeight: '153px',
+                  minHeight: 'clamp(120px, 10.63vw, 153px)',
                 }}
               >
-                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '18px', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.25vw, 20px)', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
                   Project-Based Pricing
                 </h3>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '12px', lineHeight: '24px', color: '#14358A', marginBottom: '4px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '24px', color: '#14358A', marginBottom: '4px' }}>
                   For Specific Goals & Defined Scope.
                 </p>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '24px', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '24px', color: '#5F5F5F' }}>
                   Ideal for short-term, defined goals with clear deliverables. This fixed-cost model ensures complete budget predictability and scope control.
                 </p>
               </div>
@@ -644,7 +644,7 @@ export default function OurSolutions() {
             {/* Card 2 - Retainer & Ongoing Support */}
             <div
               className="relative flex items-stretch"
-              style={{ width: '540px' }}
+              style={{ width: 'min(540px, 90%)' }}
             >
               {/* Blue Tab */}
               <div
@@ -652,19 +652,19 @@ export default function OurSolutions() {
                   position: 'absolute',
                   left: '-16px',
                   top: '-4px',
-                  width: '144px',
-                  height: '153px',
+                  width: 'clamp(110px, 10vw, 144px)',
+                  height: 'clamp(120px, 10.63vw, 153px)',
                   background: '#14358A',
                   borderRadius: '13px 0 0 13px',
                   clipPath: 'polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%)',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  paddingRight: '20px',
+                  paddingRight: 'clamp(12px, 1.39vw, 20px)',
                   zIndex: 1,
                 }}
               >
-                <img src="/icon-users-four.png" alt="Retainer & Ongoing Support" style={{ width: '64px', height: '64px' }} />
+                <img src="/icon-users-four.png" alt="Retainer & Ongoing Support" style={{ width: 'clamp(48px, 4.44vw, 64px)', height: 'clamp(48px, 4.44vw, 64px)' }} />
               </div>
 
               {/* Card Content */}
@@ -673,18 +673,18 @@ export default function OurSolutions() {
                 style={{
                   border: '1px solid #99A1AF',
                   borderRadius: '13.06px',
-                  padding: '24px 24px 24px 140px',
+                  padding: 'clamp(16px, 1.67vw, 24px) clamp(16px, 1.67vw, 24px) clamp(16px, 1.67vw, 24px) clamp(100px, 9.72vw, 140px)',
                   width: '100%',
-                  minHeight: '153px',
+                  minHeight: 'clamp(120px, 10.63vw, 153px)',
                 }}
               >
-                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '18px', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.25vw, 20px)', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
                   Retainer & Ongoing Support
                 </h3>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '12px', lineHeight: '24px', color: '#14358A', marginBottom: '4px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '24px', color: '#14358A', marginBottom: '4px' }}>
                   Continuous Expertise at Your Fingertips.
                 </p>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '24px', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '24px', color: '#5F5F5F' }}>
                   For businesses requiring consistent, proactive access strategic advice and specialized fractional expertise, having a deeper partnership for sustained long-term growth.
                 </p>
               </div>
@@ -693,7 +693,7 @@ export default function OurSolutions() {
             {/* Card 3 - Custom & Hybrid Agreements */}
             <div
               className="relative flex items-stretch"
-              style={{ width: '540px' }}
+              style={{ width: 'min(540px, 90%)' }}
             >
               {/* Blue Tab */}
               <div
@@ -701,19 +701,19 @@ export default function OurSolutions() {
                   position: 'absolute',
                   left: '-16px',
                   top: '-4px',
-                  width: '158px',
-                  height: '177px',
+                  width: 'clamp(120px, 10.97vw, 158px)',
+                  height: 'clamp(140px, 12.29vw, 177px)',
                   background: '#14358A',
                   borderRadius: '13px 0 0 13px',
                   clipPath: 'polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%)',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  paddingRight: '20px',
+                  paddingRight: 'clamp(12px, 1.39vw, 20px)',
                   zIndex: 1,
                 }}
               >
-                <img src="/icon-handshake.png" alt="Custom & Hybrid Agreements" style={{ width: '64px', height: '64px' }} />
+                <img src="/icon-handshake.png" alt="Custom & Hybrid Agreements" style={{ width: 'clamp(48px, 4.44vw, 64px)', height: 'clamp(48px, 4.44vw, 64px)' }} />
               </div>
 
               {/* Card Content */}
@@ -722,18 +722,18 @@ export default function OurSolutions() {
                 style={{
                   border: '1px solid #99A1AF',
                   borderRadius: '13.06px',
-                  padding: '24px 24px 24px 150px',
+                  padding: 'clamp(16px, 1.67vw, 24px) clamp(16px, 1.67vw, 24px) clamp(16px, 1.67vw, 24px) clamp(105px, 10.42vw, 150px)',
                   width: '100%',
-                  minHeight: '177px',
+                  minHeight: 'clamp(140px, 12.29vw, 177px)',
                 }}
               >
-                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '18px', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.25vw, 20px)', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
                   Custom & Hybrid Agreements
                 </h3>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '12px', lineHeight: '24px', color: '#14358A', marginBottom: '4px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '24px', color: '#14358A', marginBottom: '4px' }}>
                   Solutions Structured Just For You.
                 </p>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '24px', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '24px', color: '#5F5F5F' }}>
                   When complex challenges or multi-phase roadmaps require a non-standard approach, we design custom or hybrid terms that perfectly align investment structure with your strategic goals.
                 </p>
               </div>
@@ -744,18 +744,18 @@ export default function OurSolutions() {
 
       {/* Our Accountability Framework Section */}
       <div className="relative z-10 py-20 bg-white">
-        <div className="max-w-[1440px] mx-auto px-16">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-16">
           {/* Heading */}
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#14358A',
-              marginBottom: '16px',
+              marginBottom: 'clamp(10px, 1.11vw, 16px)',
             }}
           >
             Our Accountability Framework
@@ -766,13 +766,13 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.22vw, 36px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',
-              maxWidth: '1201px',
-              margin: '0 auto 64px auto',
+              maxWidth: 'min(1201px, 90%)',
+              margin: '0 auto clamp(36px, 4.44vw, 64px) auto',
             }}
           >
             We believe in total alignment. Our success is measured by yours. This isn&apos;t just a promise; it&apos;s built into our process.
@@ -782,7 +782,7 @@ export default function OurSolutions() {
           <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
             {/* Left Side - Framework Illustration */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/left_side_our_accountability.png" alt="" style={{ width: '720px', height: 'auto', marginLeft: '-100px', marginTop: '20px' }} />
+            <img src="/left_side_our_accountability.png" alt="" style={{ width: 'clamp(400px, 50vw, 720px)', height: 'auto', marginLeft: 'clamp(-100px, -6.94vw, -40px)', marginTop: 'clamp(12px, 1.39vw, 20px)' }} />
 
             {/* Right Side - Average Heart ROI */}
             <div className="flex flex-col items-center">
@@ -790,10 +790,10 @@ export default function OurSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '28px',
+                  fontSize: 'clamp(18px, 1.94vw, 32px)',
                   lineHeight: '120%',
                   color: '#14358A',
-                  marginBottom: '24px',
+                  marginBottom: 'clamp(14px, 1.67vw, 24px)',
                 }}
               >
                 Average Client ROI
@@ -801,8 +801,8 @@ export default function OurSolutions() {
               {/* ROI Circle */}
               <div
                 style={{
-                  width: '300px',
-                  height: '300px',
+                  width: 'clamp(220px, 20.83vw, 300px)',
+                  height: 'clamp(220px, 20.83vw, 300px)',
                   borderRadius: '50%',
                   border: '12px solid #14358A',
                   background: '#FFFFFF',
@@ -815,7 +815,7 @@ export default function OurSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: '96px',
+                    fontSize: 'clamp(56px, 6.67vw, 104px)',
                     lineHeight: '100%',
                     color: '#14358A',
                   }}
@@ -827,12 +827,12 @@ export default function OurSolutions() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 400,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   lineHeight: '150%',
                   textAlign: 'center',
                   color: '#333333',
-                  maxWidth: '300px',
-                  marginTop: '24px',
+                  maxWidth: 'min(300px, 90%)',
+                  marginTop: 'clamp(14px, 1.67vw, 24px)',
                 }}
               >
                 Industry-leading returns, driven by a model built on tangible results and shared success.
@@ -844,23 +844,23 @@ export default function OurSolutions() {
 
       {/* FAQ Section */}
       <div className="relative z-10 py-20 bg-white">
-        <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-6 lg:px-12">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#14358A',
-              marginBottom: '64px',
+              marginBottom: 'clamp(36px, 4.44vw, 64px)',
             }}
           >
             Frequently Asked Questions
           </h2>
 
-          <div className="max-w-[900px] mx-auto flex flex-col gap-4">
+          <div className="max-w-[min(900px,_90%)] mx-auto flex flex-col gap-4">
             {/* FAQ Item 1 */}
             <div
               className="w-full bg-white flex items-center justify-between px-6 py-4 cursor-pointer hover:bg-gray-50 transition-colors"
@@ -868,7 +868,7 @@ export default function OurSolutions() {
                 borderRadius: '10px',
                 border: '3px solid #14358A',
                 boxShadow: '0px 0px 1px 1px #00000026',
-                minHeight: '72px',
+                minHeight: 'clamp(56px, 5vw, 72px)',
               }}
             >
               <div className="flex items-center gap-4">
@@ -877,7 +877,7 @@ export default function OurSolutions() {
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 400,
-                    fontSize: '16px',
+                    fontSize: 'clamp(13px, 1.11vw, 18px)',
                     lineHeight: '24px',
                     color: '#000000',
                   }}
@@ -894,7 +894,7 @@ export default function OurSolutions() {
               style={{
                 borderRadius: '10px',
                 border: '1px solid #E5E7EB',
-                minHeight: '72px',
+                minHeight: 'clamp(56px, 5vw, 72px)',
               }}
             >
               <div className="flex items-center gap-4">
@@ -903,7 +903,7 @@ export default function OurSolutions() {
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 400,
-                    fontSize: '16px',
+                    fontSize: 'clamp(13px, 1.11vw, 18px)',
                     lineHeight: '24px',
                     color: '#000000',
                   }}
@@ -920,7 +920,7 @@ export default function OurSolutions() {
               style={{
                 borderRadius: '10px',
                 border: '1px solid #E5E7EB',
-                minHeight: '72px',
+                minHeight: 'clamp(56px, 5vw, 72px)',
               }}
             >
               <div className="flex items-center gap-4">
@@ -929,7 +929,7 @@ export default function OurSolutions() {
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 400,
-                    fontSize: '16px',
+                    fontSize: 'clamp(13px, 1.11vw, 18px)',
                     lineHeight: '24px',
                     color: '#000000',
                   }}
@@ -946,7 +946,7 @@ export default function OurSolutions() {
               style={{
                 borderRadius: '10px',
                 border: '1px solid #E5E7EB',
-                minHeight: '72px',
+                minHeight: 'clamp(56px, 5vw, 72px)',
               }}
             >
               <div className="flex items-center gap-4">
@@ -955,7 +955,7 @@ export default function OurSolutions() {
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 400,
-                    fontSize: '16px',
+                    fontSize: 'clamp(13px, 1.11vw, 18px)',
                     lineHeight: '24px',
                     color: '#000000',
                   }}
@@ -972,7 +972,7 @@ export default function OurSolutions() {
               style={{
                 borderRadius: '10px',
                 border: '1px solid #E5E7EB',
-                minHeight: '72px',
+                minHeight: 'clamp(56px, 5vw, 72px)',
               }}
             >
               <div className="flex items-center gap-4">
@@ -981,7 +981,7 @@ export default function OurSolutions() {
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 400,
-                    fontSize: '16px',
+                    fontSize: 'clamp(13px, 1.11vw, 18px)',
                     lineHeight: '24px',
                     color: '#000000',
                   }}
@@ -1002,12 +1002,12 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#14358A',
-              marginBottom: '24px',
+              marginBottom: 'clamp(14px, 1.67vw, 24px)',
             }}
           >
             Ready to Elevate Your Business?
@@ -1016,13 +1016,13 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.22vw, 36px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',
-              maxWidth: '1196px',
-              margin: '0 auto 48px auto',
+              maxWidth: 'min(1196px, 90%)',
+              margin: '0 auto clamp(28px, 3.33vw, 48px) auto',
             }}
           >
             Let&apos;s discuss how PMG can help you navigate your challenges and seize new opportunities.
@@ -1032,13 +1032,13 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '20px',
+              fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',
               color: '#FFFFFF',
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
               borderRadius: '10px',
-              width: '319px',
-              height: '65px',
+              width: 'min(319px, 90%)',
+              height: 'clamp(52px, 4.51vw, 65px)',
               border: 'none',
               cursor: 'pointer',
             }}

@@ -10,14 +10,14 @@ export default function PeopleOrganizationsConsulting() {
       <Header />
 
       {/* Hero Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 pt-[142px] pb-24 text-center">
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 pt-[clamp(100px,9.86vw,142px)] pb-24 text-center">
         {/* Subheading */}
         <p
           className="mb-4"
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: '29px',
+            fontSize: 'clamp(18px, 2.01vw, 33px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             color: '#14358A',
@@ -32,12 +32,12 @@ export default function PeopleOrganizationsConsulting() {
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: '48px',
+            fontSize: 'clamp(28px, 3.33vw, 56px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             textAlign: 'center',
             color: '#14358A',
-            maxWidth: '1224px',
+            maxWidth: 'min(1224px, 95%)',
             margin: '0 auto 24px auto',
           }}
         >
@@ -49,12 +49,12 @@ export default function PeopleOrganizationsConsulting() {
           style={{
             fontFamily: 'Montserrat, sans-serif',
             fontWeight: 400,
-            fontSize: '32px',
+            fontSize: 'clamp(20px, 2.22vw, 36px)',
             lineHeight: '100%',
             letterSpacing: '0%',
             textAlign: 'center',
             color: '#333333',
-            maxWidth: '1258px',
+            maxWidth: 'min(1258px, 95%)',
             margin: '0 auto',
           }}
         >
@@ -63,13 +63,13 @@ export default function PeopleOrganizationsConsulting() {
       </div>
 
       {/* How We Help Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 py-16">
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-16">
         <h2
           className="text-center mb-12"
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: '48px',
+            fontSize: 'clamp(28px, 3.33vw, 56px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             color: '#14358A',
@@ -100,7 +100,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -114,7 +114,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
                 textAlign: 'left',
@@ -144,7 +144,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -158,7 +158,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
                 textAlign: 'left',
@@ -190,7 +190,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -204,7 +204,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
                 textAlign: 'left',
@@ -237,7 +237,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -251,7 +251,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
                 textAlign: 'left',
@@ -283,7 +283,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -297,7 +297,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
                 textAlign: 'left',
@@ -330,7 +330,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -344,7 +344,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
                 textAlign: 'left',
@@ -377,7 +377,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -391,7 +391,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
                 textAlign: 'left',
@@ -422,7 +422,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -436,7 +436,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
                 textAlign: 'left',
@@ -466,7 +466,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -480,7 +480,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
                 textAlign: 'left',
@@ -511,7 +511,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -525,7 +525,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
                 textAlign: 'left',
@@ -557,7 +557,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -571,7 +571,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
                 textAlign: 'left',
@@ -602,7 +602,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -616,7 +616,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
                 textAlign: 'left',
@@ -629,14 +629,14 @@ export default function PeopleOrganizationsConsulting() {
       </div>
 
       {/* Our Approach Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 py-20">
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <div className="text-center mb-12">
           <h2
             className="mb-6"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -649,10 +649,10 @@ export default function PeopleOrganizationsConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '140%',
               color: '#333333',
-              maxWidth: '1201px',
+              maxWidth: 'min(1201px, 95%)',
               margin: '0 auto',
             }}
           >
@@ -683,7 +683,7 @@ export default function PeopleOrganizationsConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: '20px',
+                  fontSize: 'clamp(15px, 1.39vw, 22px)',
                   lineHeight: '140%',
                   color: '#333333',
                 }}
@@ -711,7 +711,7 @@ export default function PeopleOrganizationsConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: '20px',
+                  fontSize: 'clamp(15px, 1.39vw, 22px)',
                   lineHeight: '140%',
                   color: '#333333',
                 }}
@@ -745,7 +745,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 400,
-                fontSize: '20px',
+                fontSize: 'clamp(15px, 1.39vw, 22px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -757,7 +757,7 @@ export default function PeopleOrganizationsConsulting() {
       </div>
 
       {/* A Multi-Faceted Approach to Success Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 py-20">
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <div className="flex flex-col lg:flex-row gap-12 items-start">
           {/* Left Side - Capability Pills */}
           <div className="flex flex-col gap-4">
@@ -811,7 +811,7 @@ export default function PeopleOrganizationsConsulting() {
                       </div>
                     </div>
                   </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
+                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
                     Product Lifecycle Management
                   </span>
                 </div>
@@ -825,7 +825,7 @@ export default function PeopleOrganizationsConsulting() {
                       </div>
                     </div>
                   </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
+                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
                     Capital Excellence
                   </span>
                 </div>
@@ -839,7 +839,7 @@ export default function PeopleOrganizationsConsulting() {
                       </div>
                     </div>
                   </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
+                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
                     Data-Driven Insights
                   </span>
                 </div>
@@ -853,7 +853,7 @@ export default function PeopleOrganizationsConsulting() {
                       </div>
                     </div>
                   </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
+                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
                     KPI Optimization
                   </span>
                 </div>
@@ -867,7 +867,7 @@ export default function PeopleOrganizationsConsulting() {
                       </div>
                     </div>
                   </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
+                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
                     Lean Six Sigma
                   </span>
                 </div>
@@ -882,7 +882,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '48px',
+                fontSize: 'clamp(28px, 3.33vw, 56px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -896,7 +896,7 @@ export default function PeopleOrganizationsConsulting() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '25px',
+                fontSize: 'clamp(16px, 1.74vw, 28px)',
                 lineHeight: '140%',
                 color: '#333333',
                 textAlign: 'right',
@@ -917,7 +917,7 @@ export default function PeopleOrganizationsConsulting() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 400,
-                  fontSize: '25px',
+                  fontSize: 'clamp(16px, 1.74vw, 28px)',
                   lineHeight: '140%',
                   color: '#333333',
                 }}
@@ -938,7 +938,7 @@ export default function PeopleOrganizationsConsulting() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 400,
-                  fontSize: '25px',
+                  fontSize: 'clamp(16px, 1.74vw, 28px)',
                   lineHeight: '140%',
                   color: '#333333',
                 }}
@@ -957,7 +957,7 @@ export default function PeopleOrganizationsConsulting() {
             style={{
               fontFamily: 'Inter, sans-serif',
               fontWeight: 600,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '30px',
               color: '#14358A',
               textDecoration: 'none',
@@ -975,7 +975,7 @@ export default function PeopleOrganizationsConsulting() {
       <div
         className="relative w-full py-20 overflow-hidden"
         style={{
-          backgroundImage: 'url(/principle-bg.png)',
+          backgroundImage: 'url(/principle-bg.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -992,7 +992,7 @@ export default function PeopleOrganizationsConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#FFFFFF',
@@ -1006,7 +1006,7 @@ export default function PeopleOrganizationsConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#FFFFFF',
@@ -1019,7 +1019,7 @@ export default function PeopleOrganizationsConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '32px',
+              fontSize: 'clamp(20px, 2.22vw, 36px)',
               lineHeight: '135%',
               color: '#FFFFFF',
             }}
@@ -1036,13 +1036,13 @@ export default function PeopleOrganizationsConsulting() {
           background: 'linear-gradient(180deg, #EBF7FF 0%, #D9ECFA 100%)',
         }}
       >
-        <div className="max-w-[1440px] mx-auto px-4 text-center">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-4 text-center">
           <h2
             className="mb-6"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -1056,10 +1056,10 @@ export default function PeopleOrganizationsConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '32px',
+              fontSize: 'clamp(20px, 2.22vw, 36px)',
               lineHeight: '135%',
               color: '#333333',
-              maxWidth: '1196px',
+              maxWidth: 'min(1196px, 95%)',
               margin: '0 auto 2.5rem auto',
             }}
           >
@@ -1074,7 +1074,7 @@ export default function PeopleOrganizationsConsulting() {
               width: '319px',
               height: '65px',
               fontFamily: 'DM Sans, sans-serif',
-              fontSize: '20px',
+              fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',
               fontWeight: 700,
               border: 'none',

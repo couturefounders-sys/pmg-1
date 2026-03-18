@@ -23,6 +23,7 @@ const config: Config = {
         'xl': '1280px',      // MacBook Air 15" base
         '2xl': '1440px',     // Larger laptops
         '3xl': '1920px',     // Desktop monitors
+        '4xl': '2560px',     // Ultra-wide / 32" monitors
       },
       maxWidth: {
         'container-xs': '640px',
@@ -31,6 +32,8 @@ const config: Config = {
         'container-lg': '1280px',   // MacBook Air 15" optimized
         'container-xl': '1440px',
         'container-2xl': '1600px',
+        'container-3xl': '1920px',
+        'container-4xl': '2200px',
       },
       fontSize: {
         'responsive-xs': 'clamp(0.75rem, 1vw, 0.875rem)',

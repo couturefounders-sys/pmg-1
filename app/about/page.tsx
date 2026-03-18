@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -21,10 +21,10 @@ export default function About() {
               <p
                 className="font-dm-sans font-normal mt-2"
                 style={{
-                  fontSize: '20px',
+                  fontSize: 'clamp(15px, 1.39vw, 22px)',
                   lineHeight: '135%',
                   color: '#333333',
-                  marginLeft: '-15px'
+                  marginLeft: 'clamp(-16px, -1.04vw, -10px)'
                 }}
               >
                 Driving Industries Forward
@@ -33,10 +33,10 @@ export default function About() {
             <p
               className="font-montserrat font-normal mx-auto text-center px-4"
               style={{
-                fontSize: '30px',
-                lineHeight: '40px',
+                fontSize: 'clamp(18px, 2.08vw, 30px)',
+                lineHeight: 'clamp(28px, 2.78vw, 40px)',
                 color: '#333333',
-                maxWidth: '1405px'
+                maxWidth: 'min(1405px, 92%)'
               }}
             >
               We are the go-to strategic consulting partner for SMB, Mid-market, and Enterprise leaders around the globe. Our foundational values of Excellence, Value, and Innovation drive the exceptional, transformative results that turn strategy into competitive reality.
@@ -50,13 +50,19 @@ export default function About() {
             src="/results-diagram.png"
             alt="Strategic Values Diagram"
             className="max-w-full h-auto"
-            style={{ maxWidth: '600px' }}
+            style={{ maxWidth: 'min(600px, 85%)' }}
           />
         </div>
 
         {/* Data Analytics Heading */}
-        <div className="mb-16 text-center max-w-[800px] mx-auto px-4">
-          <h3 className="font-dm-sans font-bold text-[48px] leading-[105%] tracking-[-0.03em] text-[#14358A]">
+        <div className="mb-16 text-center mx-auto px-4" style={{ maxWidth: 'min(800px, 90%)' }}>
+          <h3
+            className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A]"
+            style={{
+              fontSize: 'clamp(28px, 3.33vw, 48px)',
+              lineHeight: '105%'
+            }}
+          >
             We make it easy to track <br className="hidden md:block" />
             all <br className="hidden md:block" />
             data analytics
@@ -64,82 +70,196 @@ export default function About() {
         </div>
 
         {/* Strategic Pillars Cards */}
-        <div className="max-w-[1300px] mx-auto px-4 mb-20">
+        <div className="mx-auto px-4 mb-20" style={{ maxWidth: 'min(1300px, 92%)' }}>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
             {/* Card 1 - Functional Mastery */}
-            <div className="border-[3px] border-[#14358A] rounded-[10px] p-8 w-full max-w-[410px] min-h-[260px] flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300">
+            <div
+              className="border-[3px] border-[#14358A] rounded-[10px] w-full flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300"
+              style={{
+                padding: 'clamp(20px, 1.67vw, 32px)',
+                maxWidth: 'min(410px, 100%)',
+                minHeight: 'clamp(220px, 18.06vw, 260px)'
+              }}
+            >
               <div className="flex items-center gap-4 mb-4">
                 <img src="/icon-functional.png" alt="Functional Mastery Icon" width={64} height={64} className="flex-shrink-0" />
-                <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-0">
+                <h4
+                  className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
+                  style={{
+                    fontSize: 'clamp(18px, 2.22vw, 32px)',
+                    lineHeight: '105%'
+                  }}
+                >
                   Functional Mastery
                 </h4>
               </div>
-              <p className="font-dm-sans font-normal text-[16px] leading-[140%] text-[#68718B]">
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{
+                  fontSize: 'clamp(13px, 1.11vw, 16px)',
+                  lineHeight: '140%'
+                }}
+              >
                 We don't just know your industry; we master the functions that drive it, from P&L engineering to workflow architecture.
               </p>
             </div>
 
             {/* Card 2 - Passion for Results */}
-            <div className="border-[3px] border-[#14358A] rounded-[10px] p-8 w-full max-w-[410px] min-h-[260px] flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300">
+            <div
+              className="border-[3px] border-[#14358A] rounded-[10px] w-full flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300"
+              style={{
+                padding: 'clamp(20px, 1.67vw, 32px)',
+                maxWidth: 'min(410px, 100%)',
+                minHeight: 'clamp(220px, 18.06vw, 260px)'
+              }}
+            >
               <div className="flex items-center gap-4 mb-4">
                 <img src="/icon-passion.png" alt="Passion for Results Icon" width={64} height={64} className="flex-shrink-0" />
-                <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-0">
+                <h4
+                  className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
+                  style={{
+                    fontSize: 'clamp(18px, 2.22vw, 32px)',
+                    lineHeight: '105%'
+                  }}
+                >
                   Passion for Results
                 </h4>
               </div>
-              <p className="font-dm-sans font-normal text-[16px] leading-[140%] text-[#68718B]">
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{
+                  fontSize: 'clamp(13px, 1.11vw, 16px)',
+                  lineHeight: '140%'
+                }}
+              >
                 Our dedication to execution means we own the outcome. This relentless drive accelerates project timelines and ensures we exceed key performance indicators.
               </p>
             </div>
 
             {/* Card 3 - An Expert Network */}
-            <div className="border-[3px] border-[#14358A] rounded-[10px] p-8 w-full max-w-[410px] min-h-[260px] flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300">
+            <div
+              className="border-[3px] border-[#14358A] rounded-[10px] w-full flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300"
+              style={{
+                padding: 'clamp(20px, 1.67vw, 32px)',
+                maxWidth: 'min(410px, 100%)',
+                minHeight: 'clamp(220px, 18.06vw, 260px)'
+              }}
+            >
               <div className="flex items-center gap-4 mb-4">
                 <img src="/icon-network.png" alt="Expert Network Icon" width={64} height={64} className="flex-shrink-0" />
-                <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-0">
+                <h4
+                  className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
+                  style={{
+                    fontSize: 'clamp(18px, 2.22vw, 32px)',
+                    lineHeight: '105%'
+                  }}
+                >
                   An Expert Network
                 </h4>
               </div>
-              <p className="font-dm-sans font-normal text-[16px] leading-[140%] text-[#68718B]">
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{
+                  fontSize: 'clamp(13px, 1.11vw, 16px)',
+                  lineHeight: '140%'
+                }}
+              >
                 A curated global network of functional specialists ensures clients receive bespoke expertise, providing a decisive advantage in complex markets.
               </p>
             </div>
 
             {/* Card 4 - Relentless Innovation */}
-            <div className="border-[3px] border-[#14358A] rounded-[10px] p-8 w-full max-w-[410px] min-h-[260px] flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300">
+            <div
+              className="border-[3px] border-[#14358A] rounded-[10px] w-full flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300"
+              style={{
+                padding: 'clamp(20px, 1.67vw, 32px)',
+                maxWidth: 'min(410px, 100%)',
+                minHeight: 'clamp(220px, 18.06vw, 260px)'
+              }}
+            >
               <div className="flex items-center gap-4 mb-4">
                 <img src="/icon-innovation.png" alt="Relentless Innovation Icon" width={64} height={64} className="flex-shrink-0" />
-                <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-0">
+                <h4
+                  className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
+                  style={{
+                    fontSize: 'clamp(18px, 2.22vw, 32px)',
+                    lineHeight: '105%'
+                  }}
+                >
                   Relentless Innovation
                 </h4>
               </div>
-              <p className="font-dm-sans font-normal text-[16px] leading-[140%] text-[#68718B]">
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{
+                  fontSize: 'clamp(13px, 1.11vw, 16px)',
+                  lineHeight: '140%'
+                }}
+              >
                 We embed future-proof strategies into your operations, positioning your business to immediately capitalize on new market opportunities.
               </p>
             </div>
 
             {/* Card 5 - People-Focused Leadership */}
-            <div className="border-[3px] border-[#14358A] rounded-[10px] p-8 w-full max-w-[410px] min-h-[260px] flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300">
+            <div
+              className="border-[3px] border-[#14358A] rounded-[10px] w-full flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300"
+              style={{
+                padding: 'clamp(20px, 1.67vw, 32px)',
+                maxWidth: 'min(410px, 100%)',
+                minHeight: 'clamp(220px, 18.06vw, 260px)'
+              }}
+            >
               <div className="flex items-center gap-4 mb-4">
                 <img src="/icon-leadership.png" alt="People-Focused Leadership Icon" width={64} height={64} className="flex-shrink-0" />
-                <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-0">
+                <h4
+                  className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
+                  style={{
+                    fontSize: 'clamp(18px, 2.22vw, 32px)',
+                    lineHeight: '105%'
+                  }}
+                >
                   People-Focused Leadership
                 </h4>
               </div>
-              <p className="font-dm-sans font-normal text-[16px] leading-[140%] text-[#68718B]">
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{
+                  fontSize: 'clamp(13px, 1.11vw, 16px)',
+                  lineHeight: '140%'
+                }}
+              >
                 We focus on talent and organizational design to ensure change management is effective, accelerating adoption and securing long-term institutional value.
               </p>
             </div>
 
             {/* Card 6 - Evidence-Based Strategy */}
-            <div className="border-[3px] border-[#14358A] rounded-[10px] p-8 w-full max-w-[410px] min-h-[260px] flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300">
+            <div
+              className="border-[3px] border-[#14358A] rounded-[10px] w-full flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300"
+              style={{
+                padding: 'clamp(20px, 1.67vw, 32px)',
+                maxWidth: 'min(410px, 100%)',
+                minHeight: 'clamp(220px, 18.06vw, 260px)'
+              }}
+            >
               <div className="flex items-center gap-4 mb-4">
                 <img src="/icon-evidence.png" alt="Evidence-Based Strategy Icon" width={64} height={64} className="flex-shrink-0" />
-                <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-0">
+                <h4
+                  className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
+                  style={{
+                    fontSize: 'clamp(18px, 2.22vw, 32px)',
+                    lineHeight: '105%'
+                  }}
+                >
                   Evidence-Based Strategy
                 </h4>
               </div>
-              <p className="font-dm-sans font-normal text-[16px] leading-[140%] text-[#68718B]">
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{
+                  fontSize: 'clamp(13px, 1.11vw, 16px)',
+                  lineHeight: '140%'
+                }}
+              >
                 We replace "gut feelings" with forensic data analysis, ensuring every move is backed by quantifiable reality.
               </p>
             </div>
@@ -151,7 +271,7 @@ export default function About() {
           <h3
             className="font-dm-sans font-bold mb-12"
             style={{
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 48px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A'
@@ -161,36 +281,36 @@ export default function About() {
           </h3>
 
           {/* Wave + Text Content */}
-          <div className="relative max-w-[1440px] mx-auto px-4">
+          <div className="relative mx-auto px-4" style={{ maxWidth: 'min(1440px, 95%)' }}>
             {/* Row 1: Principled Sincerity (left) + Respect (right) */}
             <div className="flex justify-between items-start px-2 mb-0">
               {/* Principled Sincerity */}
-              <div className="text-center" style={{ width: '213px' }}>
+              <div className="text-center" style={{ width: 'clamp(160px, 14.79vw, 240px)' }}>
                 <h4
                   className="font-inter font-bold mb-2"
-                  style={{ fontSize: '24px', lineHeight: '32px', color: '#14358A' }}
+                  style={{ fontSize: 'clamp(18px, 1.67vw, 24px)', lineHeight: 'clamp(24px, 2.22vw, 32px)', color: '#14358A' }}
                 >
                   Principled<br />Sincerity
                 </h4>
                 <p
                   className="font-inter font-normal"
-                  style={{ fontSize: '14px', lineHeight: '18px', color: '#5F5F5F' }}
+                  style={{ fontSize: 'clamp(11px, 0.97vw, 14px)', lineHeight: 'clamp(14px, 1.25vw, 18px)', color: '#5F5F5F' }}
                 >
                   We commit to genuine self-expression and sincerity, fostering meaningful relationships built on candid communication and professional vulnerability.
                 </p>
               </div>
 
               {/* Respect */}
-              <div className="text-center" style={{ width: '213px', marginRight: '22%' }}>
+              <div className="text-center" style={{ width: 'clamp(160px, 14.79vw, 240px)', marginRight: '22%' }}>
                 <h4
                   className="font-inter font-bold mb-2"
-                  style={{ fontSize: '24px', lineHeight: '32px', color: '#14358A' }}
+                  style={{ fontSize: 'clamp(18px, 1.67vw, 24px)', lineHeight: 'clamp(24px, 2.22vw, 32px)', color: '#14358A' }}
                 >
                   Respect
                 </h4>
                 <p
                   className="font-inter font-normal"
-                  style={{ fontSize: '14px', lineHeight: '18px', color: '#5F5F5F' }}
+                  style={{ fontSize: 'clamp(11px, 0.97vw, 14px)', lineHeight: 'clamp(14px, 1.25vw, 18px)', color: '#5F5F5F' }}
                 >
                   We value diverse global perspectives and approach every situation with an open mind. We believe inclusivity is a catalyst for better solutions and collective success.
                 </p>
@@ -198,47 +318,47 @@ export default function About() {
             </div>
 
             {/* Wave Image */}
-            <div className="flex justify-center items-center" style={{ marginTop: '-40px', marginBottom: '-40px' }}>
+            <div className="flex justify-center items-center" style={{ marginTop: 'clamp(-30px, -2.78vw, -40px)', marginBottom: 'clamp(-30px, -2.78vw, -40px)' }}>
               <img
                 src="/core-values-wave.png"
                 alt="Core values wave graphic"
                 className="max-w-full h-auto"
-                style={{ maxWidth: '1400px' }}
+                style={{ maxWidth: 'min(1400px, 95%)' }}
               />
             </div>
 
             {/* Row 2: Innovation (center-left) + Excellence (right) */}
             <div className="flex justify-between items-start px-2" style={{ marginTop: '0px' }}>
               {/* Spacer */}
-              <div style={{ width: '213px' }}></div>
+              <div style={{ width: 'clamp(160px, 14.79vw, 240px)' }}></div>
 
               {/* Innovation */}
-              <div className="text-center" style={{ width: '213px', marginLeft: '5%' }}>
+              <div className="text-center" style={{ width: 'clamp(160px, 14.79vw, 240px)', marginLeft: '5%' }}>
                 <h4
                   className="font-inter font-bold mb-2"
-                  style={{ fontSize: '24px', lineHeight: '32px', color: '#14358A' }}
+                  style={{ fontSize: 'clamp(18px, 1.67vw, 24px)', lineHeight: 'clamp(24px, 2.22vw, 32px)', color: '#14358A' }}
                 >
                   Innovation
                 </h4>
                 <p
                   className="font-inter font-normal"
-                  style={{ fontSize: '14px', lineHeight: '18px', color: '#5F5F5F' }}
+                  style={{ fontSize: 'clamp(11px, 0.97vw, 14px)', lineHeight: 'clamp(14px, 1.25vw, 18px)', color: '#5F5F5F' }}
                 >
                   Driven by a passion for creative thinking, we embrace innovation as a catalyst for growth, progress, and unlocking positive change.
                 </p>
               </div>
 
               {/* Excellence */}
-              <div className="text-center" style={{ width: '228px' }}>
+              <div className="text-center" style={{ width: 'clamp(170px, 15.83vw, 250px)' }}>
                 <h4
                   className="font-inter font-bold mb-2"
-                  style={{ fontSize: '24px', lineHeight: '32px', color: '#14358A' }}
+                  style={{ fontSize: 'clamp(18px, 1.67vw, 24px)', lineHeight: 'clamp(24px, 2.22vw, 32px)', color: '#14358A' }}
                 >
                   Excellence
                 </h4>
                 <p
                   className="font-inter font-normal"
-                  style={{ fontSize: '14px', lineHeight: '18px', color: '#5F5F5F' }}
+                  style={{ fontSize: 'clamp(11px, 0.97vw, 14px)', lineHeight: 'clamp(14px, 1.25vw, 18px)', color: '#5F5F5F' }}
                 >
                   We are dedicated to the pursuit of world-class mastery in our functional domains. We view excellence as an ongoing journey of refinement, continuous learning, and delivering high-impact results.
                 </p>
@@ -248,12 +368,12 @@ export default function About() {
         </div>
 
         {/* Read Our Latest Insights */}
-        <div className="mb-20 text-center bg-[#F9FAFB] py-16">
+        <div className="mb-20 text-center bg-[#F9FAFB]" style={{ paddingTop: 'clamp(32px, 3.33vw, 64px)', paddingBottom: 'clamp(32px, 3.33vw, 64px)' }}>
           {/* Section Title */}
           <h3
             className="font-dm-sans font-bold mb-12"
             style={{
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 48px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A'
@@ -266,8 +386,9 @@ export default function About() {
           <div className="flex justify-center items-start gap-6 px-4 mb-12 flex-wrap">
             {/* Card 1 - The Hidden Risks of AI Expansion */}
             <div
-              className="w-[399px] overflow-hidden"
+              className="overflow-hidden"
               style={{
+                width: 'clamp(280px, 27.71vw, 440px)',
                 borderRadius: '10px',
                 border: '3px solid #231F20',
                 background: '#FFFFFF'
@@ -277,7 +398,7 @@ export default function About() {
               <div
                 className="w-full flex items-center justify-center"
                 style={{
-                  height: '104px',
+                  height: 'clamp(80px, 7.22vw, 110px)',
                   borderTopLeftRadius: '7px',
                   borderTopRightRadius: '7px',
                   background: 'linear-gradient(180deg, #1B45B4 3.85%, #1C2792 69.39%)'
@@ -286,7 +407,7 @@ export default function About() {
                 <h4
                   className="font-dm-sans font-bold text-white text-center px-3"
                   style={{
-                    fontSize: '24px',
+                    fontSize: 'clamp(18px, 1.67vw, 24px)',
                     lineHeight: '110%',
                     letterSpacing: '-0.03em'
                   }}
@@ -295,11 +416,11 @@ export default function About() {
                 </h4>
               </div>
               {/* Card Body */}
-              <div className="py-6 px-4 flex flex-col items-center">
+              <div className="flex flex-col items-center" style={{ padding: 'clamp(16px, 1.39vw, 24px) clamp(12px, 1.11vw, 16px)' }}>
                 <p
                   className="font-dm-sans font-normal mb-4"
                   style={{
-                    fontSize: '16px',
+                    fontSize: 'clamp(13px, 1.11vw, 16px)',
                     lineHeight: '140%',
                     color: '#1B45B4'
                   }}
@@ -309,9 +430,9 @@ export default function About() {
                 <button
                   className="font-dm-sans font-bold text-white"
                   style={{
-                    fontSize: '16px',
+                    fontSize: 'clamp(13px, 1.11vw, 16px)',
                     lineHeight: '140%',
-                    padding: '16px 32px',
+                    padding: 'clamp(10px, 1.11vw, 16px) clamp(20px, 2.22vw, 32px)',
                     borderRadius: '10px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)'
                   }}
@@ -323,8 +444,9 @@ export default function About() {
 
             {/* Card 2 - The Unseen Edge */}
             <div
-              className="w-[399px] overflow-hidden"
+              className="overflow-hidden"
               style={{
+                width: 'clamp(280px, 27.71vw, 440px)',
                 borderRadius: '10px',
                 border: '3px solid #231F20',
                 background: '#FFFFFF'
@@ -334,7 +456,7 @@ export default function About() {
               <div
                 className="w-full flex items-center justify-center"
                 style={{
-                  height: '98px',
+                  height: 'clamp(74px, 6.81vw, 104px)',
                   borderTopLeftRadius: '7px',
                   borderTopRightRadius: '7px',
                   background: 'linear-gradient(180deg, #1B45B4 3.85%, #1C2792 69.39%)'
@@ -343,7 +465,7 @@ export default function About() {
                 <h4
                   className="font-dm-sans font-bold text-white text-center px-3"
                   style={{
-                    fontSize: '24px',
+                    fontSize: 'clamp(18px, 1.67vw, 24px)',
                     lineHeight: '110%',
                     letterSpacing: '-0.03em'
                   }}
@@ -352,11 +474,11 @@ export default function About() {
                 </h4>
               </div>
               {/* Card Body */}
-              <div className="py-6 px-4 flex flex-col items-center">
+              <div className="flex flex-col items-center" style={{ padding: 'clamp(16px, 1.39vw, 24px) clamp(12px, 1.11vw, 16px)' }}>
                 <p
                   className="font-dm-sans font-normal mb-4"
                   style={{
-                    fontSize: '16px',
+                    fontSize: 'clamp(13px, 1.11vw, 16px)',
                     lineHeight: '140%',
                     color: '#1B45B4'
                   }}
@@ -366,9 +488,9 @@ export default function About() {
                 <button
                   className="font-dm-sans font-bold text-white"
                   style={{
-                    fontSize: '16px',
+                    fontSize: 'clamp(13px, 1.11vw, 16px)',
                     lineHeight: '140%',
-                    padding: '16px 32px',
+                    padding: 'clamp(10px, 1.11vw, 16px) clamp(20px, 2.22vw, 32px)',
                     borderRadius: '10px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)'
                   }}
@@ -383,9 +505,9 @@ export default function About() {
           <button
             className="inline-flex items-center justify-center gap-2 font-inter font-semibold text-white"
             style={{
-              fontSize: '21.1px',
-              lineHeight: '30px',
-              padding: '24px 32px',
+              fontSize: 'clamp(15px, 1.47vw, 21.1px)',
+              lineHeight: 'clamp(22px, 2.08vw, 30px)',
+              padding: 'clamp(16px, 1.67vw, 24px) clamp(20px, 2.22vw, 32px)',
               borderRadius: '82px',
               background: '#14358A',
               border: '2px solid #14358A'
@@ -412,19 +534,46 @@ export default function About() {
         </div>
 
         {/* Who We Partner With */}
-        <div className="mb-20 text-center px-4 max-w-[1440px] mx-auto">
-          <h3 className="font-poppins font-semibold text-[50px] leading-[46px] text-[#14358A] mb-8">Who We Partner With</h3>
-          <p className="font-montserrat font-normal text-[30px] leading-[36px] text-[#333333] max-w-[1265px] mx-auto mb-16">
+        <div className="mb-20 text-center px-4 mx-auto" style={{ maxWidth: 'min(1440px, 95%)' }}>
+          <h3
+            className="font-poppins font-semibold text-[#14358A] mb-8"
+            style={{
+              fontSize: 'clamp(28px, 3.47vw, 50px)',
+              lineHeight: 'clamp(32px, 3.19vw, 46px)'
+            }}
+          >
+            Who We Partner With
+          </h3>
+          <p
+            className="font-montserrat font-normal text-[#333333] mx-auto mb-16"
+            style={{
+              fontSize: 'clamp(18px, 2.08vw, 30px)',
+              lineHeight: 'clamp(24px, 2.5vw, 36px)',
+              maxWidth: 'min(1265px, 90%)'
+            }}
+          >
             We don't work with everyone. We partner with organizations that are ready to move from 'Strategy as a Document' to 'Strategy as an Operation.' Our strategic partnerships are critical extensions of our functional expertise, expanding our capabilities to deliver seamless, cutting-edge solutions across complex operational landscapes.
           </p>
 
           <div className="flex flex-col md:flex-row items-start justify-center gap-8 p-8 max-w-7xl mx-auto mt-16">
             {/* Left Side: Heading and Text */}
-            <div className="flex flex-col max-w-[700px]">
-              <h4 className="font-dm-sans font-bold text-[32px] leading-[105%] tracking-[-0.03em] text-black mb-6">
+            <div className="flex flex-col" style={{ maxWidth: 'min(700px, 90%)' }}>
+              <h4
+                className="font-dm-sans font-bold tracking-[-0.03em] text-black mb-6"
+                style={{
+                  fontSize: 'clamp(18px, 2.22vw, 32px)',
+                  lineHeight: '105%'
+                }}
+              >
                 OneThought Technologies
               </h4>
-              <p className="font-montserrat font-normal text-[25px] leading-[140%] text-[#333333]">
+              <p
+                className="font-montserrat font-normal text-[#333333]"
+                style={{
+                  fontSize: 'clamp(18px, 1.74vw, 25px)',
+                  lineHeight: '140%'
+                }}
+              >
                 OneThought Technologies is our premier partner for high-volume BPO and operational technology integration. They leverage top-tier global talent and proprietary tech to resolve complex operational hurdles, ensuring tangible outcomes and seamless, scalable resource solutions.
               </p>
             </div>
@@ -434,7 +583,7 @@ export default function About() {
               <img
                 src="/onethought-logo.png"
                 alt="OneThought Technologies Logo"
-                style={{ height: '150px', width: 'auto' }}
+                style={{ height: 'clamp(100px, 10.42vw, 150px)', width: 'auto' }}
                 className="object-contain"
               />
             </div>
@@ -442,25 +591,63 @@ export default function About() {
         </div>
 
         {/* Global Network */}
-        <div className="mb-24 text-center px-4 max-w-[1440px] mx-auto">
-          <h3 className="font-dm-sans font-bold text-[48px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-12">Global Network and Strategic Engagements</h3>
+        <div className="mb-24 text-center px-4 mx-auto" style={{ maxWidth: 'min(1440px, 95%)' }}>
+          <h3
+            className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-12"
+            style={{
+              fontSize: 'clamp(28px, 3.33vw, 48px)',
+              lineHeight: '105%'
+            }}
+          >
+            Global Network and Strategic Engagements
+          </h3>
           <div className="flex justify-center gap-6 flex-wrap">
-            <div className="w-[536px] text-left">
-              <div className="h-[192px] w-full mb-6 rounded-lg overflow-hidden shadow-sm">
+            <div className="text-left" style={{ width: 'clamp(380px, 37.22vw, 580px)' }}>
+              <div className="w-full mb-6 rounded-lg overflow-hidden shadow-sm" style={{ height: 'clamp(140px, 13.33vw, 192px)' }}>
                 <img src="/white-label.png" alt="White-Label Consulting Support" className="w-full h-full object-cover" />
               </div>
-              <h4 className="font-dm-sans font-bold text-[24px] leading-[110%] tracking-[-0.03em] text-black mb-3">White-Label Consulting Support</h4>
-              <p className="font-dm-sans font-normal text-[16px] leading-[140%] text-[#68718B] max-w-[478px]">
+              <h4
+                className="font-dm-sans font-bold tracking-[-0.03em] text-black mb-3"
+                style={{
+                  fontSize: 'clamp(18px, 1.67vw, 24px)',
+                  lineHeight: '110%'
+                }}
+              >
+                White-Label Consulting Support
+              </h4>
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{
+                  fontSize: 'clamp(13px, 1.11vw, 16px)',
+                  lineHeight: '140%',
+                  maxWidth: 'min(478px, 90%)'
+                }}
+              >
                 We serve as a confidential, white-label partner to two of the "Big 4" global consulting firms, providing critical technical and specialized support on sensitive projects. This allows these organizations to leverage our unique expertise under their own brand to ensure the highest quality outcomes.
               </p>
             </div>
 
-            <div className="w-[536px] text-left">
-              <div className="h-[192px] w-full mb-6 rounded-lg overflow-hidden shadow-sm">
+            <div className="text-left" style={{ width: 'clamp(380px, 37.22vw, 580px)' }}>
+              <div className="w-full mb-6 rounded-lg overflow-hidden shadow-sm" style={{ height: 'clamp(140px, 13.33vw, 192px)' }}>
                 <img src="/ecosystem.png" alt="Ecosystem and Advisory Partnerships" className="w-full h-full object-cover" />
               </div>
-              <h4 className="font-dm-sans font-bold text-[24px] leading-[110%] tracking-[-0.03em] text-black mb-3">Ecosystem and Advisory Partnerships</h4>
-              <p className="font-dm-sans font-normal text-[16px] leading-[140%] text-[#68718B] max-w-[478px]">
+              <h4
+                className="font-dm-sans font-bold tracking-[-0.03em] text-black mb-3"
+                style={{
+                  fontSize: 'clamp(18px, 1.67vw, 24px)',
+                  lineHeight: '110%'
+                }}
+              >
+                Ecosystem and Advisory Partnerships
+              </h4>
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{
+                  fontSize: 'clamp(13px, 1.11vw, 16px)',
+                  lineHeight: '140%',
+                  maxWidth: 'min(478px, 90%)'
+                }}
+              >
                 We are proud ecosystem partners with one of the world's most successful startup accelerators, Y Combinator, focusing our services on supporting their emerging incubator projects rather than working with the accelerator directly.
               </p>
             </div>
@@ -468,9 +655,24 @@ export default function About() {
         </div>
 
         {/* Evolution of Our Logic */}
-        <div className="mb-24 text-center px-4 max-w-[1440px] mx-auto">
-          <h3 className="font-dm-sans font-bold text-[48px] leading-[105%] tracking-[-0.03em] text-[#14358A] mb-8">The Evolution of Our Logic</h3>
-          <p className="font-montserrat font-normal text-[30px] leading-[36px] text-[#333333] max-w-[1100px] mx-auto mb-24">
+        <div className="mb-24 text-center px-4 mx-auto" style={{ maxWidth: 'min(1440px, 95%)' }}>
+          <h3
+            className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-8"
+            style={{
+              fontSize: 'clamp(28px, 3.33vw, 48px)',
+              lineHeight: '105%'
+            }}
+          >
+            The Evolution of Our Logic
+          </h3>
+          <p
+            className="font-montserrat font-normal text-[#333333] mx-auto mb-24"
+            style={{
+              fontSize: 'clamp(18px, 2.08vw, 30px)',
+              lineHeight: 'clamp(24px, 2.5vw, 36px)',
+              maxWidth: 'min(1100px, 90%)'
+            }}
+          >
             Our story is one of relentless innovation and an unwavering commitment to our clients' long-term success.
           </p>
 
@@ -508,8 +710,9 @@ export default function About() {
                   <div className={`w-1/2 ${index % 2 === 0 ? 'pr-16 text-right' : 'pl-16 text-left'} relative`}>
                     {/* Shadow/Offset Box */}
                     <div
-                      className={`absolute ${index % 2 === 0 ? 'right-[50px] top-[8px]' : 'left-[50px] top-[8px]'} w-full max-w-[412px] h-full`}
+                      className={`absolute ${index % 2 === 0 ? 'right-[50px] top-[8px]' : 'left-[50px] top-[8px]'} w-full h-full`}
                       style={{
+                        maxWidth: 'min(412px, 90%)',
                         border: '3px solid #006FBA',
                         borderRadius: '16px',
                         zIndex: 0
@@ -518,8 +721,10 @@ export default function About() {
 
                     {/* Main Card */}
                     <div
-                      className="inline-block w-full max-w-[412px] p-6 relative bg-white"
+                      className="inline-block w-full relative bg-white"
                       style={{
+                        maxWidth: 'min(412px, 90%)',
+                        padding: 'clamp(16px, 1.39vw, 24px)',
                         background: 'linear-gradient(#fff, #fff) padding-box, linear-gradient(270.31deg, #14358A 0.32%, #006FBA 97.73%) border-box',
                         border: '3px solid transparent',
                         borderRadius: '16px',
@@ -527,8 +732,21 @@ export default function About() {
                         position: 'relative'
                       }}
                     >
-                      <h4 className="text-[#14358A] font-bold font-dm-sans text-[24px] mb-3">{item.date}</h4>
-                      <p className="font-dm-sans font-normal text-[16px] leading-[140%] text-[#68718B]">{item.text}</p>
+                      <h4
+                        className="text-[#14358A] font-bold font-dm-sans mb-3"
+                        style={{ fontSize: 'clamp(18px, 1.67vw, 24px)' }}
+                      >
+                        {item.date}
+                      </h4>
+                      <p
+                        className="font-dm-sans font-normal text-[#68718B]"
+                        style={{
+                          fontSize: 'clamp(13px, 1.11vw, 16px)',
+                          lineHeight: '140%'
+                        }}
+                      >
+                        {item.text}
+                      </p>
                     </div>
                     {/* Dotted Connector */}
                     <div
@@ -552,15 +770,15 @@ export default function About() {
       </div>
 
       {/* Ready to Write Your Success Story Section */}
-      <div className="bg-[#EBF7FF] text-center relative z-0" style={{ paddingTop: '80px', paddingBottom: '80px' }}>
+      <div className="bg-[#EBF7FF] text-center relative z-0" style={{ paddingTop: 'clamp(40px, 5.56vw, 80px)', paddingBottom: 'clamp(40px, 5.56vw, 80px)' }}>
         <h3
           className="font-dm-sans font-bold text-[#14358A]"
           style={{
-            fontSize: '48px',
+            fontSize: 'clamp(28px, 3.33vw, 48px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             textAlign: 'center',
-            marginBottom: '12px'
+            marginBottom: 'clamp(8px, 0.83vw, 12px)'
           }}
         >
           Ready to Write Your Success Story?
@@ -568,12 +786,12 @@ export default function About() {
         <p
           className="font-dm-sans font-normal mx-auto"
           style={{
-            fontSize: '18px',
+            fontSize: 'clamp(14px, 1.25vw, 18px)',
             lineHeight: '135%',
             textAlign: 'center',
             color: '#68718B',
-            maxWidth: '577px',
-            marginBottom: '13px'
+            maxWidth: 'min(577px, 85%)',
+            marginBottom: 'clamp(8px, 0.9vw, 13px)'
           }}
         >
           Now that you know our story, let us help you write yours. Partner with us to leverage our expertise, values, and innovation for your business.
@@ -581,10 +799,10 @@ export default function About() {
         <button
           className="font-dm-sans font-bold text-white hover:opacity-95 transition-opacity mx-auto"
           style={{
-            fontSize: '16px',
+            fontSize: 'clamp(13px, 1.11vw, 16px)',
             lineHeight: '140%',
-            width: '247px',
-            height: '54px',
+            width: 'clamp(200px, 17.15vw, 260px)',
+            height: 'clamp(44px, 3.75vw, 54px)',
             borderRadius: '10px',
             background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)'
           }}

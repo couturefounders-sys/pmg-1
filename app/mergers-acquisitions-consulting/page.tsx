@@ -10,14 +10,14 @@ export default function MergersAcquisitionsConsulting() {
       <Header />
 
       {/* Hero Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto text-center" style={{ paddingTop: '142px' }}>
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto text-center" style={{ paddingTop: 'clamp(100px, 9.86vw, 142px)' }}>
 
         {/* Subheading */}
         <p
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: '29px',
+            fontSize: 'clamp(18px, 2.01vw, 33px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             color: '#14358A',
@@ -33,7 +33,7 @@ export default function MergersAcquisitionsConsulting() {
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: '48px',
+            fontSize: 'clamp(28px, 3.33vw, 56px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             textAlign: 'center',
@@ -51,7 +51,7 @@ export default function MergersAcquisitionsConsulting() {
           style={{
             fontFamily: 'Montserrat, sans-serif',
             fontWeight: 400,
-            fontSize: '32px',
+            fontSize: 'clamp(20px, 2.22vw, 36px)',
             lineHeight: '100%',
             letterSpacing: '0%',
             textAlign: 'center',
@@ -59,7 +59,7 @@ export default function MergersAcquisitionsConsulting() {
             width: '1258px',
             maxWidth: '100%',
             margin: '31px auto 0 auto',
-            paddingBottom: '80px',
+            paddingBottom: 'clamp(48px, 5.56vw, 80px)',
           }}
         >
           M&A success is a strategic journey driven by rigorous execution. We deliver integrated solutions that maximize value, minimize integration risk, and ensure long-term growth. Our team has supported, structured, and integrated almost 100 transactions valued at over $200 million.
@@ -67,13 +67,13 @@ export default function MergersAcquisitionsConsulting() {
       </div>
 
       {/* How We Help Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 py-16">
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-16">
         <h2
           className="text-center mb-12"
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: '48px',
+            fontSize: 'clamp(28px, 3.33vw, 56px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             color: '#14358A',
@@ -103,7 +103,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -116,7 +116,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -144,7 +144,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -157,7 +157,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -187,7 +187,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -200,7 +200,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -229,7 +229,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -242,7 +242,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -271,7 +271,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -284,7 +284,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -315,7 +315,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -328,7 +328,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -357,7 +357,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -370,7 +370,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -398,7 +398,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -411,7 +411,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -441,7 +441,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -454,7 +454,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -483,7 +483,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -496,7 +496,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -524,7 +524,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -537,7 +537,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -549,14 +549,14 @@ export default function MergersAcquisitionsConsulting() {
       </div>
 
       {/* Our Approach Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 py-20">
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <div className="text-center mb-12">
           <h2
             className="mb-8"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -569,12 +569,12 @@ export default function MergersAcquisitionsConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '150%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',
-              maxWidth: '1001px',
+              maxWidth: 'min(1001px, 95%)',
               margin: '0 auto',
             }}
           >
@@ -585,13 +585,13 @@ export default function MergersAcquisitionsConsulting() {
         {/* Top Row - Steps 1 and 2 */}
         <div className="flex justify-between max-w-[1200px] mx-auto mb-0">
           {/* Step 1 - Understand Your Strategic Objectives */}
-          <div className="text-center" style={{ maxWidth: '512px' }}>
+          <div className="text-center" style={{ maxWidth: 'min(512px, 95%)' }}>
             <h3
               className="mb-4"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '22px',
+                fontSize: 'clamp(16px, 1.53vw, 24px)',
                 lineHeight: '120%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -603,7 +603,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '150%',
                 color: '#333333',
               }}
@@ -613,13 +613,13 @@ export default function MergersAcquisitionsConsulting() {
           </div>
 
           {/* Step 2 - Guarantee Value and Mitigate Risk */}
-          <div className="text-center" style={{ maxWidth: '491px' }}>
+          <div className="text-center" style={{ maxWidth: 'min(491px, 95%)' }}>
             <h3
               className="mb-4"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '22px',
+                fontSize: 'clamp(16px, 1.53vw, 24px)',
                 lineHeight: '120%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -631,7 +631,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '150%',
                 color: '#333333',
               }}
@@ -665,7 +665,7 @@ export default function MergersAcquisitionsConsulting() {
             style={{
               fontFamily: 'Inter, sans-serif',
               fontWeight: 400,
-              fontSize: '20px',
+              fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',
               color: '#333333',
             }}
@@ -676,14 +676,14 @@ export default function MergersAcquisitionsConsulting() {
       </div>
 
       {/* Growth Through Successful M&A Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 py-20">
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <div className="flex flex-col lg:flex-row gap-12 items-start">
           {/* Left Side - Capability Pills */}
           <div className="flex flex-col gap-4">
              {/* Capability Pills with Figma Connector */}
             <div className="relative flex gap-6">
               {/* Left Connector — Figma infographic elements stacked */}
-              <div className="flex-shrink-0 relative" style={{ width: '50px', height: '440px' }}>
+              <div className="flex-shrink-0 relative" style={{ width: '50px', height: 'clamp(280px, 30.56vw, 440px)' }}>
                 <img src="/ma-infographic-1.svg" alt="" style={{ position: 'absolute', top: '0', left: '0', width: '50px', height: '88px' }} />
                 <img src="/ma-infographic-2.svg" alt="" style={{ position: 'absolute', top: '88px', left: '0', width: '50px', height: '88px' }} />
                 <img src="/ma-infographic-3.svg" alt="" style={{ position: 'absolute', top: '176px', left: '0', width: '50px', height: '88px' }} />
@@ -698,7 +698,7 @@ export default function MergersAcquisitionsConsulting() {
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
                     <img src="/ma-icon-file-search.svg" alt="" width="48" height="48" />
                   </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
+                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
                     Product Lifecycle Management
                   </span>
                 </div>
@@ -708,7 +708,7 @@ export default function MergersAcquisitionsConsulting() {
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
                     <img src="/ma-icon-paint-brush.svg" alt="" width="48" height="48" />
                   </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
+                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
                     Capital Excellence
                   </span>
                 </div>
@@ -718,7 +718,7 @@ export default function MergersAcquisitionsConsulting() {
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
                     <img src="/ma-icon-cursor-click.svg" alt="" width="48" height="48" />
                   </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
+                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
                     Data-Driven Insights
                   </span>
                 </div>
@@ -728,7 +728,7 @@ export default function MergersAcquisitionsConsulting() {
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
                     <img src="/ma-icon-rocket-launch.svg" alt="" width="48" height="48" />
                   </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
+                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
                     KPI Optimization
                   </span>
                 </div>
@@ -738,7 +738,7 @@ export default function MergersAcquisitionsConsulting() {
                   <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
                     <img src="/ma-icon-wrench.svg" alt="" width="48" height="48" />
                   </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '20px', lineHeight: '100%', color: '#FFFFFF' }}>
+                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
                     Lean Six Sigma
                   </span>
                 </div>
@@ -753,7 +753,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '48px',
+                fontSize: 'clamp(28px, 3.33vw, 56px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -767,7 +767,7 @@ export default function MergersAcquisitionsConsulting() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '20px',
+                fontSize: 'clamp(15px, 1.39vw, 22px)',
                 lineHeight: '150%',
                 color: '#333333',
               }}
@@ -787,7 +787,7 @@ export default function MergersAcquisitionsConsulting() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 400,
-                  fontSize: '20px',
+                  fontSize: 'clamp(15px, 1.39vw, 22px)',
                   lineHeight: '150%',
                   color: '#333333',
                 }}
@@ -808,7 +808,7 @@ export default function MergersAcquisitionsConsulting() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 400,
-                  fontSize: '20px',
+                  fontSize: 'clamp(15px, 1.39vw, 22px)',
                   lineHeight: '150%',
                   color: '#333333',
                 }}
@@ -827,7 +827,7 @@ export default function MergersAcquisitionsConsulting() {
             style={{
               fontFamily: 'Inter, sans-serif',
               fontWeight: 600,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '30px',
               color: '#14358A',
               textDecoration: 'none',
@@ -862,7 +862,7 @@ export default function MergersAcquisitionsConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '24px',
+              fontSize: 'clamp(18px, 1.67vw, 28px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#FFFFFF',
@@ -876,7 +876,7 @@ export default function MergersAcquisitionsConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '40px',
+              fontSize: 'clamp(24px, 2.78vw, 46px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#FFFFFF',
@@ -889,7 +889,7 @@ export default function MergersAcquisitionsConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '150%',
               color: '#FFFFFF',
             }}
@@ -907,13 +907,13 @@ export default function MergersAcquisitionsConsulting() {
         }}
       >
         <img src="/ma-cta-bg.svg" alt="" aria-hidden="true" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none', opacity: 0.15 }} />
-        <div className="max-w-[1440px] mx-auto px-4 text-center">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-4 text-center">
           <h2
             className="mb-6"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '36px',
+              fontSize: 'clamp(22px, 2.5vw, 40px)',
               lineHeight: '120%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -927,10 +927,10 @@ export default function MergersAcquisitionsConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '22px',
+              fontSize: 'clamp(16px, 1.53vw, 24px)',
               lineHeight: '150%',
               color: '#333333',
-              maxWidth: '900px',
+              maxWidth: 'min(900px, 95%)',
               margin: '0 auto 2.5rem auto',
             }}
           >
@@ -945,7 +945,7 @@ export default function MergersAcquisitionsConsulting() {
               width: '319px',
               height: '65px',
               fontFamily: 'DM Sans, sans-serif',
-              fontSize: '20px',
+              fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',
               fontWeight: 700,
               border: 'none',

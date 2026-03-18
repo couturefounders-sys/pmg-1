@@ -44,7 +44,7 @@ export default function BespokeSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '29px',
+              fontSize: 'clamp(18px, 2.01vw, 33px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -61,13 +61,13 @@ export default function BespokeSolutions() {
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
               fontStyle: 'normal',
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
               color: '#14358A',
               marginBottom: '24px',
-              maxWidth: '1200px',
+              maxWidth: 'min(1200px, 95%)',
             }}
           >
             Solving Your Most Important Problem (MIP)
@@ -79,12 +79,12 @@ export default function BespokeSolutions() {
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
               fontStyle: 'normal',
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '140%',
               textAlign: 'center',
               color: '#333333',
               marginBottom: '48px',
-              maxWidth: '1200px',
+              maxWidth: 'min(1200px, 95%)',
             }}
           >
             When you face challenges that off-the-shelf solutions can&apos;t fix, you need a partner who architects strategy from first principles. Our Bespoke Consulting services deliver tangible, project-based outcomes by crafting a plan meticulously aligned with your vision.
@@ -103,7 +103,7 @@ export default function BespokeSolutions() {
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '20px',
+              fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',
               color: '#FFFFFF',
               textDecoration: 'none',
@@ -124,7 +124,7 @@ export default function BespokeSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -139,11 +139,11 @@ export default function BespokeSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               color: '#333333',
-              maxWidth: '1201px',
+              maxWidth: 'min(1201px, 95%)',
               marginBottom: '60px',
             }}
           >
@@ -184,7 +184,7 @@ export default function BespokeSolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: '29px',
+                      fontSize: 'clamp(18px, 2.01vw, 33px)',
                       lineHeight: '105%',
                       letterSpacing: '-0.03em',
                       color: '#14358A',
@@ -201,7 +201,7 @@ export default function BespokeSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 400,
-                    fontSize: '16px',
+                    fontSize: 'clamp(13px, 1.11vw, 18px)',
                     lineHeight: '140%',
                     color: '#68718B',
                   }}
@@ -245,13 +245,13 @@ export default function BespokeSolutions() {
           }}
         />
 
-        <div className="max-w-[1100px] mx-auto relative" style={{ zIndex: 1 }}>
+        <div className="max-w-[min(1100px,_90%)] mx-auto relative" style={{ zIndex: 1 }}>
           {/* Heading */}
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#FFFFFF',
@@ -267,11 +267,11 @@ export default function BespokeSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '32px',
+              fontSize: 'clamp(20px, 2.22vw, 36px)',
               lineHeight: '135%',
               color: '#FFFFFF',
               textAlign: 'center',
-              maxWidth: '1196px',
+              maxWidth: 'min(1196px, 95%)',
               margin: '0 auto 52px auto',
             }}
           >
@@ -284,7 +284,7 @@ export default function BespokeSolutions() {
           <div className="flex flex-col lg:flex-row gap-10 items-start justify-between">
 
             {/* Left: bullet list */}
-            <div className="flex flex-col flex-1" style={{ maxWidth: '700px', gap: '32px' }}>
+            <div className="flex flex-col flex-1" style={{ maxWidth: 'min(700px, 95%)', gap: '32px' }}>
 
               {[
                 {
@@ -322,7 +322,7 @@ export default function BespokeSolutions() {
                     <p style={{
                       fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 400,
-                      fontSize: '25px',
+                      fontSize: 'clamp(16px, 1.74vw, 28px)',
                       lineHeight: '1.4',
                       color: '#FFFFFF',
                       margin: 0,
@@ -369,7 +369,7 @@ export default function BespokeSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '30px',
+                  fontSize: 'clamp(18px, 2.08vw, 34px)',
                   lineHeight: '110%',
                   letterSpacing: '-0.9px',
                   color: '#006FBA',
@@ -385,14 +385,14 @@ export default function BespokeSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '18px',
+                  fontSize: 'clamp(14px, 1.25vw, 20px)',
                   lineHeight: '1.75',
                   color: '#68718B',
                   textAlign: 'center',
                   margin: 0,
                   position: 'relative',
                   zIndex: 1,
-                  maxWidth: '485px',
+                  maxWidth: 'min(485px, 95%)',
                 }}
               >
                 Clarity before commitment. You invest in a pre-vetted execution plan, not just a
@@ -406,12 +406,12 @@ export default function BespokeSolutions() {
       {/* ─── Section 4: Our Bespoke Consulting Process ─── */}
       <section className="w-full bg-white pt-20 pb-16">
         {/* Header text */}
-        <div className="max-w-[1100px] mx-auto px-6 flex flex-col items-center text-center mb-12">
+        <div className="max-w-[min(1100px,_90%)] mx-auto px-6 flex flex-col items-center text-center mb-12">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -425,7 +425,7 @@ export default function BespokeSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 600,
-              fontSize: '20px',
+              fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '130%',
               color: '#2563EB',
               marginBottom: '20px',
@@ -437,11 +437,11 @@ export default function BespokeSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '28px',
+              fontSize: 'clamp(18px, 1.94vw, 32px)',
               lineHeight: '140%',
               textAlign: 'center',
               color: '#333333',
-              maxWidth: '860px',
+              maxWidth: 'min(860px, 95%)',
             }}
           >
             It all starts here. We begin by aligning with your vision, establishing clear, measurable
@@ -469,17 +469,17 @@ export default function BespokeSolutions() {
           {/* Four phases grid overlay */}
           <div
             className="relative w-full max-w-[1400px] mx-auto px-8 grid grid-cols-4"
-            style={{ zIndex: 1, height: '560px' }}
+            style={{ zIndex: 1, height: 'clamp(350px, 38.89vw, 560px)' }}
           >
 
             {/* Phase 1 — text TOP, dot at bottom-left of wave */}
-            <div className="flex flex-col items-center justify-between" style={{ paddingBottom: '220px' }}>
-              <div style={{ maxWidth: '280px', textAlign: 'left', alignSelf: 'flex-start', transform: 'translateX(-30px)' }}>
+            <div className="flex flex-col items-center justify-between" style={{ paddingBottom: 'clamp(140px, 15.28vw, 220px)' }}>
+              <div style={{ maxWidth: 'min(280px, 100%)', textAlign: 'left', alignSelf: 'flex-start', transform: 'translateX(-30px)' }}>
                 <h3
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 700,
-                    fontSize: '26px',
+                    fontSize: 'clamp(17px, 1.81vw, 30px)',
                     lineHeight: '1.3',
                     color: '#14358A',
                     marginBottom: '12px',
@@ -487,10 +487,10 @@ export default function BespokeSolutions() {
                 >
                   Phase 1: Deep Dive &amp; Discovery
                 </h3>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '17px', lineHeight: '1.4', color: '#424242', marginBottom: '10px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.18vw, 19px)', lineHeight: '1.4', color: '#424242', marginBottom: '10px' }}>
                   We start by understanding your unique landscape.
                 </p>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '15px', lineHeight: '1.5', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.5', color: '#5F5F5F' }}>
                   Our experts partner with your team for an in-depth exploration of your operations,
                   culture, and challenges. This is where we gather the essential insights that lay the
                   foundation for a truly customized strategy aligned with your vision.
@@ -500,14 +500,14 @@ export default function BespokeSolutions() {
             </div>
 
             {/* Phase 2 — dot at top of first hump, text BOTTOM */}
-            <div className="flex flex-col items-center justify-between" style={{ paddingTop: '100px' }}>
+            <div className="flex flex-col items-center justify-between" style={{ paddingTop: 'clamp(60px, 6.94vw, 100px)' }}>
               <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)', border: '4px solid white', boxShadow: '0 2px 8px rgba(20,53,138,0.3)', flexShrink: 0 }} />
-              <div style={{ maxWidth: '280px', textAlign: 'center' }}>
+              <div style={{ maxWidth: 'min(280px, 100%)', textAlign: 'center' }}>
                 <h3
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 700,
-                    fontSize: '26px',
+                    fontSize: 'clamp(17px, 1.81vw, 30px)',
                     lineHeight: '1.3',
                     color: '#14358A',
                     marginBottom: '12px',
@@ -515,10 +515,10 @@ export default function BespokeSolutions() {
                 >
                   Phase 2: Strategic Blueprint
                 </h3>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '17px', lineHeight: '1.4', color: '#424242', marginBottom: '10px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.18vw, 19px)', lineHeight: '1.4', color: '#424242', marginBottom: '10px' }}>
                   We design your tailored plan for success.
                 </p>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '15px', lineHeight: '1.5', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.5', color: '#5F5F5F' }}>
                   Using the insights from our discovery, we design a comprehensive, actionable plan.
                   This blueprint is precisely tailored to address your challenges, capitalize on
                   opportunities, and deliver on the goals we&apos;ve set together.
@@ -527,13 +527,13 @@ export default function BespokeSolutions() {
             </div>
 
             {/* Phase 3 — text TOP, dot at top of second hump */}
-            <div className="flex flex-col items-center justify-between" style={{ paddingBottom: '100px' }}>
-              <div style={{ maxWidth: '280px', textAlign: 'right', alignSelf: 'flex-end' }}>
+            <div className="flex flex-col items-center justify-between" style={{ paddingBottom: 'clamp(60px, 6.94vw, 100px)' }}>
+              <div style={{ maxWidth: 'min(280px, 100%)', textAlign: 'right', alignSelf: 'flex-end' }}>
                 <h3
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 700,
-                    fontSize: '26px',
+                    fontSize: 'clamp(17px, 1.81vw, 30px)',
                     lineHeight: '1.3',
                     color: '#14358A',
                     marginBottom: '12px',
@@ -541,10 +541,10 @@ export default function BespokeSolutions() {
                 >
                   Phase 3: Focused Implementation
                 </h3>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '17px', lineHeight: '1.4', color: '#424242', marginBottom: '10px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.18vw, 19px)', lineHeight: '1.4', color: '#424242', marginBottom: '10px' }}>
                   We put the plan into action with precision.
                 </p>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '15px', lineHeight: '1.5', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.5', color: '#5F5F5F' }}>
                   A strategy is only as good as its execution. In this phase, our team works
                   diligently alongside yours to bring the blueprint to life, ensuring smooth
                   integration and adapting as needed based on real-time feedback and results.
@@ -554,14 +554,14 @@ export default function BespokeSolutions() {
             </div>
 
             {/* Phase 4 — dot at bottom-right of wave, text BOTTOM */}
-            <div className="flex flex-col items-center justify-between" style={{ paddingTop: '220px' }}>
+            <div className="flex flex-col items-center justify-between" style={{ paddingTop: 'clamp(140px, 15.28vw, 220px)' }}>
               <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)', border: '4px solid white', boxShadow: '0 2px 8px rgba(20,53,138,0.3)', flexShrink: 0 }} />
-              <div style={{ maxWidth: '280px', textAlign: 'right', alignSelf: 'flex-end', transform: 'translateX(40px)' }}>
+              <div style={{ maxWidth: 'min(280px, 100%)', textAlign: 'right', alignSelf: 'flex-end', transform: 'translateX(40px)' }}>
                 <h3
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 700,
-                    fontSize: '26px',
+                    fontSize: 'clamp(17px, 1.81vw, 30px)',
                     lineHeight: '1.3',
                     color: '#14358A',
                     marginBottom: '12px',
@@ -569,10 +569,10 @@ export default function BespokeSolutions() {
                 >
                   Phase 4: Sustain &amp; Optimize
                 </h3>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: '17px', lineHeight: '1.4', color: '#424242', marginBottom: '10px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.18vw, 19px)', lineHeight: '1.4', color: '#424242', marginBottom: '10px' }}>
                   We measure impact to ensure long-term success.
                 </p>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: '15px', lineHeight: '1.5', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.5', color: '#5F5F5F' }}>
                   Our partnership doesn&apos;t end at launch. We continuously monitor outcomes, using
                   data to evaluate what&apos;s working and proactively identifying areas for
                   refinement. This ensures your business is positioned for sustained excellence.
@@ -594,7 +594,7 @@ export default function BespokeSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '48px',
+                fontSize: 'clamp(28px, 3.33vw, 56px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 textAlign: 'center',
@@ -608,11 +608,11 @@ export default function BespokeSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '28px',
+                fontSize: 'clamp(18px, 1.94vw, 32px)',
                 lineHeight: '140%',
                 textAlign: 'center',
                 color: '#333333',
-                maxWidth: '1100px',
+                maxWidth: 'min(1100px, 95%)',
               }}
             >
               While every project is bespoke, they often fall into one of four core problem
@@ -627,10 +627,10 @@ export default function BespokeSolutions() {
               <Image src="/bespoke-proj-1.png" alt="Operational Turnarounds" width={220} height={200} style={{ objectFit: 'contain' }} />
             </div>
             <div className="flex flex-col flex-1" style={{ textAlign: 'right' }}>
-              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px' }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(20px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px' }}>
                 Operational Turnarounds &amp; Scaling
               </h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '28px', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'right' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'right' }}>
                 For when core systems are broken or unable to scale. We diagnose the root cause of
                 operational drag, redesign core processes, and manage the turnaround to restore
                 efficiency and enable growth.
@@ -645,10 +645,10 @@ export default function BespokeSolutions() {
           {/* Row 2 — text LEFT, icon RIGHT */}
           <div className="flex flex-row items-center gap-16 mb-16">
             <div className="flex flex-col flex-1" style={{ textAlign: 'left' }}>
-              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px' }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(20px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px' }}>
                 M&amp;A Integration &amp; Carve-Outs
               </h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '28px', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'left' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'left' }}>
                 For complex post-merger integrations or strategic divestitures. We manage the
                 intricate process of combining or separating systems, cultures, and operations to
                 maximize value and minimize disruption.
@@ -669,10 +669,10 @@ export default function BespokeSolutions() {
               <Image src="/bespoke-proj-3.png" alt="M&A Integration Carve-Outs" width={280} height={240} style={{ objectFit: 'contain' }} />
             </div>
             <div className="flex flex-col flex-1" style={{ textAlign: 'right' }}>
-              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px', textAlign: 'right' }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(20px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px', textAlign: 'right' }}>
                 M&amp;A Integration &amp; Carve-Outs
               </h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '28px', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'right' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'right' }}>
                 For complex post-merger integrations or strategic divestitures. We manage the
                 intricate process of combining or separating systems, cultures, and operations to
                 maximize value and minimize disruption.
@@ -687,10 +687,10 @@ export default function BespokeSolutions() {
           {/* Row 4 — text LEFT, icon RIGHT */}
           <div className="flex flex-row items-center gap-16">
             <div className="flex flex-col flex-1" style={{ textAlign: 'left' }}>
-              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '32px', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px' }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(20px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px' }}>
                 Complex Systems &amp; Architecture
               </h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: '28px', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'left' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'left' }}>
                 For when your technology or data architecture is a barrier to growth. We deconstruct
                 monolithic systems, eliminate data silos, and design scalable, I-O based
                 architectures that provide a foundation for future innovation.
@@ -710,7 +710,7 @@ export default function BespokeSolutions() {
 
       {/* ─── Section 6: How We Ensure Accountability ─── */}
       <section className="w-full bg-white py-20 px-6">
-        <div className="max-w-[1100px] mx-auto">
+        <div className="max-w-[min(1100px,_90%)] mx-auto">
 
           {/* Header */}
           <div className="flex flex-col items-center text-center mb-14">
@@ -718,7 +718,7 @@ export default function BespokeSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '48px',
+                fontSize: 'clamp(28px, 3.33vw, 56px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -731,7 +731,7 @@ export default function BespokeSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: '28px',
+                fontSize: 'clamp(18px, 1.94vw, 32px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -744,10 +744,10 @@ export default function BespokeSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: '28px',
+                fontSize: 'clamp(18px, 1.94vw, 32px)',
                 lineHeight: '140%',
                 color: '#333333',
-                maxWidth: '1216px',
+                maxWidth: 'min(1216px, 95%)',
                 textAlign: 'center',
               }}
             >
@@ -776,7 +776,7 @@ export default function BespokeSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: '29px',
+                    fontSize: 'clamp(18px, 2.01vw, 33px)',
                     lineHeight: '105%',
                     letterSpacing: '-0.03em',
                     color: '#14358A',
@@ -790,7 +790,7 @@ export default function BespokeSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   lineHeight: '140%',
                   color: '#68718B',
                 }}
@@ -819,7 +819,7 @@ export default function BespokeSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: '29px',
+                    fontSize: 'clamp(18px, 2.01vw, 33px)',
                     lineHeight: '105%',
                     letterSpacing: '-0.03em',
                     color: '#14358A',
@@ -833,7 +833,7 @@ export default function BespokeSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   lineHeight: '140%',
                   color: '#68718B',
                 }}
@@ -862,7 +862,7 @@ export default function BespokeSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: '29px',
+                    fontSize: 'clamp(18px, 2.01vw, 33px)',
                     lineHeight: '105%',
                     letterSpacing: '-0.03em',
                     color: '#14358A',
@@ -876,7 +876,7 @@ export default function BespokeSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   lineHeight: '140%',
                   color: '#68718B',
                 }}
@@ -894,12 +894,12 @@ export default function BespokeSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '32px',
+              fontSize: 'clamp(20px, 2.22vw, 36px)',
               lineHeight: '105%',
               letterSpacing: '-0.96px',
               color: '#14358A',
               textAlign: 'center',
-              maxWidth: '1011px',
+              maxWidth: 'min(1011px, 95%)',
               margin: '0 auto',
               whiteSpace: 'pre-wrap',
             }}
@@ -915,14 +915,14 @@ export default function BespokeSolutions() {
         className="w-full py-20 px-6"
         style={{ backgroundColor: '#EBF7FF' }}
       >
-        <div className="max-w-[1100px] mx-auto flex flex-col items-center">
+        <div className="max-w-[min(1100px,_90%)] mx-auto flex flex-col items-center">
 
           {/* Header */}
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -936,11 +936,11 @@ export default function BespokeSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '32px',
+              fontSize: 'clamp(20px, 2.22vw, 36px)',
               lineHeight: '135%',
               color: '#333333',
               textAlign: 'center',
-              maxWidth: '1196px',
+              maxWidth: 'min(1196px, 95%)',
               marginBottom: '48px',
             }}
           >
@@ -964,7 +964,7 @@ export default function BespokeSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '29px',
+                  fontSize: 'clamp(18px, 2.01vw, 33px)',
                   lineHeight: '105%',
                   letterSpacing: '-0.03em',
                   color: '#14358A',
@@ -977,7 +977,7 @@ export default function BespokeSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   lineHeight: '140%',
                   color: '#68718B',
                   marginBottom: '10px',
@@ -989,7 +989,7 @@ export default function BespokeSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   lineHeight: '140%',
                   color: '#68718B',
                 }}
@@ -1014,7 +1014,7 @@ export default function BespokeSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '29px',
+                  fontSize: 'clamp(18px, 2.01vw, 33px)',
                   lineHeight: '105%',
                   letterSpacing: '-0.03em',
                   color: '#14358A',
@@ -1027,7 +1027,7 @@ export default function BespokeSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   lineHeight: '140%',
                   color: '#68718B',
                   marginBottom: '6px',
@@ -1039,7 +1039,7 @@ export default function BespokeSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   lineHeight: '140%',
                   color: '#68718B',
                   marginBottom: '12px',
@@ -1051,7 +1051,7 @@ export default function BespokeSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   lineHeight: '140%',
                   color: '#68718B',
                   marginBottom: '6px',
@@ -1063,7 +1063,7 @@ export default function BespokeSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: '16px',
+                  fontSize: 'clamp(13px, 1.11vw, 18px)',
                   lineHeight: '140%',
                   color: '#68718B',
                 }}
@@ -1087,7 +1087,7 @@ export default function BespokeSolutions() {
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '20px',
+              fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',
               color: '#FFFFFF',
               textDecoration: 'none',

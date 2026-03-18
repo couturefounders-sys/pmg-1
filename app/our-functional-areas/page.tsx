@@ -9,16 +9,16 @@ export default function OurFunctionalAreas() {
       <Header />
 
       {/* Hero Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4 pt-[171px] pb-16 text-center">
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 pt-[clamp(110px,11.88vw,171px)] pb-16 text-center">
         <h1
           style={{
             fontFamily: 'Poppins, sans-serif',
             fontWeight: 600,
-            fontSize: '50px',
+            fontSize: 'clamp(28px, 3.47vw, 56px)',
             lineHeight: '61.33px',
             letterSpacing: '0%',
             color: '#14358A',
-            maxWidth: '778px',
+            maxWidth: 'min(778px, 95%)',
             margin: '0 auto 12px auto',
           }}
         >
@@ -29,12 +29,12 @@ export default function OurFunctionalAreas() {
           style={{
             fontFamily: 'Montserrat, sans-serif',
             fontWeight: 400,
-            fontSize: '32px',
+            fontSize: 'clamp(20px, 2.22vw, 36px)',
             lineHeight: '100%',
             letterSpacing: '0%',
             textAlign: 'center',
             color: '#333333',
-            maxWidth: '1258px',
+            maxWidth: 'min(1258px, 95%)',
             margin: '0 auto 32px auto',
           }}
         >
@@ -52,7 +52,7 @@ export default function OurFunctionalAreas() {
             cursor: 'pointer',
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: '20px',
+            fontSize: 'clamp(15px, 1.39vw, 22px)',
             lineHeight: '140%',
           }}
         >
@@ -61,13 +61,13 @@ export default function OurFunctionalAreas() {
       </div>
 
       {/* Our Functional Areas Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4" style={{ paddingTop: '75px', paddingBottom: '64px' }}>
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4" style={{ paddingTop: '75px', paddingBottom: '64px' }}>
         <div className="text-center" style={{ marginBottom: '30px' }}>
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '80.65%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -81,12 +81,12 @@ export default function OurFunctionalAreas() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',
-              maxWidth: '1082px',
+              maxWidth: 'min(1082px, 95%)',
               margin: '0 auto',
             }}
           >
@@ -101,7 +101,7 @@ export default function OurFunctionalAreas() {
             className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
-              width: '412px',
+              width: 'min(412px, 100%)',
               minHeight: '198px',
               paddingLeft: '28px',
               paddingTop: '26px',
@@ -121,7 +121,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '29px',
+              fontSize: 'clamp(18px, 2.01vw, 33px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -135,7 +135,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -148,7 +148,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 600,
-                fontSize: '21.1px',
+                fontSize: 'clamp(16px, 1.46vw, 24px)',
                 lineHeight: '30px',
                 color: '#14358A',
                 textDecoration: 'none',
@@ -163,7 +163,7 @@ export default function OurFunctionalAreas() {
             className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
-              width: '412px',
+              width: 'min(412px, 100%)',
               minHeight: '198px',
               paddingLeft: '28px',
               paddingTop: '26px',
@@ -185,7 +185,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '29px',
+              fontSize: 'clamp(18px, 2.01vw, 33px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -199,7 +199,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -212,7 +212,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 600,
-                fontSize: '21.1px',
+                fontSize: 'clamp(16px, 1.46vw, 24px)',
                 lineHeight: '30px',
                 color: '#14358A',
                 textDecoration: 'none',
@@ -230,7 +230,7 @@ export default function OurFunctionalAreas() {
             className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
-              width: '412px',
+              width: 'min(412px, 100%)',
               minHeight: '198px',
               paddingLeft: '28px',
               paddingTop: '26px',
@@ -250,7 +250,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '29px',
+              fontSize: 'clamp(18px, 2.01vw, 33px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -264,7 +264,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -277,7 +277,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 600,
-                fontSize: '21.1px',
+                fontSize: 'clamp(16px, 1.46vw, 24px)',
                 lineHeight: '30px',
                 color: '#14358A',
                 textDecoration: 'none',
@@ -292,7 +292,7 @@ export default function OurFunctionalAreas() {
             className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
-              width: '412px',
+              width: 'min(412px, 100%)',
               minHeight: '198px',
               paddingLeft: '28px',
               paddingTop: '26px',
@@ -312,7 +312,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '29px',
+              fontSize: 'clamp(18px, 2.01vw, 33px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -326,7 +326,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -339,7 +339,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 600,
-                fontSize: '21.1px',
+                fontSize: 'clamp(16px, 1.46vw, 24px)',
                 lineHeight: '30px',
                 color: '#14358A',
                 textDecoration: 'none',
@@ -354,7 +354,7 @@ export default function OurFunctionalAreas() {
             className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
-              width: '412px',
+              width: 'min(412px, 100%)',
               minHeight: '198px',
               paddingLeft: '28px',
               paddingTop: '26px',
@@ -375,7 +375,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '29px',
+              fontSize: 'clamp(18px, 2.01vw, 33px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -389,7 +389,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -402,7 +402,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 600,
-                fontSize: '21.1px',
+                fontSize: 'clamp(16px, 1.46vw, 24px)',
                 lineHeight: '30px',
                 color: '#14358A',
                 textDecoration: 'none',
@@ -420,7 +420,7 @@ export default function OurFunctionalAreas() {
             className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
-              width: '412px',
+              width: 'min(412px, 100%)',
               minHeight: '198px',
               paddingLeft: '28px',
               paddingTop: '26px',
@@ -443,7 +443,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '29px',
+              fontSize: 'clamp(18px, 2.01vw, 33px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -457,7 +457,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -470,7 +470,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 600,
-                fontSize: '21.1px',
+                fontSize: 'clamp(16px, 1.46vw, 24px)',
                 lineHeight: '30px',
                 color: '#14358A',
                 textDecoration: 'none',
@@ -485,7 +485,7 @@ export default function OurFunctionalAreas() {
             className="bg-white rounded-[10px] flex flex-col"
             style={{
               border: '3px solid #14358A',
-              width: '412px',
+              width: 'min(412px, 100%)',
               minHeight: '198px',
               paddingLeft: '28px',
               paddingTop: '26px',
@@ -505,7 +505,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '26px',
+              fontSize: 'clamp(17px, 1.81vw, 30px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -519,7 +519,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -532,7 +532,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 600,
-                fontSize: '21.1px',
+                fontSize: 'clamp(16px, 1.46vw, 24px)',
                 lineHeight: '30px',
                 color: '#14358A',
                 textDecoration: 'none',
@@ -545,18 +545,18 @@ export default function OurFunctionalAreas() {
       </div>
 
       {/* Ready for a Definitive Path to Transformation Section */}
-      <div className="relative w-full max-w-[1440px] mx-auto px-4" style={{ paddingTop: '286px', paddingBottom: '80px' }}>
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4" style={{ paddingTop: 'clamp(160px, 19.86vw, 286px)', paddingBottom: 'clamp(48px, 5.56vw, 80px)' }}>
         <div className="text-center" style={{ marginBottom: '40px' }}>
           <h2
             style={{
               fontFamily: 'Poppins, sans-serif',
               fontWeight: 600,
-              fontSize: '50px',
+              fontSize: 'clamp(28px, 3.47vw, 56px)',
               lineHeight: '61.33px',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#14358A',
-              maxWidth: '1191px',
+              maxWidth: 'min(1191px, 95%)',
               margin: '0 auto 15px auto',
             }}
           >
@@ -567,12 +567,12 @@ export default function OurFunctionalAreas() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '30px',
+              fontSize: 'clamp(18px, 2.08vw, 34px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',
-              maxWidth: '1082px',
+              maxWidth: 'min(1082px, 95%)',
               margin: '0 auto',
             }}
           >
@@ -608,7 +608,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '29px',
+              fontSize: 'clamp(18px, 2.01vw, 33px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -622,7 +622,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -634,7 +634,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '18px',
+                fontSize: 'clamp(14px, 1.25vw, 20px)',
                 lineHeight: '30px',
                 letterSpacing: '0px',
                 color: '#68718B',
@@ -648,7 +648,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 600,
-                fontSize: '21.1px',
+                fontSize: 'clamp(16px, 1.46vw, 24px)',
                 lineHeight: '30px',
                 color: '#14358A',
                 textDecoration: 'none',
@@ -684,7 +684,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '29px',
+              fontSize: 'clamp(18px, 2.01vw, 33px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -698,7 +698,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -710,7 +710,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '18px',
+                fontSize: 'clamp(14px, 1.25vw, 20px)',
                 lineHeight: '30px',
                 letterSpacing: '0px',
                 color: '#68718B',
@@ -724,7 +724,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 600,
-                fontSize: '21.1px',
+                fontSize: 'clamp(16px, 1.46vw, 24px)',
                 lineHeight: '30px',
                 color: '#14358A',
                 textDecoration: 'none',
@@ -760,7 +760,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '29px',
+              fontSize: 'clamp(18px, 2.01vw, 33px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -774,7 +774,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -786,7 +786,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '18px',
+                fontSize: 'clamp(14px, 1.25vw, 20px)',
                 lineHeight: '30px',
                 letterSpacing: '0px',
                 color: '#68718B',
@@ -800,7 +800,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 600,
-                fontSize: '21.1px',
+                fontSize: 'clamp(16px, 1.46vw, 24px)',
                 lineHeight: '30px',
                 color: '#14358A',
                 textDecoration: 'none',
@@ -836,7 +836,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '29px',
+              fontSize: 'clamp(18px, 2.01vw, 33px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -850,7 +850,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '16px',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -862,7 +862,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: '18px',
+                fontSize: 'clamp(14px, 1.25vw, 20px)',
                 lineHeight: '30px',
                 letterSpacing: '0px',
                 color: '#68718B',
@@ -876,7 +876,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontWeight: 600,
-                fontSize: '21.1px',
+                fontSize: 'clamp(16px, 1.46vw, 24px)',
                 lineHeight: '30px',
                 color: '#14358A',
                 textDecoration: 'none',
@@ -894,16 +894,16 @@ export default function OurFunctionalAreas() {
         style={{
           background: '#EAF6FF',
           paddingTop: '73px',
-          paddingBottom: '80px',
+          paddingBottom: 'clamp(48px, 5.56vw, 80px)',
         }}
       >
-        <div className="max-w-[1440px] mx-auto px-4 text-center">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-4 text-center">
           <h2
             className="mb-6"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '48px',
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-1.44px',
               color: '#14358A',
@@ -917,12 +917,12 @@ export default function OurFunctionalAreas() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: '32px',
+              fontSize: 'clamp(20px, 2.22vw, 36px)',
               lineHeight: '135%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',
-              maxWidth: '1196px',
+              maxWidth: 'min(1196px, 95%)',
               margin: '0 auto 2.5rem auto',
             }}
           >
@@ -940,7 +940,7 @@ export default function OurFunctionalAreas() {
               cursor: 'pointer',
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: '20px',
+              fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',
             }}
           >

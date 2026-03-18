@@ -1,173 +1,49 @@
 import HeroSection from '@/components/HeroSection';
 import Footer from '@/components/Footer';
+import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main
-      className="relative w-full min-h-screen overflow-x-hidden"
-    >
+    <main className="relative w-full min-h-screen overflow-x-hidden">
       <HeroSection />
 
       {/* What We Can Do Section */}
-      <div className="relative z-10 bg-white pt-24 pb-16">
-        {/* Trusted Text */}
-        <p 
-          className="text-center font-montserrat font-medium mb-12 uppercase tracking-wide"
-          style={{
-            fontSize: '14px',
-            lineHeight: '100%',
-            color: '#6B7280',
-            maxWidth: '765px',
-            margin: '0 auto 3rem auto'
-          }}
-        >
-          Trusted as a strategic partner to global leaders, accelerators, and the "Big 4."
+      <div className="relative z-10 bg-white" style={{ paddingTop: 'clamp(48px, 5vw, 96px)', paddingBottom: 'clamp(32px, 3.5vw, 64px)' }}>
+        <p className="text-center font-montserrat font-medium uppercase tracking-wide" style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '100%', color: '#6B7280', maxWidth: 'min(765px, 85%)', margin: '0 auto', marginBottom: 'clamp(24px, 3vw, 48px)' }}>
+          Trusted as a strategic partner to global leaders, accelerators, and the &ldquo;Big 4.&rdquo;
         </p>
 
-        {/* Section Heading */}
-        <h2
-          className="text-center font-dm-sans font-bold mb-8"
-          style={{
-            fontFamily: 'DM Sans, sans-serif',
-            fontSize: '48px',
-            lineHeight: '105%',
-            letterSpacing: '-0.03em',
-            color: '#14358A',
-            marginBottom: '2rem'
-          }}
-        >
+        <h2 className="text-center font-dm-sans font-bold" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(16px, 1.5vw, 32px)' }}>
           What we can do for you?
         </h2>
 
-        {/* Description */}
-        <p 
-          className="text-center font-montserrat font-medium mb-12"
-          style={{
-            fontSize: '32px',
-            lineHeight: '100%',
-            color: '#333333',
-            maxWidth: '1342px',
-            margin: '0 auto 3rem auto',
-            padding: '0 2rem'
-          }}
-        >
+        <p className="text-center font-montserrat font-medium" style={{ fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '120%', color: '#333333', maxWidth: 'min(1342px, 90%)', margin: '0 auto', marginBottom: 'clamp(24px, 3vw, 48px)', padding: '0 2rem' }}>
           PMG bridges the gap between high-level blueprints and verifiable enterprise value. We do not just advise from the sidelines. We provide the embedded leadership and functional mastery required to turn strategic goals into measurable ROI
         </p>
 
-        {/* Services List */}
-        <div className="max-w-[1353px] mx-auto" style={{ marginTop: '3rem' }}>
-          {/* Service Items */}
-          <div className="overflow-hidden" style={{ borderRadius: '56px', boxShadow: '20px 20px 40px 0px rgba(112, 129, 136, 0.2)', borderLeft: '1px solid white' }}>
-            {/* Crisis & Transition Management */}
-            <div
-              className="flex items-center"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '156px', borderBottom: '1px solid white', paddingLeft: '80px', paddingRight: '80px' }}
-            >
-              <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px', flexShrink: 0 }} />
-              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%', marginLeft: '32px', width: '524px', flexShrink: 0 }}>Crisis & Transition Management</span>
-              <div className="text-white flex flex-col" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '120%', marginLeft: '94px' }}>
-                <p>Navigating Uncertainty,</p>
-                <p>Delivering Stability.</p>
+        <div style={{ maxWidth: 'min(1353px, 90%)', margin: '0 auto', marginTop: 'clamp(24px, 3vw, 48px)' }}>
+          <div className="overflow-hidden" style={{ borderRadius: 'clamp(28px, 3.89vw, 60px)', boxShadow: '20px 20px 40px 0px rgba(112, 129, 136, 0.2)', borderLeft: '1px solid white' }}>
+            {[
+              { title: 'Crisis & Transition Management', desc: ['Navigating Uncertainty,', 'Delivering Stability.'], first: true },
+              { title: 'Mergers & Acquisitions', desc: ['Realizing the synergies that', 'others leave on the table.'] },
+              { title: 'Branding & Marketing', desc: ['Crafting Identities That Captivate.'] },
+              { title: 'BPO & Fractional Talent', desc: ['Scaling your infrastructure', 'without scaling your overhead.'] },
+              { title: 'Custom Experience', desc: ['Engineering high-retention,', 'high-value journey'] },
+              { title: 'People & Organizations', desc: ['We solve the \u201cPeople Tax\u201d on P&L.'] },
+              { title: 'Operations & Strategy', desc: ['Efficiency Engineering,', 'Excellence Delivered'], last: true },
+            ].map((item, i) => (
+              <div key={i} className="flex items-center" style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: item.first ? 'clamp(90px, 10.83vw, 170px)' : 'clamp(80px, 9.86vw, 156px)', borderBottom: item.last ? 'none' : '1px solid white', paddingLeft: 'clamp(24px, 5.56vw, 90px)', paddingRight: 'clamp(24px, 5.56vw, 90px)' }}>
+                <Image src="/arrow-icon.png" alt="" width={24} height={24} style={{ flexShrink: 0, width: 'clamp(16px, 1.67vw, 28px)', height: 'clamp(16px, 1.67vw, 28px)' }} />
+                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(16px, 2.08vw, 34px)', lineHeight: '120%', marginLeft: 'clamp(16px, 2.22vw, 36px)', width: '40%', flexShrink: 0 }}>{item.title}</span>
+                <div className="text-white flex flex-col" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: 'clamp(16px, 2.08vw, 34px)', lineHeight: '120%', marginLeft: 'auto' }}>
+                  {item.desc.map((line, j) => <p key={j}>{line}</p>)}
+                </div>
               </div>
-            </div>
-
-            {/* Mergers & Acquisitions */}
-            <div
-              className="flex items-center"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '142px', borderBottom: '1px solid white', paddingLeft: '80px', paddingRight: '80px' }}
-            >
-              <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px', flexShrink: 0 }} />
-              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%', marginLeft: '32px', width: '524px', flexShrink: 0 }}>Mergers & Acquisitions</span>
-              <div className="text-white flex flex-col" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '120%', marginLeft: '94px' }}>
-                <p>Realizing the synergies that</p>
-                <p>others leave on the table.</p>
-              </div>
-            </div>
-
-            {/* Branding & Marketing */}
-            <div
-              className="flex items-center"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '142px', borderBottom: '1px solid white', paddingLeft: '80px', paddingRight: '80px' }}
-            >
-              <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px', flexShrink: 0 }} />
-              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%', marginLeft: '32px', width: '524px', flexShrink: 0 }}>Branding & Marketing</span>
-              <div className="text-white flex flex-col" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '120%', marginLeft: '94px' }}>
-                <p>Crafting Identities That Captivate.</p>
-              </div>
-            </div>
-
-            {/* BPO & Fractional Talent */}
-            <div
-              className="flex items-center"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '142px', borderBottom: '1px solid white', paddingLeft: '80px', paddingRight: '80px' }}
-            >
-              <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px', flexShrink: 0 }} />
-              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%', marginLeft: '32px', width: '524px', flexShrink: 0 }}>BPO & Fractional Talent</span>
-              <div className="text-white flex flex-col" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '120%', marginLeft: '94px' }}>
-                <p>Scaling your infrastructure</p>
-                <p>without scaling your overhead.</p>
-              </div>
-            </div>
-
-            {/* Custom Experience */}
-            <div
-              className="flex items-center"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '142px', borderBottom: '1px solid white', paddingLeft: '80px', paddingRight: '80px' }}
-            >
-              <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px', flexShrink: 0 }} />
-              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%', marginLeft: '32px', width: '524px', flexShrink: 0 }}>Custom Experience</span>
-              <div className="text-white flex flex-col" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '120%', marginLeft: '94px' }}>
-                <p>Engineering high-retention,</p>
-                <p>high-value journey</p>
-              </div>
-            </div>
-
-            {/* People & Organizations */}
-            <div
-              className="flex items-center"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '142px', borderBottom: '1px solid white', paddingLeft: '80px', paddingRight: '80px' }}
-            >
-              <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px', flexShrink: 0 }} />
-              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%', marginLeft: '32px', width: '524px', flexShrink: 0 }}>People & Organizations</span>
-              <div className="text-white flex flex-col" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '120%', marginLeft: '94px' }}>
-                <p>We solve the &ldquo;People Tax&rdquo; on P&amp;L.</p>
-              </div>
-            </div>
-
-            {/* Operations & Strategy */}
-            <div
-              className="flex items-center"
-              style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', height: '142px', paddingLeft: '80px', paddingRight: '80px' }}
-            >
-              <img src="/arrow-icon.png" alt="Arrow" style={{ width: '24px', height: '24px', flexShrink: 0 }} />
-              <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: '30px', lineHeight: '120%', marginLeft: '32px', width: '524px', flexShrink: 0 }}>Operations & Strategy</span>
-              <div className="text-white flex flex-col" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: '30px', lineHeight: '120%', marginLeft: '94px' }}>
-                <p>Efficiency Engineering,</p>
-                <p>Excellence Delivered</p>
-              </div>
-            </div>
-
-            {/* Explore More Button */}
-            <div
-              className="flex items-center justify-center"
-              style={{
-                background: '#AC5FE6',
-                boxShadow: '20px 20px 40px 0px rgba(112, 129, 136, 0.2)',
-                height: '117px'
-              }}
-            >
-              <button
-                className="text-white font-montserrat font-medium text-lg flex items-center gap-3 hover:bg-white/10 transition-all"
-                style={{
-                  border: '1px solid white',
-                  borderRadius: '50px',
-                  padding: '10px 24px'
-                }}
-              >
+            ))}
+            <div className="flex items-center justify-center" style={{ background: '#AC5FE6', boxShadow: '20px 20px 40px 0px rgba(112, 129, 136, 0.2)', height: 'clamp(70px, 8.13vw, 130px)' }}>
+              <button className="text-white font-montserrat font-medium flex items-center gap-3 hover:bg-white/10 transition-all" style={{ fontSize: 'clamp(14px, 1.25vw, 20px)', border: '1px solid white', borderRadius: '50px', padding: 'clamp(8px, 0.69vw, 12px) clamp(16px, 1.67vw, 28px)' }}>
                 Explore more services
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                  <path d="M1 13L13 1M13 1H5M13 1V9" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H5M13 1V9" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
               </button>
             </div>
           </div>
@@ -175,861 +51,138 @@ export default function Home() {
       </div>
 
       {/* Why Partner with PMG Section */}
-      <div className="relative z-10 bg-white py-24">
-        {/* Section Heading */}
-        <h2
-          className="text-center font-dm-sans font-bold mb-6"
-          style={{
-            fontFamily: 'DM Sans, sans-serif',
-            fontSize: '48px',
-            lineHeight: '105%',
-            letterSpacing: '-0.03em',
-            color: '#14358A',
-          }}
-        >
-          Why Partner with PMG?
-        </h2>
+      <div className="relative z-10 bg-white" style={{ paddingTop: 'clamp(48px, 5vw, 96px)', paddingBottom: 'clamp(48px, 5vw, 96px)' }}>
+        <h2 className="text-center font-dm-sans font-bold" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(12px, 1.5vw, 24px)' }}>Why Partner with PMG?</h2>
+        <p className="text-center font-montserrat font-normal" style={{ fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '125%', color: '#465052', maxWidth: 'min(918px, 85%)', margin: '0 auto', marginBottom: 'clamp(48px, 5vw, 96px)' }}>Because results matter more than reports. We focus on quality first, consistently outperforming the industry.</p>
 
-        {/* Description */}
-        <p 
-          className="text-center font-montserrat font-normal mb-24"
-          style={{
-            fontSize: '32px',
-            lineHeight: '40px',
-            color: '#465052',
-            width: '918px',
-            margin: '0 auto 6rem auto'
-          }}
-        >
-          Because results matter more than reports. We focus on quality first, consistently outperforming the industry.
-        </p>
-
-        {/* Stats Row */}
-        <div 
-          className="flex justify-center items-center px-4"
-          style={{ 
-            maxWidth: '1140px', 
-            margin: '0 auto',
-            gap: '0'
-          }}
-        >
-          {/* Stat 1 - 22x */}
-          <div className="flex flex-col items-center" style={{ width: '280px' }}>
-            <img 
-              src="/icon-box-1.png" 
-              alt="ROI Icon" 
-              style={{ width: '100px', height: '100px', marginBottom: '28px', objectFit: 'contain' }}
-            />
-            <p 
-              className="font-poppins font-semibold"
-              style={{ 
-                fontSize: '28px', 
-                lineHeight: '34px', 
-                color: '#14358A',
-                marginBottom: '8px'
-              }}
-            >
-              22x
-            </p>
-            <p 
-              className="font-poppins font-normal"
-              style={{ 
-                fontSize: '18px', 
-                lineHeight: '27px', 
-                color: '#000000'
-              }}
-            >
-              Average client ROI
-            </p>
+        <div className="flex justify-center items-center px-4 flex-wrap" style={{ maxWidth: 'min(1140px, 90%)', margin: '0 auto', gap: '0' }}>
+          <div className="flex flex-col items-center" style={{ width: 'clamp(180px, 19.44vw, 320px)' }}>
+            <Image src="/icon-box-1.png" alt="ROI Icon" width={100} height={100} style={{ marginBottom: 'clamp(16px, 1.94vw, 32px)', objectFit: 'contain', width: 'clamp(60px, 6.94vw, 120px)', height: 'clamp(60px, 6.94vw, 120px)' }} />
+            <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '1.2', color: '#14358A', marginBottom: 'clamp(4px, 0.56vw, 10px)' }}>22x</p>
+            <p className="font-poppins font-normal" style={{ fontSize: 'clamp(13px, 1.25vw, 20px)', lineHeight: '1.5', color: '#000' }}>Average client ROI</p>
           </div>
-
-          {/* Arrow 1 */}
-          <div className="flex items-center justify-center" style={{ width: '140px', marginTop: '-60px' }}>
-            <img 
-              src="/stat-arrow.png" 
-              alt="Arrow" 
-              style={{ width: 'auto', height: 'auto', maxWidth: '100%' }}
-            />
+          <div className="flex items-center justify-center" style={{ width: 'clamp(80px, 9.72vw, 160px)', marginTop: 'clamp(-30px, -4.17vw, -60px)' }}><Image src="/stat-arrow.png" alt="" width={140} height={40} style={{ width: 'auto', height: 'auto', maxWidth: '100%' }} /></div>
+          <div className="flex flex-col items-center" style={{ width: 'clamp(180px, 19.44vw, 320px)' }}>
+            <Image src="/icon-box-2.png" alt="Resolution Icon" width={100} height={100} style={{ marginBottom: 'clamp(16px, 1.94vw, 32px)', objectFit: 'contain', width: 'clamp(60px, 6.94vw, 120px)', height: 'clamp(60px, 6.94vw, 120px)' }} />
+            <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '1.2', color: '#14358A', marginBottom: 'clamp(4px, 0.56vw, 10px)' }}>95%</p>
+            <p className="font-poppins font-normal" style={{ fontSize: 'clamp(13px, 1.25vw, 20px)', lineHeight: '1.5', color: '#000' }}>On time resolution</p>
           </div>
-
-          {/* Stat 2 - 95% */}
-          <div className="flex flex-col items-center" style={{ width: '280px' }}>
-            <img 
-              src="/icon-box-2.png" 
-              alt="Resolution Icon" 
-              style={{ width: '100px', height: '100px', marginBottom: '28px', objectFit: 'contain' }}
-            />
-            <p 
-              className="font-poppins font-semibold"
-              style={{ 
-                fontSize: '28px', 
-                lineHeight: '34px', 
-                color: '#14358A',
-                marginBottom: '8px'
-              }}
-            >
-              95%
-            </p>
-            <p 
-              className="font-poppins font-normal"
-              style={{ 
-                fontSize: '18px', 
-                lineHeight: '27px', 
-                color: '#000000'
-              }}
-            >
-              On time resolution
-            </p>
-          </div>
-
-          {/* Arrow 2 */}
-          <div className="flex items-center justify-center" style={{ width: '140px', marginTop: '-60px' }}>
-            <img 
-              src="/stat-arrow.png" 
-              alt="Arrow" 
-              style={{ width: 'auto', height: 'auto', maxWidth: '100%' }}
-            />
-          </div>
-
-          {/* Stat 3 - 14% */}
-          <div className="flex flex-col items-center" style={{ width: '280px' }}>
-            <img 
-              src="/icon-box-3.png" 
-              alt="Recidivism Icon" 
-              style={{ 
-                width: '80px', 
-                height: '80px', 
-                marginBottom: '28px',
-                marginTop: '10px',
-                borderRadius: '10px',
-                objectFit: 'contain'
-              }}
-            />
-            <p 
-              className="font-poppins font-semibold"
-              style={{ 
-                fontSize: '28px', 
-                lineHeight: '34px', 
-                color: '#14358A',
-                marginBottom: '8px'
-              }}
-            >
-              14%
-            </p>
-            <p 
-              className="font-poppins font-normal text-center"
-              style={{ 
-                fontSize: '18px', 
-                lineHeight: '27px', 
-                color: '#000000'
-              }}
-            >
-              1-Year Client Recidivism
-            </p>
+          <div className="flex items-center justify-center" style={{ width: 'clamp(80px, 9.72vw, 160px)', marginTop: 'clamp(-30px, -4.17vw, -60px)' }}><Image src="/stat-arrow.png" alt="" width={140} height={40} style={{ width: 'auto', height: 'auto', maxWidth: '100%' }} /></div>
+          <div className="flex flex-col items-center" style={{ width: 'clamp(180px, 19.44vw, 320px)' }}>
+            <Image src="/icon-box-3.png" alt="Recidivism Icon" width={80} height={80} style={{ marginBottom: 'clamp(16px, 1.94vw, 32px)', marginTop: 'clamp(6px, 0.69vw, 12px)', borderRadius: '10px', objectFit: 'contain', width: 'clamp(50px, 5.56vw, 96px)', height: 'clamp(50px, 5.56vw, 96px)' }} />
+            <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '1.2', color: '#14358A', marginBottom: 'clamp(4px, 0.56vw, 10px)' }}>14%</p>
+            <p className="font-poppins font-normal text-center" style={{ fontSize: 'clamp(13px, 1.25vw, 20px)', lineHeight: '1.5', color: '#000' }}>1-Year Client Recidivism</p>
           </div>
         </div>
       </div>
 
-      {/* Traditional Consulting is Broken Section */}
-      <div className="relative z-10 bg-white py-20">
-        {/* Section Heading */}
-        <h2
-          className="text-center font-dm-sans font-bold mb-6"
-          style={{
-            fontFamily: 'DM Sans, sans-serif',
-            fontSize: '48px',
-            lineHeight: '105%',
-            letterSpacing: '-0.03em',
-            color: '#14358A',
-            maxWidth: '809px',
-            margin: '0 auto 1.5rem auto'
-          }}
-        >
-          Traditional Consulting is Broken
-        </h2>
-
-        {/* Description */}
-        <p 
-          className="text-center font-montserrat font-medium mb-12"
-          style={{
-            fontSize: '32px',
-            lineHeight: '150%',
-            color: '#64748B',
-            maxWidth: '1106px',
-            margin: '0 auto 3rem auto',
-            padding: '0 2rem'
-          }}
-        >
-          The old model of consulting is failing. We built PMG to be different, focusing on execution and tangible results, not just slide decks and billable hours.
-        </p>
-
-        {/* CTA Buttons */}
-        <div className="flex items-center justify-center gap-5">
-          <button 
-            className="text-white font-poppins font-semibold hover:opacity-90 transition-opacity flex items-center gap-3"
-            style={{
-              background: '#14358A',
-              border: '2px solid #14358A',
-              borderRadius: '82px',
-              padding: '20px 50px',
-              fontSize: '18px'
-            }}
-          >
+      {/* Traditional Consulting is Broken */}
+      <div className="relative z-10 bg-white" style={{ paddingTop: 'clamp(40px, 4.5vw, 80px)', paddingBottom: 'clamp(40px, 4.5vw, 80px)' }}>
+        <h2 className="text-center font-dm-sans font-bold" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', maxWidth: 'min(809px, 85%)', margin: '0 auto', marginBottom: 'clamp(12px, 1.5vw, 24px)' }}>Traditional Consulting is Broken</h2>
+        <p className="text-center font-montserrat font-medium" style={{ fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '150%', color: '#64748B', maxWidth: 'min(1106px, 90%)', margin: '0 auto', marginBottom: 'clamp(24px, 3vw, 48px)', padding: '0 2rem' }}>The old model of consulting is failing. We built PMG to be different, focusing on execution and tangible results, not just slide decks and billable hours.</p>
+        <div className="flex items-center justify-center flex-wrap" style={{ gap: 'clamp(12px, 1.39vw, 20px)' }}>
+          <button className="text-white font-poppins font-semibold hover:opacity-90 transition-opacity flex items-center gap-3" style={{ background: '#14358A', border: '2px solid #14358A', borderRadius: '82px', padding: 'clamp(12px, 1.39vw, 22px) clamp(24px, 3.47vw, 54px)', fontSize: 'clamp(14px, 1.25vw, 20px)' }}>
             Explore Strategic solutions
-            <img src="/icons/right-2.png" alt="" style={{ width: '24px', height: '24px' }} />
+            <Image src="/icons/right-2.png" alt="" width={24} height={24} style={{ width: 'clamp(16px, 1.67vw, 26px)', height: 'clamp(16px, 1.67vw, 26px)' }} />
           </button>
-
-          <button 
-            className="font-poppins font-semibold hover:bg-blue-50 transition-colors"
-            style={{
-              background: 'transparent',
-              border: '2px solid #14358A',
-              borderRadius: '82px',
-              padding: '20px 50px',
-              fontSize: '18px',
-              color: '#14358A'
-            }}
-          >
-            Request a demo
-          </button>
+          <button className="font-poppins font-semibold hover:bg-blue-50 transition-colors" style={{ background: 'transparent', border: '2px solid #14358A', borderRadius: '82px', padding: 'clamp(12px, 1.39vw, 22px) clamp(24px, 3.47vw, 54px)', fontSize: 'clamp(14px, 1.25vw, 20px)', color: '#14358A' }}>Request a demo</button>
         </div>
       </div>
 
-      {/* What Our Clients Say Section */}
-      <div className="relative z-10 bg-white py-20">
-        {/* Section Heading */}
-        <h2
-          className="text-center font-dm-sans font-bold mb-6"
-          style={{
-            fontFamily: 'DM Sans, sans-serif',
-            fontSize: '48px',
-            lineHeight: '105%',
-            letterSpacing: '-0.03em',
-            color: '#14358A',
-          }}
-        >
-          What Our Clients Say
-        </h2>
-
-        {/* Description */}
-        <p 
-          className="text-center font-montserrat font-normal mb-16"
-          style={{
-            fontSize: '32px',
-            lineHeight: '36px',
-            color: '#333333',
-            maxWidth: '842px',
-            margin: '0 auto 4rem auto'
-          }}
-        >
-          Across industries and functions, world-class teams
-          transform work with PMG.
-        </p>
-
-        {/* Testimonial Cards */}
-        <div className="flex justify-center gap-8 mb-20 px-4">
-          {/* Card 1 - Accenture */}
-          <div 
-            className="bg-white rounded-xl p-8"
-            style={{
-              width: '332px',
-              minHeight: '431px',
-              boxShadow: '0px 2.26px 12.06px 0px #EBEEFA'
-            }}
-          >
-            <img src="/accenture.png" alt="Accenture" className="mb-6" style={{ height: '28px', objectFit: 'contain' }} />
-            <p 
-              className="font-poppins mb-6"
-              style={{
-                fontSize: '16px',
-                lineHeight: '28px',
-                color: '#333333'
-              }}
-            >
-              "Generative AI tools like Writer can drive greater creativity. As we continue to expand the use of AI, the opportunities to enhance content creation, productivity and our entire marketing model are boundless."
-            </p>
-            <div>
-              <p className="font-poppins font-semibold" style={{ fontSize: '16px', color: '#000000' }}>Jill Kramer</p>
-              <p className="font-poppins" style={{ fontSize: '16px', lineHeight: '24px', color: '#000000' }}>Chief Marketing and Communications Officer</p>
+      {/* What Our Clients Say */}
+      <div className="relative z-10 bg-white" style={{ paddingTop: 'clamp(40px, 4.5vw, 80px)', paddingBottom: 'clamp(40px, 4.5vw, 80px)' }}>
+        <h2 className="text-center font-dm-sans font-bold" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(12px, 1.5vw, 24px)' }}>What Our Clients Say</h2>
+        <p className="text-center font-montserrat font-normal" style={{ fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '1.15', color: '#333', maxWidth: 'min(842px, 85%)', margin: '0 auto', marginBottom: 'clamp(32px, 3.5vw, 64px)' }}>Across industries and functions, world-class teams transform work with PMG.</p>
+        <div className="flex justify-center flex-wrap px-4" style={{ gap: 'clamp(16px, 1.67vw, 32px)', marginBottom: 'clamp(40px, 4.5vw, 80px)' }}>
+          {[
+            { logo: '/accenture.png', quote: '\u201CGenerative AI tools like Writer can drive greater creativity. As we continue to expand the use of AI, the opportunities to enhance content creation, productivity and our entire marketing model are boundless.\u201D', name: 'Jill Kramer', role: 'Chief Marketing and Communications Officer' },
+            { logo: '/vanguard.png', quote: '\u201CWriter\u2019s full-stack platform enables Vanguard to combine the expertise, creativity, and knowledge of our teams with the latest advancements in generative AI technology, boosting productivity.\u201D', name: 'Nitin Tandon', role: 'Chief Information Officer' },
+            { logo: '/kenvue.png', quote: '\u201CWriter is onto something amazing. Their full-stack platform, deep customer-centricity, and high-touch approach to services truly sets them apart. Post our due diligence, partnering with Writer was an easy decision for us.\u201D', name: 'Ajay Dhaul', role: 'SVP of Data & Applied AI' },
+          ].map((c, i) => (
+            <div key={i} className="bg-white rounded-xl" style={{ width: 'clamp(280px, 23vw, 380px)', minHeight: 'clamp(340px, 29.93vw, 480px)', padding: 'clamp(20px, 1.67vw, 32px)', boxShadow: '0px 2.26px 12.06px 0px #EBEEFA' }}>
+              <img src={c.logo} alt="" className="mb-6" style={{ height: 'clamp(20px, 1.94vw, 32px)', objectFit: 'contain' }} />
+              <p className="font-poppins mb-6" style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '1.75', color: '#333' }}>{c.quote}</p>
+              <div>
+                <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#000' }}>{c.name}</p>
+                <p className="font-poppins" style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '1.5', color: '#000' }}>{c.role}</p>
+              </div>
             </div>
-          </div>
-
-          {/* Card 2 - Vanguard */}
-          <div 
-            className="bg-white rounded-xl p-8"
-            style={{
-              width: '332px',
-              minHeight: '431px',
-              boxShadow: '0px 2.26px 12.06px 0px #EBEEFA'
-            }}
-          >
-            <img src="/vanguard.png" alt="Vanguard" className="mb-6" style={{ height: '28px', objectFit: 'contain' }} />
-            <p 
-              className="font-poppins mb-6"
-              style={{
-                fontSize: '16px',
-                lineHeight: '28px',
-                color: '#333333'
-              }}
-            >
-              "Writer's full-stack platform enables Vanguard to combine the expertise, creativity, and knowledge of our teams with the latest advancements in generative AI technology, boosting productivity."
-            </p>
-            <div>
-              <p className="font-poppins font-semibold" style={{ fontSize: '16px', color: '#000000' }}>Nitin Tandon</p>
-              <p className="font-poppins" style={{ fontSize: '16px', lineHeight: '24px', color: '#000000' }}>Chief Information Officer</p>
-            </div>
-          </div>
-
-          {/* Card 3 - Kenvue */}
-          <div 
-            className="bg-white rounded-xl p-8"
-            style={{
-              width: '332px',
-              minHeight: '431px',
-              boxShadow: '0px 2.26px 12.06px 0px #EBEEFA'
-            }}
-          >
-            <img src="/kenvue.png" alt="Kenvue" className="mb-6" style={{ height: '28px', objectFit: 'contain' }} />
-            <p 
-              className="font-poppins mb-6"
-              style={{
-                fontSize: '16px',
-                lineHeight: '28px',
-                color: '#333333'
-              }}
-            >
-              "Writer is onto something amazing. Their full-stack platform, deep customer-centricity, and high-touch approach to services truly sets them apart. Post our due diligence, partnering with Writer was an easy decision for us."
-            </p>
-            <div>
-              <p className="font-poppins font-semibold" style={{ fontSize: '16px', color: '#000000' }}>Ajay Dhaul</p>
-              <p className="font-poppins" style={{ fontSize: '16px', lineHeight: '24px', color: '#000000' }}>SVP of Data & Applied AI</p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
 
-      {/* Operative Across All 4 Continents Section */}
-      <div className="relative z-10 bg-white py-20">
-        {/* Section Heading */}
-        <h2
-          className="text-center font-dm-sans font-bold mb-8"
-          style={{
-            fontFamily: 'DM Sans, sans-serif',
-            fontSize: '48px',
-            lineHeight: '105%',
-            letterSpacing: '-0.03em',
-            color: '#14358A',
-          }}
-        >
-          Operative across all 4 continents
-        </h2>
-
-        {/* Description */}
-        <p 
-          className="text-center font-montserrat font-normal mb-16"
-          style={{
-            fontSize: '32px',
-            lineHeight: '40px',
-            color: '#333333',
-            maxWidth: '1121px',
-            margin: '0 auto 4rem auto',
-            padding: '0 2rem'
-          }}
-        >
-          Complexity does not stop at borders. From the tech stacks of Silicon Valley to the sovereign shifts in the Middle East, PMG deploys wherever functional mastery is required.
-        </p>
-
-        {/* Stats Badges */}
-        <div className="flex justify-center items-center gap-8 mb-16">
-          {/* 65+ Global Hubs */}
-          <div 
-            className="flex flex-col items-center justify-center"
-            style={{
-              border: '1px solid #14358A',
-              borderRadius: '40px',
-              padding: '20px 50px',
-              minWidth: '250px'
-            }}
-          >
-            <p 
-              className="font-dm-sans font-semibold"
-              style={{
-                fontSize: '50px',
-                lineHeight: '140%',
-                color: '#14358A',
-                opacity: 0.9
-              }}
-            >
-              65+
-            </p>
-            <p 
-              className="font-dm-sans font-semibold"
-              style={{
-                fontSize: '30px',
-                lineHeight: '140%',
-                color: '#14358A'
-              }}
-            >
-              Global Hubs
-            </p>
+      {/* Operative Across All 4 Continents */}
+      <div className="relative z-10 bg-white" style={{ paddingTop: 'clamp(40px, 4.5vw, 80px)', paddingBottom: 'clamp(40px, 4.5vw, 80px)' }}>
+        <h2 className="text-center font-dm-sans font-bold" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(16px, 1.5vw, 32px)' }}>Operative across all 4 continents</h2>
+        <p className="text-center font-montserrat font-normal" style={{ fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '125%', color: '#333', maxWidth: 'min(1121px, 85%)', margin: '0 auto', marginBottom: 'clamp(32px, 3.5vw, 64px)', padding: '0 2rem' }}>Complexity does not stop at borders. From the tech stacks of Silicon Valley to the sovereign shifts in the Middle East, PMG deploys wherever functional mastery is required.</p>
+        <div className="flex justify-center items-center flex-wrap" style={{ gap: 'clamp(16px, 1.67vw, 32px)', marginBottom: 'clamp(32px, 3.5vw, 64px)' }}>
+          <div className="flex flex-col items-center justify-center" style={{ border: '1px solid #14358A', borderRadius: '40px', padding: 'clamp(12px, 1.39vw, 22px) clamp(24px, 3.47vw, 54px)' }}>
+            <p className="font-dm-sans font-semibold" style={{ fontSize: 'clamp(28px, 3.47vw, 56px)', lineHeight: '140%', color: '#14358A', opacity: 0.9 }}>65+</p>
+            <p className="font-dm-sans font-semibold" style={{ fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', color: '#14358A' }}>Global Hubs</p>
           </div>
-
-          {/* 24/7/365 Operational Support */}
-          <div 
-            className="flex flex-col items-center justify-center"
-            style={{
-              border: '1px solid #14358A',
-              borderRadius: '40px',
-              padding: '20px 50px',
-              minWidth: '373px'
-            }}
-          >
-            <p 
-              className="font-dm-sans font-semibold"
-              style={{
-                fontSize: '50px',
-                lineHeight: '140%',
-                color: '#14358A',
-                opacity: 0.9
-              }}
-            >
-              24/7/365
-            </p>
-            <p 
-              className="font-dm-sans font-semibold"
-              style={{
-                fontSize: '30px',
-                lineHeight: '140%',
-                color: '#14358A'
-              }}
-            >
-              Operational Support
-            </p>
+          <div className="flex flex-col items-center justify-center" style={{ border: '1px solid #14358A', borderRadius: '40px', padding: 'clamp(12px, 1.39vw, 22px) clamp(24px, 3.47vw, 54px)' }}>
+            <p className="font-dm-sans font-semibold" style={{ fontSize: 'clamp(28px, 3.47vw, 56px)', lineHeight: '140%', color: '#14358A', opacity: 0.9 }}>24/7/365</p>
+            <p className="font-dm-sans font-semibold" style={{ fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', color: '#14358A' }}>Operational Support</p>
           </div>
         </div>
-
-        {/* World Map */}
-        <div className="flex justify-center">
-          <img 
-            src="/world-map.png" 
-            alt="World Map showing Global Hubs and Operational Support" 
-            className="max-w-full h-auto"
-            style={{ maxWidth: '980px', width: '100%' }}
-          />
-        </div>
+        <div className="flex justify-center"><img src="/world-map.png" alt="World Map" className="max-w-full h-auto" style={{ maxWidth: 'min(980px, 85%)', width: '100%' }} /></div>
       </div>
 
-      {/* Seize Your Next Opportunity CTA Section */}
-      <div className="relative z-10 py-20" style={{ background: '#EBF7FF' }}>
-        <div className="max-w-4xl mx-auto text-center px-4">
-          {/* Heading */}
-          <h2 
-            className="font-dm-sans font-bold mb-6"
-            style={{
-              fontSize: '48px',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em',
-              color: '#14358A'
-            }}
-          >
-            Seize your next opportunity
-          </h2>
-
-          {/* Description */}
-          <p 
-            className="font-dm-sans font-normal"
-            style={{
-              fontSize: '18px',
-              lineHeight: '135%',
-              color: '#68718B',
-              maxWidth: '563px',
-              margin: '0 auto 18px auto'
-            }}
-          >
-            Connect with our executive team to solve your critical challenges
-            and capitalize on opportunities for immediate, high-impact growth.
-          </p>
-
-          {/* CTA Button */}
+      {/* Seize Your Next Opportunity */}
+      <div className="relative z-10" style={{ background: '#EBF7FF', paddingTop: 'clamp(40px, 4.5vw, 80px)', paddingBottom: 'clamp(40px, 4.5vw, 80px)' }}>
+        <div style={{ maxWidth: 'min(900px, 85%)', margin: '0 auto', textAlign: 'center', padding: '0 1rem' }}>
+          <h2 className="font-dm-sans font-bold" style={{ fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(12px, 1.5vw, 24px)' }}>Seize your next opportunity</h2>
+          <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '135%', color: '#68718B', maxWidth: 'min(563px, 90%)', margin: '0 auto', marginBottom: 'clamp(14px, 1.25vw, 20px)' }}>Connect with our executive team to solve your critical challenges and capitalize on opportunities for immediate, high-impact growth.</p>
           <div className="flex items-center justify-center">
-            <button 
-              className="text-white font-dm-sans font-bold rounded-[10px] hover:opacity-90 transition-opacity"
-              style={{
-                background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                width: '245px',
-                height: '54px',
-                fontSize: '16px',
-                lineHeight: '140%'
-              }}
-            >
-              Request a consultation
-            </button>
+            <button className="text-white font-dm-sans font-bold rounded-[10px] hover:opacity-90 transition-opacity" style={{ background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)', padding: 'clamp(12px, 1.11vw, 18px) clamp(24px, 2.5vw, 42px)', fontSize: 'clamp(14px, 1.11vw, 18px)', lineHeight: '140%' }}>Request a consultation</button>
           </div>
         </div>
       </div>
 
-      {/* Ready for a Definitive Path to Transformation Section */}
-      <div className="relative z-10 bg-white py-16 lg:py-24 overflow-hidden">
-<div className="max-w-[1440px] mx-auto px-6 lg:px-12 xl:px-20 relative">
-          {/* Section Heading */}
-          <h2
-            className="text-center font-dm-sans font-bold mb-8 lg:mb-12"
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontSize: '48px',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em',
-              color: '#14358A'
-            }}
-          >
-            Ready for a Definitive Path to Transformation?
-          </h2>
+      {/* Ready for a Definitive Path to Transformation */}
+      <div className="relative z-10 bg-white overflow-hidden" style={{ paddingTop: 'clamp(32px, 4vw, 96px)', paddingBottom: 'clamp(32px, 4vw, 96px)' }}>
+        <div style={{ maxWidth: 'min(95%, 2200px)', margin: '0 auto', padding: '0 clamp(24px, 3vw, 80px)' }}>
+          <h2 className="text-center font-dm-sans font-bold" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(16px, 2vw, 48px)' }}>Ready for a Definitive Path to Transformation?</h2>
+          <p className="text-center font-montserrat font-normal mx-auto" style={{ fontSize: 'clamp(16px, 2vw, 30px)', lineHeight: '1.4', color: '#333', maxWidth: 'min(1082px, 85%)', marginBottom: 'clamp(24px, 3vw, 64px)' }}>PMG&apos;s expertise translates directly into superior results. Explore our structured engagement models, ensuring the right expertise is delivered in a way that aligns perfectly with your growth goals.</p>
 
-          {/* Description */}
-          <p 
-            className="text-center font-montserrat font-normal mb-12 lg:mb-16 mx-auto"
-            style={{
-              fontSize: 'clamp(20px, 2vw, 30px)',
-              lineHeight: '1.4',
-              color: '#333333',
-              maxWidth: '1082px'
-            }}
-          >
-            PMG's expertise translates directly into superior results. Explore our structured engagement models, ensuring the right expertise is delivered in a way that aligns perfectly with your growth goals.
-          </p>
-
-          {/* Solution Cards Grid - Top Row */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 xl:gap-10 mb-6 lg:mb-8 xl:mb-10 max-w-[1200px] mx-auto">
-            {/* Out-of-the-Box Solutions Card */}
-            <div 
-              className="bg-white rounded-[10px] p-6 lg:p-8 relative"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '335px'
-              }}
-            >
-              {/* Icon + Title */}
-              <div className="flex items-start gap-4 mb-6">
-                <div 
-                  className="w-16 h-16 rounded-[10px] flex items-center justify-center flex-shrink-0"
-                  style={{ background: '#14358A' }}
-                >
-                  <img src="/cube-three.png" alt="Out-of-the-Box Solutions" className="w-10 h-10" />
+          {[
+            [
+              { icon: '/cube-three.png', title: 'Out-of-the-Box Solutions', sub: 'Simple \u00B7 Affordable \u00B7 Self-Directed', desc: 'Pre-packaged, technology-enabled offerings designed to rapidly address common industry challenges and deliver immediate value.' },
+              { icon: '/pencil.png', title: 'Bespoke Solutions', sub: 'Custom \u00B7 Flexible \u00B7 Fully Supported', desc: 'Tailored to your specific, complex needs. Our custom solutions are managed hands-on by our world-class expert team, ensuring high-impact innovation.' },
+            ],
+            [
+              { icon: '/right-user.png', title: 'Active Management Solutions', sub: 'Proactive \u00B7 Expert-Led \u00B7 Fully Managed', desc: 'We don\u2019t just consult\u2014we actively manage critical functions. PMG leads hands-on, end-to-end solution delivery with full accountability for results.' },
+              { icon: '/efferent-four.png', title: 'Equity Engagements', sub: 'Aligned \u00B7 Scalable \u00B7 Capital-Efficient', desc: 'Access top-tier strategy and execution without draining vital cash reserves. PMG invests proprietary expertise for equity, directly aligning our success with your maximized outcomes.' },
+            ],
+          ].map((row, ri) => (
+            <div key={ri} className="grid grid-cols-1 lg:grid-cols-2 mx-auto" style={{ gap: 'clamp(16px, 1.67vw, 40px)', marginBottom: ri === 0 ? 'clamp(16px, 1.67vw, 40px)' : '0', maxWidth: 'min(1200px, 100%)' }}>
+              {row.map((card, ci) => (
+                <div key={ci} className="bg-white rounded-[10px] relative" style={{ border: '3px solid #14358A', minHeight: 'clamp(260px, 23.26vw, 380px)', padding: 'clamp(20px, 1.67vw, 32px)' }}>
+                  <div className="flex items-start gap-4 mb-6">
+                    <div className="rounded-[10px] flex items-center justify-center flex-shrink-0" style={{ background: '#14358A', width: 'clamp(48px, 4.44vw, 72px)', height: 'clamp(48px, 4.44vw, 72px)' }}>
+                      <img src={card.icon} alt="" style={{ width: '60%', height: '60%' }} />
+                    </div>
+                    <h3 className="font-dm-sans font-bold mb-0" style={{ fontSize: 'clamp(20px, 2vw, 32px)', lineHeight: '1.05', letterSpacing: '-0.03em', color: '#14358A' }}>{card.title}</h3>
+                  </div>
+                  <p className="font-dm-sans mb-4" style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '1.4', color: '#68718B' }}>{card.sub}</p>
+                  <p className="font-dm-sans mb-6" style={{ fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '1.67', color: '#68718B' }}>{card.desc}</p>
+                  <a href="#" className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all" style={{ fontSize: 'clamp(16px, 1.46vw, 24px)', lineHeight: '1.43', color: '#14358A' }}>
+                    Explore Strategic solutions
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                  </a>
                 </div>
-                <h3 
-                  className="font-dm-sans font-bold mb-0"
-                  style={{
-                    fontSize: 'clamp(24px, 2vw, 29px)',
-                    lineHeight: '1.05',
-                    letterSpacing: '-0.03em',
-                    color: '#14358A'
-                  }}
-                >
-                  Out-of-the-Box Solutions
-                </h3>
-              </div>
-
-              {/* Subtitle */}
-              <p 
-                className="font-dm-sans mb-4"
-                style={{
-                  fontSize: '16px',
-                  lineHeight: '1.4',
-                  color: '#68718B'
-                }}
-              >
-                Simple · Affordable · Self-Directed
-              </p>
-
-              {/* Description */}
-              <p 
-                className="font-dm-sans mb-6"
-                style={{
-                  fontSize: '18px',
-                  lineHeight: '1.67',
-                  color: '#68718B',
-                  marginBottom: 'auto'
-                }}
-              >
-                Pre-packaged, technology-enabled offerings designed to rapidly address common industry challenges and deliver immediate value.
-              </p>
-
-              {/* CTA Link */}
-              <a 
-                href="#"
-                className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all"
-                style={{
-                  fontSize: '21px',
-                  lineHeight: '1.43',
-                  color: '#14358A'
-                }}
-              >
-                Explore Strategic solutions
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </a>
+              ))}
             </div>
-
-            {/* Bespoke Solutions Card */}
-            <div 
-              className="bg-white rounded-[10px] p-6 lg:p-8 relative"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '335px'
-              }}
-            >
-              {/* Icon + Title */}
-              <div className="flex items-start gap-4 mb-6">
-                <div 
-                  className="w-16 h-16 rounded-[10px] flex items-center justify-center flex-shrink-0"
-                  style={{ background: '#14358A' }}
-                >
-                  <img src="/pencil.png" alt="Bespoke Solutions" className="w-10 h-10" />
-                </div>
-                <h3 
-                  className="font-dm-sans font-bold mb-0"
-                  style={{
-                    fontSize: 'clamp(24px, 2vw, 29px)',
-                    lineHeight: '1.05',
-                    letterSpacing: '-0.03em',
-                    color: '#14358A'
-                  }}
-                >
-                  Bespoke Solutions
-                </h3>
-              </div>
-
-              {/* Subtitle */}
-              <p 
-                className="font-dm-sans mb-4"
-                style={{
-                  fontSize: '16px',
-                  lineHeight: '1.4',
-                  color: '#68718B'
-                }}
-              >
-                Custom · Flexible · Fully Supported
-              </p>
-
-              {/* Description */}
-              <p 
-                className="font-dm-sans mb-6"
-                style={{
-                  fontSize: '18px',
-                  lineHeight: '1.67',
-                  color: '#68718B'
-                }}
-              >
-                Tailored to your specific, complex needs. Our custom solutions are managed hands-on by our world-class expert team, ensuring high-impact innovation.
-              </p>
-
-              {/* CTA Link */}
-              <a 
-                href="#"
-                className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all"
-                style={{
-                  fontSize: '21px',
-                  lineHeight: '1.43',
-                  color: '#14358A'
-                }}
-              >
-                Explore Strategic solutions
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          {/* Solution Cards Grid - Bottom Row */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 xl:gap-10 max-w-[1200px] mx-auto">
-            {/* Active Management Solutions Card */}
-            <div 
-              className="bg-white rounded-[10px] p-6 lg:p-8 relative"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '335px'
-              }}
-            >
-              {/* Icon + Title */}
-              <div className="flex items-start gap-4 mb-6">
-                <div 
-                  className="w-16 h-16 rounded-[10px] flex items-center justify-center flex-shrink-0"
-                  style={{ background: '#14358A' }}
-                >
-                  <img src="/right-user.png" alt="Active Management Solutions" className="w-10 h-10" />
-                </div>
-                <h3 
-                  className="font-dm-sans font-bold mb-0"
-                  style={{
-                    fontSize: 'clamp(24px, 2vw, 29px)',
-                    lineHeight: '1.05',
-                    letterSpacing: '-0.03em',
-                    color: '#14358A'
-                  }}
-                >
-                  Active Management Solutions
-                </h3>
-              </div>
-
-              {/* Subtitle */}
-              <p 
-                className="font-dm-sans mb-4"
-                style={{
-                  fontSize: '16px',
-                  lineHeight: '1.4',
-                  color: '#68718B'
-                }}
-              >
-                Proactive · Expert-Led · Fully Managed
-              </p>
-
-              {/* Description */}
-              <p 
-                className="font-dm-sans mb-6"
-                style={{
-                  fontSize: '18px',
-                  lineHeight: '1.67',
-                  color: '#68718B'
-                }}
-              >
-                We don't just consult—we actively manage critical functions. PMG leads hands-on, end-to-end solution delivery with full accountability for results.
-              </p>
-
-              {/* CTA Link */}
-              <a 
-                href="#"
-                className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all"
-                style={{
-                  fontSize: '21px',
-                  lineHeight: '1.43',
-                  color: '#14358A'
-                }}
-              >
-                Explore Strategic solutions
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </a>
-            </div>
-
-            {/* Equity Engagements Card */}
-            <div 
-              className="bg-white rounded-[10px] p-6 lg:p-8 relative"
-              style={{
-                border: '3px solid #14358A',
-                minHeight: '335px'
-              }}
-            >
-              {/* Icon + Title */}
-              <div className="flex items-start gap-4 mb-6">
-                <div 
-                  className="w-16 h-16 rounded-[10px] flex items-center justify-center flex-shrink-0"
-                  style={{ background: '#14358A' }}
-                >
-                  <img src="/efferent-four.png" alt="Equity Engagements" className="w-10 h-10" />
-                </div>
-                <h3 
-                  className="font-dm-sans font-bold mb-0"
-                  style={{
-                    fontSize: 'clamp(24px, 2vw, 29px)',
-                    lineHeight: '1.05',
-                    letterSpacing: '-0.03em',
-                    color: '#14358A'
-                  }}
-                >
-                  Equity Engagements
-                </h3>
-              </div>
-
-              {/* Subtitle */}
-              <p 
-                className="font-dm-sans mb-4"
-                style={{
-                  fontSize: '16px',
-                  lineHeight: '1.4',
-                  color: '#68718B'
-                }}
-              >
-                Aligned · Scalable · Capital-Efficient
-              </p>
-
-              {/* Description */}
-              <p 
-                className="font-dm-sans mb-6"
-                style={{
-                  fontSize: '18px',
-                  lineHeight: '1.67',
-                  color: '#68718B'
-                }}
-              >
-                Access top-tier strategy and execution without draining vital cash reserves. PMG invests proprietary expertise for equity, directly aligning our success with your maximized outcomes.
-              </p>
-
-              {/* CTA Link */}
-              <a 
-                href="#"
-                className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all"
-                style={{
-                  fontSize: '21px',
-                  lineHeight: '1.43',
-                  color: '#14358A'
-                }}
-              >
-                Explore Strategic solutions
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </a>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
 
-      {/* Unsure Which Solution Fits Section */}
-      <div className="relative z-10 py-16 lg:py-20" style={{ background: '#EBF7FF' }}>
-        <div className="max-w-[1200px] mx-auto px-6 lg:px-12 text-center">
-          {/* Heading */}
-          <h2
-            className="font-dm-sans font-bold mb-6 lg:mb-8"
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontSize: '48px',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em',
-              color: '#14358A'
-            }}
-          >
-            Unsure which solution fits your business?
-          </h2>
-
-          {/* Description */}
-          <p 
-            className="font-montserrat font-normal mb-10 lg:mb-12 mx-auto"
-            style={{
-              fontSize: 'clamp(20px, 2.2vw, 32px)',
-              lineHeight: '1.35',
-              color: '#333333',
-              maxWidth: '1196px'
-            }}
-          >
-            Our proprietary Solutions Assessment Tool helps you pinpoint the perfect, expert-backed strategy for your unique challenges.
-          </p>
-
-          {/* CTA Button */}
-          <button 
-            className="text-white font-dm-sans font-bold rounded-[10px] hover:opacity-90 transition-all transform hover:scale-105"
-            style={{
-              background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-              padding: '16px 32px',
-              fontSize: 'clamp(18px, 1.4vw, 20px)',
-              lineHeight: '1.4',
-              minWidth: '280px'
-            }}
-          >
-            Find your ideal solution
-          </button>
+      {/* Unsure Which Solution Fits */}
+      <div className="relative z-10" style={{ background: '#EBF7FF', paddingTop: 'clamp(32px, 4vw, 80px)', paddingBottom: 'clamp(32px, 4vw, 80px)' }}>
+        <div style={{ maxWidth: 'min(1200px, 90%)', margin: '0 auto', textAlign: 'center', padding: '0 clamp(24px, 3vw, 48px)' }}>
+          <h2 className="font-dm-sans font-bold" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(16px, 1.67vw, 32px)' }}>Unsure which solution fits your business?</h2>
+          <p className="font-montserrat font-normal mx-auto" style={{ fontSize: 'clamp(16px, 2.2vw, 34px)', lineHeight: '1.35', color: '#333', maxWidth: 'min(1196px, 95%)', marginBottom: 'clamp(24px, 2.5vw, 48px)' }}>Our proprietary Solutions Assessment Tool helps you pinpoint the perfect, expert-backed strategy for your unique challenges.</p>
+          <button className="text-white font-dm-sans font-bold rounded-[10px] hover:opacity-90 transition-all transform hover:scale-105" style={{ background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)', padding: 'clamp(12px, 1.11vw, 18px) clamp(24px, 2.22vw, 36px)', fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '1.4' }}>Find your ideal solution</button>
         </div>
       </div>
 
