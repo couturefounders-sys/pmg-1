@@ -6,25 +6,25 @@ export default function BespokeSolutions() {
   const steps = [
     {
       icon: '/bespoke-icon-1.png',
-      step: 'Step 1:\nThe Diagnostic',
+      step: 'Step 1: The Diagnostic',
       description:
         'We perform a comprehensive analysis to identify the root causes of your challenges, not just the symptoms.',
     },
     {
       icon: '/bespoke-icon-2.png',
-      step: 'Step 2:\nTool Selection &\nArchitecture',
+      step: 'Step 2: Tool Selection & Architecture',
       description:
         'Based on our findings, we architect a solution using the most appropriate tool. This could be one of our proprietary models, a proven industry framework, or a completely custom approach.',
     },
     {
       icon: '/bespoke-icon-3.png',
-      step: 'Step 3:\nTransparent\nRationale &\nBlueprint',
+      step: 'Step 3: Transparent Rationale & Blueprint',
       description:
         'We present you with a complete strategic blueprint, including a clear rationale for why the chosen approach is the optimal path to achieve your specific goals.',
     },
     {
       icon: '/bespoke-icon-4.png',
-      step: 'Step 4:\nClient Approval\nBefore\nEngagement',
+      step: 'Step 4: Client Approval Before Engagement',
       description:
         'You review the complete, validated plan. An engagement only begins once you have full confidence in the strategy and the measurable outcomes we\'ve defined together.',
     },
@@ -152,7 +152,7 @@ export default function BespokeSolutions() {
 
           {/* Step Cards Grid */}
           <div
-            className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[1400px] mx-auto"
           >
             {steps.map((step, idx) => (
               <div
@@ -161,8 +161,8 @@ export default function BespokeSolutions() {
                   backgroundColor: '#FFFFFF',
                   border: '3px solid #14358A',
                   borderRadius: '10px',
-                  padding: '23px 25px',
-                  minHeight: '338px',
+                  padding: 'clamp(16px, 1.67vw, 24px)',
+                  minHeight: 0,
                   display: 'flex',
                   flexDirection: 'column',
                   alignItems: 'flex-start',
@@ -174,9 +174,9 @@ export default function BespokeSolutions() {
                   <Image
                     src={step.icon}
                     alt={step.step}
-                    width={64}
-                    height={64}
-                    style={{ objectFit: 'contain', flexShrink: 0 }}
+                    width={48}
+                    height={48}
+                    style={{ objectFit: 'contain', flexShrink: 0, width: 'clamp(40px, 3.33vw, 48px)', height: 'clamp(40px, 3.33vw, 48px)' }}
                   />
 
                   {/* Step Title */}
@@ -184,12 +184,11 @@ export default function BespokeSolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: 'clamp(18px, 2.01vw, 33px)',
-                      lineHeight: '105%',
+                      fontSize: 'clamp(14px, 1.25vw, 20px)',
+                      lineHeight: '120%',
                       letterSpacing: '-0.03em',
                       color: '#14358A',
                       margin: '3px 0 0 0',
-                      whiteSpace: 'pre-wrap',
                     }}
                   >
                     {step.step}
