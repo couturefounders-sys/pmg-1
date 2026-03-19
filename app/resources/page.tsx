@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Image from 'next/image';
 
 export default function ResourcesPage() {
   return (
@@ -40,9 +41,6 @@ export default function ResourcesPage() {
       </section>
 
       {/* How PMG's Language Creates Better Outcomes */}
-      {/* Decorative bar */}
-      <div style={{ width: '100%', height: '4px', background: 'linear-gradient(90deg, #14358A 0%, #6A36FF 100%)' }} />
-
       <section className="w-full py-12 lg:py-16 px-4 sm:px-6" style={{ background: '#F8FAFC' }}>
         <div className="max-w-[1200px] mx-auto">
           <h2
@@ -88,20 +86,8 @@ export default function ResourcesPage() {
                 gap: 'clamp(12px, 1.11vw, 16px)',
               }}
             >
-              <div
-                style={{
-                  width: 'clamp(40px, 3.33vw, 48px)',
-                  height: 'clamp(40px, 3.33vw, 48px)',
-                  background: '#14358A',
-                  borderRadius: '8px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="#FFFFFF"/>
-                </svg>
+              <div style={{ position: 'relative', width: '56px', height: '56px', background: '#14358A', borderRadius: '12px', flexShrink: 0 }}>
+                <Image src="/message-security.png" alt="Precision Thinking" width={34} height={34} style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '34px', height: '34px', objectFit: 'contain' }} />
               </div>
               <h3
                 style={{
@@ -139,20 +125,8 @@ export default function ResourcesPage() {
                 gap: 'clamp(12px, 1.11vw, 16px)',
               }}
             >
-              <div
-                style={{
-                  width: 'clamp(40px, 3.33vw, 48px)',
-                  height: 'clamp(40px, 3.33vw, 48px)',
-                  background: '#14358A',
-                  borderRadius: '8px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
+              <div style={{ position: 'relative', width: '56px', height: '56px', background: '#14358A', borderRadius: '12px', flexShrink: 0 }}>
+                <Image src="/Avoid.png" alt="Avoid Costly Errors" width={34} height={34} style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '34px', height: '34px', objectFit: 'contain' }} />
               </div>
               <h3
                 style={{
@@ -190,20 +164,8 @@ export default function ResourcesPage() {
                 gap: 'clamp(12px, 1.11vw, 16px)',
               }}
             >
-              <div
-                style={{
-                  width: 'clamp(40px, 3.33vw, 48px)',
-                  height: 'clamp(40px, 3.33vw, 48px)',
-                  background: '#14358A',
-                  borderRadius: '8px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" fill="#FFFFFF"/>
-                </svg>
+              <div style={{ position: 'relative', width: '56px', height: '56px', background: '#14358A', borderRadius: '12px', flexShrink: 0 }}>
+                <Image src="/chart-histogram.png" alt="Faster Execution" width={34} height={34} style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '34px', height: '34px', objectFit: 'contain' }} />
               </div>
               <h3
                 style={{
@@ -240,24 +202,9 @@ export default function ResourcesPage() {
               marginTop: '48px',
             }}
           >
-            <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
-              <div
-                style={{
-                  width: '48px',
-                  height: '48px',
-                  background: '#14358A',
-                  borderRadius: '8px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  flexShrink: 0,
-                }}
-              >
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M2 17L12 22L22 17" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M2 12L12 17L22 12" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+              <div style={{ position: 'relative', width: '56px', height: '56px', background: '#14358A', borderRadius: '12px', flexShrink: 0 }}>
+                <Image src="/Use.png" alt="How to Use This Resource" width={34} height={34} style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '34px', height: '34px', objectFit: 'contain' }} />
               </div>
               <div>
                 <h3
@@ -288,8 +235,6 @@ export default function ResourcesPage() {
         </div>
       </section>
 
-      {/* Decorative bar */}
-      <div style={{ width: '100%', height: '4px', background: 'linear-gradient(90deg, #14358A 0%, #6A36FF 100%)' }} />
 
       {/* Ready to Apply These Concepts? CTA */}
       <section className="w-full py-20 px-6 bg-white">
