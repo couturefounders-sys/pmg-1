@@ -198,7 +198,7 @@ export default function FinancialServicesFinTech() {
                 padding: '23px 25px',
               }}
             >
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-strategy-transformation.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A]"
@@ -225,7 +225,7 @@ export default function FinancialServicesFinTech() {
                 padding: '23px 25px',
               }}
             >
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-risk-resilience.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A]"
@@ -252,7 +252,7 @@ export default function FinancialServicesFinTech() {
                 padding: '23px 25px',
               }}
             >
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-customer-experience.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A]"
@@ -279,7 +279,7 @@ export default function FinancialServicesFinTech() {
                 padding: '23px 25px',
               }}
             >
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-regulatory-compliance.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A]"
@@ -306,7 +306,7 @@ export default function FinancialServicesFinTech() {
                 padding: '23px 25px',
               }}
             >
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-innovation-fintech.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A]"
@@ -333,7 +333,7 @@ export default function FinancialServicesFinTech() {
                 padding: '23px 25px',
               }}
             >
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', marginBottom: '8px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-capital-performance.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A]"

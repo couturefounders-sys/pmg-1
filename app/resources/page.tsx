@@ -240,7 +240,7 @@ export default function ResourcesPage() {
               marginTop: '48px',
             }}
           >
-            <div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start' }}>
+            <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
               <div
                 style={{
                   width: '48px',

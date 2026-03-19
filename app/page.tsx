@@ -1,10 +1,12 @@
 import HeroSection from '@/components/HeroSection';
+import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
 
 export default function Home() {
   return (
     <main className="relative w-full min-h-screen overflow-x-hidden">
+      <Header />
       <HeroSection />
 
       {/* What We Can Do Section */}
@@ -55,19 +57,19 @@ export default function Home() {
         <h2 className="text-center font-dm-sans font-bold" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(12px, 1.5vw, 24px)' }}>Why Partner with PMG?</h2>
         <p className="text-center font-montserrat font-normal" style={{ fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '125%', color: '#465052', maxWidth: 'min(918px, 85%)', margin: '0 auto', marginBottom: 'clamp(48px, 5vw, 96px)' }}>Because results matter more than reports. We focus on quality first, consistently outperforming the industry.</p>
 
-        <div className="flex justify-center items-center px-4 flex-wrap" style={{ maxWidth: 'min(1140px, 90%)', margin: '0 auto', gap: '0' }}>
+        <div className="flex justify-center items-center px-4" style={{ maxWidth: 'min(1140px, 90%)', margin: '0 auto', gap: '0' }}>
           <div className="flex flex-col items-center" style={{ width: 'clamp(180px, 19.44vw, 320px)' }}>
             <Image src="/icon-box-1.png" alt="ROI Icon" width={100} height={100} style={{ marginBottom: 'clamp(16px, 1.94vw, 32px)', objectFit: 'contain', width: 'clamp(60px, 6.94vw, 120px)', height: 'clamp(60px, 6.94vw, 120px)' }} />
             <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '1.2', color: '#14358A', marginBottom: 'clamp(4px, 0.56vw, 10px)' }}>22x</p>
             <p className="font-poppins font-normal" style={{ fontSize: 'clamp(13px, 1.25vw, 20px)', lineHeight: '1.5', color: '#000' }}>Average client ROI</p>
           </div>
-          <div className="flex items-center justify-center" style={{ width: 'clamp(80px, 9.72vw, 160px)', marginTop: 'clamp(-30px, -4.17vw, -60px)' }}><Image src="/stat-arrow.png" alt="" width={140} height={40} style={{ width: 'auto', height: 'auto', maxWidth: '100%' }} /></div>
+          <div className="flex items-center justify-center" style={{ width: 'clamp(80px, 9.72vw, 160px)', alignSelf: 'flex-start', marginTop: 'clamp(10px, 2.08vw, 40px)' }}><Image src="/stat-arrow.png" alt="" width={140} height={40} style={{ width: 'auto', height: 'auto', maxWidth: '100%' }} /></div>
           <div className="flex flex-col items-center" style={{ width: 'clamp(180px, 19.44vw, 320px)' }}>
             <Image src="/icon-box-2.png" alt="Resolution Icon" width={100} height={100} style={{ marginBottom: 'clamp(16px, 1.94vw, 32px)', objectFit: 'contain', width: 'clamp(60px, 6.94vw, 120px)', height: 'clamp(60px, 6.94vw, 120px)' }} />
             <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '1.2', color: '#14358A', marginBottom: 'clamp(4px, 0.56vw, 10px)' }}>95%</p>
             <p className="font-poppins font-normal" style={{ fontSize: 'clamp(13px, 1.25vw, 20px)', lineHeight: '1.5', color: '#000' }}>On time resolution</p>
           </div>
-          <div className="flex items-center justify-center" style={{ width: 'clamp(80px, 9.72vw, 160px)', marginTop: 'clamp(-30px, -4.17vw, -60px)' }}><Image src="/stat-arrow.png" alt="" width={140} height={40} style={{ width: 'auto', height: 'auto', maxWidth: '100%' }} /></div>
+          <div className="flex items-center justify-center" style={{ width: 'clamp(80px, 9.72vw, 160px)', alignSelf: 'flex-start', marginTop: 'clamp(10px, 2.08vw, 40px)' }}><Image src="/stat-arrow.png" alt="" width={140} height={40} style={{ width: 'auto', height: 'auto', maxWidth: '100%' }} /></div>
           <div className="flex flex-col items-center" style={{ width: 'clamp(180px, 19.44vw, 320px)' }}>
             <Image src="/icon-box-3.png" alt="Recidivism Icon" width={80} height={80} style={{ marginBottom: 'clamp(16px, 1.94vw, 32px)', marginTop: 'clamp(6px, 0.69vw, 12px)', borderRadius: '10px', objectFit: 'contain', width: 'clamp(50px, 5.56vw, 96px)', height: 'clamp(50px, 5.56vw, 96px)' }} />
             <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '1.2', color: '#14358A', marginBottom: 'clamp(4px, 0.56vw, 10px)' }}>14%</p>
@@ -136,44 +138,6 @@ export default function Home() {
           <div className="flex items-center justify-center">
             <button className="text-white font-dm-sans font-bold rounded-[10px] hover:opacity-90 transition-opacity" style={{ background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)', padding: 'clamp(12px, 1.11vw, 18px) clamp(24px, 2.5vw, 42px)', fontSize: 'clamp(14px, 1.11vw, 18px)', lineHeight: '140%' }}>Request a consultation</button>
           </div>
-        </div>
-      </div>
-
-      {/* Ready for a Definitive Path to Transformation */}
-      <div className="relative z-10 bg-white overflow-hidden" style={{ paddingTop: 'clamp(32px, 4vw, 96px)', paddingBottom: 'clamp(32px, 4vw, 96px)' }}>
-        <div style={{ maxWidth: 'min(95%, 2200px)', margin: '0 auto', padding: '0 clamp(24px, 3vw, 80px)' }}>
-          <h2 className="text-center font-dm-sans font-bold" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(16px, 2vw, 48px)' }}>Ready for a Definitive Path to Transformation?</h2>
-          <p className="text-center font-montserrat font-normal mx-auto" style={{ fontSize: 'clamp(16px, 2vw, 30px)', lineHeight: '1.4', color: '#333', maxWidth: 'min(1082px, 85%)', marginBottom: 'clamp(24px, 3vw, 64px)' }}>PMG&apos;s expertise translates directly into superior results. Explore our structured engagement models, ensuring the right expertise is delivered in a way that aligns perfectly with your growth goals.</p>
-
-          {[
-            [
-              { icon: '/cube-three.png', title: 'Out-of-the-Box Solutions', sub: 'Simple \u00B7 Affordable \u00B7 Self-Directed', desc: 'Pre-packaged, technology-enabled offerings designed to rapidly address common industry challenges and deliver immediate value.' },
-              { icon: '/pencil.png', title: 'Bespoke Solutions', sub: 'Custom \u00B7 Flexible \u00B7 Fully Supported', desc: 'Tailored to your specific, complex needs. Our custom solutions are managed hands-on by our world-class expert team, ensuring high-impact innovation.' },
-            ],
-            [
-              { icon: '/right-user.png', title: 'Active Management Solutions', sub: 'Proactive \u00B7 Expert-Led \u00B7 Fully Managed', desc: 'We don\u2019t just consult\u2014we actively manage critical functions. PMG leads hands-on, end-to-end solution delivery with full accountability for results.' },
-              { icon: '/efferent-four.png', title: 'Equity Engagements', sub: 'Aligned \u00B7 Scalable \u00B7 Capital-Efficient', desc: 'Access top-tier strategy and execution without draining vital cash reserves. PMG invests proprietary expertise for equity, directly aligning our success with your maximized outcomes.' },
-            ],
-          ].map((row, ri) => (
-            <div key={ri} className="grid grid-cols-1 lg:grid-cols-2 mx-auto" style={{ gap: 'clamp(16px, 1.67vw, 40px)', marginBottom: ri === 0 ? 'clamp(16px, 1.67vw, 40px)' : '0', maxWidth: 'min(1200px, 100%)' }}>
-              {row.map((card, ci) => (
-                <div key={ci} className="bg-white rounded-[10px] relative" style={{ border: '3px solid #14358A', minHeight: 'clamp(260px, 23.26vw, 380px)', padding: 'clamp(20px, 1.67vw, 32px)' }}>
-                  <div className="flex items-start gap-4 mb-6">
-                    <div className="rounded-[10px] flex items-center justify-center flex-shrink-0" style={{ background: '#14358A', width: 'clamp(48px, 4.44vw, 72px)', height: 'clamp(48px, 4.44vw, 72px)' }}>
-                      <img src={card.icon} alt="" style={{ width: '60%', height: '60%' }} />
-                    </div>
-                    <h3 className="font-dm-sans font-bold mb-0" style={{ fontSize: 'clamp(20px, 2vw, 32px)', lineHeight: '1.05', letterSpacing: '-0.03em', color: '#14358A' }}>{card.title}</h3>
-                  </div>
-                  <p className="font-dm-sans mb-4" style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '1.4', color: '#68718B' }}>{card.sub}</p>
-                  <p className="font-dm-sans mb-6" style={{ fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '1.67', color: '#68718B' }}>{card.desc}</p>
-                  <a href="#" className="font-inter font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all" style={{ fontSize: 'clamp(16px, 1.46vw, 24px)', lineHeight: '1.43', color: '#14358A' }}>
-                    Explore Strategic solutions
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                  </a>
-                </div>
-              ))}
-            </div>
-          ))}
         </div>
       </div>
 

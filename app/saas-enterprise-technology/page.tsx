@@ -121,7 +121,7 @@ export default function SaaSEnterpriseTechnology() {
                 borderRadius: '10px',
               }}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-strategy-transformation.png" alt="Growth & Go-to-Market Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -148,7 +148,7 @@ export default function SaaSEnterpriseTechnology() {
                 borderRadius: '10px',
               }}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-risk-resilience.png" alt="Operational Excellence & Scalability" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -175,7 +175,7 @@ export default function SaaSEnterpriseTechnology() {
                 borderRadius: '10px',
               }}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-customer-experience.png" alt="M&A, Funding, & Financial Performance" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -202,7 +202,7 @@ export default function SaaSEnterpriseTechnology() {
                 borderRadius: '10px',
               }}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-regulatory-compliance.png" alt="Innovation & Product Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -229,7 +229,7 @@ export default function SaaSEnterpriseTechnology() {
                 borderRadius: '10px',
               }}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-innovation-fintech.png" alt="AI & Automation Integration" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -256,7 +256,7 @@ export default function SaaSEnterpriseTechnology() {
                 borderRadius: '10px',
               }}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-capital-performance.png" alt="Cloud Strategy & Migration" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"

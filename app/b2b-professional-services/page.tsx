@@ -140,7 +140,7 @@ export default function B2BProfessionalServices() {
                 border: '3px solid #14358A',
                 borderRadius: '10px',}}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-strategy-transformation.png" alt="Service Delivery" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -166,7 +166,7 @@ export default function B2BProfessionalServices() {
                 border: '3px solid #14358A',
                 borderRadius: '10px',}}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-risk-resilience.png" alt="Operational Excellence" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -192,7 +192,7 @@ export default function B2BProfessionalServices() {
                 border: '3px solid #14358A',
                 borderRadius: '10px',}}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-customer-experience.png" alt="Client Relationship" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -218,7 +218,7 @@ export default function B2BProfessionalServices() {
                 border: '3px solid #14358A',
                 borderRadius: '10px',}}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-regulatory-compliance.png" alt="Talent Management" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -244,7 +244,7 @@ export default function B2BProfessionalServices() {
                 border: '3px solid #14358A',
                 borderRadius: '10px',}}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-innovation-fintech.png" alt="Partnership Governance" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
@@ -270,7 +270,7 @@ export default function B2BProfessionalServices() {
                 border: '3px solid #14358A',
                 borderRadius: '10px',}}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-capital-performance.png" alt="Risk Management" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"

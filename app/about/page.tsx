@@ -2,6 +2,7 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import CoreValuesPentagon from '@/components/CoreValuesPentagon';
 
 export default function About() {
   return (
@@ -279,91 +280,8 @@ export default function About() {
           >
             Our Core Values
           </h3>
-
-          {/* Wave + Text Content */}
-          <div className="relative mx-auto px-4" style={{ maxWidth: 'min(1440px, 95%)' }}>
-            {/* Row 1: Principled Sincerity (left) + Respect (right) */}
-            <div className="flex justify-between items-start px-2 mb-0">
-              {/* Principled Sincerity */}
-              <div className="text-center" style={{ width: 'clamp(160px, 14.79vw, 240px)' }}>
-                <h4
-                  className="font-inter font-bold mb-2"
-                  style={{ fontSize: 'clamp(18px, 1.67vw, 24px)', lineHeight: 'clamp(24px, 2.22vw, 32px)', color: '#14358A' }}
-                >
-                  Principled<br />Sincerity
-                </h4>
-                <p
-                  className="font-inter font-normal"
-                  style={{ fontSize: 'clamp(11px, 0.97vw, 14px)', lineHeight: 'clamp(14px, 1.25vw, 18px)', color: '#5F5F5F' }}
-                >
-                  We commit to genuine self-expression and sincerity, fostering meaningful relationships built on candid communication and professional vulnerability.
-                </p>
-              </div>
-
-              {/* Respect */}
-              <div className="text-center" style={{ width: 'clamp(160px, 14.79vw, 240px)', marginRight: '22%' }}>
-                <h4
-                  className="font-inter font-bold mb-2"
-                  style={{ fontSize: 'clamp(18px, 1.67vw, 24px)', lineHeight: 'clamp(24px, 2.22vw, 32px)', color: '#14358A' }}
-                >
-                  Respect
-                </h4>
-                <p
-                  className="font-inter font-normal"
-                  style={{ fontSize: 'clamp(11px, 0.97vw, 14px)', lineHeight: 'clamp(14px, 1.25vw, 18px)', color: '#5F5F5F' }}
-                >
-                  We value diverse global perspectives and approach every situation with an open mind. We believe inclusivity is a catalyst for better solutions and collective success.
-                </p>
-              </div>
-            </div>
-
-            {/* Wave Image */}
-            <div className="flex justify-center items-center" style={{ marginTop: 'clamp(-30px, -2.78vw, -40px)', marginBottom: 'clamp(-30px, -2.78vw, -40px)' }}>
-              <img
-                src="/core-values-wave.png"
-                alt="Core values wave graphic"
-                className="max-w-full h-auto"
-                style={{ maxWidth: 'min(1400px, 95%)' }}
-              />
-            </div>
-
-            {/* Row 2: Innovation (center-left) + Excellence (right) */}
-            <div className="flex justify-between items-start px-2" style={{ marginTop: '0px' }}>
-              {/* Spacer */}
-              <div style={{ width: 'clamp(160px, 14.79vw, 240px)' }}></div>
-
-              {/* Innovation */}
-              <div className="text-center" style={{ width: 'clamp(160px, 14.79vw, 240px)', marginLeft: '5%' }}>
-                <h4
-                  className="font-inter font-bold mb-2"
-                  style={{ fontSize: 'clamp(18px, 1.67vw, 24px)', lineHeight: 'clamp(24px, 2.22vw, 32px)', color: '#14358A' }}
-                >
-                  Innovation
-                </h4>
-                <p
-                  className="font-inter font-normal"
-                  style={{ fontSize: 'clamp(11px, 0.97vw, 14px)', lineHeight: 'clamp(14px, 1.25vw, 18px)', color: '#5F5F5F' }}
-                >
-                  Driven by a passion for creative thinking, we embrace innovation as a catalyst for growth, progress, and unlocking positive change.
-                </p>
-              </div>
-
-              {/* Excellence */}
-              <div className="text-center" style={{ width: 'clamp(170px, 15.83vw, 250px)' }}>
-                <h4
-                  className="font-inter font-bold mb-2"
-                  style={{ fontSize: 'clamp(18px, 1.67vw, 24px)', lineHeight: 'clamp(24px, 2.22vw, 32px)', color: '#14358A' }}
-                >
-                  Excellence
-                </h4>
-                <p
-                  className="font-inter font-normal"
-                  style={{ fontSize: 'clamp(11px, 0.97vw, 14px)', lineHeight: 'clamp(14px, 1.25vw, 18px)', color: '#5F5F5F' }}
-                >
-                  We are dedicated to the pursuit of world-class mastery in our functional domains. We view excellence as an ongoing journey of refinement, continuous learning, and delivering high-impact results.
-                </p>
-              </div>
-            </div>
+          <div className="mx-auto" style={{ maxWidth: 'min(700px, 90vw)' }}>
+            <CoreValuesPentagon />
           </div>
         </div>
 

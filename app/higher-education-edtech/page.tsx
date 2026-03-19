@@ -164,7 +164,7 @@ export default function HigherEducationEdTech() {
                 borderRadius: '10px',
                 padding: '23px 25px',}}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-strategy-transformation.png" alt="Transformation Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
@@ -195,7 +195,7 @@ export default function HigherEducationEdTech() {
                 borderRadius: '10px',
                 padding: '23px 25px',}}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-risk-resilience.png" alt="Operational Efficiency" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
@@ -226,7 +226,7 @@ export default function HigherEducationEdTech() {
                 borderRadius: '10px',
                 padding: '23px 25px',}}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-customer-experience.png" alt="Digital Transformation" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
@@ -257,7 +257,7 @@ export default function HigherEducationEdTech() {
                 borderRadius: '10px',
                 padding: '23px 25px',}}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-regulatory-compliance.png" alt="Academic Portfolio" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
@@ -288,7 +288,7 @@ export default function HigherEducationEdTech() {
                 borderRadius: '10px',
                 padding: '23px 25px',}}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-innovation-fintech.png" alt="Governance & Risk" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
@@ -319,7 +319,7 @@ export default function HigherEducationEdTech() {
                 borderRadius: '10px',
                 padding: '23px 25px',}}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-capital-performance.png" alt="Faculty & Staff Engagement" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
@@ -350,7 +350,7 @@ export default function HigherEducationEdTech() {
                 borderRadius: '10px',
                 padding: '23px 25px',}}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-regulatory-compliance.png" alt="Program Evaluation" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
@@ -381,7 +381,7 @@ export default function HigherEducationEdTech() {
                 borderRadius: '10px',
                 padding: '23px 25px',}}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-innovation-fintech.png" alt="Research Performance" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
@@ -412,7 +412,7 @@ export default function HigherEducationEdTech() {
                 borderRadius: '10px',
                 padding: '23px 25px',}}
             >
-                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
                 <img src="/icon-capital-performance.png" alt="Alumni Relations" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"

@@ -78,12 +78,16 @@ export default function Header() {
           height: 'clamp(70px, 6.94vw, 120px)',
         }}
       >
-        {/* Logo Icon */}
-        <div
-          className="absolute"
+        {/* Combined Logo */}
+        <Link
+          href="/"
+          aria-label="Go to homepage"
+          className="absolute block"
           style={{
             top: 'clamp(16px, 1.6vw, 28px)',
             left: 'clamp(16px, 2.5vw, 48px)',
+            width: 'clamp(112px, 10.56vw, 170px)',
+            height: 'clamp(52px, 5.56vw, 74px)',
           }}
         >
           <Image
@@ -97,16 +101,7 @@ export default function Header() {
               height: 'auto',
             }}
           />
-        </div>
 
-        {/* PMG Logo Image */}
-        <div
-          className="absolute"
-          style={{
-            top: 'clamp(26px, 2.57vw, 44px)',
-            left: 'clamp(58px, 6.5vw, 118px)',
-          }}
-        >
           <Image
             src={isLightPage ? '/PMG_dark.png' : '/PMG.png'}
             alt="PMG"
@@ -114,12 +109,15 @@ export default function Header() {
             height={40}
             priority
             style={{
+              position: 'absolute',
+              top: 'clamp(10px, 0.97vw, 16px)',
+              left: 'clamp(42px, 4vw, 70px)',
               objectFit: 'contain',
               width: 'clamp(55px, 5.56vw, 95px)',
               height: 'auto',
             }}
           />
-        </div>
+        </Link>
 
         {/* Navigation - Centered Group */}
         <nav
@@ -193,7 +191,7 @@ export default function Header() {
                       className="absolute top-full left-0 w-[380px] z-[250]"
                       style={{ marginTop: '16px' }}
                     >
-                      <div className="bg-white rounded-lg shadow-xl border border-gray-100 overflow-hidden py-2">
+                      <div className="bg-white rounded-lg shadow-2xl border border-gray-300 overflow-hidden py-2">
                        {item.name === 'Your Industry' && (
                         <div className="flex flex-col">
                           {industryItems.map((subItem, idx) => (

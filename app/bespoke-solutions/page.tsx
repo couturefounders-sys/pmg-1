@@ -152,7 +152,7 @@ export default function BespokeSolutions() {
 
           {/* Step Cards Grid */}
           <div
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full"
+            className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full"
           >
             {steps.map((step, idx) => (
               <div
@@ -169,7 +169,7 @@ export default function BespokeSolutions() {
                   textAlign: 'left',
                 }}
               >
-                <div className="flex items-start gap-3 mb-6">
+                <div className="flex items-center gap-4 mb-6">
                   {/* Icon */}
                   <Image
                     src={step.icon}

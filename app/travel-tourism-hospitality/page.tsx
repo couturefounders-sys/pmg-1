@@ -169,7 +169,7 @@ export default function TravelTourismHospitality() {
               borderRadius: '10px',
               padding: '23px 25px',}}
           >
-                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
               <img src="/icon-strategy-transformation.png" alt="Growth & Market Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
               <h3
                 className="mb-3"
@@ -206,7 +206,7 @@ export default function TravelTourismHospitality() {
               borderRadius: '10px',
               padding: '23px 25px',}}
           >
-                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
               <img src="/icon-customer-experience.png" alt="Guest Experience & Service Innovation" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
               <h3
                 className="mb-3"
@@ -243,7 +243,7 @@ export default function TravelTourismHospitality() {
               borderRadius: '10px',
               padding: '23px 25px',}}
           >
-                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
               <img src="/icon-risk-resilience.png" alt="Operational Efficiency & Profitability" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
               <h3
                 className="mb-3"
@@ -280,7 +280,7 @@ export default function TravelTourismHospitality() {
               borderRadius: '10px',
               padding: '23px 25px',}}
           >
-                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
               <img src="/icon-regulatory-compliance.png" alt="Digital Transformation" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
               <h3
                 className="mb-3"
@@ -317,7 +317,7 @@ export default function TravelTourismHospitality() {
               borderRadius: '10px',
               padding: '23px 25px',}}
           >
-                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
               <img src="/icon-innovation-fintech.png" alt="Workforce Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
               <h3
                 className="mb-3"
@@ -354,7 +354,7 @@ export default function TravelTourismHospitality() {
               borderRadius: '10px',
               padding: '23px 25px',}}
           >
-                        <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px', marginBottom: '16px' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
               <img src="/icon-capital-performance.png" alt="Sustainability & ESG Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
               <h3
                 className="mb-3"
