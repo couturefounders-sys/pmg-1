@@ -374,25 +374,7 @@ export default function PowerOfWorkingWithUs() {
 
             {/* Left — dotted rows with pill buttons */}
             <div style={{ position: 'relative' }}>
-              {/* Decorative background image behind the rows */}
-              <img
-                src="/component-18.png"
-                alt=""
-                aria-hidden="true"
-                style={{
-                  position: 'absolute',
-                  top: 0,
-                  left: 0,
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'contain',
-                  objectPosition: 'left center',
-                  opacity: 0.18,
-                  pointerEvents: 'none',
-                  zIndex: 0,
-                }}
-              />
-              <div style={{ position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', gap: '18px' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
                 {[
                   { icon: '🔍', label: 'Engagement Model' },
                   { icon: '🎨', label: 'Talent Model' },
