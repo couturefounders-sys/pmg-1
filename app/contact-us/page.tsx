@@ -28,7 +28,7 @@ export default function ContactUs() {
       <Header />
 
       {/* ─── Hero / Form Section ─── */}
-      <section className="w-full pt-24 lg:pt-32 xl:pt-36 pb-14 lg:pb-20 xl:pb-24 px-4 sm:px-6 lg:px-8">
+      <section className="w-full pt-24 lg:pt-32 xl:pt-36 pb-14 lg:pb-20 xl:pb-24 px-4 sm:px-6 lg:px-12 xl:px-[10.4%]">
         <div className="max-w-[min(1100px,_90%)] w-full mx-auto">
 
           {/* Heading */}
@@ -73,7 +73,7 @@ export default function ContactUs() {
                className="flex flex-col w-full lg:w-auto flex-shrink-0"
                style={{
                  gap: 'clamp(14px, 1.67vw, 24px)',
-                 flexBasis: 'clamp(240px, 23.6vw, 340px)',
+                 flexBasis: 'clamp(300px, 33.3%, 479px)',
                  display: 'flex',
                  flexDirection: 'column',
                  minHeight: '763px',
