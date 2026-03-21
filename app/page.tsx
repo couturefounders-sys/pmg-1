@@ -94,7 +94,7 @@ export default function Home() {
       {/* What Our Clients Say */}
       <div className="relative z-10 bg-white" style={{ paddingTop: 'clamp(40px, 4.5vw, 80px)', paddingBottom: 'clamp(40px, 4.5vw, 80px)' }}>
         <h2 className="text-center font-dm-sans font-bold" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(12px, 1.5vw, 24px)' }}>What Our Clients Say</h2>
-        <p className="text-center font-montserrat font-normal" style={{ fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '1.15', color: '#333', maxWidth: 'min(842px, 85%)', margin: '0 auto', marginBottom: 'clamp(32px, 3.5vw, 64px)' }}>Across industries and functions, world-class teams transform work with PMG.</p>
+        <p className="text-center font-montserrat font-normal" style={{ fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '1.15', color: '#333', maxWidth: 'min(842px, 85%)', margin: '0 auto', marginBottom: 'clamp(32px, 3.5vw, 64px)' }}>We are proud to have earned the trust of industry leaders.</p>
         <div className="flex justify-center flex-wrap px-4" style={{ gap: 'clamp(16px, 1.67vw, 32px)', marginBottom: 'clamp(40px, 4.5vw, 80px)' }}>
           {[
             { logo: '/accenture.png', quote: '\u201CGenerative AI tools like Writer can drive greater creativity. As we continue to expand the use of AI, the opportunities to enhance content creation, productivity and our entire marketing model are boundless.\u201D', name: 'Jill Kramer', role: 'Chief Marketing and Communications Officer' },
