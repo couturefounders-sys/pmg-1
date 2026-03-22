@@ -64,9 +64,7 @@ export default function About() {
               lineHeight: '105%'
             }}
           >
-            We make it easy to track <br className="hidden md:block" />
-            all <br className="hidden md:block" />
-            data analytics
+            What We Bring to Every Partnership
           </h3>
         </div>
 
