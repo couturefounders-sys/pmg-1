@@ -281,6 +281,17 @@ export default function About() {
           <div className="mx-auto" style={{ maxWidth: 'min(700px, 90vw)' }}>
             <CoreValuesPentagon />
           </div>
+          <p
+            className="font-dm-sans mx-auto mt-10"
+            style={{
+              fontSize: 'clamp(15px, 1.25vw, 18px)',
+              lineHeight: '160%',
+              color: '#4B5563',
+              maxWidth: 'min(760px, 90vw)'
+            }}
+          >
+            We don&apos;t have core values because they look good on a wall; we have them because they are the filters through which we hire our Embedded Leaders. These principles guide our every action and fuel our pursuit of excellence.
+          </p>
         </div>
 
         {/* Read Our Latest Insights */}
