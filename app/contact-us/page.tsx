@@ -29,8 +29,9 @@ export default function ContactUs() {
 
       {/* ─── Hero / Form Section ─── */}
       <section className="w-full pt-24 lg:pt-32 xl:pt-36 pb-14 lg:pb-20 xl:pb-24 px-4 sm:px-6 lg:px-12 xl:px-[10.4%]">
-        <div className="max-w-[min(1140px,_90%)] w-full mx-auto">
 
+        <div className="max-w-[min(1100px,_90%)] w-full mx-auto">
+        
           {/* Heading */}
           <div className="flex flex-col items-center text-center mb-8 lg:mb-10 xl:mb-12">
             <h1
