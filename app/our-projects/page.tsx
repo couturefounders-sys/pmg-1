@@ -205,6 +205,7 @@ export default function OurProjects() {
         <div className="flex justify-center items-center gap-12 mt-16 flex-wrap">
           <img src="/image 21.png" alt="Partner Logo" style={{ height: '80px', width: 'auto', objectFit: 'contain' }} />
           <img src="/image 22.png" alt="Partner Logo" style={{ height: '80px', width: 'auto', objectFit: 'contain' }} />
+          <img src="/image 23.png" alt="Partner Logo" style={{ height: '80px', width: 'auto', objectFit: 'contain' }} />
         </div>
       </div>
 
