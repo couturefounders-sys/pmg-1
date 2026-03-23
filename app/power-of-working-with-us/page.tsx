@@ -303,9 +303,8 @@ export default function PowerOfWorkingWithUs() {
 
           {/* 2×2 Cards */}
           <div
+            className="grid grid-cols-1 sm:grid-cols-2"
             style={{
-              display: 'grid',
-              gridTemplateColumns: '1fr 1fr',
               gap: '24px',
               width: '100%',
             }}
@@ -370,7 +369,7 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 7: Engagement Breakdown ─── */}
       <section className="w-full py-24 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto">
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'start' }}>
+          <div className='grid grid-cols-1 lg:grid-cols-2' style={{ gap: '60px', alignItems: 'start' }}>
 
             {/* Left — dotted rows with pill buttons */}
             <div style={{ position: 'relative' }}>
@@ -532,7 +531,7 @@ export default function PowerOfWorkingWithUs() {
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', color: '#333333', marginBottom: '48px', maxWidth: 'min(900px, 95%)' }}>
             Our quiet, focused approach delivers loud results. We consistently outperform industry averages across key performance indicators.
           </p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '24px', width: '100%' }}>
+          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' style={{ gap: '24px', width: '100%' }}>
             {[
               { stat: '22x', label: 'Consultation ROI', desc: 'Industry-leading returns on every engagement.' },
               { stat: '30%', label: 'Higher Cost Reduction', desc: 'Efficiency gains that far surpass the industry.' },
@@ -568,7 +567,7 @@ export default function PowerOfWorkingWithUs() {
             Unique frameworks developed by PMG that unlock insights and solutions the industry cannot match.
           </p>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '24px', width: '100%' }}>
+          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' style={{ gap: '24px', width: '100%' }}>
             {[
               { icon: '/write.png', title: 'Sector Convergence Model', desc: 'Our proprietary framework for identifying and leveraging next-generation disruption opportunities at the intersection of industries, creating unique, durable competitive advantages.' },
               { icon: '/box.png', title: 'Input-Output Model', desc: 'Our integrated approach to enterprise architecture, built on field-scope work tools that drive unprecedented consistency, standardization and automation, resulting in superior quality control and reduced failure rates.' },
@@ -598,7 +597,7 @@ export default function PowerOfWorkingWithUs() {
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: '40px' }}>
             We leverage established methodologies that have stood the test of time across industries.
           </p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '24px', width: '100%', border: '3px dashed #A0B4E8', borderRadius: '10px', padding: '36px 28px' }}>
+          <div className='grid grid-cols-2 md:grid-cols-4' style={{ gap: '24px', width: '100%', border: '3px dashed #A0B4E8', borderRadius: '10px', padding: '36px 28px' }}>
             {[
               { icon: '/12.png', label: 'Agile' },
               { icon: '/23.png', label: 'Lean' },
@@ -656,7 +655,7 @@ export default function PowerOfWorkingWithUs() {
 
       {/* ─── Section 12: A Commitment to Continuous Improvement ─── */}
       <section className="w-full py-20 px-6 bg-white">
-        <div className="max-w-[1200px] mx-auto" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center' }}>
+        <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2" style={{ gap: '60px', alignItems: 'center' }}>
           <div>
             <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#FFFFFF', marginBottom: '20px' }}>
               A Commitment to Continuous Improvement
@@ -675,7 +674,7 @@ export default function PowerOfWorkingWithUs() {
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'center', marginBottom: '48px' }}>
             Still Not Convinced?
           </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px' }}>
+          <div className='grid grid-cols-1 md:grid-cols-2' style={{ gap: 'clamp(24px, 4.17vw, 60px)' }}>
             {/* Left */}
             <div>
               <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#333333', marginBottom: '20px' }}>

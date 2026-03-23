@@ -545,7 +545,7 @@ export default function OurFunctionalAreas() {
       </div>
 
       {/* Ready for a Definitive Path to Transformation Section */}
-      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4" style={{ paddingTop: 'clamp(160px, 19.86vw, 286px)', paddingBottom: 'clamp(48px, 5.56vw, 80px)' }}>
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4" style={{ paddingTop: 'clamp(64px, 19.86vw, 286px)', paddingBottom: 'clamp(48px, 5.56vw, 80px)' }}>
         <div className="text-center" style={{ marginBottom: '40px' }}>
           <h2
             style={{
