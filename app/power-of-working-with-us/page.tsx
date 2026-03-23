@@ -536,7 +536,7 @@ export default function PowerOfWorkingWithUs() {
             {[
               { stat: '22x', label: 'Consultation ROI', desc: 'Industry-leading returns on every engagement.' },
               { stat: '30%', label: 'Higher Cost Reduction', desc: 'Efficiency gains that far surpass the industry.' },
-              { stat: 'Top 1%', label: 'Access to Global Talent', desc: 'A global network of elite, proven experts.' },
+              { stat: 'Top 1%', label: 'Access', desc: 'A global network of elite, proven experts.' },
               { stat: 'Unmatched', label: 'Speed of Service', desc: 'Rapid, streamlined processes for faster results.' },
               { stat: '95%', label: 'On-Time Resolution', desc: 'A reliable partner committed to timely execution.' },
               { stat: 'Proven', label: 'Track Record', desc: 'A history of delivering measurable, tangible success.' },

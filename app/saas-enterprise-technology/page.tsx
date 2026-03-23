@@ -105,7 +105,7 @@ export default function SaaSEnterpriseTechnology() {
               className="font-montserrat font-normal text-[#333333] mx-auto"
               style={{ fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', maxWidth: 'min(1082px, 95%)', textAlign: 'center' }}
             >
-              Our work supports strategy, operations, & transformation—equipping financial leaders with the tools to deliver meaningful change.
+              Our work supports strategy, operations, & transformation—equipping technology leaders with the tools to deliver meaningful change.
             </p>
           </div>
 
@@ -272,6 +272,87 @@ export default function SaaSEnterpriseTechnology() {
                 Develop and execute cloud strategies (public, private, or hybrid) that optimize cost, improve scalability, and accelerate organizational innovation.
               </p>
             </div>
+
+            {/* Card 7: Enterprise & Workflow Architecture */}
+            <div
+              className="bg-white"
+              style={{
+                width: 'min(412px, 100%)',
+                padding: '23px 25px',
+                border: '3px solid #14358A',
+                borderRadius: '10px',
+              }}
+            >
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-strategy-transformation.png" alt="Enterprise & Workflow Architecture" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A] mb-4"
+                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
+                >
+                  Enterprise & Workflow Architecture
+                </h3>
+              </div>
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{ fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '140%' }}
+              >
+                Design robust enterprise systems and automated workflows that ensure seamless operations, support immediate scalability, and align technology with business strategy.
+              </p>
+            </div>
+
+            {/* Card 8: Talent & Culture Transformation */}
+            <div
+              className="bg-white"
+              style={{
+                width: 'min(412px, 100%)',
+                padding: '23px 25px',
+                border: '3px solid #14358A',
+                borderRadius: '10px',
+              }}
+            >
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-risk-resilience.png" alt="Talent & Culture Transformation" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A] mb-4"
+                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
+                >
+                  Talent & Culture Transformation
+                </h3>
+              </div>
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{ fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '140%' }}
+              >
+                Design organizational structures and cultural programs that foster innovation, agility, and long-term talent retention.
+              </p>
+            </div>
+
+            {/* Card 9: Risk, Compliance & Cybersecurity */}
+            <div
+              className="bg-white"
+              style={{
+                width: 'min(412px, 100%)',
+                padding: '23px 25px',
+                border: '3px solid #14358A',
+                borderRadius: '10px',
+              }}
+            >
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
+                <img src="/icon-regulatory-compliance.png" alt="Risk, Compliance & Cybersecurity" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <h3
+                  className="font-dm-sans font-bold text-[#14358A] mb-4"
+                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
+                >
+                  Risk, Compliance & Cybersecurity
+                </h3>
+              </div>
+              <p
+                className="font-dm-sans font-normal text-[#68718B]"
+                style={{ fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '140%' }}
+              >
+                Advise on compliance frameworks, data governance, and cybersecurity strategies to proactively protect technology operations and institutional reputation from growing threats.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -312,7 +393,7 @@ export default function SaaSEnterpriseTechnology() {
             <div
               className="bg-white hover:shadow-xl transition-shadow duration-300"
               style={{
-                width: '381px',
+                width: 'clamp(280px, 26.46vw, 381px)',
                 minHeight: '378px',
                 borderRadius: '10px',
                 padding: '24px',
@@ -415,8 +496,8 @@ export default function SaaSEnterpriseTechnology() {
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '157px',
-                    height: '60px',
+                    width: 'clamp(120px, 10.9vw, 157px)',
+                    height: 'clamp(44px, 4.17vw, 60px)',
                     borderRadius: '10px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
                     fontSize: 'clamp(15px, 1.39vw, 22px)',
@@ -432,7 +513,7 @@ export default function SaaSEnterpriseTechnology() {
             <div
               className="bg-white hover:shadow-xl transition-shadow duration-300"
               style={{
-                width: '381px',
+                width: 'clamp(280px, 26.46vw, 381px)',
                 minHeight: '378px',
                 borderRadius: '10px',
                 padding: '24px',
@@ -532,8 +613,8 @@ export default function SaaSEnterpriseTechnology() {
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '157px',
-                    height: '60px',
+                    width: 'clamp(120px, 10.9vw, 157px)',
+                    height: 'clamp(44px, 4.17vw, 60px)',
                     borderRadius: '10px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
                     fontSize: 'clamp(15px, 1.39vw, 22px)',
@@ -549,7 +630,7 @@ export default function SaaSEnterpriseTechnology() {
             <div
               className="bg-white hover:shadow-xl transition-shadow duration-300"
               style={{
-                width: '381px',
+                width: 'clamp(280px, 26.46vw, 381px)',
                 minHeight: '378px',
                 borderRadius: '10px',
                 padding: '24px',
@@ -649,8 +730,8 @@ export default function SaaSEnterpriseTechnology() {
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '157px',
-                    height: '60px',
+                    width: 'clamp(120px, 10.9vw, 157px)',
+                    height: 'clamp(44px, 4.17vw, 60px)',
                     borderRadius: '10px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
                     fontSize: 'clamp(15px, 1.39vw, 22px)',
@@ -670,7 +751,7 @@ export default function SaaSEnterpriseTechnology() {
       <div className="relative py-24 bg-white overflow-hidden">
         <div className="max-w-[1200px] mx-auto px-6 relative z-10 flex flex-col items-center text-center">
           <h2
-            className="text-center whitespace-nowrap mb-10"
+            className="text-center mb-10"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
@@ -755,7 +836,7 @@ export default function SaaSEnterpriseTechnology() {
               letterSpacing: '-0.03em'
             }}
           >
-            Partner with PMG to Build a Resilient Future
+            Partner with PMG to Scale New Heights
           </h2>
           <p
             className="font-montserrat font-normal text-[#333333] mb-12"
@@ -765,14 +846,14 @@ export default function SaaSEnterpriseTechnology() {
               maxWidth: 'min(1196px, 95%)'
             }}
           >
-            Let&apos;s work together to navigate the complexities of the financial sector & drive sustainable growth.
+            Let&apos;s work together to align your technology roadmap with market realities &amp; drive scalable growth.
           </p>
           <button
             className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
             style={{
               width: 'auto', // changed from fixed width to auto to fit text
               minWidth: '393px',
-              height: '65px',
+              height: 'clamp(48px, 4.51vw, 65px)',
               borderRadius: '10px',
               padding: '16px 32px',
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',

@@ -2,10 +2,10 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 const articles = [
-  { title: 'Hidden Risks of AI Expansion', date: 'July 25, 2024' },
-  { title: 'Hidden Risks of AI Expansion', date: 'July 25, 2024' },
-  { title: 'Hidden Risks of AI Expansion', date: 'July 25, 2024' },
-  { title: 'Hidden Risks of AI Expansion', date: 'July 25, 2024' },
+  { title: 'The Hidden Risks of AI Expansion', tag: 'AI', date: 'July 25, 2024' },
+  { title: 'The Unseen Edge', tag: 'Strategy', date: 'July 20, 2024' },
+  { title: 'Charities in Crisis', tag: 'Impact', date: 'July 15, 2024' },
+  { title: 'The Sector Convergence Model', tag: 'Innovation', date: 'November 10, 2023' },
 ];
 
 const tags = ['AI & Technology', 'Strategy', 'Operations', 'Leadership', 'Finance', 'Culture'];
@@ -25,7 +25,7 @@ export default function InsightsInnovationsPage() {
             Insights &amp; Innovations
           </h1>
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', letterSpacing: '0%', textAlign: 'center', color: '#333333', marginBottom: '36px' }}>
-            Unfiltered thoughts on whatever matters right now: Universal Basic Income, Management Consulting, Culture Transformation, Existentialism, and everything in between. Each piece represents where our curiosity has taken us this month.
+            Unfiltered thoughts on whatever matters right now: Resource Scarcity, Neobank Performance Marketing, Existentialism, and everything in between. Each piece represents where our curiosity has taken us this month.
           </p>
 
           {/* Note box */}
@@ -68,9 +68,9 @@ export default function InsightsInnovationsPage() {
 
           {/* Featured article */}
           <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px', background: '#FFFFFF', width: '100%', maxWidth: 'min(945px, 95%)', alignSelf: 'center', textAlign: 'center' }}>
-            <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.25vw, 20px)', color: '#14358A', marginBottom: '8px' }}>Deconstructing Risk</h3>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(11px, 0.97vw, 16px)', fontWeight: 600, color: '#68718B', marginBottom: '10px' }}>How Modern Portfolio Theory Applies to Business Operations</p>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 0.9vw, 15px)', lineHeight: '1.7', color: '#5F6D7E' }}>Explore how principles from finance can be used to build more resilient, diversified, and antifragile business operations.</p>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(11px, 0.97vw, 16px)', fontWeight: 600, color: '#68718B', marginBottom: '8px' }}>Upcoming</p>
+            <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.25vw, 20px)', color: '#14358A', marginBottom: '10px' }}>The Silent ROI: Quantifying the Value of Trust &amp; Psychological Safety</h3>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 0.9vw, 15px)', lineHeight: '1.7', color: '#5F6D7E' }}>Explore how trust and psychological safety produce measurable financial returns that traditional ROI models fail to capture.</p>
           </div>
 
           {/* Email signup */}
@@ -101,16 +101,16 @@ export default function InsightsInnovationsPage() {
       >
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center relative z-10">
           <h2 style={{ fontFamily: 'DM Sans', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', textAlign: 'center', color: '#14358A', marginBottom: '16px' }}>
-            If you&apos;re wondering how AI ethics relates to your operations problem...
+            Leadership Isn&apos;t Just What You Do. It&apos;s How You Think.
           </h2>
-          <p style={{ fontFamily: 'Montserrat', fontWeight: 400, fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', letterSpacing: '0%', textAlign: 'center', textDecoration: 'underline', color: '#333333', marginBottom: '32px' }}>
-            ...that is exactly the conversation we should have. We connect the dots between technological ambition, human consequence, and operational excellence.
+          <p style={{ fontFamily: 'Montserrat', fontWeight: 400, fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', letterSpacing: '0%', textAlign: 'center', color: '#333333', marginBottom: '32px' }}>
+            The executives who read widely, think laterally, and connect unrelated ideas are the ones who build durable competitive advantages.
           </p>
           <a
             href="/contact-us"
             style={{ display: 'inline-block', background: 'linear-gradient(135deg, #6A36FF 0%, #AC5FE6 100%)', border: 'none', color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(11px, 0.97vw, 16px)', padding: '13px 32px', borderRadius: '8px', textDecoration: 'none' }}
           >
-            Let&apos;s Connect
+            Elevate Our Thinking
           </a>
         </div>
       </section>

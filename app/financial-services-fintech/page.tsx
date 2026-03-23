@@ -9,50 +9,45 @@ export default function FinancialServicesFinTech() {
       <Header />
 
       {/* Hero Section */}
-      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto" style={{ paddingTop: 'clamp(100px, 9.72vw, 140px)' }}>
+      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 sm:px-[clamp(24px,8.19vw,118px)]" style={{ paddingTop: 'clamp(100px, 9.72vw, 140px)', paddingBottom: 'clamp(32px, 3vw, 48px)' }}>
 
         {/* Content Container */}
-        <div className="relative" style={{ height: 'clamp(380px, 34.72vw, 500px)' }}>
+        <div className="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-12">
 
-          {/* Heading */}
-          <h1
-            className="absolute font-dm-sans font-bold"
-            style={{
-              top: '30px',
-              left: 'clamp(24px, 8.19vw, 118px)',
-              width: 'min(802px, 90%)',
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em',
-              color: '#14358A',
-            }}
-          >
-            Navigating the Future of Finance
-          </h1>
+          {/* Left Content */}
+          <div className="flex flex-col gap-6 z-10 w-full lg:max-w-[calc(100%-clamp(300px,30vw,440px)-3rem)]">
+            {/* Heading */}
+            <h1
+              className="font-dm-sans font-bold"
+              style={{
+                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                lineHeight: '105%',
+                letterSpacing: '-0.03em',
+                color: '#14358A',
+              }}
+            >
+              Navigating the Future of Finance
+            </h1>
 
-          {/* Description */}
-          <p
-            className="absolute font-montserrat font-normal"
-            style={{
-              top: 'clamp(70px, 6.94vw, 100px)',
-              left: 'clamp(24px, 8.19vw, 118px)',
-              width: 'min(740px, 90%)',
-              fontSize: 'clamp(18px, 2.22vw, 36px)',
-              lineHeight: '140%',
-              color: '#333333'
-            }}
-          >
-            As legacy institutions and agile FinTechs converge, the industry faces a dual mandate: absolute security and rapid innovation. We partner with financial leaders to navigate regulatory shifts and technological disruption, building the resilient systems required to thrive in a digital-first economy.
-          </p>
+            {/* Description */}
+            <p
+              className="font-montserrat font-normal"
+              style={{
+                fontSize: 'clamp(18px, 2.22vw, 36px)',
+                lineHeight: '140%',
+                color: '#333333'
+              }}
+            >
+              As legacy institutions and agile FinTechs converge, the industry faces a dual mandate: absolute security and rapid innovation. We partner with financial leaders to navigate regulatory shifts and technological disruption, building the resilient systems required to thrive in a digital-first economy.
+            </p>
+          </div>
 
           {/* Circular Hero Image */}
           <div
-            className="absolute overflow-hidden"
+            className="overflow-hidden flex-shrink-0 mx-auto lg:mx-0"
             style={{
-              top: '0px',
-              right: '5%',
-              width: 'clamp(280px, 28.89vw, 416px)',
-              height: 'clamp(280px, 29.44vw, 424px)',
+              width: 'clamp(240px, 28.89vw, 416px)',
+              height: 'clamp(240px, 29.44vw, 424px)',
               borderRadius: '50%'
             }}
           >
@@ -67,7 +62,6 @@ export default function FinancialServicesFinTech() {
             />
           </div>
 
-
         </div>
 
       </div>
@@ -79,7 +73,7 @@ export default function FinancialServicesFinTech() {
           className="absolute"
           style={{
             width: '325px',
-            height: '60px',
+            height: 'clamp(44px, 4.17vw, 60px)',
             left: '-10px',
             top: '20px',
             opacity: 0.2,
@@ -93,7 +87,7 @@ export default function FinancialServicesFinTech() {
           className="absolute"
           style={{
             width: '200px',
-            height: '60px',
+            height: 'clamp(44px, 4.17vw, 60px)',
             left: '-10px',
             top: '60px',
             opacity: 1,
@@ -155,9 +149,9 @@ export default function FinancialServicesFinTech() {
       {/* Decorative Bars - Top Right + Bottom Left */}
       <div className="relative w-full pointer-events-none" style={{ height: 'clamp(80px, 11.11vw, 160px)' }}>
         {/* Top Right */}
-        <div className="absolute" style={{ width: '200px', height: '60px', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(-8deg)', transformOrigin: 'right center' }} />
+        <div className="absolute" style={{ width: '200px', height: 'clamp(44px, 4.17vw, 60px)', right: '-10px', top: '20px', opacity: 1, background: 'linear-gradient(270deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(-8deg)', transformOrigin: 'right center' }} />
         {/* Bottom Left */}
-        <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', bottom: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(-8deg)', transformOrigin: 'left center' }} />
+        <div className="absolute" style={{ width: '325px', height: 'clamp(44px, 4.17vw, 60px)', left: '-10px', bottom: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(-8deg)', transformOrigin: 'left center' }} />
       </div>
 
       {/* Our Work Section */}
@@ -204,14 +198,14 @@ export default function FinancialServicesFinTech() {
                   className="font-dm-sans font-bold text-[#14358A]"
                   style={{ fontSize: 'clamp(18px, 2.01vw, 29px)', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '7px' }}
                 >
-                  Growth & Go-to-Market Strategy
+                  Strategy & Transformation
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', marginTop: '8px' }}
               >
-                Define and implement growth strategies that balance speed with sustainability, covering GTM planning, international expansion, and optimized pricing models.
+                Set bold enterprise strategies and deliver transformation at scale, covering M&A integration, digital roadmaps, and operating model modernization.
               </p>
             </div>
 
@@ -231,14 +225,14 @@ export default function FinancialServicesFinTech() {
                   className="font-dm-sans font-bold text-[#14358A]"
                   style={{ fontSize: 'clamp(18px, 2.01vw, 29px)', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '7px' }}
                 >
-                  Operational Excellence & Scalability
+                  Risk & Operational Resilience
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', marginTop: '8px' }}
               >
-                Improve organizational performance, optimize core processes, and deploy digital transformation initiatives to ensure sustained efficiency at scale.
+                Optimize processes and strengthen risk frameworks to enhance operational resilience, ensure regulatory compliance, and drive performance improvements.
               </p>
             </div>
 
@@ -258,14 +252,14 @@ export default function FinancialServicesFinTech() {
                   className="font-dm-sans font-bold text-[#14358A]"
                   style={{ fontSize: 'clamp(18px, 2.01vw, 29px)', lineHeight: '105%', letterSpacing: '-0.84px', paddingTop: '8px' }}
                 >
-                  M&A, Funding, & Financial Performance
+                  Customer & Digital Experience
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', marginTop: '8px' }}
               >
-                Support M&A, capital funding, and IPO readiness by strengthening financial performance, optimizing portfolios, and enhancing the investment story.
+                Build digital-first experiences, modernize service delivery, and improve customer acquisition and loyalty in a highly competitive market.
               </p>
             </div>
 
@@ -285,14 +279,14 @@ export default function FinancialServicesFinTech() {
                   className="font-dm-sans font-bold text-[#14358A]"
                   style={{ fontSize: 'clamp(18px, 2.01vw, 29px)', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '9px' }}
                 >
-                  Innovation & Product Strategy
+                  Regulatory & Compliance Strategy
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', marginTop: '8px' }}
               >
-                Shape innovation agendas, prioritize R&D, and design product strategies (including portfolio and roadmap development) that align with market opportunities.
+                Navigate evolving regulations, enhance compliance frameworks, and embed risk management practices for data governance, capital adequacy, and regulatory reporting.
               </p>
             </div>
 
@@ -312,14 +306,14 @@ export default function FinancialServicesFinTech() {
                   className="font-dm-sans font-bold text-[#14358A]"
                   style={{ fontSize: 'clamp(18px, 2.01vw, 29px)', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '9px' }}
                 >
-                  AI & Automation Integration
+                  Innovation & Fintech Partnerships
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', marginTop: '8px' }}
               >
-                Harness AI and automation to enhance product offerings, dramatically improve internal efficiency, and create new, measurable sources of value.
+                Advise on innovation strategy, product development, and strategic partnerships to capture value from emerging trends in payments, lending, and digital assets.
               </p>
             </div>
 
@@ -339,14 +333,14 @@ export default function FinancialServicesFinTech() {
                   className="font-dm-sans font-bold text-[#14358A]"
                   style={{ fontSize: 'clamp(18px, 2.01vw, 29px)', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '7px' }}
                 >
-                  Cloud Strategy & Migration
+                  Capital & Financial Performance
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
                 style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', marginTop: '8px' }}
               >
-                Develop and execute cloud strategies (public, private, or hybrid) that optimize cost, improve scalability, and accelerate organizational innovation.
+                Strengthen financial performance through capital optimization, portfolio review, and advanced financial modeling to ensure market competitiveness.
               </p>
             </div>
           </div>
@@ -387,13 +381,13 @@ export default function FinancialServicesFinTech() {
           {/* Project Cards Grid */}
           <div
             className="flex justify-center flex-wrap"
-            style={{ gap: '64px' }}
+            style={{ gap: 'clamp(24px, 4.44vw, 64px)' }}
           >
             {/* Card 1: Trilogy Software */}
             <div
               className="bg-white relative overflow-hidden"
               style={{
-                width: '381px',
+                width: 'clamp(280px, 26.46vw, 381px)',
                 minHeight: '378px',
                 borderRadius: '10px',
                 border: '1px solid #E0E7EF',
@@ -490,8 +484,8 @@ export default function FinancialServicesFinTech() {
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '157px',
-                    height: '60px',
+                    width: 'clamp(120px, 10.9vw, 157px)',
+                    height: 'clamp(44px, 4.17vw, 60px)',
                     borderRadius: '10px',
                     padding: '16px 32px',
                     background: 'linear-gradient(137.73deg, #6A36FF 15.76%, #AC5FE6 102.86%)',
@@ -515,7 +509,7 @@ export default function FinancialServicesFinTech() {
             <div
               className="bg-white relative overflow-hidden"
               style={{
-                width: '381px',
+                width: 'clamp(280px, 26.46vw, 381px)',
                 minHeight: '378px',
                 borderRadius: '10px',
                 border: '1px solid #E0E7EF',
@@ -611,8 +605,8 @@ export default function FinancialServicesFinTech() {
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '157px',
-                    height: '60px',
+                    width: 'clamp(120px, 10.9vw, 157px)',
+                    height: 'clamp(44px, 4.17vw, 60px)',
                     borderRadius: '10px',
                     padding: '16px 32px',
                     background: 'linear-gradient(137.73deg, #6A36FF 15.76%, #AC5FE6 102.86%)',
@@ -636,7 +630,7 @@ export default function FinancialServicesFinTech() {
             <div
               className="bg-white relative overflow-hidden"
               style={{
-                width: '381px',
+                width: 'clamp(280px, 26.46vw, 381px)',
                 minHeight: '378px',
                 borderRadius: '10px',
                 border: '1px solid #E0E7EF',
@@ -732,8 +726,8 @@ export default function FinancialServicesFinTech() {
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '157px',
-                    height: '60px',
+                    width: 'clamp(120px, 10.9vw, 157px)',
+                    height: 'clamp(44px, 4.17vw, 60px)',
                     borderRadius: '10px',
                     padding: '16px 32px',
                     background: 'linear-gradient(137.73deg, #6A36FF 15.76%, #AC5FE6 102.86%)',
@@ -760,7 +754,7 @@ export default function FinancialServicesFinTech() {
       <div className="bg-white py-24 px-6">
         <div className="max-w-[min(1440px,_95%)] mx-auto flex flex-col items-center">
           <h2
-            className="text-center whitespace-nowrap mb-10"
+            className="text-center mb-10"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
@@ -832,8 +826,8 @@ export default function FinancialServicesFinTech() {
         <button
           className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
           style={{
-            width: '393px',
-            height: '65px',
+            width: 'clamp(260px, 27.29vw, 393px)',
+            height: 'clamp(48px, 4.51vw, 65px)',
             borderRadius: '10px',
             background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
             fontSize: 'clamp(15px, 1.39vw, 22px)',

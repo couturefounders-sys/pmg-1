@@ -122,7 +122,7 @@ export default function PublicSectorGovernment() {
             lineHeight: '140%',
           }}
         >
-          Our work supports strategy, operations, & transformation—equipping financial leaders with the tools to deliver meaningful change.
+          Our work supports strategy, operations, & transformation—equipping public sector leaders with the tools to deliver meaningful change.
         </p>
 
         {/* Cards Grid */}
@@ -657,8 +657,8 @@ export default function PublicSectorGovernment() {
             style={{
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
               borderRadius: '10px',
-              width: '393px',
-              height: '65px',
+              width: 'clamp(260px, 27.29vw, 393px)',
+              height: 'clamp(48px, 4.51vw, 65px)',
               fontFamily: 'DM Sans, sans-serif',
               fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',

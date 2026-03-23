@@ -665,20 +665,20 @@ export default function BespokeSolutions() {
           {/* Row 3 — icon LEFT, text RIGHT */}
           <div className="flex flex-row items-center gap-16 mb-16">
             <div className="flex-shrink-0">
-              <Image src="/bespoke-proj-3.png" alt="M&A Integration Carve-Outs" width={280} height={240} style={{ objectFit: 'contain' }} />
+              <Image src="/bespoke-proj-3.png" alt="Strategic Go-to-Market" width={280} height={240} style={{ objectFit: 'contain' }} />
             </div>
             <div className="flex flex-col flex-1" style={{ textAlign: 'right' }}>
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(20px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px', textAlign: 'right' }}>
-                M&amp;A Integration &amp; Carve-Outs
+                Strategic Go-to-Market &amp; Expansion
               </h3>
               <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'right' }}>
-                For complex post-merger integrations or strategic divestitures. We manage the
-                intricate process of combining or separating systems, cultures, and operations to
-                maximize value and minimize disruption.
+                Data-driven GTM strategies that drive market penetration. We design and execute
+                go-to-market plans that align product, sales, and marketing to capture share
+                and accelerate revenue growth.
               </p>
               <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: '23px', lineHeight: '140%', color: '#333333', textAlign: 'right' }}>
-                Example Engagements: Resolving post-acquisition technical debt and customer churn
-                (Avolin), strategic divestitures.
+                Example Engagements: New market entry strategy, product launch execution,
+                multi-channel expansion.
               </p>
             </div>
           </div>

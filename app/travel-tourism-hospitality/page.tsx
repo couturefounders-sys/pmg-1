@@ -42,7 +42,7 @@ export default function TravelTourismHospitality() {
           <div 
             className="rounded-full overflow-hidden"
             style={{
-              width: '398px',
+              width: 'clamp(240px, 27.64vw, 398px)',
               height: 'clamp(250px, 25.83vw, 372px)',
             }}
           >
@@ -180,7 +180,7 @@ export default function TravelTourismHospitality() {
                 letterSpacing: '-0.03em',
                 color: '#14358A', }}
               >
-                Growth & Market Strategy
+                Growth & Market Positioning
               </h3>
             </div>
             <p
@@ -551,8 +551,8 @@ export default function TravelTourismHospitality() {
                 style={{
                   background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
                   borderRadius: '10px',
-                  width: '157px',
-                  height: '60px',
+                  width: 'clamp(120px, 10.9vw, 157px)',
+                  height: 'clamp(44px, 4.17vw, 60px)',
                   border: 'none',
                   cursor: 'pointer',
                   fontFamily: 'DM Sans, sans-serif',
@@ -685,8 +685,8 @@ export default function TravelTourismHospitality() {
                 style={{
                   background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
                   borderRadius: '10px',
-                  width: '157px',
-                  height: '60px',
+                  width: 'clamp(120px, 10.9vw, 157px)',
+                  height: 'clamp(44px, 4.17vw, 60px)',
                   border: 'none',
                   cursor: 'pointer',
                   fontFamily: 'DM Sans, sans-serif',
@@ -819,8 +819,8 @@ export default function TravelTourismHospitality() {
                 style={{
                   background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
                   borderRadius: '10px',
-                  width: '157px',
-                  height: '60px',
+                  width: 'clamp(120px, 10.9vw, 157px)',
+                  height: 'clamp(44px, 4.17vw, 60px)',
                   border: 'none',
                   cursor: 'pointer',
                   fontFamily: 'DM Sans, sans-serif',
@@ -842,7 +842,7 @@ export default function TravelTourismHospitality() {
 
         <div className="max-w-[1200px] mx-auto px-4 relative z-10">
           <h2
-            className="text-center whitespace-nowrap mb-10"
+            className="text-center mb-10"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
@@ -933,7 +933,7 @@ export default function TravelTourismHospitality() {
               color: '#14358A',
             }}
           >
-            Partner with PMG for Guest Excellence
+            Ready to Elevate Your Guest Experience?
           </h2>
 
           <p 
@@ -956,8 +956,8 @@ export default function TravelTourismHospitality() {
             style={{
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
               borderRadius: '10px',
-              width: '393px',
-              height: '65px',
+              width: 'clamp(260px, 27.29vw, 393px)',
+              height: 'clamp(48px, 4.51vw, 65px)',
               fontFamily: 'DM Sans, sans-serif',
               fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',

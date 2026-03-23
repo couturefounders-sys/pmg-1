@@ -21,7 +21,7 @@ export default function MergersAcquisitionsConsulting() {
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             color: '#14358A',
-            width: '448px',
+            width: 'min(448px, 100%)',
             margin: '0 auto',
           }}
         >
@@ -150,7 +150,7 @@ export default function MergersAcquisitionsConsulting() {
               color: '#14358A',
               }}
               >
-              Divestitures & Spin-offs
+              Divestiture Support
               </h3>
             </div>
             <p
@@ -942,8 +942,8 @@ export default function MergersAcquisitionsConsulting() {
             style={{
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
               borderRadius: '10px',
-              width: '319px',
-              height: '65px',
+              width: 'clamp(240px, 22.15vw, 319px)',
+              height: 'clamp(48px, 4.51vw, 65px)',
               fontFamily: 'DM Sans, sans-serif',
               fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',

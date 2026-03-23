@@ -252,30 +252,19 @@ export default function WhyFunctionalConsulting() {
               The consulting world is filled with stories of massive investments that lead to little more than a binder on a shelf. Below are just a few of the real frustrations we hear from clients who come to us after working with traditional firms. It's why we built PMG to be different.
             </p>
 
-            {/* Quote Box */}
-            <div
-              className="mb-10 mx-auto"
-              style={{
-                maxWidth: 'min(850px, 95%)',
-                padding: '24px',
-                border: '3px solid #14358A',
-                borderRadius: '10px',
-                backgroundColor: '#FFFFFF',
-              }}
-            >
-              <p
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
-                  lineHeight: '140%',
-                  letterSpacing: '0%',
-                  textAlign: 'center',
-                  color: '#14358A',
-                }}
-              >
-                "PMG didn't just tell us what to do; they rolled up their sleeves and made it happen. That's why they're different."
-              </p>
+            {/* Pain Point Quotes */}
+            <div className="flex flex-col gap-4 mb-10 mx-auto" style={{ maxWidth: 'min(900px, 95%)' }}>
+              {[
+                '"Solutions ignored organizational culture — recommendations were technically sound but faced overwhelming resistance from the people expected to execute them."',
+                '"Heavy reliance on \'best practices\' that worked elsewhere but didn\'t account for our specific competitive environment, customer base, or operational constraints."',
+                '"Solutions ignored frontline realities — the consultants never spoke to the people doing the actual work, so the plan fell apart the moment it hit the ground."',
+              ].map((quote, i) => (
+                <div key={i} style={{ padding: '24px', border: '3px solid #14358A', borderRadius: '10px', backgroundColor: '#FFFFFF' }}>
+                  <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 600, fontSize: 'clamp(15px, 1.53vw, 24px)', lineHeight: '140%', textAlign: 'center', color: '#14358A' }}>
+                    {quote}
+                  </p>
+                </div>
+              ))}
             </div>
 
             <p
@@ -359,6 +348,9 @@ export default function WhyFunctionalConsulting() {
       {/* Feature Cards Section */}
       <div className="relative w-full py-20 bg-white">
         <div className="max-w-[min(1440px,_95%)] mx-auto px-4">
+          <h2 className="text-center font-dm-sans font-bold mb-10" style={{ fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+            The PMG Difference
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[1200px] mx-auto">
             {/* Impact, Not Deliverables */}
             <div

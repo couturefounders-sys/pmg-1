@@ -277,7 +277,7 @@ export default function CustomerExperienceConsulting() {
                 </svg>
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
-              Data Analytics & Reporting
+              Data-Driven Insights & Reporting
               </h3>
             </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
@@ -391,7 +391,7 @@ export default function CustomerExperienceConsulting() {
                   color: '#14358A',
                 }}
               >
-                Uncover Employee Pain Points
+                Uncover Customer Pain Points
               </h3>
               <p
                 style={{
@@ -747,8 +747,8 @@ export default function CustomerExperienceConsulting() {
             style={{
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
               borderRadius: '10px',
-              width: '319px',
-              height: '65px',
+              width: 'clamp(240px, 22.15vw, 319px)',
+              height: 'clamp(48px, 4.51vw, 65px)',
               fontFamily: 'DM Sans, sans-serif',
               fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',

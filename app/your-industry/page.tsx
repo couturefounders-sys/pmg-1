@@ -32,7 +32,7 @@ export default function YourIndustry() {
     },
     {
       title: 'Risk Management & Turnaround',
-      description: 'We fill critical leadership gaps within your portfolio companies with our own seasoned executives, providing stability and driving performance during transitions or high-growth phases.',
+      description: 'For underperforming assets, we provide deep diagnostic and turnaround expertise, stabilizing operations and developing clear pathways back to profitability.',
       icon: '/icon-capital-performance.png'  // Bar chart icon
     },
     {
@@ -171,8 +171,7 @@ export default function YourIndustry() {
               className="font-montserrat font-normal text-[#333333] mx-auto"
               style={{ fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', maxWidth: 'min(1082px, 95%)', textAlign: 'center' }}
             >
-              Our work supports strategy, operations, & transformation—equipping
-              financial leaders with the tools to deliver meaningful change.
+              We equip investment professionals and portfolio company leaders with the tools to create lasting value.
             </p>
           </div>
 
@@ -246,7 +245,7 @@ export default function YourIndustry() {
             <div
               className="bg-white hover:shadow-xl transition-shadow duration-300"
               style={{
-                width: '381px',
+                width: 'clamp(280px, 26.46vw, 381px)',
                 minHeight: '378px',
                 borderRadius: '10px',
                 padding: '24px',
@@ -349,7 +348,7 @@ export default function YourIndustry() {
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '157px',
+                    width: 'clamp(120px, 10.9vw, 157px)',
                     height: '60px',
                     borderRadius: '10px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -366,7 +365,7 @@ export default function YourIndustry() {
             <div
               className="bg-white hover:shadow-xl transition-shadow duration-300"
               style={{
-                width: '381px',
+                width: 'clamp(280px, 26.46vw, 381px)',
                 minHeight: '378px',
                 borderRadius: '10px',
                 padding: '24px',
@@ -466,7 +465,7 @@ export default function YourIndustry() {
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '157px',
+                    width: 'clamp(120px, 10.9vw, 157px)',
                     height: '60px',
                     borderRadius: '10px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -483,7 +482,7 @@ export default function YourIndustry() {
             <div
               className="bg-white hover:shadow-xl transition-shadow duration-300"
               style={{
-                width: '381px',
+                width: 'clamp(280px, 26.46vw, 381px)',
                 minHeight: '378px',
                 borderRadius: '10px',
                 padding: '24px',
@@ -583,7 +582,7 @@ export default function YourIndustry() {
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '157px',
+                    width: 'clamp(120px, 10.9vw, 157px)',
                     height: '60px',
                     borderRadius: '10px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -604,7 +603,7 @@ export default function YourIndustry() {
       <div className="bg-white py-24 px-6">
         <div className="max-w-[min(1440px,_95%)] mx-auto flex flex-col items-center">
           <h2
-            className="text-center whitespace-nowrap mb-10"
+            className="text-center mb-10"
             style={{ 
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
@@ -710,8 +709,8 @@ export default function YourIndustry() {
         <button
           className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
           style={{
-            width: '393px',
-            height: '65px',
+            width: 'clamp(260px, 27.29vw, 393px)',
+            height: 'clamp(48px, 4.51vw, 65px)',
             borderRadius: '10px',
             background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
             fontSize: 'clamp(15px, 1.39vw, 22px)',

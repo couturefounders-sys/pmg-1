@@ -278,6 +278,16 @@ export default function About() {
           >
             Our Core Values
           </h3>
+          <p
+            className="font-montserrat font-normal text-[#333333] mx-auto mb-12"
+            style={{
+              fontSize: 'clamp(18px, 2.08vw, 30px)',
+              lineHeight: 'clamp(24px, 2.5vw, 36px)',
+              maxWidth: 'min(1100px, 90%)'
+            }}
+          >
+            We don&apos;t have core values because they look good on a wall; we have them because they are the filters through which we hire our Embedded Leaders. These principles guide our every action and fuel our pursuit of excellence.
+          </p>
           <div className="mx-auto" style={{ maxWidth: 'min(700px, 90vw)' }}>
             <CoreValuesPentagon />
           </div>
@@ -509,7 +519,7 @@ export default function About() {
         {/* Global Network */}
         <div className="mb-24 text-center px-4 mx-auto" style={{ maxWidth: 'min(1440px, 95%)' }}>
           <h3
-            className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-12"
+            className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-8"
             style={{
               fontSize: 'clamp(28px, 3.33vw, 48px)',
               lineHeight: '105%'
@@ -517,6 +527,16 @@ export default function About() {
           >
             Global Network and Strategic Engagements
           </h3>
+          <p
+            className="font-montserrat font-normal text-[#333333] mx-auto mb-12"
+            style={{
+              fontSize: 'clamp(18px, 2.08vw, 30px)',
+              lineHeight: 'clamp(24px, 2.5vw, 36px)',
+              maxWidth: 'min(1100px, 90%)'
+            }}
+          >
+            Beyond our direct client engagements, PMG is a trusted strategic partner providing essential domain expertise and services across the global professional and startup ecosystem.
+          </p>
           <div className="flex justify-center gap-6 flex-wrap">
             <div className="text-left" style={{ width: 'clamp(380px, 37.22vw, 580px)' }}>
               <div className="w-full mb-6 rounded-lg overflow-hidden shadow-sm" style={{ height: 'clamp(140px, 13.33vw, 192px)' }}>
@@ -594,7 +614,7 @@ export default function About() {
 
           <div className="relative max-w-5xl mx-auto">
             {/* Center Line */}
-            <div className="absolute left-1/2 top-0 bottom-0 w-[4px] bg-[#006FBA] transform -translate-x-1/2 rounded-full"></div>
+            <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-[4px] bg-[#006FBA] transform md:-translate-x-1/2 rounded-full"></div>
 
             {/* Timeline Items */}
             <div className="relative z-10 space-y-24">
@@ -609,24 +629,28 @@ export default function About() {
                 { date: "January 2020", text: "PMG expands into the U.S. market, overseeing a 15-location restaurant group in New York." },
                 { date: "February 2020", text: "PMG launches a COVID-19 Resiliency Program, helping hotels and restaurants navigate unprecedented challenges." },
                 { date: "April 2020", text: "Appointed as lead project manager for a hotel in Dubai, PMG establishes its global consulting footprint." },
+                { date: "June 2020", text: "To maximize industry recovery, PMG runs its enhanced COVID-19 support program at cost." },
+                { date: "October 2020", text: "Now serving over 50 clients across 60+ locations, PMG becomes a North American industry leader." },
                 { date: "March 2021", text: "PMG launches M&A advisory services, guiding clients through complex transactions and restructurings." },
                 { date: "July 2021", text: "Investing in talent, PMG launches an accelerated GM training program to cultivate future industry leaders." },
                 { date: "May 2022", text: "Having supported over $100M in M&A deals, PMG solidifies its reputation as a trusted transaction partner." },
                 { date: "October 2022", text: "PMG partners with a private equity group to launch three luxury hotels in South Africa, expanding our global impact." },
-                { date: "February 2022", text: "Shifting to functional consulting, PMG leverages deep specialization to deliver superior, data-driven results." },
+                { date: "February 2023", text: "Shifting to functional consulting, PMG leverages deep specialization to deliver superior, data-driven results." },
                 { date: "April 2023", text: "PMG achieves a 20x client ROI for large-scale projects, setting a new industry benchmark for value." },
                 { date: "September 2023", text: "Operating in over a dozen countries on four continents, PMG's brand recognition and global presence grow." },
                 { date: "January 2024", text: "PMG publishes its revolutionary Sector Convergence Model, accelerating timelines and maximizing client ROI." },
                 { date: "April 2024", text: "Evolving into a full-service leader, PMG expands its functional consulting services to meet diverse client needs." },
+                { date: "May 2024", text: "PMG dedicates over $250K annually in pro-bono consulting, reaffirming our commitment to community impact." },
+                { date: "December 2024", text: "PMG becomes the trusted white-label partner for top-tier consulting firms, delivering expert knowledge management." },
                 { date: "July 2025", text: "PMG relaunches its service suite, redesigning our offerings to deliver even greater value and expertise to our clients." },
-                { date: "September 2025", text: "PMG relaunches its brand, focusing on the core principles that have always set it apart while making new investments in its public presence to directly compete with larger, established consulting firms." }
+                { date: "September 2025", text: "PMG relaunches its brand, focusing on the core principles that have always set it apart while making new investments in its public presence to directly compete with larger, established consulting firms. Learn more about the next stage of PMG →" }
               ].map((item, index) => (
-                <div key={index} className={`flex items-center w-full ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
+                <div key={index} className={`flex items-center w-full flex-row md:${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
                   {/* Content Box */}
-                  <div className={`w-1/2 ${index % 2 === 0 ? 'pr-16 text-right' : 'pl-16 text-left'} relative`}>
+                  <div className={`w-full md:w-1/2 ${index % 2 === 0 ? 'pl-12 md:pl-0 md:pr-16 text-left md:text-right' : 'pl-12 md:pl-16 text-left'} relative`}>
                     {/* Shadow/Offset Box */}
                     <div
-                      className={`absolute ${index % 2 === 0 ? 'right-[50px] top-[8px]' : 'left-[50px] top-[8px]'} w-full h-full`}
+                      className={`absolute hidden md:block ${index % 2 === 0 ? 'right-[50px] top-[8px]' : 'left-[50px] top-[8px]'} w-full h-full`}
                       style={{
                         maxWidth: 'min(412px, 90%)',
                         border: '3px solid #006FBA',
@@ -672,15 +696,15 @@ export default function About() {
                   </div>
 
                   {/* Center Dot */}
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-[#006FBA] border-4 border-white shadow-sm z-20"></div>
+                  <div className="absolute left-4 md:left-1/2 transform -translate-x-1/2 w-6 h-6 md:w-8 md:h-8 rounded-full bg-[#006FBA] border-4 border-white shadow-sm z-20"></div>
 
                   {/* Empty Space for Balance */}
-                  <div className="w-1/2"></div>
+                  <div className="hidden md:block w-1/2"></div>
                 </div>
               ))}
             </div>
             {/* End Cap */}
-            <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 w-[4px] h-12 bg-[#006FBA]"></div>
+            <div className="absolute left-4 md:left-1/2 bottom-0 transform md:-translate-x-1/2 w-[4px] h-12 bg-[#006FBA]"></div>
           </div>
         </div>
       </div>

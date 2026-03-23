@@ -375,7 +375,7 @@ export default function OutOfTheBoxSolutions() {
         <div className="max-w-[min(1300px,_95%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
             <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '0' }}>
-              Which Solution Is Right for u?
+              Which Solution Is Right for You?
             </h2>
           </div>
 

@@ -21,7 +21,7 @@ export default function IOArchitectureModelPage() {
               marginBottom: '16px',
             }}
           >
-            The I-O Model of Enterprise Architecture
+            The Input-Output Model of Enterprise Architecture
           </p>
           <h1
             style={{
@@ -124,7 +124,7 @@ export default function IOArchitectureModelPage() {
               },
               {
                 problem: {
-                  title: '1. Undefined Team Scope (The Boundary Problem)',
+                  title: '2. Procedural Drift (The Process Problem)',
                   body: 'Workflows, error handling, and quality checks are treated as soft guidelines. Processes drift based on individual discretion or urgency, making results inconsistent and prohibiting reliable automation.',
                   risk: 'Risk: Systemic Inconsistency: Without an immutable process, products and services vary widely in quality, eroding customer trust and inflating operational overhead.',
                 },
@@ -148,7 +148,7 @@ export default function IOArchitectureModelPage() {
               },
               {
                 problem: {
-                  title: '1. Undefined Team Scope (The Boundary Problem)',
+                  title: '4. Undocumented Fixes (The Hero Problem)',
                   body: 'Organizational gaps and input rejections are often picked up by an unofficial Single Point of Failure (SPOF) person who manually patches the workflow, bypassing formal processes and logging.',
                   risk: 'Risk: Unaccounted Risk: This creates immense, unquantifiable technical debt. Leadership does not know how many fixes exist, who owns them, or what systemic flaws they are masking, leading to sudden, catastrophic failure upon the hero\'s absence.',
                 },
@@ -159,7 +159,7 @@ export default function IOArchitectureModelPage() {
                 },
               },
             ].map((row, i) => (
-              <div key={i} style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
+              <div key={i} className="grid grid-cols-1 md:grid-cols-2" style={{ gap: '20px' }}>
                 {/* Left — Problem box (red.png as full background) */}
                 <div style={{ position: 'relative', overflow: 'hidden', borderRadius: '16px', textAlign: 'center', width: '597px', minHeight: '382px', maxWidth: '100%' }}>
                   <img

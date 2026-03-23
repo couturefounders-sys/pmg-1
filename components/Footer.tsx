@@ -10,9 +10,8 @@ export default function Footer() {
     >
       <div style={{ maxWidth: 'min(92%, 2200px)', margin: '0 auto', paddingLeft: 'clamp(24px, 5.2vw, 80px)', paddingRight: 'clamp(16px, 2vw, 40px)' }}>
         <div
+          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5"
           style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(5, 1fr)',
             gap: 'clamp(16px, 2.2vw, 40px)'
           }}
         >

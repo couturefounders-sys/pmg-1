@@ -22,7 +22,7 @@ export default function BrandingMarketingConsulting() {
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             color: '#14358A',
-            width: '428px',
+            width: 'min(428px, 100%)',
             margin: '0 auto',
           }}
         >
@@ -103,10 +103,10 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <Image src="/oo.png" alt="Change Measurement & Evaluation" width={32} height={32} style={{ objectFit: 'contain' }} />
+                <Image src="/oo.png" alt="Brand Loyalty & Advocacy" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
-              Change Measurement & Evaluation
+              Brand Loyalty & Advocacy
               </h3>
             </div>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
@@ -658,7 +658,7 @@ export default function BrandingMarketingConsulting() {
               color: '#14358A',
             }}
           >
-            Ready to Convert Talent Strategy into Measurable ROI?
+            Ready to Convert Your Brand Strategy into Maximum ROI?
           </h2>
 
           <p
@@ -681,8 +681,8 @@ export default function BrandingMarketingConsulting() {
             style={{
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
               borderRadius: '10px',
-              width: '319px',
-              height: '65px',
+              width: 'clamp(240px, 22.15vw, 319px)',
+              height: 'clamp(48px, 4.51vw, 65px)',
               fontFamily: 'DM Sans, sans-serif',
               fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',

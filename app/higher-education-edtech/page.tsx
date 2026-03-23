@@ -42,7 +42,7 @@ export default function HigherEducationEdTech() {
           <div 
             className="rounded-full overflow-hidden"
             style={{
-              width: '398px',
+              width: 'clamp(240px, 27.64vw, 398px)',
               height: 'clamp(250px, 25.83vw, 372px)',
             }}
           >
@@ -149,7 +149,7 @@ export default function HigherEducationEdTech() {
             padding: '0 2rem'
           }}
         >
-          Our work supports strategy, operations, & transformation—equipping financial leaders with the tools to deliver meaningful change.
+          Our work supports strategy, operations, & transformation—equipping education leaders with the tools to deliver meaningful change.
         </p>
 
         {/* Cards Grid */}
@@ -201,11 +201,11 @@ export default function HigherEducationEdTech() {
                   className="font-bold mb-3"
                   style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
                 >
-                  Operational Efficiency
+                  Governance & Operational Excellence
                 </h3>
               </div>
 
-              <p 
+              <p
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontSize: 'clamp(12px, 1.04vw, 17px)',
@@ -213,7 +213,7 @@ export default function HigherEducationEdTech() {
                   color: '#68718B'
                 }}
               >
-                Support efficiency initiatives through process optimization, performance measurement, and resource allocation, enabling departments to do more with less.
+                Strengthen governance structures and optimize institutional operations to improve decision-making, accountability, and resource efficiency.
               </p>
             </div>
 
@@ -232,11 +232,11 @@ export default function HigherEducationEdTech() {
                   className="font-bold mb-3"
                   style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
                 >
-                  Digital Government & Service Transformation
+                  Student Experience & Outcomes
                 </h3>
               </div>
 
-              <p 
+              <p
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontSize: 'clamp(12px, 1.04vw, 17px)',
@@ -244,7 +244,7 @@ export default function HigherEducationEdTech() {
                   color: '#68718B'
                 }}
               >
-                Design and implement digital platforms, data strategies, and user-centered services to significantly improve citizen accessibility and satisfaction.
+                Design and implement strategies that enhance the student experience, improve retention, and drive measurable improvements in learning outcomes.
               </p>
             </div>
 
@@ -356,11 +356,11 @@ export default function HigherEducationEdTech() {
                   className="font-bold mb-3"
                   style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
                 >
-                  Program Evaluation & Impact Measurement
+                  International Strategy
                 </h3>
               </div>
 
-              <p 
+              <p
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontSize: 'clamp(12px, 1.04vw, 17px)',
@@ -368,7 +368,7 @@ export default function HigherEducationEdTech() {
                   color: '#68718B'
                 }}
               >
-                Design and implement frameworks to rigorously measure program outcomes, evaluate efficacy, and ensure government investments deliver meaningful community impact.
+                Develop and execute international strategies for student recruitment, global partnerships, and cross-border program delivery to expand institutional reach.
               </p>
             </div>
 
@@ -815,7 +815,7 @@ export default function HigherEducationEdTech() {
               color: '#14358A',
             }}
           >
-            Partner with PMG to Transform Education
+            Partner with PMG to Shape the Future
           </h2>
 
           <p 
@@ -838,8 +838,8 @@ export default function HigherEducationEdTech() {
             style={{
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
               borderRadius: '10px',
-              width: '393px',
-              height: '65px',
+              width: 'clamp(260px, 27.29vw, 393px)',
+              height: 'clamp(48px, 4.51vw, 65px)',
               fontFamily: 'DM Sans, sans-serif',
               fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',

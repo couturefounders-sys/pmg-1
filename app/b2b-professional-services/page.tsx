@@ -39,8 +39,8 @@ export default function B2BProfessionalServices() {
           <div
             className="rounded-full overflow-hidden"
             style={{
-              width: '416px',
-              height: 'clamp(270px, 29.44vw, 424px)',
+              width: 'clamp(240px, 28.89vw, 416px)',
+              height: 'clamp(240px, 29.44vw, 424px)',
             }}
           >
             <img
@@ -402,8 +402,8 @@ export default function B2BProfessionalServices() {
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '157px',
-                    height: '60px',
+                    width: 'clamp(120px, 10.9vw, 157px)',
+                    height: 'clamp(44px, 4.17vw, 60px)',
                     borderRadius: '10px',
                     padding: '16px 32px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -502,8 +502,8 @@ export default function B2BProfessionalServices() {
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '157px',
-                    height: '60px',
+                    width: 'clamp(120px, 10.9vw, 157px)',
+                    height: 'clamp(44px, 4.17vw, 60px)',
                     borderRadius: '10px',
                     padding: '16px 32px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -602,8 +602,8 @@ export default function B2BProfessionalServices() {
                 <button
                   className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
                   style={{
-                    width: '157px',
-                    height: '60px',
+                    width: 'clamp(120px, 10.9vw, 157px)',
+                    height: 'clamp(44px, 4.17vw, 60px)',
                     borderRadius: '10px',
                     padding: '16px 32px',
                     background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -628,7 +628,7 @@ export default function B2BProfessionalServices() {
       <div className="bg-white py-24 px-6">
         <div className="max-w-[min(1440px,_95%)] mx-auto flex flex-col items-center">
           <h2
-            className="text-center whitespace-nowrap mb-10"
+            className="text-center mb-10"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
@@ -651,7 +651,7 @@ export default function B2BProfessionalServices() {
                 color: '#333333',
               }}
             >
-              The public sector operates under unique scrutiny. Generalist consulting often applies private-sector playbooks that fail because they ignore the complex political, legislative, and accountability constraints of government. The result is a well-intentioned but ultimately impractical strategy that gets bogged down in implementation.
+              Professional services firms face a unique paradox: the expertise that drives revenue is the same resource that is hardest to scale. Generalist consultants often apply one-size-fits-all operational frameworks that fail to account for the relationship-driven, knowledge-intensive nature of professional work. Their recommendations often undermine the very quality that differentiates your firm.
             </p>
             <p
               style={{
@@ -662,7 +662,7 @@ export default function B2BProfessionalServices() {
                 color: '#333333',
               }}
             >
-              PMG&apos;s model ensures accountability and practical delivery. We deploy specialists in functions like fiscal management, digital service transformation, and efficient procurement who adapt proven, world-class operational frameworks to the public context. We deliver solutions that are not only innovative and efficient but are also transparent, legally compliant, and designed for political viability and citizen adoption.
+              PMG&apos;s model delivers precision without compromise. We deploy specialists in functions like service delivery optimization, talent management, and client lifecycle strategy who understand that efficiency must enhance, not erode, quality. They embed proven operational frameworks that protect your margins while scaling your capacity to deliver excellence.
             </p>
           </div>
 
@@ -691,7 +691,7 @@ export default function B2BProfessionalServices() {
                 textDecoration: 'none',
               }}
             >
-              Discover why our execution-focused model generates superior returns across the investment lifecycle and asset classes.
+              Discover how our functional experts help professional firms scale expertise without compromising quality.
               <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 1L7 7L1 13" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
@@ -728,13 +728,13 @@ export default function B2BProfessionalServices() {
             maxWidth: 'min(1196px, 95%)'
           }}
         >
-          Let&apos;s discuss how PMG can help you enhance efficiency, delight your guests, and drive profitability.
+          Let&apos;s discuss how PMG can help you enhance efficiency, scale expertise, and drive profitability.
         </p>
         <button
           className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
           style={{
-            width: '393px',
-            height: '65px',
+            width: 'clamp(260px, 27.29vw, 393px)',
+            height: 'clamp(48px, 4.51vw, 65px)',
             borderRadius: '10px',
             background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
             fontSize: 'clamp(15px, 1.39vw, 22px)',

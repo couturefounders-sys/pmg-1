@@ -15,7 +15,7 @@ export default function OurFunctionalAreas() {
             fontFamily: 'Poppins, sans-serif',
             fontWeight: 600,
             fontSize: 'clamp(28px, 3.47vw, 56px)',
-            lineHeight: '61.33px',
+            lineHeight: '110%',
             letterSpacing: '0%',
             color: '#14358A',
             maxWidth: 'min(778px, 95%)',
@@ -46,8 +46,8 @@ export default function OurFunctionalAreas() {
           style={{
             background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
             borderRadius: '10px',
-            width: '393px',
-            height: '65px',
+            width: 'clamp(280px, 27.29vw, 393px)',
+            height: 'clamp(48px, 4.51vw, 65px)',
             border: 'none',
             cursor: 'pointer',
             fontFamily: 'DM Sans, sans-serif',
@@ -56,7 +56,7 @@ export default function OurFunctionalAreas() {
             lineHeight: '140%',
           }}
         >
-          See why PMG is the right choice
+          See why PMG is the Right Choice
         </button>
       </div>
 
@@ -552,7 +552,7 @@ export default function OurFunctionalAreas() {
               fontFamily: 'Poppins, sans-serif',
               fontWeight: 600,
               fontSize: 'clamp(28px, 3.47vw, 56px)',
-              lineHeight: '61.33px',
+              lineHeight: '110%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#14358A',
@@ -588,7 +588,7 @@ export default function OurFunctionalAreas() {
             style={{
               border: '3px solid #14358A',
               minHeight: '335px',
-              width: '519px',
+              width: 'min(519px, 100%)',
               paddingLeft: '28px',
               paddingTop: '26px',
               paddingRight: '10px',
@@ -664,7 +664,7 @@ export default function OurFunctionalAreas() {
             style={{
               border: '3px solid #14358A',
               minHeight: '335px',
-              width: '519px',
+              width: 'min(519px, 100%)',
               paddingLeft: '28px',
               paddingTop: '26px',
               paddingRight: '10px',
@@ -740,7 +740,7 @@ export default function OurFunctionalAreas() {
             style={{
               border: '3px solid #14358A',
               minHeight: '335px',
-              width: '519px',
+              width: 'min(519px, 100%)',
               paddingLeft: '28px',
               paddingTop: '26px',
               paddingRight: '10px',
@@ -816,7 +816,7 @@ export default function OurFunctionalAreas() {
             style={{
               border: '3px solid #14358A',
               minHeight: '335px',
-              width: '519px',
+              width: 'min(519px, 100%)',
               paddingLeft: '28px',
               paddingTop: '26px',
               paddingRight: '10px',
@@ -934,8 +934,8 @@ export default function OurFunctionalAreas() {
             style={{
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
               borderRadius: '10px',
-              width: '319px',
-              height: '65px',
+              width: 'clamp(240px, 22.15vw, 319px)',
+              height: 'clamp(48px, 4.51vw, 65px)',
               border: 'none',
               cursor: 'pointer',
               fontFamily: 'DM Sans, sans-serif',

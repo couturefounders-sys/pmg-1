@@ -15,7 +15,8 @@ export default function HeroSection() {
         ref={heroRef}
         className="hero-section relative w-full"
         style={{
-          height: '76vh',
+          height: 'clamp(500px, 76vh, 900px)',
+          minHeight: '500px',
           backgroundColor: '#1e3a8a',
         }}
       >
@@ -36,7 +37,7 @@ export default function HeroSection() {
         <div
           className="relative z-10 flex flex-col items-center w-full"
           style={{
-            paddingTop: 'max(100px, 26.4vh)',
+            paddingTop: 'clamp(80px, 26.4vh, 260px)',
             paddingLeft: '4vw',
             paddingRight: '4vw',
           }}
@@ -93,7 +94,7 @@ export default function HeroSection() {
                 paddingBottom: 'max(12px, 1.39vw)',
                 paddingLeft: 'max(20px, 2.78vw)',
                 paddingRight: 'max(20px, 2.78vw)',
-                minWidth: 'max(200px, 27.5vw)',
+                minWidth: 'clamp(200px, 27.5vw, 400px)',
                 height: 'max(44px, 4.44vw)',
                 border: 'none',
                 cursor: 'pointer',
@@ -117,7 +118,7 @@ export default function HeroSection() {
                 paddingLeft: 'max(20px, 2.78vw)',
                 paddingRight: 'max(20px, 2.78vw)',
                 gap: 'max(3px, 0.28vw)',
-                minWidth: 'max(180px, 23.96vw)',
+                minWidth: 'clamp(180px, 23.96vw, 360px)',
                 height: 'max(44px, 4.44vw)',
                 background: 'transparent',
                 cursor: 'pointer',
@@ -125,7 +126,7 @@ export default function HeroSection() {
                 borderRadius: '10px',
               }}
             >
-              Explore Strategic solutions
+              Explore Strategic Solutions
               <svg
                 style={{
                   width: 'max(14px, 1.39vw)',

@@ -11,9 +11,9 @@ export default function OurSolutions() {
     },
     {
       icon: '/icon-operations.png',
-      title: 'Operations & Strategy',
-      subtitle: 'For Common Problems & Results',
-      description: 'Fully customized strategies and hands-on implementation designed for your most complex, high-stakes organizational and operational challenges.',
+      title: 'Out-of-the-Box Solutions',
+      subtitle: 'For Common Problems & Rapid Results',
+      description: 'Accelerated, ready-to-deploy frameworks and toolkits designed to rapidly address common business inefficiencies and operational gaps.',
     },
     {
       icon: '/icon-equity.png',
@@ -24,7 +24,7 @@ export default function OurSolutions() {
     {
       icon: '/icon-active.png',
       title: 'Active Management',
-      subtitle: 'For Hands-On Execution & Leaders',
+      subtitle: 'For Hands-On Execution & Leadership',
       description: 'Placements of executive operators directly into key management roles to drive immediate, sustained success and build internal capability from within.',
     },
   ];
@@ -785,7 +785,17 @@ export default function OurSolutions() {
             <img src="/left_side_our_accountability.png" alt="" style={{ width: 'clamp(400px, 50vw, 720px)', height: 'auto', marginLeft: 'clamp(-100px, -6.94vw, -40px)', marginTop: 'clamp(12px, 1.39vw, 20px)' }} />
 
             {/* Right Side - Average Heart ROI */}
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center gap-6">
+              {[
+                { title: 'Clear Success Metrics', desc: 'We define 3–5 key performance indicators before engagement begins.' },
+                { title: 'Monthly Progress Reviews', desc: 'Transparent reporting against agreed milestones and metrics.' },
+                { title: 'Risk-Sharing Mechanisms', desc: 'Our equity and milestone-based models align incentives with outcomes.' },
+              ].map((item) => (
+                <div key={item.title} style={{ maxWidth: 'min(340px, 90%)', textAlign: 'center' }}>
+                  <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', color: '#14358A', marginBottom: '4px' }}>{item.title}</p>
+                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 16px)', lineHeight: '150%', color: '#333333' }}>{item.desc}</p>
+                </div>
+              ))}
               <h3
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
@@ -794,6 +804,7 @@ export default function OurSolutions() {
                   lineHeight: '120%',
                   color: '#14358A',
                   marginBottom: 'clamp(14px, 1.67vw, 24px)',
+                  marginTop: 'clamp(8px, 0.83vw, 12px)',
                 }}
               >
                 Average Client ROI
