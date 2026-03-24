@@ -43,11 +43,10 @@ export default function OurSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(18px, 2.01vw, 32px)',
+                fontSize: 'clamp(14px, 1.25vw, 20px)',
                 lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
-                marginBottom: 'clamp(12px, 1.39vw, 20px)',
+                color: '#000000',
+                marginBottom: 'clamp(8px, 0.83vw, 12px)',
               }}
             >
               Customized Excellence
@@ -208,7 +207,7 @@ export default function OurSolutions() {
                     marginTop: 'clamp(14px, 1.67vw, 24px)',
                   }}
                 >
-                  Bespoke Solutions
+                  {card.title}
                   <span style={{ fontSize: 'clamp(15px, 1.46vw, 23px)' }}>&rsaquo;</span>
                 </a>
               </div>

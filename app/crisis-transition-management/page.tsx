@@ -11,8 +11,8 @@ export default function CrisisTransitionManagement() {
 
       {/* Hero Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto text-center" style={{ paddingTop: 'clamp(100px, 9.86vw, 142px)' }}>
-        <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', margin: '0 auto' }}>
-          Crisis & Transition Management
+        <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '105%', color: '#000000', margin: '0 auto 1rem' }}>
+          Crisis &amp; Transition Management
         </p>
         <h1 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', textAlign: 'center', color: '#14358A', width: '1224px', maxWidth: '100%', margin: '37px auto 0 auto' }}>
           Navigating Uncertainty with Decisive Leadership

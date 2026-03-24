@@ -14,17 +14,14 @@ export default function StrategyOperationsConsulting() {
 
         {/* Subheading */}
         <p
-          className="mb-4"
+          className="mb-4 font-dm-sans font-bold"
           style={{
-            fontFamily: 'DM Sans, sans-serif',
-            fontWeight: 700,
-            fontSize: 'clamp(18px, 2.01vw, 33px)',
+            fontSize: 'clamp(14px, 1.25vw, 20px)',
             lineHeight: '105%',
-            letterSpacing: '-0.03em',
-            color: '#14358A',
+            color: '#000000',
           }}
         >
-          Strategy & Operations Consulting
+          Strategy &amp; Operations Consulting
         </p>
 
         {/* Main Heading */}

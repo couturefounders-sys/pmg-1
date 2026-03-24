@@ -13,6 +13,7 @@ export default function SaaSEnterpriseTechnology() {
 
         {/* Left Content */}
         <div className="flex flex-col gap-8 max-w-[min(803px,_90%)] z-10">
+          <p className="font-dm-sans font-bold mb-2" style={{ fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '105%', color: '#000000' }}>SaaS &amp; Enterprise Technology</p>
           <h1
             className="font-dm-sans font-bold text-[#14358A]"
             style={{

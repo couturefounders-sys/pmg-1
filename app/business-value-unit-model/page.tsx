@@ -11,11 +11,11 @@ export default function BusinessValueUnitModelPage() {
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <p
             style={{
-              fontFamily: 'Montserrat, sans-serif',
+              fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(12px, 1.11vw, 16px)',
-              letterSpacing: '0.04em',
-              color: '#14358A',
+              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              lineHeight: '105%',
+              color: '#000000',
               marginBottom: 'clamp(12px, 1.11vw, 16px)',
             }}
           >
@@ -718,12 +718,11 @@ export default function BusinessValueUnitModelPage() {
         <div className="max-w-[680px] mx-auto flex flex-col items-center text-center">
           <p
             style={{
-              fontFamily: 'Montserrat, sans-serif',
+              fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(11px, 0.97vw, 16px)',
-              letterSpacing: '0.06em',
-              color: '#14358A',
-              textTransform: 'uppercase',
+              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              lineHeight: '105%',
+              color: '#000000',
               marginBottom: '12px',
             }}
           >

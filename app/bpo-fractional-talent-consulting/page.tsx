@@ -12,17 +12,15 @@ export default function BpoFractionalTalentConsulting() {
       {/* Hero Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto text-center" style={{ paddingTop: 'clamp(100px, 9.86vw, 142px)' }}>
         <p
+          className="font-dm-sans font-bold mb-4"
           style={{
-            fontFamily: 'DM Sans, sans-serif',
-            fontWeight: 700,
-            fontSize: 'clamp(18px, 2.01vw, 33px)',
+            fontSize: 'clamp(14px, 1.25vw, 20px)',
             lineHeight: '105%',
-            letterSpacing: '-0.03em',
-            color: '#14358A',
-            margin: '0 auto',
+            color: '#000000',
+            margin: '0 auto 1rem',
           }}
         >
-          BPO & Fractional Talent Consulting
+          BPO &amp; Fractional Talent Consulting
         </p>
 
         <h1

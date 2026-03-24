@@ -15,13 +15,13 @@ export default function Home() {
           Trusted as a strategic partner to global leaders, accelerators, and the &ldquo;Big 4.&rdquo;
         </p>
 
-        <h2 className="text-center font-dm-sans font-bold" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(8px, 0.83vw, 16px)' }}>
+        <p className="text-center font-dm-sans font-bold" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '105%', letterSpacing: '-0.01em', color: '#1a1a2e', marginBottom: 'clamp(8px, 0.83vw, 16px)' }}>
           Our Expertise
-        </h2>
+        </p>
 
-        <h3 className="text-center font-dm-sans font-semibold" style={{ fontSize: 'clamp(16px, 1.67vw, 28px)', lineHeight: '120%', color: '#14358A', marginBottom: 'clamp(12px, 1.25vw, 20px)' }}>
+        <h2 className="text-center font-dm-sans font-bold" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(12px, 1.25vw, 20px)' }}>
           What We Help With
-        </h3>
+        </h2>
 
         <p className="text-center font-montserrat font-medium" style={{ fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '120%', color: '#333333', maxWidth: 'min(1342px, 90%)', margin: '0 auto', marginBottom: 'clamp(24px, 3vw, 48px)', padding: '0 2rem' }}>
           As functional consultants, we offer targeted expertise across key business areas to drive tangible results.
@@ -85,6 +85,17 @@ export default function Home() {
             <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '1.2', color: '#14358A', marginBottom: 'clamp(4px, 0.56vw, 10px)' }}>84%</p>
             <p className="font-poppins font-normal text-center" style={{ fontSize: 'clamp(13px, 1.25vw, 20px)', lineHeight: '1.5', color: '#000' }}>Client Satisfaction</p>
           </div>
+        </div>
+
+        <div className="flex items-center justify-center flex-wrap" style={{ gap: 'clamp(12px, 1.39vw, 20px)', marginTop: 'clamp(32px, 3.5vw, 64px)' }}>
+          <button className="text-white font-poppins font-semibold hover:opacity-90 transition-opacity flex items-center gap-3" style={{ background: '#14358A', border: '2px solid #14358A', borderRadius: '82px', padding: 'clamp(12px, 1.39vw, 22px) clamp(24px, 3.47vw, 54px)', fontSize: 'clamp(14px, 1.25vw, 20px)' }}>
+            Learn Why We&apos;re Different
+            <span style={{ fontSize: '1.1em' }}>→</span>
+          </button>
+          <button className="font-poppins font-semibold hover:bg-gray-50 transition-colors flex items-center gap-3" style={{ background: 'transparent', border: '2px solid #D1D5DB', borderRadius: '82px', padding: 'clamp(12px, 1.39vw, 22px) clamp(24px, 3.47vw, 54px)', fontSize: 'clamp(14px, 1.25vw, 20px)', color: '#1a1a2e' }}>
+            Our Execution-First Model
+            <span style={{ fontSize: '1.1em' }}>→</span>
+          </button>
         </div>
       </div>
 

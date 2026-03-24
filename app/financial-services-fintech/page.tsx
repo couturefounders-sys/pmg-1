@@ -17,6 +17,7 @@ export default function FinancialServicesFinTech() {
           {/* Left Content */}
           <div className="flex flex-col gap-6 z-10 w-full lg:max-w-[calc(100%-clamp(300px,30vw,440px)-3rem)]">
             {/* Heading */}
+            <p className="font-dm-sans font-bold mb-2" style={{ fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '105%', color: '#000000' }}>Financial Services &amp; FinTech</p>
             <h1
               className="font-dm-sans font-bold"
               style={{

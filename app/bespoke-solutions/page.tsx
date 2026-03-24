@@ -44,12 +44,11 @@ export default function BespokeSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.01vw, 33px)',
+              fontSize: 'clamp(14px, 1.25vw, 20px)',
               lineHeight: '105%',
-              letterSpacing: '-0.03em',
-              color: '#14358A',
+              color: '#000000',
               textAlign: 'center',
-              marginBottom: '20px',
+              marginBottom: '12px',
             }}
           >
             Bespoke Solutions

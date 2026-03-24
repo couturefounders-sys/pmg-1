@@ -12,6 +12,7 @@ export default function B2BProfessionalServices() {
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 sm:px-[clamp(24px,8.19vw,118px)] pt-[clamp(120px,13.89vw,200px)] pb-24 flex flex-col lg:flex-row justify-between items-start gap-12">
         {/* Left Content */}
         <div className="flex flex-col gap-8 max-w-[740px] z-10">
+          <p className="font-dm-sans font-bold mb-2" style={{ fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '105%', color: '#000000' }}>B2B &amp; Professional Services</p>
           <h1
             className="font-dm-sans font-bold text-[#14358A]"
             style={{

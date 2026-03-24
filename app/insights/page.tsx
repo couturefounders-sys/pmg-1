@@ -11,11 +11,11 @@ export default function InsightsPage() {
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <p
             style={{
-              fontFamily: 'Montserrat, sans-serif',
+              fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(13px, 1.11vw, 18px)',
-              letterSpacing: '0.04em',
-              color: '#14358A',
+              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              lineHeight: '105%',
+              color: '#000000',
               marginBottom: '16px',
             }}
           >

@@ -13,12 +13,12 @@ export default function OutOfTheBoxSolutions() {
           {/* Eyebrow */}
           <p
             style={{
-              fontFamily: 'Montserrat, sans-serif',
+              fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(13px, 1.11vw, 18px)',
-              letterSpacing: '0.04em',
-              color: '#14358A',
-              marginBottom: '14px',
+              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              lineHeight: '105%',
+              color: '#000000',
+              marginBottom: '12px',
             }}
           >
             The PMG Foundry

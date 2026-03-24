@@ -41,7 +41,11 @@
       "WebFetch(domain:pmg-v0.vercel.app)",
       "Bash(sed -i '' \"s/width: '381px'/width: 'clamp\\(280px, 26.46vw, 381px\\)'/g\" app/financial-services-fintech/page.tsx && sed -i '' \"s/width: '393px'/width: 'clamp\\(260px, 27.29vw, 393px\\)'/g\" app/financial-services-fintech/page.tsx && sed -i '' \"s/height: '65px'/height: 'clamp\\(48px, 4.51vw, 65px\\)'/g\" app/financial-services-fintech/page.tsx && sed -i '' \"s/width: '157px'/width: 'clamp\\(120px, 10.9vw, 157px\\)'/g\" app/financial-services-fintech/page.tsx && sed -i '' \"s/height: '60px'/height: 'clamp\\(44px, 4.17vw, 60px\\)'/g\" app/financial-services-fintech/page.tsx)",
       "Bash(for f:*)",
-      "Bash(sed -i '' \"s/width: '428px',/width: 'min\\(428px, 100%\\)',/g\" app/branding-marketing-consulting/page.tsx\nsed -i '' \"s/width: '448px',/width: 'min\\(448px, 100%\\)',/g\" app/mergers-acquisitions-consulting/page.tsx\necho \"Done\")"
+      "Bash(sed -i '' \"s/width: '428px',/width: 'min\\(428px, 100%\\)',/g\" app/branding-marketing-consulting/page.tsx\nsed -i '' \"s/width: '448px',/width: 'min\\(448px, 100%\\)',/g\" app/mergers-acquisitions-consulting/page.tsx\necho \"Done\")",
+      "Bash(brew install:*)",
+      "Bash(textutil -convert txt \"/Users/teja/pmg_final-v/pmg-z/difference in pmg.docx\" -output \"/Users/teja/pmg_final-v/pmg-z/difference_in_pmg.txt\")",
+      "Bash(which pdftoppm:*)",
+      "Bash(pdftotext \"/Users/teja/pmg_final-v/pmg-z/PMG differences.pdf\" -)"
     ]
   },
   "enabledPlugins": {

@@ -14,18 +14,15 @@ export default function MergersAcquisitionsConsulting() {
 
         {/* Subheading */}
         <p
+          className="font-dm-sans font-bold mb-4"
           style={{
-            fontFamily: 'DM Sans, sans-serif',
-            fontWeight: 700,
-            fontSize: 'clamp(18px, 2.01vw, 33px)',
+            fontSize: 'clamp(14px, 1.25vw, 20px)',
             lineHeight: '105%',
-            letterSpacing: '-0.03em',
-            color: '#14358A',
-            width: 'min(448px, 100%)',
-            margin: '0 auto',
+            color: '#000000',
+            margin: '0 auto 1rem',
           }}
         >
-          Mergers & Acquisitions Consulting
+          Mergers &amp; Acquisitions Consulting
         </p>
 
         {/* Main Heading */}

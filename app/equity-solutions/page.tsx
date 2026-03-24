@@ -16,13 +16,12 @@ export default function EquitySolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.01vw, 33px)',
+              fontSize: 'clamp(14px, 1.25vw, 20px)',
               fontStyle: 'normal',
               lineHeight: '105%',
-              letterSpacing: '-0.03em',
-              color: '#14358A',
+              color: '#000000',
               textAlign: 'center',
-              marginBottom: '20px',
+              marginBottom: '12px',
             }}
           >
             Equity Solutions
@@ -1212,6 +1211,82 @@ export default function EquitySolutions() {
                 Begin Application
               </button>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Section 11: Frequently Asked Questions ─── */}
+      <section className="w-full py-14 lg:py-20 px-4 sm:px-6" style={{ background: '#FFFFFF' }}>
+        <div className="max-w-[min(900px,_90%)] mx-auto">
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 48px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'center', marginBottom: 'clamp(32px, 3.33vw, 48px)' }}>
+            Frequently Asked Questions
+          </h2>
+
+          <div className="flex flex-col gap-4">
+            {[
+              {
+                q: 'Why do I need to apply for a partnership?',
+                a: 'Our equity model means we become co-owners in your success. We need to ensure strong mutual fit—strategically, culturally, and operationally—before committing our team and resources. The application process protects both parties and ensures we can deliver maximum impact.',
+              },
+              {
+                q: 'What if you decline our partnership application?',
+                a: 'If we determine an equity partnership isn\'t the right fit, we\'ll be transparent about why. In many cases, we can still support you through our traditional consulting or active management models. We never want a great company to go without the help it needs.',
+              },
+              {
+                q: 'How does PMG determine how much equity to take?',
+                a: 'Equity allocation (typically 2–15%) is based on the scope of work, the value we\'re expected to create, the stage of your company, and the duration of engagement. We model this collaboratively and transparently—there are no hidden terms.',
+              },
+              {
+                q: 'Do you take board seats or voting rights?',
+                a: 'Not by default. Our standard structure involves advisory equity with no voting rights or board control. In some cases, founders invite us to an advisory board seat, but this is always optional and founder-led.',
+              },
+              {
+                q: 'How is this different from bringing on an investor or VC?',
+                a: 'VCs provide capital. We provide expertise. A VC will write a check and expect returns; PMG will embed senior operators into your business to directly drive those returns. We don\'t dilute your cap table with cash—we earn our equity through measurable work.',
+              },
+              {
+                q: 'Can I still raise capital from VCs or angel investors after partnering with PMG?',
+                a: 'Absolutely. Our equity structure is designed to be investor-friendly. In fact, many of our partners find that PMG\'s involvement strengthens their fundraising position by demonstrating operational maturity and strategic backing.',
+              },
+              {
+                q: 'Do you only work with startups, or do you also support later-stage companies?',
+                a: 'We work with companies at various stages—from pre-revenue startups to scaling enterprises. The common thread is a need for senior-level operational or strategic expertise and a willingness to align through equity rather than (or in addition to) cash.',
+              },
+            ].map((item, i) => (
+              <details
+                key={i}
+                className="group"
+                style={{
+                  border: '1px solid #E0E0E0',
+                  borderRadius: '10px',
+                  overflow: 'hidden',
+                }}
+              >
+                <summary
+                  style={{
+                    fontFamily: 'DM Sans, sans-serif',
+                    fontWeight: 600,
+                    fontSize: 'clamp(15px, 1.25vw, 20px)',
+                    lineHeight: '150%',
+                    color: '#14358A',
+                    padding: '20px 24px',
+                    cursor: 'pointer',
+                    listStyle: 'none',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                  }}
+                >
+                  {item.q}
+                  <span className="group-open:rotate-180 transition-transform duration-200" style={{ fontSize: '20px', color: '#14358A', marginLeft: '16px', flexShrink: 0 }}>&#9660;</span>
+                </summary>
+                <div style={{ padding: '0 24px 20px 24px' }}>
+                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.04vw, 16px)', lineHeight: '170%', color: '#333333', margin: 0 }}>
+                    {item.a}
+                  </p>
+                </div>
+              </details>
+            ))}
           </div>
         </div>
       </section>

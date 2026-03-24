@@ -18,7 +18,7 @@ export default function InsightsInnovationsPage() {
       {/* ─── Section 1: Hero ─── */}
       <section className="w-full pt-36 pb-16 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
-          <p style={{ fontFamily: 'DM Sans', fontWeight: 700, fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '12px' }}>
+          <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '105%', color: '#000000', marginBottom: '12px' }}>
             Thinking in Public
           </p>
           <h1 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>

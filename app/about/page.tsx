@@ -18,18 +18,26 @@ export default function About() {
 
           <div className="relative z-10">
             <div className="flex flex-col items-center mb-4">
-              <h2 className="text-[#14358A] font-bold text-4xl">PMG Consulting</h2>
               <p
-                className="font-dm-sans font-normal mt-2"
+                className="font-dm-sans font-bold mb-2"
                 style={{
-                  fontSize: 'clamp(15px, 1.39vw, 22px)',
-                  lineHeight: '135%',
-                  color: '#333333',
-                  marginLeft: 'clamp(-16px, -1.04vw, -10px)'
+                  fontSize: 'clamp(14px, 1.25vw, 20px)',
+                  lineHeight: '105%',
+                  color: '#000000',
                 }}
               >
                 Driving Industries Forward
               </p>
+              <h2
+                className="font-dm-sans font-bold text-[#14358A]"
+                style={{
+                  fontSize: 'clamp(28px, 3.33vw, 48px)',
+                  lineHeight: '105%',
+                  letterSpacing: '-0.03em',
+                }}
+              >
+                PMG Consulting
+              </h2>
             </div>
             <p
               className="font-montserrat font-normal mx-auto text-center px-4"
@@ -296,6 +304,16 @@ export default function About() {
         {/* Read Our Latest Insights */}
         <div className="mb-20 text-center bg-[#F9FAFB]" style={{ paddingTop: 'clamp(32px, 3.33vw, 64px)', paddingBottom: 'clamp(32px, 3.33vw, 64px)' }}>
           {/* Section Title */}
+          <p
+            className="font-dm-sans font-bold mb-2"
+            style={{
+              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              lineHeight: '105%',
+              color: '#000000',
+            }}
+          >
+            The PMG Thesis
+          </p>
           <h3
             className="font-dm-sans font-bold mb-12"
             style={{
@@ -481,7 +499,7 @@ export default function About() {
             We don't work with everyone. We partner with organizations that are ready to move from 'Strategy as a Document' to 'Strategy as an Operation.' Our strategic partnerships are critical extensions of our functional expertise, expanding our capabilities to deliver seamless, cutting-edge solutions across complex operational landscapes.
           </p>
 
-          <div className="flex flex-col md:flex-row items-start justify-center gap-8 p-8 max-w-7xl mx-auto mt-16">
+          <div className="flex flex-col md:flex-row items-start justify-center gap-8 p-8 max-w-7xl mx-auto mt-16" style={{ border: '1px solid #e5e7eb', borderRadius: '16px', background: '#ffffff' }}>
             {/* Left Side: Heading and Text */}
             <div className="flex flex-col" style={{ maxWidth: 'min(700px, 90%)' }}>
               <h4
@@ -538,10 +556,11 @@ export default function About() {
             Beyond our direct client engagements, PMG is a trusted strategic partner providing essential domain expertise and services across the global professional and startup ecosystem.
           </p>
           <div className="flex justify-center gap-6 flex-wrap">
-            <div className="text-left" style={{ width: 'clamp(380px, 37.22vw, 580px)' }}>
-              <div className="w-full mb-6 rounded-lg overflow-hidden shadow-sm" style={{ height: 'clamp(140px, 13.33vw, 192px)' }}>
+            <div className="text-left" style={{ width: 'clamp(380px, 37.22vw, 580px)', border: '1px solid #e5e7eb', borderRadius: '16px', background: '#ffffff', overflow: 'hidden' }}>
+              <div className="w-full mb-6 overflow-hidden shadow-sm" style={{ height: 'clamp(140px, 13.33vw, 192px)' }}>
                 <img src="/white-label.png" alt="White-Label Consulting Support" className="w-full h-full object-cover" />
               </div>
+              <div style={{ padding: '0 clamp(16px, 1.5vw, 24px) clamp(16px, 1.5vw, 24px)' }}>
               <h4
                 className="font-dm-sans font-bold tracking-[-0.03em] text-black mb-3"
                 style={{
@@ -561,12 +580,14 @@ export default function About() {
               >
                 We serve as a confidential, white-label partner to two of the "Big 4" global consulting firms, providing critical technical and specialized support on sensitive projects. This allows these organizations to leverage our unique expertise under their own brand to ensure the highest quality outcomes.
               </p>
+              </div>
             </div>
 
-            <div className="text-left" style={{ width: 'clamp(380px, 37.22vw, 580px)' }}>
-              <div className="w-full mb-6 rounded-lg overflow-hidden shadow-sm" style={{ height: 'clamp(140px, 13.33vw, 192px)' }}>
+            <div className="text-left" style={{ width: 'clamp(380px, 37.22vw, 580px)', border: '1px solid #e5e7eb', borderRadius: '16px', background: '#ffffff', overflow: 'hidden' }}>
+              <div className="w-full mb-6 overflow-hidden shadow-sm" style={{ height: 'clamp(140px, 13.33vw, 192px)' }}>
                 <img src="/ecosystem.png" alt="Ecosystem and Advisory Partnerships" className="w-full h-full object-cover" />
               </div>
+              <div style={{ padding: '0 clamp(16px, 1.5vw, 24px) clamp(16px, 1.5vw, 24px)' }}>
               <h4
                 className="font-dm-sans font-bold tracking-[-0.03em] text-black mb-3"
                 style={{
@@ -586,6 +607,7 @@ export default function About() {
               >
                 We are proud ecosystem partners with one of the world's most successful startup accelerators, Y Combinator, focusing our services on supporting their emerging incubator projects rather than working with the accelerator directly.
               </p>
+              </div>
             </div>
           </div>
         </div>
@@ -644,18 +666,23 @@ export default function About() {
                 { date: "December 2024", text: "PMG becomes the trusted white-label partner for top-tier consulting firms, delivering expert knowledge management." },
                 { date: "July 2025", text: "PMG relaunches its service suite, redesigning our offerings to deliver even greater value and expertise to our clients." },
                 { date: "September 2025", text: "PMG relaunches its brand, focusing on the core principles that have always set it apart while making new investments in its public presence to directly compete with larger, established consulting firms. Learn more about the next stage of PMG →" }
-              ].map((item, index) => (
-                <div key={index} className={`flex items-center w-full flex-row md:${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
+              ].map((item, index) => {
+                const isLeft = index % 2 === 0;
+                return (
+                <div key={index} className="flex items-center w-full" style={{ flexDirection: isLeft ? 'row' : 'row-reverse' }}>
                   {/* Content Box */}
-                  <div className={`w-full md:w-1/2 ${index % 2 === 0 ? 'pl-12 md:pl-0 md:pr-16 text-left md:text-right' : 'pl-12 md:pl-16 text-left'} relative`}>
+                  <div className="w-full md:w-1/2 relative" style={{ paddingLeft: isLeft ? 0 : '4rem', paddingRight: isLeft ? '4rem' : 0, textAlign: isLeft ? 'right' : 'left' }}>
                     {/* Shadow/Offset Box */}
                     <div
-                      className={`absolute hidden md:block ${index % 2 === 0 ? 'right-[50px] top-[8px]' : 'left-[50px] top-[8px]'} w-full h-full`}
+                      className="absolute hidden md:block w-full h-full"
                       style={{
                         maxWidth: 'min(412px, 90%)',
                         border: '3px solid #006FBA',
                         borderRadius: '16px',
-                        zIndex: 0
+                        zIndex: 0,
+                        top: '8px',
+                        right: isLeft ? '50px' : 'auto',
+                        left: isLeft ? 'auto' : '50px',
                       }}
                     ></div>
 
@@ -690,18 +717,19 @@ export default function About() {
                     </div>
                     {/* Dotted Connector */}
                     <div
-                      className={`absolute top-1/2 -translate-y-1/2 border-t-2 border-dotted border-[#006FBA] w-12 ${index % 2 === 0 ? 'right-4' : 'left-4'}`}
-                      style={{ zIndex: 2 }}
+                      className="absolute top-1/2 -translate-y-1/2 border-t-2 border-dotted border-[#006FBA] w-12"
+                      style={{ zIndex: 2, right: isLeft ? '1rem' : 'auto', left: isLeft ? 'auto' : '1rem' }}
                     ></div>
                   </div>
 
                   {/* Center Dot */}
-                  <div className="absolute left-4 md:left-1/2 transform -translate-x-1/2 w-6 h-6 md:w-8 md:h-8 rounded-full bg-[#006FBA] border-4 border-white shadow-sm z-20"></div>
+                  <div className="absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-[#006FBA] border-4 border-white shadow-sm z-20"></div>
 
                   {/* Empty Space for Balance */}
                   <div className="hidden md:block w-1/2"></div>
                 </div>
-              ))}
+                );
+              })}
             </div>
             {/* End Cap */}
             <div className="absolute left-4 md:left-1/2 bottom-0 transform md:-translate-x-1/2 w-[4px] h-12 bg-[#006FBA]"></div>

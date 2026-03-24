@@ -74,10 +74,10 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(15px, 1.39vw, 22px)',
+              fontSize: 'clamp(14px, 1.25vw, 20px)',
               lineHeight: '105%',
-              color: '#14358A',
-              marginBottom: '20px',
+              color: '#000000',
+              marginBottom: '12px',
             }}
           >
             Active Management Solutions

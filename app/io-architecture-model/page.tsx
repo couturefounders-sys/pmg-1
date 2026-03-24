@@ -13,11 +13,11 @@ export default function IOArchitectureModelPage() {
         <div className="max-w-[min(1100px,_90%)] mx-auto flex flex-col items-center text-center">
           <p
             style={{
-              fontFamily: 'Montserrat, sans-serif',
+              fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(13px, 1.11vw, 18px)',
-              letterSpacing: '0.04em',
-              color: '#14358A',
+              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              lineHeight: '105%',
+              color: '#000000',
               marginBottom: '16px',
             }}
           >
@@ -153,7 +153,7 @@ export default function IOArchitectureModelPage() {
                   risk: 'Risk: Unaccounted Risk: This creates immense, unquantifiable technical debt. Leadership does not know how many fixes exist, who owns them, or what systemic flaws they are masking, leading to sudden, catastrophic failure upon the hero\'s absence.',
                 },
                 solution: {
-                  title: 'Defined Inputs, WorkUnits, & Outputs.',
+                  title: 'Consistent Architecture & Intentional Exceptions',
                   body: 'Any item that is not an input in the I-O map is escalated. An executive-level decision maker must intentionally choose to: Formalize the procedure with a new I-O Contract, Grant an Explicit Exception (and action the item themselves), or Reject the problem as not worth solving and explicitly document such.',
                   benefit: 'Benefit: Eliminates Accidental Debt: Architecture only evolves via conscious, high-level business decisions, eliminating \'Institutional Inertia\' and preventing accidental complexity from accumulating.',
                 },
@@ -314,6 +314,68 @@ export default function IOArchitectureModelPage() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* ─── Section 5: Consistency Through Constraint & Intentionality ─── */}
+      <section className="w-full py-20 px-6 bg-[#F8FAFC]">
+        <div className="max-w-[1100px] mx-auto text-center">
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
+            Consistency Through Constraint &amp; Intentionality
+          </h2>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', color: '#333333', maxWidth: 'min(1000px, 95%)', margin: '0 auto' }}>
+            Rigor is not restrictive—it is empowering. The I-O Model removes guesswork from collaboration and delivers measurable business value by forcing focus on fixed, high-quality outputs and eliminating the compounding failures that plague traditional architectures.
+          </p>
+        </div>
+      </section>
+
+      {/* ─── Section 6: The Blueprint for Scale ─── */}
+      <section className="w-full py-20 px-6 bg-white">
+        <div className="max-w-[1100px] mx-auto text-center">
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
+            The Blueprint for Scale
+          </h2>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', color: '#333333', maxWidth: 'min(1000px, 95%)', margin: '0 auto 40px auto' }}>
+            The I-O Model functions as an organizational operating system. Interfacing teams understand exactly what input and output quality is expected. Procedural gaps trigger immediate escalation. And exceptions follow a defined path requiring high-level strategic review.
+          </p>
+        </div>
+      </section>
+
+      {/* ─── Section 7: Core Concepts of the I-O Model ─── */}
+      <section className="w-full py-20 px-6 bg-[#F8FAFC]">
+        <div className="max-w-[1200px] mx-auto">
+          <h2 className="text-center" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '40px' }}>
+            Core Concepts of the I-O Model
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { title: 'Architectural Contract', desc: 'Immutable specifications defining work unit boundaries, inputs, and guaranteed outputs.' },
+              { title: 'Fixed-Scope Work Unit', desc: 'Discrete capabilities defined by specific inputs and guaranteed outputs.' },
+              { title: 'Quality Bar (QB)', desc: 'Explicit, measurable standards that every output must meet for acceptance.' },
+              { title: 'Decoupling', desc: 'Minimizing interdependency between units to enable independent scaling and evolution.' },
+              { title: 'Antifragile Architecture', desc: 'Failures are isolated to prevent cascading system failure across the enterprise.' },
+            ].map((concept) => (
+              <div key={concept.title} style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '24px', background: '#FFFFFF' }}>
+                <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', color: '#14358A', marginBottom: '12px' }}>{concept.title}</h3>
+                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>{concept.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Section 8: CTA ─── */}
+      <section className="w-full py-20 px-6" style={{ background: '#EBF7FF' }}>
+        <div className="max-w-[900px] mx-auto text-center">
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
+            Architect Your Antifragile Advantage.
+          </h2>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', color: '#333333', marginBottom: '32px' }}>
+            Stop building on foundations that cannot scale. Let our team design the I-O Architecture your enterprise needs to eliminate systemic risk and unlock exponential growth.
+          </p>
+          <a href="/contact-us" style={{ display: 'inline-block', background: 'linear-gradient(135deg, #6A36FF 0%, #AC5FE6 100%)', color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', padding: '16px 40px', borderRadius: '10px', textDecoration: 'none' }}>
+            Request a Consultation
+          </a>
         </div>
       </section>
 
