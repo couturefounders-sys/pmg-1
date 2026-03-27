@@ -154,7 +154,7 @@ export default function OurFunctionalAreas() {
                 textDecoration: 'none',
               }}
             >
-              Explore Strategic solutions ›
+              Explore Operations & Strategy ›
             </a>
           </div>
 
@@ -218,7 +218,7 @@ export default function OurFunctionalAreas() {
                 textDecoration: 'none',
               }}
             >
-              Explore Strategic solutions ›
+              Explore People & Organizations ›
             </a>
           </div>
         </div>
@@ -283,7 +283,7 @@ export default function OurFunctionalAreas() {
                 textDecoration: 'none',
               }}
             >
-              Explore Strategic solutions ›
+              Explore Customer Experience ›
             </a>
           </div>
 
@@ -345,7 +345,7 @@ export default function OurFunctionalAreas() {
                 textDecoration: 'none',
               }}
             >
-              Explore Strategic solutions ›
+              Explore Mergers & Acquisitions ›
             </a>
           </div>
 
@@ -408,7 +408,7 @@ export default function OurFunctionalAreas() {
                 textDecoration: 'none',
               }}
             >
-              Explore Strategic solutions ›
+              Explore Branding & Marketing ›
             </a>
           </div>
         </div>
@@ -476,7 +476,7 @@ export default function OurFunctionalAreas() {
                 textDecoration: 'none',
               }}
             >
-              Explore Strategic solutions ›
+              Explore BPO & Fractional Talent ›
             </a>
           </div>
 
@@ -538,7 +538,7 @@ export default function OurFunctionalAreas() {
                 textDecoration: 'none',
               }}
             >
-              Explore Strategic solutions ›
+              Explore Crisis & Transition Management ›
             </a>
           </div>
         </div>
@@ -654,7 +654,7 @@ export default function OurFunctionalAreas() {
                 textDecoration: 'none',
               }}
             >
-              Explore Strategic solutions ›
+              Explore Out-of-the-Box Solutions ›
             </a>
           </div>
 
@@ -730,7 +730,7 @@ export default function OurFunctionalAreas() {
                 textDecoration: 'none',
               }}
             >
-              Explore Strategic solutions ›
+              Explore Bespoke Solutions ›
             </a>
           </div>
 
@@ -806,7 +806,7 @@ export default function OurFunctionalAreas() {
                 textDecoration: 'none',
               }}
             >
-              Explore Strategic solutions ›
+              Explore Active Management Solutions ›
             </a>
           </div>
 
@@ -882,7 +882,7 @@ export default function OurFunctionalAreas() {
                 textDecoration: 'none',
               }}
             >
-              Explore Strategic solutions ›
+              Explore Equity Engagements ›
             </a>
           </div>
         </div>

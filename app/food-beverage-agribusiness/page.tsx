@@ -822,6 +822,38 @@ export default function FoodBeverageAgribusiness() {
         </div>
       </div>
 
+      {/* Our Projects Description Section */}
+      <div className="w-full py-16 bg-white">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-4 text-center">
+          <h2
+            style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: 'clamp(28px, 3.33vw, 48px)',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#1E1E1E',
+              marginBottom: '16px',
+            }}
+          >
+            Our Projects
+          </h2>
+          <p
+            style={{
+              fontFamily: 'Montserrat, sans-serif',
+              fontWeight: 400,
+              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              lineHeight: '140%',
+              color: '#64748B',
+              maxWidth: 'min(800px, 95%)',
+              margin: '0 auto',
+            }}
+          >
+            We deliver tangible results that strengthen supply chains, improve margins, and drive sustainable growth across food, beverage, and agribusiness sectors.
+          </p>
+        </div>
+      </div>
+
       {/* The Functional Consulting Advantage Section */}
       <div className="relative w-full py-20 bg-white overflow-hidden">
 

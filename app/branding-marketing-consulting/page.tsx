@@ -3,7 +3,37 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
+import ScrollStack from '@/components/ScrollStack';
+
+const CAPABILITY_ITEMS = [
+  'Sector Convergence',
+  'Business Value Units',
+  'Input-Output Method',
+  'Brand Archetypes',
+  'Content Marketing',
+  'Go-to-Market Strategy',
+  'Customer Acquisition Funnel',
+  'Marketing ROI Analysis',
+  'Brand Positioning',
+  'Storytelling',
+  'Value Proposition Design',
+  'Market Segmentation',
+  'Competitive Analysis',
+  'Digital Advertising',
+  'SEO & SEM',
+  'Social Media Engagement',
+  'Influencer Marketing',
+  'Public Relations',
+  'Brand Identity & Voice',
+  'Shopper Insights',
+];
 import Image from 'next/image';
+
+const STEP_POSITIONS = {
+  step1: { left: 20, top: 10 },
+  step2: { left: 70, top: 10 },
+  step3: { left: 47, top: 92 },
+};
 
 export default function BrandingMarketingConsulting() {
   return (
@@ -264,10 +294,9 @@ export default function BrandingMarketingConsulting() {
       </div>
 
       {/* Our Approach Section */}
-      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
-        <div className="text-center mb-12">
+      <div style={{ backgroundColor: '#fff', padding: '80px 20px' }}>
+        <div style={{ maxWidth: 'min(1200px, 95%)', margin: '0 auto' }}>
           <h2
-            className="mb-8"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
@@ -275,6 +304,8 @@ export default function BrandingMarketingConsulting() {
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
+              textAlign: 'center',
+              marginBottom: '24px',
             }}
           >
             Our Approach
@@ -284,219 +315,149 @@ export default function BrandingMarketingConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.74vw, 28px)',
               lineHeight: '140%',
-              letterSpacing: '0%',
+              color: '#333',
               textAlign: 'center',
-              color: '#333333',
-              maxWidth: 'min(1201px, 95%)',
-              margin: '0 auto',
+              maxWidth: 'min(1000px, 95%)',
+              margin: '0 auto 60px',
             }}
           >
             Our approach is a unique blend of deep marketing expertise and creative innovation. We draw insights from a vast array of successful brands across industries, identifying best practices and emerging trends that can be applied to your specific business.
           </p>
-        </div>
 
-        {/* Top Row - Steps 1 and 2 */}
-        <div className="flex justify-between max-w-[1200px] mx-auto mb-0">
-          {/* Step 1 - Uncover Brand Truths */}
-          <div className="text-center" style={{ maxWidth: 'min(512px, 95%)' }}>
-            <h3
-              className="mb-4"
+          <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9' }}>
+            <div style={{ position: 'absolute', inset: '25% 0 25% 0' }}>
+              <ApproachRoadmap />
+            </div>
+
+            {/* Step 1 */}
+            <div
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '27px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
+                position: 'absolute',
+                left: `${STEP_POSITIONS.step1.left}%`,
+                top: `${STEP_POSITIONS.step1.top}%`,
+                textAlign: 'center',
               }}
             >
-              Uncover Brand Truths
-            </h3>
-            <p
+              <h3
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: 'clamp(16px, 1.88vw, 27px)',
+                  lineHeight: '105%',
+                  color: '#14358A',
+                  letterSpacing: '-0.81px',
+                  marginBottom: '12px',
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                Uncover Brand Truths
+              </h3>
+              <p
+                style={{
+                  fontFamily: 'Inter, sans-serif',
+                  fontWeight: 400,
+                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  lineHeight: '140%',
+                  color: '#333',
+                  margin: 0,
+                }}
+              >
+                We conduct in-depth research to understand your<br />
+                brand&#39;s unique strengths, weaknesses, and<br />
+                opportunities.
+              </p>
+            </div>
+
+            {/* Step 2 */}
+            <div
               style={{
-                fontFamily: 'Inter, sans-serif',
-                fontWeight: 400,
-                fontSize: 'clamp(15px, 1.39vw, 22px)',
-                lineHeight: '140%',
-                color: '#333333',
+                position: 'absolute',
+                left: `${STEP_POSITIONS.step2.left}%`,
+                top: `${STEP_POSITIONS.step2.top}%`,
+                textAlign: 'center',
               }}
             >
-              We conduct in-depth research to understand your brand's unique strengths, weaknesses, and opportunities.
-            </p>
+              <h3
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: 'clamp(16px, 1.88vw, 27px)',
+                  lineHeight: '105%',
+                  color: '#14358A',
+                  letterSpacing: '-0.81px',
+                  marginBottom: '12px',
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                Develop a Compelling Brand Narrative
+              </h3>
+              <p
+                style={{
+                  fontFamily: 'Inter, sans-serif',
+                  fontWeight: 400,
+                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  lineHeight: '140%',
+                  color: '#333',
+                  margin: 0,
+                }}
+              >
+                We craft a compelling brand story that resonates<br />
+                with your target audience and differentiates you<br />
+                from the competition.
+              </p>
+            </div>
+
+            {/* Step 3 */}
+            <div
+              style={{
+                position: 'absolute',
+                left: `${STEP_POSITIONS.step3.left}%`,
+                top: `${STEP_POSITIONS.step3.top}%`,
+                textAlign: 'center',
+              }}
+            >
+              <h3
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: 'clamp(16px, 1.88vw, 27px)',
+                  lineHeight: '105%',
+                  color: '#14358A',
+                  whiteSpace: 'nowrap',
+                  letterSpacing: '-0.81px',
+                  marginBottom: '12px',
+                }}
+              >
+                Execute Integrated Campaigns
+              </h3>
+              <p
+                style={{
+                  fontFamily: 'Inter, sans-serif',
+                  fontWeight: 400,
+                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  lineHeight: '140%',
+                  color: '#333',
+                  margin: 0,
+                }}
+              >
+                Develop and execute full-funnel marketing campaigns<br />
+                that guarantee a consistent, high-impact brand<br />
+                experience across all touchpoints.
+              </p>
+            </div>
+
           </div>
-
-          {/* Step 2 - Develop a Compelling Brand Narrative */}
-          <div className="text-center" style={{ maxWidth: 'min(491px, 95%)' }}>
-            <h3
-              className="mb-4"
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '27px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
-              }}
-            >
-              Develop a Compelling Brand Narrative
-            </h3>
-            <p
-              style={{
-                fontFamily: 'Inter, sans-serif',
-                fontWeight: 400,
-                fontSize: 'clamp(15px, 1.39vw, 22px)',
-                lineHeight: '140%',
-                color: '#333333',
-              }}
-            >
-              We craft a compelling brand story that resonates with your target audience and differentiates you from the competition.
-            </p>
-          </div>
-        </div>
-
-        {/* Roadmap Image */}
-        <div className="flex justify-center my-8">
-          <ApproachRoadmap />
-        </div>
-
-        {/* Bottom - Step 3 - Execute Integrated Campaigns */}
-        <div className="text-center max-w-[625px] mx-auto">
-          <h3
-            className="mb-4"
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontWeight: 700,
-              fontSize: '27px',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em',
-              color: '#14358A',
-            }}
-          >
-            Execute Integrated Campaigns
-          </h3>
-          <p
-            style={{
-              fontFamily: 'Inter, sans-serif',
-              fontWeight: 400,
-              fontSize: 'clamp(15px, 1.39vw, 22px)',
-              lineHeight: '140%',
-              color: '#333333',
-            }}
-          >
-            Develop and execute full-funnel marketing campaigns that guarantee a consistent, high-impact brand experience across all touchpoints.
-          </p>
         </div>
       </div>
 
       {/* Crafting Compelling Brands Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <div className="flex flex-col lg:flex-row gap-12 items-start">
-          {/* Left Side - Capability Pills */}
-          <div className="flex flex-col gap-4">
-            {/* Capability Pills with Figma Connector */}
-            <div className="relative flex gap-6">
-              {/* Left Connector SVG — blue bullets per pill + gray dots between */}
-              <div className="flex-shrink-0" style={{ width: '50px' }}>
-                <svg width="50" height="424" viewBox="0 0 50 424" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="10" cy="36" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="124" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="212" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="300" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="388" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="68" r="5" fill="#424856"/>
-                  <circle cx="10" cy="80" r="5" fill="#424856"/>
-                  <circle cx="10" cy="92" r="5" fill="#424856"/>
-                  <circle cx="36" cy="80" r="5" fill="#424856"/>
-                  <circle cx="10" cy="156" r="5" fill="#424856"/>
-                  <circle cx="10" cy="168" r="5" fill="#424856"/>
-                  <circle cx="10" cy="180" r="5" fill="#424856"/>
-                  <circle cx="36" cy="168" r="5" fill="#424856"/>
-                  <circle cx="10" cy="244" r="5" fill="#424856"/>
-                  <circle cx="10" cy="256" r="5" fill="#424856"/>
-                  <circle cx="10" cy="268" r="5" fill="#424856"/>
-                  <circle cx="36" cy="256" r="5" fill="#424856"/>
-                  <circle cx="10" cy="332" r="5" fill="#424856"/>
-                  <circle cx="10" cy="344" r="5" fill="#424856"/>
-                  <circle cx="10" cy="356" r="5" fill="#424856"/>
-                  <circle cx="36" cy="344" r="5" fill="#424856"/>
-                </svg>
-              </div>
-
-              {/* Pills Column */}
-              <div className="flex flex-col gap-4">
-                {/* Product Lifecycle Management */}
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <img src="/ma-icon-file-search.svg" alt="" width={24} height={24} />
-                      </div>
-                    </div>
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
-                    Product Lifecycle Management
-                  </span>
-                </div>
-
-                {/* Capital Excellence */}
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <img src="/ma-icon-paint-brush.svg" alt="" width={24} height={24} />
-                      </div>
-                    </div>
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
-                    Capital Excellence
-                  </span>
-                </div>
-
-                {/* Data-Driven Insights */}
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <img src="/ma-icon-cursor-click.svg" alt="" width={24} height={24} />
-                      </div>
-                    </div>
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
-                    Data-Driven Insights
-                  </span>
-                </div>
-
-                {/* KPI Optimization */}
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <img src="/ma-icon-rocket-launch.svg" alt="" width={24} height={24} />
-                      </div>
-                    </div>
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
-                    KPI Optimization
-                  </span>
-                </div>
-
-                {/* Lean Six Sigma */}
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <img src="/ma-icon-wrench.svg" alt="" width={24} height={24} />
-                      </div>
-                    </div>
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
-                    Lean Six Sigma
-                  </span>
-                </div>
-              </div>
-            </div>
+          {/* Left Side - Scroll Stack */}
+          <div className="lg:w-[45%]">
+            <ScrollStack items={CAPABILITY_ITEMS} />
           </div>
 
           {/* Right Side - Content */}

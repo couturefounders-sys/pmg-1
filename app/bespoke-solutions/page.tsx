@@ -6,25 +6,25 @@ export default function BespokeSolutions() {
   const steps = [
     {
       icon: '/bespoke-icon-1.png',
-      step: 'Step 1: The Diagnostic',
+      step: '1. The Diagnostic',
       description:
         'We perform a comprehensive analysis to identify the root causes of your challenges, not just the symptoms.',
     },
     {
       icon: '/bespoke-icon-2.png',
-      step: 'Step 2: Tool Selection & Architecture',
+      step: '2. Tool Selection & Architecture',
       description:
         'Based on our findings, we architect a solution using the most appropriate tool. This could be one of our proprietary models, a proven industry framework, or a completely custom approach.',
     },
     {
       icon: '/bespoke-icon-3.png',
-      step: 'Step 3: Transparent Rationale & Blueprint',
+      step: '3. Transparent Rationale & Blueprint',
       description:
         'We present you with a complete strategic blueprint, including a clear rationale for why the chosen approach is the optimal path to achieve your specific goals.',
     },
     {
       icon: '/bespoke-icon-4.png',
-      step: 'Step 4: Client Approval Before Engagement',
+      step: '4. Client Approval Before Engagement',
       description:
         'You review the complete, validated plan. An engagement only begins once you have full confidence in the strategy and the measurable outcomes we\'ve defined together.',
     },
@@ -226,23 +226,6 @@ export default function BespokeSolutions() {
         <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
         {/* Decorative Border Rectangle - Top Left */}
         <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        {/* component-10.png — full-cover decorative overlay */}
-        <img
-          src="/component-10.png"
-          alt=""
-          aria-hidden="true"
-          style={{
-            position: 'absolute',
-            inset: 0,
-            width: '100%',
-            height: '100%',
-            objectFit: 'fill',
-            pointerEvents: 'none',
-            userSelect: 'none',
-            zIndex: 0,
-          }}
-        />
-
         <div className="max-w-[min(1100px,_90%)] mx-auto relative" style={{ zIndex: 1 }}>
           {/* Heading */}
           <h2
@@ -494,12 +477,10 @@ export default function BespokeSolutions() {
                   foundation for a truly customized strategy aligned with your vision.
                 </p>
               </div>
-              <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)', border: '4px solid white', boxShadow: '0 2px 8px rgba(20,53,138,0.3)', flexShrink: 0 }} />
             </div>
 
-            {/* Phase 2 — dot at top of first hump, text BOTTOM */}
-            <div className="flex flex-col items-center justify-between" style={{ paddingTop: 'clamp(60px, 6.94vw, 100px)' }}>
-              <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)', border: '4px solid white', boxShadow: '0 2px 8px rgba(20,53,138,0.3)', flexShrink: 0 }} />
+            {/* Phase 2 — text BOTTOM */}
+            <div className="flex flex-col items-center justify-between" style={{ paddingTop: 'clamp(220px, 22vw, 320px)' }}>
               <div style={{ maxWidth: 'min(280px, 100%)', textAlign: 'center' }}>
                 <h3
                   style={{
@@ -548,12 +529,10 @@ export default function BespokeSolutions() {
                   integration and adapting as needed based on real-time feedback and results.
                 </p>
               </div>
-              <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)', border: '4px solid white', boxShadow: '0 2px 8px rgba(20,53,138,0.3)', flexShrink: 0 }} />
             </div>
 
-            {/* Phase 4 — dot at bottom-right of wave, text BOTTOM */}
-            <div className="flex flex-col items-center justify-between" style={{ paddingTop: 'clamp(140px, 15.28vw, 220px)' }}>
-              <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: 'linear-gradient(135deg, #3B6FE8 0%, #1C2792 100%)', border: '4px solid white', boxShadow: '0 2px 8px rgba(20,53,138,0.3)', flexShrink: 0 }} />
+            {/* Phase 4 — text BOTTOM */}
+            <div className="flex flex-col items-center justify-between" style={{ paddingTop: 'clamp(220px, 22vw, 320px)' }}>
               <div style={{ maxWidth: 'min(280px, 100%)', textAlign: 'right', alignSelf: 'flex-end', transform: 'translateX(40px)' }}>
                 <h3
                   style={{
@@ -619,7 +598,7 @@ export default function BespokeSolutions() {
             </p>
           </div>
 
-          {/* Row 1 — icon LEFT, text RIGHT */}
+          {/* Row 1 — icon LEFT, text RIGHT — Operational Turnarounds */}
           <div className="flex flex-row items-center gap-16 mb-16">
             <div className="flex-shrink-0">
               <Image src="/bespoke-proj-1.png" alt="Operational Turnarounds" width={220} height={200} style={{ objectFit: 'contain' }} />
@@ -640,49 +619,47 @@ export default function BespokeSolutions() {
             </div>
           </div>
 
-          {/* Row 2 — text LEFT, icon RIGHT */}
+          {/* Row 2 — text LEFT, icon RIGHT — Strategic Go-to-Market */}
           <div className="flex flex-row items-center gap-16 mb-16">
             <div className="flex flex-col flex-1" style={{ textAlign: 'left' }}>
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(20px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px' }}>
-                M&amp;A Integration &amp; Carve-Outs
-              </h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'left' }}>
-                For complex post-merger integrations or strategic divestitures. We manage the
-                intricate process of combining or separating systems, cultures, and operations to
-                maximize value and minimize disruption.
-              </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: '23px', lineHeight: '140%', color: '#333333', textAlign: 'left' }}>
-                Example Engagements: Resolving post-acquisition technical debt and customer churn
-                (Avolin), strategic divestitures.
-              </p>
-            </div>
-            <div className="flex-shrink-0">
-              <Image src="/bespoke-proj-2.png" alt="M&A Integration" width={260} height={250} style={{ objectFit: 'contain' }} />
-            </div>
-          </div>
-
-          {/* Row 3 — icon LEFT, text RIGHT */}
-          <div className="flex flex-row items-center gap-16 mb-16">
-            <div className="flex-shrink-0">
-              <Image src="/bespoke-proj-3.png" alt="Strategic Go-to-Market" width={280} height={240} style={{ objectFit: 'contain' }} />
-            </div>
-            <div className="flex flex-col flex-1" style={{ textAlign: 'right' }}>
-              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(20px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px', textAlign: 'right' }}>
                 Strategic Go-to-Market &amp; Expansion
               </h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'right' }}>
-                Data-driven GTM strategies that drive market penetration. We design and execute
-                go-to-market plans that align product, sales, and marketing to capture share
-                and accelerate revenue growth.
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'left' }}>
+                We develop and execute data-driven GTM strategies that drive market penetration, establish a strong competitive foothold, and accelerate revenue growth.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: '23px', lineHeight: '140%', color: '#333333', textAlign: 'right' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: '23px', lineHeight: '140%', color: '#333333', textAlign: 'left' }}>
                 Example Engagements: New market entry strategy, product launch execution,
                 multi-channel expansion.
               </p>
             </div>
+            <div className="flex-shrink-0">
+              <Image src="/bespoke-proj-2.png" alt="Strategic Go-to-Market" width={280} height={240} style={{ objectFit: 'contain' }} />
+            </div>
           </div>
 
-          {/* Row 4 — text LEFT, icon RIGHT */}
+          {/* Row 3 — icon LEFT, text RIGHT — M&A Integration */}
+          <div className="flex flex-row items-center gap-16 mb-16">
+            <div className="flex-shrink-0">
+              <Image src="/bespoke-proj-3.png" alt="M&A Integration" width={260} height={250} style={{ objectFit: 'contain' }} />
+            </div>
+            <div className="flex flex-col flex-1" style={{ textAlign: 'right' }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(20px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px', textAlign: 'right' }}>
+                M&amp;A Integration &amp; Carve-Outs
+              </h3>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'right' }}>
+                For complex post-merger integrations or strategic divestitures. We manage the
+                intricate process of combining or separating systems, cultures, and operations to
+                maximize value and minimize disruption.
+              </p>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: '23px', lineHeight: '140%', color: '#333333', textAlign: 'right' }}>
+                Example Engagements: Resolving post-acquisition technical debt and customer churn
+                (Avolin), strategic divestitures.
+              </p>
+            </div>
+          </div>
+
+          {/* Row 4 — text LEFT, icon RIGHT — Complex Systems */}
           <div className="flex flex-row items-center gap-16">
             <div className="flex flex-col flex-1" style={{ textAlign: 'left' }}>
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(20px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.96px', color: '#14358A', marginBottom: '16px' }}>
@@ -992,9 +969,19 @@ export default function BespokeSolutions() {
                   color: '#68718B',
                 }}
               >
-                <p style={{ margin: '0 0 4px 0' }}>Your core business challenges and strategic goals.</p>
-                <p style={{ margin: '0 0 4px 0' }}>Your previous attempts to solve these problems.</p>
-                <p style={{ margin: 0 }}>How PMG&apos;s Blueprint-First approach de-risks your investment in transformation.</p>
+                {[
+                  'Your core business challenges and strategic goals.',
+                  'Your previous attempts to solve these problems.',
+                  "How PMG's Blueprint-First approach de-risks your investment in transformation.",
+                ].map((item, i) => (
+                  <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', marginBottom: i < 2 ? '12px' : 0 }}>
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" style={{ flexShrink: 0, marginTop: '2px' }}>
+                      <circle cx="11" cy="11" r="10" stroke="currentColor" strokeWidth="1.5" fill="none" />
+                      <path d="M6.5 11.5L9.5 14.5L15.5 8.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <p style={{ margin: 0 }}>{item}</p>
+                  </div>
+                ))}
               </div>
             </div>
 

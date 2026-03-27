@@ -1,8 +1,71 @@
+'use client';
+
+import { useState, useEffect, useRef } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ROIChart from '@/components/ROIChart';
 
 export default function PowerOfWorkingWithUs() {
+  const clientQuotes = [
+    '"Implementation support wasn\'t just an afterthought — it was baked into every recommendation."',
+    '"Solutions ignored organizational culture and change management entirely."',
+    '"We got recommendations, not results."',
+    '"Rigid frameworks slowed down real decision-making."',
+  ];
+
+  const comparisonFeatures = [
+    {
+      feature: 'Engagement Model',
+      oldPlaybook: 'Project-based, time-limited engagements',
+      pmgModel: 'Outcome-based partnerships with ongoing accountability',
+    },
+    {
+      feature: 'Talent Model',
+      oldPlaybook: 'Rotating junior staff with senior sign-off',
+      pmgModel: 'Senior operators embedded directly in your team',
+    },
+    {
+      feature: 'Key Deliverable',
+      oldPlaybook: 'Slide decks and strategy reports',
+      pmgModel: 'Executed plans with measurable outcomes',
+    },
+    {
+      feature: 'Pricing Model',
+      oldPlaybook: 'Hourly billing regardless of results',
+      pmgModel: 'Value-aligned pricing tied to outcomes',
+    },
+    {
+      feature: 'Core IP',
+      oldPlaybook: 'Recycled industry frameworks',
+      pmgModel: 'Proprietary models: I-O, BVU, Sector Convergence',
+    },
+    {
+      feature: 'Quality Assurance',
+      oldPlaybook: 'Internal review by the same team',
+      pmgModel: 'Double-blind anonymous peer QA review',
+    },
+    {
+      feature: 'Follow-Through',
+      oldPlaybook: 'Disengages after delivery',
+      pmgModel: 'Post-engagement audits at 6 and 12 months',
+    },
+  ];
+
+  const [currentFeatureIdx, setCurrentFeatureIdx] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  useEffect(() => {
+    if (!isPaused) {
+      intervalRef.current = setInterval(() => {
+        setCurrentFeatureIdx(prev => (prev + 1) % comparisonFeatures.length);
+      }, 3000);
+    }
+    return () => {
+      if (intervalRef.current) clearInterval(intervalRef.current);
+    };
+  }, [isPaused, comparisonFeatures.length]);
+
   return (
     <main className="relative w-full min-h-screen bg-white">
       <Header />
@@ -216,28 +279,32 @@ export default function PowerOfWorkingWithUs() {
             is not just our view. It is well documented across industries.
           </p>
 
-          {/* Pull Quote */}
-          <div
-            style={{
-              border: '3px solid #14358A',
-              borderRadius: '10px',
-              padding: '32px 40px',
-              maxWidth: 'min(640px, 95%)',
-            }}
-          >
-            <p
-              style={{
-                fontFamily: 'Montserrat, sans-serif',
-                fontWeight: 700,
-                fontSize: 'clamp(15px, 1.39vw, 22px)',
-                lineHeight: '1.6',
-                color: '#14358A',
-                fontStyle: 'italic',
-              }}
-            >
-              &ldquo;Recommendations lacked buy-in because consultants
-              didn&apos;t engage staff.&rdquo;
-            </p>
+          {/* Client Quotes */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-[900px]">
+            {clientQuotes.map((quote, i) => (
+              <div
+                key={i}
+                style={{
+                  border: '3px solid #14358A',
+                  borderRadius: '10px',
+                  padding: '28px 32px',
+                }}
+              >
+                <p
+                  style={{
+                    fontFamily: 'Montserrat, sans-serif',
+                    fontWeight: 700,
+                    fontSize: 'clamp(13px, 1.25vw, 20px)',
+                    lineHeight: '1.6',
+                    color: '#14358A',
+                    fontStyle: 'italic',
+                    margin: 0,
+                  }}
+                >
+                  {quote}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -366,158 +433,72 @@ export default function PowerOfWorkingWithUs() {
         </div>
       </section>
 
-      {/* ─── Section 7: Engagement Breakdown ─── */}
+      {/* ─── Section 7: PMG vs Old Playbook Comparison ─── */}
       <section className="w-full py-24 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto">
-          <div className='grid grid-cols-1 lg:grid-cols-2' style={{ gap: '60px', alignItems: 'start' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'center', marginBottom: '12px' }}>
+            PMG vs. The Old Playbook
+          </h2>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#68718B', textAlign: 'center', marginBottom: '40px' }}>
+            Auto-cycling every 3 seconds · <span style={{ fontStyle: 'italic' }}>Hover to pause</span>
+          </p>
 
-            {/* Left — dotted rows with pill buttons */}
-            <div style={{ position: 'relative' }}>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
-                {[
-                  { icon: '🔍', label: 'Engagement Model' },
-                  { icon: '🎨', label: 'Talent Model' },
-                  { icon: '🖱️', label: 'Key Deliverable' },
-                  { icon: '🚀', label: 'Pricing Model' },
-                  { icon: '🔧', label: 'Core IP (Strategy)' },
-                  { icon: '🔧', label: 'Quality Assurance' },
-                  { icon: '🔧', label: 'Follow-Through' },
-                ].map((row, i) => (
-                  <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                    {/* dots */}
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', alignItems: 'center' }}>
-                      <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#14358A', display: 'block' }} />
-                      <span style={{ width: '8px', height: '8px', borderRadius: '50%', border: '2px solid #14358A', display: 'block' }} />
-                    </div>
-                    {/* pill */}
-                    <div
-                      style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '12px',
-                        background: '#14358A',
-                        borderRadius: '999px',
-                        padding: '14px 28px',
-                        minWidth: '300px',
-                      }}
-                    >
-                      <span style={{ fontSize: 'clamp(16px, 1.53vw, 24px)' }}>{row.icon}</span>
-                      <span
-                        style={{
-                          fontFamily: 'Montserrat, sans-serif',
-                          fontWeight: 700,
-                          fontSize: 'clamp(14px, 1.25vw, 20px)',
-                          color: '#FFFFFF',
-                        }}
-                      >
-                        {row.label}
-                      </span>
-                    </div>
-                  </div>
-                ))}
-              </div>
+          <div
+            onMouseEnter={() => setIsPaused(true)}
+            onMouseLeave={() => setIsPaused(false)}
+            style={{ border: '2px solid #E5E7EB', borderRadius: '12px', overflow: 'hidden', backgroundColor: '#FFFFFF' }}
+          >
+            {/* Table header */}
+            <div className="grid grid-cols-3" style={{ backgroundColor: '#14358A' }}>
+              {['Feature', 'Old Playbook', 'PMG Model'].map((col, i) => (
+                <div key={i} style={{ padding: '18px 24px', fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.25vw, 20px)', color: '#FFFFFF', borderLeft: i > 0 ? '1px solid rgba(255,255,255,0.2)' : 'none', textAlign: 'center' }}>
+                  {col}
+                </div>
+              ))}
             </div>
 
-            {/* Right — PMG Model + Old Playbook boxes */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '28px' }}>
-
-              {/* PMG Model box */}
-              <div style={{ position: 'relative', borderRadius: '16px', overflow: 'hidden', background: '#EBF4FF', padding: '40px 36px' }}>
-                <img
-                  src="/component-12.png"
-                  alt=""
-                  aria-hidden="true"
-                  style={{
-                    position: 'absolute',
-                    top: 0,
-                    right: 0,
-                    width: '55%',
-                    height: '100%',
-                    objectFit: 'cover',
-                    objectPosition: 'right center',
-                    opacity: 0.25,
-                    pointerEvents: 'none',
-                  }}
-                />
-                <div style={{ position: 'relative', zIndex: 1, textAlign: 'center' }}>
-                  <h3
-                    style={{
-                      fontFamily: 'DM Sans, sans-serif',
-                      fontWeight: 700,
-                      fontSize: 'clamp(18px, 2.01vw, 33px)',
-                      lineHeight: '105%',
-                      letterSpacing: '-0.03em',
-                      color: '#14358A',
-                      marginBottom: '16px',
-                    }}
-                  >
-                    The PMG Model
-                  </h3>
-                  <p
-                    style={{
-                      fontFamily: 'Montserrat, sans-serif',
-                      fontWeight: 400,
-                      fontSize: 'clamp(13px, 1.11vw, 18px)',
-                      lineHeight: '140%',
-                      color: '#333333',
-                    }}
-                  >
-                    Sector Convergence is a strategic reset. We architect non-obvious solutions by synthesizing
-                    proven operational models from entirely different sectors, creating a durable, first-mover advantage
-                    that competitors cannot easily replicate.
-                  </p>
+            {/* Feature rows — all visible with current highlighted */}
+            {comparisonFeatures.map((row, i) => (
+              <div
+                key={i}
+                className="grid grid-cols-3"
+                style={{
+                  borderBottom: i < comparisonFeatures.length - 1 ? '1px solid #E5E7EB' : 'none',
+                  backgroundColor: i === currentFeatureIdx ? '#EBF7FF' : '#FFFFFF',
+                  transition: 'background-color 0.4s ease',
+                }}
+              >
+                <div style={{ padding: '18px 24px', fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.11vw, 18px)', color: '#14358A', borderRight: '1px solid #E5E7EB', display: 'flex', alignItems: 'center' }}>
+                  {row.feature}
+                </div>
+                <div style={{ padding: '18px 24px', fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', color: '#D0021B', borderRight: '1px solid #E5E7EB', display: 'flex', alignItems: 'center' }}>
+                  {row.oldPlaybook}
+                </div>
+                <div style={{ padding: '18px 24px', fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', color: '#14358A', display: 'flex', alignItems: 'center' }}>
+                  {row.pmgModel}
                 </div>
               </div>
+            ))}
+          </div>
 
-              {/* Old Playbook box */}
-              <div style={{ position: 'relative', borderRadius: '16px', overflow: 'hidden', background: '#FDF0EE', padding: '40px 36px' }}>
-                <img
-                  src="/component-13.png"
-                  alt=""
-                  aria-hidden="true"
-                  style={{
-                    position: 'absolute',
-                    top: 0,
-                    right: 0,
-                    width: '55%',
-                    height: '100%',
-                    objectFit: 'cover',
-                    objectPosition: 'right center',
-                    opacity: 0.25,
-                    pointerEvents: 'none',
-                  }}
-                />
-                <div style={{ position: 'relative', zIndex: 1, textAlign: 'center' }}>
-                  <h3
-                    style={{
-                      fontFamily: 'DM Sans, sans-serif',
-                      fontWeight: 700,
-                      fontSize: 'clamp(18px, 2.01vw, 33px)',
-                      lineHeight: '105%',
-                      letterSpacing: '-0.03em',
-                      color: '#D0021B',
-                      marginBottom: '16px',
-                    }}
-                  >
-                    The Old Playbook
-                  </h3>
-                  <p
-                    style={{
-                      fontFamily: 'Montserrat, sans-serif',
-                      fontWeight: 400,
-                      fontSize: 'clamp(13px, 1.11vw, 18px)',
-                      lineHeight: '140%',
-                      color: '#333333',
-                    }}
-                  >
-                    Traditional consulting offers linear, industry-siloed &ldquo;best practices&rdquo; that lead to incremental gains at
-                    best and expensive, failed implementations at worst.
-                    It is a model built for a world that no longer exists.
-                  </p>
-                </div>
-              </div>
-
-            </div>
+          {/* Progress indicators */}
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '8px', marginTop: '20px' }}>
+            {comparisonFeatures.map((_, i) => (
+              <button
+                key={i}
+                onClick={() => setCurrentFeatureIdx(i)}
+                style={{
+                  width: '10px',
+                  height: '10px',
+                  borderRadius: '50%',
+                  background: i === currentFeatureIdx ? '#14358A' : '#D0D9F0',
+                  border: 'none',
+                  cursor: 'pointer',
+                  padding: 0,
+                  transition: 'background 0.3s',
+                }}
+              />
+            ))}
           </div>
         </div>
       </section>
@@ -534,7 +515,7 @@ export default function PowerOfWorkingWithUs() {
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' style={{ gap: '24px', width: '100%' }}>
             {[
               { stat: '22x', label: 'Consultation ROI', desc: 'Industry-leading returns on every engagement.' },
-              { stat: '30%', label: 'Higher Cost Reduction', desc: 'Efficiency gains that far surpass the industry.' },
+              { stat: '30%', label: 'Higher Cost Reduction', desc: 'Efficiency gains that far outpace the industry.' },
               { stat: 'Top 1%', label: 'Access', desc: 'A global network of elite, proven experts.' },
               { stat: 'Unmatched', label: 'Speed of Service', desc: 'Rapid, streamlined processes for faster results.' },
               { stat: '95%', label: 'On-Time Resolution', desc: 'A reliable partner committed to timely execution.' },
@@ -590,25 +571,55 @@ export default function PowerOfWorkingWithUs() {
 
       {/* ─── Section 10: Proven Industry Frameworks ─── */}
       <section className="w-full py-20 px-6 bg-white">
+        <style>{`
+          @keyframes marqueeScroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+          }
+          .marquee-track {
+            animation: marqueeScroll 18s linear infinite;
+          }
+          .marquee-wrapper:hover .marquee-track {
+            animation-play-state: paused;
+          }
+        `}</style>
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '12px' }}>
             Proven Industry Frameworks
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: '40px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: '8px' }}>
             We leverage established methodologies that have stood the test of time across industries.
           </p>
-          <div className='grid grid-cols-2 md:grid-cols-4' style={{ gap: '24px', width: '100%', border: '3px dashed #A0B4E8', borderRadius: '10px', padding: '36px 28px' }}>
-            {[
-              { icon: '/12.png', label: 'Agile' },
-              { icon: '/23.png', label: 'Lean' },
-              { icon: '/34.png', label: 'Six Sigma' },
-              { icon: '/45.png', label: 'Waterfall' },
-            ].map((fw, i) => (
-              <div key={i} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px' }}>
-                <img src={fw.icon} alt={fw.label} style={{ width: '64px', height: '64px', objectFit: 'contain' }} />
-                <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '105%', color: '#14358A' }}>{fw.label}</span>
-              </div>
-            ))}
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: '140%', color: '#A0AEC0', fontStyle: 'italic', marginBottom: '32px' }}>
+            Hover to pause
+          </p>
+          <div className="marquee-wrapper w-full overflow-hidden" style={{ border: '3px dashed #A0B4E8', borderRadius: '10px', padding: '36px 0' }}>
+            <div className="marquee-track" style={{ display: 'flex', gap: '48px', width: 'max-content' }}>
+              {[
+                { icon: '/12.png', label: 'Agile', emoji: '⚡' },
+                { icon: '/23.png', label: 'Lean', emoji: '🔍' },
+                { icon: '/34.png', label: 'Six Sigma', emoji: '📊' },
+                { icon: '/45.png', label: 'Waterfall', emoji: '💧' },
+                { icon: '/12.png', label: 'Kanban', emoji: '📋' },
+                { icon: '/23.png', label: 'SAFe', emoji: '🏗️' },
+                { icon: '/34.png', label: "Kotter's 8-Step", emoji: '🔄' },
+                { icon: '/45.png', label: 'Theory of Constraints', emoji: '🎯' },
+                /* duplicate for seamless loop */
+                { icon: '/12.png', label: 'Agile', emoji: '⚡' },
+                { icon: '/23.png', label: 'Lean', emoji: '🔍' },
+                { icon: '/34.png', label: 'Six Sigma', emoji: '📊' },
+                { icon: '/45.png', label: 'Waterfall', emoji: '💧' },
+                { icon: '/12.png', label: 'Kanban', emoji: '📋' },
+                { icon: '/23.png', label: 'SAFe', emoji: '🏗️' },
+                { icon: '/34.png', label: "Kotter's 8-Step", emoji: '🔄' },
+                { icon: '/45.png', label: 'Theory of Constraints', emoji: '🎯' },
+              ].map((fw, i) => (
+                <div key={i} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px', minWidth: '120px' }}>
+                  <span style={{ fontSize: '40px' }}>{fw.emoji}</span>
+                  <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.25vw, 18px)', lineHeight: '105%', color: '#14358A', whiteSpace: 'nowrap' }}>{fw.label}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -661,7 +672,7 @@ export default function PowerOfWorkingWithUs() {
               A Commitment to Continuous Improvement
             </h2>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#333333' }}>
-              Our 22x ROI was not instant. It was earned. In 2018, we matched the industry average of 6–8x. But average was never the goal. In 2020, we made client ROI our north star. That focus pushed us to 10x and continues to drive improvement today. Whatever our current benchmark, we refine, learn, and raise it. Continuous improvement is not a slogan; it is our operating model.
+              Our 22x ROI was not instant. It was earned. In 2018, we matched the industry average of 6–9x. But average was never the goal. In 2020, we made client ROI our north star. That focus pushed us to 13x and continues to drive improvement today. Whatever our current benchmark, we refine, learn, and raise it. Continuous improvement is not a slogan; it is our operating model.
             </p>
           </div>
           <ROIChart />

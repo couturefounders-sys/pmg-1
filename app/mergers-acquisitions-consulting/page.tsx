@@ -3,6 +3,36 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
+import ScrollStack from '@/components/ScrollStack';
+
+const CAPABILITY_ITEMS = [
+  'Sector Convergence',
+  'Business Value Units',
+  'Input-Output Method',
+  'Due Diligence',
+  'Post-Merger Integration',
+  'Synergy Assessment',
+  'Valuation Modeling',
+  'Divestiture Strategy',
+  'Target Sourcing',
+  'Deal Structuring',
+  'Regulatory Compliance',
+  'Cultural Integration',
+  'Change Management',
+  'Transaction Advisory',
+  'Capital Raising',
+  'Joint Ventures',
+  'Strategic Alliances',
+  'Carve-Outs',
+  'IPO Readiness',
+  'Risk Assessment',
+];
+
+const STEP_POSITIONS = {
+  step1: { left: 20, top: 10 },
+  step2: { left: 70, top: 10 },
+  step3: { left: 47, top: 92 },
+};
 
 export default function MergersAcquisitionsConsulting() {
   return (
@@ -546,10 +576,9 @@ export default function MergersAcquisitionsConsulting() {
       </div>
 
       {/* Our Approach Section */}
-      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
-        <div className="text-center mb-12">
+      <div style={{ backgroundColor: '#fff', padding: '80px 20px' }}>
+        <div style={{ maxWidth: 'min(1200px, 95%)', margin: '0 auto' }}>
           <h2
-            className="mb-8"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
@@ -557,6 +586,8 @@ export default function MergersAcquisitionsConsulting() {
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
+              textAlign: 'center',
+              marginBottom: '24px',
             }}
           >
             Our Approach
@@ -566,181 +597,149 @@ export default function MergersAcquisitionsConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(16px, 1.53vw, 24px)',
-              lineHeight: '150%',
-              letterSpacing: '0%',
-              textAlign: 'center',
-              color: '#333333',
-              maxWidth: 'min(1001px, 95%)',
-              margin: '0 auto',
-            }}
-          >
-            Our approach is a unique blend of deep M&A expertise and a data-driven, results-oriented methodology. We leverage our extensive experience across industries, combined with cutting-edge analytical tools and a global network of industry contacts, to deliver exceptional results.
-          </p>
-        </div>
-
-        {/* Top Row - Steps 1 and 2 */}
-        <div className="flex justify-between max-w-[1200px] mx-auto mb-0">
-          {/* Step 1 - Understand Your Strategic Objectives */}
-          <div className="text-center" style={{ maxWidth: 'min(512px, 95%)' }}>
-            <h3
-              className="mb-4"
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: 'clamp(16px, 1.53vw, 24px)',
-                lineHeight: '120%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
-              }}
-            >
-              Understand Your Strategic Objectives
-            </h3>
-            <p
-              style={{
-                fontFamily: 'Inter, sans-serif',
-                fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
-                lineHeight: '150%',
-                color: '#333333',
-              }}
-            >
-              We work with you to define your M&A strategy and identify the right targets that align with your long-term growth goals.
-            </p>
-          </div>
-
-          {/* Step 2 - Guarantee Value and Mitigate Risk */}
-          <div className="text-center" style={{ maxWidth: 'min(491px, 95%)' }}>
-            <h3
-              className="mb-4"
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: 'clamp(16px, 1.53vw, 24px)',
-                lineHeight: '120%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
-              }}
-            >
-              Guarantee Value and Mitigate Risk
-            </h3>
-            <p
-              style={{
-                fontFamily: 'Inter, sans-serif',
-                fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
-                lineHeight: '150%',
-                color: '#333333',
-              }}
-            >
-              We conduct rigorous due diligence and provide expert guidance to ensure maximum deal value realization and security.
-            </p>
-          </div>
-        </div>
-
-        {/* Roadmap Image */}
-        <div className="flex justify-center my-8">
-          <ApproachRoadmap />
-        </div>
-
-        {/* Bottom - Step 3 - Drive Successful Integration */}
-        <div className="text-center max-w-[625px] mx-auto">
-          <h3
-            className="mb-4"
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontWeight: 700,
-              fontSize: '27px',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em',
-              color: '#14358A',
-            }}
-          >
-            Drive Successful Integration
-          </h3>
-          <p
-            style={{
-              fontFamily: 'Inter, sans-serif',
-              fontWeight: 400,
-              fontSize: 'clamp(15px, 1.39vw, 22px)',
+              fontSize: 'clamp(16px, 1.74vw, 28px)',
               lineHeight: '140%',
-              color: '#333333',
+              color: '#333',
+              textAlign: 'center',
+              maxWidth: 'min(1000px, 95%)',
+              margin: '0 auto 60px',
             }}
           >
-            We develop and execute comprehensive integration plans that minimize disruption and maximize the value of the acquisition.
+            Our approach is a unique blend of deep M&amp;A expertise and a data-driven, results-oriented methodology. We leverage our extensive experience across industries, combined with cutting-edge analytical tools and a global network of industry contacts, to deliver exceptional results.
           </p>
+
+          <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9' }}>
+            <div style={{ position: 'absolute', inset: '25% 0 25% 0' }}>
+              <ApproachRoadmap />
+            </div>
+
+            {/* Step 1 */}
+            <div
+              style={{
+                position: 'absolute',
+                left: `${STEP_POSITIONS.step1.left}%`,
+                top: `${STEP_POSITIONS.step1.top}%`,
+                textAlign: 'center',
+              }}
+            >
+              <h3
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: 'clamp(16px, 1.88vw, 27px)',
+                  lineHeight: '105%',
+                  color: '#14358A',
+                  letterSpacing: '-0.81px',
+                  marginBottom: '12px',
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                Understand Your Strategic Objectives
+              </h3>
+              <p
+                style={{
+                  fontFamily: 'Inter, sans-serif',
+                  fontWeight: 400,
+                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  lineHeight: '140%',
+                  color: '#333',
+                  margin: 0,
+                }}
+              >
+                We work with you to define your M&amp;A strategy and<br />
+                identify the right targets that align with your<br />
+                long-term growth goals.
+              </p>
+            </div>
+
+            {/* Step 2 */}
+            <div
+              style={{
+                position: 'absolute',
+                left: `${STEP_POSITIONS.step2.left}%`,
+                top: `${STEP_POSITIONS.step2.top}%`,
+                textAlign: 'center',
+              }}
+            >
+              <h3
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: 'clamp(16px, 1.88vw, 27px)',
+                  lineHeight: '105%',
+                  color: '#14358A',
+                  letterSpacing: '-0.81px',
+                  marginBottom: '12px',
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                Guarantee Value and Mitigate Risk
+              </h3>
+              <p
+                style={{
+                  fontFamily: 'Inter, sans-serif',
+                  fontWeight: 400,
+                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  lineHeight: '140%',
+                  color: '#333',
+                  margin: 0,
+                }}
+              >
+                We conduct rigorous due diligence and provide<br />
+                expert guidance to ensure maximum deal value<br />
+                realization and security.
+              </p>
+            </div>
+
+            {/* Step 3 */}
+            <div
+              style={{
+                position: 'absolute',
+                left: `${STEP_POSITIONS.step3.left}%`,
+                top: `${STEP_POSITIONS.step3.top}%`,
+                textAlign: 'center',
+              }}
+            >
+              <h3
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: 'clamp(16px, 1.88vw, 27px)',
+                  lineHeight: '105%',
+                  color: '#14358A',
+                  whiteSpace: 'nowrap',
+                  letterSpacing: '-0.81px',
+                  marginBottom: '12px',
+                }}
+              >
+                Drive Successful Integration
+              </h3>
+              <p
+                style={{
+                  fontFamily: 'Inter, sans-serif',
+                  fontWeight: 400,
+                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  lineHeight: '140%',
+                  color: '#333',
+                  margin: 0,
+                }}
+              >
+                We develop and execute comprehensive integration<br />
+                plans that minimize disruption and maximize the<br />
+                value of the acquisition.
+              </p>
+            </div>
+
+          </div>
         </div>
       </div>
 
       {/* Growth Through Successful M&A Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <div className="flex flex-col lg:flex-row gap-12 items-start">
-          {/* Left Side - Capability Pills */}
-          <div className="flex flex-col gap-4">
-             {/* Capability Pills with Figma Connector */}
-            <div className="relative flex gap-6">
-              {/* Left Connector — Figma infographic elements stacked */}
-              <div className="flex-shrink-0 relative" style={{ width: '50px', height: 'clamp(280px, 30.56vw, 440px)' }}>
-                <img src="/ma-infographic-1.svg" alt="" style={{ position: 'absolute', top: '0', left: '0', width: '50px', height: '88px' }} />
-                <img src="/ma-infographic-2.svg" alt="" style={{ position: 'absolute', top: '88px', left: '0', width: '50px', height: '88px' }} />
-                <img src="/ma-infographic-3.svg" alt="" style={{ position: 'absolute', top: '176px', left: '0', width: '50px', height: '88px' }} />
-                <img src="/ma-infographic-4.svg" alt="" style={{ position: 'absolute', top: '264px', left: '0', width: '50px', height: '88px' }} />
-                <img src="/ma-infographic-5.svg" alt="" style={{ position: 'absolute', top: '352px', left: '0', width: '50px', height: '88px' }} />
-              </div>
-
-              {/* Pills Column */}
-              <div className="flex flex-col gap-4">
-                {/* Product Lifecycle Management */}
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <img src="/ma-icon-file-search.svg" alt="" width="48" height="48" />
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
-                    Product Lifecycle Management
-                  </span>
-                </div>
-
-                {/* Capital Excellence */}
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <img src="/ma-icon-paint-brush.svg" alt="" width="48" height="48" />
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
-                    Capital Excellence
-                  </span>
-                </div>
-
-                {/* Data-Driven Insights */}
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <img src="/ma-icon-cursor-click.svg" alt="" width="48" height="48" />
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
-                    Data-Driven Insights
-                  </span>
-                </div>
-
-                {/* KPI Optimization */}
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <img src="/ma-icon-rocket-launch.svg" alt="" width="48" height="48" />
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
-                    KPI Optimization
-                  </span>
-                </div>
-
-                {/* Lean Six Sigma */}
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <img src="/ma-icon-wrench.svg" alt="" width="48" height="48" />
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
-                    Lean Six Sigma
-                  </span>
-                </div>
-              </div>
-            </div>
+          {/* Left Side - Scroll Stack */}
+          <div className="lg:w-[45%]">
+            <ScrollStack items={CAPABILITY_ITEMS} />
           </div>
 
           {/* Right Side - Content */}
@@ -846,14 +845,14 @@ export default function MergersAcquisitionsConsulting() {
         }}
       >
         {/* Figma background SVG */}
-        <img src="/ma-principle-bg.svg" alt="" aria-hidden="true" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none' }} />
+        <img src="/ma-principle-bg.svg" alt="" aria-hidden="true" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none', zIndex: 0 }} />
         {/* Decorative Rectangle - Top Right */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center', zIndex: 1 }} />
         {/* Decorative Rectangle - Bottom Left */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
+        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center', zIndex: 1 }} />
         {/* Decorative Border Rectangle - Top Left */}
-        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        <div className="max-w-[1196px] mx-auto px-4 text-center">
+        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center', zIndex: 1 }} />
+        <div className="relative max-w-[1196px] mx-auto px-4 text-center" style={{ zIndex: 2 }}>
           <p
             className="mb-4"
             style={{
@@ -903,8 +902,8 @@ export default function MergersAcquisitionsConsulting() {
           background: 'linear-gradient(180deg, #EBF7FF 0%, #D9ECFA 100%)',
         }}
       >
-        <img src="/ma-cta-bg.svg" alt="" aria-hidden="true" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none', opacity: 0.15 }} />
-        <div className="max-w-[min(1440px,_95%)] mx-auto px-4 text-center">
+        <img src="/ma-cta-bg.svg" alt="" aria-hidden="true" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none', opacity: 0.15, zIndex: 0 }} />
+        <div className="relative max-w-[min(1440px,_95%)] mx-auto px-4 text-center" style={{ zIndex: 1 }}>
           <h2
             className="mb-6"
             style={{

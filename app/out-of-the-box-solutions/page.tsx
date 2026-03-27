@@ -322,17 +322,17 @@ export default function OutOfTheBoxSolutions() {
               {
                 title: 'The I-O Architect\'s Toolkit',
                 tag: 'For: Leaders needing to de-silo teams and create clear accountability.',
-                contains: 'Work Unit Canvas Template, Clarity De-Definition Builder, Input-Output Mapping Workshop Guide, "Cut-off Moment" Playbook.',
+                contains: 'Work Unit Canvas Template, Quality Bar Definition Builder, Input-Output Mapping Workshop Guide, "Cut-off Moment" Playbook.',
               },
               {
                 title: 'The BVU Finance Lab',
                 tag: 'For: CFOs/COOs needing to justify non-revenue team investment.',
-                contains: 'BVU Calibration Calculator (spreadsheet), Value Maximation Workshop Video, "Cost-Per-BVU" Dashboard Template, Business Case Builder for Scrutiny.',
+                contains: 'BVU Calibration Calculator (spreadsheet), Value Abstraction Workshop Video, "Cost-Per-BVU" Dashboard Template, Business Case Builder for IT/Security/Legal.',
               },
               {
                 title: 'The Sector Convergence Ideation Deck',
-                tag: 'For: Strategists stuck in industry-silo chambes.',
-                contains: 'Convergence-MP (Move Inventory) Problem Finder, Cross-Industry Analogy Database, "I/N-O Conversion" Interview Protocol, Convergence Hypothesis Canvas.',
+                tag: 'For: Strategists stuck in industry-silo chambers.',
+                contains: 'MIP (Most Important Problem) Finder, Cross-Industry Analogy Database, DNA Extraction Interview Protocol, Convergence Hypothesis Canvas.',
               },
               {
                 title: 'The Gricean Communications Audit',
@@ -364,6 +364,23 @@ export default function OutOfTheBoxSolutions() {
                 <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '160%', color: '#333333' }}>
                   <span style={{ fontWeight: 600 }}>Contains:</span> {card.contains}
                 </p>
+                <button
+                  style={{
+                    marginTop: '4px',
+                    alignSelf: 'flex-start',
+                    backgroundColor: '#14358A',
+                    color: '#FFFFFF',
+                    fontFamily: 'DM Sans, sans-serif',
+                    fontWeight: 700,
+                    fontSize: 'clamp(12px, 1.04vw, 16px)',
+                    padding: '10px 22px',
+                    borderRadius: '8px',
+                    border: 'none',
+                    cursor: 'pointer',
+                  }}
+                >
+                  Purchase Toolkit
+                </button>
               </div>
             ))}
           </div>
@@ -434,7 +451,7 @@ export default function OutOfTheBoxSolutions() {
               These Are Tools, Not Transformations
             </h3>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '170%', color: '#333333', marginBottom: '16px' }}>
-              Purchasing a toolkit from The Foundry is like buying a textbook on structural engineering. It gives you the principles and formulas. It does not give you the experienced engineer to diagnose your unique building's loads, design the details, and oversee the construction.
+              Purchasing a toolkit from The Foundry is like buying a textbook on structural engineering. It gives you the principles and formulas. It does not give you the experienced engineer to diagnose your unique building&apos;s faults, design the retrofit, and oversee the construction.
             </p>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '170%', color: '#14358A', marginBottom: '16px' }}>
               Our consulting engagements provide the engineer.
@@ -448,7 +465,7 @@ export default function OutOfTheBoxSolutions() {
             <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 0 0', display: 'flex', flexDirection: 'column', gap: '6px' }}>
               {[
                 'Solve a narrow, well-understood problem.',
-                'Educate your team on our domains.',
+                'Educate your team on our concepts.',
                 'Prove the value of our thinking on a small scale.',
                 'Then, call us for the real work.',
               ].map((item, i) => (

@@ -1,7 +1,125 @@
+'use client';
+
+import { useState, useEffect } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export default function OurSolutions() {
+  const allImpactCards = [
+    {
+      metric: 'Strategic Clarity',
+      metricSmall: true,
+      subtitle: null,
+      desc: 'A clear, validated strategic direction that aligns your team and eliminates costly indecision.',
+      tag: 'Strategy',
+      tagColor: '#DBEAFE',
+      value: 0,
+    },
+    {
+      metric: '-30%',
+      metricSmall: false,
+      subtitle: 'Cost Per Program Hour',
+      desc: 'Significant reduction in per-program delivery costs through optimized processes and scheduling.',
+      tag: 'Cost/Efficiency',
+      tagColor: '#F3E8FF',
+      value: 0,
+    },
+    {
+      metric: '+$4.5M',
+      metricSmall: false,
+      subtitle: 'Turnover Cost Avoidance',
+      desc: 'Reduction in recruitment and hiring costs from 60% lower turnover.',
+      tag: 'Revenue/Growth',
+      tagColor: '#DBEAFE',
+      value: 4500000,
+    },
+    {
+      metric: '+$34.3M',
+      metricSmall: false,
+      subtitle: 'Revenue Retained',
+      desc: 'Annual Recurring Revenue preserved by increasing retention to 88%.',
+      tag: 'Revenue/Growth',
+      tagColor: '#DBEAFE',
+      value: 34300000,
+    },
+    {
+      metric: '+$1.5M',
+      metricSmall: false,
+      subtitle: 'New Product Revenue',
+      desc: 'Revenue generated from successfully launching a new product line through our GTM strategy.',
+      tag: 'Revenue/Growth',
+      tagColor: '#DBEAFE',
+      value: 1500000,
+    },
+    {
+      metric: '-40%',
+      metricSmall: false,
+      subtitle: 'New Employee Time-to-Value',
+      desc: 'Faster ramp-up times for new hires through improved onboarding systems and training programs.',
+      tag: 'Cost/Efficiency',
+      tagColor: '#F3E8FF',
+      value: 0,
+    },
+    {
+      metric: '-$4M',
+      metricSmall: false,
+      subtitle: 'Labor & Infrastructure Savings',
+      desc: 'Global support headcount reduction through consolidation.',
+      tag: 'Cost/Efficiency',
+      tagColor: '#F3E8FF',
+      value: 4000000,
+    },
+    {
+      metric: 'Talent Pipeline',
+      metricSmall: true,
+      subtitle: null,
+      desc: 'Projected value of increased graduate employability and provincial retention.',
+      tag: 'Revenue/Growth',
+      tagColor: '#DBEAFE',
+      value: 0,
+    },
+    {
+      metric: 'Competitive Positioning',
+      metricSmall: true,
+      subtitle: null,
+      desc: 'Data-driven insights enabling institutional differentiation.',
+      tag: 'Revenue/Growth',
+      tagColor: '#DBEAFE',
+      value: 0,
+    },
+    {
+      metric: '+20%',
+      metricSmall: false,
+      subtitle: 'Student Satisfaction',
+      desc: 'Projected impact of improved student experience on recruitment/retention.',
+      tag: 'Revenue/Growth',
+      tagColor: '#DBEAFE',
+      value: 0,
+    },
+    {
+      metric: 'Experiential Learning Capital',
+      metricSmall: true,
+      subtitle: null,
+      desc: '100+ student internships translating to higher earning potential.',
+      tag: 'Revenue/Growth',
+      tagColor: '#DBEAFE',
+      value: 0,
+    },
+  ];
+
+  const [displayedCards, setDisplayedCards] = useState(allImpactCards.slice(0, 6));
+
+  const totalImpact = displayedCards.reduce((sum, card) => sum + card.value, 0);
+  const totalInMillions = (totalImpact / 1000000).toFixed(1);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const shuffled = [...allImpactCards].sort(() => Math.random() - 0.5);
+      setDisplayedCards(shuffled.slice(0, 6));
+    }, 20000);
+    return () => clearInterval(interval);
+  }, []);
+
   const cards = [
     {
       icon: '/icon-bespoke.png',
@@ -293,15 +411,14 @@ export default function OurSolutions() {
         <div className="max-w-[min(1440px,_95%)] mx-auto px-16">
           {/* Heading */}
           <h2
+            className="mb-4 text-center"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
               fontSize: 'clamp(28px, 3.33vw, 56px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
-              textAlign: 'center',
               color: '#14358A',
-              marginBottom: 'clamp(10px, 1.11vw, 16px)',
             }}
           >
             The Impact We Deliver
@@ -326,158 +443,41 @@ export default function OurSolutions() {
 
           {/* Impact Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-[1320px] mx-auto">
-            {/* Card 1 - +$2.1M */}
-            <div
-              className="depth-card"
-              style={{
-                border: '3px solid #14358A',
-                borderRadius: '10px',
-                padding: 'clamp(16px, 1.67vw, 24px) clamp(18px, 1.94vw, 28px)',
-                minHeight: 'clamp(200px, 17.57vw, 253px)',
-                display: 'flex',
-                flexDirection: 'column',
-              }}
-            >
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
-                +$2.1M
-              </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(6px, 0.56vw, 8px)' }}>
-                Productivity Gain
-              </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
-                Increased output from stable, trained teams and optimized scheduling.
-              </p>
-              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 0.69vw, 12px)', lineHeight: '26px', color: '#FFFFFF', background: '#91AFFC', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: 'clamp(8px, 0.83vw, 12px)' }}>
-                Revenue/Growth
-              </span>
-            </div>
-
-            {/* Card 2 - +$4.5M */}
-            <div
-              className="depth-card"
-              style={{
-                border: '3px solid #14358A',
-                borderRadius: '10px',
-                padding: 'clamp(16px, 1.67vw, 24px) clamp(18px, 1.94vw, 28px)',
-                minHeight: 'clamp(200px, 17.57vw, 253px)',
-                display: 'flex',
-                flexDirection: 'column',
-              }}
-            >
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
-                +$4.5M
-              </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(6px, 0.56vw, 8px)' }}>
-                Turnover Cost Avoidance
-              </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
-                Reduction in recruitment and hiring costs from 60% lower turnover.
-              </p>
-              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 0.69vw, 12px)', lineHeight: '26px', color: '#FFFFFF', background: '#91AFFC', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: 'clamp(8px, 0.83vw, 12px)' }}>
-                Revenue/Growth
-              </span>
-            </div>
-
-            {/* Card 3 - +$34.3M */}
-            <div
-              className="depth-card"
-              style={{
-                border: '3px solid #14358A',
-                borderRadius: '10px',
-                padding: 'clamp(16px, 1.67vw, 24px) clamp(18px, 1.94vw, 28px)',
-                minHeight: 'clamp(200px, 17.57vw, 253px)',
-                display: 'flex',
-                flexDirection: 'column',
-              }}
-            >
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
-                +$34.3M
-              </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(6px, 0.56vw, 8px)' }}>
-                Revenue Retained
-              </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
-                Annual Recurring Revenue preserved by increasing retention to 88%.
-              </p>
-              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 0.69vw, 12px)', lineHeight: '26px', color: '#FFFFFF', background: '#91AFFC', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: 'clamp(8px, 0.83vw, 12px)' }}>
-                Revenue/Growth
-              </span>
-            </div>
-
-            {/* Card 4 - Employer Network */}
-            <div
-              className="depth-card"
-              style={{
-                border: '3px solid #14358A',
-                borderRadius: '10px',
-                padding: 'clamp(16px, 1.67vw, 24px) clamp(18px, 1.94vw, 28px)',
-                minHeight: 'clamp(200px, 17.57vw, 253px)',
-                display: 'flex',
-                flexDirection: 'column',
-              }}
-            >
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.78vw, 44px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(8px, 0.83vw, 12px)' }}>
-                Employer Network
-              </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
-                Strategic value of 50+ formal partnerships for graduate placement.
-              </p>
-              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 0.69vw, 12px)', lineHeight: '26px', color: '#FFFFFF', background: '#91AFFC', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: 'clamp(8px, 0.83vw, 12px)' }}>
-                Revenue/Growth
-              </span>
-            </div>
-
-            {/* Card 5 - -$8.4M */}
-            <div
-              className="depth-card"
-              style={{
-                border: '3px solid #14358A',
-                borderRadius: '10px',
-                padding: 'clamp(16px, 1.67vw, 24px) clamp(18px, 1.94vw, 28px)',
-                minHeight: 'clamp(200px, 17.57vw, 253px)',
-                display: 'flex',
-                flexDirection: 'column',
-              }}
-            >
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
-                -$8.4M
-              </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(6px, 0.56vw, 8px)' }}>
-                Direct Cost Savings
-              </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
-                Reduction in support labor and infrastructure costs via automation.
-              </p>
-              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 0.69vw, 12px)', lineHeight: '26px', color: '#FFFFFF', background: '#7DFF95', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: 'clamp(8px, 0.83vw, 12px)' }}>
-                Cost/Efficiency
-              </span>
-            </div>
-
-            {/* Card 6 - +$500K */}
-            <div
-              className="depth-card"
-              style={{
-                border: '3px solid #14358A',
-                borderRadius: '10px',
-                padding: 'clamp(16px, 1.67vw, 24px) clamp(18px, 1.94vw, 28px)',
-                minHeight: 'clamp(200px, 17.57vw, 253px)',
-                display: 'flex',
-                flexDirection: 'column',
-              }}
-            >
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
-                +$500K
-              </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(6px, 0.56vw, 8px)' }}>
-                Revenue Protection
-              </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
-                Mitigated loss from customer dissatisfaction and service inconsistency.
-              </p>
-              <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 0.69vw, 12px)', lineHeight: '26px', color: '#FFFFFF', background: '#91AFFC', borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: 'clamp(8px, 0.83vw, 12px)' }}>
-                Revenue/Growth
-              </span>
-            </div>
+            {displayedCards.map((card, idx) => (
+              <div
+                key={idx}
+                className="depth-card"
+                style={{
+                  border: '3px solid #14358A',
+                  borderRadius: '10px',
+                  padding: 'clamp(16px, 1.67vw, 24px) clamp(18px, 1.94vw, 28px)',
+                  minHeight: 'clamp(200px, 17.57vw, 253px)',
+                  display: 'flex',
+                  flexDirection: 'column',
+                }}
+              >
+                {card.metricSmall ? (
+                  <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.78vw, 44px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(8px, 0.83vw, 12px)' }}>
+                    {card.metric}
+                  </p>
+                ) : (
+                  <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
+                    {card.metric}
+                  </p>
+                )}
+                {card.subtitle && (
+                  <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(6px, 0.56vw, 8px)' }}>
+                    {card.subtitle}
+                  </p>
+                )}
+                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
+                  {card.desc}
+                </p>
+                <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 0.69vw, 12px)', lineHeight: '26px', color: card.tagColor === '#F3E8FF' ? '#7C3AED' : '#1D4ED8', background: card.tagColor, borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: 'clamp(8px, 0.83vw, 12px)' }}>
+                  {card.tag}
+                </span>
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -514,7 +514,7 @@ export default function OurSolutions() {
               marginBottom: 'clamp(6px, 0.56vw, 8px)',
             }}
           >
-            $31.0M+
+            {totalImpact > 0 ? `$${totalInMillions}M+` : 'Measurable Impact'}
           </p>
 
           {/* Subtitle */}
@@ -684,7 +684,7 @@ export default function OurSolutions() {
                   Continuous Expertise at Your Fingertips.
                 </p>
                 <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '24px', color: '#5F5F5F' }}>
-                  For businesses requiring consistent, proactive access strategic advice and specialized fractional expertise, having a deeper partnership for sustained long-term growth.
+                  For businesses requiring consistent, proactive access to strategic advice and specialized fractional expertise, building a deeper partnership for sustained long-term growth.
                 </p>
               </div>
             </div>
@@ -785,16 +785,6 @@ export default function OurSolutions() {
 
             {/* Right Side - Average Heart ROI */}
             <div className="flex flex-col items-center gap-6">
-              {[
-                { title: 'Clear Success Metrics', desc: 'We define 3–5 key performance indicators before engagement begins.' },
-                { title: 'Monthly Progress Reviews', desc: 'Transparent reporting against agreed milestones and metrics.' },
-                { title: 'Risk-Sharing Mechanisms', desc: 'Our equity and milestone-based models align incentives with outcomes.' },
-              ].map((item) => (
-                <div key={item.title} style={{ maxWidth: 'min(340px, 90%)', textAlign: 'center' }}>
-                  <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', color: '#14358A', marginBottom: '4px' }}>{item.title}</p>
-                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 16px)', lineHeight: '150%', color: '#333333' }}>{item.desc}</p>
-                </div>
-              ))}
               <h3
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
@@ -803,7 +793,7 @@ export default function OurSolutions() {
                   lineHeight: '120%',
                   color: '#14358A',
                   marginBottom: 'clamp(14px, 1.67vw, 24px)',
-                  marginTop: 'clamp(8px, 0.83vw, 12px)',
+                  marginTop: '0',
                 }}
               >
                 Average Client ROI
@@ -847,6 +837,28 @@ export default function OurSolutions() {
               >
                 Industry-leading returns, driven by a model built on tangible results and shared success.
               </p>
+              {/* Buttons */}
+              <a
+                href="/power-of-working-with-us"
+                style={{
+                  display: 'block',
+                  width: '100%',
+                  maxWidth: 'min(340px, 90%)',
+                  textAlign: 'center',
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: 'clamp(13px, 1.11vw, 17px)',
+                  color: '#FFFFFF',
+                  background: 'linear-gradient(135deg, #7C5CFA 0%, #C45FD4 100%)',
+                  border: 'none',
+                  borderRadius: '12px',
+                  padding: '14px 24px',
+                  textDecoration: 'none',
+                  marginTop: 'clamp(16px, 1.67vw, 24px)',
+                }}
+              >
+                Discover How We Engineer Results
+              </a>
             </div>
           </div>
         </div>
@@ -867,7 +879,7 @@ export default function OurSolutions() {
               marginBottom: 'clamp(36px, 4.44vw, 64px)',
             }}
           >
-            Frequently Asked Questions
+            Common Questions
           </h2>
 
           <div className="max-w-[min(900px,_90%)] mx-auto flex flex-col gap-4">

@@ -163,22 +163,17 @@ export default function SolutionAssessmentTool() {
                   How critical is this to your business?
                 </label>
                 <input
-                  type="text"
-                  value={criticality}
+                  type="range"
+                  min={0}
+                  max={100}
+                  value={criticality === '' ? 0 : Number(criticality)}
                   onChange={e => setCriticality(e.target.value)}
-                  placeholder=""
-                  style={{
-                    width: '100%',
-                    border: '0.8px solid #D1D5DC',
-                    borderRadius: '8px',
-                    padding: '10px 12px',
-                    fontFamily: 'Montserrat, sans-serif',
-                    fontSize: 'clamp(11px, 0.97vw, 16px)',
-                    color: '#333333',
-                    outline: 'none',
-                    boxSizing: 'border-box',
-                  }}
+                  style={{ width: '100%', accentColor: '#14358A' }}
                 />
+                <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '4px' }}>
+                  <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '11px', color: '#5F6D7E' }}>Low</span>
+                  <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: '11px', color: '#5F6D7E' }}>High</span>
+                </div>
               </div>
               <div>
                 <label
@@ -193,11 +188,9 @@ export default function SolutionAssessmentTool() {
                 >
                   What is your ideal timeframe for a solution?
                 </label>
-                <input
-                  type="text"
+                <select
                   value={timeframe}
                   onChange={e => setTimeframe(e.target.value)}
-                  placeholder=""
                   style={{
                     width: '100%',
                     border: '0.8px solid #D1D5DC',
@@ -205,11 +198,19 @@ export default function SolutionAssessmentTool() {
                     padding: '10px 12px',
                     fontFamily: 'Montserrat, sans-serif',
                     fontSize: 'clamp(11px, 0.97vw, 16px)',
-                    color: '#333333',
+                    color: timeframe === '' ? '#9CA3AF' : '#333333',
                     outline: 'none',
                     boxSizing: 'border-box',
+                    background: '#FFFFFF',
+                    cursor: 'pointer',
                   }}
-                />
+                >
+                  <option value="">&lt;3 Months</option>
+                  <option value="<3 Months">&lt;3 Months</option>
+                  <option value="3-6 Months">3–6 Months</option>
+                  <option value="6-12 Months">6–12 Months</option>
+                  <option value="12+ Months">12+ Months</option>
+                </select>
               </div>
             </div>
 

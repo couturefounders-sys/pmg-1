@@ -3,6 +3,36 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
+import ScrollStack from '@/components/ScrollStack';
+
+const CAPABILITY_ITEMS = [
+  'Sector Convergence',
+  'Business Value Units',
+  'Input-Output Method',
+  'Customer Journey Mapping',
+  'Net Promoter Score (NPS)',
+  'Voice of the Customer (VoC)',
+  'Experience Design (XD)',
+  'Service Blueprinting',
+  'Omnichannel Strategy',
+  'Customer Lifecycle Management',
+  'Persona Development',
+  'Effortless Experience',
+  'AI-Powered Support',
+  'Predictive Personalization',
+  'Sentient Analysis',
+  'Customer Retention',
+  'Advocacy Programs',
+  'Self-Service Portals',
+  'First-Contact Resolution',
+  'Emotional Connection',
+];
+
+const STEP_POSITIONS = {
+  step1: { left: 20, top: 10 },
+  step2: { left: 70, top: 10 },
+  step3: { left: 47, top: 92 },
+};
 
 export default function CustomerExperienceConsulting() {
   return (
@@ -343,10 +373,9 @@ export default function CustomerExperienceConsulting() {
       </div>
 
       {/* Our Approach Section */}
-      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
-        <div className="text-center mb-12">
+      <div style={{ backgroundColor: '#fff', padding: '80px 20px' }}>
+        <div style={{ maxWidth: 'min(1200px, 95%)', margin: '0 auto' }}>
           <h2
-            className="mb-6"
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
@@ -354,38 +383,52 @@ export default function CustomerExperienceConsulting() {
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
+              textAlign: 'center',
+              marginBottom: '24px',
             }}
           >
             Our Approach
           </h2>
+
           <p
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.74vw, 28px)',
               lineHeight: '140%',
-              color: '#333333',
-              maxWidth: 'min(1201px, 95%)',
-              margin: '0 auto',
+              color: '#333',
+              textAlign: 'center',
+              maxWidth: 'min(1000px, 95%)',
+              margin: '0 auto 60px',
             }}
           >
             Our approach is a unique blend of deep customer experience expertise and human-centred design principles. We draw insights from a vast array of successful customer experiences across industries, identifying best practices and innovative solutions that deliver exceptional results.
           </p>
-        </div>
 
-        <div className="relative max-w-[1200px] mx-auto mt-16">
-          {/* Top Row */}
-          <div className="grid grid-cols-2 gap-16 mb-12">
-            <div className="text-center">
+          <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9' }}>
+            <div style={{ position: 'absolute', inset: '25% 0 25% 0' }}>
+              <ApproachRoadmap />
+            </div>
+
+            {/* Step 1 */}
+            <div
+              style={{
+                position: 'absolute',
+                left: `${STEP_POSITIONS.step1.left}%`,
+                top: `${STEP_POSITIONS.step1.top}%`,
+                textAlign: 'center',
+              }}
+            >
               <h3
-                className="mb-3"
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '27px',
+                  fontSize: 'clamp(16px, 1.88vw, 27px)',
                   lineHeight: '105%',
-                  letterSpacing: '-0.03em',
                   color: '#14358A',
+                  letterSpacing: '-0.81px',
+                  marginBottom: '12px',
+                  whiteSpace: 'nowrap',
                 }}
               >
                 Uncover Customer Pain Points
@@ -394,25 +437,75 @@ export default function CustomerExperienceConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(15px, 1.39vw, 22px)',
+                  fontSize: 'clamp(13px, 1.25vw, 20px)',
                   lineHeight: '140%',
-                  color: '#333333',
+                  color: '#333',
+                  margin: 0,
                 }}
               >
-                We conduct thorough assessments to understand employee needs, motivations, and challenges.
+                We conduct in-depth research to understand customer<br />
+                needs, frustrations, and expectations.
               </p>
             </div>
 
-            <div className="text-center">
+            {/* Step 2 */}
+            <div
+              style={{
+                position: 'absolute',
+                left: `${STEP_POSITIONS.step2.left}%`,
+                top: `${STEP_POSITIONS.step2.top}%`,
+                textAlign: 'center',
+              }}
+            >
               <h3
-                className="mb-3"
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '27px',
+                  fontSize: 'clamp(16px, 1.88vw, 27px)',
                   lineHeight: '105%',
-                  letterSpacing: '-0.03em',
                   color: '#14358A',
+                  letterSpacing: '-0.81px',
+                  marginBottom: '12px',
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                Design Customer-Centric Solutions
+              </h3>
+              <p
+                style={{
+                  fontFamily: 'Inter, sans-serif',
+                  fontWeight: 400,
+                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  lineHeight: '140%',
+                  color: '#333',
+                  margin: 0,
+                }}
+              >
+                We develop innovative solutions that address<br />
+                customer needs and create seamless, enjoyable<br />
+                experiences.
+              </p>
+            </div>
+
+            {/* Step 3 */}
+            <div
+              style={{
+                position: 'absolute',
+                left: `${STEP_POSITIONS.step3.left}%`,
+                top: `${STEP_POSITIONS.step3.top}%`,
+                textAlign: 'center',
+              }}
+            >
+              <h3
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: 'clamp(16px, 1.88vw, 27px)',
+                  lineHeight: '105%',
+                  color: '#14358A',
+                  whiteSpace: 'nowrap',
+                  letterSpacing: '-0.81px',
+                  marginBottom: '12px',
                 }}
               >
                 Measure and Optimize Performance
@@ -421,47 +514,19 @@ export default function CustomerExperienceConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(15px, 1.39vw, 22px)',
+                  fontSize: 'clamp(13px, 1.25vw, 20px)',
                   lineHeight: '140%',
-                  color: '#333333',
+                  color: '#333',
+                  margin: 0,
                 }}
               >
-                We track key metrics, such as customer satisfaction, loyalty, and Net Promoter Score (NPS), to measure the impact of our interventions and continually improve the customer experience.
+                We track key metrics, such as customer satisfaction,<br />
+                loyalty, and Net Promoter Score (NPS), to measure<br />
+                the impact of our interventions and continually<br />
+                improve the customer experience.
               </p>
             </div>
-          </div>
 
-          {/* Roadmap Image */}
-          <div className="relative flex items-center justify-center mb-12">
-            <ApproachRoadmap />
-          </div>
-
-          {/* Bottom Box */}
-          <div className="text-center max-w-[600px] mx-auto">
-            <h3
-              className="mb-3"
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '27px',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                color: '#14358A',
-              }}
-            >
-              Design Customer-Centric Solutions
-            </h3>
-            <p
-              style={{
-                fontFamily: 'Inter, sans-serif',
-                fontWeight: 400,
-                fontSize: 'clamp(15px, 1.39vw, 22px)',
-                lineHeight: '140%',
-                color: '#333333',
-              }}
-            >
-              We develop innovative solutions that address customer needs and create seamless, enjoyable experiences.
-            </p>
           </div>
         </div>
       </div>
@@ -469,91 +534,9 @@ export default function CustomerExperienceConsulting() {
       {/* A Multi-Faceted Approach to Success Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <div className="flex flex-col lg:flex-row gap-12 items-start">
-          {/* Left Side - Capability Pills */}
-          <div className="flex flex-col gap-4">
-            {/* Capability Pills with Figma Connector */}
-            <div className="relative flex gap-6">
-              {/* Left Connector SVG — blue bullets per pill + gray dots between */}
-              <div className="flex-shrink-0" style={{ width: '50px' }}>
-                <svg width="50" height="424" viewBox="0 0 50 424" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="10" cy="36" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="124" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="212" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="300" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="388" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="68" r="5" fill="#424856"/>
-                  <circle cx="10" cy="80" r="5" fill="#424856"/>
-                  <circle cx="10" cy="92" r="5" fill="#424856"/>
-                  <circle cx="36" cy="80" r="5" fill="#424856"/>
-                  <circle cx="10" cy="156" r="5" fill="#424856"/>
-                  <circle cx="10" cy="168" r="5" fill="#424856"/>
-                  <circle cx="10" cy="180" r="5" fill="#424856"/>
-                  <circle cx="36" cy="168" r="5" fill="#424856"/>
-                  <circle cx="10" cy="244" r="5" fill="#424856"/>
-                  <circle cx="10" cy="256" r="5" fill="#424856"/>
-                  <circle cx="10" cy="268" r="5" fill="#424856"/>
-                  <circle cx="36" cy="256" r="5" fill="#424856"/>
-                  <circle cx="10" cy="332" r="5" fill="#424856"/>
-                  <circle cx="10" cy="344" r="5" fill="#424856"/>
-                  <circle cx="10" cy="356" r="5" fill="#424856"/>
-                  <circle cx="36" cy="344" r="5" fill="#424856"/>
-                </svg>
-              </div>
-
-              {/* Pills Column */}
-              <div className="flex flex-col gap-4">
-                {[
-                  {
-                    label: 'Product Lifecycle Management',
-                    svg: (
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <rect x="3" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
-                        <rect x="14" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
-                        <rect x="3" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
-                        <rect x="14" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
-                      </svg>
-                    ),
-                  },
-                  {
-                    label: 'Capital Excellence',
-                    svg: (
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 4L12 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M19.5 2.5a2.12 2.12 0 013 3L16 12l-4 1 1-4 6.5-6.5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M13.5 6.5L17.5 10.5" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M10 12.5C10 12.5 8 14 6.5 17.5C5 21 2 22 2 22s1-3 4.5-4.5C10 14 11.5 12 11.5 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                    ),
-                  },
-                  {
-                    label: 'Data-Driven Insights',
-                    svg: (
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 4l7.07 17 2.51-7.39L21 11.1 4 4z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M13 13l6 6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                    ),
-                  },
-                  {
-                    label: 'KPI Optimization',
-                    svg: (
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 00-2.91-.09z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M12 15l-3-3" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M18 4s-1 0-4 3l-7 7 3 3 7-7c3-3 3-4 3-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M15 6l3 3" stroke="white" strokeWidth="2" strokeLinecap="round"/></svg>
-                    ),
-                  },
-                  {
-                    label: 'Lean Six Sigma',
-                    svg: (
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                    ),
-                  },
-                ].map((pill, idx) => (
-                  <div key={idx} className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                    <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                      <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                        <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                          {pill.svg}
-                        </div>
-                      </div>
-                    </div>
-                    <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
-                      {pill.label}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
+          {/* Left Side - Scroll Stack */}
+          <div className="lg:w-[45%]">
+            <ScrollStack items={CAPABILITY_ITEMS} />
           </div>
 
           {/* Right Side - Content */}

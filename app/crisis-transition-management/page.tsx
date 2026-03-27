@@ -3,6 +3,31 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
+import ScrollStack from '@/components/ScrollStack';
+
+const CAPABILITY_ITEMS = [
+  'Crisis Leadership',
+  'Turnaround Strategy',
+  'Stakeholder Communication',
+  'Business Continuity',
+  'Resilience Planning',
+  'Interim Management',
+  'Financial Restructuring',
+  'Reputation Management',
+  'Succession Planning',
+  'Risk Assessment',
+  'Scenario Planning',
+  'Post-Mortem Analysis',
+  'Liquidity Management',
+  'Operational Stabilization',
+  'Change Management',
+];
+
+const STEP_POSITIONS = {
+  step1: { left: 20, top: 10 },
+  step2: { left: 70, top: 10 },
+  step3: { left: 47, top: 92 },
+};
 
 export default function CrisisTransitionManagement() {
   return (
@@ -158,127 +183,171 @@ export default function CrisisTransitionManagement() {
       </div>
 
       {/* Our Approach Section */}
-      <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
-        <div className="text-center mb-12">
-          <h2 className="mb-8" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Our Approach</h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', textAlign: 'center', color: '#333333', maxWidth: 'min(1201px, 95%)', margin: '0 auto' }}>
-            We replace panic with protocol. Our approach is forensic; identifying the leak, stabilizing the burn, and re-engineering the system for long-term immunity. We provide the stability and strategic foresight needed to steer your organization through turbulent times.
+      <div style={{ backgroundColor: '#fff', padding: '80px 20px' }}>
+        <div style={{ maxWidth: 'min(1200px, 95%)', margin: '0 auto' }}>
+          <h2
+            style={{
+              fontFamily: 'DM Sans, sans-serif',
+              fontWeight: 700,
+              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              color: '#14358A',
+              textAlign: 'center',
+              marginBottom: '24px',
+            }}
+          >
+            Our Approach
+          </h2>
+
+          <p
+            style={{
+              fontFamily: 'Montserrat, sans-serif',
+              fontWeight: 400,
+              fontSize: 'clamp(16px, 1.74vw, 28px)',
+              lineHeight: '140%',
+              color: '#333',
+              textAlign: 'center',
+              maxWidth: 'min(1000px, 95%)',
+              margin: '0 auto 60px',
+            }}
+          >
+            We replace panic with protocol. Our approach is forensic; identifying the leak, stabilizing the burn, and re-engineering the system for long-term immunity.
           </p>
-        </div>
 
-        <div className="flex justify-between max-w-[1200px] mx-auto mb-0">
-          <div className="text-center" style={{ maxWidth: 'min(512px, 95%)' }}>
-            <h3 className="mb-4" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '27px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Stabilize and Assess</h3>
-            <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '140%', color: '#333333' }}>We quickly assess the situation to stabilize operations, secure financials, and establish a clear baseline.</p>
+          <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9' }}>
+            <div style={{ position: 'absolute', inset: '25% 0 25% 0' }}>
+              <ApproachRoadmap />
+            </div>
+
+            {/* Step 1 */}
+            <div
+              style={{
+                position: 'absolute',
+                left: `${STEP_POSITIONS.step1.left}%`,
+                top: `${STEP_POSITIONS.step1.top}%`,
+                textAlign: 'center',
+              }}
+            >
+              <h3
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: 'clamp(16px, 1.88vw, 27px)',
+                  lineHeight: '105%',
+                  color: '#14358A',
+                  letterSpacing: '-0.81px',
+                  marginBottom: '12px',
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                Stabilize and Assess
+              </h3>
+              <p
+                style={{
+                  fontFamily: 'Inter, sans-serif',
+                  fontWeight: 400,
+                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  lineHeight: '140%',
+                  color: '#333',
+                  margin: 0,
+                }}
+              >
+                We quickly assess the situation to stabilize<br />
+                operations, secure financials, and establish<br />
+                a clear baseline.
+              </p>
+            </div>
+
+            {/* Step 2 */}
+            <div
+              style={{
+                position: 'absolute',
+                left: `${STEP_POSITIONS.step2.left}%`,
+                top: `${STEP_POSITIONS.step2.top}%`,
+                textAlign: 'center',
+              }}
+            >
+              <h3
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: 'clamp(16px, 1.88vw, 27px)',
+                  lineHeight: '105%',
+                  color: '#14358A',
+                  letterSpacing: '-0.81px',
+                  marginBottom: '12px',
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                Develop a Strategic Response
+              </h3>
+              <p
+                style={{
+                  fontFamily: 'Inter, sans-serif',
+                  fontWeight: 400,
+                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  lineHeight: '140%',
+                  color: '#333',
+                  margin: 0,
+                }}
+              >
+                We formulate a clear, actionable plan that addresses<br />
+                the root causes of the crisis and charts a path<br />
+                toward recovery and resilience.
+              </p>
+            </div>
+
+            {/* Step 3 */}
+            <div
+              style={{
+                position: 'absolute',
+                left: `${STEP_POSITIONS.step3.left}%`,
+                top: `${STEP_POSITIONS.step3.top}%`,
+                textAlign: 'center',
+              }}
+            >
+              <h3
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: 'clamp(16px, 1.88vw, 27px)',
+                  lineHeight: '105%',
+                  color: '#14358A',
+                  whiteSpace: 'nowrap',
+                  letterSpacing: '-0.81px',
+                  marginBottom: '12px',
+                }}
+              >
+                Execute with Precision
+              </h3>
+              <p
+                style={{
+                  fontFamily: 'Inter, sans-serif',
+                  fontWeight: 400,
+                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  lineHeight: '140%',
+                  color: '#333',
+                  margin: 0,
+                }}
+              >
+                Our embedded experts lead the implementation<br />
+                of the turnaround plan, managing stakeholders<br />
+                and driving toward key milestones with<br />
+                unwavering focus.
+              </p>
+            </div>
+
           </div>
-          <div className="text-center" style={{ maxWidth: 'min(491px, 95%)' }}>
-            <h3 className="mb-4" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '27px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Execute with Precision</h3>
-            <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '140%', color: '#333333' }}>Our embedded experts lead the implementation of the turnaround plan, managing stakeholders and driving toward key milestones with unwavering focus.</p>
-          </div>
-        </div>
-
-        {/* Roadmap Image */}
-        <div className="flex justify-center my-8">
-          <ApproachRoadmap />
-        </div>
-
-        <div className="text-center max-w-[625px] mx-auto">
-          <h3 className="mb-4" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '27px', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Develop a Strategic Response</h3>
-          <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '140%', color: '#333333' }}>We formulate a clear, actionable plan that addresses the root causes of the crisis and charts a path toward recovery and resilience.</p>
         </div>
       </div>
 
       {/* Leadership When It Counts Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <div className="flex flex-col lg:flex-row gap-12 items-start">
-          <div className="flex flex-col gap-4">
-            {/* Capability Pills with Figma Connector */}
-            <div className="relative flex gap-6">
-              {/* Left Connector SVG — blue bullets per pill + gray dots between */}
-              <div className="flex-shrink-0" style={{ width: '50px' }}>
-                <svg width="50" height="424" viewBox="0 0 50 424" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="10" cy="36" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="124" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="212" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="300" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="388" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="68" r="5" fill="#424856"/>
-                  <circle cx="10" cy="80" r="5" fill="#424856"/>
-                  <circle cx="10" cy="92" r="5" fill="#424856"/>
-                  <circle cx="36" cy="80" r="5" fill="#424856"/>
-                  <circle cx="10" cy="156" r="5" fill="#424856"/>
-                  <circle cx="10" cy="168" r="5" fill="#424856"/>
-                  <circle cx="10" cy="180" r="5" fill="#424856"/>
-                  <circle cx="36" cy="168" r="5" fill="#424856"/>
-                  <circle cx="10" cy="244" r="5" fill="#424856"/>
-                  <circle cx="10" cy="256" r="5" fill="#424856"/>
-                  <circle cx="10" cy="268" r="5" fill="#424856"/>
-                  <circle cx="36" cy="256" r="5" fill="#424856"/>
-                  <circle cx="10" cy="332" r="5" fill="#424856"/>
-                  <circle cx="10" cy="344" r="5" fill="#424856"/>
-                  <circle cx="10" cy="356" r="5" fill="#424856"/>
-                  <circle cx="36" cy="344" r="5" fill="#424856"/>
-                </svg>
-              </div>
-
-              {/* Pills Column */}
-              <div className="flex flex-col gap-4">
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" stroke="white" strokeWidth="2"/><rect x="14" y="3" width="7" height="7" stroke="white" strokeWidth="2"/><rect x="3" y="14" width="7" height="7" stroke="white" strokeWidth="2"/><rect x="14" y="14" width="7" height="7" stroke="white" strokeWidth="2"/></svg>
-                      </div>
-                    </div>
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>Product Lifecycle Management</span>
-                </div>
-
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 4L12 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M19.5 2.5a2.12 2.12 0 013 3L16 12l-4 1 1-4 6.5-6.5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M13.5 6.5L17.5 10.5" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M10 12.5C10 12.5 8 14 6.5 17.5C5 21 2 22 2 22s1-3 4.5-4.5C10 14 11.5 12 11.5 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                      </div>
-                    </div>
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>Capital Excellence</span>
-                </div>
-
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 4l7.07 17 2.51-7.39L21 11.1 4 4z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M13 13l6 6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                      </div>
-                    </div>
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>Data-Driven Insights</span>
-                </div>
-
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 00-2.91-.09z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M12 15l-3-3" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M18 4s-1 0-4 3l-7 7 3 3 7-7c3-3 3-4 3-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M15 6l3 3" stroke="white" strokeWidth="2" strokeLinecap="round"/></svg>
-                      </div>
-                    </div>
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>KPI Optimization</span>
-                </div>
-
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                      </div>
-                    </div>
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>Lean Six Sigma</span>
-                </div>
-              </div>
-            </div>
+          {/* Left Side - Scroll Stack */}
+          <div className="lg:w-[45%]">
+            <ScrollStack items={CAPABILITY_ITEMS} />
           </div>
 
           <div className="flex-1 max-w-[715px]">

@@ -84,8 +84,33 @@ export default function EquitySolutions() {
                 margin: '0 auto 20px auto',
               }}
             >
-              PMG Equity Solutions is a hybrid model where we provide our full consulting services
-              (strategy, operations, execution) in exchange for equity instead of cash. You get
+              <span
+                style={{
+                  color: '#14358A',
+                  fontWeight: 700,
+                }}
+              >
+                PMG Equity Solutions
+              </span>{' '}
+              is a hybrid model where we provide our{' '}
+              <span
+                style={{
+                  color: '#14358A',
+                  fontWeight: 700,
+                }}
+              >
+                full consulting services
+              </span>{' '}
+              (strategy, operations, execution) in exchange for{' '}
+              <span
+                style={{
+                  color: '#14358A',
+                  fontWeight: 700,
+                }}
+              >
+                equity instead of cash
+              </span>
+              . You get
               world-class expertise without draining operating capital; we get aligned long-term
               upside.
             </p>
@@ -101,7 +126,27 @@ export default function EquitySolutions() {
                 color: '#68718B',
               }}
             >
-              This is not investment capital—it&apos;s expertise capital.
+              This is{' '}
+              <span
+                style={{
+                  color: '#14358A',
+                  fontWeight: 700,
+                  fontStyle: 'normal',
+                }}
+              >
+                not investment capital
+              </span>
+              —it&apos;s{' '}
+              <span
+                style={{
+                  color: '#14358A',
+                  fontWeight: 700,
+                  fontStyle: 'normal',
+                }}
+              >
+                expertise capital
+              </span>
+              .
             </p>
           </div>
 
@@ -764,18 +809,18 @@ export default function EquitySolutions() {
             {[
               {
                 icon: '/bcdimspx.png',
-                title: 'Transparent Success Metrics',
+                title: 'Valuation-Based Objectives',
                 desc: 'We begin by aligning on the 2–3 key drivers of valuation that our work will directly impact. Whether it\'s scaling ARR, achieving product-led growth milestones, or executing an operational turnaround to improve EBITDA margins, we define success in the language of your next funding round or exit.',
               },
               {
                 icon: '/c_dk_ml.png',
                 title: 'Governance & Transparent Stewardship',
-                desc: 'Our involvement is designed for clarity, not control. We establish clear, lightweight governance—often through an Advisory Board—where you retain clear rights—to provide oversight and insight. You receive direct access to the same operational dashboards (built on our PMG and <12 framework) that we use to track progress.',
+                desc: 'Our involvement is designed for clarity, not control. We establish clear, lightweight governance—often through an Advisory Board with board observer rights—where you retain full control. You receive direct access to the same operational dashboards (built on our BVU and I-O frameworks) that we use to track progress.',
               },
               {
                 icon: '/c_djckd.png',
                 title: 'Exit-Readiness Reviews',
-                desc: "Quarterly, we conduct an 'Exit-Readiness Audit.' This isn't just a project update. It's a disciplined review of the company's health against the criteria of potential acquirors or Series B+ investors. We identify gaps in documentation, operational metrics, or financial storytelling, and work proactively to close them. Our goal is to ensure the company is always positioned for a successful liquidity event.",
+                desc: "Quarterly, we conduct an Exit-Readiness Audit. This isn't just a project update. It's a disciplined review of the company's health against the criteria of potential acquirors or Series B+ investors. We identify gaps in documentation, operational metrics, or financial storytelling, and work proactively to close them. Our goal is to ensure the company is always positioned for a successful liquidity event.",
               },
             ].map((card, i) => (
               <div

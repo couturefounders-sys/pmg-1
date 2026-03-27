@@ -3,6 +3,46 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
+import ScrollStack from '@/components/ScrollStack';
+
+const CAPABILITY_ITEMS = [
+  'Sector Convergence',
+  'Business Value Units',
+  'Input-Output Method',
+  'Lean Six Sigma',
+  'Agile Methodologies',
+  'Value Chain Analysis',
+  'KPI Optimization',
+  'Balanced Scorecard',
+  'Enterprise Architecture',
+  'Cost-Benefit Analysis',
+  'Workflow Automation',
+  'Resource Allocation',
+  'Capital Excellence',
+  'Supply Chain Management',
+  'Risk Mitigation',
+  'Change Management',
+  'Performance Benchmarking',
+  'Data-Driven Insights',
+  'Systems Thinking',
+  'Customer Journey Mapping',
+  'Product Lifecycle Management',
+  'Theory of Constraints',
+];
+
+// ─── APPROACH STEP POSITIONS ─────────────────────────────────────────────────
+// left & top are percentages (0–100) of the roadmap container.
+// Because the container uses aspect-ratio, these scale identically on all screens.
+//   left: 0 = far left,  100 = far right
+//   top:  0 = top edge,  100 = bottom edge
+// Keep values roughly 0–80 so text stays visible.
+
+const STEP_POSITIONS = {
+  step1: { left: 20,  top: 10  },   // "Uncover Strategic Growth Avenues"
+  step2: { left: 70, top: 10  },   // "Develop a Resilient Strategic Roadmap"
+  step3: { left: 47, top: 92 },   // "Empower Your Organization for the Future"
+};
+// ─────────────────────────────────────────────────────────────────────────────
 
 export default function StrategyOperationsConsulting() {
   return (
@@ -622,26 +662,33 @@ export default function StrategyOperationsConsulting() {
             Our approach is a unique blend of deep functional expertise and rigorous systems thinking. We solve complex problems by drawing on successful cross-sector strategies, identifying hidden value, and crafting customized execution roadmaps.
           </p>
 
-          {/* Top two steps */}
-          <div
-            style={{
-              display: 'flex',
-              justifyContent: 'space-between',
-              gap: '60px',
-              marginBottom: '0',
-            }}
-          >
+          {/* Roadmap container — aspect-ratio keeps height proportional on every screen */}
+          <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9' }}>
+
+            {/* SVG Roadmap */}
+            <div style={{ position: 'absolute', inset: '25% 0 25% 0' }}>
+              <ApproachRoadmap />
+            </div>
+
             {/* Step 1 */}
-            <div style={{ flex: 1, textAlign: 'center' }}>
+            <div
+              style={{
+                position: 'absolute',
+                left: `${STEP_POSITIONS.step1.left}%`,
+                top: `${STEP_POSITIONS.step1.top}%`,
+                textAlign: 'center',
+              }}
+            >
               <h3
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '27px',
+                  fontSize: 'clamp(16px, 1.88vw, 27px)',
                   lineHeight: '105%',
                   color: '#14358A',
                   letterSpacing: '-0.81px',
                   marginBottom: '12px',
+                  whiteSpace: 'nowrap',
                 }}
               >
                 Uncover Strategic Growth Avenues
@@ -650,27 +697,37 @@ export default function StrategyOperationsConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(15px, 1.39vw, 22px)',
+                  fontSize: 'clamp(13px, 1.25vw, 20px)',
                   lineHeight: '140%',
                   color: '#333',
                   margin: 0,
                 }}
               >
-                We identify emerging market trends and cross-sectoral opportunities to develop compelling strategies for long-term dominance.
+                We identify emerging market trends and cross-sectoral<br />
+                opportunities to develop compelling strategies for long-<br />
+                term dominance.
               </p>
             </div>
 
             {/* Step 2 */}
-            <div style={{ flex: 1, textAlign: 'center' }}>
+            <div
+              style={{
+                position: 'absolute',
+                left: `${STEP_POSITIONS.step2.left}%`,
+                top: `${STEP_POSITIONS.step2.top}%`,
+                textAlign: 'center',
+              }}
+            >
               <h3
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: '27px',
+                  fontSize: 'clamp(16px, 1.88vw, 27px)',
                   lineHeight: '105%',
                   color: '#14358A',
                   letterSpacing: '-0.81px',
                   marginBottom: '12px',
+                  whiteSpace: 'nowrap',
                 }}
               >
                 Develop a Resilient Strategic Roadmap
@@ -679,7 +736,7 @@ export default function StrategyOperationsConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(15px, 1.39vw, 22px)',
+                  fontSize: 'clamp(13px, 1.25vw, 20px)',
                   lineHeight: '140%',
                   color: '#333',
                   margin: 0,
@@ -688,44 +745,46 @@ export default function StrategyOperationsConsulting() {
                 We create a clear and actionable roadmap that can withstand market volatility and position your organization for long-term success.
               </p>
             </div>
-          </div>
 
-          {/* SVG Roadmap - Figma design */}
-          <ApproachRoadmap />
-
-          {/* Step 3 - centered below SVG */}
-          <div
-            style={{
-              textAlign: 'center',
-              maxWidth: 'min(600px, 95%)',
-              margin: '0 auto',
-            }}
-          >
-            <h3
+            {/* Step 3 */}
+            <div
               style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: '27px',
-                lineHeight: '105%',
-                color: '#14358A',
-                letterSpacing: '-0.81px',
-                marginBottom: '12px',
+                position: 'absolute',
+                left: `${STEP_POSITIONS.step3.left}%`,
+                top: `${STEP_POSITIONS.step3.top}%`,
+                textAlign: 'center',
               }}
             >
-              Empower Your Organization for the Future
-            </h3>
-            <p
-              style={{
-                fontFamily: 'Inter, sans-serif',
-                fontWeight: 400,
-                fontSize: 'clamp(15px, 1.39vw, 22px)',
-                lineHeight: '140%',
-                color: '#333',
-                margin: 0,
-              }}
-            >
-              We provide strategic guidance, leadership development, and organizational change management to ensure successful execution.
-            </p>
+              <h3
+                style={{
+                  fontFamily: 'DM Sans, sans-serif',
+                  fontWeight: 700,
+                  fontSize: 'clamp(16px, 1.88vw, 27px)',
+                  lineHeight: '105%',
+                  color: '#14358A',
+                  whiteSpace: 'nowrap',
+                  letterSpacing: '-0.81px',
+                  marginBottom: '12px',
+                }}
+              >
+                Empower Your Organization for the Future
+              </h3>
+              <p
+                style={{
+                  fontFamily: 'Inter, sans-serif',
+                  fontWeight: 400,
+                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  lineHeight: '140%',
+                  color: '#333',
+                  margin: 0,
+                }}
+              >
+                We provide strategic guidance, leadership development,<br />
+                and organizational change management to ensure<br />
+                successful execution.
+              </p>
+            </div>
+
           </div>
         </div>
       </div>
@@ -733,120 +792,9 @@ export default function StrategyOperationsConsulting() {
       {/* A Multi-Faceted Approach to Success Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <div className="flex flex-col lg:flex-row gap-12 items-start">
-          {/* Left Side - Capability Pills */}
-          <div className="flex flex-col gap-4">
-             {/* Capability Pills with Figma Connector */}
-            <div className="relative flex gap-6">
-              {/* Left Connector SVG — blue bullets per pill + gray dots between */}
-              <div className="flex-shrink-0" style={{ width: '50px' }}>
-                <svg width="50" height="424" viewBox="0 0 50 424" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  {/* Blue bullet circles — one per pill center */}
-                  <circle cx="10" cy="36" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="124" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="212" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="300" r="10" fill="#14358A"/>
-                  <circle cx="10" cy="388" r="10" fill="#14358A"/>
-                  {/* Gray spacer dots between pill 1-2 */}
-                  <circle cx="10" cy="68" r="5" fill="#424856"/>
-                  <circle cx="10" cy="80" r="5" fill="#424856"/>
-                  <circle cx="10" cy="92" r="5" fill="#424856"/>
-                  <circle cx="36" cy="80" r="5" fill="#424856"/>
-                  {/* Gray spacer dots between pill 2-3 */}
-                  <circle cx="10" cy="156" r="5" fill="#424856"/>
-                  <circle cx="10" cy="168" r="5" fill="#424856"/>
-                  <circle cx="10" cy="180" r="5" fill="#424856"/>
-                  <circle cx="36" cy="168" r="5" fill="#424856"/>
-                  {/* Gray spacer dots between pill 3-4 */}
-                  <circle cx="10" cy="244" r="5" fill="#424856"/>
-                  <circle cx="10" cy="256" r="5" fill="#424856"/>
-                  <circle cx="10" cy="268" r="5" fill="#424856"/>
-                  <circle cx="36" cy="256" r="5" fill="#424856"/>
-                  {/* Gray spacer dots between pill 4-5 */}
-                  <circle cx="10" cy="332" r="5" fill="#424856"/>
-                  <circle cx="10" cy="344" r="5" fill="#424856"/>
-                  <circle cx="10" cy="356" r="5" fill="#424856"/>
-                  <circle cx="36" cy="344" r="5" fill="#424856"/>
-                </svg>
-              </div>
-
-              {/* Pills Column */}
-              <div className="flex flex-col gap-4">
-                {/* Product Lifecycle Management */}
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                          <rect x="3" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
-                          <rect x="14" y="3" width="7" height="7" stroke="white" strokeWidth="2"/>
-                          <rect x="3" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
-                          <rect x="14" y="14" width="7" height="7" stroke="white" strokeWidth="2"/>
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
-                    Product Lifecycle Management
-                  </span>
-                </div>
-
-                {/* Capital Excellence */}
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 4L12 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M19.5 2.5a2.12 2.12 0 013 3L16 12l-4 1 1-4 6.5-6.5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M13.5 6.5L17.5 10.5" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M10 12.5C10 12.5 8 14 6.5 17.5C5 21 2 22 2 22s1-3 4.5-4.5C10 14 11.5 12 11.5 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                      </div>
-                    </div>
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
-                    Capital Excellence
-                  </span>
-                </div>
-
-                {/* Data-Driven Insights */}
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 4l7.07 17 2.51-7.39L21 11.1 4 4z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M13 13l6 6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                      </div>
-                    </div>
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
-                    Data-Driven Insights
-                  </span>
-                </div>
-
-                {/* KPI Optimization */}
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 00-2.91-.09z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M12 15l-3-3" stroke="white" strokeWidth="2" strokeLinecap="round"/><path d="M18 4s-1 0-4 3l-7 7 3 3 7-7c3-3 3-4 3-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/><path d="M15 6l3 3" stroke="white" strokeWidth="2" strokeLinecap="round"/></svg>
-                      </div>
-                    </div>
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
-                    KPI Optimization
-                  </span>
-                </div>
-
-                {/* Lean Six Sigma */}
-                <div className="flex items-center rounded-full overflow-hidden" style={{ background: '#14358A', height: '72px' }}>
-                  <div className="w-[72px] h-[72px] flex items-center justify-center flex-shrink-0">
-                    <div className="w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center">
-                      <div className="w-[48px] h-[48px] rounded-full flex items-center justify-center" style={{ background: '#14358A' }}>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                      </div>
-                    </div>
-                  </div>
-                  <span className="pr-8" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '100%', color: '#FFFFFF' }}>
-                    Lean Six Sigma
-                  </span>
-                </div>
-              </div>
-            </div>
+          {/* Left Side - Scroll Stack (creates the scroll runway) */}
+          <div className="lg:w-[45%]">
+            <ScrollStack items={CAPABILITY_ITEMS} />
           </div>
 
           {/* Right Side - Content */}

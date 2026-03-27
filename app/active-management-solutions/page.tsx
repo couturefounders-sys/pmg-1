@@ -1,8 +1,12 @@
+'use client';
+
+import { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
 
 export default function ActiveManagementSolutions() {
+  const [activeTab, setActiveTab] = useState<'leadership' | 'autopilot'>('leadership');
   const advantageCards = [
     {
       icon: '/ams-icon-1.png',
@@ -34,8 +38,8 @@ export default function ActiveManagementSolutions() {
     },
     {
       icon: '/ams-icon-8.png',
-      title: 'Turnover Cost Avoidance',
-      desc: 'Solve different types of problems across multiple businesses, building a richer skill set than any single role offers.',
+      title: 'Portfolio Experience',
+      desc: 'Solve different types of problems across multiple businesses to build a truly diverse and robust skill set.',
     },
     {
       icon: '/ams-icon-7.png',
@@ -55,11 +59,11 @@ export default function ActiveManagementSolutions() {
   ];
 
   const compareRows = [
-    { category: 'Flexibility', traditional: 'Limited (individual)', interim: 'Limited (individual)', pmg: 'PMG corporate guarantee' },
-    { category: 'Cost', traditional: 'Low (fixed hire)', interim: 'Medium (contract)', pmg: 'High (can switch executives)' },
-    { category: 'Support', traditional: 'High (salary + benefits)', interim: 'Medium-high', pmg: 'Predictable monthly investment' },
-    { category: 'ROI Focus', traditional: 'James Clear', interim: 'Limited', pmg: 'Full PMG backing & resources' },
-    { category: 'Dune', traditional: 'Variable', interim: 'Project-based', pmg: 'Outcome-driven, supported by track record of industry-beating ROI.' },
+    { category: 'Accountability', traditional: 'Individual consultant', interim: 'Individual consultant', pmg: 'PMG corporate guarantee' },
+    { category: 'Flexibility', traditional: 'Limited | Low flexibility', interim: 'Medium flexibility', pmg: 'High — can switch executives' },
+    { category: 'Cost', traditional: 'High (full-time hire)', interim: 'Medium (contract)', pmg: 'Low (fractional)' },
+    { category: 'Support', traditional: 'Solo', interim: 'Solo with agency overhead', pmg: 'Full PMG team' },
+    { category: 'ROI Focus', traditional: 'Low (time-based)', interim: 'Medium', pmg: 'High (outcome-based)' },
   ];
 
   return (
@@ -210,7 +214,7 @@ export default function ActiveManagementSolutions() {
         </div>
       </section>
 
-      {/* ─── Section 3: The Impact We Deliver ─── */}
+      {/* ─── Section 3: Why World-Class Operators Choose PMG ─── */}
       <section className="w-full py-16 px-6 bg-white">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
@@ -224,7 +228,7 @@ export default function ActiveManagementSolutions() {
                 color: '#14358A',
               }}
             >
-              The Impact We Deliver
+              Why World-Class Operators Choose PMG
             </h2>
           </div>
 
@@ -344,7 +348,7 @@ export default function ActiveManagementSolutions() {
                       backgroundColor: '#FFFFFF',
                     }}
                   >
-                    Accountability
+                    Feature
                   </th>
                   <th
                     style={{
@@ -383,12 +387,13 @@ export default function ActiveManagementSolutions() {
                       fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 700,
                       fontSize: 'clamp(14px, 1.25vw, 20px)',
-                      color: '#333333',
+                      color: '#14358A',
                       padding: '18px 20px',
-                      textAlign: 'left',
-                      borderBottom: '1px solid #E5E7EB',
+                      textAlign: 'center',
+                      borderBottom: '1px solid #C7D2FE',
                       width: '28%',
-                      backgroundColor: '#FFFFFF',
+                      backgroundColor: '#EEF2FF',
+                      borderRadius: '12px 12px 0 0',
                     }}
                   >
                     PMG Active Management
@@ -446,13 +451,14 @@ export default function ActiveManagementSolutions() {
                     <td
                       style={{
                         fontFamily: 'Montserrat, sans-serif',
-                        fontWeight: 400,
+                        fontWeight: 700,
                         fontSize: 'clamp(13px, 1.11vw, 18px)',
-                        color: '#333333',
+                        color: '#14358A',
                         padding: '18px 20px',
                         verticalAlign: 'top',
                         lineHeight: '160%',
-                        backgroundColor: '#FFFFFF',
+                        backgroundColor: '#EEF2FF',
+                        textAlign: 'center',
                       }}
                     >
                       {row.pmg}
@@ -480,7 +486,7 @@ export default function ActiveManagementSolutions() {
               marginBottom: '16px',
             }}
           >
-            Our Process
+            From Role Definition to ROI — Our Operator-Led Process
           </h2>
           <p
             style={{
@@ -496,171 +502,72 @@ export default function ActiveManagementSolutions() {
           </p>
         </div>
 
-        {/* Wave + phases — absolute positioning per Figma */}
-        <div className="relative w-full" style={{ height: 'clamp(320px, 36.11vw, 520px)' }}>
-
-          {/* Wave image — full width, vertically centred */}
-          <div
-            className="absolute left-0 right-0"
-            style={{ top: '50%', transform: 'translateY(-50%)', zIndex: 0 }}
-          >
+        {/* Wave + phases — grid layout matching bespoke-solutions */}
+        <div className="relative w-full overflow-hidden">
+          {/* Wave image — full width, absolutely centred */}
+          <div className="absolute left-0 right-0" style={{ top: '50%', transform: 'translateY(-50%)', zIndex: 0 }}>
             <Image
               src="/bespoke-wave.png"
               alt="process wave"
               width={1440}
-              height={220}
+              height={226}
               style={{ width: '100%', height: 'auto', display: 'block' }}
             />
           </div>
 
-          {/* Phase 1 — above wave, far left (Figma x≈0%) */}
+          {/* Four phases grid overlay */}
           <div
-            style={{
-              position: 'absolute',
-              left: '6%',
-              top: '30px',
-              width: '250px',
-              textAlign: 'left',
-              zIndex: 1,
-            }}
+            className="relative w-full max-w-[1400px] mx-auto px-8 grid grid-cols-4"
+            style={{ zIndex: 1, height: 'clamp(350px, 38.89vw, 560px)' }}
           >
-            <h3
-              style={{
-                fontFamily: 'Montserrat, sans-serif',
-                fontWeight: 700,
-                fontSize: 'clamp(18px, 2.01vw, 33px)',
-                lineHeight: '130%',
-                color: '#14358A',
-                marginBottom: '10px',
-              }}
-            >
-              Needs Assessment
-            </h3>
-            <p
-              style={{
-                fontFamily: 'Montserrat, sans-serif',
-                fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
-                lineHeight: '160%',
-                color: '#6C757D',
-              }}
-            >
-              We begin with a comprehensive, collaborative deep dive to fully understand your
-              specific needs.
-            </p>
-          </div>
+            {/* Phase 1 — text TOP, left — pulled down */}
+            <div className="flex flex-col items-center justify-between" style={{ paddingTop: 'clamp(40px, 5vw, 70px)', paddingBottom: 'clamp(100px, 11vw, 160px)' }}>
+              <div style={{ maxWidth: 'min(200px, 100%)', textAlign: 'left', alignSelf: 'flex-start', transform: 'translateX(-10px)' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(17px, 1.81vw, 30px)', lineHeight: '1.3', color: '#14358A', marginBottom: '12px' }}>
+                  Needs Assessment
+                </h3>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.6', color: '#5F5F5F' }}>
+                  We begin with a comprehensive, collaborative deep dive to fully understand your specific needs and context.
+                </p>
+              </div>
+            </div>
 
-          {/* Phase 2 — below wave, center-left (Figma x≈28%) */}
-          <div
-            style={{
-              position: 'absolute',
-              left: '32%',
-              bottom: '40px',
-              width: '250px',
-              textAlign: 'left',
-              zIndex: 1,
-            }}
-          >
-            <h3
-              style={{
-                fontFamily: 'Montserrat, sans-serif',
-                fontWeight: 700,
-                fontSize: 'clamp(18px, 2.01vw, 33px)',
-                lineHeight: '130%',
-                color: '#14358A',
-                marginBottom: '10px',
-              }}
-            >
-              Strategic Deep-Dive
-            </h3>
-            <p
-              style={{
-                fontFamily: 'Montserrat, sans-serif',
-                fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
-                lineHeight: '160%',
-                color: '#6C757D',
-              }}
-            >
-              Our consultants perform a focused diagnostic review to uncover the most pressing
-              needs and opportunities.
-            </p>
-          </div>
+            {/* Phase 2 — text BOTTOM, center-left — pulled up */}
+            <div className="flex flex-col items-center justify-between" style={{ paddingTop: 'clamp(170px, 17vw, 250px)' }}>
+              <div style={{ maxWidth: 'min(280px, 100%)', textAlign: 'center' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(17px, 1.81vw, 30px)', lineHeight: '1.3', color: '#14358A', marginBottom: '12px' }}>
+                  Strategic Deep-Dive
+                </h3>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.6', color: '#5F5F5F' }}>
+                  Our consultants perform a focused diagnostic review to uncover the most pressing needs and opportunities.
+                </p>
+              </div>
+            </div>
 
-          {/* Phase 3 — above wave, center-right (Figma x≈55%) */}
-          <div
-            style={{
-              position: 'absolute',
-              left: '59%',
-              top: '30px',
-              width: '250px',
-              textAlign: 'left',
-              zIndex: 1,
-            }}
-          >
-            <h3
-              style={{
-                fontFamily: 'Montserrat, sans-serif',
-                fontWeight: 700,
-                fontSize: 'clamp(18px, 2.01vw, 33px)',
-                lineHeight: '130%',
-                color: '#14358A',
-                marginBottom: '10px',
-              }}
-            >
-              Placement &amp; Integration
-            </h3>
-            <p
-              style={{
-                fontFamily: 'Montserrat, sans-serif',
-                fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
-                lineHeight: '160%',
-                color: '#6C757D',
-              }}
-            >
-              We select and embed the ideal PMG executive, ensuring they are fully integrated
-              within your business&apos;s daily operations.
-            </p>
-          </div>
+            {/* Phase 3 — text TOP, center-right — pulled down */}
+            <div className="flex flex-col items-center justify-between" style={{ paddingTop: 'clamp(40px, 5vw, 70px)', paddingBottom: 'clamp(20px, 2.5vw, 40px)' }}>
+              <div style={{ maxWidth: 'min(280px, 100%)', textAlign: 'right', alignSelf: 'flex-end' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(17px, 1.81vw, 30px)', lineHeight: '1.3', color: '#14358A', marginBottom: '12px' }}>
+                  Placement &amp; Integration
+                </h3>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.6', color: '#5F5F5F' }}>
+                  We select and embed the ideal PMG executive, ensuring they are fully integrated within your business&apos;s daily operations.
+                </p>
+              </div>
+            </div>
 
-          {/* Phase 4 — below wave, far right (Figma x≈80%) */}
-          <div
-            style={{
-              position: 'absolute',
-              left: '84%',
-              bottom: '40px',
-              width: '250px',
-              textAlign: 'left',
-              zIndex: 1,
-            }}
-          >
-            <h3
-              style={{
-                fontFamily: 'Montserrat, sans-serif',
-                fontWeight: 700,
-                fontSize: 'clamp(18px, 2.01vw, 33px)',
-                lineHeight: '130%',
-                color: '#14358A',
-                marginBottom: '10px',
-              }}
-            >
-              Ongoing PMG Support
-            </h3>
-            <p
-              style={{
-                fontFamily: 'Montserrat, sans-serif',
-                fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
-                lineHeight: '160%',
-                color: '#6C757D',
-              }}
-            >
-              The embedded executive has continuous access to PMG&apos;s knowledge base,
-              methodologies, and fractional resources.
-            </p>
+            {/* Phase 4 — text BOTTOM, right — shifted right and up */}
+            <div className="flex flex-col items-center justify-between" style={{ paddingTop: 'clamp(170px, 17vw, 250px)' }}>
+              <div style={{ maxWidth: 'min(280px, 100%)', textAlign: 'right', alignSelf: 'flex-end', transform: 'translateX(30px)' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(17px, 1.81vw, 30px)', lineHeight: '1.3', color: '#14358A', marginBottom: '12px' }}>
+                  Ongoing PMG Support
+                </h3>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.6', color: '#5F5F5F' }}>
+                  The embedded executive has continuous access to PMG&apos;s knowledge base, methodologies, and fractional resources.
+                </p>
+              </div>
+            </div>
           </div>
-
         </div>
       </section>
 
@@ -706,29 +613,33 @@ export default function ActiveManagementSolutions() {
               }}
             >
               <button
+                onClick={() => setActiveTab('leadership')}
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 700,
                   fontSize: 'clamp(13px, 1.11vw, 18px)',
                   padding: '14px 40px',
-                  backgroundColor: '#14358A',
-                  color: '#FFFFFF',
+                  backgroundColor: activeTab === 'leadership' ? '#14358A' : '#FFFFFF',
+                  color: activeTab === 'leadership' ? '#FFFFFF' : '#14358A',
                   border: 'none',
                   cursor: 'pointer',
+                  transition: 'background-color 0.2s, color 0.2s',
                 }}
               >
                 Leadership Support
               </button>
               <button
+                onClick={() => setActiveTab('autopilot')}
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 700,
                   fontSize: 'clamp(13px, 1.11vw, 18px)',
                   padding: '14px 40px',
-                  backgroundColor: '#FFFFFF',
-                  color: '#14358A',
+                  backgroundColor: activeTab === 'autopilot' ? '#14358A' : '#FFFFFF',
+                  color: activeTab === 'autopilot' ? '#FFFFFF' : '#14358A',
                   border: 'none',
                   cursor: 'pointer',
+                  transition: 'background-color 0.2s, color 0.2s',
                 }}
               >
                 Business Autopilot
@@ -736,7 +647,8 @@ export default function ActiveManagementSolutions() {
             </div>
           </div>
 
-          {/* Two-column layout */}
+          {/* ── Leadership Support Tab ── */}
+          {activeTab === 'leadership' && (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Left column - Leadership Support */}
             <div>
@@ -965,6 +877,93 @@ export default function ActiveManagementSolutions() {
               </div>
             </div>
           </div>
+          )}
+
+          {/* ── Business Autopilot Tab ── */}
+          {activeTab === 'autopilot' && (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Left column */}
+            <div>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '27px', lineHeight: '120%', color: '#14358A', marginBottom: '16px' }}>
+                Business Autopilot
+              </h3>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '1.75', color: '#333333', marginBottom: '24px' }}>
+                For founders or investors seeking minimal to no operational involvement. A PMG executive assumes complete, autonomous responsibility for the business&apos;s day-to-day operations and strategic execution, reporting only at high-level milestones.
+              </p>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '1.6', color: '#333333', marginBottom: '16px' }}>
+                In this model, our executive is embedded as the ultimate operational authority:
+              </p>
+              <ul className="space-y-3 mb-8">
+                {['Managing Partner', 'Chief Executive Officer (CEO)', 'Executive Director (ED)', 'General Manager (GM)'].map((item, idx) => (
+                  <li key={idx} className="flex items-center gap-3">
+                    <span style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: '#364153', flexShrink: 0, display: 'inline-block' }} />
+                    <span style={{ fontFamily: 'Arimo, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '150%', color: '#364153' }}>{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <h4 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '140%', color: '#14358A', marginBottom: '16px' }}>
+                What Autopilot Means (and Does Not Mean)
+              </h4>
+              <div className="grid grid-cols-2 gap-6">
+                <div>
+                  <h5 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#008236', marginBottom: '12px' }}>We Do:</h5>
+                  <ul className="space-y-3">
+                    {[
+                      'Full operational leadership and decision-making',
+                      'Strategic planning and execution',
+                      'Team management and development',
+                      'Regular milestone reporting to ownership',
+                      'Risk management and compliance',
+                    ].map((item, idx) => (
+                      <li key={idx} className="flex items-start gap-2">
+                        <Image src="/we-do-icon.png" alt="✓" width={20} height={20} style={{ flexShrink: 0, marginTop: '2px' }} />
+                        <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#364153' }}>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h5 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#C10007', marginBottom: '12px' }}>We Do Not:</h5>
+                  <ul className="space-y-3">
+                    {[
+                      'Change ownership or equity structure',
+                      'Make decisions outside agreed authority limits',
+                      'Operate without transparency',
+                      'Leave without extensive transition planning',
+                    ].map((item, idx) => (
+                      <li key={idx} className="flex items-start gap-2">
+                        <Image src="/we-do-not-icon.png" alt="✗" width={20} height={20} style={{ flexShrink: 0, marginTop: '2px' }} />
+                        <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#364153' }}>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              <div style={{ marginTop: '28px' }}>
+                <h4 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.25vw, 20px)', color: '#333333', marginBottom: '8px' }}>Governance Structure:</h4>
+                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '160%', color: '#364153' }}>
+                  Clear reporting lines and decision rights are established upfront to ensure alignment and transparency.
+                </p>
+              </div>
+            </div>
+
+            {/* Right column */}
+            <div>
+              <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '24px', backgroundColor: '#FFFFFF', marginBottom: '20px' }}>
+                <h4 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.74vw, 28px)', lineHeight: '24px', color: '#14358A', marginBottom: '12px' }}>Ideal For</h4>
+                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '22.75px', color: '#68718B' }}>
+                  Investors with portfolio companies, founders planning an exit, absentee owners, or those who wish to focus purely on passive returns without operational burdens.
+                </p>
+              </div>
+              <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '24px', backgroundColor: '#FFFFFF' }}>
+                <h4 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.74vw, 28px)', lineHeight: '24px', color: '#14358A', marginBottom: '12px' }}>Your Involvement:</h4>
+                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '22.75px', color: '#68718B' }}>
+                  Limited to high-level oversight and receiving key reports, typically on a quarterly basis. We handle the rest.
+                </p>
+              </div>
+            </div>
+          </div>
+          )}
         </div>
       </section>
 
@@ -1005,7 +1004,7 @@ export default function ActiveManagementSolutions() {
               {
                 icon: '/accountability-icon-1.png',
                 title: 'Transparent Success Metrics',
-                desc: 'Before any project begins, we work with you to define specific, measurable KPIs that align directly with your business objectives. These metrics are tracked in real-time, so success looks like from day one.',
+                desc: 'Before any project begins, we work with you to define specific, measurable KPIs that align directly with your desired business outcomes. You know exactly what success looks like from day one.',
               },
               {
                 icon: '/accountability-icon-2.png',
@@ -1015,7 +1014,7 @@ export default function ActiveManagementSolutions() {
               {
                 icon: '/accountability-icon-3.png',
                 title: 'Post-Engagement Success Audit',
-                desc: 'Our commitment extends beyond project completion. We conduct a 3- and 12-month follow-up audits to ensure the long-term impact of our work, verifying that improvements are sustained and continue to grow.',
+                desc: 'Our commitment extends beyond project completion. We conduct a 6- and 12-month follow-up audits to ensure the long-term impact of our work, verifying that improvements are sustained and continue to grow.',
               },
             ].map((card, idx) => (
               <div
@@ -1197,7 +1196,7 @@ export default function ActiveManagementSolutions() {
               marginBottom: '20px',
             }}
           >
-            Ready to Elevate Your Business?
+            Ready for a New Level of Leadership?
           </h2>
           <p
             style={{

@@ -45,7 +45,16 @@
       "Bash(brew install:*)",
       "Bash(textutil -convert txt \"/Users/teja/pmg_final-v/pmg-z/difference in pmg.docx\" -output \"/Users/teja/pmg_final-v/pmg-z/difference_in_pmg.txt\")",
       "Bash(which pdftoppm:*)",
-      "Bash(pdftotext \"/Users/teja/pmg_final-v/pmg-z/PMG differences.pdf\" -)"
+      "Bash(pdftotext \"/Users/teja/pmg_final-v/pmg-z/PMG differences.pdf\" -)",
+      "Bash(grep -n \"Our Projects\\\\|tangible\" /Users/teja/pmg_final-v/pmg-z/app/our-projects/page.tsx | head -20\ngrep -n \"Our Projects\\\\|tangible\" /Users/teja/pmg_final-v/pmg-z/app/page.tsx | head -20)",
+      "Bash(wc -l /Users/teja/pmg_final-v/pmg-z/app/our-projects/page.tsx\ngrep -n \"tangible\\\\|description\\\\|subtitle\\\\|{/\\\\* \" /Users/teja/pmg_final-v/pmg-z/app/our-projects/page.tsx | head -20)",
+      "Bash(for file:*)",
+      "Bash(for page:*)",
+      "Bash(grep -n \"Principle of Least\\\\|Maximum Impact\\\\|Minimal Disruption\\\\|Ready to unlock\" /Users/teja/pmg_final-v/pmg-z/app/mergers-acquisitions-consulting/page.tsx | head -10\ngrep -n \"Principle of Least\\\\|Maximum Impact\\\\|Minimal Disruption\" /Users/teja/pmg_final-v/pmg-z/app/strategy-operations-consulting/page.tsx | head -5)",
+      "Bash(grep -n \"Refresh Metrics\\\\|Common Questions\\\\|42.3M\\\\|Discover How We Engineer\" /Users/teja/pmg_final-v/pmg-z/app/our-solutions/page.tsx | head -10\ngrep -n \"Why World-Class\\\\|Portfolio Experience\\\\|From Role Definition\\\\|6- and 12-month\\\\|Ready for a New Level\" /Users/teja/pmg_final-v/pmg-z/app/active-management-solutions/page.tsx | head -10\ngrep -n \"Purchase Toolkit\\\\|Quality Bar Definition\\\\|Value Abstraction\\\\|Most Important Problem\\\\|DNA Extraction\\\\|IT\\\\/Security\\\\/Legal\\\\|our concepts\\\\|building's faults\" /Users/teja/pmg_final-v/pmg-z/app/out-of-the-box-solutions/page.tsx | head -15\ngrep -n \"rotating\\\\|marquee\\\\|hover.*pause\\\\|Kotter\\\\|Theory of Constraints\\\\|6-9x\\\\|13x\\\\|far outpace\" /Users/teja/pmg_final-v/pmg-z/app/power-of-working-with-us/page.tsx | head -15)",
+      "Bash(grep -n \"Valuation-Based\\\\|BVU and I-O\\\\|board observer\\\\|Exit-Readiness Audit\" /Users/teja/pmg_final-v/pmg-z/app/equity-solutions/page.tsx | head -10\ngrep -n \"Blueprint-First\\\\|1\\\\.\\\\|2\\\\.\\\\|Strategic Go-to-Market\\\\|data-driven GTM\\\\|Operational Turnarounds\" /Users/teja/pmg_final-v/pmg-z/app/bespoke-solutions/page.tsx | head -15\ngrep -n \"Low.*slider\\\\|3 Months\\\\|How critical\" /Users/teja/pmg_final-v/pmg-z/app/solution-assessment-tool/page.tsx | head -10)",
+      "Bash(grep -n \"step.*1\\\\.\\\\|step.*2\\\\.\\\\|step.*3\\\\.\\\\|step.*4\\\\.\" /Users/teja/pmg_final-v/pmg-z/app/bespoke-solutions/page.tsx | head -10\ngrep -n \"Strategic Go-to-Market\\\\|data-driven GTM\\\\|market penetration\" /Users/teja/pmg_final-v/pmg-z/app/bespoke-solutions/page.tsx | head -10)",
+      "Bash(grep -n \"Talent Pipeline\\\\|Student Satisfaction\\\\|Experiential Learning\\\\|Labor.*Infrastructure\\\\|Competitive Positioning\\\\|17.0M\\\\|42.3M\" /Users/teja/pmg_final-v/pmg-z/app/our-solutions/page.tsx | head -10\ngrep -rn \"Talent Pipeline\\\\|Student Satisfaction\\\\|Experiential Learning Capital\\\\|17.0M\" /Users/teja/pmg_final-v/pmg-z/app --include=\"*.tsx\" | head -10)"
     ]
   },
   "enabledPlugins": {
