@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import WhatWeDontDoSection from '@/components/WhatWeDontDoSection';
 
 export default function OutOfTheBoxSolutions() {
   return (
@@ -69,8 +70,8 @@ export default function OutOfTheBoxSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(11px, 0.97vw, 16px)',
-                lineHeight: '160%',
+                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                lineHeight: '140%',
                 color: '#333333',
                 textAlign: 'center',
               }}
@@ -182,105 +183,37 @@ export default function OutOfTheBoxSolutions() {
       </section>
 
       {/* ─── Section 3: When a Toolkit Isn't Enough ─── */}
-      <section
-        className="w-full relative overflow-hidden py-24 px-6"
-        style={{ background: 'linear-gradient(135deg, #1B45B4 0%, #1C2792 100%)' }}
-      >
-        {/* Decorative Rectangle - Top Right (solid, behind) */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
-        {/* Decorative Rectangle - Top Right (solid, in front, offset) */}
-        <div className="absolute pointer-events-none" style={{ width: '220px', height: '55px', right: '-20px', top: '80px', background: '#0097FE', opacity: 0.7, transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
-        {/* Decorative Rectangle - Bottom Left */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        {/* Decorative Border Rectangle - Top Left (outer) */}
-        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        {/* Decorative Border Rectangle - Top Left (inner, offset) */}
-        <div className="absolute pointer-events-none" style={{ width: '240px', height: '80px', left: '20px', top: '70px', background: 'transparent', border: '1px solid rgba(102,193,255,0.55)', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        {/* ccc.png decorative overlay on gradient background */}
-        <img
-          src="/equity-ccc.png"
-          alt=""
-          aria-hidden="true"
-          style={{
-            position: 'absolute',
-            inset: 0,
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            objectPosition: 'center',
-            opacity: 0.12,
-            pointerEvents: 'none',
-          }}
-        />
-
-        <div className="max-w-[860px] mx-auto relative z-10 flex flex-col items-center text-center">
-
-          {/* Heading */}
-          <h2
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em',
-              color: '#FFFFFF',
-              marginBottom: '18px',
-            }}
-          >
-            When a Toolkit Isn&apos;t Enough
-          </h2>
-
-          {/* Subtitle */}
-          <p
-            style={{
-              fontFamily: 'Montserrat, sans-serif',
-              fontWeight: 400,
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
-              lineHeight: '1.75',
-              color: 'rgba(255,255,255,0.85)',
-              marginBottom: '40px',
-              maxWidth: 'min(640px, 95%)',
-            }}
-          >
-            While our Foundry toolkits provide quick improvements, they have inherent limitations:
-          </p>
-
-          {/* Limitations box */}
-          <div
-            style={{
-              width: '100%',
-              maxWidth: 'min(780px, 95%)',
-              backgroundColor: '#F5E6D3',
-              borderRadius: '12px',
-              padding: '32px',
-              marginBottom: '40px',
-              textAlign: 'left',
-            }}
-          >
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-              {[
-                'One-size-fits-all approach may not address unique challenges',
-                'Limited customization options compared to bespoke solutions',
-                'Self-implementation requires internal resources and expertise',
-                'Generic templates lack industry-specific optimizations',
-                'No dedicated PMG team for ongoing support and optimization',
-                'Lacks the critical context and adaptation only our embedded leaders provide.',
-              ].map((item, i) => (
-                <div key={i} style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: 0, marginTop: '2px' }}>
-                    <circle cx="12" cy="12" r="11" stroke="#FF3B44" strokeWidth="2" fill="none" />
-                    <line x1="7.5" y1="7.5" x2="16.5" y2="16.5" stroke="#FF3B44" strokeWidth="2" strokeLinecap="round" />
-                    <line x1="16.5" y1="7.5" x2="7.5" y2="16.5" stroke="#FF3B44" strokeWidth="2" strokeLinecap="round" />
-                  </svg>
-                  <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '1.6', color: '#FF3B44', margin: 0 }}>
-                    {item}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Bottom CTA text */}
+      <WhatWeDontDoSection
+        title="When a Toolkit Isn't Enough"
+        subtitle={
+          <>
+            While our Foundry toolkits provide quick improvements, they have
+            <br />
+            inherent limitations:
+          </>
+        }
+        items={[
+          'One-size-fits-all approach may not address unique challenges',
+          'Limited customization options compared to bespoke solutions',
+          'Self-implementation requires internal resources and expertise',
+          'Generic templates lack industry-specific optimizations',
+          'No dedicated PMG team for ongoing support and optimization',
+          'Lacks the critical context and adaptation only our embedded leaders provide.',
+        ]}
+        cardStyle={{
+          width: '100%',
+          maxWidth: 'min(1040px, 98%)',
+          padding: '28px 30px',
+          minHeight: 'unset',
+        }}
+        itemsContainerStyle={{ gap: '14px' }}
+        itemRowClassName="flex items-start gap-3 lg:items-center"
+        itemTextClassName="whitespace-normal lg:whitespace-nowrap"
+        itemTextStyle={{
+          fontSize: 'clamp(13px, 1.04vw, 18px)',
+          lineHeight: '1.35',
+        }}
+        footer={
           <p
             style={{
               fontFamily: 'Montserrat, sans-serif',
@@ -290,6 +223,7 @@ export default function OutOfTheBoxSolutions() {
               color: '#FFFFFF',
               maxWidth: 'min(720px, 95%)',
               textAlign: 'center',
+              margin: '0 auto',
             }}
           >
             For complex challenges or maximum impact, consider our{' '}
@@ -302,8 +236,8 @@ export default function OutOfTheBoxSolutions() {
             </a>
             .
           </p>
-        </div>
-      </section>
+        }
+      />
 
       {/* ─── Section 4: The Foundry Catalog ─── */}
       <section className="w-full bg-white py-20 px-6">
@@ -321,21 +255,25 @@ export default function OutOfTheBoxSolutions() {
             {[
               {
                 title: 'The I-O Architect\'s Toolkit',
+                description: 'Define the contracts that make your organization run.',
                 tag: 'For: Leaders needing to de-silo teams and create clear accountability.',
                 contains: 'Work Unit Canvas Template, Quality Bar Definition Builder, Input-Output Mapping Workshop Guide, "Cut-off Moment" Playbook.',
               },
               {
                 title: 'The BVU Finance Lab',
+                description: 'Translate all your outputs into a single currency of value.',
                 tag: 'For: CFOs/COOs needing to justify non-revenue team investment.',
                 contains: 'BVU Calibration Calculator (spreadsheet), Value Abstraction Workshop Video, "Cost-Per-BVU" Dashboard Template, Business Case Builder for IT/Security/Legal.',
               },
               {
                 title: 'The Sector Convergence Ideation Deck',
+                description: 'Systematically steal the best ideas from other worlds.',
                 tag: 'For: Strategists stuck in industry-silo chambers.',
                 contains: 'MIP (Most Important Problem) Finder, Cross-Industry Analogy Database, DNA Extraction Interview Protocol, Convergence Hypothesis Canvas.',
               },
               {
                 title: 'The Gricean Communications Audit',
+                description: 'Eradicate ambiguity, build trust through clarity.',
                 tag: 'For: Executives drowning in misalignment.',
                 contains: 'The Maxim Violation Tracker, Executive Comms Self-Assessment, Meeting Protocol Builder, Stakeholder Alignment Interview Script.',
               },
@@ -352,12 +290,15 @@ export default function OutOfTheBoxSolutions() {
                   gap: '14px',
                 }}
               >
-                <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+                <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px' }}>
                   <div style={{ width: '48px', height: '48px', borderRadius: '10px', backgroundColor: '#14358A', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                     <img src="/ootb-icon-14.png" alt="" style={{ width: '26px', height: '26px', objectFit: 'contain' }} />
                   </div>
-                  <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.01vw, 33px)', color: '#14358A' }}>{card.title}</h3>
+                  <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.01vw, 33px)', color: '#14358A', margin: '6px 0 0 0', lineHeight: '1.2' }}>{card.title}</h3>
                 </div>
+                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '145%', color: '#374151', margin: 0 }}>
+                  {card.description}
+                </p>
                 <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '160%', color: '#333333' }}>
                   <span style={{ fontWeight: 600 }}>For:</span> {card.tag.replace('For: ', '')}
                 </p>
@@ -388,7 +329,7 @@ export default function OutOfTheBoxSolutions() {
       </section>
 
       {/* ─── Section 5: Which Solution Is Right for You? ─── */}
-      <section className="w-full py-20 px-6" style={{ background: '#FFFFFF' }}>
+      <section className="w-full py-20 px-6" style={{ background: '#F3F4F6' }}>
         <div className="max-w-[min(1300px,_95%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
             <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '0' }}>
@@ -397,11 +338,11 @@ export default function OutOfTheBoxSolutions() {
           </div>
 
           {/* Comparison table */}
-          <div style={{ border: '2px solid #E5E7EB', borderRadius: '12px', overflow: 'hidden', marginBottom: '32px', backgroundColor: '#FFFFFF' }}>
+          <div style={{ border: '1px solid #D1D5DB', borderRadius: '18px', overflow: 'hidden', marginBottom: '32px', backgroundColor: '#FFFFFF' }}>
             {/* Header */}
-            <div className="grid grid-cols-5" style={{ borderBottom: '2px solid #E5E7EB', backgroundColor: '#F9FAFB' }}>
+            <div className="grid grid-cols-5" style={{ borderBottom: '1px solid #D1D5DB', backgroundColor: '#F3F4F6' }}>
               {['Feature', 'Foundry (OOTB)', 'Bespoke', 'Equity', 'Active Management'].map((col, i) => (
-                <div key={i} style={{ padding: '20px 24px', fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#14358A', borderLeft: i > 0 ? '2px solid #E5E7EB' : 'none', textAlign: i === 0 ? 'left' : 'center' }}>
+                <div key={i} style={{ padding: '20px 24px', fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: i === 1 ? '#14358A' : '#6B7280', borderLeft: i > 0 ? '1px solid #D1D5DB' : 'none', textAlign: i === 0 ? 'left' : 'center' }}>
                   {col}
                 </div>
               ))}
@@ -414,10 +355,10 @@ export default function OutOfTheBoxSolutions() {
               { feature: 'Risk/Effort', foundry: 'High (on you)', bespoke: 'Low (on us)', equity: 'Low (on us)', active: 'Low (on us)' },
               { feature: 'Best For', foundry: 'Quick fixes, common challenges', bespoke: 'Complex, unique problems', equity: 'Capital-constrained growth', active: 'Leadership gaps, execution needs' },
             ].map((row, ri) => (
-              <div key={ri} className="grid grid-cols-5" style={{ borderBottom: ri < 5 ? '1px solid #E5E7EB' : 'none', backgroundColor: '#FFFFFF' }}>
-                <div style={{ padding: '20px 24px', fontFamily: 'DM Sans, sans-serif', fontWeight: 600, fontSize: 'clamp(12px, 1.04vw, 17px)', color: '#14358A', borderRight: '2px solid #E5E7EB' }}>{row.feature}</div>
+              <div key={ri} className="grid grid-cols-5" style={{ borderBottom: ri < 5 ? '1px solid #D1D5DB' : 'none', backgroundColor: '#FFFFFF' }}>
+                <div style={{ padding: '20px 24px', fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.04vw, 17px)', color: '#2F3135', borderRight: '1px solid #D1D5DB' }}>{row.feature}</div>
                 {[row.foundry, row.bespoke, row.equity, row.active].map((val, ci) => (
-                  <div key={ci} style={{ padding: '20px 24px', fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', color: '#4B5563', borderLeft: ci > 0 ? '1px solid #E5E7EB' : 'none', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <div key={ci} style={{ padding: '20px 24px', fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', color: ci === 0 ? '#14358A' : '#6B7280', borderLeft: ci > 0 ? '1px solid #D1D5DB' : 'none', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     {val}
                   </div>
                 ))}
@@ -447,19 +388,19 @@ export default function OutOfTheBoxSolutions() {
               textAlign: 'center',
             }}
           >
-            <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(17px, 1.81vw, 30px)', color: '#14358A', marginBottom: '16px' }}>
+            <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.01vw, 33px)', color: '#14358A', marginBottom: '20px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
               These Are Tools, Not Transformations
             </h3>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '170%', color: '#333333', marginBottom: '16px' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: '20px' }}>
               Purchasing a toolkit from The Foundry is like buying a textbook on structural engineering. It gives you the principles and formulas. It does not give you the experienced engineer to diagnose your unique building&apos;s faults, design the retrofit, and oversee the construction.
             </p>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '170%', color: '#14358A', marginBottom: '16px' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', fontStyle: 'italic', lineHeight: '140%', color: '#68718B', marginBottom: '20px' }}>
               Our consulting engagements provide the engineer.
             </p>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.9vw, 15px)', lineHeight: '170%', color: '#555555', marginBottom: '20px' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: '20px' }}>
               The true PMG advantage comes from the synthesis of these tools by our Embedded Leaders, validated through our C2 Specification and Anonymous QA Review, and executed within your operating context. That process cannot be productized.
             </p>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#14358A', marginBottom: '12px' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#14358A', marginBottom: '12px' }}>
               Use The Foundry to:
             </p>
             <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 0 0', display: 'flex', flexDirection: 'column', gap: '6px' }}>
@@ -469,7 +410,7 @@ export default function OutOfTheBoxSolutions() {
                 'Prove the value of our thinking on a small scale.',
                 'Then, call us for the real work.',
               ].map((item, i) => (
-                <li key={i} style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.9vw, 15px)', color: '#333333' }}>
+                <li key={i} style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#333333' }}>
                   {item}
                 </li>
               ))}

@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import WhatWeDontDoSection from '@/components/WhatWeDontDoSection';
 
 export default function EquitySolutions() {
   return (
@@ -479,123 +480,23 @@ export default function EquitySolutions() {
         </div>
       </section>
 
-      {/* ─── Section 5: What We Don't Do (with Not Sure Where to Start design) ─── */}
-      <section
-        className="relative z-10 w-full overflow-hidden"
-        style={{
-          backgroundImage: 'url(/bg-not-sure.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-        }}
-      >
-        {/* Decorative Rectangle - Top Right */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
-        {/* Decorative Rectangle - Bottom Left */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        {/* Decorative Border Rectangle - Top Left */}
-        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        <div className="w-full max-w-[1200px] mx-auto flex flex-col items-center gap-8 sm:gap-10 md:gap-12 py-20 px-6">
-          {/* What We Don't Do — responsive for all desktop sizes */}
-          <div className="w-full flex flex-col items-center gap-6 sm:gap-8 px-2 sm:px-4">
-            <h2
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                textAlign: 'center',
-                color: '#FFFFFF',
-                margin: 0,
-                marginBottom: '24px',
-              }}
-            >
-              What We Don&apos;t Do
-            </h2>
-            <p
-              style={{
-                fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 400,
-                fontSize: 'clamp(18px, 2.01vw, 33px)',
-                lineHeight: '105%',
-                letterSpacing: '-0.03em',
-                textAlign: 'center',
-                color: '#FFFFFF',
-                margin: 0,
-                marginBottom: '32px',
-              }}
-            >
-              Clarity is key. To ensure our partnerships are built on mutual understanding,
-              <br />
-              here&apos;s what our Equity Solutions model does not involve.
-            </p>
-            <div
-              style={{
-                position: 'relative',
-                width: '643px',
-                maxWidth: '100%',
-                height: 'auto',
-                minHeight: '263px',
-                borderRadius: '10px',
-                padding: '40px',
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'space-between',
-                boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
-                overflow: 'hidden',
-              }}
-            >
-              {/* red.png background */}
-              <div
-                style={{
-                  position: 'absolute',
-                  top: 0,
-                  left: 0,
-                  right: 0,
-                  bottom: 0,
-                  backgroundImage: 'url(/red.png)',
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                  borderRadius: '10px',
-                  zIndex: 0,
-                }}
-              />
-              <div style={{ position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', gap: '20px' }}>
-              {[
-                'We don\'t provide cash investment (we provide expertise)',
-                'We don\'t take controlling stakes (typically 2-15% equity)',
-                'We don\'t replace your leadership (we augment it)',
-                'We don\'t work with direct competitors of current partners',
-              ].map((text, idx) => (
-                <div key={idx} className="flex items-start gap-3">
-                  <Image
-                    src="/we-do-not-icon.png"
-                    alt=""
-                    width={24}
-                    height={24}
-                    className="flex-shrink-0 mt-0.5"
-                  />
-                  <span
-                    style={{
-                      fontFamily: 'DM Sans, sans-serif',
-                      fontWeight: 400,
-                      fontSize: 'clamp(15px, 1.39vw, 22px)',
-                      lineHeight: '140%',
-                      letterSpacing: '0%',
-                      color: '#FF3B44',
-                    }}
-                  >
-                    {text}
-                  </span>
-                </div>
-              ))}
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
+      {/* ─── Section 5: What We Don't Do (reusable component) ─── */}
+      <WhatWeDontDoSection
+        title="What We Don't Do"
+        subtitle={
+          <>
+            Clarity is key. To ensure our partnerships are built on mutual understanding,
+            <br />
+            here&apos;s what our Equity Solutions model does not involve.
+          </>
+        }
+        items={[
+          "We don't provide cash investment (we provide expertise)",
+          "We don't take controlling stakes (typically 2-15% equity)",
+          "We don't replace your leadership (we augment it)",
+          "We don't work with direct competitors of current partners",
+        ]}
+      />
 
       {/* ─── Section 6: Why PMG Believes in Expertise Capital ─── */}
       <section className="w-full bg-white py-20 px-6">
@@ -872,12 +773,8 @@ export default function EquitySolutions() {
       {/* ─── Section 9: How We Compare ─── */}
       <section className="w-full py-14 lg:py-20 px-4 sm:px-6" style={{ background: '#FFFFFF' }}>
         <div className="max-w-[1200px] mx-auto">
-          {/* Icon and Heading */}
+          {/* Heading */}
           <div className="flex flex-col items-center text-center mb-10 lg:mb-12">
-            {/* Icon */}
-            <div style={{ marginBottom: 'clamp(16px, 1.67vw, 24px)' }}>
-              <img src="/equity-icon-compare.png" alt="Compare" style={{ width: 'clamp(60px, 5.56vw, 80px)', height: 'clamp(60px, 5.56vw, 80px)' }} />
-            </div>
             <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 48px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(16px, 1.67vw, 24px)' }}>
               How We Compare
             </h2>
@@ -888,10 +785,10 @@ export default function EquitySolutions() {
 
           {/* Comparison Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {/* PMG Equity Solutions Card - Green border */}
+            {/* PMG Equity Solutions Card - Blue border */}
             <div
               style={{
-                border: '2px solid #4CAF50',
+                border: '2px solid #14358A',
                 borderRadius: '16px',
                 padding: '32px 24px',
                 backgroundColor: '#FFFFFF',
@@ -900,7 +797,7 @@ export default function EquitySolutions() {
                 gap: '24px',
               }}
             >
-              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', color: '#4CAF50', textAlign: 'center', marginBottom: '8px' }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', color: '#14358A', textAlign: 'center', marginBottom: '8px' }}>
                 PMG Equity Solutions
               </h3>
 
@@ -910,7 +807,7 @@ export default function EquitySolutions() {
                   <Image src="/capital.png" alt="Capital" width={20} height={20} style={{ objectFit: 'contain' }} />
                   <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Capital</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#4CAF50', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#14358A', margin: 0, paddingLeft: '28px' }}>
                   Preserved
                 </p>
               </div>
@@ -921,7 +818,7 @@ export default function EquitySolutions() {
                   <Image src="/expertise.png" alt="Expertise" width={20} height={20} style={{ objectFit: 'contain' }} />
                   <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Expertise</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#4CAF50', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#14358A', margin: 0, paddingLeft: '28px' }}>
                   Full PMG team
                 </p>
               </div>
@@ -932,7 +829,7 @@ export default function EquitySolutions() {
                   <Image src="/alignmenyt.png" alt="Alignment" width={20} height={20} style={{ objectFit: 'contain' }} />
                   <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Alignment</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#4CAF50', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#14358A', margin: 0, paddingLeft: '28px' }}>
                   Complete (equity)
                 </p>
               </div>
@@ -943,7 +840,7 @@ export default function EquitySolutions() {
                   <Image src="/speed.png" alt="Speed" width={20} height={20} style={{ objectFit: 'contain' }} />
                   <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Speed</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#4CAF50', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#14358A', margin: 0, paddingLeft: '28px' }}>
                   Immediate
                 </p>
               </div>
@@ -954,7 +851,7 @@ export default function EquitySolutions() {
                   <Image src="/cost.png" alt="Cost" width={20} height={20} style={{ objectFit: 'contain' }} />
                   <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Cost</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#4CAF50', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#14358A', margin: 0, paddingLeft: '28px' }}>
                   Equity only
                 </p>
               </div>

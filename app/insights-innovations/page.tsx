@@ -33,7 +33,7 @@ export default function InsightsInnovationsPage() {
             <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', color: '#14358A', marginBottom: '10px' }}>
               Note to Prospective Partners
             </h3>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.75', color: '#5F6D7E' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '1.75', color: '#5F6D7E' }}>
               This isn&apos;t a random collection of interests; it&apos;s a practice in pattern recognition and higher-order thinking. By connecting unrelated domains, we bring unconventional frameworks to business challenges. This is how we think when we aren&apos;t in the room with you; we&apos;re constantly building the toolkit we use to build your business.
             </p>
           </div>
@@ -42,10 +42,10 @@ export default function InsightsInnovationsPage() {
 
       {/* ─── Section 2: Articles ─── */}
       <section className="w-full py-12 px-6 bg-white">
-        <div className="max-w-[min(1100px,_90%)] mx-auto flex flex-col gap-6">
+        <div className="max-w-[1200px] mx-auto flex flex-col gap-6" style={{ alignItems: 'center' }}>
 
           {/* Search */}
-          <div style={{ border: '3px solid #14358A', borderRadius: '8px', padding: '12px 16px', display: 'flex', alignItems: 'center', gap: '10px', background: '#FFFFFF', width: '100%', maxWidth: 'min(1050px, 95%)' }}>
+          <div style={{ border: '3px solid #14358A', borderRadius: '8px', padding: '12px 16px', display: 'flex', alignItems: 'center', gap: '10px', background: '#FFFFFF', width: '100%', maxWidth: 'min(1056px, 95%)' }}>
             <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
               <circle cx="9" cy="9" r="7" stroke="#9AA6B4" strokeWidth="2" />
               <path d="M14.5 14.5L18 18" stroke="#9AA6B4" strokeWidth="2" strokeLinecap="round" />
@@ -59,7 +59,7 @@ export default function InsightsInnovationsPage() {
 
           {/* Article cards */}
           {articles.map((article, i) => (
-            <div key={i} style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '40px 36px', background: '#FFFFFF', width: '100%', maxWidth: 'min(1067px, 95%)' }}>
+            <div key={i} style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '40px 36px', background: '#FFFFFF', width: '100%', maxWidth: 'min(1056px, 95%)' }}>
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', color: '#14358A', marginBottom: '8px' }}>{article.title}</h3>
               <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.04vw, 17px)', color: '#9AA6B4', marginBottom: '20px' }}>{article.date}</p>
               <a href="#" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#14358A', textDecoration: 'none' }}>Read More &rsaquo;</a>

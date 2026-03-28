@@ -6,11 +6,56 @@ import Footer from '@/components/Footer';
 import ROIChart from '@/components/ROIChart';
 
 export default function PowerOfWorkingWithUs() {
-  const clientQuotes = [
+  const blueprintSteps = [
+    'Expert Deep Dive',
+    'C2 Spec Created',
+    'Anonymous QA Review',
+    'Approved Strategic Blueprint',
+    'Client Implementation Begins',
+  ];
+
+  const clientQuotePool = [
     '"Implementation support wasn\'t just an afterthought — it was baked into every recommendation."',
     '"Solutions ignored organizational culture and change management entirely."',
     '"We got recommendations, not results."',
     '"Rigid frameworks slowed down real decision-making."',
+    '"The strategy was polished, but nobody owned execution after kickoff."',
+    '"We paid for a framework that looked identical to what our competitors got."',
+    '"The engagement ended exactly when implementation risk started."',
+    '"The recommendations did not account for our operating constraints."',
+  ];
+
+  const loudConsultingProblems = [
+    {
+      title: 'Overpriced and Under-Delivering',
+      description:
+        'Activity over outcomes: endless hours billed and high fees justified by activity, not measurable delivered outcomes.',
+    },
+    {
+      title: 'Recommendations Without Realism',
+      description:
+        'Ideas that sound good in slides but fail in practice because they ignore your operating realities.',
+    },
+    {
+      title: 'Implementation Chaos',
+      description:
+        'Solutions that look compelling in presentations but collapse in real execution, leaving teams with confusion and rework.',
+    },
+    {
+      title: 'Generic Advice, Not Expert Solutions',
+      description:
+        'Recycled playbooks instead of expert diagnosis and tailored strategy for your specific context.',
+    },
+    {
+      title: 'No Capability Transfer',
+      description:
+        'Teams are left dependent on external consultants instead of building internal capability and repeatable execution muscle.',
+    },
+    {
+      title: 'Misaligned Incentives',
+      description:
+        'Commercial models reward extended activity and scope creep rather than measurable business outcomes.',
+    },
   ];
 
   const comparisonFeatures = [
@@ -53,7 +98,20 @@ export default function PowerOfWorkingWithUs() {
 
   const [currentFeatureIdx, setCurrentFeatureIdx] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
+  const [visibleQuoteCards, setVisibleQuoteCards] = useState(() =>
+    Array.from({ length: 4 }, (_, i) => clientQuotePool[i % clientQuotePool.length])
+  );
+  const [quoteCardVisible, setQuoteCardVisible] = useState([true, true, true, true]);
+  const [highlightedQuoteSlot, setHighlightedQuoteSlot] = useState(0);
+  const [isLoudPaused, setIsLoudPaused] = useState(false);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const nextQuotePoolIdxRef = useRef(4 % clientQuotePool.length);
+  const quoteSlotRef = useRef(0);
+  const LOUD_QUOTE_FADE_OUT_MS = 1500;
+  const LOUD_QUOTE_FADE_IN_MS = 1500;
+  const LOUD_QUOTE_GAP_MS = 500;
+
+  const staticProblemCards = loudConsultingProblems.slice(0, 4);
 
   useEffect(() => {
     if (!isPaused) {
@@ -65,6 +123,61 @@ export default function PowerOfWorkingWithUs() {
       if (intervalRef.current) clearInterval(intervalRef.current);
     };
   }, [isPaused, comparisonFeatures.length]);
+
+  useEffect(() => {
+    if (isLoudPaused) return;
+
+    let fadeOutTimeout: ReturnType<typeof setTimeout> | null = null;
+    let fadeInStartTimeout: ReturnType<typeof setTimeout> | null = null;
+    let nextCycleTimeout: ReturnType<typeof setTimeout> | null = null;
+    let cancelled = false;
+
+    const runQuoteCycle = () => {
+      const slot = quoteSlotRef.current;
+
+      setQuoteCardVisible(prev => prev.map((visible, i) => (i === slot ? false : visible)));
+
+      fadeOutTimeout = setTimeout(() => {
+        if (cancelled) return;
+
+        setVisibleQuoteCards(prev => {
+          const next = [...prev];
+          next[slot] = clientQuotePool[nextQuotePoolIdxRef.current];
+          return next;
+        });
+
+        nextQuotePoolIdxRef.current = (nextQuotePoolIdxRef.current + 1) % clientQuotePool.length;
+        setHighlightedQuoteSlot(slot);
+
+        // Start fade-in on the next tick so the browser applies the swapped content first.
+        fadeInStartTimeout = setTimeout(() => {
+          if (cancelled) return;
+          setQuoteCardVisible(prev => prev.map((visible, i) => (i === slot ? true : visible)));
+        }, 20);
+
+        quoteSlotRef.current = (slot + 1) % 4;
+
+        nextCycleTimeout = setTimeout(() => {
+          if (!cancelled) runQuoteCycle();
+        }, LOUD_QUOTE_FADE_IN_MS + LOUD_QUOTE_GAP_MS);
+      }, LOUD_QUOTE_FADE_OUT_MS);
+    };
+
+    runQuoteCycle();
+
+    return () => {
+      cancelled = true;
+      if (fadeOutTimeout) clearTimeout(fadeOutTimeout);
+      if (fadeInStartTimeout) clearTimeout(fadeInStartTimeout);
+      if (nextCycleTimeout) clearTimeout(nextCycleTimeout);
+    };
+  }, [
+    isLoudPaused,
+    clientQuotePool.length,
+    LOUD_QUOTE_FADE_OUT_MS,
+    LOUD_QUOTE_FADE_IN_MS,
+    LOUD_QUOTE_GAP_MS,
+  ]);
 
   return (
     <main className="relative w-full min-h-screen bg-white">
@@ -188,6 +301,7 @@ export default function PowerOfWorkingWithUs() {
               lineHeight: '140%',
               color: '#333333',
               textAlign: 'center',
+              marginBottom: '40px',
             }}
           >
             But here is where we differ: that expert&apos;s blueprint is then submitted to our
@@ -195,25 +309,57 @@ export default function PowerOfWorkingWithUs() {
             functional leaders. The review is double-blind. The designer does not know the
             reviewer, and the reviewer does not know the designer.
           </p>
-        </div>
-      </section>
 
-      {/* ─── Section 4: Global Network and Strategic Engagements ─── */}
-      <section className="w-full py-16 px-6 bg-white">
-        <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
-          <h2
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em',
-              color: '#14358A',
-              marginBottom: '20px',
-            }}
-          >
-            Global Network and Strategic Engagements
-          </h2>
+          <div className="w-full overflow-x-auto pb-2 mb-14">
+            <div className="w-max min-w-full mx-auto flex items-center justify-center gap-3 flex-nowrap px-1">
+              {blueprintSteps.map((step, index) => {
+                const isActive = step === 'Anonymous QA Review';
+
+                return (
+                  <div key={step} className="flex items-center gap-3 flex-none">
+                    <div
+                      style={{
+                        border: isActive ? '2px solid #1E2F8C' : '1px solid #C9CCD3',
+                        borderRadius: '12px',
+                        padding: '12px 20px',
+                        background: '#FFFFFF',
+                        minHeight: '52px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                      }}
+                    >
+                      <span
+                        style={{
+                          fontFamily: 'Montserrat, sans-serif',
+                          fontWeight: isActive ? 700 : 600,
+                          fontSize: 'clamp(14px, 0.95vw, 17px)',
+                          color: isActive ? '#1E2F8C' : '#6B7280',
+                          whiteSpace: 'nowrap',
+                        }}
+                      >
+                        {step}
+                      </span>
+                    </div>
+                    {index < blueprintSteps.length - 1 && (
+                      <span
+                        style={{
+                          fontFamily: 'DM Sans, sans-serif',
+                          fontWeight: 700,
+                          fontSize: '28px',
+                          lineHeight: 1,
+                          color: '#1E2F8C',
+                        }}
+                      >
+                        &rarr;
+                      </span>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
           <p
             style={{
               fontFamily: 'Montserrat, sans-serif',
@@ -249,7 +395,7 @@ export default function PowerOfWorkingWithUs() {
       </section>
 
       {/* ─── Section 5: The Problem with "Loud" Consulting ─── */}
-      <section className="w-full py-16 px-6">
+      <section className="w-full py-16 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <h2
             style={{
@@ -272,22 +418,46 @@ export default function PowerOfWorkingWithUs() {
               lineHeight: '140%',
               color: '#333333',
               textAlign: 'center',
-              marginBottom: '32px',
+              marginBottom: '36px',
+              maxWidth: 'min(1320px, 95%)',
             }}
           >
             Too often, consulting is the opposite: loud, costly, and ineffective. And it
             is not just our view. It is well documented across industries.
           </p>
 
+          <p
+            style={{
+              fontFamily: 'Montserrat, sans-serif',
+              fontWeight: 600,
+              fontSize: 'clamp(12px, 0.95vw, 15px)',
+              color: '#6B7280',
+              marginBottom: '18px',
+            }}
+          >
+            Auto-cycling quotes · Hover to pause
+          </p>
+
           {/* Client Quotes */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-[900px]">
-            {clientQuotes.map((quote, i) => (
+          <div
+            className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-[1200px] mb-14"
+            onMouseEnter={() => setIsLoudPaused(true)}
+            onMouseLeave={() => setIsLoudPaused(false)}
+          >
+            {visibleQuoteCards.map((quote, i) => (
               <div
-                key={i}
+                key={`${quote}-${i}`}
                 style={{
-                  border: '3px solid #14358A',
-                  borderRadius: '10px',
-                  padding: '28px 32px',
+                  border: i === highlightedQuoteSlot ? '3px solid #14358A' : '2px solid #A8B6E4',
+                  borderRadius: '14px',
+                  padding: '34px 40px',
+                  minHeight: '160px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  opacity: quoteCardVisible[i] ? 1 : 0,
+                  boxShadow: i === highlightedQuoteSlot ? '0 12px 24px rgba(20,53,138,0.16)' : '0 8px 16px rgba(20,53,138,0.08)',
+                  transition: `opacity ${LOUD_QUOTE_FADE_OUT_MS}ms ease-in-out, border ${LOUD_QUOTE_FADE_OUT_MS}ms ease, box-shadow ${LOUD_QUOTE_FADE_OUT_MS}ms ease`,
                 }}
               >
                 <p
@@ -296,9 +466,11 @@ export default function PowerOfWorkingWithUs() {
                     fontWeight: 700,
                     fontSize: 'clamp(13px, 1.25vw, 20px)',
                     lineHeight: '1.6',
-                    color: '#14358A',
+                    color: i === highlightedQuoteSlot ? '#14358A' : '#36519F',
                     fontStyle: 'italic',
                     margin: 0,
+                    textAlign: 'center',
+                    transition: 'color 0.45s ease',
                   }}
                 >
                   {quote}
@@ -306,126 +478,63 @@ export default function PowerOfWorkingWithUs() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
 
-      {/* ─── Section 6: "Loud" Consultants Are Mostly Known For ─── */}
-      <section
-        className="w-full relative overflow-hidden py-24 px-6"
-        style={{ background: 'linear-gradient(135deg, #1B45B4 0%, #1C2792 100%)' }}
-      >
-        {/* Decorative Rectangle - Top Right */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
-        {/* Decorative Rectangle - Bottom Left */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        {/* Decorative Border Rectangle - Top Left */}
-        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        {/* decorative overlay */}
-        <img
-          src="/equity-ccc.png"
-          alt=""
-          aria-hidden="true"
-          style={{
-            position: 'absolute',
-            inset: 0,
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            objectPosition: 'center',
-            opacity: 0.12,
-            pointerEvents: 'none',
-          }}
-        />
-
-        <div className="max-w-[1200px] mx-auto relative z-10 flex flex-col items-center text-center">
-          {/* Eyebrow */}
-          <p
-            style={{
-              fontFamily: 'Montserrat, sans-serif',
-              fontWeight: 600,
-              fontSize: 'clamp(13px, 1.11vw, 18px)',
-              letterSpacing: '0.08em',
-              color: 'rgba(255,255,255,0.75)',
-              textTransform: 'uppercase',
-              marginBottom: '16px',
-            }}
-          >
-            The Strategic Imperative
-          </p>
-
-          {/* Heading */}
-          <h2
+          <h3
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
-              lineHeight: '105%',
-              color: '#FFFFFF',
-              marginBottom: '48px',
-              maxWidth: 'min(760px, 95%)',
+              fontSize: 'clamp(24px, 2.5vw, 40px)',
+              lineHeight: '110%',
+              letterSpacing: '-0.02em',
+              color: '#14358A',
+              marginBottom: '28px',
             }}
           >
             &ldquo;Loud&rdquo; consultants are mostly known for&hellip;
-          </h2>
+          </h3>
 
-          {/* 2×2 Cards */}
           <div
-            className="grid grid-cols-1 sm:grid-cols-2"
-            style={{
-              gap: '24px',
-              width: '100%',
-            }}
+            className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full"
+            onMouseEnter={() => setIsLoudPaused(true)}
+            onMouseLeave={() => setIsLoudPaused(false)}
           >
-            {[
-              {
-                title: 'Overpriced and Under-Delivering',
-                desc: 'Activity Over Outcomes (or Consulting Theatre): Endless hours billed and high fees justified by activity, not measurable, delivered outcomes.',
-              },
-              {
-                title: 'Recommendations Without Realism',
-                desc: 'Ideas that sound good in slides but fail in practice because they ignore your realities.',
-              },
-              {
-                title: 'Implementation Chaos',
-                desc: 'Solutions that look great in slides but fall apart in real-world application, leaving broken systems and internal confusion.',
-              },
-              {
-                title: 'Generic Advice, Not Expert Solutions',
-                desc: 'Recycled playbooks instead of expertise. Generic advice, ineffective strategies.',
-              },
-            ].map((card, i) => (
+            {staticProblemCards.map((item, i) => (
               <div
-                key={i}
+                key={`${item.title}-${i}`}
                 style={{
-                  background: '#FDF5F0',
-                  borderRadius: '16px',
-                  padding: '36px',
+                  background: '#FFF7F7',
+                  border: '2px solid #F5C2C7',
+                  borderRadius: '14px',
+                  padding: '30px',
                   textAlign: 'left',
+                  boxShadow: '0 6px 14px rgba(198,40,40,0.08)',
+                  transition: 'all 0.45s ease',
                 }}
               >
-                <h3
+                <h4
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: 'clamp(18px, 2.01vw, 33px)',
-                    lineHeight: '105%',
-                    letterSpacing: '-0.03em',
-                    color: '#D0021B',
-                    marginBottom: '16px',
+                    fontSize: 'clamp(20px, 1.8vw, 30px)',
+                    lineHeight: '110%',
+                    color: '#C62828',
+                    marginBottom: '12px',
+                    transition: 'color 0.45s ease',
                   }}
                 >
-                  {card.title}
-                </h3>
+                  {item.title}
+                </h4>
                 <p
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
-                    fontSize: 'clamp(13px, 1.11vw, 18px)',
-                    lineHeight: '140%',
+                    fontSize: 'clamp(14px, 1.02vw, 17px)',
+                    lineHeight: '150%',
                     color: '#5F6D7E',
+                    margin: 0,
                   }}
                 >
-                  {card.desc}
+                  {item.description}
                 </p>
               </div>
             ))}
@@ -626,35 +735,37 @@ export default function PowerOfWorkingWithUs() {
 
       {/* ─── Section 11: The Right Solution, Every Time ─── */}
       <section className="w-full py-16 px-6" style={{ background: '#F8FAFC' }}>
-        <div className="max-w-[min(900px,_90%)] mx-auto flex flex-col items-center text-center">
+        <div className="max-w-[min(1200px,_96%)] mx-auto flex flex-col items-center text-center">
           {/* Formula row */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '24px', marginBottom: '48px', flexWrap: 'wrap', justifyContent: 'center' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-              <img src="/56.png" alt="Proprietary Models" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+          <div style={{ width: '100%', overflowX: 'auto', paddingBottom: '4px', marginBottom: '48px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '24px', flexWrap: 'nowrap', justifyContent: 'center', width: 'max-content', minWidth: '100%', margin: '0 auto' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexShrink: 0 }}>
+                <img src="/56.png" alt="Proprietary Models" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
                 <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(22px, 2.5vw, 40px)', lineHeight: '105%', color: '#14358A' }}>3</span>
-                <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 1vw, 16px)', lineHeight: '140%', color: '#68718B' }}>Proprietary Models</span>
+                <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 1vw, 16px)', lineHeight: '140%', color: '#68718B', whiteSpace: 'nowrap' }}>Proprietary Models</span>
+                </div>
               </div>
-            </div>
-            <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(22px, 2.5vw, 40px)', color: '#14358A' }}>+</span>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-              <img src="/67.png" alt="Proven Frameworks" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(22px, 2.5vw, 40px)', color: '#14358A', flexShrink: 0 }}>+</span>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexShrink: 0 }}>
+                <img src="/67.png" alt="Proven Frameworks" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
                 <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(22px, 2.5vw, 40px)', lineHeight: '105%', color: '#14358A' }}>8</span>
-                <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 1vw, 16px)', lineHeight: '140%', color: '#68718B' }}>Proven Frameworks</span>
+                <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 1vw, 16px)', lineHeight: '140%', color: '#68718B', whiteSpace: 'nowrap' }}>Proven Frameworks</span>
+                </div>
               </div>
-            </div>
-            <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(22px, 2.5vw, 40px)', color: '#14358A' }}>=</span>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', background: '#EEF2FF', borderRadius: '999px', padding: '14px 28px' }}>
-              <img src="/78.png" alt="The Right Solution" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
-              <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.25vw, 20px)', color: '#14358A' }}>The Right Solution, Every Time.</span>
+              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(22px, 2.5vw, 40px)', color: '#14358A', flexShrink: 0 }}>=</span>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px', background: '#EEF2FF', borderRadius: '999px', padding: '14px 28px', flexShrink: 0 }}>
+                <img src="/78.png" alt="The Right Solution" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
+                <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.25vw, 20px)', color: '#14358A', whiteSpace: 'nowrap' }}>The Right Solution, Every Time.</span>
+              </div>
             </div>
           </div>
 
           {/* Philosophy box */}
           <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '36px 40px', textAlign: 'left', width: '100%' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
-              <span style={{ width: '12px', height: '12px', borderRadius: '50%', border: '2px solid #14358A', display: 'inline-block', flexShrink: 0 }} />
+              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(20px, 2vw, 36px)', lineHeight: 1, color: '#14358A', flexShrink: 0 }}>&#9675;</span>
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Our Philosophy of Application</h3>
             </div>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#333333' }}>
@@ -668,7 +779,7 @@ export default function PowerOfWorkingWithUs() {
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2" style={{ gap: '60px', alignItems: 'center' }}>
           <div>
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#FFFFFF', marginBottom: '20px' }}>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
               A Commitment to Continuous Improvement
             </h2>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#333333' }}>
@@ -705,7 +816,7 @@ export default function PowerOfWorkingWithUs() {
               </p>
             </div>
             {/* Right */}
-            <div>
+            <div style={{ border: '2px solid #BFD0F0', borderRadius: '16px', padding: 'clamp(24px, 2.78vw, 40px)', backgroundColor: '#EEF3FB' }}>
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
                 Why Are We So Confident?
               </h3>
