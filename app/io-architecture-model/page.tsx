@@ -330,7 +330,7 @@ export default function IOArchitectureModelPage() {
             ].map((row, i) => (
               <div key={i} className="grid grid-cols-1 md:grid-cols-2" style={{ gap: '20px' }}>
                 {/* Left — Problem box (red.png as full background) */}
-                <div style={{ position: 'relative', overflow: 'hidden', borderRadius: '16px', textAlign: 'center', width: '597px', minHeight: '382px', maxWidth: '100%' }}>
+                <div style={{ position: 'relative', overflow: 'hidden', borderRadius: '16px', textAlign: 'center', width: '100%', minHeight: '382px' }}>
                   <img
                     src="/red.png"
                     alt=""
@@ -344,7 +344,7 @@ export default function IOArchitectureModelPage() {
                   </div>
                 </div>
                 {/* Right — Solution box (blue.png as full background) */}
-                <div style={{ position: 'relative', overflow: 'hidden', borderRadius: '16px', textAlign: 'center', width: '597px', minHeight: '382px', maxWidth: '100%' }}>
+                <div style={{ position: 'relative', overflow: 'hidden', borderRadius: '16px', textAlign: 'center', width: '100%', minHeight: '382px' }}>
                   <img
                     src="/blue.png"
                     alt=""
