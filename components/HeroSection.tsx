@@ -46,11 +46,11 @@ export default function HeroSection() {
             className="text-center text-white font-bold"
             style={{
               fontFamily: 'DM Sans, sans-serif',
-              fontSize: 'clamp(32px, 5.5vw, 79.2px)',
+              fontSize: 'max(28px, 3.33vw)',
               fontWeight: 700,
-              lineHeight: '1',
-              letterSpacing: '-1.98px',
-              maxWidth: 'max(300px, 50vw)',
+              lineHeight: '105%',
+              letterSpacing: '-0.03em',
+              maxWidth: 'max(300px, 35.83vw)',
               marginBottom: 'max(10px, 0.9vw)',
             }}
           >
@@ -63,9 +63,9 @@ export default function HeroSection() {
             className="text-center"
             style={{
               fontFamily: 'DM Sans, sans-serif',
-              fontSize: 'clamp(15px, 1.53vw, 22px)',
+              fontSize: 'max(14px, 1.25vw)',
               fontWeight: 400,
-              lineHeight: '30.8px',
+              lineHeight: '135%',
               maxWidth: 'max(320px, 47.71vw)',
               color: '#FFFFFF',
               marginBottom: 'max(16px, 2.22vw)',

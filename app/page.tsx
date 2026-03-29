@@ -41,8 +41,8 @@ export default function Home() {
             ].map((item, i) => (
               <div key={i} className="flex items-center flex-wrap md:flex-nowrap" style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', minHeight: item.first ? 'clamp(70px, 10.83vw, 170px)' : 'clamp(60px, 9.86vw, 156px)', borderBottom: item.last ? 'none' : '1px solid white', paddingLeft: 'clamp(16px, 5.56vw, 90px)', paddingRight: 'clamp(16px, 5.56vw, 90px)', paddingTop: 'clamp(12px, 1vw, 16px)', paddingBottom: 'clamp(12px, 1vw, 16px)' }}>
                 <Image src="/arrow-icon.png" alt="" width={24} height={24} className="hidden md:block" style={{ flexShrink: 0, width: 'clamp(16px, 1.67vw, 28px)', height: 'clamp(16px, 1.67vw, 28px)' }} />
-                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.53vw, 22px)', lineHeight: '22px', letterSpacing: '-0.55px', marginLeft: 'clamp(8px, 2.22vw, 36px)', flexShrink: 0 }}>{item.title}</span>
-                <div className="text-white flex flex-col ml-auto" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.375vw, 19.8px)', lineHeight: '30.8px' }}>
+                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 2.08vw, 34px)', lineHeight: '120%', marginLeft: 'clamp(8px, 2.22vw, 36px)', flexShrink: 0 }}>{item.title}</span>
+                <div className="text-white flex flex-col ml-auto" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: 'clamp(12px, 2.08vw, 34px)', lineHeight: '120%' }}>
                   {item.desc.map((line, j) => <p key={j}>{line}</p>)}
                 </div>
               </div>
@@ -151,11 +151,6 @@ export default function Home() {
         </div>
         <div className="flex justify-center" style={{ maxWidth: 'min(1500px, 96%)', margin: '0 auto' }}>
           <HexWorldMap />
-        </div>
-        <div className="flex flex-wrap justify-center gap-3 mt-8 px-4" style={{ maxWidth: 'min(900px, 90%)', margin: 'clamp(24px, 2.75vw, 39.6px) auto 0' }}>
-          {['Aspen CO', 'Phoenix AZ', 'Chicago IL', 'Victoria BC', 'Montreal QC', 'Hong Kong', 'Bucharest', 'Manila', 'Niagara Falls ON', 'Gqeberha SA', 'San Diego CA', 'Johannesburg SA'].map(city => (
-            <span key={city} className="font-dm-sans font-normal" style={{ fontSize: 'clamp(14px, 1.375vw, 19.8px)', lineHeight: '30.8px', color: '#14358A', border: '1px solid #14358A', borderRadius: '20px', padding: 'clamp(4px, 0.42vw, 6px) clamp(12px, 1.25vw, 18px)' }}>{city}</span>
-          ))}
         </div>
       </div>
 

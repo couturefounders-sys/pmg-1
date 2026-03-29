@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import BlueSectionWrapper from '@/components/BlueSectionWrapper';
 
 const advantages = [
   {
@@ -225,27 +226,7 @@ export default function IOArchitectureModelPage() {
       </section>
 
       {/* ─── Section 2: Traditional vs I-O Architecture ─── */}
-      <section
-        className="w-full relative overflow-hidden py-24 px-6"
-        style={{ background: 'linear-gradient(135deg, #1B45B4 0%, #1C2792 100%)' }}
-      >
-        {/* desi design.png full-cover design overlay */}
-        <img
-          src="/desi design.png"
-          alt=""
-          aria-hidden="true"
-          style={{
-            position: 'absolute',
-            inset: 0,
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            objectPosition: 'center',
-            pointerEvents: 'none',
-            opacity: 0.3,
-            zIndex: 0,
-          }}
-        />
+      <BlueSectionWrapper style={{ padding: '96px 24px' }}>
 
         <div className="max-w-[960px] mx-auto relative z-10 flex flex-col items-center text-center">
           {/* Heading */}
@@ -330,38 +311,22 @@ export default function IOArchitectureModelPage() {
             ].map((row, i) => (
               <div key={i} className="grid grid-cols-1 md:grid-cols-2" style={{ gap: '20px' }}>
                 {/* Left — Problem box (red.png as full background) */}
-                <div style={{ position: 'relative', overflow: 'hidden', borderRadius: '16px', textAlign: 'center', width: '100%', minHeight: '382px' }}>
-                  <img
-                    src="/red.png"
-                    alt=""
-                    aria-hidden="true"
-                    style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', pointerEvents: 'none', zIndex: 0 }}
-                  />
-                  <div style={{ position: 'relative', zIndex: 1, padding: '32px 28px', height: '100%' }}>
+                <div style={{ backgroundColor: '#FFF5F5', backgroundImage: 'url(/red.png)', backgroundSize: 'cover', backgroundPosition: 'top center', overflow: 'hidden', borderRadius: '16px', textAlign: 'center', width: '100%', minHeight: '382px', padding: '32px 28px', boxSizing: 'border-box' }}>
                     <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.18vw, 19px)', color: '#D0021B', marginBottom: '12px', lineHeight: '1.4' }}>{row.problem.title}</h3>
                     <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(11px, 0.9vw, 15px)', lineHeight: '1.7', color: '#333333', marginBottom: '10px' }}>{row.problem.body}</p>
                     <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '1.7', color: '#5F6D7E' }}>{row.problem.risk}</p>
-                  </div>
                 </div>
                 {/* Right — Solution box (blue.png as full background) */}
-                <div style={{ position: 'relative', overflow: 'hidden', borderRadius: '16px', textAlign: 'center', width: '100%', minHeight: '382px' }}>
-                  <img
-                    src="/blue.png"
-                    alt=""
-                    aria-hidden="true"
-                    style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', pointerEvents: 'none', zIndex: 0 }}
-                  />
-                  <div style={{ position: 'relative', zIndex: 1, padding: '32px 28px', height: '100%' }}>
+                <div style={{ backgroundColor: '#EBF3FF', backgroundImage: 'url(/blue.png)', backgroundSize: 'cover', backgroundPosition: 'top center', overflow: 'hidden', borderRadius: '16px', textAlign: 'center', width: '100%', minHeight: '382px', padding: '32px 28px', boxSizing: 'border-box' }}>
                     <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.18vw, 19px)', color: '#14358A', marginBottom: '12px', lineHeight: '1.4' }}>{row.solution.title}</h3>
                     <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 0.9vw, 15px)', lineHeight: '1.7', color: '#333333', marginBottom: '10px' }}>{row.solution.body}</p>
                     <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '1.7', color: '#5F6D7E' }}>{row.solution.benefit}</p>
-                  </div>
                 </div>
               </div>
             ))}
           </div>
         </div>
-      </section>
+      </BlueSectionWrapper>
 
       {/* ─── Section 3: Consistency Through Constraint & Intentionality ─── */}
       <section className="w-full py-20 px-6 bg-[#F8FAFC]">

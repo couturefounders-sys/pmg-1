@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import BlueSectionWrapper from '@/components/BlueSectionWrapper';
 
 export default function BusinessValueUnitModelPage() {
   return (
@@ -59,27 +60,7 @@ export default function BusinessValueUnitModelPage() {
        </section>
 
        {/* Section 2: The Unquantified Cost of Flawed Executive Decisions */}
-       <section 
-         className="w-full py-14 lg:py-20 px-4 sm:px-6 relative overflow-hidden" 
-         style={{ 
-           background: 'linear-gradient(135deg, #1B45B4 0%, #1C2792 100%)',
-         }}
-       >
-         {/* Background diagonal pattern image */}
-         <div 
-           style={{
-             position: 'absolute',
-             top: 0,
-             left: 0,
-             right: 0,
-             bottom: 0,
-             backgroundImage: 'url(/dig desi.png)',
-             backgroundSize: 'cover',
-             backgroundPosition: 'center',
-             opacity: 0.3,
-             pointerEvents: 'none',
-           }}
-         />
+       <BlueSectionWrapper className="py-14 lg:py-20 px-4 sm:px-6">
 
          <div className="max-w-[1200px] mx-auto relative z-10">
            <h2
@@ -120,13 +101,15 @@ export default function BusinessValueUnitModelPage() {
              {/* Card 1: The Comparison Flaw */}
              <div
                style={{
+                 backgroundColor: '#FFF5F5',
                  backgroundImage: 'url(/red.png)',
                  backgroundSize: 'cover',
-                 backgroundPosition: 'center',
+                 backgroundPosition: 'top center',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
                  position: 'relative',
+                 overflow: 'hidden',
                }}
              >
                <h3
@@ -169,13 +152,15 @@ export default function BusinessValueUnitModelPage() {
              {/* Card 2: The BVU Solution */}
              <div
                style={{
+                 backgroundColor: '#EBF3FF',
                  backgroundImage: 'url(/blue.png)',
                  backgroundSize: 'cover',
-                 backgroundPosition: 'center',
+                 backgroundPosition: 'top center',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
                  position: 'relative',
+                 overflow: 'hidden',
                }}
              >
                <h3
@@ -218,13 +203,15 @@ export default function BusinessValueUnitModelPage() {
              {/* Card 3: The Cost Center Trap */}
              <div
                style={{
+                 backgroundColor: '#FFF5F5',
                  backgroundImage: 'url(/red.png)',
                  backgroundSize: 'cover',
-                 backgroundPosition: 'center',
+                 backgroundPosition: 'top center',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
                  position: 'relative',
+                 overflow: 'hidden',
                }}
              >
                <h3
@@ -267,13 +254,15 @@ export default function BusinessValueUnitModelPage() {
              {/* Card 4: The BVU Solution */}
              <div
                style={{
+                 backgroundColor: '#EBF3FF',
                  backgroundImage: 'url(/blue.png)',
                  backgroundSize: 'cover',
-                 backgroundPosition: 'center',
+                 backgroundPosition: 'top center',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
                  position: 'relative',
+                 overflow: 'hidden',
                }}
              >
                <h3
@@ -316,13 +305,15 @@ export default function BusinessValueUnitModelPage() {
              {/* Card 5: The Misaligned Activity Trap */}
              <div
                style={{
+                 backgroundColor: '#FFF5F5',
                  backgroundImage: 'url(/red.png)',
                  backgroundSize: 'cover',
-                 backgroundPosition: 'center',
+                 backgroundPosition: 'top center',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
                  position: 'relative',
+                 overflow: 'hidden',
                }}
              >
                <h3
@@ -365,13 +356,15 @@ export default function BusinessValueUnitModelPage() {
              {/* Card 6: The BVU Solution */}
              <div
                style={{
+                 backgroundColor: '#EBF3FF',
                  backgroundImage: 'url(/blue.png)',
                  backgroundSize: 'cover',
-                 backgroundPosition: 'center',
+                 backgroundPosition: 'top center',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
                  position: 'relative',
+                 overflow: 'hidden',
                }}
              >
                <h3
@@ -413,7 +406,7 @@ export default function BusinessValueUnitModelPage() {
 
            </div>
          </div>
-       </section>
+       </BlueSectionWrapper>
 
         {/* Section 3: The BVU Model in Practice */}
        <section className="w-full py-20 px-6" style={{ background: '#FFFFFF' }}>
@@ -776,453 +769,56 @@ export default function BusinessValueUnitModelPage() {
         </div>
       </section>
 
-      {/* Section 6: How We Help */}
-      <section className="w-full py-20 px-6 bg-white">
+      {/* Section 6: Core Concepts of the BVU Model */}
+      <section className="w-full py-20 px-6" style={{ background: '#F8FAFC' }}>
         <div className="max-w-[min(1100px,_90%)] mx-auto">
-          <h2
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontWeight: 700,
-              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em',
-              color: '#14358A',
-              textAlign: 'center',
-              marginBottom: '48px',
-            }}
-          >
-            How We Help
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', textAlign: 'center', marginBottom: '48px' }}>
+            Core Concepts of the BVU Model
           </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', marginBottom: '20px' }}>
-            <div
-              style={{
-                border: '3px solid #14358A',
-                borderRadius: '12px',
-                padding: '24px 20px',
-                background: '#FFFFFF',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '12px',
-              }}
-            >
+          {(() => {
+            const concepts = [
+              { title: 'Value Abstraction', text: 'The foundational mathematical process of normalizing the diverse, tangible outputs of all teams (e.g., risk mitigated, tickets solved, dollars earned) into a single, unified, and quantifiable metric established as a consistent management convention.' },
+              { title: 'Business Value Unit (BVU)', text: 'The fundamental, normalized metric that represents a single, abstracted unit of organizational value, used as a stable unit of account for internal comparison.' },
+              { title: 'Cost-Per-BVU Baseline', text: "The initial financial calculation derived by dividing a team's total operational cost over a defined period by the total number of normalized BVUs produced. This metric establishes the baseline cost efficiency for comparative analysis across different functional areas." },
+              { title: 'BVU-Per-Personnel Hour/Spend', text: "A key operational metric that quantifies performance by dividing total BVU output by the team's total operational spend or time. This granular calculation accounts for disparities in staff cost and utilization, precisely identifying where personnel investment yields the highest measurable return." },
+              { title: 'Value Equivalence', text: 'The principle that, after the initial calibration process, one BVU generated by a commercial team (e.g., sales) is treated as equivalent in organizational importance to one BVU generated by a non-commercial team (e.g., legal or IT infrastructure).' },
+              { title: 'Enterprise Value Stream', text: 'The complete organizational workflow seen through the lens of BVU generation, allowing leadership to map and analyze which functional areas and specific activities—rather than just which products—generate the highest return on enterprise value.' },
+              { title: 'Activity Prioritization', text: "The strategic mechanism of using BVU analysis to identify high-volume, low-value work efforts within a team's mandate. This allows management to surgically shift resources away from inefficient processes to focus strictly on activities that deliver the greatest BVU return." },
+            ];
+            const helpCircleIcon = (
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginBottom: '12px' }}>
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                <line x1="12" y1="17" x2="12.01" y2="17"/>
+              </svg>
+            );
+            const conceptCard = (c: { title: string; text: string }, i: number) => (
               <div
-                style={{
-                  width: '56px',
-                  height: '56px',
-                  background: '#14358A',
-                  borderRadius: '8px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
+                key={i}
+                style={{ borderRadius: '12px', padding: '28px 20px', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', background: '#FFFFFF', border: '1.5px solid #C8D5F0' }}
               >
-                <img
-                  src="/Value Abstraction.png"
-                  alt="Value Abstraction"
-                  style={{
-                    width: '32px',
-                    height: '32px',
-                  }}
-                />
+                {helpCircleIcon}
+                <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#14358A', marginBottom: '8px' }}>{c.title}</h3>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(10px, 0.87vw, 14px)', lineHeight: '1.7', color: '#5F6D7E', margin: 0 }}>{c.text}</p>
               </div>
-              <h3
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
-                  color: '#14358A',
-                  lineHeight: '1.3',
-                }}
-              >
-                Value Abstraction
-              </h3>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontSize: 'clamp(11px, 0.9vw, 15px)',
-                  lineHeight: '1.75',
-                  color: '#5F6D7E',
-                }}
-              >
-                We work with your leadership to identify the most critical, universal deliverable across all teams—the thing your organization ultimately produces (e.g., &ldquo;a client engagement,&rdquo; &ldquo;a product feature,&rdquo; &ldquo;a regulatory approval&rdquo;). This becomes the anchor for all BVU measurements.
-              </p>
-            </div>
-            <div
-              style={{
-                border: '3px solid #14358A',
-                borderRadius: '12px',
-                padding: '24px 20px',
-                background: '#FFFFFF',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '12px',
-              }}
-            >
-              <div
-                style={{
-                  width: '56px',
-                  height: '56px',
-                  background: '#14358A',
-                  borderRadius: '8px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
-                <img
-                  src="/funds.png"
-                  alt="Business Value Unit (BVU)"
-                  style={{
-                    width: '32px',
-                    height: '32px',
-                  }}
-                />
+            );
+            return (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                {/* Row 1: 2 items */}
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px' }}>
+                  {concepts.slice(0, 2).map((c, i) => conceptCard(c, i))}
+                </div>
+                {/* Row 2: 3 items */}
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
+                  {concepts.slice(2, 5).map((c, i) => conceptCard(c, i + 2))}
+                </div>
+                {/* Row 3: 2 items */}
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px' }}>
+                  {concepts.slice(5, 7).map((c, i) => conceptCard(c, i + 5))}
+                </div>
               </div>
-              <h3
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
-                  color: '#14358A',
-                  lineHeight: '1.3',
-                }}
-              >
-                Business Value Unit (BVU)
-              </h3>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontSize: 'clamp(11px, 0.9vw, 15px)',
-                  lineHeight: '1.75',
-                  color: '#5F6D7E',
-                }}
-              >
-                A single, universal abstraction of value that represents one standardized unit of organizational output. Every internal team&apos;s work is translated into BVUs, making all contributions measurable and comparable.
-              </p>
-            </div>
-            <div
-              style={{
-                border: '1.5px solid #14358A',
-                borderRadius: '12px',
-                padding: '24px 20px',
-                background: '#FFFFFF',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '12px',
-              }}
-            >
-              <div
-                style={{
-                  width: '56px',
-                  height: '56px',
-                  background: '#14358A',
-                  borderRadius: '8px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
-                <img
-                  src="/phone.png"
-                  alt="Facility & Resource Management"
-                  style={{
-                    width: '32px',
-                    height: '32px',
-                  }}
-                />
-              </div>
-              <h3
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
-                  color: '#14358A',
-                  lineHeight: '1.3',
-                }}
-              >
-                Facility & Resource Management
-              </h3>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontSize: 'clamp(11px, 0.9vw, 15px)',
-                  lineHeight: '1.75',
-                  color: '#5F6D7E',
-                }}
-              >
-                Teams that maintain physical or digital infrastructure (e.g., IT, Facilities) are measured by the BVU-enabling capacity they provide, such as system uptime, infrastructure reliability, or workspace availability.
-              </p>
-            </div>
-          </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px', marginBottom: '20px' }}>
-            <div
-              style={{
-                border: '3px solid #14358A',
-                borderRadius: '12px',
-                padding: '24px 20px',
-                background: '#FFFFFF',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '12px',
-              }}
-            >
-              <div
-                style={{
-                  width: '56px',
-                  height: '56px',
-                  background: '#14358A',
-                  borderRadius: '8px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
-                <img
-                  src="/phone.png"
-                  alt="Facility & Resource Management"
-                  style={{
-                    width: '32px',
-                    height: '32px',
-                  }}
-                />
-              </div>
-              <h3
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
-                  color: '#14358A',
-                  lineHeight: '1.3',
-                }}
-              >
-                Facility & Resource Management
-              </h3>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontSize: 'clamp(11px, 0.9vw, 15px)',
-                  lineHeight: '1.75',
-                  color: '#5F6D7E',
-                }}
-              >
-                Teams that maintain physical or digital infrastructure (e.g., IT, Facilities) are measured by the BVU-enabling capacity they provide, such as system uptime, infrastructure reliability, or workspace availability.
-              </p>
-            </div>
-            <div
-              style={{
-                border: '3px solid #14358A',
-                borderRadius: '12px',
-                padding: '24px 20px',
-                background: '#FFFFFF',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '12px',
-              }}
-            >
-              <div
-                style={{
-                  width: '56px',
-                  height: '56px',
-                  background: '#14358A',
-                  borderRadius: '8px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
-                <img
-                  src="/retro-bag.png"
-                  alt="BVU-Per-Personnel Hour"
-                  style={{
-                    width: '32px',
-                    height: '32px',
-                  }}
-                />
-              </div>
-              <h3
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
-                  color: '#14358A',
-                  lineHeight: '1.3',
-                }}
-              >
-                BVU-Per-Personnel Hour
-              </h3>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontSize: 'clamp(11px, 0.9vw, 15px)',
-                  lineHeight: '1.75',
-                  color: '#5F6D7E',
-                }}
-              >
-                How many BVUs does a team produce per hour of staff time? This metric reveals team efficiency and guides hiring, automation, and process optimization decisions.
-              </p>
-            </div>
-            <div
-              style={{
-                border: '3px solid #14358A',
-                borderRadius: '12px',
-                padding: '24px 20px',
-                background: '#FFFFFF',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '12px',
-              }}
-            >
-              <div
-                style={{
-                  width: '56px',
-                  height: '56px',
-                  background: '#14358A',
-                  borderRadius: '8px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
-                <img
-                  src="/efferent-three.png"
-                  alt="Value Equivalence"
-                  style={{
-                    width: '32px',
-                    height: '32px',
-                  }}
-                />
-              </div>
-              <h3
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
-                  color: '#14358A',
-                  lineHeight: '1.3',
-                }}
-              >
-                Value Equivalence
-              </h3>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontSize: 'clamp(11px, 0.9vw, 15px)',
-                  lineHeight: '1.75',
-                  color: '#5F6D7E',
-                }}
-              >
-                Each team&apos;s output is translated into a fractional or multiplied BVU contribution. For example, Legal might produce 0.2 BVUs per contract (contracts enable 20% of a final deal), while IT produces 1.5 BVUs per system deployment (infrastructure supports multiple deals simultaneously).
-              </p>
-            </div>
-          </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', maxWidth: 'min(730px, 95%)', margin: '0 auto' }}>
-            <div
-              style={{
-                border: '3px solid #14358A',
-                borderRadius: '12px',
-                padding: '24px 20px',
-                background: '#FFFFFF',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '12px',
-              }}
-            >
-              <div
-                style={{
-                  width: '56px',
-                  height: '56px',
-                  background: '#14358A',
-                  borderRadius: '8px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
-                <img
-                  src="/Value Abstraction.png"
-                  alt="Cost-Per-BVU Baseline"
-                  style={{
-                    width: '32px',
-                    height: '32px',
-                  }}
-                />
-              </div>
-              <h3
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
-                  color: '#14358A',
-                  lineHeight: '1.3',
-                }}
-              >
-                Cost-Per-BVU Baseline
-              </h3>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontSize: 'clamp(11px, 0.9vw, 15px)',
-                  lineHeight: '1.75',
-                  color: '#5F6D7E',
-                }}
-              >
-                We calculate the baseline cost to produce one BVU, including labor, tools, overhead, and operational expenses. This becomes the benchmark for efficiency tracking.
-              </p>
-            </div>
-            <div
-              style={{
-                border: '3px solid #14358A',
-                borderRadius: '12px',
-                padding: '24px 20px',
-                background: '#FFFFFF',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '12px',
-              }}
-            >
-              <div
-                style={{
-                  width: '56px',
-                  height: '56px',
-                  background: '#14358A',
-                  borderRadius: '8px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
-                <img
-                  src="/funds.png"
-                  alt="BVU-Per-Personnel Hour/Spend"
-                  style={{
-                    width: '32px',
-                    height: '32px',
-                  }}
-                />
-              </div>
-              <h3
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
-                  color: '#14358A',
-                  lineHeight: '1.3',
-                }}
-              >
-                BVU-Per-Personnel Hour/Spend
-              </h3>
-              <p
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontSize: 'clamp(11px, 0.9vw, 15px)',
-                  lineHeight: '1.75',
-                  color: '#5F6D7E',
-                }}
-              >
-                Leadership can now ask: &ldquo;How many BVUs are we getting per $100k spent on IT vs. Legal vs. Sales?&rdquo; This allows direct comparison and strategic reallocation of capital.
-              </p>
-            </div>
-          </div>
+            );
+          })()}
         </div>
       </section>
 
