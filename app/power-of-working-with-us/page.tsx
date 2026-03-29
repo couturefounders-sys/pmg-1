@@ -190,7 +190,7 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -203,7 +203,7 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               color: '#333333',
             }}
@@ -223,7 +223,7 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -236,7 +236,7 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               color: '#333333',
               textAlign: 'center',
@@ -256,7 +256,7 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -269,7 +269,7 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(13px, 1.11vw, 18px)',
+              fontSize: 'clamp(14px, 1.22vw, 17.6px)',
               letterSpacing: '0.04em',
               color: '#14358A',
               marginBottom: '24px',
@@ -281,7 +281,7 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               color: '#333333',
               textAlign: 'center',
@@ -297,7 +297,7 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               color: '#333333',
               textAlign: 'center',
@@ -364,7 +364,7 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               color: '#333333',
               textAlign: 'center',
@@ -380,7 +380,7 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               color: '#333333',
               textAlign: 'center',
@@ -401,7 +401,7 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -414,7 +414,7 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               color: '#333333',
               textAlign: 'center',
@@ -464,7 +464,7 @@ export default function PowerOfWorkingWithUs() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 700,
-                    fontSize: 'clamp(13px, 1.25vw, 20px)',
+                    fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                     lineHeight: '1.6',
                     color: i === highlightedQuoteSlot ? '#14358A' : '#36519F',
                     fontStyle: 'italic',
@@ -483,7 +483,7 @@ export default function PowerOfWorkingWithUs() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(24px, 2.5vw, 40px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '110%',
               letterSpacing: '-0.02em',
               color: '#14358A',
@@ -515,7 +515,7 @@ export default function PowerOfWorkingWithUs() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: 'clamp(20px, 1.8vw, 30px)',
+                    fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                     lineHeight: '110%',
                     color: '#C62828',
                     marginBottom: '12px',
@@ -545,10 +545,10 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 7: PMG vs Old Playbook Comparison ─── */}
       <section className="w-full py-24 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'center', marginBottom: '12px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', textAlign: 'center', marginBottom: '12px' }}>
             PMG vs. The Old Playbook
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#68718B', textAlign: 'center', marginBottom: '40px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#68718B', textAlign: 'center', marginBottom: '40px' }}>
             Auto-cycling every 3 seconds · <span style={{ fontStyle: 'italic' }}>Hover to pause</span>
           </p>
 
@@ -560,7 +560,7 @@ export default function PowerOfWorkingWithUs() {
             {/* Table header */}
             <div className="grid grid-cols-3" style={{ backgroundColor: '#14358A' }}>
               {['Feature', 'Old Playbook', 'PMG Model'].map((col, i) => (
-                <div key={i} style={{ padding: '18px 24px', fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.25vw, 20px)', color: '#FFFFFF', borderLeft: i > 0 ? '1px solid rgba(255,255,255,0.2)' : 'none', textAlign: 'center' }}>
+                <div key={i} style={{ padding: '18px 24px', fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#FFFFFF', borderLeft: i > 0 ? '1px solid rgba(255,255,255,0.2)' : 'none', textAlign: 'center' }}>
                   {col}
                 </div>
               ))}
@@ -580,10 +580,10 @@ export default function PowerOfWorkingWithUs() {
                 <div style={{ padding: '18px 24px', fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.11vw, 18px)', color: '#14358A', borderRight: '1px solid #E5E7EB', display: 'flex', alignItems: 'center' }}>
                   {row.feature}
                 </div>
-                <div style={{ padding: '18px 24px', fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', color: '#D0021B', borderRight: '1px solid #E5E7EB', display: 'flex', alignItems: 'center' }}>
+                <div style={{ padding: '18px 24px', fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#D0021B', borderRight: '1px solid #E5E7EB', display: 'flex', alignItems: 'center' }}>
                   {row.oldPlaybook}
                 </div>
-                <div style={{ padding: '18px 24px', fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', color: '#14358A', display: 'flex', alignItems: 'center' }}>
+                <div style={{ padding: '18px 24px', fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#14358A', display: 'flex', alignItems: 'center' }}>
                   {row.pmgModel}
                 </div>
               </div>
@@ -615,10 +615,10 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 8: The Proof is in the Performance ─── */}
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '16px' }}>
             The Proof is in the Performance
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', color: '#333333', marginBottom: '48px', maxWidth: 'min(900px, 95%)' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '140%', color: '#333333', marginBottom: '48px', maxWidth: 'min(900px, 95%)' }}>
             Our quiet, focused approach delivers loud results. We consistently outperform industry averages across key performance indicators.
           </p>
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' style={{ gap: '24px', width: '100%' }}>
@@ -631,9 +631,9 @@ export default function PowerOfWorkingWithUs() {
               { stat: 'Proven', label: 'Track Record', desc: 'A history of delivering measurable, tangible success.' },
             ].map((item, i) => (
               <div key={i} style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '32px 28px', textAlign: 'left' }}>
-                <div style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '8px' }}>{item.stat}</div>
-                <div style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '12px' }}>{item.label}</div>
-                <div style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>{item.desc}</div>
+                <div style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '8px' }}>{item.stat}</div>
+                <div style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '12px' }}>{item.label}</div>
+                <div style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>{item.desc}</div>
               </div>
             ))}
           </div>
@@ -643,17 +643,17 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 9: Our Approach & Methodology ─── */}
       <section className="w-full py-20 px-6" style={{ background: '#F8FAFC' }}>
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '16px' }}>
             Our Approach &amp; Methodology
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', color: '#333333', marginBottom: '48px', maxWidth: 'min(1000px, 95%)' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '140%', color: '#333333', marginBottom: '48px', maxWidth: 'min(1000px, 95%)' }}>
             We use proven methodologies and cutting-edge frameworks to deliver results. But what sets PMG apart is our proprietary models: tools that provide deeper insight and unlock solutions the industry cannot match.
           </p>
 
-          <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '12px' }}>
+          <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '12px' }}>
             Our Proprietary Models
           </h3>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: '40px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', marginBottom: '40px' }}>
             Unique frameworks developed by PMG that unlock insights and solutions the industry cannot match.
           </p>
 
@@ -668,10 +668,10 @@ export default function PowerOfWorkingWithUs() {
                   <div style={{ width: '64px', height: '64px', background: '#14358A', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                     <img src={card.icon} alt={card.title} style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
                   </div>
-                  <div style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', margin: 0 }}>{card.title}</div>
+                  <div style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', margin: 0 }}>{card.title}</div>
                 </div>
-                <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>{card.desc}</p>
-                <a href="#" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#14358A', marginTop: '16px', display: 'inline-block' }}>Read More ›</a>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>{card.desc}</p>
+                <a href="#" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#14358A', marginTop: '16px', display: 'inline-block' }}>Read More ›</a>
               </div>
             ))}
           </div>
@@ -693,10 +693,10 @@ export default function PowerOfWorkingWithUs() {
           }
         `}</style>
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '12px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '12px' }}>
             Proven Industry Frameworks
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: '8px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', marginBottom: '8px' }}>
             We leverage established methodologies that have stood the test of time across industries.
           </p>
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: '140%', color: '#A0AEC0', fontStyle: 'italic', marginBottom: '32px' }}>
@@ -742,22 +742,22 @@ export default function PowerOfWorkingWithUs() {
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexShrink: 0 }}>
                 <img src="/56.png" alt="Proprietary Models" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-                <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(22px, 2.5vw, 40px)', lineHeight: '105%', color: '#14358A' }}>3</span>
+                <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '105%', color: '#14358A' }}>3</span>
                 <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 1vw, 16px)', lineHeight: '140%', color: '#68718B', whiteSpace: 'nowrap' }}>Proprietary Models</span>
                 </div>
               </div>
-              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(22px, 2.5vw, 40px)', color: '#14358A', flexShrink: 0 }}>+</span>
+              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', color: '#14358A', flexShrink: 0 }}>+</span>
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexShrink: 0 }}>
                 <img src="/67.png" alt="Proven Frameworks" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-                <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(22px, 2.5vw, 40px)', lineHeight: '105%', color: '#14358A' }}>8</span>
+                <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '105%', color: '#14358A' }}>8</span>
                 <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 1vw, 16px)', lineHeight: '140%', color: '#68718B', whiteSpace: 'nowrap' }}>Proven Frameworks</span>
                 </div>
               </div>
-              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(22px, 2.5vw, 40px)', color: '#14358A', flexShrink: 0 }}>=</span>
+              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', color: '#14358A', flexShrink: 0 }}>=</span>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', background: '#EEF2FF', borderRadius: '999px', padding: '14px 28px', flexShrink: 0 }}>
                 <img src="/78.png" alt="The Right Solution" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
-                <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.25vw, 20px)', color: '#14358A', whiteSpace: 'nowrap' }}>The Right Solution, Every Time.</span>
+                <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#14358A', whiteSpace: 'nowrap' }}>The Right Solution, Every Time.</span>
               </div>
             </div>
           </div>
@@ -765,10 +765,10 @@ export default function PowerOfWorkingWithUs() {
           {/* Philosophy box */}
           <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '36px 40px', textAlign: 'left', width: '100%' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
-              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(20px, 2vw, 36px)', lineHeight: 1, color: '#14358A', flexShrink: 0 }}>&#9675;</span>
-              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Our Philosophy of Application</h3>
+              <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: 1, color: '#14358A', flexShrink: 0 }}>&#9675;</span>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>Our Philosophy of Application</h3>
             </div>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#333333' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#333333' }}>
               No single method is right for every situation. PMG selects and adapts frameworks based on each client&apos;s specific needs, culture, and goals. Our objective is to use the least-change-demanding methods first, balancing the amount of disruption with the impact it will create, based on your needs and the results you are looking for.
             </p>
           </div>
@@ -779,10 +779,10 @@ export default function PowerOfWorkingWithUs() {
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2" style={{ gap: '60px', alignItems: 'center' }}>
           <div>
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '20px' }}>
               A Commitment to Continuous Improvement
             </h2>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#333333' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#333333' }}>
               Our 22x ROI was not instant. It was earned. In 2018, we matched the industry average of 6–9x. But average was never the goal. In 2020, we made client ROI our north star. That focus pushed us to 13x and continues to drive improvement today. Whatever our current benchmark, we refine, learn, and raise it. Continuous improvement is not a slogan; it is our operating model.
             </p>
           </div>
@@ -793,37 +793,37 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 13: Still Not Convinced? ─── */}
       <section className="w-full py-20 px-6" style={{ background: '#F8FAFC' }}>
         <div className="max-w-[1200px] mx-auto">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'center', marginBottom: '48px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', textAlign: 'center', marginBottom: '48px' }}>
             Still Not Convinced?
           </h2>
           <div className='grid grid-cols-1 md:grid-cols-2' style={{ gap: 'clamp(24px, 4.17vw, 60px)' }}>
             {/* Left */}
             <div>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#333333', marginBottom: '20px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#333333', marginBottom: '20px' }}>
                 We understand the skepticism. In many cases, it is earned. Almost one-third of our clients come to us after a major consulting engagement failed to deliver meaningful results.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#333333', marginBottom: '20px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#333333', marginBottom: '20px' }}>
                 If you are not confident we are the right partner, you should not hire us yet.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#333333', marginBottom: '20px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#333333', marginBottom: '20px' }}>
                 We are not here to trap you. We are here to help.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#333333', marginBottom: '20px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#333333', marginBottom: '20px' }}>
                 If you choose another firm and later find that you are still not where you would like to be, we will be here when you are ready.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
                 No pressure. No long-term commitment. Just a conversation.
               </p>
             </div>
             {/* Right */}
             <div style={{ border: '2px solid #BFD0F0', borderRadius: '16px', padding: 'clamp(24px, 2.78vw, 40px)', backgroundColor: '#EEF3FB' }}>
-              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
                 Why Are We So Confident?
               </h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#333333', marginBottom: '20px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#333333', marginBottom: '20px' }}>
                 We are often asked how we back our bold claims. The answer is simple: we built a system to check our own work.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#333333' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#333333' }}>
                 Our proprietary C2 Specification and Anonymous QA Review means every strategy we propose has already been stress-tested by a separate committee of experts before we even present it to you. We are as committed to eliminating our own blind spots and biases that we have institutionalized the peer review process. Our confidence comes not from arrogance, but from a proven, systematic method of validation.
               </p>
             </div>
@@ -834,7 +834,7 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 14: CTA ─── */}
       <section className="w-full py-24 px-6 bg-white">
         <div className="max-w-[700px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '36px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '36px' }}>
             Stop Buying Reports. Start Buying Results.
           </h2>
           <a

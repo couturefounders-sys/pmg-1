@@ -21,7 +21,7 @@ export default function About() {
               <p
                 className="font-dm-sans font-bold mb-2"
                 style={{
-                  fontSize: 'clamp(14px, 1.25vw, 20px)',
+                  fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                   lineHeight: '105%',
                   color: '#000000',
                 }}
@@ -31,7 +31,7 @@ export default function About() {
               <h2
                 className="font-dm-sans font-bold text-[#14358A]"
                 style={{
-                  fontSize: 'clamp(28px, 3.33vw, 48px)',
+                  fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                   lineHeight: '105%',
                   letterSpacing: '-0.03em',
                 }}
@@ -42,7 +42,7 @@ export default function About() {
             <p
               className="font-montserrat font-normal mx-auto text-center px-4"
               style={{
-                fontSize: 'clamp(18px, 2.08vw, 30px)',
+                fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                 lineHeight: 'clamp(28px, 2.78vw, 40px)',
                 color: '#333333',
                 maxWidth: 'min(1405px, 92%)'
@@ -68,7 +68,7 @@ export default function About() {
           <h3
             className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A]"
             style={{
-              fontSize: 'clamp(28px, 3.33vw, 48px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%'
             }}
           >
@@ -93,7 +93,7 @@ export default function About() {
                 <h4
                   className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
                   style={{
-                    fontSize: 'clamp(18px, 2.22vw, 32px)',
+                    fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                     lineHeight: '105%'
                   }}
                 >
@@ -125,7 +125,7 @@ export default function About() {
                 <h4
                   className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
                   style={{
-                    fontSize: 'clamp(18px, 2.22vw, 32px)',
+                    fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                     lineHeight: '105%'
                   }}
                 >
@@ -157,7 +157,7 @@ export default function About() {
                 <h4
                   className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
                   style={{
-                    fontSize: 'clamp(18px, 2.22vw, 32px)',
+                    fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                     lineHeight: '105%'
                   }}
                 >
@@ -189,7 +189,7 @@ export default function About() {
                 <h4
                   className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
                   style={{
-                    fontSize: 'clamp(18px, 2.22vw, 32px)',
+                    fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                     lineHeight: '105%'
                   }}
                 >
@@ -221,7 +221,7 @@ export default function About() {
                 <h4
                   className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
                   style={{
-                    fontSize: 'clamp(18px, 2.22vw, 32px)',
+                    fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                     lineHeight: '105%'
                   }}
                 >
@@ -253,7 +253,7 @@ export default function About() {
                 <h4
                   className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
                   style={{
-                    fontSize: 'clamp(18px, 2.22vw, 32px)',
+                    fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                     lineHeight: '105%'
                   }}
                 >
@@ -278,7 +278,7 @@ export default function About() {
           <h3
             className="font-dm-sans font-bold mb-12"
             style={{
-              fontSize: 'clamp(28px, 3.33vw, 48px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A'
@@ -289,7 +289,7 @@ export default function About() {
           <p
             className="font-montserrat font-normal text-[#333333] mx-auto mb-12"
             style={{
-              fontSize: 'clamp(18px, 2.08vw, 30px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: 'clamp(24px, 2.5vw, 36px)',
               maxWidth: 'min(1100px, 90%)'
             }}
@@ -307,7 +307,7 @@ export default function About() {
           <p
             className="font-dm-sans font-bold mb-2"
             style={{
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              fontSize: 'clamp(13px, 1.07vw, 15.4px)',
               lineHeight: '105%',
               color: '#000000',
             }}
@@ -317,7 +317,7 @@ export default function About() {
           <h3
             className="font-dm-sans font-bold mb-12"
             style={{
-              fontSize: 'clamp(28px, 3.33vw, 48px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A'
@@ -451,7 +451,7 @@ export default function About() {
             style={{
               fontSize: 'clamp(15px, 1.47vw, 21.1px)',
               lineHeight: 'clamp(22px, 2.08vw, 30px)',
-              padding: 'clamp(16px, 1.67vw, 24px) clamp(20px, 2.22vw, 32px)',
+              padding: 'clamp(16px, 1.53vw, 22px) clamp(20px, 2.22vw, 32px)',
               borderRadius: '82px',
               background: '#14358A',
               border: '2px solid #14358A'
@@ -482,7 +482,7 @@ export default function About() {
           <h3
             className="font-poppins font-semibold text-[#14358A] mb-8"
             style={{
-              fontSize: 'clamp(28px, 3.47vw, 50px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: 'clamp(32px, 3.19vw, 46px)'
             }}
           >
@@ -491,7 +491,7 @@ export default function About() {
           <p
             className="font-montserrat font-normal text-[#333333] mx-auto mb-16"
             style={{
-              fontSize: 'clamp(18px, 2.08vw, 30px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: 'clamp(24px, 2.5vw, 36px)',
               maxWidth: 'min(1265px, 90%)'
             }}
@@ -505,7 +505,7 @@ export default function About() {
               <h4
                 className="font-dm-sans font-bold tracking-[-0.03em] text-black mb-6"
                 style={{
-                  fontSize: 'clamp(18px, 2.22vw, 32px)',
+                  fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                   lineHeight: '105%'
                 }}
               >
@@ -539,7 +539,7 @@ export default function About() {
           <h3
             className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-8"
             style={{
-              fontSize: 'clamp(28px, 3.33vw, 48px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%'
             }}
           >
@@ -548,7 +548,7 @@ export default function About() {
           <p
             className="font-montserrat font-normal text-[#333333] mx-auto mb-12"
             style={{
-              fontSize: 'clamp(18px, 2.08vw, 30px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: 'clamp(24px, 2.5vw, 36px)',
               maxWidth: 'min(1100px, 90%)'
             }}
@@ -617,7 +617,7 @@ export default function About() {
           <h3
             className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-8"
             style={{
-              fontSize: 'clamp(28px, 3.33vw, 48px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%'
             }}
           >
@@ -626,7 +626,7 @@ export default function About() {
           <p
             className="font-montserrat font-normal text-[#333333] mx-auto mb-24"
             style={{
-              fontSize: 'clamp(18px, 2.08vw, 30px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: 'clamp(24px, 2.5vw, 36px)',
               maxWidth: 'min(1100px, 90%)'
             }}
@@ -742,7 +742,7 @@ export default function About() {
         <h3
           className="font-dm-sans font-bold text-[#14358A]"
           style={{
-            fontSize: 'clamp(28px, 3.33vw, 48px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             textAlign: 'center',

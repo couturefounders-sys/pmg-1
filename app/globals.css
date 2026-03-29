@@ -81,9 +81,9 @@ img {
 /* Navigation Text Styling */
 .nav-text {
   font-family: var(--font-inter), 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: clamp(12px, 1.03vw, 16px);
-  line-height: 1.4;
+  font-weight: 500;
+  font-size: clamp(14px, 1.22vw, 17.6px);
+  line-height: 26.4px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -148,21 +148,21 @@ img {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  
+
   h1 {
-    font-size: clamp(28px, 5vw, 48px) !important;
+    font-size: clamp(32px, 8vw, 79.2px) !important;
   }
-  
+
   h2 {
-    font-size: clamp(24px, 4.5vw, 40px) !important;
+    font-size: clamp(24px, 5.5vw, 39.6px) !important;
   }
-  
+
   h3 {
-    font-size: clamp(20px, 4vw, 32px) !important;
+    font-size: clamp(16px, 4vw, 22px) !important;
   }
-  
+
   p {
-    font-size: clamp(14px, 3vw, 18px) !important;
+    font-size: clamp(14px, 3.5vw, 19.8px) !important;
   }
 }
 
@@ -217,38 +217,38 @@ img {
 
 /* Responsive Typography Scale */
 .responsive-heading-xl {
-  font-size: clamp(32px, 4vw, 64px);
-  line-height: 1.1;
+  font-size: clamp(32px, 5.5vw, 79.2px);
+  line-height: 1;
 }
 
 .responsive-heading-lg {
-  font-size: clamp(28px, 3.5vw, 48px);
-  line-height: 1.1;
+  font-size: clamp(24px, 2.75vw, 39.6px);
+  line-height: 44px;
 }
 
 .responsive-heading-md {
-  font-size: clamp(24px, 3vw, 40px);
-  line-height: 1.2;
+  font-size: clamp(20px, 2.29vw, 33px);
+  line-height: 39.6px;
 }
 
 .responsive-heading-sm {
-  font-size: clamp(20px, 2.5vw, 32px);
-  line-height: 1.2;
+  font-size: clamp(16px, 1.53vw, 22px);
+  line-height: 22px;
 }
 
 .responsive-text-lg {
-  font-size: clamp(16px, 2vw, 30px);
-  line-height: 1.4;
+  font-size: clamp(15px, 1.53vw, 22px);
+  line-height: 30.8px;
 }
 
 .responsive-text-md {
-  font-size: clamp(14px, 1.5vw, 20px);
-  line-height: 1.5;
+  font-size: clamp(14px, 1.375vw, 19.8px);
+  line-height: 30.8px;
 }
 
 .responsive-text-sm {
-  font-size: clamp(12px, 1.2vw, 16px);
-  line-height: 1.5;
+  font-size: clamp(12px, 1.07vw, 15.4px);
+  line-height: 22px;
 }
 
 /* Responsive Spacing */

@@ -44,7 +44,7 @@ export default function CustomerExperienceConsulting() {
         <p
           className="mb-4 font-dm-sans font-bold"
           style={{
-            fontSize: 'clamp(14px, 1.25vw, 20px)',
+            fontSize: 'clamp(13px, 1.07vw, 15.4px)',
             lineHeight: '105%',
             color: '#000000',
           }}
@@ -57,7 +57,7 @@ export default function CustomerExperienceConsulting() {
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: 'clamp(28px, 3.33vw, 56px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             textAlign: 'center',
@@ -73,7 +73,7 @@ export default function CustomerExperienceConsulting() {
           style={{
             fontFamily: 'Montserrat, sans-serif',
             fontWeight: 400,
-            fontSize: 'clamp(20px, 2.22vw, 36px)',
+            fontSize: 'clamp(15px, 1.375vw, 19.8px)',
             lineHeight: '100%',
             letterSpacing: '0%',
             textAlign: 'center',
@@ -93,7 +93,7 @@ export default function CustomerExperienceConsulting() {
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: 'clamp(28px, 3.33vw, 56px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             color: '#14358A',
@@ -113,11 +113,11 @@ export default function CustomerExperienceConsulting() {
                 <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Agent Training & Continuous Development
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Implement continuous agent training and tools to guarantee delivery of exceptional service and drive operational efficiency.
             </p>
           </div>
@@ -133,11 +133,11 @@ export default function CustomerExperienceConsulting() {
                 <line x1="12" y1="17" x2="12" y2="21" stroke="white" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               AI & Service Automation
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Drive immediate efficiency and reduce support costs using cutting-edge AI and service automation solutions.
             </p>
           </div>
@@ -153,11 +153,11 @@ export default function CustomerExperienceConsulting() {
                 <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Customer Advocacy & Referral Programs
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Architect high-ROI customer advocacy and referral programs that guarantee organic growth and reduce acquisition costs.
             </p>
           </div>
@@ -172,11 +172,11 @@ export default function CustomerExperienceConsulting() {
                 <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Customer Experience Design
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Craft exceptional, data-informed customer experiences using innovative design strategies that maximize engagement and loyalty.
             </p>
           </div>
@@ -190,11 +190,11 @@ export default function CustomerExperienceConsulting() {
                 <path d="M15 3h6v6M14 10l6.1-6.1M9 21H3v-6M10 14l-6.1 6.1" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Customer Journey Mapping
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Precisely map the customer journey to eliminate friction and boost long-term retention and loyalty.
             </p>
           </div>
@@ -210,11 +210,11 @@ export default function CustomerExperienceConsulting() {
                 <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Customer Lifecycle Management
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Strategically manage the customer lifecycle, from acquisition to retention, to maximize customer lifetime value (CLV).
             </p>
           </div>
@@ -229,11 +229,11 @@ export default function CustomerExperienceConsulting() {
                 <circle cx="12" cy="7" r="4" stroke="white" strokeWidth="2"/>
                 </svg>
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Customer Persona Development
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Build detailed, validated customer profiles to personalize interactions and enhance marketing ROI and effectiveness.
             </p>
           </div>
@@ -247,11 +247,11 @@ export default function CustomerExperienceConsulting() {
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Customer Retention Strategies
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Implement proven retention strategies designed to significantly increase loyalty, repeat business, and subscription rates.
             </p>
           </div>
@@ -267,11 +267,11 @@ export default function CustomerExperienceConsulting() {
                 <line x1="12" y1="17" x2="12.01" y2="17" stroke="white" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Customer Self-Service Solutions
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Empower customers with self-service solutions that reduce support volume and improve first-contact resolution rates.
             </p>
           </div>
@@ -285,11 +285,11 @@ export default function CustomerExperienceConsulting() {
                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Customer Support Excellence Programs
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Establish best-in-class support systems that maximize issue resolution speed and enhance customer satisfaction (CSAT).
             </p>
           </div>
@@ -303,11 +303,11 @@ export default function CustomerExperienceConsulting() {
                 <path d="M18 20V10M12 20V4M6 20v-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Data-Driven Insights & Reporting
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Provide actionable data-driven insights and reporting from customer behavior trends to inform high-stakes strategic decisions.
             </p>
           </div>
@@ -322,11 +322,11 @@ export default function CustomerExperienceConsulting() {
                 <path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Digital Engagement & Experience
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Drive deep customer engagement via innovative digital strategies, including UX design and mobile optimization.
             </p>
           </div>
@@ -342,11 +342,11 @@ export default function CustomerExperienceConsulting() {
                 <path d="M2 12l10 5 10-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Omnichannel Communication & Integration
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Guarantee a seamless, consistent customer experience across all physical and digital communication channels.
             </p>
           </div>
@@ -361,11 +361,11 @@ export default function CustomerExperienceConsulting() {
                 <path d="M12 6v6l4 2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'left' }}>
               Predictive Analytics
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', textAlign: 'left' }}>
               Anticipate customer needs and preferences using predictive analytics to secure a competitive edge and drive proactive service.
             </p>
           </div>
@@ -379,7 +379,7 @@ export default function CustomerExperienceConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -437,7 +437,7 @@ export default function CustomerExperienceConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#333',
                   margin: 0,
@@ -475,7 +475,7 @@ export default function CustomerExperienceConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#333',
                   margin: 0,
@@ -514,7 +514,7 @@ export default function CustomerExperienceConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#333',
                   margin: 0,
@@ -546,7 +546,7 @@ export default function CustomerExperienceConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -619,7 +619,7 @@ export default function CustomerExperienceConsulting() {
             style={{
               fontFamily: 'Inter, sans-serif',
               fontWeight: 600,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '30px',
               color: '#14358A',
               textDecoration: 'none',
@@ -654,7 +654,7 @@ export default function CustomerExperienceConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#FFFFFF',
@@ -667,7 +667,7 @@ export default function CustomerExperienceConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#FFFFFF',
@@ -679,7 +679,7 @@ export default function CustomerExperienceConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(20px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '135%',
               color: '#FFFFFF',
             }}
@@ -700,7 +700,7 @@ export default function CustomerExperienceConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -713,7 +713,7 @@ export default function CustomerExperienceConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(20px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '135%',
               color: '#333333',
               maxWidth: 'min(1196px, 95%)',

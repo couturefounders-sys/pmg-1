@@ -14,7 +14,7 @@ export default function OurFunctionalAreas() {
           style={{
             fontFamily: 'Poppins, sans-serif',
             fontWeight: 600,
-            fontSize: 'clamp(28px, 3.47vw, 56px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '110%',
             letterSpacing: '0%',
             color: '#14358A',
@@ -29,7 +29,7 @@ export default function OurFunctionalAreas() {
           style={{
             fontFamily: 'Montserrat, sans-serif',
             fontWeight: 400,
-            fontSize: 'clamp(20px, 2.22vw, 36px)',
+            fontSize: 'clamp(15px, 1.375vw, 19.8px)',
             lineHeight: '100%',
             letterSpacing: '0%',
             textAlign: 'center',
@@ -67,7 +67,7 @@ export default function OurFunctionalAreas() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '80.65%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -81,7 +81,7 @@ export default function OurFunctionalAreas() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
@@ -121,7 +121,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.01vw, 33px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -135,7 +135,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -185,7 +185,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.01vw, 33px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -199,7 +199,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -250,7 +250,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.01vw, 33px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -264,7 +264,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -312,7 +312,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.01vw, 33px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -326,7 +326,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -375,7 +375,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.01vw, 33px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -389,7 +389,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -443,7 +443,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.01vw, 33px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -457,7 +457,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -505,7 +505,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(17px, 1.81vw, 30px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -519,7 +519,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -551,7 +551,7 @@ export default function OurFunctionalAreas() {
             style={{
               fontFamily: 'Poppins, sans-serif',
               fontWeight: 600,
-              fontSize: 'clamp(28px, 3.47vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '110%',
               letterSpacing: '0%',
               textAlign: 'center',
@@ -567,7 +567,7 @@ export default function OurFunctionalAreas() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
@@ -608,7 +608,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.01vw, 33px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -622,7 +622,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -634,7 +634,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(14px, 1.25vw, 20px)',
+                fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                 lineHeight: '30px',
                 letterSpacing: '0px',
                 color: '#68718B',
@@ -684,7 +684,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.01vw, 33px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -698,7 +698,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -710,7 +710,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(14px, 1.25vw, 20px)',
+                fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                 lineHeight: '30px',
                 letterSpacing: '0px',
                 color: '#68718B',
@@ -760,7 +760,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.01vw, 33px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -774,7 +774,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -786,7 +786,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(14px, 1.25vw, 20px)',
+                fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                 lineHeight: '30px',
                 letterSpacing: '0px',
                 color: '#68718B',
@@ -836,7 +836,7 @@ export default function OurFunctionalAreas() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.01vw, 33px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -850,7 +850,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -862,7 +862,7 @@ export default function OurFunctionalAreas() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(14px, 1.25vw, 20px)',
+                fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                 lineHeight: '30px',
                 letterSpacing: '0px',
                 color: '#68718B',
@@ -903,7 +903,7 @@ export default function OurFunctionalAreas() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-1.44px',
               color: '#14358A',
@@ -917,7 +917,7 @@ export default function OurFunctionalAreas() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(20px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '135%',
               letterSpacing: '0%',
               textAlign: 'center',

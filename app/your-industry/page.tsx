@@ -79,12 +79,12 @@ export default function YourIndustry() {
 
         {/* Left Content */}
         <div className="flex flex-col gap-8 max-w-[min(803px,_90%)] z-10">
-          <p className="font-dm-sans font-bold mb-2" style={{ fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '105%', color: '#000000' }}>PE, VC, and Capital Management</p>
+          <p className="font-dm-sans font-bold mb-2" style={{ fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '105%', color: '#000000' }}>PE, VC, and Capital Management</p>
           <h1
             className="font-dm-sans font-bold text-[#14358A]"
             style={{
               fontFamily: 'DM Sans, sans-serif',
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
             }}
@@ -95,7 +95,7 @@ export default function YourIndustry() {
           <p
             className="font-montserrat font-normal text-[#333333]"
             style={{
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               maxWidth: 'min(740px, 95%)'
             }}
@@ -130,14 +130,14 @@ export default function YourIndustry() {
         <div className="max-w-[1400px] mx-auto text-center">
           <h2
             className="font-dm-sans font-bold text-[#14358A] mb-16"
-            style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em' }}
+            style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal' }}
           >
             Your Partner in Value Creation
           </h2>
           <p
             className="font-montserrat font-normal text-[#333333] mx-auto"
             style={{
-              fontSize: 'clamp(20px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '100%',
               maxWidth: 'min(1342px, 95%)',
               textAlign: 'center'
@@ -164,13 +164,13 @@ export default function YourIndustry() {
           <div className="text-center mb-16">
             <h2
               className="font-dm-sans font-bold text-[#14358A] mb-6"
-              style={{ fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em' }}
+              style={{ fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal' }}
             >
               Our Work
             </h2>
             <p
               className="font-montserrat font-normal text-[#333333] mx-auto"
-              style={{ fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', maxWidth: 'min(1082px, 95%)', textAlign: 'center' }}
+              style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '140%', maxWidth: 'min(1082px, 95%)', textAlign: 'center' }}
             >
               We equip investment professionals and portfolio company leaders with the tools to create lasting value.
             </p>
@@ -193,14 +193,14 @@ export default function YourIndustry() {
                   <img src={card.icon} alt={card.title} style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                   <h3
                     className="font-dm-sans font-bold text-[#14358A] mb-0"
-                    style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%', margin: 0 }}
+                    style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%', margin: 0 }}
                   >
                     {card.title}
                   </h3>
                 </div>
                 <p
                   className="font-dm-sans font-normal text-[#68718B]"
-                  style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%' }}
+                  style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%' }}
                 >
                   {card.description}
                 </p>
@@ -232,7 +232,7 @@ export default function YourIndustry() {
           <h2
             className="font-dm-sans font-bold text-white text-center mb-16"
             style={{
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em'
             }}
@@ -258,7 +258,7 @@ export default function YourIndustry() {
               <h3
                 className="font-dm-sans font-bold text-center"
                 style={{
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
+                  fontSize: 'clamp(16px, 1.53vw, 22px)',
                   lineHeight: '110%',
                   letterSpacing: '-3%',
                   color: '#006FBA'
@@ -288,7 +288,7 @@ export default function YourIndustry() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       in new yearly profit generated
                     </p>
@@ -312,7 +312,7 @@ export default function YourIndustry() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       higher ROI than typical investments
                     </p>
@@ -336,7 +336,7 @@ export default function YourIndustry() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       Return on Investment
                     </p>
@@ -378,7 +378,7 @@ export default function YourIndustry() {
               <h3
                 className="font-dm-sans font-bold text-center"
                 style={{
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
+                  fontSize: 'clamp(16px, 1.53vw, 22px)',
                   lineHeight: '110%',
                   letterSpacing: '-3%',
                   color: '#006FBA'
@@ -405,7 +405,7 @@ export default function YourIndustry() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       reduction in customer churn
                     </p>
@@ -429,7 +429,7 @@ export default function YourIndustry() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       increase in post-acquisition margin
                     </p>
@@ -453,7 +453,7 @@ export default function YourIndustry() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       Return on Investment
                     </p>
@@ -495,7 +495,7 @@ export default function YourIndustry() {
               <h3
                 className="font-dm-sans font-bold text-center"
                 style={{
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
+                  fontSize: 'clamp(16px, 1.53vw, 22px)',
                   lineHeight: '110%',
                   letterSpacing: '-3%',
                   color: '#006FBA'
@@ -522,7 +522,7 @@ export default function YourIndustry() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       reduction in operating expenses
                     </p>
@@ -546,7 +546,7 @@ export default function YourIndustry() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       reduction in low-value personnel spend
                     </p>
@@ -570,7 +570,7 @@ export default function YourIndustry() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       Return on Investment
                     </p>
@@ -606,7 +606,7 @@ export default function YourIndustry() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 48px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#1E1E1E',
@@ -619,7 +619,7 @@ export default function YourIndustry() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              fontSize: 'clamp(13px, 1.07vw, 15.4px)',
               lineHeight: '140%',
               color: '#64748B',
               maxWidth: 'min(800px, 95%)',
@@ -639,7 +639,7 @@ export default function YourIndustry() {
             style={{ 
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)', 
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)', 
               lineHeight: '105%', 
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -653,7 +653,7 @@ export default function YourIndustry() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(18px, 2.08vw, 34px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -664,7 +664,7 @@ export default function YourIndustry() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(18px, 2.08vw, 34px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -679,7 +679,7 @@ export default function YourIndustry() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(18px, 2.08vw, 34px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '140%',
                 color: '#364153',
               }}
@@ -720,7 +720,7 @@ export default function YourIndustry() {
         <h2
           className="font-dm-sans font-bold text-[#14358A] mb-6"
           style={{ 
-            fontSize: 'clamp(28px, 3.33vw, 56px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em'
           }}
@@ -730,7 +730,7 @@ export default function YourIndustry() {
         <p
           className="font-montserrat font-normal text-[#333333] mb-10"
           style={{
-            fontSize: 'clamp(20px, 2.22vw, 36px)',
+            fontSize: 'clamp(15px, 1.375vw, 19.8px)',
             lineHeight: '135%',
             letterSpacing: '0%',
             maxWidth: 'min(1196px, 95%)'

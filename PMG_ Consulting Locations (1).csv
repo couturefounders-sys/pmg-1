@@ -1,0 +1,66 @@
+Name,Address,Latitude,Longitude,PMG,Bryce
+Ankara,"Ankara, Türkiye",39.93,32.86,TRUE,FALSE
+Aspen,"Aspen, USA",39.19,-106.82,TRUE,TRUE
+Bedford,"Bedford, Canada",44.72,-63.69,TRUE,TRUE
+Bengaluru,"Bengaluru, India",12.96,77.58,TRUE,TRUE
+Bethesda,"Bethesda, USA",38.98,-77.09,TRUE,FALSE
+Bordeaux,"Bordeaux, France",44.84,-0.58,TRUE,FALSE
+Boston,"Boston, USA",42.36,-71.06,TRUE,TRUE
+Bucharest,"Bucharest, Romania",44.43,26.10,TRUE,TRUE
+Calgary,"Calgary, Canada",51.04,-114.07,TRUE,TRUE
+Cape Town,"Cape Town, South Africa",-33.92,18.42,TRUE,TRUE
+Chicago,"Chicago, USA",41.88,-87.63,TRUE,TRUE
+Cleveland,"Cleveland, USA",41.50,-81.69,TRUE,TRUE
+Cupertino,"Cupertino, USA",37.32,-122.03,TRUE,TRUE
+Dallas,"Dallas, USA",32.78,-96.80,TRUE,TRUE
+Dubai,"Dubai, United Arab Emirates",25.20,55.27,TRUE,TRUE
+Edmonton,"Edmonton, Canada",53.55,-113.49,TRUE,TRUE
+Fredericton,"Fredericton, Canada",45.96,-66.64,TRUE,TRUE
+Gqeberha,"Gqeberha, South Africa",33.91,25.58,TRUE,FALSE
+Halifax,"Halifax, Canada",44.65,-63.57,TRUE,TRUE
+Hamilton,"Hamilton, Canada",43.26,-79.87,TRUE,TRUE
+Hong Kong,"Hong Kong SAR, China",22.32,114.17,TRUE,TRUE
+Houston,"Houston, USA",29.76,-95.37,TRUE,FALSE
+Hyderabad,"Hyderabad, India",17.39,78.49,TRUE,TRUE
+Indianapolis,"Indianapolis, USA",39.78,86.15,TRUE,FALSE
+Isle of Man,"Isle of Man, UK",54.24,-4.55,TRUE,FALSE
+Jacksonville,"Jacksonville, USA",30.33,-81.66,TRUE,TRUE
+Jersey,"Jersey, UK",49.21,-2.14,TRUE,FALSE
+Johannesburg,"Johannesburg, South Africa",-26.20,28.05,TRUE,FALSE
+Kamloops,"Kamloops, Canada",50.67,-120.33,TRUE,TRUE
+Kelowna,"Kelowna, Canada",49.89,-119.50,TRUE,TRUE
+Kormangala,"Kormangala, India",12.94,77.62,TRUE,FALSE
+Lisbon,"Lisbon, Portugal",38.72,-9.14,TRUE,FALSE
+London,"London, Canada",42.98,-81.25,TRUE,TRUE
+London,"London, UK",51.51,-0.13,TRUE,TRUE
+Los Angeles,"Los Angeles, USA",34.05,-118.24,TRUE,TRUE
+Lunenburg,"Lunenburg, Canada",44.38,-64.31,TRUE,TRUE
+Manila,"Manila, Philippines",14.60,120.98,TRUE,TRUE
+Melbourne,"Melbourne, Australia",-37.81,144.96,TRUE,FALSE
+Miami,"Miami, USA",25.76,-80.19,TRUE,FALSE
+Moncton,"Moncton, Canada",46.09,-64.78,TRUE,TRUE
+Montreal,"Montreal, Canada",45.50,-73.57,TRUE,TRUE
+Mumbai,"Mumbai, India",19.08,72.88,TRUE,TRUE
+New York,"New York, USA",40.71,-74.01,TRUE,TRUE
+Newark,"Newark, USA",40.72,74.17,TRUE,FALSE
+Niagara Falls,"Niagara Falls, Canada",43.09,-79.08,TRUE,FALSE
+Ottawa,"Ottawa, Canada",45.42,-75.70,TRUE,TRUE
+Peterborough,"Peterborough, Canada",44.30,-78.32,TRUE,FALSE
+Phoenix,"Phoenix, USA",33.57,-112.09,TRUE,FALSE
+Port Hawkesbury,"Port Hawkesbury, Canada",45.61,-61.35,TRUE,TRUE
+Portland,"Portland, USA",45.52,-122.68,TRUE,FALSE
+Pretoria,"Pretoria, South Africa",-25.75,28.23,TRUE,TRUE
+Prince George,"Prince George, Canada",53.92,-122.75,TRUE,TRUE
+Puebla,"Puebla, Mexico",19.05,-98.20,TRUE,FALSE
+Richmond Hill,"Richmond Hill, Canada",43.88,-79.44,TRUE,FALSE
+Riyadh,"Riyadh, Saudi Arabia",24.71,46.68,TRUE,TRUE
+Sacramento,"Sacramento, USA",38.58,-121.49,TRUE,TRUE
+San Diego,"San Diego, USA",32.72,-117.16,TRUE,TRUE
+San Francisco,"San Francisco, USA",37.77,-122.42,TRUE,TRUE
+Seattle,"Seattle, USA",47.61,-122.33,TRUE,FALSE
+Sydney,"Sydney, Australia",-33.87,151.21,TRUE,FALSE
+Toronto,"Toronto, Canada",43.65,-79.38,TRUE,TRUE
+Vancouver,"Vancouver, Canada",49.28,-123.12,TRUE,TRUE
+Vaughan,"Vaughan, Canada",43.86,-79.51,TRUE,TRUE
+Victoria,"Victoria, Canada",48.43,-123.37,TRUE,TRUE
+Wolfville,"Wolfville, Canada",45.09,-64.36,TRUE,TRUE

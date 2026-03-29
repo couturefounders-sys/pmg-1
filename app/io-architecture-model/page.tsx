@@ -135,11 +135,11 @@ function AdvantageShowcase() {
             <h4 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.39vw, 22px)', color: '#14358A', marginBottom: '12px' }}>
               Core I-O Model Result
             </h4>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.75', color: '#333333', marginBottom: ioList.length > 0 ? '12px' : '28px' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '1.75', color: '#333333', marginBottom: ioList.length > 0 ? '12px' : '28px' }}>
               {ioIntro}
             </p>
             {ioList.length > 0 && (
-              <ol style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.75', color: '#333333', marginBottom: '28px', paddingLeft: '20px', listStyleType: 'decimal' }}>
+              <ol style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '1.75', color: '#333333', marginBottom: '28px', paddingLeft: '20px', listStyleType: 'decimal' }}>
                 {ioList.map((line, i) => {
                   const text = line.replace(/^\d+\.\s*/, '');
                   return <li key={i}>{text}</li>;
@@ -150,7 +150,7 @@ function AdvantageShowcase() {
             <h4 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.39vw, 22px)', color: '#14358A', marginBottom: '12px' }}>
               Why This is Better (vs. Monolithic Architecture)
             </h4>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.75', color: '#333333' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '1.75', color: '#333333' }}>
               <strong style={{ color: '#000000' }}>{boldLead}</strong> {boldRest}
             </p>
           </div>
@@ -184,7 +184,7 @@ export default function IOArchitectureModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              fontSize: 'clamp(13px, 1.07vw, 15.4px)',
               lineHeight: '105%',
               color: '#000000',
               marginBottom: '16px',
@@ -196,7 +196,7 @@ export default function IOArchitectureModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -209,7 +209,7 @@ export default function IOArchitectureModelPage() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               color: '#333333',
               maxWidth: 'min(900px, 95%)',
@@ -253,7 +253,7 @@ export default function IOArchitectureModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               color: '#FFFFFF',
               marginBottom: '20px',
@@ -265,7 +265,7 @@ export default function IOArchitectureModelPage() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(13px, 1.11vw, 18px)',
+              fontSize: 'clamp(14px, 1.22vw, 17.6px)',
               lineHeight: '1.6',
               color: 'rgba(255,255,255,0.9)',
               maxWidth: 'min(680px, 95%)',
@@ -367,11 +367,11 @@ export default function IOArchitectureModelPage() {
       <section className="w-full py-20 px-6 bg-[#F8FAFC]">
         <div className="max-w-[1100px] mx-auto">
           <div style={{ textAlign: 'center', marginBottom: '48px' }}>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(11px, 0.97vw, 16px)', letterSpacing: '0.06em', color: '#14358A', marginBottom: '12px' }}>Key Structural Advantages</p>
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', letterSpacing: '0.06em', color: '#14358A', marginBottom: '12px' }}>Key Structural Advantages</p>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '16px' }}>
               Consistency Through Constraint &amp; Intentionality
             </h2>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.75', color: '#333333', maxWidth: 'min(720px, 95%)', margin: '0 auto' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '1.75', color: '#333333', maxWidth: 'min(720px, 95%)', margin: '0 auto' }}>
               The rigor of the I-O Model is not restrictive, it is empowering. It removes the guesswork from cross-functional collaboration and delivers measurable business value.
             </p>
           </div>
@@ -382,7 +382,7 @@ export default function IOArchitectureModelPage() {
       {/* ─── Section 4: Implementation Steps ─── */}
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[860px] mx-auto">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'center', marginBottom: '56px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', textAlign: 'center', marginBottom: '56px' }}>
             How We Implement the I-O Model
           </h2>
 
@@ -440,8 +440,8 @@ export default function IOArchitectureModelPage() {
                       </div>
                       {/* Content */}
                       <div style={{ flex: 1 }}>
-                        <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', color: '#14358A', marginBottom: '10px', lineHeight: '1.3' }}>{step.title}</h3>
-                        <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '1.75', color: '#333333', marginBottom: '16px' }}>{step.body}</p>
+                        <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', color: '#14358A', marginBottom: '10px', lineHeight: '1.3' }}>{step.title}</h3>
+                        <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '1.75', color: '#333333', marginBottom: '16px' }}>{step.body}</p>
                         {/* Objective box */}
                         <div style={{ background: '#F5F7FA', borderRadius: '8px', padding: '16px 20px' }}>
                           <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: '11px', letterSpacing: '0.08em', color: '#14358A', textTransform: 'uppercase', marginBottom: '8px' }}>Objective</p>
@@ -460,10 +460,10 @@ export default function IOArchitectureModelPage() {
       {/* ─── Section 5: The Blueprint for Scale ─── */}
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[1100px] mx-auto text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '20px' }}>
             The Blueprint for Scale
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', color: '#333333', maxWidth: 'min(1000px, 95%)', margin: '0 auto 40px auto' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '140%', color: '#333333', maxWidth: 'min(1000px, 95%)', margin: '0 auto 40px auto' }}>
             The I-O Model functions as an organizational operating system. Interfacing teams understand exactly what input and output quality is expected. Procedural gaps trigger immediate escalation. And exceptions follow a defined path requiring high-level strategic review.
           </p>
         </div>
@@ -472,7 +472,7 @@ export default function IOArchitectureModelPage() {
       {/* ─── Section 7: Core Concepts of the I-O Model ─── */}
       <section className="w-full py-20 px-6 bg-[#F8FAFC]">
         <div className="max-w-[1200px] mx-auto">
-          <h2 className="text-center" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '40px' }}>
+          <h2 className="text-center" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '40px' }}>
             Core Concepts of the I-O Model
           </h2>
           {(() => {
@@ -486,7 +486,7 @@ export default function IOArchitectureModelPage() {
             const renderCard = (concept: { title: string; desc: string }) => (
               <div key={concept.title} style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '24px', background: '#FFFFFF' }}>
                 <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', color: '#14358A', marginBottom: '12px' }}>{concept.title}</h3>
-                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>{concept.desc}</p>
+                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>{concept.desc}</p>
               </div>
             );
             return (
@@ -508,10 +508,10 @@ export default function IOArchitectureModelPage() {
       {/* ─── Section 8: CTA ─── */}
       <section className="w-full py-20 px-6" style={{ background: '#EBF7FF' }}>
         <div className="max-w-[900px] mx-auto text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '16px' }}>
             Architect Your Antifragile Advantage.
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', color: '#333333', marginBottom: '32px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '140%', color: '#333333', marginBottom: '32px' }}>
             Stop building on foundations that cannot scale. Let our team design the I-O Architecture your enterprise needs to eliminate systemic risk and unlock exponential growth.
           </p>
           <a href="/contact-us" style={{ display: 'inline-block', background: 'linear-gradient(135deg, #6A36FF 0%, #AC5FE6 100%)', color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', padding: '16px 40px', borderRadius: '10px', textDecoration: 'none' }}>

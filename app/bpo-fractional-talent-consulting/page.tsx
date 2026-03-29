@@ -44,7 +44,7 @@ export default function BpoFractionalTalentConsulting() {
         <p
           className="font-dm-sans font-bold mb-4"
           style={{
-            fontSize: 'clamp(14px, 1.25vw, 20px)',
+            fontSize: 'clamp(13px, 1.07vw, 15.4px)',
             lineHeight: '105%',
             color: '#000000',
             margin: '0 auto 1rem',
@@ -57,7 +57,7 @@ export default function BpoFractionalTalentConsulting() {
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: 'clamp(28px, 3.33vw, 56px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             textAlign: 'center',
@@ -74,7 +74,7 @@ export default function BpoFractionalTalentConsulting() {
           style={{
             fontFamily: 'Montserrat, sans-serif',
             fontWeight: 400,
-            fontSize: 'clamp(20px, 2.22vw, 36px)',
+            fontSize: 'clamp(15px, 1.375vw, 19.8px)',
             lineHeight: '100%',
             letterSpacing: '0%',
             textAlign: 'center',
@@ -96,7 +96,7 @@ export default function BpoFractionalTalentConsulting() {
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: 'clamp(28px, 3.33vw, 56px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             color: '#14358A',
@@ -115,11 +115,11 @@ export default function BpoFractionalTalentConsulting() {
                 className="flex-shrink-0"
                 style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
               />
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Administrative Support
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Offload routine tasks (scheduling, data management) to dedicated virtual assistants to free up core leadership capacity for strategic priorities.
             </p>
           </div>
@@ -133,11 +133,11 @@ export default function BpoFractionalTalentConsulting() {
                 className="flex-shrink-0"
                 style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
               />
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Board Services
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Enhance governance and strategic implementation with expert-led board services tailored to strengthen organizational leadership.
             </p>
           </div>
@@ -151,11 +151,11 @@ export default function BpoFractionalTalentConsulting() {
                 className="flex-shrink-0"
                 style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
               />
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               BPO Playbook & Architecture Development
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Architect a custom BPO strategy and framework (playbook) with expert guidance to guarantee seamless execution and measurable cost savings.
             </p>
           </div>
@@ -169,11 +169,11 @@ export default function BpoFractionalTalentConsulting() {
                 className="flex-shrink-0"
                 style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
               />
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               CEO Excellence
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Elevate CEO leadership impact with executive coaching and strategic insights designed to navigate complex challenges and accelerate success.
             </p>
           </div>
@@ -187,11 +187,11 @@ export default function BpoFractionalTalentConsulting() {
                 className="flex-shrink-0"
                 style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
               />
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               DFY Customer Support Solutions
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Deploy scalable, world-class customer support (call centers, chat) that delivers high CSAT while optimizing cost per resolution.
             </p>
           </div>
@@ -205,11 +205,11 @@ export default function BpoFractionalTalentConsulting() {
                 className="flex-shrink-0"
                 style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
               />
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Executive Immersions
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Immediately bridge critical C-level leadership gaps with experienced executives who drive strategic results on an interim basis.
             </p>
           </div>
@@ -223,11 +223,11 @@ export default function BpoFractionalTalentConsulting() {
                 className="flex-shrink-0"
                 style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
               />
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Finance & Accounting Services
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Streamline financial operations with outsourced services (bookkeeping, compliance, reporting) to enhance fiscal accuracy and efficiency.
             </p>
           </div>
@@ -241,11 +241,11 @@ export default function BpoFractionalTalentConsulting() {
                 className="flex-shrink-0"
                 style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
               />
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               HR Outsourcing
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Simplify HR operations and reduce overhead with outsourced solutions for recruitment, compliance, and core administrative needs.
             </p>
           </div>
@@ -259,11 +259,11 @@ export default function BpoFractionalTalentConsulting() {
                 className="flex-shrink-0"
                 style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
               />
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               IT & Helpdesk Management
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Ensure technology stability and security with expert-managed IT and helpdesk solutions that reduce business disruption.
             </p>
           </div>
@@ -277,11 +277,11 @@ export default function BpoFractionalTalentConsulting() {
                 className="flex-shrink-0"
                 style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
               />
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Project Management Services
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Leverage expert project managers to guarantee initiative execution is on time, within scope, and delivers measurable ROI.
             </p>
           </div>
@@ -295,11 +295,11 @@ export default function BpoFractionalTalentConsulting() {
                 className="flex-shrink-0"
                 style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
               />
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Sales Support
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Empower sales teams with expert assistance in lead generation, CRM management, and administrative tasks that directly drive revenue.
             </p>
           </div>
@@ -313,11 +313,11 @@ export default function BpoFractionalTalentConsulting() {
                 className="flex-shrink-0"
                 style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
               />
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Specialized Expertise
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Access pre-vetted, niche experts with deep industry experience to tackle unique, high-value challenges and accelerate objectives.
             </p>
           </div>
@@ -331,7 +331,7 @@ export default function BpoFractionalTalentConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -389,7 +389,7 @@ export default function BpoFractionalTalentConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#333',
                   margin: 0,
@@ -428,7 +428,7 @@ export default function BpoFractionalTalentConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#333',
                   margin: 0,
@@ -467,7 +467,7 @@ export default function BpoFractionalTalentConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#333',
                   margin: 0,
@@ -498,7 +498,7 @@ export default function BpoFractionalTalentConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -567,7 +567,7 @@ export default function BpoFractionalTalentConsulting() {
           <a
             href="/why-functional-consulting"
             className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity"
-            style={{ fontFamily: 'Inter, sans-serif', fontWeight: 600, fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '30px', color: '#14358A', textDecoration: 'none' }}
+            style={{ fontFamily: 'Inter, sans-serif', fontWeight: 600, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '30px', color: '#14358A', textDecoration: 'none' }}
           >
             Learn Why Functional Consulting Creates Better Outcomes
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -589,13 +589,13 @@ export default function BpoFractionalTalentConsulting() {
         {/* Decorative Border Rectangle - Top Left */}
         <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
         <div className="max-w-[1196px] mx-auto px-4 text-center">
-          <p className="mb-4" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#FFFFFF' }}>
+          <p className="mb-4" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#FFFFFF' }}>
             The Principle of Least Change
           </p>
-          <h2 className="mb-8" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#FFFFFF' }}>
+          <h2 className="mb-8" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#FFFFFF' }}>
             Maximum Impact. Minimal Disruption.
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(20px, 2.22vw, 36px)', lineHeight: '135%', color: '#FFFFFF' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '135%', color: '#FFFFFF' }}>
             The most effective solution is not the one that changes the most, but the one that achieves your vision with the highest degree of surgical precision. We do not believe in change for the sake of change. We identify the smallest and most strategic adjustments required to unlock exponential value.
           </p>
         </div>
@@ -604,10 +604,10 @@ export default function BpoFractionalTalentConsulting() {
       {/* CTA Section */}
       <div className="relative w-full py-20" style={{ background: 'linear-gradient(180deg, #EBF7FF 0%, #D9ECFA 100%)' }}>
         <div className="max-w-[min(1440px,_95%)] mx-auto px-4 text-center">
-          <h2 className="mb-6" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+          <h2 className="mb-6" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A' }}>
             Ready to Access Elite Talent and Optimize Operational Costs?
           </h2>
-          <p className="mb-10" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(20px, 2.22vw, 36px)', lineHeight: '135%', color: '#333333', maxWidth: 'min(1196px, 95%)', margin: '0 auto 2.5rem auto' }}>
+          <p className="mb-10" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '135%', color: '#333333', maxWidth: 'min(1196px, 95%)', margin: '0 auto 2.5rem auto' }}>
             Let us help you unlock the power of our BPO and Fractional Talent solutions and achieve your business objectives.
           </p>
           <button

@@ -56,7 +56,7 @@ export default function StrategyOperationsConsulting() {
         <p
           className="mb-4 font-dm-sans font-bold"
           style={{
-            fontSize: 'clamp(14px, 1.25vw, 20px)',
+            fontSize: 'clamp(13px, 1.07vw, 15.4px)',
             lineHeight: '105%',
             color: '#000000',
           }}
@@ -70,7 +70,7 @@ export default function StrategyOperationsConsulting() {
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: 'clamp(28px, 3.33vw, 56px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             textAlign: 'center',
@@ -87,7 +87,7 @@ export default function StrategyOperationsConsulting() {
           style={{
             fontFamily: 'Montserrat, sans-serif',
             fontWeight: 400,
-            fontSize: 'clamp(20px, 2.22vw, 36px)',
+            fontSize: 'clamp(15px, 1.375vw, 19.8px)',
             lineHeight: '100%',
             letterSpacing: '0%',
             textAlign: 'center',
@@ -107,7 +107,7 @@ export default function StrategyOperationsConsulting() {
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: 'clamp(28px, 3.33vw, 56px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             color: '#14358A',
@@ -138,7 +138,7 @@ export default function StrategyOperationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(16px, 1.53vw, 24px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -151,7 +151,7 @@ export default function StrategyOperationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -179,7 +179,7 @@ export default function StrategyOperationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(16px, 1.53vw, 24px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -192,7 +192,7 @@ export default function StrategyOperationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -223,7 +223,7 @@ export default function StrategyOperationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(16px, 1.53vw, 24px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -236,7 +236,7 @@ export default function StrategyOperationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -267,7 +267,7 @@ export default function StrategyOperationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(16px, 1.53vw, 24px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -280,7 +280,7 @@ export default function StrategyOperationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -309,7 +309,7 @@ export default function StrategyOperationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(16px, 1.53vw, 24px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -322,7 +322,7 @@ export default function StrategyOperationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -352,7 +352,7 @@ export default function StrategyOperationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(16px, 1.53vw, 24px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -365,7 +365,7 @@ export default function StrategyOperationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -393,7 +393,7 @@ export default function StrategyOperationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(16px, 1.53vw, 24px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -406,7 +406,7 @@ export default function StrategyOperationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -435,7 +435,7 @@ export default function StrategyOperationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(16px, 1.53vw, 24px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -448,7 +448,7 @@ export default function StrategyOperationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -476,7 +476,7 @@ export default function StrategyOperationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(16px, 1.53vw, 24px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -489,7 +489,7 @@ export default function StrategyOperationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -518,7 +518,7 @@ export default function StrategyOperationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(16px, 1.53vw, 24px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -531,7 +531,7 @@ export default function StrategyOperationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -561,7 +561,7 @@ export default function StrategyOperationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(16px, 1.53vw, 24px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -574,7 +574,7 @@ export default function StrategyOperationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -603,7 +603,7 @@ export default function StrategyOperationsConsulting() {
               style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(16px, 1.53vw, 24px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -616,7 +616,7 @@ export default function StrategyOperationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -635,7 +635,7 @@ export default function StrategyOperationsConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -697,7 +697,7 @@ export default function StrategyOperationsConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#333',
                   margin: 0,
@@ -736,7 +736,7 @@ export default function StrategyOperationsConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#333',
                   margin: 0,
@@ -773,7 +773,7 @@ export default function StrategyOperationsConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#333',
                   margin: 0,
@@ -804,7 +804,7 @@ export default function StrategyOperationsConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -879,7 +879,7 @@ export default function StrategyOperationsConsulting() {
             style={{
               fontFamily: 'Inter, sans-serif',
               fontWeight: 600,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '30px',
               color: '#14358A',
               textDecoration: 'none',
@@ -914,7 +914,7 @@ export default function StrategyOperationsConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#FFFFFF',
@@ -928,7 +928,7 @@ export default function StrategyOperationsConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#FFFFFF',
@@ -941,7 +941,7 @@ export default function StrategyOperationsConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(20px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '135%',
               color: '#FFFFFF',
             }}
@@ -964,7 +964,7 @@ export default function StrategyOperationsConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -978,7 +978,7 @@ export default function StrategyOperationsConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(20px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '135%',
               color: '#333333',
               maxWidth: 'min(1196px, 95%)',

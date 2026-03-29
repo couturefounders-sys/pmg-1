@@ -13,7 +13,7 @@ export default function PublicSectorGovernment() {
 
         {/* Left Content */}
         <div className="flex flex-col gap-8 max-w-[min(803px,_90%)] z-10">
-          <p className="font-dm-sans font-bold mb-2" style={{ fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '105%', color: '#000000' }}>Public Sector &amp; Government Services</p>
+          <p className="font-dm-sans font-bold mb-2" style={{ fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '105%', color: '#000000' }}>Public Sector &amp; Government Services</p>
           <h1
             className="font-poppins font-semibold text-[#14358A]"
             style={{
@@ -28,7 +28,7 @@ export default function PublicSectorGovernment() {
           <p
             className="font-montserrat font-normal text-[#333333]"
             style={{
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               maxWidth: 'min(740px, 95%)'
@@ -73,7 +73,7 @@ export default function PublicSectorGovernment() {
           <h2
             className="font-poppins font-semibold text-[#14358A] mb-16"
             style={{
-              fontSize: 'clamp(28px, 3.47vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '46px',
             }}
           >
@@ -82,7 +82,7 @@ export default function PublicSectorGovernment() {
           <p
             className="font-montserrat font-normal text-[#333333] mx-auto"
             style={{
-              fontSize: 'clamp(20px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '100%',
               maxWidth: 'min(1342px, 95%)',
               textAlign: 'center',
@@ -108,7 +108,7 @@ export default function PublicSectorGovernment() {
         <h2
           className="font-poppins font-semibold text-[#14358A] text-center mb-6"
           style={{
-            fontSize: 'clamp(28px, 3.47vw, 56px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '46px',
             letterSpacing: '0%',
           }}
@@ -133,11 +133,11 @@ export default function PublicSectorGovernment() {
                 border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
               <img src="/icon-strategy-transformation.png" alt="Policy & Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
-              <h3 className="font-bold text-[#14358A] mb-3 leading-tight" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+              <h3 className="font-bold text-[#14358A] mb-3 leading-tight" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
                 Policy & Strategy<br />Development
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#68718B' }}>
               Craft, refine and operationalize policies and strategies to support economic growth, improve public service delivery, and maximize long-term societal impact.
             </p>
           </div>
@@ -147,11 +147,11 @@ export default function PublicSectorGovernment() {
                 border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
               <img src="/icon-risk-resilience.png" alt="Operational Efficiency" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
-              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
                 Operational Efficiency
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#68718B' }}>
               Support efficiency initiatives through process improvement, performance measurement, and resource allocation, enabling departments to do more with less.
             </p>
           </div>
@@ -161,11 +161,11 @@ export default function PublicSectorGovernment() {
                 border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
               <img src="/icon-customer-experience.png" alt="Digital Government" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
-              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
                 Digital Government &<br />Service Transformation
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#68718B' }}>
               Design and implement digital platforms, data infrastructure, and self-service tools to significantly improve citizen accessibility and satisfaction.
             </p>
           </div>
@@ -175,11 +175,11 @@ export default function PublicSectorGovernment() {
                 border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
               <img src="/icon-regulatory-compliance.png" alt="Infrastructure" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
-              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
                 Public Infrastructure &<br />Capital Projects
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#68718B' }}>
               Advise on the planning, financing, and delivery of major infrastructure projects, ensuring maximum public value is delivered on time and on budget.
             </p>
           </div>
@@ -189,11 +189,11 @@ export default function PublicSectorGovernment() {
                 border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
               <img src="/icon-innovation-fintech.png" alt="Fiscal Management" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
-              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
                 Fiscal & Financial<br />Management
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#68718B' }}>
               Advise on fiscal strategy, budget optimization, and cost reduction to ensure long-term financial sustainability while maintaining critical service stability.
             </p>
           </div>
@@ -203,11 +203,11 @@ export default function PublicSectorGovernment() {
                 border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
               <img src="/icon-capital-performance.png" alt="Workforce" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
-              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
                 Workforce & Organizational<br />Transformation
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#68718B' }}>
               Strengthen workforce strategies and enhance training, and build organizational cultures that promote innovation and internal accountability.
             </p>
           </div>
@@ -217,11 +217,11 @@ export default function PublicSectorGovernment() {
                 border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
               <img src="/icon-regulatory-compliance.png" alt="Program Evaluation" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
-              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
                 Program Evaluation &<br />Impact Measurement
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#68718B' }}>
               Design and implement frameworks to rigorously measure program outcomes, evaluate efficacy, and ensure government investments deliver meaningful community impact.
             </p>
           </div>
@@ -231,11 +231,11 @@ export default function PublicSectorGovernment() {
                 border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
               <img src="/icon-innovation-fintech.png" alt="Stakeholder Engagement" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
-              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
                 Stakeholder Engagement &<br />Public Consultation
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#68718B' }}>
               Facilitate transparent dialogue and public consultation processes, ensuring that decisions are informed by diverse citizen and stakeholder perspectives.
             </p>
           </div>
@@ -245,11 +245,11 @@ export default function PublicSectorGovernment() {
                 border: '3px solid #14358A', borderRadius: '10px', padding: '23px 25px',}}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
               <img src="/icon-capital-performance.png" alt="Procurement" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
-              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+              <h3 className="font-bold text-[#14358A] mb-3" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em' }}>
                 Procurement & Sourcing<br />Modernization
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#68718B' }}>
               Reform procurement processes to enhance transparency, achieve greater value for money, and support strategic goals like economic development and sustainability.
             </p>
           </div>
@@ -280,7 +280,7 @@ export default function PublicSectorGovernment() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
             }}
@@ -302,7 +302,7 @@ export default function PublicSectorGovernment() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
+                  fontSize: 'clamp(16px, 1.53vw, 22px)',
                   lineHeight: '110%',
                   letterSpacing: '-0.03em',
                   color: '#006FBA',
@@ -321,7 +321,7 @@ export default function PublicSectorGovernment() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>+1000</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>data points collected from executives</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>data points collected from executives</p>
                   </div>
                 </div>
 
@@ -334,7 +334,7 @@ export default function PublicSectorGovernment() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>1</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>late-phase education plan developed</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>late-phase education plan developed</p>
                   </div>
                 </div>
 
@@ -347,7 +347,7 @@ export default function PublicSectorGovernment() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>50+</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>stakeholders engaged across sectors</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>stakeholders engaged across sectors</p>
                   </div>
                 </div>
               </div>
@@ -383,7 +383,7 @@ export default function PublicSectorGovernment() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
+                  fontSize: 'clamp(16px, 1.53vw, 22px)',
                   lineHeight: '110%',
                   letterSpacing: '-0.03em',
                   color: '#006FBA',
@@ -402,7 +402,7 @@ export default function PublicSectorGovernment() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>$5M</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>in service hours added at no extra cost</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>in service hours added at no extra cost</p>
                   </div>
                 </div>
 
@@ -415,7 +415,7 @@ export default function PublicSectorGovernment() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>30%</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>reduction in cost per program hour</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>reduction in cost per program hour</p>
                   </div>
                 </div>
 
@@ -428,7 +428,7 @@ export default function PublicSectorGovernment() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>45x</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>Return on Investment</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>Return on Investment</p>
                   </div>
                 </div>
               </div>
@@ -464,7 +464,7 @@ export default function PublicSectorGovernment() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
+                  fontSize: 'clamp(16px, 1.53vw, 22px)',
                   lineHeight: '110%',
                   letterSpacing: '-0.03em',
                   color: '#006FBA',
@@ -483,7 +483,7 @@ export default function PublicSectorGovernment() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>17%</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>increase in student enrollment & NPS</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>increase in student enrollment & NPS</p>
                   </div>
                 </div>
 
@@ -496,7 +496,7 @@ export default function PublicSectorGovernment() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>400+</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>annual student support hours added</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>annual student support hours added</p>
                   </div>
                 </div>
 
@@ -509,7 +509,7 @@ export default function PublicSectorGovernment() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>24x</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>Return on Investment</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>Return on Investment</p>
                   </div>
                 </div>
               </div>
@@ -543,7 +543,7 @@ export default function PublicSectorGovernment() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 48px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#1E1E1E',
@@ -556,7 +556,7 @@ export default function PublicSectorGovernment() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              fontSize: 'clamp(13px, 1.07vw, 15.4px)',
               lineHeight: '140%',
               color: '#64748B',
               maxWidth: 'min(800px, 95%)',
@@ -578,7 +578,7 @@ export default function PublicSectorGovernment() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -592,7 +592,7 @@ export default function PublicSectorGovernment() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(18px, 2.08vw, 34px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -603,7 +603,7 @@ export default function PublicSectorGovernment() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(18px, 2.08vw, 34px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -618,7 +618,7 @@ export default function PublicSectorGovernment() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(18px, 2.08vw, 34px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '140%',
                 color: '#364153',
               }}
@@ -660,7 +660,7 @@ export default function PublicSectorGovernment() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -674,7 +674,7 @@ export default function PublicSectorGovernment() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(20px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '135%',
               color: '#333333',
               maxWidth: 'min(1196px, 95%)',

@@ -46,11 +46,11 @@ export default function HeroSection() {
             className="text-center text-white font-bold"
             style={{
               fontFamily: 'DM Sans, sans-serif',
-              fontSize: 'max(28px, 3.33vw)',
+              fontSize: 'clamp(32px, 5.5vw, 79.2px)',
               fontWeight: 700,
-              lineHeight: '105%',
-              letterSpacing: '-0.03em',
-              maxWidth: 'max(300px, 35.83vw)',
+              lineHeight: '1',
+              letterSpacing: '-1.98px',
+              maxWidth: 'max(300px, 50vw)',
               marginBottom: 'max(10px, 0.9vw)',
             }}
           >
@@ -63,9 +63,9 @@ export default function HeroSection() {
             className="text-center"
             style={{
               fontFamily: 'DM Sans, sans-serif',
-              fontSize: 'max(14px, 1.25vw)',
+              fontSize: 'clamp(15px, 1.53vw, 22px)',
               fontWeight: 400,
-              lineHeight: '135%',
+              lineHeight: '30.8px',
               maxWidth: 'max(320px, 47.71vw)',
               color: '#FFFFFF',
               marginBottom: 'max(16px, 2.22vw)',
@@ -86,9 +86,9 @@ export default function HeroSection() {
               className="rounded-[10px] text-white hover:opacity-90 transition-opacity"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: 'max(13px, 1.25vw)',
-                lineHeight: '135%',
+                fontWeight: 500,
+                fontSize: 'clamp(13px, 1.07vw, 15.4px)',
+                lineHeight: '22px',
                 background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
                 paddingTop: 'max(12px, 1.39vw)',
                 paddingBottom: 'max(12px, 1.39vw)',
@@ -110,9 +110,9 @@ export default function HeroSection() {
               className="rounded-[10px] text-white border border-white hover:bg-white/10 transition-all flex items-center justify-center"
               style={{
                 fontFamily: 'DM Sans, sans-serif',
-                fontWeight: 700,
-                fontSize: 'max(13px, 1.25vw)',
-                lineHeight: '135%',
+                fontWeight: 500,
+                fontSize: 'clamp(13px, 1.07vw, 15.4px)',
+                lineHeight: '22px',
                 paddingTop: 'max(12px, 1.39vw)',
                 paddingBottom: 'max(12px, 1.39vw)',
                 paddingLeft: 'max(20px, 2.78vw)',

@@ -36,7 +36,7 @@ export default function OurProjects() {
           style={{
             fontFamily: 'Poppins, sans-serif',
             fontWeight: 600,
-            fontSize: 'clamp(28px, 3.47vw, 56px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '46px',
             color: '#14358A',
           }}
@@ -64,7 +64,7 @@ export default function OurProjects() {
                   color: isSelected ? '#FFFFFF' : '#333333',
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 500,
-                  fontSize: 'clamp(13px, 1.11vw, 18px)',
+                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                   border: 'none',
                   cursor: 'pointer',
                 }}
@@ -113,7 +113,7 @@ export default function OurProjects() {
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: 'clamp(28px, 3.47vw, 56px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             color: '#14358A',
@@ -127,7 +127,7 @@ export default function OurProjects() {
           style={{
             fontFamily: 'Montserrat, sans-serif',
             fontWeight: 400,
-            fontSize: 'clamp(18px, 2.08vw, 34px)',
+            fontSize: 'clamp(16px, 1.53vw, 22px)',
             lineHeight: '140%',
             color: '#333333',
             maxWidth: 'min(1201px, 95%)',
@@ -160,7 +160,7 @@ export default function OurProjects() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}
@@ -191,7 +191,7 @@ export default function OurProjects() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#68718B',
               }}

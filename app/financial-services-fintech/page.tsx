@@ -17,11 +17,11 @@ export default function FinancialServicesFinTech() {
           {/* Left Content */}
           <div className="flex flex-col gap-6 z-10 w-full lg:max-w-[calc(100%-clamp(300px,30vw,440px)-3rem)]">
             {/* Heading */}
-            <p className="font-dm-sans font-bold mb-2" style={{ fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '105%', color: '#000000' }}>Financial Services &amp; FinTech</p>
+            <p className="font-dm-sans font-bold mb-2" style={{ fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '105%', color: '#000000' }}>Financial Services &amp; FinTech</p>
             <h1
               className="font-dm-sans font-bold"
               style={{
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -34,7 +34,7 @@ export default function FinancialServicesFinTech() {
             <p
               className="font-montserrat font-normal"
               style={{
-                fontSize: 'clamp(18px, 2.22vw, 36px)',
+                fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                 lineHeight: '140%',
                 color: '#333333'
               }}
@@ -108,7 +108,7 @@ export default function FinancialServicesFinTech() {
             className="font-dm-sans font-bold text-center"
             style={{
               fontFamily: 'DM Sans, sans-serif',
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -120,7 +120,7 @@ export default function FinancialServicesFinTech() {
           <p
             className="font-montserrat font-normal mx-auto"
             style={{
-              fontSize: 'clamp(18px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: 'normal',
               letterSpacing: '0%',
               textAlign: 'center',
@@ -134,7 +134,7 @@ export default function FinancialServicesFinTech() {
           <p
             className="font-montserrat font-normal mx-auto"
             style={{
-              fontSize: 'clamp(18px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: 'normal',
               letterSpacing: '0%',
               textAlign: 'center',
@@ -162,13 +162,13 @@ export default function FinancialServicesFinTech() {
           <div className="text-center mb-16">
             <h2
               className="font-dm-sans font-bold text-[#14358A] mb-6"
-              style={{ fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em' }}
+              style={{ fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal' }}
             >
               Our Work
             </h2>
             <p
               className="font-montserrat font-normal text-[#333333] mx-auto"
-              style={{ fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '140%', maxWidth: 'min(1082px, 90%)', textAlign: 'center' }}
+              style={{ fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '140%', maxWidth: 'min(1082px, 90%)', textAlign: 'center' }}
             >
               Our work supports strategy, operations, & transformation—equipping financial leaders with the tools to deliver meaningful change.
             </p>
@@ -197,14 +197,14 @@ export default function FinancialServicesFinTech() {
                 <img src="/icon-strategy-transformation.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A]"
-                  style={{ fontSize: 'clamp(18px, 2.01vw, 29px)', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '7px' }}
+                  style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '7px' }}
                 >
                   Strategy & Transformation
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', marginTop: '8px' }}
+                style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', marginTop: '8px' }}
               >
                 Set bold enterprise strategies and deliver transformation at scale, covering M&A integration, digital roadmaps, and operating model modernization.
               </p>
@@ -224,14 +224,14 @@ export default function FinancialServicesFinTech() {
                 <img src="/icon-risk-resilience.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A]"
-                  style={{ fontSize: 'clamp(18px, 2.01vw, 29px)', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '7px' }}
+                  style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '7px' }}
                 >
                   Risk & Operational Resilience
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', marginTop: '8px' }}
+                style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', marginTop: '8px' }}
               >
                 Optimize processes and strengthen risk frameworks to enhance operational resilience, ensure regulatory compliance, and drive performance improvements.
               </p>
@@ -251,14 +251,14 @@ export default function FinancialServicesFinTech() {
                 <img src="/icon-customer-experience.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A]"
-                  style={{ fontSize: 'clamp(18px, 2.01vw, 29px)', lineHeight: '105%', letterSpacing: '-0.84px', paddingTop: '8px' }}
+                  style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.84px', paddingTop: '8px' }}
                 >
                   Customer & Digital Experience
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', marginTop: '8px' }}
+                style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', marginTop: '8px' }}
               >
                 Build digital-first experiences, modernize service delivery, and improve customer acquisition and loyalty in a highly competitive market.
               </p>
@@ -278,14 +278,14 @@ export default function FinancialServicesFinTech() {
                 <img src="/icon-regulatory-compliance.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A]"
-                  style={{ fontSize: 'clamp(18px, 2.01vw, 29px)', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '9px' }}
+                  style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '9px' }}
                 >
                   Regulatory & Compliance Strategy
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', marginTop: '8px' }}
+                style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', marginTop: '8px' }}
               >
                 Navigate evolving regulations, enhance compliance frameworks, and embed risk management practices for data governance, capital adequacy, and regulatory reporting.
               </p>
@@ -305,14 +305,14 @@ export default function FinancialServicesFinTech() {
                 <img src="/icon-innovation-fintech.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A]"
-                  style={{ fontSize: 'clamp(18px, 2.01vw, 29px)', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '9px' }}
+                  style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '9px' }}
                 >
                   Innovation & Fintech Partnerships
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', marginTop: '8px' }}
+                style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', marginTop: '8px' }}
               >
                 Advise on innovation strategy, product development, and strategic partnerships to capture value from emerging trends in payments, lending, and digital assets.
               </p>
@@ -332,14 +332,14 @@ export default function FinancialServicesFinTech() {
                 <img src="/icon-capital-performance.png" alt="" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A]"
-                  style={{ fontSize: 'clamp(18px, 2.01vw, 29px)', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '7px' }}
+                  style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.87px', paddingTop: '7px' }}
                 >
                   Capital & Financial Performance
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', marginTop: '8px' }}
+                style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', marginTop: '8px' }}
               >
                 Strengthen financial performance through capital optimization, portfolio review, and advanced financial modeling to ensure market competitiveness.
               </p>
@@ -371,7 +371,7 @@ export default function FinancialServicesFinTech() {
             className="font-dm-sans font-bold text-white text-center mb-16"
             style={{
               fontFamily: 'DM Sans, sans-serif',
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em'
             }}
@@ -415,7 +415,7 @@ export default function FinancialServicesFinTech() {
                 <h3
                   className="font-dm-sans font-bold text-center"
                   style={{
-                    fontSize: 'clamp(18px, 2.08vw, 34px)',
+                    fontSize: 'clamp(16px, 1.53vw, 22px)',
                     lineHeight: '1.1',
                     letterSpacing: '-0.9px',
                     color: '#006FBA'
@@ -438,7 +438,7 @@ export default function FinancialServicesFinTech() {
                         $8M
                       </p>
                     </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
                       in annual support costs saved
                     </p>
                   </div>
@@ -455,7 +455,7 @@ export default function FinancialServicesFinTech() {
                         16%
                       </p>
                     </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
                       increase in Customer Satisfaction
                     </p>
                   </div>
@@ -473,7 +473,7 @@ export default function FinancialServicesFinTech() {
                         77x
                       </p>
                     </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
                       Return on Investment
                     </p>
                   </div>
@@ -537,7 +537,7 @@ export default function FinancialServicesFinTech() {
                 <h3
                   className="font-dm-sans font-bold text-center"
                   style={{
-                    fontSize: 'clamp(18px, 2.08vw, 34px)',
+                    fontSize: 'clamp(16px, 1.53vw, 22px)',
                     lineHeight: '1.1',
                     letterSpacing: '-0.9px',
                     color: '#006FBA'
@@ -560,7 +560,7 @@ export default function FinancialServicesFinTech() {
                         3,500
                       </p>
                     </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
                       ticket backlog eliminated
                     </p>
                   </div>
@@ -578,7 +578,7 @@ export default function FinancialServicesFinTech() {
                         65%
                       </p>
                     </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
                       reduction in first-response time
                     </p>
                   </div>
@@ -594,7 +594,7 @@ export default function FinancialServicesFinTech() {
                         23x
                       </p>
                     </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
                       Return on Investment
                     </p>
                   </div>
@@ -658,7 +658,7 @@ export default function FinancialServicesFinTech() {
                 <h3
                   className="font-dm-sans font-bold text-center"
                   style={{
-                    fontSize: 'clamp(18px, 2.08vw, 34px)',
+                    fontSize: 'clamp(16px, 1.53vw, 22px)',
                     lineHeight: '1.1',
                     letterSpacing: '-0.9px',
                     color: '#006FBA'
@@ -681,7 +681,7 @@ export default function FinancialServicesFinTech() {
                         22%
                       </p>
                     </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
                       reduction in customer churn
                     </p>
                   </div>
@@ -699,7 +699,7 @@ export default function FinancialServicesFinTech() {
                         14%
                       </p>
                     </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
                       increase in post-acquisition margin
                     </p>
                   </div>
@@ -715,7 +715,7 @@ export default function FinancialServicesFinTech() {
                         20x
                       </p>
                     </div>
-                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
+                    <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '1.4', color: '#68718B', marginTop: '4px' }}>
                       Return on Investment
                     </p>
                   </div>
@@ -758,7 +758,7 @@ export default function FinancialServicesFinTech() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 48px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#1E1E1E',
@@ -771,7 +771,7 @@ export default function FinancialServicesFinTech() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              fontSize: 'clamp(13px, 1.07vw, 15.4px)',
               lineHeight: '140%',
               color: '#64748B',
               maxWidth: 'min(800px, 95%)',
@@ -791,7 +791,7 @@ export default function FinancialServicesFinTech() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -805,7 +805,7 @@ export default function FinancialServicesFinTech() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(18px, 2.08vw, 34px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -816,7 +816,7 @@ export default function FinancialServicesFinTech() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(18px, 2.08vw, 34px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -838,7 +838,7 @@ export default function FinancialServicesFinTech() {
         <h2
           className="font-dm-sans font-bold text-[#14358A] mb-6"
           style={{
-            fontSize: 'clamp(28px, 3.33vw, 56px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em'
           }}
@@ -848,7 +848,7 @@ export default function FinancialServicesFinTech() {
         <p
           className="font-montserrat font-normal text-[#333333] mb-10"
           style={{
-            fontSize: 'clamp(20px, 2.22vw, 36px)',
+            fontSize: 'clamp(15px, 1.375vw, 19.8px)',
             lineHeight: '135%',
             letterSpacing: '0%',
             maxWidth: 'min(1196px, 95%)'

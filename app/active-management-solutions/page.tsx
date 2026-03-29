@@ -78,7 +78,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              fontSize: 'clamp(13px, 1.07vw, 15.4px)',
               lineHeight: '105%',
               color: '#000000',
               marginBottom: '12px',
@@ -92,7 +92,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -107,7 +107,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               color: '#333333',
               marginBottom: '24px',
@@ -123,7 +123,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               color: '#333333',
             }}
@@ -143,7 +143,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -156,7 +156,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(14px, 1.25vw, 20px)',
+                fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                 lineHeight: '150%',
                 color: '#333333',
                 maxWidth: 'min(680px, 95%)',
@@ -188,7 +188,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: 'clamp(18px, 2.01vw, 33px)',
+                      fontSize: 'clamp(16px, 1.53vw, 22px)',
                       lineHeight: '130%',
                       color: '#14358A',
                       margin: 0,
@@ -201,7 +201,7 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
-                    fontSize: 'clamp(12px, 1.04vw, 17px)',
+                    fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                     lineHeight: '160%',
                     color: '#333333',
                   }}
@@ -222,7 +222,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -253,7 +253,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: 'clamp(18px, 2.01vw, 33px)',
+                      fontSize: 'clamp(16px, 1.53vw, 22px)',
                       lineHeight: '130%',
                       color: '#14358A',
                       margin: 0,
@@ -266,7 +266,7 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
-                    fontSize: 'clamp(12px, 1.04vw, 17px)',
+                    fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                     lineHeight: '160%',
                     color: '#333333',
                   }}
@@ -282,7 +282,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               color: '#333333',
@@ -305,7 +305,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -318,7 +318,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(14px, 1.25vw, 20px)',
+                fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                 lineHeight: '1.75',
                 letterSpacing: '0%',
                 color: '#68718B',
@@ -338,7 +338,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 700,
-                      fontSize: 'clamp(14px, 1.25vw, 20px)',
+                      fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                       color: '#333333',
                       padding: '18px 20px',
                       textAlign: 'left',
@@ -354,7 +354,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 700,
-                      fontSize: 'clamp(14px, 1.25vw, 20px)',
+                      fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                       color: '#333333',
                       padding: '18px 20px',
                       textAlign: 'left',
@@ -370,7 +370,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 700,
-                      fontSize: 'clamp(14px, 1.25vw, 20px)',
+                      fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                       color: '#333333',
                       padding: '18px 20px',
                       textAlign: 'left',
@@ -386,7 +386,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'Montserrat, sans-serif',
                       fontWeight: 700,
-                      fontSize: 'clamp(14px, 1.25vw, 20px)',
+                      fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                       color: '#14358A',
                       padding: '18px 20px',
                       textAlign: 'center',
@@ -407,7 +407,7 @@ export default function ActiveManagementSolutions() {
                       style={{
                         fontFamily: 'Montserrat, sans-serif',
                         fontWeight: 400,
-                        fontSize: 'clamp(14px, 1.25vw, 20px)',
+                        fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                         color: '#333333',
                         padding: '18px 20px',
                         verticalAlign: 'top',
@@ -422,7 +422,7 @@ export default function ActiveManagementSolutions() {
                       style={{
                         fontFamily: 'Montserrat, sans-serif',
                         fontWeight: 400,
-                        fontSize: 'clamp(13px, 1.11vw, 18px)',
+                        fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                         color: '#333333',
                         padding: '18px 20px',
                         verticalAlign: 'top',
@@ -437,7 +437,7 @@ export default function ActiveManagementSolutions() {
                       style={{
                         fontFamily: 'Montserrat, sans-serif',
                         fontWeight: 400,
-                        fontSize: 'clamp(13px, 1.11vw, 18px)',
+                        fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                         color: '#333333',
                         padding: '18px 20px',
                         verticalAlign: 'top',
@@ -452,7 +452,7 @@ export default function ActiveManagementSolutions() {
                       style={{
                         fontFamily: 'Montserrat, sans-serif',
                         fontWeight: 700,
-                        fontSize: 'clamp(13px, 1.11vw, 18px)',
+                        fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                         color: '#14358A',
                         padding: '18px 20px',
                         verticalAlign: 'top',
@@ -479,7 +479,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -492,7 +492,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              fontSize: 'clamp(13px, 1.07vw, 15.4px)',
               lineHeight: '1.75',
               color: '#333333',
               maxWidth: 'min(680px, 95%)',
@@ -523,10 +523,10 @@ export default function ActiveManagementSolutions() {
             {/* Phase 1 — text TOP, left — pulled down */}
             <div className="flex flex-col items-center justify-between" style={{ paddingTop: 'clamp(40px, 5vw, 70px)', paddingBottom: 'clamp(100px, 11vw, 160px)' }}>
               <div style={{ maxWidth: 'min(200px, 100%)', textAlign: 'left', alignSelf: 'flex-start', transform: 'translateX(-10px)' }}>
-                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(17px, 1.81vw, 30px)', lineHeight: '1.3', color: '#14358A', marginBottom: '12px' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '1.3', color: '#14358A', marginBottom: '12px' }}>
                   Needs Assessment
                 </h3>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.6', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '1.6', color: '#5F5F5F' }}>
                   We begin with a comprehensive, collaborative deep dive to fully understand your specific needs and context.
                 </p>
               </div>
@@ -535,10 +535,10 @@ export default function ActiveManagementSolutions() {
             {/* Phase 2 — text BOTTOM, center-left — pulled up */}
             <div className="flex flex-col items-center justify-between" style={{ paddingTop: 'clamp(170px, 17vw, 250px)' }}>
               <div style={{ maxWidth: 'min(280px, 100%)', textAlign: 'center' }}>
-                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(17px, 1.81vw, 30px)', lineHeight: '1.3', color: '#14358A', marginBottom: '12px' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '1.3', color: '#14358A', marginBottom: '12px' }}>
                   Strategic Deep-Dive
                 </h3>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.6', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '1.6', color: '#5F5F5F' }}>
                   Our consultants perform a focused diagnostic review to uncover the most pressing needs and opportunities.
                 </p>
               </div>
@@ -547,10 +547,10 @@ export default function ActiveManagementSolutions() {
             {/* Phase 3 — text TOP, center-right — pulled down */}
             <div className="flex flex-col items-center justify-between" style={{ paddingTop: 'clamp(40px, 5vw, 70px)', paddingBottom: 'clamp(20px, 2.5vw, 40px)' }}>
               <div style={{ maxWidth: 'min(280px, 100%)', textAlign: 'right', alignSelf: 'flex-end' }}>
-                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(17px, 1.81vw, 30px)', lineHeight: '1.3', color: '#14358A', marginBottom: '12px' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '1.3', color: '#14358A', marginBottom: '12px' }}>
                   Placement &amp; Integration
                 </h3>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.6', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '1.6', color: '#5F5F5F' }}>
                   We select and embed the ideal PMG executive, ensuring they are fully integrated within your business&apos;s daily operations.
                 </p>
               </div>
@@ -559,10 +559,10 @@ export default function ActiveManagementSolutions() {
             {/* Phase 4 — text BOTTOM, right — shifted right and up */}
             <div className="flex flex-col items-center justify-between" style={{ paddingTop: 'clamp(170px, 17vw, 250px)' }}>
               <div style={{ maxWidth: 'min(280px, 100%)', textAlign: 'right', alignSelf: 'flex-end', transform: 'translateX(30px)' }}>
-                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(17px, 1.81vw, 30px)', lineHeight: '1.3', color: '#14358A', marginBottom: '12px' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '1.3', color: '#14358A', marginBottom: '12px' }}>
                   Ongoing PMG Support
                 </h3>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '1.6', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '1.6', color: '#5F5F5F' }}>
                   The embedded executive has continuous access to PMG&apos;s knowledge base, methodologies, and fractional resources.
                 </p>
               </div>
@@ -579,7 +579,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -592,7 +592,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(14px, 1.25vw, 20px)',
+                fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                 lineHeight: '150%',
                 color: '#333333',
                 maxWidth: 'min(900px, 95%)',
@@ -617,7 +617,7 @@ export default function ActiveManagementSolutions() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(13px, 1.11vw, 18px)',
+                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                   padding: '14px 40px',
                   backgroundColor: activeTab === 'leadership' ? '#14358A' : '#FFFFFF',
                   color: activeTab === 'leadership' ? '#FFFFFF' : '#14358A',
@@ -633,7 +633,7 @@ export default function ActiveManagementSolutions() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(13px, 1.11vw, 18px)',
+                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                   padding: '14px 40px',
                   backgroundColor: activeTab === 'autopilot' ? '#14358A' : '#FFFFFF',
                   color: activeTab === 'autopilot' ? '#FFFFFF' : '#14358A',
@@ -668,7 +668,7 @@ export default function ActiveManagementSolutions() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(14px, 1.25vw, 20px)',
+                  fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                   lineHeight: '1.75',
                   color: '#333333',
                   marginBottom: '24px',
@@ -698,7 +698,7 @@ export default function ActiveManagementSolutions() {
                       style={{
                         fontFamily: 'Arimo, sans-serif',
                         fontWeight: 400,
-                        fontSize: 'clamp(13px, 1.11vw, 18px)',
+                        fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                         lineHeight: '150%',
                         color: '#364153',
                       }}
@@ -732,7 +732,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: 'clamp(13px, 1.11vw, 18px)',
+                      fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                       color: '#008236',
                       marginBottom: '12px',
                     }}
@@ -753,7 +753,7 @@ export default function ActiveManagementSolutions() {
                           style={{
                             fontFamily: 'DM Sans, sans-serif',
                             fontWeight: 400,
-                            fontSize: 'clamp(11px, 0.97vw, 16px)',
+                            fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                             lineHeight: '140%',
                             color: '#364153',
                           }}
@@ -771,7 +771,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: 'clamp(13px, 1.11vw, 18px)',
+                      fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                       color: '#C10007',
                       marginBottom: '12px',
                     }}
@@ -791,7 +791,7 @@ export default function ActiveManagementSolutions() {
                           style={{
                             fontFamily: 'DM Sans, sans-serif',
                             fontWeight: 400,
-                            fontSize: 'clamp(11px, 0.97vw, 16px)',
+                            fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                             lineHeight: '140%',
                             color: '#364153',
                           }}
@@ -833,7 +833,7 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 400,
-                    fontSize: 'clamp(13px, 1.11vw, 18px)',
+                    fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                     lineHeight: '22.75px',
                     color: '#68718B',
                   }}
@@ -867,7 +867,7 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 400,
-                    fontSize: 'clamp(13px, 1.11vw, 18px)',
+                    fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                     lineHeight: '22.75px',
                     color: '#68718B',
                   }}
@@ -887,17 +887,17 @@ export default function ActiveManagementSolutions() {
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '27px', lineHeight: '120%', color: '#14358A', marginBottom: '16px' }}>
                 Business Autopilot
               </h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '1.75', color: '#333333', marginBottom: '24px' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '1.75', color: '#333333', marginBottom: '24px' }}>
                 For founders or investors seeking minimal to no operational involvement. A PMG executive assumes complete, autonomous responsibility for the business&apos;s day-to-day operations and strategic execution, reporting only at high-level milestones.
               </p>
-              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '1.6', color: '#333333', marginBottom: '16px' }}>
+              <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '1.6', color: '#333333', marginBottom: '16px' }}>
                 In this model, our executive is embedded as the ultimate operational authority:
               </p>
               <ul className="space-y-3 mb-8">
                 {['Managing Partner', 'Chief Executive Officer (CEO)', 'Executive Director (ED)', 'General Manager (GM)'].map((item, idx) => (
                   <li key={idx} className="flex items-center gap-3">
                     <span style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: '#364153', flexShrink: 0, display: 'inline-block' }} />
-                    <span style={{ fontFamily: 'Arimo, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '150%', color: '#364153' }}>{item}</span>
+                    <span style={{ fontFamily: 'Arimo, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '150%', color: '#364153' }}>{item}</span>
                   </li>
                 ))}
               </ul>
@@ -906,7 +906,7 @@ export default function ActiveManagementSolutions() {
               </h4>
               <div className="grid grid-cols-2 gap-6">
                 <div>
-                  <h5 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#008236', marginBottom: '12px' }}>We Do:</h5>
+                  <h5 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#008236', marginBottom: '12px' }}>We Do:</h5>
                   <ul className="space-y-3">
                     {[
                       'Full operational leadership and decision-making',
@@ -917,13 +917,13 @@ export default function ActiveManagementSolutions() {
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2">
                         <Image src="/we-do-icon.png" alt="✓" width={20} height={20} style={{ flexShrink: 0, marginTop: '2px' }} />
-                        <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#364153' }}>{item}</span>
+                        <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#364153' }}>{item}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
                 <div>
-                  <h5 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#C10007', marginBottom: '12px' }}>We Do Not:</h5>
+                  <h5 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#C10007', marginBottom: '12px' }}>We Do Not:</h5>
                   <ul className="space-y-3">
                     {[
                       'Change ownership or equity structure',
@@ -933,15 +933,15 @@ export default function ActiveManagementSolutions() {
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2">
                         <Image src="/we-do-not-icon.png" alt="✗" width={20} height={20} style={{ flexShrink: 0, marginTop: '2px' }} />
-                        <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '140%', color: '#364153' }}>{item}</span>
+                        <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#364153' }}>{item}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
               </div>
               <div style={{ marginTop: '28px' }}>
-                <h4 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.25vw, 20px)', color: '#333333', marginBottom: '8px' }}>Governance Structure:</h4>
-                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '160%', color: '#364153' }}>
+                <h4 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.07vw, 15.4px)', color: '#333333', marginBottom: '8px' }}>Governance Structure:</h4>
+                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '160%', color: '#364153' }}>
                   Clear reporting lines and decision rights are established upfront to ensure alignment and transparency.
                 </p>
               </div>
@@ -951,13 +951,13 @@ export default function ActiveManagementSolutions() {
             <div>
               <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '24px', backgroundColor: '#FFFFFF', marginBottom: '20px' }}>
                 <h4 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.74vw, 28px)', lineHeight: '24px', color: '#14358A', marginBottom: '12px' }}>Ideal For</h4>
-                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '22.75px', color: '#68718B' }}>
+                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '22.75px', color: '#68718B' }}>
                   Investors with portfolio companies, founders planning an exit, absentee owners, or those who wish to focus purely on passive returns without operational burdens.
                 </p>
               </div>
               <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '24px', backgroundColor: '#FFFFFF' }}>
                 <h4 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.74vw, 28px)', lineHeight: '24px', color: '#14358A', marginBottom: '12px' }}>Your Involvement:</h4>
-                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '22.75px', color: '#68718B' }}>
+                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '22.75px', color: '#68718B' }}>
                   Limited to high-level oversight and receiving key reports, typically on a quarterly basis. We handle the rest.
                 </p>
               </div>
@@ -975,7 +975,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -988,7 +988,7 @@ export default function ActiveManagementSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(14px, 1.25vw, 20px)',
+                fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                 lineHeight: '150%',
                 color: '#333333',
                 maxWidth: 'min(900px, 95%)',
@@ -1035,7 +1035,7 @@ export default function ActiveManagementSolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: 'clamp(18px, 2.01vw, 33px)',
+                      fontSize: 'clamp(16px, 1.53vw, 22px)',
                       lineHeight: '130%',
                       color: '#14358A',
                       margin: 0,
@@ -1048,7 +1048,7 @@ export default function ActiveManagementSolutions() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
-                    fontSize: 'clamp(12px, 1.04vw, 17px)',
+                    fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                     lineHeight: '160%',
                     color: '#333333',
                   }}
@@ -1069,7 +1069,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -1085,7 +1085,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
@@ -1160,13 +1160,13 @@ export default function ActiveManagementSolutions() {
                     minHeight: `${tabHeight}px`,
                   }}
                 >
-                  <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
+                  <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
                     {card.title}
                   </h3>
                   <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '24px', color: '#14358A', marginBottom: '4px' }}>
                     {card.subtitle}
                   </p>
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '24px', color: '#5F5F5F' }}>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '24px', color: '#5F5F5F' }}>
                     {card.desc}
                   </p>
                 </div>
@@ -1189,7 +1189,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -1202,7 +1202,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              fontSize: 'clamp(13px, 1.07vw, 15.4px)',
               lineHeight: '1.75',
               color: '#333333',
               marginBottom: '32px',
@@ -1214,7 +1214,7 @@ export default function ActiveManagementSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(13px, 1.11vw, 18px)',
+              fontSize: 'clamp(14px, 1.22vw, 17.6px)',
               padding: '16px 40px',
               backgroundColor: '#8B5CF6',
               color: '#FFFFFF',

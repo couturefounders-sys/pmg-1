@@ -13,11 +13,11 @@ export default function SaaSEnterpriseTechnology() {
 
         {/* Left Content */}
         <div className="flex flex-col gap-8 max-w-[min(803px,_90%)] z-10">
-          <p className="font-dm-sans font-bold mb-2" style={{ fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '105%', color: '#000000' }}>SaaS &amp; Enterprise Technology</p>
+          <p className="font-dm-sans font-bold mb-2" style={{ fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '105%', color: '#000000' }}>SaaS &amp; Enterprise Technology</p>
           <h1
             className="font-dm-sans font-bold text-[#14358A]"
             style={{
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               whiteSpace: 'nowrap',
@@ -29,7 +29,7 @@ export default function SaaSEnterpriseTechnology() {
           <p
             className="font-montserrat font-normal text-[#333333]"
             style={{
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               maxWidth: 'min(740px, 95%)'
             }}
@@ -64,14 +64,14 @@ export default function SaaSEnterpriseTechnology() {
         <div className="max-w-[1400px] mx-auto text-center">
           <h2
             className="font-dm-sans font-bold text-[#14358A] mb-16"
-            style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em' }}
+            style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal' }}
           >
             Your Partner in a High-Growth Sector
           </h2>
           <p
             className="font-montserrat font-normal text-[#333333] mx-auto"
             style={{
-              fontSize: 'clamp(20px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '100%',
               maxWidth: 'min(1342px, 95%)',
               textAlign: 'center'
@@ -98,13 +98,13 @@ export default function SaaSEnterpriseTechnology() {
           <div className="text-center mb-16">
             <h2
               className="font-dm-sans font-bold text-[#14358A] mb-6"
-              style={{ fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em' }}
+              style={{ fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal' }}
             >
               Our Work
             </h2>
             <p
               className="font-montserrat font-normal text-[#333333] mx-auto"
-              style={{ fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', maxWidth: 'min(1082px, 95%)', textAlign: 'center' }}
+              style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '140%', maxWidth: 'min(1082px, 95%)', textAlign: 'center' }}
             >
               Our work supports strategy, operations, & transformation—equipping technology leaders with the tools to deliver meaningful change.
             </p>
@@ -126,14 +126,14 @@ export default function SaaSEnterpriseTechnology() {
                 <img src="/icon-strategy-transformation.png" alt="Growth & Go-to-Market Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
+                  style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   Growth & Go-to-Market Strategy
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '140%' }}
+                style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%' }}
               >
                 Define and implement growth strategies that balance speed with sustainability, covering GTM planning, international expansion, and optimized pricing models.
               </p>
@@ -153,14 +153,14 @@ export default function SaaSEnterpriseTechnology() {
                 <img src="/icon-risk-resilience.png" alt="Operational Excellence & Scalability" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
+                  style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   Operational Excellence & Scalability
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '140%' }}
+                style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%' }}
               >
                 Improve organizational performance, optimize core processes, and deploy digital transformation initiatives to ensure sustained efficiency at scale.
               </p>
@@ -180,14 +180,14 @@ export default function SaaSEnterpriseTechnology() {
                 <img src="/icon-customer-experience.png" alt="M&A, Funding, & Financial Performance" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: 'clamp(18px, 1.94vw, 32px)', lineHeight: '105%', letterSpacing: '-3%' }}
+                  style={{ fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   M&A, Funding, & Financial Performance
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '140%' }}
+                style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%' }}
               >
                 Support M&A, capital funding, and IPO readiness by strengthening financial performance, optimizing portfolios, and enhancing the investment story.
               </p>
@@ -207,14 +207,14 @@ export default function SaaSEnterpriseTechnology() {
                 <img src="/icon-regulatory-compliance.png" alt="Innovation & Product Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
+                  style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   Innovation & Product Strategy
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%' }}
+                style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%' }}
               >
                 Shape innovation agendas, prioritize R&D, and design product strategies (including portfolio and roadmap development) that align with market opportunities.
               </p>
@@ -234,14 +234,14 @@ export default function SaaSEnterpriseTechnology() {
                 <img src="/icon-innovation-fintech.png" alt="AI & Automation Integration" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
+                  style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   AI & Automation Integration
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '140%' }}
+                style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%' }}
               >
                 Harness AI and automation to enhance product offerings, dramatically improve internal efficiency, and create new, measurable sources of value.
               </p>
@@ -261,14 +261,14 @@ export default function SaaSEnterpriseTechnology() {
                 <img src="/icon-capital-performance.png" alt="Cloud Strategy & Migration" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
+                  style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   Cloud Strategy & Migration
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '140%' }}
+                style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%' }}
               >
                 Develop and execute cloud strategies (public, private, or hybrid) that optimize cost, improve scalability, and accelerate organizational innovation.
               </p>
@@ -288,14 +288,14 @@ export default function SaaSEnterpriseTechnology() {
                 <img src="/icon-strategy-transformation.png" alt="Enterprise & Workflow Architecture" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
+                  style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   Enterprise & Workflow Architecture
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '140%' }}
+                style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%' }}
               >
                 Design robust enterprise systems and automated workflows that ensure seamless operations, support immediate scalability, and align technology with business strategy.
               </p>
@@ -315,14 +315,14 @@ export default function SaaSEnterpriseTechnology() {
                 <img src="/icon-risk-resilience.png" alt="Talent & Culture Transformation" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
+                  style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   Talent & Culture Transformation
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '140%' }}
+                style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%' }}
               >
                 Design organizational structures and cultural programs that foster innovation, agility, and long-term talent retention.
               </p>
@@ -342,14 +342,14 @@ export default function SaaSEnterpriseTechnology() {
                 <img src="/icon-regulatory-compliance.png" alt="Risk, Compliance & Cybersecurity" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-3%' }}
+                  style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   Risk, Compliance & Cybersecurity
                 </h3>
               </div>
               <p
                 className="font-dm-sans font-normal text-[#68718B]"
-                style={{ fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '140%' }}
+                style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%' }}
               >
                 Advise on compliance frameworks, data governance, and cybersecurity strategies to proactively protect technology operations and institutional reputation from growing threats.
               </p>
@@ -380,7 +380,7 @@ export default function SaaSEnterpriseTechnology() {
           <h2
             className="font-dm-sans font-bold text-white text-center mb-16"
             style={{
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em'
             }}
@@ -406,7 +406,7 @@ export default function SaaSEnterpriseTechnology() {
               <h3
                 className="font-dm-sans font-bold text-center"
                 style={{
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
+                  fontSize: 'clamp(16px, 1.53vw, 22px)',
                   lineHeight: '110%',
                   letterSpacing: '-3%',
                   color: '#006FBA'
@@ -436,7 +436,7 @@ export default function SaaSEnterpriseTechnology() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       in annual support costs saved
                     </p>
@@ -460,7 +460,7 @@ export default function SaaSEnterpriseTechnology() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       increase in Customer Satisfaction
                     </p>
@@ -484,7 +484,7 @@ export default function SaaSEnterpriseTechnology() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       Return on Investment
                     </p>
@@ -526,7 +526,7 @@ export default function SaaSEnterpriseTechnology() {
               <h3
                 className="font-dm-sans font-bold text-center"
                 style={{
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
+                  fontSize: 'clamp(16px, 1.53vw, 22px)',
                   lineHeight: '110%',
                   letterSpacing: '-3%',
                   color: '#006FBA'
@@ -553,7 +553,7 @@ export default function SaaSEnterpriseTechnology() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       ticket backlog eliminated
                     </p>
@@ -577,7 +577,7 @@ export default function SaaSEnterpriseTechnology() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       reduction in first-response time
                     </p>
@@ -601,7 +601,7 @@ export default function SaaSEnterpriseTechnology() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       Return on Investment
                     </p>
@@ -643,7 +643,7 @@ export default function SaaSEnterpriseTechnology() {
               <h3
                 className="font-dm-sans font-bold text-center"
                 style={{
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
+                  fontSize: 'clamp(16px, 1.53vw, 22px)',
                   lineHeight: '110%',
                   letterSpacing: '-3%',
                   color: '#006FBA'
@@ -670,7 +670,7 @@ export default function SaaSEnterpriseTechnology() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       reduction in customer churn
                     </p>
@@ -694,7 +694,7 @@ export default function SaaSEnterpriseTechnology() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       increase in post-acquisition margin
                     </p>
@@ -718,7 +718,7 @@ export default function SaaSEnterpriseTechnology() {
                     </p>
                     <p
                       className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}
+                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
                     >
                       Return on Investment
                     </p>
@@ -754,7 +754,7 @@ export default function SaaSEnterpriseTechnology() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 48px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#1E1E1E',
@@ -767,7 +767,7 @@ export default function SaaSEnterpriseTechnology() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              fontSize: 'clamp(13px, 1.07vw, 15.4px)',
               lineHeight: '140%',
               color: '#64748B',
               maxWidth: 'min(800px, 95%)',
@@ -787,7 +787,7 @@ export default function SaaSEnterpriseTechnology() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -801,7 +801,7 @@ export default function SaaSEnterpriseTechnology() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(18px, 2.08vw, 34px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -812,7 +812,7 @@ export default function SaaSEnterpriseTechnology() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(18px, 2.08vw, 34px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -827,7 +827,7 @@ export default function SaaSEnterpriseTechnology() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(18px, 2.08vw, 34px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '140%',
                 color: '#364153',
               }}
@@ -863,7 +863,7 @@ export default function SaaSEnterpriseTechnology() {
           <h2
             className="font-dm-sans font-bold text-[#14358A] mb-8"
             style={{
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em'
             }}
@@ -873,7 +873,7 @@ export default function SaaSEnterpriseTechnology() {
           <p
             className="font-montserrat font-normal text-[#333333] mb-12"
             style={{
-              fontSize: 'clamp(20px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '135%',
               maxWidth: 'min(1196px, 95%)'
             }}

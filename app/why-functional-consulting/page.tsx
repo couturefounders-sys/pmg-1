@@ -16,7 +16,7 @@ export default function WhyFunctionalConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -31,7 +31,7 @@ export default function WhyFunctionalConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.01vw, 33px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -59,7 +59,7 @@ export default function WhyFunctionalConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 textAlign: 'center',
@@ -74,7 +74,7 @@ export default function WhyFunctionalConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(18px, 2.01vw, 33px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '120%',
                 letterSpacing: '-0.03em',
                 textAlign: 'center',
@@ -96,7 +96,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
+                  fontSize: 'clamp(16px, 1.53vw, 22px)',
                   lineHeight: '110%',
                   letterSpacing: '-0.03em',
                   color: '#FF0000',
@@ -127,7 +127,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
+                  fontSize: 'clamp(16px, 1.53vw, 22px)',
                   lineHeight: '110%',
                   letterSpacing: '-0.03em',
                   color: '#FF0000',
@@ -158,7 +158,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
+                  fontSize: 'clamp(16px, 1.53vw, 22px)',
                   lineHeight: '110%',
                   letterSpacing: '-0.03em',
                   color: '#FF0000',
@@ -189,7 +189,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
+                  fontSize: 'clamp(16px, 1.53vw, 22px)',
                   lineHeight: '110%',
                   letterSpacing: '-0.03em',
                   color: '#FF0000',
@@ -223,7 +223,7 @@ export default function WhyFunctionalConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 textAlign: 'center',
@@ -240,7 +240,7 @@ export default function WhyFunctionalConsulting() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(20px, 2.22vw, 36px)',
+                fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                 lineHeight: '100%',
                 letterSpacing: '0%',
                 textAlign: 'center',
@@ -271,7 +271,7 @@ export default function WhyFunctionalConsulting() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(20px, 2.22vw, 36px)',
+                fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                 lineHeight: '100%',
                 letterSpacing: '0%',
                 textAlign: 'center',
@@ -295,7 +295,7 @@ export default function WhyFunctionalConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 textAlign: 'center',
@@ -310,7 +310,7 @@ export default function WhyFunctionalConsulting() {
             <div
               style={{
                 fontFamily: 'Montserrat, sans-serif',
-                fontSize: 'clamp(20px, 2.22vw, 36px)',
+                fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                 lineHeight: '100%',
                 letterSpacing: '0%',
                 textAlign: 'center',
@@ -348,7 +348,7 @@ export default function WhyFunctionalConsulting() {
       {/* Feature Cards Section */}
       <div className="relative w-full py-20 bg-white">
         <div className="max-w-[min(1440px,_95%)] mx-auto px-4">
-          <h2 className="text-center font-dm-sans font-bold mb-10" style={{ fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+          <h2 className="text-center font-dm-sans font-bold mb-10" style={{ fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A' }}>
             The PMG Difference
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[1200px] mx-auto">
@@ -371,7 +371,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(18px, 2.01vw, 33px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -384,7 +384,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(12px, 1.04vw, 17px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   letterSpacing: '0%',
                   textAlign: 'left',
@@ -414,7 +414,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(18px, 2.01vw, 33px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -427,7 +427,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(12px, 1.04vw, 17px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   letterSpacing: '0%',
                   textAlign: 'left',
@@ -457,7 +457,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(18px, 2.01vw, 33px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -470,7 +470,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(12px, 1.04vw, 17px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   letterSpacing: '0%',
                   textAlign: 'left',
@@ -500,7 +500,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(18px, 2.01vw, 33px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -513,7 +513,7 @@ export default function WhyFunctionalConsulting() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(12px, 1.04vw, 17px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   letterSpacing: '0%',
                   textAlign: 'left',
@@ -535,7 +535,7 @@ export default function WhyFunctionalConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -585,7 +585,7 @@ export default function WhyFunctionalConsulting() {
                       style={{
                         fontFamily: 'DM Sans, sans-serif',
                         fontWeight: 700,
-                        fontSize: 'clamp(18px, 2.08vw, 34px)',
+                        fontSize: 'clamp(16px, 1.53vw, 22px)',
                         lineHeight: '105%',
                         letterSpacing: '-0.03em',
                         textAlign: 'right',
@@ -635,7 +635,7 @@ export default function WhyFunctionalConsulting() {
                       style={{
                         fontFamily: 'DM Sans, sans-serif',
                         fontWeight: 700,
-                        fontSize: 'clamp(18px, 2.08vw, 34px)',
+                        fontSize: 'clamp(16px, 1.53vw, 22px)',
                         lineHeight: '105%',
                         letterSpacing: '-0.03em',
                         textAlign: 'left',
@@ -685,7 +685,7 @@ export default function WhyFunctionalConsulting() {
                       style={{
                         fontFamily: 'DM Sans, sans-serif',
                         fontWeight: 700,
-                        fontSize: 'clamp(18px, 2.08vw, 34px)',
+                        fontSize: 'clamp(16px, 1.53vw, 22px)',
                         lineHeight: '105%',
                         letterSpacing: '-0.03em',
                         textAlign: 'right',
@@ -735,7 +735,7 @@ export default function WhyFunctionalConsulting() {
                       style={{
                         fontFamily: 'DM Sans, sans-serif',
                         fontWeight: 700,
-                        fontSize: 'clamp(18px, 2.08vw, 34px)',
+                        fontSize: 'clamp(16px, 1.53vw, 22px)',
                         lineHeight: '105%',
                         letterSpacing: '-0.03em',
                         textAlign: 'left',
@@ -778,7 +778,7 @@ export default function WhyFunctionalConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -792,7 +792,7 @@ export default function WhyFunctionalConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(20px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '135%',
               color: '#333333',
               maxWidth: 'min(1196px, 95%)',

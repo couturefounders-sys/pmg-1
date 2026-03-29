@@ -161,7 +161,7 @@ export default function OurSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(14px, 1.25vw, 20px)',
+                fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                 lineHeight: '105%',
                 color: '#000000',
                 marginBottom: 'clamp(8px, 0.83vw, 12px)',
@@ -175,7 +175,7 @@ export default function OurSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 textAlign: 'center',
@@ -191,7 +191,7 @@ export default function OurSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(18px, 2.22vw, 36px)',
+                fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                 lineHeight: '140%',
                 letterSpacing: '0%',
                 textAlign: 'center',
@@ -214,7 +214,7 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -230,13 +230,13 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',
               maxWidth: 'min(1201px, 90%)',
-              margin: '0 auto clamp(28px, 3.33vw, 48px) auto',
+              margin: '0 auto clamp(24px, 2.75vw, 39.6px) auto',
             }}
           >
             One size never fits all. That&apos;s why we offer distinct ways to partner with us, each designed to deliver maximum value based on your specific needs.
@@ -251,7 +251,7 @@ export default function OurSolutions() {
                 style={{
                   border: '3px solid #14358A',
                   borderRadius: '10px',
-                  padding: 'clamp(16px, 1.67vw, 24px)',
+                  padding: 'clamp(16px, 1.53vw, 22px)',
                   minHeight: 'clamp(300px, 27.15vw, 391px)',
                 }}
               >
@@ -271,7 +271,7 @@ export default function OurSolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: 'clamp(18px, 2.01vw, 32px)',
+                      fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                       lineHeight: '105%',
                       letterSpacing: '-0.03em',
                       color: '#14358A',
@@ -287,7 +287,7 @@ export default function OurSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: 'clamp(13px, 1.11vw, 18px)',
+                    fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                     lineHeight: '140%',
                     letterSpacing: '0%',
                     color: '#68718B',
@@ -302,7 +302,7 @@ export default function OurSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 400,
-                    fontSize: 'clamp(13px, 1.11vw, 18px)',
+                    fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                     lineHeight: '140%',
                     letterSpacing: '0%',
                     color: '#68718B',
@@ -350,13 +350,13 @@ export default function OurSolutions() {
         <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
         {/* Decorative Border Rectangle - Top Left */}
         <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        <div className="mx-auto text-center" style={{ padding: 'clamp(48px, 5.56vw, 80px) clamp(16px, 1.67vw, 24px)' }}>
+        <div className="mx-auto text-center" style={{ padding: 'clamp(48px, 5.56vw, 80px) clamp(16px, 1.53vw, 22px)' }}>
           {/* Heading */}
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -372,13 +372,13 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '135%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#FFFFFF',
               maxWidth: 'min(1196px, 90%)',
-              margin: '0 auto clamp(28px, 3.33vw, 48px) auto',
+              margin: '0 auto clamp(24px, 2.75vw, 39.6px) auto',
             }}
           >
             Get a personalized recommendation in 3 minutes. Our AI-powered advisor analyzes your specific challenges and goals to match you with the optimal PMG solution
@@ -415,7 +415,7 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -429,13 +429,13 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',
               maxWidth: 'min(1201px, 90%)',
-              margin: '0 auto clamp(28px, 3.33vw, 48px) auto',
+              margin: '0 auto clamp(24px, 2.75vw, 39.6px) auto',
             }}
           >
             Proven results across industries, driven by our proprietary approach to solving complex problems.
@@ -450,7 +450,7 @@ export default function OurSolutions() {
                 style={{
                   border: '3px solid #14358A',
                   borderRadius: '10px',
-                  padding: 'clamp(16px, 1.67vw, 24px) clamp(18px, 1.94vw, 28px)',
+                  padding: 'clamp(16px, 1.53vw, 22px) clamp(18px, 1.94vw, 28px)',
                   minHeight: 'clamp(200px, 17.57vw, 253px)',
                   display: 'flex',
                   flexDirection: 'column',
@@ -461,16 +461,16 @@ export default function OurSolutions() {
                     {card.metric}
                   </p>
                 ) : (
-                  <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '4px' }}>
+                  <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '4px' }}>
                     {card.metric}
                   </p>
                 )}
                 {card.subtitle && (
-                  <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.22vw, 36px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(6px, 0.56vw, 8px)' }}>
+                  <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(6px, 0.56vw, 8px)' }}>
                     {card.subtitle}
                   </p>
                 )}
-                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
+                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', marginBottom: 'auto' }}>
                   {card.desc}
                 </p>
                 <span style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(8px, 0.69vw, 12px)', lineHeight: '26px', color: card.tagColor === '#F3E8FF' ? '#7C3AED' : '#1D4ED8', background: card.tagColor, borderRadius: '40px', padding: '2px 10px', alignSelf: 'flex-start', marginTop: 'clamp(8px, 0.83vw, 12px)' }}>
@@ -490,7 +490,7 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -506,7 +506,7 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -522,7 +522,7 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '140%',
               textAlign: 'center',
               color: '#333333',
@@ -561,7 +561,7 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -577,13 +577,13 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',
               maxWidth: 'min(1201px, 90%)',
-              margin: '0 auto clamp(28px, 3.33vw, 48px) auto',
+              margin: '0 auto clamp(24px, 2.75vw, 39.6px) auto',
             }}
           >
             Your investment should be clear, fair, and deliver tangible value. Our pricing models are designed to be flexible, adapting to the solution you need and the scale of your business.
@@ -623,18 +623,18 @@ export default function OurSolutions() {
                 style={{
                   border: '1px solid #99A1AF',
                   borderRadius: '13.06px',
-                  padding: 'clamp(16px, 1.67vw, 24px) clamp(16px, 1.67vw, 24px) clamp(16px, 1.67vw, 24px) clamp(100px, 9.72vw, 140px)',
+                  padding: 'clamp(16px, 1.53vw, 22px) clamp(16px, 1.53vw, 22px) clamp(16px, 1.53vw, 22px) clamp(100px, 9.72vw, 140px)',
                   width: '100%',
                   minHeight: 'clamp(120px, 10.63vw, 153px)',
                 }}
               >
-                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.25vw, 20px)', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
                   Project-Based Pricing
                 </h3>
                 <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '24px', color: '#14358A', marginBottom: '4px' }}>
                   For Specific Goals & Defined Scope.
                 </p>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '24px', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '24px', color: '#5F5F5F' }}>
                   Ideal for short-term, defined goals with clear deliverables. This fixed-cost model ensures complete budget predictability and scope control.
                 </p>
               </div>
@@ -672,18 +672,18 @@ export default function OurSolutions() {
                 style={{
                   border: '1px solid #99A1AF',
                   borderRadius: '13.06px',
-                  padding: 'clamp(16px, 1.67vw, 24px) clamp(16px, 1.67vw, 24px) clamp(16px, 1.67vw, 24px) clamp(100px, 9.72vw, 140px)',
+                  padding: 'clamp(16px, 1.53vw, 22px) clamp(16px, 1.53vw, 22px) clamp(16px, 1.53vw, 22px) clamp(100px, 9.72vw, 140px)',
                   width: '100%',
                   minHeight: 'clamp(120px, 10.63vw, 153px)',
                 }}
               >
-                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.25vw, 20px)', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
                   Retainer & Ongoing Support
                 </h3>
                 <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '24px', color: '#14358A', marginBottom: '4px' }}>
                   Continuous Expertise at Your Fingertips.
                 </p>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '24px', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '24px', color: '#5F5F5F' }}>
                   For businesses requiring consistent, proactive access to strategic advice and specialized fractional expertise, building a deeper partnership for sustained long-term growth.
                 </p>
               </div>
@@ -721,18 +721,18 @@ export default function OurSolutions() {
                 style={{
                   border: '1px solid #99A1AF',
                   borderRadius: '13.06px',
-                  padding: 'clamp(16px, 1.67vw, 24px) clamp(16px, 1.67vw, 24px) clamp(16px, 1.67vw, 24px) clamp(105px, 10.42vw, 150px)',
+                  padding: 'clamp(16px, 1.53vw, 22px) clamp(16px, 1.53vw, 22px) clamp(16px, 1.53vw, 22px) clamp(105px, 10.42vw, 150px)',
                   width: '100%',
                   minHeight: 'clamp(140px, 12.29vw, 177px)',
                 }}
               >
-                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.25vw, 20px)', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '24px', color: '#000000', marginBottom: '2px' }}>
                   Custom & Hybrid Agreements
                 </h3>
                 <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '24px', color: '#14358A', marginBottom: '4px' }}>
                   Solutions Structured Just For You.
                 </p>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '24px', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '24px', color: '#5F5F5F' }}>
                   When complex challenges or multi-phase roadmaps require a non-standard approach, we design custom or hybrid terms that perfectly align investment structure with your strategic goals.
                 </p>
               </div>
@@ -749,7 +749,7 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -765,7 +765,7 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
@@ -789,7 +789,7 @@ export default function OurSolutions() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(18px, 1.94vw, 32px)',
+                  fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                   lineHeight: '120%',
                   color: '#14358A',
                   marginBottom: 'clamp(14px, 1.67vw, 24px)',
@@ -827,7 +827,7 @@ export default function OurSolutions() {
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(13px, 1.11vw, 18px)',
+                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                   lineHeight: '150%',
                   textAlign: 'center',
                   color: '#333333',
@@ -854,7 +854,7 @@ export default function OurSolutions() {
                   borderRadius: '12px',
                   padding: '14px 24px',
                   textDecoration: 'none',
-                  marginTop: 'clamp(16px, 1.67vw, 24px)',
+                  marginTop: 'clamp(16px, 1.53vw, 22px)',
                 }}
               >
                 Discover How We Engineer Results
@@ -871,7 +871,7 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -899,7 +899,7 @@ export default function OurSolutions() {
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 400,
-                    fontSize: 'clamp(13px, 1.11vw, 18px)',
+                    fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                     lineHeight: '24px',
                     color: '#000000',
                   }}
@@ -925,7 +925,7 @@ export default function OurSolutions() {
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 400,
-                    fontSize: 'clamp(13px, 1.11vw, 18px)',
+                    fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                     lineHeight: '24px',
                     color: '#000000',
                   }}
@@ -951,7 +951,7 @@ export default function OurSolutions() {
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 400,
-                    fontSize: 'clamp(13px, 1.11vw, 18px)',
+                    fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                     lineHeight: '24px',
                     color: '#000000',
                   }}
@@ -977,7 +977,7 @@ export default function OurSolutions() {
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 400,
-                    fontSize: 'clamp(13px, 1.11vw, 18px)',
+                    fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                     lineHeight: '24px',
                     color: '#000000',
                   }}
@@ -1003,7 +1003,7 @@ export default function OurSolutions() {
                   style={{
                     fontFamily: 'Inter, sans-serif',
                     fontWeight: 400,
-                    fontSize: 'clamp(13px, 1.11vw, 18px)',
+                    fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                     lineHeight: '24px',
                     color: '#000000',
                   }}
@@ -1024,7 +1024,7 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -1038,13 +1038,13 @@ export default function OurSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               textAlign: 'center',
               color: '#333333',
               maxWidth: 'min(1196px, 90%)',
-              margin: '0 auto clamp(28px, 3.33vw, 48px) auto',
+              margin: '0 auto clamp(24px, 2.75vw, 39.6px) auto',
             }}
           >
             Let&apos;s discuss how PMG can help you navigate your challenges and seize new opportunities.

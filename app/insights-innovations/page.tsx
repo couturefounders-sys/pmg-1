@@ -18,13 +18,13 @@ export default function InsightsInnovationsPage() {
       {/* ─── Section 1: Hero ─── */}
       <section className="w-full pt-36 pb-16 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
-          <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '105%', color: '#000000', marginBottom: '12px' }}>
+          <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '105%', color: '#000000', marginBottom: '12px' }}>
             Thinking in Public
           </p>
-          <h1 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '20px' }}>
+          <h1 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '20px' }}>
             Insights &amp; Innovations
           </h1>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', letterSpacing: '0%', textAlign: 'center', color: '#333333', marginBottom: '36px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '140%', letterSpacing: '0%', textAlign: 'center', color: '#333333', marginBottom: '36px' }}>
             Unfiltered thoughts on whatever matters right now: Resource Scarcity, Neobank Performance Marketing, Existentialism, and everything in between. Each piece represents where our curiosity has taken us this month.
           </p>
 
@@ -33,7 +33,7 @@ export default function InsightsInnovationsPage() {
             <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', color: '#14358A', marginBottom: '10px' }}>
               Note to Prospective Partners
             </h3>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '1.75', color: '#5F6D7E' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '26.4px', fontWeight: 400, color: '#5F6D7E' }}>
               This isn&apos;t a random collection of interests; it&apos;s a practice in pattern recognition and higher-order thinking. By connecting unrelated domains, we bring unconventional frameworks to business challenges. This is how we think when we aren&apos;t in the room with you; we&apos;re constantly building the toolkit we use to build your business.
             </p>
           </div>
@@ -53,7 +53,7 @@ export default function InsightsInnovationsPage() {
             <input
               type="text"
               placeholder="Search Articles"
-              style={{ border: 'none', outline: 'none', fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#333333', background: 'transparent', width: '100%' }}
+              style={{ border: 'none', outline: 'none', fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#333333', background: 'transparent', width: '100%' }}
             />
           </div>
 
@@ -61,15 +61,15 @@ export default function InsightsInnovationsPage() {
           {articles.map((article, i) => (
             <div key={i} style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '40px 36px', background: '#FFFFFF', width: '100%', maxWidth: 'min(1056px, 95%)' }}>
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', color: '#14358A', marginBottom: '8px' }}>{article.title}</h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.04vw, 17px)', color: '#9AA6B4', marginBottom: '20px' }}>{article.date}</p>
-              <a href="#" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#14358A', textDecoration: 'none' }}>Read More &rsaquo;</a>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#9AA6B4', marginBottom: '20px' }}>{article.date}</p>
+              <a href="#" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#14358A', textDecoration: 'none' }}>Read More &rsaquo;</a>
             </div>
           ))}
 
           {/* Featured article */}
           <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px', background: '#FFFFFF', width: '100%', maxWidth: 'min(945px, 95%)', alignSelf: 'center', textAlign: 'center' }}>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(11px, 0.97vw, 16px)', fontWeight: 600, color: '#68718B', marginBottom: '8px' }}>Upcoming</p>
-            <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.25vw, 20px)', color: '#14358A', marginBottom: '10px' }}>The Silent ROI: Quantifying the Value of Trust &amp; Psychological Safety</h3>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 600, color: '#68718B', marginBottom: '8px' }}>Upcoming</p>
+            <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.07vw, 15.4px)', color: '#14358A', marginBottom: '10px' }}>The Silent ROI: Quantifying the Value of Trust &amp; Psychological Safety</h3>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 0.9vw, 15px)', lineHeight: '1.7', color: '#5F6D7E' }}>Explore how trust and psychological safety produce measurable financial returns that traditional ROI models fail to capture.</p>
           </div>
 
@@ -100,15 +100,15 @@ export default function InsightsInnovationsPage() {
         style={{ background: '#EBF7FF' }}
       >
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center relative z-10">
-          <h2 style={{ fontFamily: 'DM Sans', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', textAlign: 'center', color: '#14358A', marginBottom: '16px' }}>
+          <h2 style={{ fontFamily: 'DM Sans', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', textAlign: 'center', color: '#14358A', marginBottom: '16px' }}>
             Leadership Isn&apos;t Just What You Do. It&apos;s How You Think.
           </h2>
-          <p style={{ fontFamily: 'Montserrat', fontWeight: 400, fontSize: 'clamp(18px, 2.08vw, 34px)', lineHeight: '140%', letterSpacing: '0%', textAlign: 'center', color: '#333333', marginBottom: '32px' }}>
+          <p style={{ fontFamily: 'Montserrat', fontWeight: 400, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '140%', letterSpacing: '0%', textAlign: 'center', color: '#333333', marginBottom: '32px' }}>
             The executives who read widely, think laterally, and connect unrelated ideas are the ones who build durable competitive advantages.
           </p>
           <a
             href="/contact-us"
-            style={{ display: 'inline-block', background: 'linear-gradient(135deg, #6A36FF 0%, #AC5FE6 100%)', border: 'none', color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(11px, 0.97vw, 16px)', padding: '13px 32px', borderRadius: '8px', textDecoration: 'none' }}
+            style={{ display: 'inline-block', background: 'linear-gradient(135deg, #6A36FF 0%, #AC5FE6 100%)', border: 'none', color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', padding: '13px 32px', borderRadius: '8px', textDecoration: 'none' }}
           >
             Elevate Our Thinking
           </a>

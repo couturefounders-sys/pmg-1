@@ -30,75 +30,75 @@ export default function Footer() {
           {/* What we Do Column */}
           <div>
             <h3
-              className="text-white font-bold mb-4"
-              style={{ fontFamily: "'Trade Gothic LT Std', sans-serif", fontSize: 'clamp(13px, 1.1vw, 17px)', lineHeight: '100%' }}
+              className="text-white font-semibold mb-4 uppercase"
+              style={{ fontFamily: "'Trade Gothic LT Std', sans-serif", fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 600, letterSpacing: '0.77px', lineHeight: '22px' }}
             >
               What we Do
             </h3>
             <ul style={{ display: 'flex', flexDirection: 'column', gap: 'clamp(5px, 0.5vw, 8px)' }}>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>Our Services</a></li>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>Our Solutions</a></li>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>Rebuilding from within</a></li>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>Why Consulting?</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Our Services</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Our Solutions</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Rebuilding from within</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Why Consulting?</a></li>
             </ul>
           </div>
 
           {/* Our Content + Working with PMG Column */}
           <div>
             <h3
-              className="text-white font-bold mb-4"
-              style={{ fontFamily: "'Trade Gothic LT Std', sans-serif", fontSize: 'clamp(13px, 1.1vw, 17px)', lineHeight: '100%' }}
+              className="text-white font-semibold mb-4 uppercase"
+              style={{ fontFamily: "'Trade Gothic LT Std', sans-serif", fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 600, letterSpacing: '0.77px', lineHeight: '22px' }}
             >
               Our Content
             </h3>
             <ul style={{ display: 'flex', flexDirection: 'column', gap: 'clamp(5px, 0.5vw, 8px)' }}>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>FAQs</a></li>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>Insights &amp; Innovations</a></li>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>Community Programs</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>FAQs</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Insights &amp; Innovations</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Community Programs</a></li>
             </ul>
             <h3
-              className="text-white font-bold mb-4"
-              style={{ fontFamily: "'Trade Gothic LT Std', sans-serif", fontSize: 'clamp(13px, 1.1vw, 17px)', lineHeight: '100%', marginTop: 'clamp(10px, 0.9vw, 16px)' }}
+              className="text-white font-semibold mb-4 uppercase"
+              style={{ fontFamily: "'Trade Gothic LT Std', sans-serif", fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 600, letterSpacing: '0.77px', lineHeight: '22px', marginTop: 'clamp(10px, 0.9vw, 16px)' }}
             >
               Working with PMG
             </h3>
             <ul style={{ display: 'flex', flexDirection: 'column', gap: 'clamp(5px, 0.5vw, 8px)' }}>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>Careers</a></li>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>Licensing</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Careers</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Licensing</a></li>
             </ul>
           </div>
 
           {/* Our Models Column */}
           <div>
             <h3
-              className="text-white font-bold mb-4"
-              style={{ fontFamily: "'Trade Gothic LT Std', sans-serif", fontSize: 'clamp(13px, 1.1vw, 17px)', lineHeight: '100%' }}
+              className="text-white font-semibold mb-4 uppercase"
+              style={{ fontFamily: "'Trade Gothic LT Std', sans-serif", fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 600, letterSpacing: '0.77px', lineHeight: '22px' }}
             >
               Our Models
             </h3>
             <ul style={{ display: 'flex', flexDirection: 'column', gap: 'clamp(5px, 0.5vw, 8px)' }}>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>Sector Convergence Model</a></li>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>I-O Enterprise Architecture</a></li>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>Bussiness Value-Unit Model</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Sector Convergence Model</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>I-O Enterprise Architecture</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Bussiness Value-Unit Model</a></li>
             </ul>
           </div>
 
           {/* Legal Column */}
           <div>
             <h3
-              className="text-white font-bold mb-4"
-              style={{ fontFamily: "'Trade Gothic LT Std', sans-serif", fontSize: 'clamp(13px, 1.1vw, 17px)', lineHeight: '100%' }}
+              className="text-white font-semibold mb-4 uppercase"
+              style={{ fontFamily: "'Trade Gothic LT Std', sans-serif", fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 600, letterSpacing: '0.77px', lineHeight: '22px' }}
             >
               Legal
             </h3>
             <ul style={{ display: 'flex', flexDirection: 'column', gap: 'clamp(5px, 0.5vw, 8px)' }}>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>Privacy &amp; Cookie Policy</a></li>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>Hiring &amp; Equal Opportunity</a></li>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>AI &amp; Data Ethics Statement</a></li>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>Anti-Modern Slavery Policy</a></li>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>Intellectual Property</a></li>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>Regionalization Policy</a></li>
-              <li><a href="#" className="text-white font-montserrat font-medium opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: 'normal', display: 'block' }}>Digital Terms of Use</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Privacy &amp; Cookie Policy</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Hiring &amp; Equal Opportunity</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>AI &amp; Data Ethics Statement</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Anti-Modern Slavery Policy</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Intellectual Property</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Regionalization Policy</a></li>
+              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Digital Terms of Use</a></li>
             </ul>
           </div>
         </div>

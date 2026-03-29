@@ -47,7 +47,7 @@ export default function BrandingMarketingConsulting() {
         <p
           className="font-dm-sans font-bold mb-4"
           style={{
-            fontSize: 'clamp(14px, 1.25vw, 20px)',
+            fontSize: 'clamp(13px, 1.07vw, 15.4px)',
             lineHeight: '105%',
             color: '#000000',
             margin: '0 auto 1rem',
@@ -61,7 +61,7 @@ export default function BrandingMarketingConsulting() {
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: 'clamp(28px, 3.33vw, 56px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             textAlign: 'center',
@@ -79,7 +79,7 @@ export default function BrandingMarketingConsulting() {
           style={{
             fontFamily: 'Montserrat, sans-serif',
             fontWeight: 400,
-            fontSize: 'clamp(20px, 2.22vw, 36px)',
+            fontSize: 'clamp(15px, 1.375vw, 19.8px)',
             lineHeight: '100%',
             letterSpacing: '0%',
             textAlign: 'center',
@@ -101,7 +101,7 @@ export default function BrandingMarketingConsulting() {
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: 'clamp(28px, 3.33vw, 56px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             color: '#14358A',
@@ -117,11 +117,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <Image src="/target.png" alt="Brand Building" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Brand Building
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Engineer a unique brand identity and experience that guarantees consistent messaging and superior market cut-through.
             </p>
           </div>
@@ -132,11 +132,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <Image src="/oo.png" alt="Brand Loyalty & Advocacy" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Brand Loyalty & Advocacy
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Maximize Customer Lifetime Value (CLV) by fostering advocacy and converting loyal customers into passionate brand promoters.
             </p>
           </div>
@@ -147,11 +147,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <Image src="/ll.png" alt="Consumer & Shopper Insights" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Consumer & Shopper Insights
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Leverage deep consumer and shopper insights to inform strategy and create impactful experiences that guarantee sales growth.
             </p>
           </div>
@@ -162,11 +162,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <Image src="/99.png" alt="Content Creation & Management" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Content Creation & Management
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Develop and manage high-quality, engaging content pipelines that drive measurable audience resonance and strategic alignment.
             </p>
           </div>
@@ -177,11 +177,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <Image src="/98.png" alt="Content Marketing & Storytelling" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Content Marketing & Storytelling
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Tell your brand's story with compelling content strategies designed to build lasting audience relationships and accelerate conversion.
             </p>
           </div>
@@ -192,11 +192,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <Image src="/88.png" alt="Customer Acquisition Strategies" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Customer Acquisition Strategies
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Design and implement high-ROI customer acquisition strategies that aggressively expand market share and reduce cost-per-lead.
             </p>
           </div>
@@ -207,11 +207,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <Image src="/00.png" alt="Digital Marketing" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Digital Marketing
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Execute high-performance digital marketing campaigns across all platforms to maximize traffic generation and lead volume.
             </p>
           </div>
@@ -222,11 +222,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <Image src="/33.png" alt="Marketing & Business Analytics" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Marketing & Business Analytics
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Provide actionable, data-driven insights, analytics, and modeling to rigorously evaluate campaign effectiveness and guide high-stakes decision-making.
             </p>
           </div>
@@ -237,11 +237,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <Image src="/22.png" alt="Market Positioning & Go-to-Market Strategy" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Market Positioning & Go-to-Market Strategy
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Define a defensible market position and design effective Go-to-Market strategies that ensure successful product launches.
             </p>
           </div>
@@ -252,11 +252,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <Image src="/7n.png" alt="Marketing Return on Investment" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Marketing Return on Investment
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Maximize profitability by rigorously measuring and optimizing the financial Return on Investment (ROI) of all marketing expenditure.
             </p>
           </div>
@@ -267,11 +267,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <Image src="/6n.png" alt="Organization & Capabilities" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Organization & Capabilities
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Build structures and capabilities required to execute integrated, effective marketing and sales strategies.
             </p>
           </div>
@@ -282,11 +282,11 @@ export default function BrandingMarketingConsulting() {
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
                 <Image src="/5n.png" alt="Pricing & Enablement" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
-              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
+              <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Pricing & Enablement
               </h3>
             </div>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>
               Establish optimal competitive pricing and enable sales teams with the tools and knowledge required to maximize revenue and profitability.
             </p>
           </div>
@@ -300,7 +300,7 @@ export default function BrandingMarketingConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -358,7 +358,7 @@ export default function BrandingMarketingConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#333',
                   margin: 0,
@@ -397,7 +397,7 @@ export default function BrandingMarketingConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#333',
                   margin: 0,
@@ -436,7 +436,7 @@ export default function BrandingMarketingConsulting() {
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 400,
-                  fontSize: 'clamp(13px, 1.25vw, 20px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#333',
                   margin: 0,
@@ -467,7 +467,7 @@ export default function BrandingMarketingConsulting() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -525,7 +525,7 @@ export default function BrandingMarketingConsulting() {
             style={{
               fontFamily: 'Inter, sans-serif',
               fontWeight: 600,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '30px',
               color: '#14358A',
               textDecoration: 'none',
@@ -560,7 +560,7 @@ export default function BrandingMarketingConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#FFFFFF',
@@ -574,7 +574,7 @@ export default function BrandingMarketingConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#FFFFFF',
@@ -587,7 +587,7 @@ export default function BrandingMarketingConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(20px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '135%',
               color: '#FFFFFF',
             }}
@@ -610,7 +610,7 @@ export default function BrandingMarketingConsulting() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -624,7 +624,7 @@ export default function BrandingMarketingConsulting() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(20px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '135%',
               color: '#333333',
               maxWidth: 'min(1196px, 95%)',

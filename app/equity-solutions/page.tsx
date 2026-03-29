@@ -17,7 +17,7 @@ export default function EquitySolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              fontSize: 'clamp(13px, 1.07vw, 15.4px)',
               fontStyle: 'normal',
               lineHeight: '105%',
               color: '#000000',
@@ -33,7 +33,7 @@ export default function EquitySolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               textAlign: 'center',
@@ -62,7 +62,7 @@ export default function EquitySolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(18px, 2.01vw, 33px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -75,7 +75,7 @@ export default function EquitySolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 letterSpacing: '0%',
                 textAlign: 'center',
@@ -120,7 +120,7 @@ export default function EquitySolutions() {
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
                 fontStyle: 'italic',
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 letterSpacing: '0%',
                 textAlign: 'center',
@@ -164,7 +164,7 @@ export default function EquitySolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -177,7 +177,7 @@ export default function EquitySolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(14px, 1.25vw, 20px)',
+                fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                 lineHeight: '1.75',
                 color: '#333333',
                 maxWidth: 'min(680px, 95%)',
@@ -217,7 +217,7 @@ export default function EquitySolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -230,7 +230,7 @@ export default function EquitySolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(14px, 1.25vw, 20px)',
+                fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                 lineHeight: '1.75',
                 color: '#333333',
                 maxWidth: 'min(660px, 95%)',
@@ -313,7 +313,7 @@ export default function EquitySolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(28px, 3.33vw, 56px)',
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                 lineHeight: '105%',
                 letterSpacing: '-0.03em',
                 color: '#14358A',
@@ -326,7 +326,7 @@ export default function EquitySolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(14px, 1.25vw, 20px)',
+                fontSize: 'clamp(13px, 1.07vw, 15.4px)',
                 lineHeight: '1.75',
                 color: '#333333',
                 maxWidth: 'min(660px, 95%)',
@@ -382,7 +382,7 @@ export default function EquitySolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: 'clamp(18px, 2.01vw, 33px)',
+                      fontSize: 'clamp(16px, 1.53vw, 22px)',
                       lineHeight: '130%',
                       color: '#14358A',
                       margin: 0,
@@ -395,7 +395,7 @@ export default function EquitySolutions() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
-                    fontSize: 'clamp(12px, 1.04vw, 17px)',
+                    fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                     lineHeight: '160%',
                     color: '#333333',
                   }}
@@ -453,7 +453,7 @@ export default function EquitySolutions() {
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
                       fontWeight: 700,
-                      fontSize: 'clamp(18px, 2.01vw, 33px)',
+                      fontSize: 'clamp(16px, 1.53vw, 22px)',
                       lineHeight: '130%',
                       color: '#14358A',
                       margin: 0,
@@ -466,7 +466,7 @@ export default function EquitySolutions() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
-                    fontSize: 'clamp(12px, 1.04vw, 17px)',
+                    fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                     lineHeight: '160%',
                     color: '#333333',
                   }}
@@ -502,10 +502,10 @@ export default function EquitySolutions() {
       <section className="w-full bg-white py-20 px-6">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-14">
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '16px' }}>
               Why PMG Believes in Expertise Capital
             </h2>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '1.75', color: '#333333', maxWidth: 'min(620px, 95%)' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '1.75', color: '#333333', maxWidth: 'min(620px, 95%)' }}>
               We choose equity partnerships because they create deeper alignment and better outcomes for everyone.
             </p>
           </div>
@@ -549,10 +549,10 @@ export default function EquitySolutions() {
                   minHeight: '153px',
                 }}
               >
-                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '24px', color: '#000000', marginBottom: '8px' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '24px', color: '#000000', marginBottom: '8px' }}>
                   Maximum Alignment
                 </h3>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '24px', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '24px', color: '#5F5F5F' }}>
                   When our success depends on yours, we're 100% focused on delivering exceptional results.
                 </p>
               </div>
@@ -595,10 +595,10 @@ export default function EquitySolutions() {
                   minHeight: '153px',
                 }}
               >
-                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '24px', color: '#000000', marginBottom: '8px' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '24px', color: '#000000', marginBottom: '8px' }}>
                   Access to Exceptional Companies
                 </h3>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '24px', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '24px', color: '#5F5F5F' }}>
                   Equity allows us to partner with innovative companies that have potential but limited cash.
                 </p>
               </div>
@@ -641,10 +641,10 @@ export default function EquitySolutions() {
                   minHeight: '153px',
                 }}
               >
-                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '24px', color: '#000000', marginBottom: '8px' }}>
+                <h3 style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '24px', color: '#000000', marginBottom: '8px' }}>
                   Proven Returns
                 </h3>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', lineHeight: '24px', color: '#5F5F5F' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '24px', color: '#5F5F5F' }}>
                   Our equity partnerships consistently outperform traditional consulting engagements in long-term value creation.
                 </p>
               </div>
@@ -656,7 +656,7 @@ export default function EquitySolutions() {
       {/* ─── Section 7: Proven Partnerships, Measurable Impact ─── */}
       <section className="w-full py-14 lg:py-20 px-4 sm:px-6" style={{ background: '#FFFFFF' }}>
         <div className="max-w-[1000px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 48px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(32px, 3.33vw, 48px)' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: 'clamp(32px, 3.33vw, 48px)' }}>
             Proven Partnerships, Measurable Impact
           </h2>
 
@@ -687,7 +687,7 @@ export default function EquitySolutions() {
           <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.74vw, 25px)', lineHeight: '24px', letterSpacing: '0%', color: '#000000', marginBottom: '8px' }}>
             Our partnerships span across North America, including:
           </p>
-          <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(20px, 2.08vw, 30px)', lineHeight: '24px', letterSpacing: '0%', color: '#000000' }}>
+          <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '24px', letterSpacing: '0%', color: '#000000' }}>
             British Columbia · Ontario · Nova Scotia · California · Texas · New York
           </p>
         </div>
@@ -697,10 +697,10 @@ export default function EquitySolutions() {
       <section className="w-full bg-white py-20 px-6">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-10">
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '18px' }}>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '18px' }}>
               Our Commitment: True Accountability &amp; Aligned Growth
             </h2>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '1.75', color: '#333333', maxWidth: 'min(760px, 95%)', textAlign: 'center' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '1.75', color: '#333333', maxWidth: 'min(760px, 95%)', textAlign: 'center' }}>
               As co-owners, our partnership is built on a shared, tangible asset: the value of your company. Our accountability is not just to a project plan, but to the long-term drivers of valuation. We structure our engagement to protect and grow our shared investment.
             </p>
           </div>
@@ -757,9 +757,9 @@ export default function EquitySolutions() {
                       style={{ objectFit: 'contain' }}
                     />
                   </div>
-                  <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.01vw, 33px)', color: '#14358A', margin: 0 }}>{card.title}</h3>
+                  <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', color: '#14358A', margin: 0 }}>{card.title}</h3>
                 </div>
-                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '160%', color: '#333333' }}>{card.desc}</p>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '160%', color: '#333333' }}>{card.desc}</p>
               </div>
             ))}
           </div>
@@ -775,7 +775,7 @@ export default function EquitySolutions() {
         <div className="max-w-[1200px] mx-auto">
           {/* Heading */}
           <div className="flex flex-col items-center text-center mb-10 lg:mb-12">
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 48px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(16px, 1.67vw, 24px)' }}>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: 'clamp(16px, 1.53vw, 22px)' }}>
               How We Compare
             </h2>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.25vw, 18px)', lineHeight: '1.75', color: '#333333', maxWidth: 'min(900px, 95%)', textAlign: 'center' }}>
@@ -797,7 +797,7 @@ export default function EquitySolutions() {
                 gap: '24px',
               }}
             >
-              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', color: '#14358A', textAlign: 'center', marginBottom: '8px' }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', color: '#14358A', textAlign: 'center', marginBottom: '8px' }}>
                 PMG Equity Solutions
               </h3>
 
@@ -805,9 +805,9 @@ export default function EquitySolutions() {
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
                   <Image src="/capital.png" alt="Capital" width={20} height={20} style={{ objectFit: 'contain' }} />
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Capital</p>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#666666', margin: 0 }}>Capital</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#14358A', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#14358A', margin: 0, paddingLeft: '28px' }}>
                   Preserved
                 </p>
               </div>
@@ -816,9 +816,9 @@ export default function EquitySolutions() {
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
                   <Image src="/expertise.png" alt="Expertise" width={20} height={20} style={{ objectFit: 'contain' }} />
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Expertise</p>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#666666', margin: 0 }}>Expertise</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#14358A', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#14358A', margin: 0, paddingLeft: '28px' }}>
                   Full PMG team
                 </p>
               </div>
@@ -827,9 +827,9 @@ export default function EquitySolutions() {
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
                   <Image src="/alignmenyt.png" alt="Alignment" width={20} height={20} style={{ objectFit: 'contain' }} />
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Alignment</p>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#666666', margin: 0 }}>Alignment</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#14358A', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#14358A', margin: 0, paddingLeft: '28px' }}>
                   Complete (equity)
                 </p>
               </div>
@@ -838,9 +838,9 @@ export default function EquitySolutions() {
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
                   <Image src="/speed.png" alt="Speed" width={20} height={20} style={{ objectFit: 'contain' }} />
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Speed</p>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#666666', margin: 0 }}>Speed</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#14358A', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#14358A', margin: 0, paddingLeft: '28px' }}>
                   Immediate
                 </p>
               </div>
@@ -849,9 +849,9 @@ export default function EquitySolutions() {
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
                   <Image src="/cost.png" alt="Cost" width={20} height={20} style={{ objectFit: 'contain' }} />
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Cost</p>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#666666', margin: 0 }}>Cost</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#14358A', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#14358A', margin: 0, paddingLeft: '28px' }}>
                   Equity only
                 </p>
               </div>
@@ -869,7 +869,7 @@ export default function EquitySolutions() {
                 gap: '24px',
               }}
             >
-              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', color: '#333333', textAlign: 'center', marginBottom: '8px' }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', color: '#333333', textAlign: 'center', marginBottom: '8px' }}>
                 Traditional VC
               </h3>
 
@@ -877,9 +877,9 @@ export default function EquitySolutions() {
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
                   <Image src="/capital.png" alt="Capital" width={20} height={20} style={{ objectFit: 'contain' }} />
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Capital</p>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#666666', margin: 0 }}>Capital</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#FFA500', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#FFA500', margin: 0, paddingLeft: '28px' }}>
                   $ Cash
                 </p>
               </div>
@@ -888,9 +888,9 @@ export default function EquitySolutions() {
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
                   <Image src="/expertise.png" alt="Expertise" width={20} height={20} style={{ objectFit: 'contain' }} />
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Expertise</p>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#666666', margin: 0 }}>Expertise</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#333333', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#333333', margin: 0, paddingLeft: '28px' }}>
                   Limited (board only)
                 </p>
               </div>
@@ -899,9 +899,9 @@ export default function EquitySolutions() {
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
                   <Image src="/alignmenyt.png" alt="Alignment" width={20} height={20} style={{ objectFit: 'contain' }} />
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Alignment</p>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#666666', margin: 0 }}>Alignment</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#FFA500', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#FFA500', margin: 0, paddingLeft: '28px' }}>
                   Partial (equity)
                 </p>
               </div>
@@ -910,9 +910,9 @@ export default function EquitySolutions() {
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
                   <Image src="/speed.png" alt="Speed" width={20} height={20} style={{ objectFit: 'contain' }} />
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Speed</p>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#666666', margin: 0 }}>Speed</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#333333', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#333333', margin: 0, paddingLeft: '28px' }}>
                   3-6 months
                 </p>
               </div>
@@ -921,9 +921,9 @@ export default function EquitySolutions() {
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
                   <Image src="/cost.png" alt="Cost" width={20} height={20} style={{ objectFit: 'contain' }} />
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Cost</p>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#666666', margin: 0 }}>Cost</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#333333', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#333333', margin: 0, paddingLeft: '28px' }}>
                   Equity + dilution
                 </p>
               </div>
@@ -941,7 +941,7 @@ export default function EquitySolutions() {
                 gap: '24px',
               }}
             >
-              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 24px)', color: '#333333', textAlign: 'center', marginBottom: '8px' }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', color: '#333333', textAlign: 'center', marginBottom: '8px' }}>
                 Traditional Consulting
               </h3>
 
@@ -949,9 +949,9 @@ export default function EquitySolutions() {
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
                   <Image src="/capital.png" alt="Capital" width={20} height={20} style={{ objectFit: 'contain' }} />
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Capital</p>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#666666', margin: 0 }}>Capital</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#333333', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#333333', margin: 0, paddingLeft: '28px' }}>
                   $ Outlay
                 </p>
               </div>
@@ -960,9 +960,9 @@ export default function EquitySolutions() {
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
                   <Image src="/expertise.png" alt="Expertise" width={20} height={20} style={{ objectFit: 'contain' }} />
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Expertise</p>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#666666', margin: 0 }}>Expertise</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#333333', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#333333', margin: 0, paddingLeft: '28px' }}>
                   Full PMG team
                 </p>
               </div>
@@ -971,9 +971,9 @@ export default function EquitySolutions() {
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
                   <Image src="/alignmenyt.png" alt="Alignment" width={20} height={20} style={{ objectFit: 'contain' }} />
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Alignment</p>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#666666', margin: 0 }}>Alignment</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#FFA500', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#FFA500', margin: 0, paddingLeft: '28px' }}>
                   Project-based
                 </p>
               </div>
@@ -982,9 +982,9 @@ export default function EquitySolutions() {
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
                   <Image src="/speed.png" alt="Speed" width={20} height={20} style={{ objectFit: 'contain' }} />
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Speed</p>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#666666', margin: 0 }}>Speed</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#333333', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#333333', margin: 0, paddingLeft: '28px' }}>
                   Immediate
                 </p>
               </div>
@@ -993,9 +993,9 @@ export default function EquitySolutions() {
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
                   <Image src="/cost.png" alt="Cost" width={20} height={20} style={{ objectFit: 'contain' }} />
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(11px, 0.97vw, 16px)', color: '#666666', margin: 0 }}>Cost</p>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#666666', margin: 0 }}>Cost</p>
                 </div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#333333', margin: 0, paddingLeft: '28px' }}>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#333333', margin: 0, paddingLeft: '28px' }}>
                   Cash ($250K+)
                 </p>
               </div>
@@ -1007,7 +1007,7 @@ export default function EquitySolutions() {
       {/* ─── Section 10: Ready to Explore an Equity Partnership? ─── */}
       <section className="w-full py-14 lg:py-20 px-4 sm:px-6" style={{ background: '#EBF7FF' }}>
         <div className="max-w-[min(1100px,_90%)] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 48px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(40px, 4.44vw, 64px)' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: 'clamp(40px, 4.44vw, 64px)' }}>
             Ready to Explore an Equity Partnership?
           </h2>
 
@@ -1017,7 +1017,7 @@ export default function EquitySolutions() {
               style={{
                 border: '2px solid #14358A',
                 borderRadius: 'clamp(12px, 1.11vw, 16px)',
-                padding: 'clamp(28px, 2.78vw, 40px) clamp(24px, 2.22vw, 32px)',
+                padding: 'clamp(28px, 2.78vw, 40px) clamp(16px, 1.53vw, 22px)',
                 width: '100%',
                 maxWidth: 'min(480px, 95%)',
                 minHeight: '280px',
@@ -1052,7 +1052,7 @@ export default function EquitySolutions() {
               </div>
 
               {/* Title */}
-              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.22vw, 32px)', lineHeight: '120%', color: '#14358A', margin: 0 }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '120%', color: '#14358A', margin: 0 }}>
                 Start with Exploration
               </h3>
 
@@ -1069,7 +1069,7 @@ export default function EquitySolutions() {
                   color: '#FFFFFF',
                   border: 'none',
                   borderRadius: '10px',
-                  padding: 'clamp(12px, 0.97vw, 14px) clamp(24px, 2.22vw, 32px)',
+                  padding: 'clamp(12px, 0.97vw, 14px) clamp(16px, 1.53vw, 22px)',
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
                   fontSize: 'clamp(14px, 1.11vw, 16px)',
@@ -1088,7 +1088,7 @@ export default function EquitySolutions() {
               style={{
                 border: '2px solid #14358A',
                 borderRadius: 'clamp(12px, 1.11vw, 16px)',
-                padding: 'clamp(28px, 2.78vw, 40px) clamp(24px, 2.22vw, 32px)',
+                padding: 'clamp(28px, 2.78vw, 40px) clamp(16px, 1.53vw, 22px)',
                 width: '100%',
                 maxWidth: 'min(480px, 95%)',
                 minHeight: '280px',
@@ -1123,7 +1123,7 @@ export default function EquitySolutions() {
               </div>
 
               {/* Title */}
-              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.22vw, 32px)', lineHeight: '120%', color: '#14358A', margin: 0 }}>
+              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '120%', color: '#14358A', margin: 0 }}>
                 Ready to Apply
               </h3>
 
@@ -1140,7 +1140,7 @@ export default function EquitySolutions() {
                   color: '#FFFFFF',
                   border: 'none',
                   borderRadius: '10px',
-                  padding: 'clamp(12px, 0.97vw, 14px) clamp(24px, 2.22vw, 32px)',
+                  padding: 'clamp(12px, 0.97vw, 14px) clamp(16px, 1.53vw, 22px)',
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
                   fontSize: 'clamp(14px, 1.11vw, 16px)',
@@ -1160,7 +1160,7 @@ export default function EquitySolutions() {
       {/* ─── Section 11: Frequently Asked Questions ─── */}
       <section className="w-full py-14 lg:py-20 px-4 sm:px-6" style={{ background: '#FFFFFF' }}>
         <div className="max-w-[min(900px,_90%)] mx-auto">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 48px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', textAlign: 'center', marginBottom: 'clamp(32px, 3.33vw, 48px)' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', textAlign: 'center', marginBottom: 'clamp(32px, 3.33vw, 48px)' }}>
             Frequently Asked Questions
           </h2>
 

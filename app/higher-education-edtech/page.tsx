@@ -13,7 +13,7 @@ export default function HigherEducationEdTech() {
 
         {/* Left Content */}
         <div className="flex flex-col gap-8 max-w-[min(803px,_90%)] z-10">
-          <p className="font-dm-sans font-bold mb-2" style={{ fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '105%', color: '#000000' }}>Higher Education &amp; EdTech</p>
+          <p className="font-dm-sans font-bold mb-2" style={{ fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '105%', color: '#000000' }}>Higher Education &amp; EdTech</p>
           <h1
             className="font-poppins font-semibold text-[#14358A]"
             style={{
@@ -28,7 +28,7 @@ export default function HigherEducationEdTech() {
           <p
             className="font-montserrat font-normal text-[#333333]"
             style={{
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               letterSpacing: '0%',
               maxWidth: 'min(740px, 95%)'
@@ -72,7 +72,7 @@ export default function HigherEducationEdTech() {
         <h2
           className="font-poppins font-semibold text-[#14358A] text-center mb-12"
           style={{
-            fontSize: 'clamp(28px, 3.47vw, 56px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '46px',
             letterSpacing: '0%',
             maxWidth: 'min(1087px, 95%)',
@@ -86,7 +86,7 @@ export default function HigherEducationEdTech() {
           <p
             className="font-montserrat font-normal text-[#333333]"
             style={{
-              fontSize: 'clamp(20px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '150%',
               letterSpacing: '0%',
               maxWidth: 'min(1342px, 95%)',
@@ -99,7 +99,7 @@ export default function HigherEducationEdTech() {
           <p
             className="font-montserrat font-normal text-[#333333]"
             style={{
-              fontSize: 'clamp(20px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '150%',
               letterSpacing: '0%',
               maxWidth: 'min(1342px, 95%)',
@@ -127,7 +127,7 @@ export default function HigherEducationEdTech() {
           style={{
             fontFamily: 'DM Sans, sans-serif',
             fontWeight: 700,
-            fontSize: 'clamp(28px, 3.33vw, 56px)',
+            fontSize: 'clamp(24px, 2.75vw, 39.6px)',
             lineHeight: '105%',
             letterSpacing: '-0.03em',
             color: '#14358A',
@@ -142,7 +142,7 @@ export default function HigherEducationEdTech() {
           style={{
             fontFamily: 'Montserrat, sans-serif',
             fontWeight: 400,
-            fontSize: 'clamp(18px, 2.08vw, 34px)',
+            fontSize: 'clamp(16px, 1.53vw, 22px)',
             lineHeight: '140%',
             color: '#333333',
             maxWidth: 'min(1082px, 95%)',
@@ -169,7 +169,7 @@ export default function HigherEducationEdTech() {
                 <img src="/icon-strategy-transformation.png" alt="Transformation Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
-                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
                 >
                   Transformation Strategy & Implementation
                 </h3>
@@ -178,7 +178,7 @@ export default function HigherEducationEdTech() {
               <p 
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
-                  fontSize: 'clamp(12px, 1.04vw, 17px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#68718B'
                 }}
@@ -200,7 +200,7 @@ export default function HigherEducationEdTech() {
                 <img src="/icon-risk-resilience.png" alt="Operational Efficiency" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
-                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
                 >
                   Governance & Operational Excellence
                 </h3>
@@ -209,7 +209,7 @@ export default function HigherEducationEdTech() {
               <p
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
-                  fontSize: 'clamp(12px, 1.04vw, 17px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#68718B'
                 }}
@@ -231,7 +231,7 @@ export default function HigherEducationEdTech() {
                 <img src="/icon-customer-experience.png" alt="Digital Transformation" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
-                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
                 >
                   Student Experience & Outcomes
                 </h3>
@@ -240,7 +240,7 @@ export default function HigherEducationEdTech() {
               <p
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
-                  fontSize: 'clamp(12px, 1.04vw, 17px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#68718B'
                 }}
@@ -262,7 +262,7 @@ export default function HigherEducationEdTech() {
                 <img src="/icon-regulatory-compliance.png" alt="Academic Portfolio" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
-                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
                 >
                   Academic Portfolio & Program Design
                 </h3>
@@ -271,7 +271,7 @@ export default function HigherEducationEdTech() {
               <p 
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
-                  fontSize: 'clamp(12px, 1.04vw, 17px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#68718B'
                 }}
@@ -293,7 +293,7 @@ export default function HigherEducationEdTech() {
                 <img src="/icon-innovation-fintech.png" alt="Governance & Risk" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
-                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
                 >
                   Governance & Risk
                 </h3>
@@ -302,7 +302,7 @@ export default function HigherEducationEdTech() {
               <p 
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
-                  fontSize: 'clamp(12px, 1.04vw, 17px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#68718B'
                 }}
@@ -324,7 +324,7 @@ export default function HigherEducationEdTech() {
                 <img src="/icon-capital-performance.png" alt="Faculty & Staff Engagement" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
-                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
                 >
                   Faculty & Staff Engagement
                 </h3>
@@ -333,7 +333,7 @@ export default function HigherEducationEdTech() {
               <p 
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
-                  fontSize: 'clamp(12px, 1.04vw, 17px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#68718B'
                 }}
@@ -355,7 +355,7 @@ export default function HigherEducationEdTech() {
                 <img src="/icon-regulatory-compliance.png" alt="Program Evaluation" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
-                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
                 >
                   International Strategy
                 </h3>
@@ -364,7 +364,7 @@ export default function HigherEducationEdTech() {
               <p
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
-                  fontSize: 'clamp(12px, 1.04vw, 17px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#68718B'
                 }}
@@ -386,7 +386,7 @@ export default function HigherEducationEdTech() {
                 <img src="/icon-innovation-fintech.png" alt="Research Performance" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
-                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
                 >
                   Research Performance
                 </h3>
@@ -395,7 +395,7 @@ export default function HigherEducationEdTech() {
               <p 
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
-                  fontSize: 'clamp(12px, 1.04vw, 17px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#68718B'
                 }}
@@ -417,7 +417,7 @@ export default function HigherEducationEdTech() {
                 <img src="/icon-capital-performance.png" alt="Alumni Relations" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
                 <h3
                   className="font-bold mb-3"
-                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(18px, 2.01vw, 33px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
+                  style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}
                 >
                   Alumni Relations & Fundraising
                 </h3>
@@ -426,7 +426,7 @@ export default function HigherEducationEdTech() {
               <p 
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
-                  fontSize: 'clamp(12px, 1.04vw, 17px)',
+                  fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                   lineHeight: '140%',
                   color: '#68718B'
                 }}
@@ -462,7 +462,7 @@ export default function HigherEducationEdTech() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
             }}
@@ -484,7 +484,7 @@ export default function HigherEducationEdTech() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
+                  fontSize: 'clamp(16px, 1.53vw, 22px)',
                   lineHeight: '110%',
                   letterSpacing: '-0.03em',
                   color: '#006FBA',
@@ -503,7 +503,7 @@ export default function HigherEducationEdTech() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>+1000</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>data points collected from executives</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>data points collected from executives</p>
                   </div>
                 </div>
 
@@ -516,7 +516,7 @@ export default function HigherEducationEdTech() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>1</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>late-phase education plan developed</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>late-phase education plan developed</p>
                   </div>
                 </div>
 
@@ -529,7 +529,7 @@ export default function HigherEducationEdTech() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>50+</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>stakeholders engaged across sectors</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>stakeholders engaged across sectors</p>
                   </div>
                 </div>
               </div>
@@ -565,7 +565,7 @@ export default function HigherEducationEdTech() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
+                  fontSize: 'clamp(16px, 1.53vw, 22px)',
                   lineHeight: '110%',
                   letterSpacing: '-0.03em',
                   color: '#006FBA',
@@ -584,7 +584,7 @@ export default function HigherEducationEdTech() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>17%</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>increase in student enrollment & NPS</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>increase in student enrollment & NPS</p>
                   </div>
                 </div>
 
@@ -597,7 +597,7 @@ export default function HigherEducationEdTech() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>30%</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>annual student support hours added</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>annual student support hours added</p>
                   </div>
                 </div>
 
@@ -610,7 +610,7 @@ export default function HigherEducationEdTech() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>24x</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>Return on Investment</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>Return on Investment</p>
                   </div>
                 </div>
               </div>
@@ -646,7 +646,7 @@ export default function HigherEducationEdTech() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(18px, 2.08vw, 34px)',
+                  fontSize: 'clamp(16px, 1.53vw, 22px)',
                   lineHeight: '110%',
                   letterSpacing: '-0.03em',
                   color: '#006FBA',
@@ -665,7 +665,7 @@ export default function HigherEducationEdTech() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>50+</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>increase in student enrollment & NPS</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>increase in student enrollment & NPS</p>
                   </div>
                 </div>
 
@@ -678,7 +678,7 @@ export default function HigherEducationEdTech() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>100+</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>annual student support hours added</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>annual student support hours added</p>
                   </div>
                 </div>
 
@@ -691,7 +691,7 @@ export default function HigherEducationEdTech() {
                   </div>
                   <div>
                     <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>20%</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B' }}>Return on Investment</p>
+                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>Return on Investment</p>
                   </div>
                 </div>
               </div>
@@ -725,7 +725,7 @@ export default function HigherEducationEdTech() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 48px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#1E1E1E',
@@ -738,7 +738,7 @@ export default function HigherEducationEdTech() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              fontSize: 'clamp(13px, 1.07vw, 15.4px)',
               lineHeight: '140%',
               color: '#64748B',
               maxWidth: 'min(800px, 95%)',
@@ -760,7 +760,7 @@ export default function HigherEducationEdTech() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -774,7 +774,7 @@ export default function HigherEducationEdTech() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(18px, 2.08vw, 34px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -785,7 +785,7 @@ export default function HigherEducationEdTech() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(18px, 2.08vw, 34px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '140%',
                 color: '#333333',
               }}
@@ -800,7 +800,7 @@ export default function HigherEducationEdTech() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(18px, 2.08vw, 34px)',
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
                 lineHeight: '140%',
                 color: '#364153',
               }}
@@ -841,7 +841,7 @@ export default function HigherEducationEdTech() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -855,7 +855,7 @@ export default function HigherEducationEdTech() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(20px, 2.22vw, 36px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '135%',
               color: '#333333',
               maxWidth: 'min(1196px, 95%)',

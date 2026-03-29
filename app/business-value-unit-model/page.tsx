@@ -13,7 +13,7 @@ export default function BusinessValueUnitModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              fontSize: 'clamp(13px, 1.07vw, 15.4px)',
               lineHeight: '105%',
               color: '#000000',
               marginBottom: 'clamp(12px, 1.11vw, 16px)',
@@ -25,7 +25,7 @@ export default function BusinessValueUnitModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(30px, 3.33vw, 48px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -39,7 +39,7 @@ export default function BusinessValueUnitModelPage() {
                fontFamily: 'Montserrat, sans-serif',
                fontWeight: 400,
                fontStyle: 'normal',
-               fontSize: 'clamp(16px, 2.08vw, 30px)',
+               fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                lineHeight: '140%',
                letterSpacing: '0%',
                textAlign: 'center',
@@ -86,7 +86,7 @@ export default function BusinessValueUnitModelPage() {
              style={{
                fontFamily: 'DM Sans, sans-serif',
                fontWeight: 700,
-               fontSize: 'clamp(28px, 3.33vw, 48px)',
+               fontSize: 'clamp(24px, 2.75vw, 39.6px)',
                lineHeight: '105%',
                letterSpacing: '-0.03em',
                color: '#FFFFFF',
@@ -422,7 +422,7 @@ export default function BusinessValueUnitModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -436,7 +436,7 @@ export default function BusinessValueUnitModelPage() {
                fontFamily: 'Montserrat, sans-serif',
                fontWeight: 400,
                fontStyle: 'normal',
-               fontSize: 'clamp(18px, 2.08vw, 34px)',
+               fontSize: 'clamp(16px, 1.53vw, 22px)',
                lineHeight: '140%',
                letterSpacing: '0%',
                textAlign: 'center',
@@ -452,7 +452,7 @@ export default function BusinessValueUnitModelPage() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(12px, 1.04vw, 17px)',
+              fontSize: 'clamp(12px, 1.07vw, 15.4px)',
               color: '#14358A',
               textDecoration: 'none',
             }}
@@ -469,7 +469,7 @@ export default function BusinessValueUnitModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -484,7 +484,7 @@ export default function BusinessValueUnitModelPage() {
                fontFamily: 'Montserrat, sans-serif',
                fontWeight: 400,
                fontStyle: 'normal',
-               fontSize: 'clamp(18px, 2.08vw, 34px)',
+               fontSize: 'clamp(16px, 1.53vw, 22px)',
                lineHeight: '140%',
                letterSpacing: '0%',
                textAlign: 'center',
@@ -720,7 +720,7 @@ export default function BusinessValueUnitModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              fontSize: 'clamp(13px, 1.07vw, 15.4px)',
               lineHeight: '105%',
               color: '#000000',
               marginBottom: '12px',
@@ -732,7 +732,7 @@ export default function BusinessValueUnitModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -746,7 +746,7 @@ export default function BusinessValueUnitModelPage() {
                fontFamily: 'Montserrat, sans-serif',
                fontWeight: 400,
                fontStyle: 'normal',
-               fontSize: 'clamp(18px, 2.08vw, 34px)',
+               fontSize: 'clamp(16px, 1.53vw, 22px)',
                lineHeight: '140%',
                letterSpacing: '0%',
                textAlign: 'center',
@@ -764,7 +764,7 @@ export default function BusinessValueUnitModelPage() {
               color: '#FFFFFF',
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(11px, 0.97vw, 16px)',
+              fontSize: 'clamp(12px, 1.07vw, 15.4px)',
               letterSpacing: '0.04em',
               padding: '14px 32px',
               borderRadius: '8px',
@@ -783,7 +783,7 @@ export default function BusinessValueUnitModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -829,7 +829,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(13px, 1.11vw, 18px)',
+                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -882,7 +882,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(13px, 1.11vw, 18px)',
+                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -935,7 +935,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(13px, 1.11vw, 18px)',
+                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -990,7 +990,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(13px, 1.11vw, 18px)',
+                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -1043,7 +1043,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(13px, 1.11vw, 18px)',
+                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -1096,7 +1096,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(13px, 1.11vw, 18px)',
+                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -1151,7 +1151,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(13px, 1.11vw, 18px)',
+                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -1204,7 +1204,7 @@ export default function BusinessValueUnitModelPage() {
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
-                  fontSize: 'clamp(13px, 1.11vw, 18px)',
+                  fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                   color: '#14358A',
                   lineHeight: '1.3',
                 }}
@@ -1233,7 +1233,7 @@ export default function BusinessValueUnitModelPage() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -1245,7 +1245,7 @@ export default function BusinessValueUnitModelPage() {
           <p
             style={{
               fontFamily: 'Montserrat, sans-serif',
-              fontSize: 'clamp(12px, 1.04vw, 17px)',
+              fontSize: 'clamp(12px, 1.07vw, 15.4px)',
               lineHeight: '1.8',
               color: '#333333',
               marginBottom: '36px',
@@ -1261,7 +1261,7 @@ export default function BusinessValueUnitModelPage() {
                color: '#FFFFFF',
                fontFamily: 'Montserrat, sans-serif',
                fontWeight: 700,
-               fontSize: 'clamp(11px, 0.97vw, 16px)',
+               fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                letterSpacing: '0.04em',
                padding: '14px 32px',
                borderRadius: '8px',

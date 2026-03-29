@@ -16,7 +16,7 @@ export default function OutOfTheBoxSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              fontSize: 'clamp(13px, 1.07vw, 15.4px)',
               lineHeight: '105%',
               color: '#000000',
               marginBottom: '12px',
@@ -30,7 +30,7 @@ export default function OutOfTheBoxSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -45,7 +45,7 @@ export default function OutOfTheBoxSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(18px, 2.08vw, 34px)',
+              fontSize: 'clamp(16px, 1.53vw, 22px)',
               lineHeight: '140%',
               color: '#333333',
               marginBottom: '32px',
@@ -70,7 +70,7 @@ export default function OutOfTheBoxSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(13px, 1.11vw, 18px)',
+                fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                 lineHeight: '140%',
                 color: '#333333',
                 textAlign: 'center',
@@ -96,7 +96,7 @@ export default function OutOfTheBoxSolutions() {
             style={{
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(28px, 3.33vw, 56px)',
+              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
               lineHeight: '105%',
               letterSpacing: '-0.03em',
               color: '#14358A',
@@ -111,7 +111,7 @@ export default function OutOfTheBoxSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              fontSize: 'clamp(13px, 1.07vw, 15.4px)',
               lineHeight: '1.75',
               color: '#333333',
               maxWidth: 'min(720px, 95%)',
@@ -158,7 +158,7 @@ export default function OutOfTheBoxSolutions() {
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
                     fontWeight: 700,
-                    fontSize: 'clamp(18px, 2.01vw, 33px)',
+                    fontSize: 'clamp(16px, 1.53vw, 22px)',
                     lineHeight: '130%',
                     color: '#14358A',
                   }}
@@ -169,7 +169,7 @@ export default function OutOfTheBoxSolutions() {
                   style={{
                     fontFamily: 'Montserrat, sans-serif',
                     fontWeight: 400,
-                    fontSize: 'clamp(12px, 1.04vw, 17px)',
+                    fontSize: 'clamp(12px, 1.07vw, 15.4px)',
                     lineHeight: '160%',
                     color: '#333333',
                   }}
@@ -218,7 +218,7 @@ export default function OutOfTheBoxSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(14px, 1.25vw, 20px)',
+              fontSize: 'clamp(13px, 1.07vw, 15.4px)',
               lineHeight: '160%',
               color: '#FFFFFF',
               maxWidth: 'min(720px, 95%)',
@@ -243,10 +243,10 @@ export default function OutOfTheBoxSolutions() {
       <section className="w-full bg-white py-20 px-6">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-14">
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '16px' }}>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '16px' }}>
               The Foundry Catalog
             </h2>
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '1.75', color: '#333333', maxWidth: 'min(560px, 95%)' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '1.75', color: '#333333', maxWidth: 'min(560px, 95%)' }}>
               Explore our toolkits, organized by the proprietary PMG models they help you implement.
             </p>
           </div>
@@ -294,15 +294,15 @@ export default function OutOfTheBoxSolutions() {
                   <div style={{ width: '48px', height: '48px', borderRadius: '10px', backgroundColor: '#14358A', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                     <img src="/ootb-icon-14.png" alt="" style={{ width: '26px', height: '26px', objectFit: 'contain' }} />
                   </div>
-                  <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.01vw, 33px)', color: '#14358A', margin: '6px 0 0 0', lineHeight: '1.2' }}>{card.title}</h3>
+                  <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', color: '#14358A', margin: '6px 0 0 0', lineHeight: '1.2' }}>{card.title}</h3>
                 </div>
-                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '145%', color: '#374151', margin: 0 }}>
+                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '145%', color: '#374151', margin: 0 }}>
                   {card.description}
                 </p>
-                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '160%', color: '#333333' }}>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '160%', color: '#333333' }}>
                   <span style={{ fontWeight: 600 }}>For:</span> {card.tag.replace('For: ', '')}
                 </p>
-                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', lineHeight: '160%', color: '#333333' }}>
+                <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '160%', color: '#333333' }}>
                   <span style={{ fontWeight: 600 }}>Contains:</span> {card.contains}
                 </p>
                 <button
@@ -332,7 +332,7 @@ export default function OutOfTheBoxSolutions() {
       <section className="w-full py-20 px-6" style={{ background: '#F3F4F6' }}>
         <div className="max-w-[min(1300px,_95%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
-            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '0' }}>
+            <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '0' }}>
               Which Solution Is Right for You?
             </h2>
           </div>
@@ -342,7 +342,7 @@ export default function OutOfTheBoxSolutions() {
             {/* Header */}
             <div className="grid grid-cols-5" style={{ borderBottom: '1px solid #D1D5DB', backgroundColor: '#F3F4F6' }}>
               {['Feature', 'Foundry (OOTB)', 'Bespoke', 'Equity', 'Active Management'].map((col, i) => (
-                <div key={i} style={{ padding: '20px 24px', fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: i === 1 ? '#14358A' : '#6B7280', borderLeft: i > 0 ? '1px solid #D1D5DB' : 'none', textAlign: i === 0 ? 'left' : 'center' }}>
+                <div key={i} style={{ padding: '20px 24px', fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: i === 1 ? '#14358A' : '#6B7280', borderLeft: i > 0 ? '1px solid #D1D5DB' : 'none', textAlign: i === 0 ? 'left' : 'center' }}>
                   {col}
                 </div>
               ))}
@@ -356,9 +356,9 @@ export default function OutOfTheBoxSolutions() {
               { feature: 'Best For', foundry: 'Quick fixes, common challenges', bespoke: 'Complex, unique problems', equity: 'Capital-constrained growth', active: 'Leadership gaps, execution needs' },
             ].map((row, ri) => (
               <div key={ri} className="grid grid-cols-5" style={{ borderBottom: ri < 5 ? '1px solid #D1D5DB' : 'none', backgroundColor: '#FFFFFF' }}>
-                <div style={{ padding: '20px 24px', fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.04vw, 17px)', color: '#2F3135', borderRight: '1px solid #D1D5DB' }}>{row.feature}</div>
+                <div style={{ padding: '20px 24px', fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#2F3135', borderRight: '1px solid #D1D5DB' }}>{row.feature}</div>
                 {[row.foundry, row.bespoke, row.equity, row.active].map((val, ci) => (
-                  <div key={ci} style={{ padding: '20px 24px', fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', color: ci === 0 ? '#14358A' : '#6B7280', borderLeft: ci > 0 ? '1px solid #D1D5DB' : 'none', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <div key={ci} style={{ padding: '20px 24px', fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: ci === 0 ? '#14358A' : '#6B7280', borderLeft: ci > 0 ? '1px solid #D1D5DB' : 'none', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     {val}
                   </div>
                 ))}
@@ -367,10 +367,10 @@ export default function OutOfTheBoxSolutions() {
           </div>
 
           <div className="flex flex-col items-center gap-3">
-            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.04vw, 17px)', color: '#6B7280', fontStyle: 'italic' }}>
+            <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#6B7280', fontStyle: 'italic' }}>
               Still unsure? Get a personalised recommendation.
             </p>
-            <a href="/contact-us" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: 'clamp(12px, 1.04vw, 17px)', color: '#14358A', textDecoration: 'underline', display: 'flex', alignItems: 'center', gap: '4px' }}>
+            <a href="/contact-us" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#14358A', textDecoration: 'underline', display: 'flex', alignItems: 'center', gap: '4px' }}>
               Use our Solutions Assessment Tool →
             </a>
           </div>
@@ -388,19 +388,19 @@ export default function OutOfTheBoxSolutions() {
               textAlign: 'center',
             }}
           >
-            <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 2.01vw, 33px)', color: '#14358A', marginBottom: '20px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
+            <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', color: '#14358A', marginBottom: '20px', lineHeight: '105%', letterSpacing: '-0.03em' }}>
               These Are Tools, Not Transformations
             </h3>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: '20px' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', marginBottom: '20px' }}>
               Purchasing a toolkit from The Foundry is like buying a textbook on structural engineering. It gives you the principles and formulas. It does not give you the experienced engineer to diagnose your unique building&apos;s faults, design the retrofit, and oversee the construction.
             </p>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', fontStyle: 'italic', lineHeight: '140%', color: '#68718B', marginBottom: '20px' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', fontStyle: 'italic', lineHeight: '140%', color: '#68718B', marginBottom: '20px' }}>
               Our consulting engagements provide the engineer.
             </p>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#68718B', marginBottom: '20px' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', marginBottom: '20px' }}>
               The true PMG advantage comes from the synthesis of these tools by our Embedded Leaders, validated through our C2 Specification and Anonymous QA Review, and executed within your operating context. That process cannot be productized.
             </p>
-            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.11vw, 18px)', color: '#14358A', marginBottom: '12px' }}>
+            <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#14358A', marginBottom: '12px' }}>
               Use The Foundry to:
             </p>
             <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 0 0', display: 'flex', flexDirection: 'column', gap: '6px' }}>
@@ -410,7 +410,7 @@ export default function OutOfTheBoxSolutions() {
                 'Prove the value of our thinking on a small scale.',
                 'Then, call us for the real work.',
               ].map((item, i) => (
-                <li key={i} style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.11vw, 18px)', lineHeight: '140%', color: '#333333' }}>
+                <li key={i} style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#333333' }}>
                   {item}
                 </li>
               ))}
@@ -422,10 +422,10 @@ export default function OutOfTheBoxSolutions() {
       {/* ─── Section 7: Ready to Elevate Your Business? ─── */}
       <section className="w-full py-16 px-6" style={{ background: '#EBF7FF' }}>
         <div className="max-w-[700px] mx-auto flex flex-col items-center text-center">
-          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(28px, 3.33vw, 56px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '18px' }}>
+          <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '18px' }}>
             Ready to Elevate Your Business?
           </h2>
-          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.25vw, 20px)', lineHeight: '1.75', color: '#333333', marginBottom: '32px' }}>
+          <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '1.75', color: '#333333', marginBottom: '32px' }}>
             Let&apos;s discuss how PMG can help you navigate your challenges and seize new opportunities.
           </p>
           <a
@@ -438,7 +438,7 @@ export default function OutOfTheBoxSolutions() {
               color: '#FFFFFF',
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
-              fontSize: 'clamp(13px, 1.11vw, 18px)',
+              fontSize: 'clamp(14px, 1.22vw, 17.6px)',
               textDecoration: 'none',
             }}
           >
