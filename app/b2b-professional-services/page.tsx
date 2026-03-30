@@ -2,6 +2,35 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import OurProjectsSection, { DollarIcon, TrendUpIcon, CheckIcon, ScreenIcon } from '@/components/OurProjectsSection';
+import type { ProjectCardData } from '@/components/OurProjectsSection';
+
+const b2bProjects: ProjectCardData[] = [
+  {
+    title: 'Artemis Capital',
+    stats: [
+      { icon: <DollarIcon />, value: '12%', label: 'reduction in operating expenses' },
+      { icon: <ScreenIcon />, value: '25%', label: 'reduction in low-value personnel spend' },
+      { icon: <TrendUpIcon />, value: '22x', label: 'Return on Investment' },
+    ],
+  },
+  {
+    title: 'Kraken',
+    stats: [
+      { icon: <CheckIcon />, value: '22%', label: 'increase in customer satisfaction' },
+      { icon: <ScreenIcon />, value: '40%', label: 'reduction in signup-to-activation time' },
+      { icon: <TrendUpIcon />, value: '23x', label: 'Return on Investment' },
+    ],
+  },
+  {
+    title: 'OneSCM',
+    stats: [
+      { icon: <TrendUpIcon />, value: '25%', label: 'increase in qualified leads' },
+      { icon: <CheckIcon />, value: '17%', label: 'increase in customer renewal rates' },
+      { icon: <TrendUpIcon />, value: '9x', label: 'Return on Investment' },
+    ],
+  },
+];
 
 export default function B2BProfessionalServices() {
   return (
@@ -292,337 +321,7 @@ export default function B2BProfessionalServices() {
       </div>
 
       {/* Our Projects Section */}
-      <div
-        className="relative py-24 px-6 overflow-hidden"
-        style={{
-          backgroundImage: 'url(/projects-bg-financial.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          minHeight: '700px'
-        }}
-      >
-        {/* Decorative Rectangle - Top Right */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
-        {/* Decorative Rectangle - Bottom Left */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        {/* Decorative Border Rectangle - Top Left */}
-        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-
-        <div className="max-w-[min(1300px,_95%)] mx-auto relative z-10">
-          <h2
-            className="font-dm-sans font-bold text-white text-center mb-16"
-            style={{
-              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em'
-            }}
-          >
-            Our Projects
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
-            {/* Project 1: Artemis Capital */}
-            <div
-              className="bg-[#E8F0FE] hover:shadow-xl transition-shadow duration-300"
-              style={{
-                width: '340px',
-                minHeight: '420px',
-                borderRadius: '16px',
-                padding: '32px',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '20px'
-              }}
-            >
-              <h3
-                className="font-poppins font-semibold text-center"
-                style={{
-                  fontSize: 'clamp(16px, 1.53vw, 22px)',
-                  lineHeight: '110%',
-                  color: '#1e40af',
-                  marginBottom: '8px'
-                }}
-              >
-                Artemis Capital
-              </h3>
-
-              <div className="flex flex-col gap-6 mb-8">
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#1e40af"/>
-                      <path d="M7 12H17M12 7V17" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
-                      12%
-                    </p>
-                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#64748b' }}>
-                      reduction in operating expenses
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#1e40af"/>
-                      <path d="M7 12H17M12 7V17" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
-                      25%
-                    </p>
-                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#64748b' }}>
-                      reduction in low-value personnel spend
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#1e40af"/>
-                      <path d="M7 12H17M12 7V17" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
-                      22x
-                    </p>
-                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#64748b' }}>
-                      Return on Investment
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-auto mx-auto">
-                <button
-                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
-                  style={{
-                    width: 'clamp(120px, 10.9vw, 157px)',
-                    height: 'clamp(44px, 4.17vw, 60px)',
-                    borderRadius: '10px',
-                    padding: '16px 32px',
-                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                    fontSize: 'clamp(15px, 1.39vw, 22px)',
-                    lineHeight: '140%',
-                    letterSpacing: '0%',
-                    border: 'none',
-                    cursor: 'pointer',
-                    whiteSpace: 'nowrap'
-                  }}
-                >
-                  Learn More
-                </button>
-              </div>
-            </div>
-
-            {/* Project 2: Kraken */}
-            <div
-              className="bg-[#E8F0FE] hover:shadow-xl transition-shadow duration-300"
-              style={{
-                width: '340px',
-                minHeight: '420px',
-                borderRadius: '16px',
-                padding: '32px',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '20px'
-              }}
-            >
-              <h3
-                className="font-poppins font-semibold text-center"
-                style={{
-                  fontSize: 'clamp(16px, 1.53vw, 22px)',
-                  lineHeight: '110%',
-                  color: '#1e40af',
-                  marginBottom: '8px'
-                }}
-              >
-                Kraken
-              </h3>
-
-              <div className="flex flex-col gap-6 mb-8">
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#1e40af"/>
-                      <path d="M7 12H17M12 7V17" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
-                      22%
-                    </p>
-                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#64748b' }}>
-                      increase in customer satisfaction
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#1e40af"/>
-                      <path d="M7 12H17M12 7V17" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
-                      40%
-                    </p>
-                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#64748b' }}>
-                      reduction in signup-to-activation time
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#1e40af"/>
-                      <path d="M7 12H17M12 7V17" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
-                      23x
-                    </p>
-                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#64748b' }}>
-                      Return on Investment
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-auto mx-auto">
-                <button
-                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
-                  style={{
-                    width: 'clamp(120px, 10.9vw, 157px)',
-                    height: 'clamp(44px, 4.17vw, 60px)',
-                    borderRadius: '10px',
-                    padding: '16px 32px',
-                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                    fontSize: 'clamp(15px, 1.39vw, 22px)',
-                    lineHeight: '140%',
-                    letterSpacing: '0%',
-                    border: 'none',
-                    cursor: 'pointer',
-                    whiteSpace: 'nowrap'
-                  }}
-                >
-                  Learn More
-                </button>
-              </div>
-            </div>
-
-            {/* Project 3: Artemis Capital */}
-            <div
-              className="bg-[#E8F0FE] hover:shadow-xl transition-shadow duration-300"
-              style={{
-                width: '340px',
-                minHeight: '420px',
-                borderRadius: '16px',
-                padding: '32px',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '20px'
-              }}
-            >
-              <h3
-                className="font-poppins font-semibold text-center"
-                style={{
-                  fontSize: 'clamp(16px, 1.53vw, 22px)',
-                  lineHeight: '110%',
-                  color: '#1e40af',
-                  marginBottom: '8px'
-                }}
-              >
-                Artemis Capital
-              </h3>
-
-              <div className="flex flex-col gap-6 mb-8">
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#1e40af"/>
-                      <path d="M7 12H17M12 7V17" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
-                      25%
-                    </p>
-                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#64748b' }}>
-                      increase in qualified leads
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#1e40af"/>
-                      <path d="M7 12H17M12 7V17" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
-                      15%
-                    </p>
-                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#64748b' }}>
-                      increase in customer renewal rates
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#1e40af"/>
-                      <path d="M7 12H17M12 7V17" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', color: '#1e40af' }}>
-                      9x
-                    </p>
-                    <p className="font-inter font-normal" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#64748b' }}>
-                      Return on Investment
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-auto mx-auto">
-                <button
-                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
-                  style={{
-                    width: 'clamp(120px, 10.9vw, 157px)',
-                    height: 'clamp(44px, 4.17vw, 60px)',
-                    borderRadius: '10px',
-                    padding: '16px 32px',
-                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                    fontSize: 'clamp(15px, 1.39vw, 22px)',
-                    lineHeight: '140%',
-                    letterSpacing: '0%',
-                    border: 'none',
-                    cursor: 'pointer',
-                    whiteSpace: 'nowrap'
-                  }}
-                >
-                  Learn More
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <OurProjectsSection projects={b2bProjects} backgroundImage="/projects-bg-financial.webp" />
 
       {/* Our Projects Description Section */}
       <div className="w-full py-16 bg-white">

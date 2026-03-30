@@ -89,7 +89,13 @@ export default function About() {
               }}
             >
               <div className="flex items-center gap-4 mb-4">
-                <img src="/icon-functional.png" alt="Functional Mastery Icon" width={64} height={64} className="flex-shrink-0" />
+                <div className="flex-shrink-0 flex items-center justify-center rounded-[10px]" style={{ width: 64, height: 64, background: '#14358A' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.5 9.5L8.5 5.5C8.3 4.6 9 3.8 9.9 3.8H14.1C15 3.8 15.7 4.6 15.5 5.5L14.5 9.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <circle cx="12" cy="16" r="5.5" stroke="white" strokeWidth="1.5"/>
+                    <circle cx="12" cy="16" r="2.5" stroke="white" strokeWidth="1.5"/>
+                  </svg>
+                </div>
                 <h4
                   className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
                   style={{
@@ -121,7 +127,7 @@ export default function About() {
               }}
             >
               <div className="flex items-center gap-4 mb-4">
-                <img src="/icon-passion.png" alt="Passion for Results Icon" width={64} height={64} className="flex-shrink-0" />
+                <img src="/figma-icon-passion.png" alt="Passion for Results Icon" width={64} height={64} className="flex-shrink-0" />
                 <h4
                   className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
                   style={{
@@ -153,7 +159,16 @@ export default function About() {
               }}
             >
               <div className="flex items-center gap-4 mb-4">
-                <img src="/icon-network.png" alt="Expert Network Icon" width={64} height={64} className="flex-shrink-0" />
+                <div className="flex-shrink-0 flex items-center justify-center rounded-[10px]" style={{ width: 64, height: 64, background: '#14358A' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="6" r="3" stroke="white" strokeWidth="1.5"/>
+                    <path d="M6 21v-1a6 6 0 0 1 12 0v1" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                    <circle cx="4.5" cy="9.5" r="2" stroke="white" strokeWidth="1.5"/>
+                    <path d="M1 21v-0.5A4.5 4.5 0 0 1 5.5 16" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                    <circle cx="19.5" cy="9.5" r="2" stroke="white" strokeWidth="1.5"/>
+                    <path d="M23 21v-0.5A4.5 4.5 0 0 0 18.5 16" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                  </svg>
+                </div>
                 <h4
                   className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
                   style={{
@@ -185,7 +200,15 @@ export default function About() {
               }}
             >
               <div className="flex items-center gap-4 mb-4">
-                <img src="/icon-innovation.png" alt="Relentless Innovation Icon" width={64} height={64} className="flex-shrink-0" />
+                <div className="flex-shrink-0 flex items-center justify-center rounded-[10px]" style={{ width: 64, height: 64, background: '#14358A' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2" y="4" width="20" height="16" rx="2" stroke="white" strokeWidth="1.5"/>
+                    <circle cx="12" cy="12" r="3" stroke="white" strokeWidth="1.5"/>
+                    <path d="M6 8.5h.01" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                    <path d="M6 12h.01" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                    <path d="M6 15.5h.01" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                  </svg>
+                </div>
                 <h4
                   className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
                   style={{
@@ -217,7 +240,16 @@ export default function About() {
               }}
             >
               <div className="flex items-center gap-4 mb-4">
-                <img src="/icon-leadership.png" alt="People-Focused Leadership Icon" width={64} height={64} className="flex-shrink-0" />
+                <div className="flex-shrink-0 flex items-center justify-center rounded-[10px]" style={{ width: 64, height: 64, background: '#14358A' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="6" r="3" stroke="white" strokeWidth="1.5"/>
+                    <path d="M6 21v-1a6 6 0 0 1 12 0v1" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                    <circle cx="4.5" cy="9.5" r="2" stroke="white" strokeWidth="1.5"/>
+                    <path d="M1 21v-0.5A4.5 4.5 0 0 1 5.5 16" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                    <circle cx="19.5" cy="9.5" r="2" stroke="white" strokeWidth="1.5"/>
+                    <path d="M23 21v-0.5A4.5 4.5 0 0 0 18.5 16" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                  </svg>
+                </div>
                 <h4
                   className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
                   style={{
@@ -249,7 +281,7 @@ export default function About() {
               }}
             >
               <div className="flex items-center gap-4 mb-4">
-                <img src="/icon-evidence.png" alt="Evidence-Based Strategy Icon" width={64} height={64} className="flex-shrink-0" />
+                <img src="/figma-icon-evidence.png" alt="Evidence-Based Strategy Icon" width={64} height={64} className="flex-shrink-0" />
                 <h4
                   className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
                   style={{

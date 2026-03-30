@@ -62,7 +62,9 @@
       "Bash(ls -la /Users/teja/pmg_final-v/pmg-z/public/*.png /Users/teja/pmg_final-v/pmg-z/public/*.webp 2>/dev/null | head -30)",
       "Bash(ls /Users/teja/pmg_final-v/pmg-z/public/world-map* && wc -c /Users/teja/pmg_final-v/pmg-z/public/world-map.png /Users/teja/pmg_final-v/pmg-z/public/world-map.webp)",
       "Bash(find /Users/teja/pmg_final-v/pmg-z -type f \\\\\\( -name \"*.css\" -o -name \"*.module.css\" \\\\\\) ! -path \"*/node_modules/*\" ! -path \"*/.next/*\" 2>/dev/null | sort)",
-      "Bash(find app:*)"
+      "Bash(find app:*)",
+      "mcp__figma__get_metadata",
+      "Bash(ls /Users/teja/pmg_final-v/pmg-z/public/icon-* 2>/dev/null && ls /Users/teja/pmg_final-v/pmg-z/public/figma-icon-* 2>/dev/null)"
     ]
   },
   "enabledPlugins": {

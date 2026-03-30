@@ -2,6 +2,35 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import OurProjectsSection, { DollarIcon, ScreenIcon, CheckIcon } from '@/components/OurProjectsSection';
+import type { ProjectCardData } from '@/components/OurProjectsSection';
+
+const saasProjects: ProjectCardData[] = [
+  {
+    title: 'Trilogy Software',
+    stats: [
+      { icon: <DollarIcon />, value: '$8M', label: 'in annual support costs saved' },
+      { icon: <CheckIcon />, value: '16%', label: 'increase in Customer Satisfaction' },
+      { icon: <ScreenIcon />, value: '77x', label: 'Return on Investment' },
+    ],
+  },
+  {
+    title: 'Kraken',
+    stats: [
+      { icon: <CheckIcon />, value: '3,500', label: 'ticket backlog eliminated' },
+      { icon: <ScreenIcon />, value: '65%', label: 'reduction in first-response time' },
+      { icon: <ScreenIcon />, value: '23x', label: 'Return on Investment' },
+    ],
+  },
+  {
+    title: 'Avolin',
+    stats: [
+      { icon: <ScreenIcon />, value: '22%', label: 'reduction in customer churn' },
+      { icon: <ScreenIcon />, value: '14%', label: 'increase in post-acquisition margin' },
+      { icon: <ScreenIcon />, value: '20x', label: 'Return on Investment' },
+    ],
+  },
+];
 
 export default function SaaSEnterpriseTechnology() {
   return (
@@ -359,393 +388,7 @@ export default function SaaSEnterpriseTechnology() {
       </div>
 
       {/* Our Projects Section */}
-      <div
-        className="relative py-24 px-6 overflow-hidden"
-        style={{
-          backgroundImage: 'url(/projects-bg.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          minHeight: '852px'
-        }}
-      >
-        {/* Decorative Rectangle - Top Right */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
-        {/* Decorative Rectangle - Bottom Left */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        {/* Decorative Border Rectangle - Top Left */}
-        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-
-        <div className="max-w-[min(1300px,_95%)] mx-auto">
-          {/* Section Title */}
-          <h2
-            className="font-dm-sans font-bold text-white text-center mb-16"
-            style={{
-              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em'
-            }}
-          >
-            Our Projects
-          </h2>
-
-          {/* Project Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
-            {/* Card 1: Trilogy Software */}
-            <div
-              className="bg-white hover:shadow-xl transition-shadow duration-300"
-              style={{
-                width: 'clamp(280px, 26.46vw, 381px)',
-                minHeight: '378px',
-                borderRadius: '10px',
-                padding: '24px',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '24px'
-              }}
-            >
-              <h3
-                className="font-dm-sans font-bold text-center"
-                style={{
-                  fontSize: 'clamp(16px, 1.53vw, 22px)',
-                  lineHeight: '110%',
-                  letterSpacing: '-3%',
-                  color: '#006FBA'
-                }}
-              >
-                Trilogy Software
-              </h3>
-
-              {/* Stats */}
-              <div className="flex flex-col gap-4">
-                {/* Stat 1 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="2" y="4" width="20" height="16" rx="2" stroke="#006FBA" strokeWidth="2"/>
-                      <path d="M7 12h2m2 0h6" stroke="#006FBA" strokeWidth="2" strokeLinecap="round"/>
-                      <path d="M7 16h10" stroke="#006FBA" strokeWidth="2" strokeLinecap="round"/>
-                      <circle cx="8" cy="8" r="1.5" fill="#006FBA"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p
-                      className="font-dm-sans font-bold"
-                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
-                    >
-                      $8M
-                    </p>
-                    <p
-                      className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
-                    >
-                      in annual support costs saved
-                    </p>
-                  </div>
-                </div>
-
-                {/* Stat 2 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="2" y="3" width="20" height="18" rx="2" stroke="#006FBA" strokeWidth="2"/>
-                      <path d="M6 12l4 4 8-8" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p
-                      className="font-dm-sans font-bold"
-                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
-                    >
-                      16%
-                    </p>
-                    <p
-                      className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
-                    >
-                      increase in Customer Satisfaction
-                    </p>
-                  </div>
-                </div>
-
-                {/* Stat 3 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="3" y="3" width="18" height="18" rx="2" stroke="#006FBA" strokeWidth="2"/>
-                      <path d="M7 12l3 3 7-7" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p
-                      className="font-dm-sans font-bold"
-                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
-                    >
-                      77x
-                    </p>
-                    <p
-                      className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
-                    >
-                      Return on Investment
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Learn More Button */}
-              <div className="mt-auto mx-auto">
-                <button
-                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
-                  style={{
-                    width: 'clamp(120px, 10.9vw, 157px)',
-                    height: 'clamp(44px, 4.17vw, 60px)',
-                    borderRadius: '10px',
-                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                    fontSize: 'clamp(15px, 1.39vw, 22px)',
-                    lineHeight: '140%'
-                  }}
-                >
-                  Learn More
-                </button>
-              </div>
-            </div>
-
-            {/* Card 2: Kraken */}
-            <div
-              className="bg-white hover:shadow-xl transition-shadow duration-300"
-              style={{
-                width: 'clamp(280px, 26.46vw, 381px)',
-                minHeight: '378px',
-                borderRadius: '10px',
-                padding: '24px',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '24px'
-              }}
-            >
-              <h3
-                className="font-dm-sans font-bold text-center"
-                style={{
-                  fontSize: 'clamp(16px, 1.53vw, 22px)',
-                  lineHeight: '110%',
-                  letterSpacing: '-3%',
-                  color: '#006FBA'
-                }}
-              >
-                Kraken
-              </h3>
-
-              {/* Stats */}
-              <div className="flex flex-col gap-4">
-                {/* Stat 1 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="3" y="3" width="18" height="18" rx="2" stroke="#006FBA" strokeWidth="2"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p
-                      className="font-dm-sans font-bold"
-                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
-                    >
-                      3,500
-                    </p>
-                    <p
-                      className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
-                    >
-                      ticket backlog eliminated
-                    </p>
-                  </div>
-                </div>
-
-                {/* Stat 2 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="2" y="3" width="20" height="18" rx="2" stroke="#006FBA" strokeWidth="2"/>
-                      <path d="M6 12l4 4 8-8" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p
-                      className="font-dm-sans font-bold"
-                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
-                    >
-                      65%
-                    </p>
-                    <p
-                      className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
-                    >
-                      reduction in first-response time
-                    </p>
-                  </div>
-                </div>
-
-                {/* Stat 3 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="3" y="3" width="18" height="18" rx="2" stroke="#006FBA" strokeWidth="2"/>
-                      <path d="M7 12l3 3 7-7" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p
-                      className="font-dm-sans font-bold"
-                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
-                    >
-                      23x
-                    </p>
-                    <p
-                      className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
-                    >
-                      Return on Investment
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Learn More Button */}
-              <div className="mt-auto mx-auto">
-                <button
-                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
-                  style={{
-                    width: 'clamp(120px, 10.9vw, 157px)',
-                    height: 'clamp(44px, 4.17vw, 60px)',
-                    borderRadius: '10px',
-                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                    fontSize: 'clamp(15px, 1.39vw, 22px)',
-                    lineHeight: '140%'
-                  }}
-                >
-                  Learn More
-                </button>
-              </div>
-            </div>
-
-            {/* Card 3: Artemis Capital */}
-            <div
-              className="bg-white hover:shadow-xl transition-shadow duration-300"
-              style={{
-                width: 'clamp(280px, 26.46vw, 381px)',
-                minHeight: '378px',
-                borderRadius: '10px',
-                padding: '24px',
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '24px'
-              }}
-            >
-              <h3
-                className="font-dm-sans font-bold text-center"
-                style={{
-                  fontSize: 'clamp(16px, 1.53vw, 22px)',
-                  lineHeight: '110%',
-                  letterSpacing: '-3%',
-                  color: '#006FBA'
-                }}
-              >
-                Artemis Capital
-              </h3>
-
-              {/* Stats */}
-              <div className="flex flex-col gap-4">
-                {/* Stat 1 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="3" y="3" width="18" height="18" rx="2" stroke="#006FBA" strokeWidth="2"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p
-                      className="font-dm-sans font-bold"
-                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
-                    >
-                      22%
-                    </p>
-                    <p
-                      className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
-                    >
-                      reduction in customer churn
-                    </p>
-                  </div>
-                </div>
-
-                {/* Stat 2 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="2" y="3" width="20" height="18" rx="2" stroke="#006FBA" strokeWidth="2"/>
-                      <path d="M6 12l4 4 8-8" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p
-                      className="font-dm-sans font-bold"
-                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
-                    >
-                      14%
-                    </p>
-                    <p
-                      className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
-                    >
-                      increase in post-acquisition margin
-                    </p>
-                  </div>
-                </div>
-
-                {/* Stat 3 */}
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="3" y="3" width="18" height="18" rx="2" stroke="#006FBA" strokeWidth="2"/>
-                      <path d="M7 12l3 3 7-7" stroke="#006FBA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p
-                      className="font-dm-sans font-bold"
-                      style={{ fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-3%', color: '#006FBA' }}
-                    >
-                      20x
-                    </p>
-                    <p
-                      className="font-dm-sans font-normal"
-                      style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}
-                    >
-                      Return on Investment
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Learn More Button */}
-              <div className="mt-auto mx-auto">
-                <button
-                  className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
-                  style={{
-                    width: 'clamp(120px, 10.9vw, 157px)',
-                    height: 'clamp(44px, 4.17vw, 60px)',
-                    borderRadius: '10px',
-                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                    fontSize: 'clamp(15px, 1.39vw, 22px)',
-                    lineHeight: '140%'
-                  }}
-                >
-                  Learn More
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <OurProjectsSection projects={saasProjects} backgroundImage="/projects-bg.webp" />
 
       {/* Our Projects Description Section */}
       <div className="w-full py-16 bg-white">

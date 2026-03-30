@@ -2,6 +2,7 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import BlueSectionDecorated from '@/components/BlueSectionDecorated';
 
 export default function WhyFunctionalConsulting() {
   return (
@@ -44,14 +45,7 @@ export default function WhyFunctionalConsulting() {
       </div>
 
       {/* The Problem with Traditional Consulting Section */}
-      <div 
-        className="relative w-full py-20"
-        style={{
-          backgroundImage: 'url(/problem-consulting-bg.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
+      <BlueSectionDecorated style={{ padding: '80px 24px' }}>
         <div className="max-w-[min(1440px,_95%)] mx-auto px-4">
           <div className="text-center mb-12">
             <h2
@@ -212,7 +206,7 @@ export default function WhyFunctionalConsulting() {
             </div>
           </div>
         </div>
-      </div>
+      </BlueSectionDecorated>
 
       {/* Sound Familiar? The Echoes of Frustration Section */}
       <div className="relative w-full py-20 bg-white">

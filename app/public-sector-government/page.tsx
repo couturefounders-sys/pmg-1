@@ -2,6 +2,35 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import OurProjectsSection, { DollarIcon, CheckIcon, ScreenIcon } from '@/components/OurProjectsSection';
+import type { ProjectCardData } from '@/components/OurProjectsSection';
+
+const publicProjects: ProjectCardData[] = [
+  {
+    title: 'Government of Nova Scotia',
+    stats: [
+      { icon: <CheckIcon />, value: '1,000+', label: 'data points collected from executives' },
+      { icon: <ScreenIcon />, value: '1', label: 'late-phase education plan developed' },
+      { icon: <ScreenIcon />, value: '50+', label: 'stakeholders engaged across sectors' },
+    ],
+  },
+  {
+    title: 'McGill University',
+    stats: [
+      { icon: <DollarIcon />, value: '$5M', label: 'in service hours added at no extra cost' },
+      { icon: <CheckIcon />, value: '30%', label: 'reduction in cost per program hour' },
+      { icon: <CheckIcon />, value: '45x', label: 'Return on Investment' },
+    ],
+  },
+  {
+    title: 'NSCC',
+    stats: [
+      { icon: <CheckIcon />, value: '17%', label: 'increase in student enrollment & NPS' },
+      { icon: <ScreenIcon />, value: '400+', label: 'annual student support hours added' },
+      { icon: <CheckIcon />, value: '24x', label: 'Return on Investment' },
+    ],
+  },
+];
 
 export default function PublicSectorGovernment() {
   return (
@@ -257,284 +286,7 @@ export default function PublicSectorGovernment() {
       </div>
 
       {/* Our Projects Section */}
-      <div 
-        className="relative w-full py-24 overflow-hidden"
-        style={{
-          backgroundImage: 'url(/project-bg.webp)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-        }}
-      >
-        {/* Decorative Rectangle - Top Right */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', right: '-20px', top: '40px', background: '#0097FE', transform: 'rotate(-15deg)', transformOrigin: 'right center' }} />
-        {/* Decorative Rectangle - Bottom Left */}
-        <div className="absolute pointer-events-none" style={{ width: '300px', height: '70px', left: '-20px', bottom: '40px', background: '#0097FE', opacity: 0.5, transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-        {/* Decorative Border Rectangle - Top Left */}
-        <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
-
-        <div className="relative max-w-[min(1440px,_95%)] mx-auto px-4 sm:px-[clamp(20px,3.61vw,52px)]">
-          {/* Section Heading */}
-          <h2
-            className="text-center text-white mb-16"
-            style={{
-              fontFamily: 'DM Sans, sans-serif',
-              fontWeight: 700,
-              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
-              lineHeight: '105%',
-              letterSpacing: '-0.03em',
-            }}
-          >
-            Our Projects
-          </h2>
-
-          {/* Project Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Card 1 - Government of Nova Scotia */}
-            <div 
-              className="bg-white rounded-[16px] p-8 relative"
-              style={{
-                boxShadow: '0 10px 40px rgba(0,0,0,0.15)',
-              }}
-            >
-              <h3 
-                className="text-center mb-8"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: 'clamp(16px, 1.53vw, 22px)',
-                  lineHeight: '110%',
-                  letterSpacing: '-0.03em',
-                  color: '#006FBA',
-                }}
-              >
-                Government of Nova Scotia
-              </h3>
-
-              <div className="flex flex-col gap-6 mb-8">
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#006FBA"/>
-                      <path d="M7 12H17M12 7V17" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>+1000</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>data points collected from executives</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#006FBA"/>
-                      <rect x="8" y="8" width="8" height="8" rx="1" stroke="white" strokeWidth="1.5"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>1</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>late-phase education plan developed</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#006FBA"/>
-                      <rect x="8" y="8" width="8" height="8" rx="1" stroke="white" strokeWidth="1.5"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>50+</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>stakeholders engaged across sectors</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex justify-center">
-                <button 
-                  className="text-white font-bold hover:opacity-90 transition-opacity"
-                  style={{
-                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                    borderRadius: '10px',
-                    padding: '16px 32px',
-                    fontFamily: 'DM Sans, sans-serif',
-                    fontSize: 'clamp(15px, 1.39vw, 22px)',
-                    lineHeight: '140%',
-                    border: 'none',
-                    cursor: 'pointer',
-                  }}
-                >
-                  Learn More
-                </button>
-              </div>
-            </div>
-
-            {/* Card 2 - Kraken */}
-            <div 
-              className="bg-white rounded-[16px] p-8 relative"
-              style={{
-                boxShadow: '0 10px 40px rgba(0,0,0,0.15)',
-              }}
-            >
-              <h3 
-                className="text-center mb-8"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: 'clamp(16px, 1.53vw, 22px)',
-                  lineHeight: '110%',
-                  letterSpacing: '-0.03em',
-                  color: '#006FBA',
-                }}
-              >
-                Kraken
-              </h3>
-
-              <div className="flex flex-col gap-6 mb-8">
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#006FBA"/>
-                      <rect x="8" y="8" width="8" height="8" rx="1" stroke="white" strokeWidth="1.5"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>$5M</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>in service hours added at no extra cost</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#006FBA"/>
-                      <rect x="8" y="8" width="8" height="8" rx="1" stroke="white" strokeWidth="1.5"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>30%</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>reduction in cost per program hour</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#006FBA"/>
-                      <path d="M8 16L12 8L16 16" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>45x</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>Return on Investment</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex justify-center">
-                <button 
-                  className="text-white font-bold hover:opacity-90 transition-opacity"
-                  style={{
-                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                    borderRadius: '10px',
-                    padding: '16px 32px',
-                    fontFamily: 'DM Sans, sans-serif',
-                    fontSize: 'clamp(15px, 1.39vw, 22px)',
-                    lineHeight: '140%',
-                    border: 'none',
-                    cursor: 'pointer',
-                  }}
-                >
-                  Learn More
-                </button>
-              </div>
-            </div>
-
-            {/* Card 3 - Artemis Capital */}
-            <div 
-              className="bg-white rounded-[16px] p-8 relative"
-              style={{
-                boxShadow: '0 10px 40px rgba(0,0,0,0.15)',
-              }}
-            >
-              <h3 
-                className="text-center mb-8"
-                style={{
-                  fontFamily: 'DM Sans, sans-serif',
-                  fontWeight: 700,
-                  fontSize: 'clamp(16px, 1.53vw, 22px)',
-                  lineHeight: '110%',
-                  letterSpacing: '-0.03em',
-                  color: '#006FBA',
-                }}
-              >
-                Artemis Capital
-              </h3>
-
-              <div className="flex flex-col gap-6 mb-8">
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#006FBA"/>
-                      <rect x="8" y="8" width="8" height="8" rx="1" stroke="white" strokeWidth="1.5"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>17%</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>increase in student enrollment & NPS</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#006FBA"/>
-                      <rect x="8" y="8" width="8" height="8" rx="1" stroke="white" strokeWidth="1.5"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>400+</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>annual student support hours added</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 mt-1 flex-shrink-0">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <rect width="24" height="24" rx="4" fill="#006FBA"/>
-                      <path d="M8 16L12 8L16 16" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', lineHeight: '110%', letterSpacing: '-0.03em', color: '#006FBA', marginBottom: '4px' }}>24x</p>
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>Return on Investment</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex justify-center">
-                <button 
-                  className="text-white font-bold hover:opacity-90 transition-opacity"
-                  style={{
-                    background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
-                    borderRadius: '10px',
-                    padding: '16px 32px',
-                    fontFamily: 'DM Sans, sans-serif',
-                    fontSize: 'clamp(15px, 1.39vw, 22px)',
-                    lineHeight: '140%',
-                    border: 'none',
-                    cursor: 'pointer',
-                  }}
-                >
-                  Learn More
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <OurProjectsSection projects={publicProjects} backgroundImage="/project-bg.webp" />
 
       {/* Our Projects Description Section */}
       <div className="w-full py-16 bg-white">
