@@ -541,220 +541,54 @@ export default function WhyFunctionalConsulting() {
           </h2>
 
           {/* Timeline Layout */}
-          <div className="relative max-w-[min(1100px,_90%)] mx-auto">
-            {/* Vertical Line */}
-            <div 
-              className="absolute left-1/2 transform -translate-x-1/2"
-              style={{
-                width: '4px',
-                height: '100%',
-                background: '#006FBA',
-                top: 0,
-              }}
-            />
-
-            {/* Timeline Items */}
-            <div className="relative flex flex-col gap-8">
-              {/* Item 1 - Left */}
-              <div className="flex items-center justify-end pr-[calc(50%+40px)]">
-                <div className="relative">
-                  {/* Dashed line to timeline */}
-                  <div 
-                    className="absolute right-0 top-1/2 transform translate-x-full"
-                    style={{
-                      width: '40px',
-                      height: '0',
-                      borderTop: '2px dashed #006FBA',
-                    }}
-                  />
-                  <div
-                    className="p-6"
-                    style={{
-                      border: '3px solid #006FBA',
-                      borderRadius: '16px',
-                      maxWidth: 'min(350px, 100%)',
-                    }}
-                  >
-                    <p
-                      style={{
-                        fontFamily: 'DM Sans, sans-serif',
-                        fontWeight: 700,
-                        fontSize: 'clamp(16px, 1.53vw, 22px)',
-                        lineHeight: '105%',
-                        letterSpacing: '-0.03em',
-                        textAlign: 'right',
-                        background: 'linear-gradient(90deg, #006FBA 0%, #003254 100%)',
-                        WebkitBackgroundClip: 'text',
-                        WebkitTextFillColor: 'transparent',
-                        backgroundClip: 'text',
-                      }}
-                    >
-                      Faster adoption, because solutions are designed by true experts.
-                    </p>
-                  </div>
+          <div className="max-w-[min(1100px,_90%)] mx-auto flex flex-col gap-8" style={{ position: 'relative' }}>
+            {/* Continuous vertical line */}
+            <div style={{ position: 'absolute', top: 0, bottom: 0, left: 'calc(50% - 2px)', width: '4px', background: '#006FBA', zIndex: 0 }} />
+            {[
+              { side: 'left',  text: 'Faster adoption, because solutions are designed by true experts.' },
+              { side: 'right', text: 'Stronger ROI, because every recommendation is tied to measurable outcomes.' },
+              { side: 'left',  text: 'Greater innovation, because insights flow across industries, not just within them.' },
+              { side: 'right', text: 'More accountability, because we only succeed if our clients do.' },
+            ].map((item, i) => (
+              <div
+                key={i}
+                style={{
+                  display: 'grid',
+                  gridTemplateColumns: '1fr 40px 4px 40px 1fr',
+                  alignItems: 'center',
+                  position: 'relative',
+                }}
+              >
+                {/* Left box */}
+                <div style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: '0' }}>
+                  {item.side === 'left' && (
+                    <div className="p-6" style={{ border: '3px solid #006FBA', borderRadius: '16px', maxWidth: '350px' }}>
+                      <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', textAlign: 'right', background: 'linear-gradient(90deg, #006FBA 0%, #003254 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
+                        {item.text}
+                      </p>
+                    </div>
+                  )}
                 </div>
-                {/* Circle on timeline */}
-                <div 
-                  className="absolute left-1/2 transform -translate-x-1/2"
-                  style={{
-                    width: '30px',
-                    height: '30px',
-                    background: '#006FBA',
-                    borderRadius: '50%',
-                  }}
-                />
-              </div>
-
-              {/* Item 2 - Right */}
-              <div className="flex items-center justify-start pl-[calc(50%+40px)]">
-                <div className="relative">
-                  {/* Dashed line to timeline */}
-                  <div 
-                    className="absolute left-0 top-1/2 transform -translate-x-full"
-                    style={{
-                      width: '40px',
-                      height: '0',
-                      borderTop: '2px dashed #006FBA',
-                    }}
-                  />
-                  <div
-                    className="p-6"
-                    style={{
-                      border: '3px solid #006FBA',
-                      borderRadius: '16px',
-                      maxWidth: 'min(350px, 100%)',
-                    }}
-                  >
-                    <p
-                      style={{
-                        fontFamily: 'DM Sans, sans-serif',
-                        fontWeight: 700,
-                        fontSize: 'clamp(16px, 1.53vw, 22px)',
-                        lineHeight: '105%',
-                        letterSpacing: '-0.03em',
-                        textAlign: 'left',
-                        background: 'linear-gradient(90deg, #006FBA 0%, #003254 100%)',
-                        WebkitBackgroundClip: 'text',
-                        WebkitTextFillColor: 'transparent',
-                        backgroundClip: 'text',
-                      }}
-                    >
-                      Stronger ROI, because every recommendation is tied to measurable outcomes.
-                    </p>
-                  </div>
+                {/* Left dash */}
+                <div style={{ borderTop: item.side === 'left' ? '2px dashed #006FBA' : 'none', height: 0 }} />
+                {/* Dot */}
+                <div style={{ position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1 }}>
+                  <div style={{ width: '30px', height: '30px', background: '#006FBA', borderRadius: '50%' }} />
                 </div>
-                {/* Circle on timeline */}
-                <div 
-                  className="absolute left-1/2 transform -translate-x-1/2"
-                  style={{
-                    width: '30px',
-                    height: '30px',
-                    background: '#006FBA',
-                    borderRadius: '50%',
-                  }}
-                />
-              </div>
-
-              {/* Item 3 - Left */}
-              <div className="flex items-center justify-end pr-[calc(50%+40px)]">
-                <div className="relative">
-                  {/* Dashed line to timeline */}
-                  <div 
-                    className="absolute right-0 top-1/2 transform translate-x-full"
-                    style={{
-                      width: '40px',
-                      height: '0',
-                      borderTop: '2px dashed #006FBA',
-                    }}
-                  />
-                  <div
-                    className="p-6"
-                    style={{
-                      border: '3px solid #006FBA',
-                      borderRadius: '16px',
-                      maxWidth: 'min(350px, 100%)',
-                    }}
-                  >
-                    <p
-                      style={{
-                        fontFamily: 'DM Sans, sans-serif',
-                        fontWeight: 700,
-                        fontSize: 'clamp(16px, 1.53vw, 22px)',
-                        lineHeight: '105%',
-                        letterSpacing: '-0.03em',
-                        textAlign: 'right',
-                        background: 'linear-gradient(90deg, #006FBA 0%, #003254 100%)',
-                        WebkitBackgroundClip: 'text',
-                        WebkitTextFillColor: 'transparent',
-                        backgroundClip: 'text',
-                      }}
-                    >
-                      Greater innovation, because insights flow across industries, not just within them.
-                    </p>
-                  </div>
+                {/* Right dash */}
+                <div style={{ borderTop: item.side === 'right' ? '2px dashed #006FBA' : 'none', height: 0 }} />
+                {/* Right box */}
+                <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
+                  {item.side === 'right' && (
+                    <div className="p-6" style={{ border: '3px solid #006FBA', borderRadius: '16px', maxWidth: '350px' }}>
+                      <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', textAlign: 'left', background: 'linear-gradient(90deg, #006FBA 0%, #003254 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
+                        {item.text}
+                      </p>
+                    </div>
+                  )}
                 </div>
-                {/* Circle on timeline */}
-                <div 
-                  className="absolute left-1/2 transform -translate-x-1/2"
-                  style={{
-                    width: '30px',
-                    height: '30px',
-                    background: '#006FBA',
-                    borderRadius: '50%',
-                  }}
-                />
               </div>
-
-              {/* Item 4 - Right */}
-              <div className="flex items-center justify-start pl-[calc(50%+40px)]">
-                <div className="relative">
-                  {/* Dashed line to timeline */}
-                  <div 
-                    className="absolute left-0 top-1/2 transform -translate-x-full"
-                    style={{
-                      width: '40px',
-                      height: '0',
-                      borderTop: '2px dashed #006FBA',
-                    }}
-                  />
-                  <div
-                    className="p-6"
-                    style={{
-                      border: '3px solid #006FBA',
-                      borderRadius: '16px',
-                      maxWidth: 'min(350px, 100%)',
-                    }}
-                  >
-                    <p
-                      style={{
-                        fontFamily: 'DM Sans, sans-serif',
-                        fontWeight: 700,
-                        fontSize: 'clamp(16px, 1.53vw, 22px)',
-                        lineHeight: '105%',
-                        letterSpacing: '-0.03em',
-                        textAlign: 'left',
-                        background: 'linear-gradient(90deg, #006FBA 0%, #003254 100%)',
-                        WebkitBackgroundClip: 'text',
-                        WebkitTextFillColor: 'transparent',
-                        backgroundClip: 'text',
-                      }}
-                    >
-                      More accountability, because we only succeed if our clients do.
-                    </p>
-                  </div>
-                </div>
-                {/* Circle on timeline */}
-                <div 
-                  className="absolute left-1/2 transform -translate-x-1/2"
-                  style={{
-                    width: '30px',
-                    height: '30px',
-                    background: '#006FBA',
-                    borderRadius: '50%',
-                  }}
-                />
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

@@ -165,15 +165,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Unsure Which Solution Fits */}
-      <div className="relative z-10" style={{ background: '#EBF7FF', paddingTop: 'clamp(32px, 4vw, 80px)', paddingBottom: 'clamp(32px, 4vw, 80px)' }}>
-        <div style={{ maxWidth: 'min(1200px, 90%)', margin: '0 auto', textAlign: 'center', padding: '0 clamp(24px, 3vw, 48px)' }}>
-          <h2 className="font-dm-sans font-bold" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: 'clamp(16px, 1.67vw, 32px)' }}>Unsure which solution fits your business?</h2>
-          <p className="font-montserrat font-normal mx-auto" style={{ fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '30.8px', color: '#333', maxWidth: 'min(1196px, 95%)', marginBottom: 'clamp(24px, 2.5vw, 48px)' }}>Our proprietary Solutions Assessment Tool helps you pinpoint the perfect, expert-backed strategy for your unique challenges.</p>
-          <button className="text-white font-dm-sans font-medium rounded-[10px] hover:opacity-90 transition-all transform hover:scale-105" style={{ background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)', padding: 'clamp(12px, 1.11vw, 18px) clamp(24px, 2.22vw, 36px)', fontSize: 'clamp(13px, 1.07vw, 15.4px)', fontWeight: 500, lineHeight: '22px' }}>Find your ideal solution</button>
-        </div>
-      </div>
-
       <Footer />
     </main>
   );

@@ -127,7 +127,11 @@ export default function About() {
               }}
             >
               <div className="flex items-center gap-4 mb-4">
-                <img src="/figma-icon-passion.png" alt="Passion for Results Icon" width={64} height={64} className="flex-shrink-0" />
+                <div className="flex-shrink-0 flex items-center justify-center rounded-[10px]" style={{ width: 64, height: 64, background: '#14358A' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 <h4
                   className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
                   style={{
@@ -281,7 +285,11 @@ export default function About() {
               }}
             >
               <div className="flex items-center gap-4 mb-4">
-                <img src="/figma-icon-evidence.png" alt="Evidence-Based Strategy Icon" width={64} height={64} className="flex-shrink-0" />
+                <div className="flex-shrink-0 flex items-center justify-center rounded-[10px]" style={{ width: 64, height: 64, background: '#14358A' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 20V10M12 20V4M6 20v-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 <h4
                   className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-0"
                   style={{

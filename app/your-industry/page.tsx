@@ -1,56 +1,103 @@
 'use client';
 
+import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import OurProjectsSection, { DollarIcon, TrendUpIcon, ScreenIcon, CheckIcon } from '@/components/OurProjectsSection';
 
 export default function YourIndustry() {
+  const iconContainer = (svg: React.ReactNode) => (
+    <div style={{ width: 64, height: 64, borderRadius: 10, background: '#14358A', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      {svg}
+    </div>
+  );
+
+  const crosshairIcon = iconContainer(
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="12" cy="12" r="9" stroke="white" strokeWidth="1.5"/>
+      <circle cx="12" cy="12" r="4" stroke="white" strokeWidth="1.5"/>
+      <path d="M12 3v3M12 18v3M3 12h3M18 12h3" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+    </svg>
+  );
+  const checkboxIcon = iconContainer(
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="3" y="3" width="18" height="18" rx="3" stroke="white" strokeWidth="1.5"/>
+      <path d="M8 12l3 3 5-6" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  );
+  const heartIcon = iconContainer(
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  );
+  const buildingIcon = iconContainer(
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3 21h18" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M3 7l9-4 9 4" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <rect x="5" y="7" width="14" height="14" stroke="white" strokeWidth="1.5"/>
+      <path d="M9 11h2M13 11h2M9 15h2M13 15h2" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+    </svg>
+  );
+  const scopeIcon = iconContainer(
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="12" cy="12" r="9" stroke="white" strokeWidth="1.5"/>
+      <circle cx="12" cy="12" r="4" stroke="white" strokeWidth="1.5"/>
+      <circle cx="12" cy="12" r="1.5" fill="white"/>
+      <path d="M12 3v2M12 19v2M3 12h2M19 12h2" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+    </svg>
+  );
+  const barChartIcon = iconContainer(
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M18 20V10M12 20V4M6 20v-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  );
+
   const workCards = [
     {
       title: 'Due Diligence & Deal Sourcing',
       description: 'We provide commercial, operational, and technical due diligence to help you assess opportunities with precision, ensuring your investment thesis is built on a solid foundation.',
-      icon: '/icon-strategy-transformation.png'  // Circular arrows/refresh icon
+      icon: crosshairIcon,
     },
     {
       title: 'Portfolio Company Value Creation',
       description: 'Our hands-on operators work with portfolio company leadership to implement operational efficiencies, accelerate growth, and maximize EBITDA, from 100-day plans to long-term transformations.',
-      icon: '/icon-risk-resilience.png'  // Checkmark icon
+      icon: checkboxIcon,
     },
     {
       title: 'Interim & Fractional Leadership',
       description: 'We fill critical leadership gaps within your portfolio companies with our own seasoned executives, providing stability and driving performance during transitions or high-growth phases.',
-      icon: '/icon-customer-experience.png'  // Heart icon
+      icon: heartIcon,
     },
     {
       title: 'Exit Strategy & Preparation',
       description: 'We help you prepare portfolio companies for a successful exit, whether through IPO, strategic sale, or secondary buyout, ensuring you maximize returns.',
-      icon: '/icon-regulatory-compliance.png'  // Building/pillars icon
+      icon: buildingIcon,
     },
     {
       title: 'Fund Strategy & Operations',
       description: 'We advise investment firms on fund strategy, operational efficiency, and LP reporting to enhance performance and strengthen investor relations.',
-      icon: '/icon-innovation-fintech.png'  // Lightbulb icon
+      icon: scopeIcon,
     },
     {
       title: 'Risk Management & Turnaround',
       description: 'For underperforming assets, we provide deep diagnostic and turnaround expertise, stabilizing operations and developing clear pathways back to profitability.',
-      icon: '/icon-capital-performance.png'  // Bar chart icon
+      icon: barChartIcon,
     },
     {
       title: 'Commercialization Strategy',
       description: 'We develop and execute go-to-market strategies for portfolio companies, aligning product, sales, and marketing to accelerate revenue growth and capture market share.',
-      icon: '/icon-regulatory-compliance.png'  // Building/pillars icon
+      icon: buildingIcon,
     },
     {
       title: 'Post-Acquisition Integrations',
       description: 'Our experts manage the post-acquisition process, seamlessly integrating operations, technology, and culture to realize synergies and ensure the deal thesis is achieved.',
-      icon: '/icon-innovation-fintech.png'  // Lightbulb icon
+      icon: scopeIcon,
     },
     {
       title: 'Multi-Industry Portfolio Design',
       description: 'Leveraging our Sector Convergence model, we help firms build resilient, diversified portfolios by identifying high-potential assets in non-obvious, adjacent sectors.',
-      icon: '/icon-capital-performance.png'  // Bar chart icon
-    }
+      icon: barChartIcon,
+    },
   ];
 
   const projects = [
@@ -218,7 +265,7 @@ export default function YourIndustry() {
                 }}
               >
                 <div className="flex items-center gap-4 mb-4">
-                  <img src={card.icon} alt={card.title} style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                  {card.icon}
                   <h3
                     className="font-dm-sans font-bold text-[#14358A] mb-0"
                     style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%', margin: 0 }}

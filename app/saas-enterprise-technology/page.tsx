@@ -152,7 +152,13 @@ export default function SaaSEnterpriseTechnology() {
               }}
             >
                             <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
-                <img src="/icon-strategy-transformation.png" alt="Growth & Go-to-Market Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <div style={{ width: 64, height: 64, borderRadius: 10, background: '#14358A', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="9" stroke="white" strokeWidth="1.5"/>
+                    <circle cx="12" cy="12" r="4" stroke="white" strokeWidth="1.5"/>
+                    <path d="M12 3v3M12 18v3M3 12h3M18 12h3" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                  </svg>
+                </div>
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
                   style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
@@ -179,7 +185,12 @@ export default function SaaSEnterpriseTechnology() {
               }}
             >
                             <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
-                <img src="/icon-risk-resilience.png" alt="Operational Excellence & Scalability" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <div style={{ width: 64, height: 64, borderRadius: 10, background: '#14358A', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="3" y="3" width="18" height="18" rx="3" stroke="white" strokeWidth="1.5"/>
+                    <path d="M8 12l3 3 5-6" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
                   style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
@@ -206,10 +217,14 @@ export default function SaaSEnterpriseTechnology() {
               }}
             >
                             <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
-                <img src="/icon-customer-experience.png" alt="M&A, Funding, & Financial Performance" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <div style={{ width: 64, height: 64, borderRadius: 10, background: '#14358A', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
-                  style={{ fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '105%', letterSpacing: '-3%' }}
+                  style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
                 >
                   M&A, Funding, & Financial Performance
                 </h3>
@@ -233,7 +248,14 @@ export default function SaaSEnterpriseTechnology() {
               }}
             >
                             <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
-                <img src="/icon-regulatory-compliance.png" alt="Innovation & Product Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <div style={{ width: 64, height: 64, borderRadius: 10, background: '#14358A', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 21h18" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                    <path d="M3 7l9-4 9 4" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <rect x="5" y="7" width="14" height="14" stroke="white" strokeWidth="1.5"/>
+                    <path d="M9 11h2M13 11h2M9 15h2M13 15h2" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                  </svg>
+                </div>
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
                   style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
@@ -260,7 +282,14 @@ export default function SaaSEnterpriseTechnology() {
               }}
             >
                             <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
-                <img src="/icon-innovation-fintech.png" alt="AI & Automation Integration" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <div style={{ width: 64, height: 64, borderRadius: 10, background: '#14358A', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="9" stroke="white" strokeWidth="1.5"/>
+                    <circle cx="12" cy="12" r="4" stroke="white" strokeWidth="1.5"/>
+                    <circle cx="12" cy="12" r="1.5" fill="white"/>
+                    <path d="M12 3v2M12 19v2M3 12h2M19 12h2" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                  </svg>
+                </div>
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
                   style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
@@ -287,7 +316,11 @@ export default function SaaSEnterpriseTechnology() {
               }}
             >
                             <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
-                <img src="/icon-capital-performance.png" alt="Cloud Strategy & Migration" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <div style={{ width: 64, height: 64, borderRadius: 10, background: '#14358A', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 20V10M12 20V4M6 20v-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
                   style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
@@ -314,7 +347,13 @@ export default function SaaSEnterpriseTechnology() {
               }}
             >
                             <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
-                <img src="/icon-strategy-transformation.png" alt="Enterprise & Workflow Architecture" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <div style={{ width: 64, height: 64, borderRadius: 10, background: '#14358A', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="9" stroke="white" strokeWidth="1.5"/>
+                    <circle cx="12" cy="12" r="4" stroke="white" strokeWidth="1.5"/>
+                    <path d="M12 3v3M12 18v3M3 12h3M18 12h3" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                  </svg>
+                </div>
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
                   style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
@@ -341,7 +380,12 @@ export default function SaaSEnterpriseTechnology() {
               }}
             >
                             <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
-                <img src="/icon-risk-resilience.png" alt="Talent & Culture Transformation" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <div style={{ width: 64, height: 64, borderRadius: 10, background: '#14358A', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="3" y="3" width="18" height="18" rx="3" stroke="white" strokeWidth="1.5"/>
+                    <path d="M8 12l3 3 5-6" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
                   style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
@@ -368,7 +412,14 @@ export default function SaaSEnterpriseTechnology() {
               }}
             >
                             <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
-                <img src="/icon-regulatory-compliance.png" alt="Risk, Compliance & Cybersecurity" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+                <div style={{ width: 64, height: 64, borderRadius: 10, background: '#14358A', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 21h18" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                    <path d="M3 7l9-4 9 4" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <rect x="5" y="7" width="14" height="14" stroke="white" strokeWidth="1.5"/>
+                    <path d="M9 11h2M13 11h2M9 15h2M13 15h2" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                  </svg>
+                </div>
                 <h3
                   className="font-dm-sans font-bold text-[#14358A] mb-4"
                   style={{ fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-3%' }}
