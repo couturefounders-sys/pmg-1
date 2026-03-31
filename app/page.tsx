@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import HexWorldMap from '@/components/HexWorldMap';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -48,10 +49,10 @@ export default function Home() {
               </div>
             ))}
             <div className="flex items-center justify-center" style={{ background: '#AC5FE6', boxShadow: '20px 20px 40px 0px rgba(112, 129, 136, 0.2)', height: 'clamp(70px, 8.13vw, 130px)' }}>
-              <button className="text-white font-montserrat font-medium flex items-center gap-3 hover:bg-white/10 transition-all" style={{ fontSize: 'clamp(13px, 1.07vw, 15.4px)', fontWeight: 500, lineHeight: '22px', border: '1px solid white', borderRadius: '50px', padding: 'clamp(8px, 0.69vw, 12px) clamp(16px, 1.67vw, 28px)' }}>
+              <Link href="/our-functional-areas" className="text-white font-montserrat font-medium flex items-center gap-3 hover:bg-white/10 transition-all" style={{ fontSize: 'clamp(13px, 1.07vw, 15.4px)', fontWeight: 500, lineHeight: '22px', border: '1px solid white', borderRadius: '50px', padding: 'clamp(8px, 0.69vw, 12px) clamp(16px, 1.67vw, 28px)', textDecoration: 'none' }}>
                 Explore All Services
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H5M13 1V9" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -89,14 +90,14 @@ export default function Home() {
         </div>
 
         <div className="flex items-center justify-center flex-wrap" style={{ gap: 'clamp(12px, 1.39vw, 20px)', marginTop: 'clamp(32px, 3.5vw, 64px)' }}>
-          <button className="text-white font-poppins font-medium hover:opacity-90 transition-opacity flex items-center gap-3" style={{ background: '#14358A', border: '2px solid #14358A', borderRadius: '82px', padding: 'clamp(12px, 1.39vw, 22px) clamp(24px, 3.47vw, 54px)', fontSize: 'clamp(13px, 1.07vw, 15.4px)', fontWeight: 500, lineHeight: '22px' }}>
+          <Link href="/power-of-working-with-us" className="text-white font-poppins font-medium hover:opacity-90 transition-opacity flex items-center gap-3" style={{ background: '#14358A', border: '2px solid #14358A', borderRadius: '82px', padding: 'clamp(12px, 1.39vw, 22px) clamp(24px, 3.47vw, 54px)', fontSize: 'clamp(13px, 1.07vw, 15.4px)', fontWeight: 500, lineHeight: '22px', textDecoration: 'none' }}>
             Learn Why We&apos;re Different
             <span style={{ fontSize: '1.1em' }}>→</span>
-          </button>
-          <button className="font-poppins font-medium hover:bg-gray-50 transition-colors flex items-center gap-3" style={{ background: 'transparent', border: '2px solid #D1D5DB', borderRadius: '82px', padding: 'clamp(12px, 1.39vw, 22px) clamp(24px, 3.47vw, 54px)', fontSize: 'clamp(13px, 1.07vw, 15.4px)', fontWeight: 500, lineHeight: '22px', color: '#1a1a2e' }}>
+          </Link>
+          <Link href="/io-architecture-model" className="font-poppins font-medium hover:bg-gray-50 transition-colors flex items-center gap-3" style={{ background: 'transparent', border: '2px solid #D1D5DB', borderRadius: '82px', padding: 'clamp(12px, 1.39vw, 22px) clamp(24px, 3.47vw, 54px)', fontSize: 'clamp(13px, 1.07vw, 15.4px)', fontWeight: 500, lineHeight: '22px', color: '#1a1a2e', textDecoration: 'none' }}>
             Our Execution-First Model
             <span style={{ fontSize: '1.1em' }}>→</span>
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -105,11 +106,11 @@ export default function Home() {
         <h2 className="text-center font-dm-sans font-bold" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', maxWidth: 'min(809px, 85%)', margin: '0 auto', marginBottom: 'clamp(12px, 1.5vw, 24px)' }}>Traditional Consulting is Broken</h2>
         <p className="text-center font-montserrat font-normal" style={{ fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '30.8px', color: '#64748B', maxWidth: 'min(1106px, 90%)', margin: '0 auto', marginBottom: 'clamp(24px, 3vw, 48px)', padding: '0 2rem' }}>The old model of consulting is failing. We built PMG to be different, focusing on execution and tangible results, not just slide decks and billable hours.</p>
         <div className="flex items-center justify-center flex-wrap" style={{ gap: 'clamp(12px, 1.39vw, 20px)' }}>
-          <button className="text-white font-poppins font-medium hover:opacity-90 transition-opacity flex items-center gap-3" style={{ background: '#14358A', border: '2px solid #14358A', borderRadius: '82px', padding: 'clamp(12px, 1.39vw, 22px) clamp(24px, 3.47vw, 54px)', fontSize: 'clamp(13px, 1.07vw, 15.4px)', fontWeight: 500, lineHeight: '22px' }}>
+          <Link href="/power-of-working-with-us" className="text-white font-poppins font-medium hover:opacity-90 transition-opacity flex items-center gap-3" style={{ background: '#14358A', border: '2px solid #14358A', borderRadius: '82px', padding: 'clamp(12px, 1.39vw, 22px) clamp(24px, 3.47vw, 54px)', fontSize: 'clamp(13px, 1.07vw, 15.4px)', fontWeight: 500, lineHeight: '22px', textDecoration: 'none' }}>
             Why We&apos;re Different
             <Image src="/icons/right-2.png" alt="" width={24} height={24} style={{ width: 'clamp(16px, 1.67vw, 26px)', height: 'clamp(16px, 1.67vw, 26px)' }} />
-          </button>
-          <button className="font-poppins font-medium hover:bg-blue-50 transition-colors" style={{ background: 'transparent', border: '2px solid #14358A', borderRadius: '82px', padding: 'clamp(12px, 1.39vw, 22px) clamp(24px, 3.47vw, 54px)', fontSize: 'clamp(13px, 1.07vw, 15.4px)', fontWeight: 500, lineHeight: '22px', color: '#14358A' }}>Understand Our Approach</button>
+          </Link>
+          <Link href="/why-functional-consulting" className="font-poppins font-medium hover:bg-blue-50 transition-colors" style={{ background: 'transparent', border: '2px solid #14358A', borderRadius: '82px', padding: 'clamp(12px, 1.39vw, 22px) clamp(24px, 3.47vw, 54px)', fontSize: 'clamp(13px, 1.07vw, 15.4px)', fontWeight: 500, lineHeight: '22px', color: '#14358A', textDecoration: 'none' }}>Understand Our Approach</Link>
         </div>
       </div>
 
@@ -160,7 +161,7 @@ export default function Home() {
           <h2 className="font-dm-sans font-bold" style={{ fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: 'clamp(12px, 1.5vw, 24px)' }}>Seize Your Next Opportunity</h2>
           <p className="font-dm-sans font-normal" style={{ fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '30.8px', color: '#68718B', maxWidth: 'min(563px, 90%)', margin: '0 auto', marginBottom: 'clamp(14px, 1.25vw, 20px)' }}>Connect with our executive team to solve your critical challenges and capitalize on opportunities for immediate, high-impact growth.</p>
           <div className="flex items-center justify-center">
-            <button className="text-white font-dm-sans font-medium rounded-[10px] hover:opacity-90 transition-opacity" style={{ background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)', padding: 'clamp(12px, 1.11vw, 18px) clamp(24px, 2.5vw, 42px)', fontSize: 'clamp(13px, 1.07vw, 15.4px)', fontWeight: 500, lineHeight: '22px' }}>Request a Consultation</button>
+            <Link href="/contact-us" className="text-white font-dm-sans font-medium rounded-[10px] hover:opacity-90 transition-opacity" style={{ background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)', padding: 'clamp(12px, 1.11vw, 18px) clamp(24px, 2.5vw, 42px)', fontSize: 'clamp(13px, 1.07vw, 15.4px)', fontWeight: 500, lineHeight: '22px', textDecoration: 'none' }}>Request a Consultation</Link>
           </div>
         </div>
       </div>

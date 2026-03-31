@@ -1,5 +1,6 @@
 ﻿"use client";
 
+import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
@@ -722,7 +723,8 @@ export default function CustomerExperienceConsulting() {
           >
             Let us help you develop and execute a winning customer experience strategy that drives business growth and creates lasting customer loyalty.
           </p>
-          <button
+          <Link
+            href="/contact-us"
             className="text-white font-bold hover:opacity-90 transition-opacity"
             style={{
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -736,10 +738,14 @@ export default function CustomerExperienceConsulting() {
               border: 'none',
               cursor: 'pointer',
               padding: '16px 32px',
+              textDecoration: 'none',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
             }}
           >
             Request a Consultation
-          </button>
+          </Link>
         </div>
       </div>
 

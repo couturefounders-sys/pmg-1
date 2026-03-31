@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import OurProjectsSection, { DollarIcon, TrendUpIcon, CheckIcon, ScreenIcon } from '@/components/OurProjectsSection';
 import type { ProjectCardData } from '@/components/OurProjectsSection';
+import Link from 'next/link';
 
 const foodProjects: ProjectCardData[] = [
   {
@@ -200,7 +201,13 @@ export default function FoodBeverageAgribusiness() {
               padding: '23px 25px',}}
           >
                         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
-              <img src="/icon-strategy-transformation.png" alt="Growth & Market Strategy" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <div style={{ width: 64, height: 64, borderRadius: 10, background: '#14358A', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="12" cy="12" r="9" stroke="white" strokeWidth="1.5"/>
+                  <circle cx="12" cy="12" r="4" stroke="white" strokeWidth="1.5"/>
+                  <path d="M12 3v3M12 18v3M3 12h3M18 12h3" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                </svg>
+              </div>
               <h3
                 className="mb-3"
                 style={{ fontFamily: 'DM Sans, sans-serif',
@@ -237,7 +244,12 @@ export default function FoodBeverageAgribusiness() {
               padding: '23px 25px',}}
           >
                         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
-              <img src="/icon-risk-resilience.png" alt="Operational Excellence" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <div style={{ width: 64, height: 64, borderRadius: 10, background: '#14358A', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="3" y="3" width="18" height="18" rx="3" stroke="white" strokeWidth="1.5"/>
+                  <path d="M8 12l3 3 5-6" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </div>
               <h3
                 className="mb-3"
                 style={{ fontFamily: 'DM Sans, sans-serif',
@@ -274,7 +286,11 @@ export default function FoodBeverageAgribusiness() {
               padding: '23px 25px',}}
           >
                         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
-              <img src="/icon-customer-experience.png" alt="Customer & Guest Experience" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <div style={{ width: 64, height: 64, borderRadius: 10, background: '#14358A', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </div>
               <h3
                 className="mb-3"
                 style={{ fontFamily: 'DM Sans, sans-serif',
@@ -311,7 +327,14 @@ export default function FoodBeverageAgribusiness() {
               padding: '23px 25px',}}
           >
                         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
-              <img src="/icon-regulatory-compliance.png" alt="Supply Chain & Sustainability" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <div style={{ width: 64, height: 64, borderRadius: 10, background: '#14358A', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3 21h18" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                  <path d="M3 7l9-4 9 4" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  <rect x="5" y="7" width="14" height="14" stroke="white" strokeWidth="1.5"/>
+                  <path d="M9 11h2M13 11h2M9 15h2M13 15h2" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                </svg>
+              </div>
               <h3
                 className="mb-3"
                 style={{ fontFamily: 'DM Sans, sans-serif',
@@ -348,7 +371,14 @@ export default function FoodBeverageAgribusiness() {
               padding: '23px 25px',}}
           >
                         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
-              <img src="/icon-innovation-fintech.png" alt="Labor & Workforce Transformation" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <div style={{ width: 64, height: 64, borderRadius: 10, background: '#14358A', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="12" cy="12" r="9" stroke="white" strokeWidth="1.5"/>
+                  <circle cx="12" cy="12" r="4" stroke="white" strokeWidth="1.5"/>
+                  <circle cx="12" cy="12" r="1.5" fill="white"/>
+                  <path d="M12 3v2M12 19v2M3 12h2M19 12h2" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                </svg>
+              </div>
               <h3
                 className="mb-3"
                 style={{ fontFamily: 'DM Sans, sans-serif',
@@ -385,7 +415,11 @@ export default function FoodBeverageAgribusiness() {
               padding: '23px 25px',}}
           >
                         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px' }}>
-              <img src="/icon-capital-performance.png" alt="Financial Performance & Turnaround" style={{ width: '64px', height: '64px', flexShrink: 0 }} />
+              <div style={{ width: 64, height: 64, borderRadius: 10, background: '#14358A', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18 20V10M12 20V4M6 20v-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </div>
               <h3
                 className="mb-3"
                 style={{ fontFamily: 'DM Sans, sans-serif',
@@ -563,7 +597,7 @@ export default function FoodBeverageAgribusiness() {
             Let's work together to build resilient, efficient, and sustainable agribusiness operations.
           </p>
 
-          <button 
+          <Link href="/contact-us"
             className="text-white font-bold hover:opacity-90 transition-opacity"
             style={{
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -576,10 +610,14 @@ export default function FoodBeverageAgribusiness() {
               fontWeight: 700,
               border: 'none',
               cursor: 'pointer',
+              textDecoration: 'none',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
             }}
           >
             Request a Consultation
-          </button>
+          </Link>
         </div>
       </div>
 

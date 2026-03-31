@@ -103,7 +103,6 @@ export default function PowerOfWorkingWithUs() {
   );
   const [quoteCardVisible, setQuoteCardVisible] = useState([true, true, true, true]);
   const [highlightedQuoteSlot, setHighlightedQuoteSlot] = useState(0);
-  const [isLoudPaused, setIsLoudPaused] = useState(false);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const nextQuotePoolIdxRef = useRef(4 % clientQuotePool.length);
   const quoteSlotRef = useRef(0);
@@ -125,8 +124,6 @@ export default function PowerOfWorkingWithUs() {
   }, [isPaused, comparisonFeatures.length]);
 
   useEffect(() => {
-    if (isLoudPaused) return;
-
     let fadeOutTimeout: ReturnType<typeof setTimeout> | null = null;
     let fadeInStartTimeout: ReturnType<typeof setTimeout> | null = null;
     let nextCycleTimeout: ReturnType<typeof setTimeout> | null = null;
@@ -172,7 +169,6 @@ export default function PowerOfWorkingWithUs() {
       if (nextCycleTimeout) clearTimeout(nextCycleTimeout);
     };
   }, [
-    isLoudPaused,
     clientQuotePool.length,
     LOUD_QUOTE_FADE_OUT_MS,
     LOUD_QUOTE_FADE_IN_MS,
@@ -435,15 +431,11 @@ export default function PowerOfWorkingWithUs() {
               marginBottom: '18px',
             }}
           >
-            Auto-cycling quotes · Hover to pause
+            Auto-cycling quotes
           </p>
 
           {/* Client Quotes */}
-          <div
-            className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-[1200px] mb-14"
-            onMouseEnter={() => setIsLoudPaused(true)}
-            onMouseLeave={() => setIsLoudPaused(false)}
-          >
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-[1200px] mb-14">
             {visibleQuoteCards.map((quote, i) => (
               <div
                 key={`${quote}-${i}`}
@@ -493,11 +485,7 @@ export default function PowerOfWorkingWithUs() {
             &ldquo;Loud&rdquo; consultants are mostly known for&hellip;
           </h3>
 
-          <div
-            className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full"
-            onMouseEnter={() => setIsLoudPaused(true)}
-            onMouseLeave={() => setIsLoudPaused(false)}
-          >
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
             {staticProblemCards.map((item, i) => (
               <div
                 key={`${item.title}-${i}`}
@@ -671,7 +659,7 @@ export default function PowerOfWorkingWithUs() {
                   <div style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', margin: 0 }}>{card.title}</div>
                 </div>
                 <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>{card.desc}</p>
-                <a href="#" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#14358A', marginTop: '16px', display: 'inline-block' }}>Read More ›</a>
+                <a href="/insights-innovations" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#14358A', marginTop: '16px', display: 'inline-block' }}>Read More ›</a>
               </div>
             ))}
           </div>

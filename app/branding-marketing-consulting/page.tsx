@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
 import ScrollStack from '@/components/ScrollStack';
+import Link from 'next/link';
 
 const CAPABILITY_ITEMS = [
   'Sector Convergence',
@@ -115,7 +116,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <Image src="/target.png" alt="Brand Building" width={32} height={32} style={{ objectFit: 'contain' }} />
+                <Image src="/icons/cards/target.svg" alt="Brand Building" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Brand Building
@@ -130,7 +131,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <Image src="/oo.png" alt="Brand Loyalty & Advocacy" width={32} height={32} style={{ objectFit: 'contain' }} />
+                <Image src="/icons/cards/funds.svg" alt="Brand Loyalty & Advocacy" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Brand Loyalty & Advocacy
@@ -145,7 +146,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <Image src="/ll.png" alt="Consumer & Shopper Insights" width={32} height={32} style={{ objectFit: 'contain' }} />
+                <Image src="/icons/cards/switch-button.svg" alt="Consumer & Shopper Insights" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Consumer & Shopper Insights
@@ -160,7 +161,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <Image src="/99.png" alt="Content Creation & Management" width={32} height={32} style={{ objectFit: 'contain' }} />
+                <Image src="/icons/cards/phone.svg" alt="Content Creation & Management" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Content Creation & Management
@@ -175,7 +176,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <Image src="/98.png" alt="Content Marketing & Storytelling" width={32} height={32} style={{ objectFit: 'contain' }} />
+                <Image src="/icons/cards/retro-bag.svg" alt="Content Marketing & Storytelling" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Content Marketing & Storytelling
@@ -190,7 +191,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <Image src="/88.png" alt="Customer Acquisition Strategies" width={32} height={32} style={{ objectFit: 'contain' }} />
+                <Image src="/icons/cards/efferent-three.svg" alt="Customer Acquisition Strategies" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Customer Acquisition Strategies
@@ -205,7 +206,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <Image src="/00.png" alt="Digital Marketing" width={32} height={32} style={{ objectFit: 'contain' }} />
+                <Image src="/icons/cards/chart-histogram.svg" alt="Digital Marketing" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Digital Marketing
@@ -220,7 +221,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <Image src="/33.png" alt="Marketing & Business Analytics" width={32} height={32} style={{ objectFit: 'contain' }} />
+                <Image src="/icons/cards/chart-line-area.svg" alt="Marketing & Business Analytics" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Marketing & Business Analytics
@@ -235,7 +236,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <Image src="/22.png" alt="Market Positioning & Go-to-Market Strategy" width={32} height={32} style={{ objectFit: 'contain' }} />
+                <Image src="/icons/cards/message-security.svg" alt="Market Positioning & Go-to-Market Strategy" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Market Positioning & Go-to-Market Strategy
@@ -250,7 +251,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <Image src="/7n.png" alt="Marketing Return on Investment" width={32} height={32} style={{ objectFit: 'contain' }} />
+                <Image src="/icons/cards/shopping-cart-two.svg" alt="Marketing Return on Investment" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Marketing Return on Investment
@@ -265,7 +266,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <Image src="/6n.png" alt="Organization & Capabilities" width={32} height={32} style={{ objectFit: 'contain' }} />
+                <Image src="/icons/cards/chip.svg" alt="Organization & Capabilities" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Organization & Capabilities
@@ -280,7 +281,7 @@ export default function BrandingMarketingConsulting() {
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
-                <Image src="/5n.png" alt="Pricing & Enablement" width={32} height={32} style={{ objectFit: 'contain' }} />
+                <Image src="/icons/cards/inbox.svg" alt="Pricing & Enablement" width={32} height={32} style={{ objectFit: 'contain' }} />
               </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Pricing & Enablement
@@ -634,7 +635,8 @@ export default function BrandingMarketingConsulting() {
             Let us help you develop and execute a winning strategy that drives sustainable growth and positions your organization for long-term success.
           </p>
 
-          <button
+          <Link
+            href="/contact-us"
             className="text-white font-bold hover:opacity-90 transition-opacity"
             style={{
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -648,10 +650,14 @@ export default function BrandingMarketingConsulting() {
               border: 'none',
               cursor: 'pointer',
               padding: '16px 32px',
+              textDecoration: 'none',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
             }}
           >
             Request a Consultation
-          </button>
+          </Link>
         </div>
       </div>
 

@@ -3,6 +3,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BlueSectionDecorated from '@/components/BlueSectionDecorated';
+import Link from 'next/link';
 
 export default function WhyFunctionalConsulting() {
   return (
@@ -630,7 +631,7 @@ export default function WhyFunctionalConsulting() {
             Let's work together to deliver results through deep functional expertise.
           </p>
 
-          <button 
+          <Link href="/contact-us"
             className="text-white font-bold hover:opacity-90 transition-opacity"
             style={{
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -643,10 +644,14 @@ export default function WhyFunctionalConsulting() {
               fontWeight: 700,
               border: 'none',
               cursor: 'pointer',
+              textDecoration: 'none',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
             }}
           >
             Request a Consultation
-          </button>
+          </Link>
         </div>
       </div>
 

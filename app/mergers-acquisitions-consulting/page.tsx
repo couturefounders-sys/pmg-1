@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
 import ScrollStack from '@/components/ScrollStack';
+import Link from 'next/link';
 
 const CAPABILITY_ITEMS = [
   'Sector Convergence',
@@ -933,7 +934,8 @@ export default function MergersAcquisitionsConsulting() {
             Let us help you navigate the complexities of M&A and achieve your strategic growth objectives.
           </p>
 
-          <button
+          <Link
+            href="/contact-us"
             className="text-white font-bold hover:opacity-90 transition-opacity"
             style={{
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -947,10 +949,14 @@ export default function MergersAcquisitionsConsulting() {
               border: 'none',
               cursor: 'pointer',
               padding: '16px 32px',
+              textDecoration: 'none',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
             }}
           >
             Request a Consultation
-          </button>
+          </Link>
         </div>
       </div>
 

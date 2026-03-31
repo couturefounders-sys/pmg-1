@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
@@ -400,9 +401,9 @@ export default function CrisisTransitionManagement() {
           <p className="mb-10" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '135%', color: '#333333', maxWidth: 'min(1196px, 95%)', margin: '0 auto 2.5rem auto' }}>
             Don't navigate it alone. Contact us for a confidential consultation to see how our expertise can bring stability and create opportunity.
           </p>
-          <button className="text-white font-bold hover:opacity-90 transition-opacity" style={{ background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)', borderRadius: '10px', width: '319px', height: '65px', fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '140%', fontWeight: 700, border: 'none', cursor: 'pointer', padding: '16px 32px' }}>
+          <Link href="/contact-us" className="text-white font-bold hover:opacity-90 transition-opacity" style={{ background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)', borderRadius: '10px', width: '319px', height: '65px', fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(15px, 1.39vw, 22px)', lineHeight: '140%', fontWeight: 700, border: 'none', cursor: 'pointer', padding: '16px 32px', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
             Request a Consultation
-          </button>
+          </Link>
         </div>
       </div>
 

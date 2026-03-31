@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
 import ScrollStack from '@/components/ScrollStack';
+import Link from 'next/link';
 
 const CAPABILITY_ITEMS = [
   'Sector Convergence',
@@ -109,12 +110,9 @@ export default function BpoFractionalTalentConsulting() {
           {/* Administrative Support */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <img
-                src="/bpo-icon-admin-support.png"
-                alt="Administrative Support"
-                className="flex-shrink-0"
-                style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
-              />
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <img src="/icons/cards/target.svg" alt="Administrative Support" style={{ width: 32, height: 32, objectFit: 'contain' }} />
+              </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Administrative Support
               </h3>
@@ -127,12 +125,9 @@ export default function BpoFractionalTalentConsulting() {
           {/* Board Services */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <img
-                src="/bpo-icon-board-services.png"
-                alt="Board Services"
-                className="flex-shrink-0"
-                style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
-              />
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <img src="/icons/cards/funds.svg" alt="Board Services" style={{ width: 32, height: 32, objectFit: 'contain' }} />
+              </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Board Services
               </h3>
@@ -145,12 +140,9 @@ export default function BpoFractionalTalentConsulting() {
           {/* BPO Playbook & Architecture Development */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <img
-                src="/bpo-icon-playbook.png"
-                alt="BPO Playbook"
-                className="flex-shrink-0"
-                style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
-              />
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <img src="/icons/cards/switch-button.svg" alt="BPO Playbook" style={{ width: 32, height: 32, objectFit: 'contain' }} />
+              </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               BPO Playbook & Architecture Development
               </h3>
@@ -163,12 +155,9 @@ export default function BpoFractionalTalentConsulting() {
           {/* CEO Excellence */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <img
-                src="/bpo-icon-ceo-excellence.png"
-                alt="CEO Excellence"
-                className="flex-shrink-0"
-                style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
-              />
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <img src="/icons/cards/phone.svg" alt="CEO Excellence" style={{ width: 32, height: 32, objectFit: 'contain' }} />
+              </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               CEO Excellence
               </h3>
@@ -181,12 +170,9 @@ export default function BpoFractionalTalentConsulting() {
           {/* DFY Customer Support Solutions */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <img
-                src="/bpo-icon-dfy-customer-support.png"
-                alt="DFY Customer Support"
-                className="flex-shrink-0"
-                style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
-              />
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <img src="/icons/cards/retro-bag.svg" alt="DFY Customer Support" style={{ width: 32, height: 32, objectFit: 'contain' }} />
+              </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               DFY Customer Support Solutions
               </h3>
@@ -199,12 +185,9 @@ export default function BpoFractionalTalentConsulting() {
           {/* Executive Immersions */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <img
-                src="/bpo-icon-executive-immersions.png"
-                alt="Executive Immersions"
-                className="flex-shrink-0"
-                style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
-              />
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <img src="/icons/cards/efferent-three.svg" alt="Executive Immersions" style={{ width: 32, height: 32, objectFit: 'contain' }} />
+              </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Executive Immersions
               </h3>
@@ -217,12 +200,9 @@ export default function BpoFractionalTalentConsulting() {
           {/* Finance & Accounting Services */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <img
-                src="/bpo-icon-finance-accounting.png"
-                alt="Finance & Accounting"
-                className="flex-shrink-0"
-                style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
-              />
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <img src="/icons/cards/chart-histogram.svg" alt="Finance & Accounting" style={{ width: 32, height: 32, objectFit: 'contain' }} />
+              </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Finance & Accounting Services
               </h3>
@@ -235,12 +215,9 @@ export default function BpoFractionalTalentConsulting() {
           {/* HR Outsourcing */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <img
-                src="/bpo-icon-hr-outsourcing.png"
-                alt="HR Outsourcing"
-                className="flex-shrink-0"
-                style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
-              />
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <img src="/icons/cards/chart-line-area.svg" alt="HR Outsourcing" style={{ width: 32, height: 32, objectFit: 'contain' }} />
+              </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               HR Outsourcing
               </h3>
@@ -253,12 +230,9 @@ export default function BpoFractionalTalentConsulting() {
           {/* IT & Helpdesk Management */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <img
-                src="/bpo-icon-it-helpdesk.png"
-                alt="IT & Helpdesk"
-                className="flex-shrink-0"
-                style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
-              />
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <img src="/icons/cards/message-security.svg" alt="IT & Helpdesk" style={{ width: 32, height: 32, objectFit: 'contain' }} />
+              </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               IT & Helpdesk Management
               </h3>
@@ -271,12 +245,9 @@ export default function BpoFractionalTalentConsulting() {
           {/* Project Management Services */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <img
-                src="/bpo-icon-project-management.png"
-                alt="Project Management"
-                className="flex-shrink-0"
-                style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
-              />
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <img src="/icons/cards/shopping-cart-two.svg" alt="Project Management" style={{ width: 32, height: 32, objectFit: 'contain' }} />
+              </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Project Management Services
               </h3>
@@ -289,12 +260,9 @@ export default function BpoFractionalTalentConsulting() {
           {/* Sales Support */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <img
-                src="/bpo-icon-sales-support.png"
-                alt="Sales Support"
-                className="flex-shrink-0"
-                style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
-              />
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <img src="/icons/cards/chip.svg" alt="Sales Support" style={{ width: 32, height: 32, objectFit: 'contain' }} />
+              </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Sales Support
               </h3>
@@ -307,12 +275,9 @@ export default function BpoFractionalTalentConsulting() {
           {/* Specialized Expertise */}
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
-              <img
-                src="/bpo-icon-specialized-expertise.png"
-                alt="Specialized Expertise"
-                className="flex-shrink-0"
-                style={{ width: 64, height: 64, borderRadius: '10px', objectFit: 'cover' }}
-              />
+              <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
+                <img src="/icons/cards/inbox.svg" alt="Specialized Expertise" style={{ width: 32, height: 32, objectFit: 'contain' }} />
+              </div>
               <h3 className="mb-0" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A' }}>
               Specialized Expertise
               </h3>
@@ -610,7 +575,8 @@ export default function BpoFractionalTalentConsulting() {
           <p className="mb-10" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '135%', color: '#333333', maxWidth: 'min(1196px, 95%)', margin: '0 auto 2.5rem auto' }}>
             Let us help you unlock the power of our BPO and Fractional Talent solutions and achieve your business objectives.
           </p>
-          <button
+          <Link
+            href="/contact-us"
             className="text-white font-bold hover:opacity-90 transition-opacity"
             style={{
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -624,10 +590,14 @@ export default function BpoFractionalTalentConsulting() {
               border: 'none',
               cursor: 'pointer',
               padding: '16px 32px',
+              textDecoration: 'none',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
             }}
           >
             Request a Consultation
-          </button>
+          </Link>
         </div>
       </div>
 

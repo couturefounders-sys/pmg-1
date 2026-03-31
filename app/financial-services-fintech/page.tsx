@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import OurProjectsSection, { DollarIcon, TrendUpIcon, ScreenIcon, CheckIcon } from '@/components/OurProjectsSection';
@@ -486,6 +487,38 @@ export default function FinancialServicesFinTech() {
               PMG&apos;s model delivers validated, compliant execution. We deploy specialized functional operators, experts in areas like modernizing core banking systems, implementing AI–driven risk models, optimizing regulatory reporting (e.g., Basel, KYC/AML), and scaling new FinTech products. Our specialists don&apos;t just advise; they implement proven systems and processes that ensure your transformation is not only efficient and differentiated in the market but is fully auditable and compliant from day one.
             </p>
           </div>
+
+          <div className="text-center mt-16">
+            <p
+              className="mb-4"
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 700,
+                fontSize: 'clamp(16px, 1.53vw, 22px)',
+                lineHeight: '140%',
+                color: '#364153',
+              }}
+            >
+              Still Unsure?
+            </p>
+            <a
+              href="/why-functional-consulting"
+              className="inline-flex items-center gap-2 hover:opacity-80 transition-opacity"
+              style={{
+                fontFamily: 'Inter, sans-serif',
+                fontWeight: 600,
+                fontSize: 'clamp(16px, 1.46vw, 24px)',
+                lineHeight: '30px',
+                color: '#14358A',
+                textDecoration: 'none',
+              }}
+            >
+              Discover how we deliver technological agility without compromising regulatory integrity or stability.
+              <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L7 7L1 13" stroke="#14358A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -518,7 +551,8 @@ export default function FinancialServicesFinTech() {
         >
           Let&apos;s work together to navigate the complexities of the financial sector &amp; drive sustainable growth.
         </p>
-        <button
+        <Link
+          href="/why-functional-consulting"
           className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
           style={{
             width: 'clamp(260px, 27.29vw, 393px)',
@@ -527,11 +561,15 @@ export default function FinancialServicesFinTech() {
             background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
             fontSize: 'clamp(15px, 1.39vw, 22px)',
             lineHeight: '140%',
-            letterSpacing: '0%'
+            letterSpacing: '0%',
+            textDecoration: 'none',
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center'
           }}
         >
           Learn about Functional Consulting
-        </button>
+        </Link>
       </div>
 
       <Footer />

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -1062,7 +1063,8 @@ export default function EquitySolutions() {
               </p>
 
               {/* Button */}
-              <button
+              <Link
+                href="/contact-us"
                 style={{
                   marginTop: 'auto',
                   background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -1073,14 +1075,17 @@ export default function EquitySolutions() {
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
                   fontSize: 'clamp(14px, 1.11vw, 16px)',
-                  cursor: 'pointer',
                   whiteSpace: 'nowrap',
                   transition: 'opacity 0.3s',
+                  textDecoration: 'none',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
                 }}
                 className="hover:opacity-90"
               >
                 Schedule Discovery Call
-              </button>
+              </Link>
             </div>
 
             {/* Card 2: Ready to Apply */}
@@ -1133,7 +1138,8 @@ export default function EquitySolutions() {
               </p>
 
               {/* Button */}
-              <button
+              <Link
+                href="/contact-us"
                 style={{
                   marginTop: 'auto',
                   background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -1144,14 +1150,17 @@ export default function EquitySolutions() {
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,
                   fontSize: 'clamp(14px, 1.11vw, 16px)',
-                  cursor: 'pointer',
                   whiteSpace: 'nowrap',
                   transition: 'opacity 0.3s',
+                  textDecoration: 'none',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
                 }}
                 className="hover:opacity-90"
               >
                 Begin Application
-              </button>
+              </Link>
             </div>
           </div>
         </div>

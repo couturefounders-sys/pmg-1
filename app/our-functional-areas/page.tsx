@@ -2,6 +2,7 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Link from 'next/link';
 
 export default function OurFunctionalAreas() {
   return (
@@ -41,7 +42,8 @@ export default function OurFunctionalAreas() {
           We deliver bespoke solutions that reject generalized frameworks. Expect measurable, tangible business improvements and significant ROI precisely aligned with your strategic, high-stakes objectives.
         </p>
 
-        <button
+        <Link
+          href="/power-of-working-with-us"
           className="text-white hover:opacity-90 transition-opacity"
           style={{
             background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -54,10 +56,14 @@ export default function OurFunctionalAreas() {
             fontWeight: 700,
             fontSize: 'clamp(15px, 1.39vw, 22px)',
             lineHeight: '140%',
+            textDecoration: 'none',
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center',
           }}
         >
           See why PMG is the Right Choice
-        </button>
+        </Link>
       </div>
 
       {/* Our Functional Areas Section */}
@@ -929,7 +935,8 @@ export default function OurFunctionalAreas() {
             Our proprietary Solutions Assessment Tool helps you pinpoint the perfect, expert-backed strategy for your unique challenges.
           </p>
 
-          <button
+          <Link
+            href="/solution-assessment-tool"
             className="text-white hover:opacity-90 transition-opacity"
             style={{
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -942,10 +949,14 @@ export default function OurFunctionalAreas() {
               fontWeight: 700,
               fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',
+              textDecoration: 'none',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
             }}
           >
             Find your ideal solution
-          </button>
+          </Link>
         </div>
       </div>
 

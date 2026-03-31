@@ -3,6 +3,7 @@
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Link from 'next/link';
 import OurProjectsSection, { DollarIcon, TrendUpIcon, ScreenIcon, CheckIcon } from '@/components/OurProjectsSection';
 
 export default function YourIndustry() {
@@ -426,7 +427,8 @@ export default function YourIndustry() {
         >
           Let&apos;s discuss how our execution-focused approach can drive superior returns for your fund.
         </p>
-        <button
+        <Link
+          href="/contact-us"
           className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
           style={{
             width: 'clamp(260px, 27.29vw, 393px)',
@@ -435,11 +437,15 @@ export default function YourIndustry() {
             background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
             fontSize: 'clamp(15px, 1.39vw, 22px)',
             lineHeight: '140%',
-            letterSpacing: '0%'
+            letterSpacing: '0%',
+            textDecoration: 'none',
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center',
           }}
         >
           Request a Consultation
-        </button>
+        </Link>
       </div>
 
       <Footer />

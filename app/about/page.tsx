@@ -3,6 +3,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CoreValuesPentagon from '@/components/CoreValuesPentagon';
+import Link from 'next/link';
 
 export default function About() {
   return (
@@ -411,9 +412,12 @@ export default function About() {
                 >
                   AI · July 25, 2024
                 </p>
-                <button
+                <Link
+                  href="/insights-innovations"
                   className="font-dm-sans font-bold text-white"
                   style={{
+                    display: 'inline-flex',
+                    textDecoration: 'none',
                     fontSize: 'clamp(13px, 1.11vw, 16px)',
                     lineHeight: '140%',
                     padding: 'clamp(10px, 1.11vw, 16px) clamp(20px, 2.22vw, 32px)',
@@ -422,7 +426,7 @@ export default function About() {
                   }}
                 >
                   Read More
-                </button>
+                </Link>
               </div>
             </div>
 
@@ -469,9 +473,12 @@ export default function About() {
                 >
                   Strategy · July 20, 2024
                 </p>
-                <button
+                <Link
+                  href="/insights-innovations"
                   className="font-dm-sans font-bold text-white"
                   style={{
+                    display: 'inline-flex',
+                    textDecoration: 'none',
                     fontSize: 'clamp(13px, 1.11vw, 16px)',
                     lineHeight: '140%',
                     padding: 'clamp(10px, 1.11vw, 16px) clamp(20px, 2.22vw, 32px)',
@@ -480,15 +487,18 @@ export default function About() {
                   }}
                 >
                   Read More
-                </button>
+                </Link>
               </div>
             </div>
           </div>
 
           {/* Browse All Publications Button */}
-          <button
+          <Link
+            href="/insights-innovations"
             className="inline-flex items-center justify-center gap-2 font-inter font-semibold text-white"
             style={{
+              textDecoration: 'none',
+              display: 'inline-flex',
               fontSize: 'clamp(15px, 1.47vw, 21.1px)',
               lineHeight: 'clamp(22px, 2.08vw, 30px)',
               padding: 'clamp(16px, 1.53vw, 22px) clamp(20px, 2.22vw, 32px)',
@@ -514,7 +524,7 @@ export default function About() {
                 strokeLinejoin="round"
               />
             </svg>
-          </button>
+          </Link>
         </div>
 
         {/* Who We Partner With */}
@@ -804,9 +814,14 @@ export default function About() {
         >
           Now that you know our story, let us help you write yours. Partner with us to leverage our expertise, values, and innovation for your business.
         </p>
-        <button
+        <Link
+          href="/contact-us"
           className="font-dm-sans font-bold text-white hover:opacity-95 transition-opacity mx-auto"
           style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            textDecoration: 'none',
             fontSize: 'clamp(13px, 1.11vw, 16px)',
             lineHeight: '140%',
             width: 'clamp(200px, 17.15vw, 260px)',
@@ -816,7 +831,7 @@ export default function About() {
           }}
         >
           Request a Consultation
-        </button>
+        </Link>
       </div>
 
       <Footer />

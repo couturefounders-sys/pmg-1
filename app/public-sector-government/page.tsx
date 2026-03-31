@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import OurProjectsSection, { DollarIcon, CheckIcon, ScreenIcon } from '@/components/OurProjectsSection';
@@ -487,7 +488,8 @@ export default function PublicSectorGovernment() {
             Let's work together to build more efficient, responsive, and resilient public institutions.
           </p>
 
-          <button 
+          <Link
+            href="/contact-us"
             className="text-white font-bold hover:opacity-90 transition-opacity"
             style={{
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
@@ -500,10 +502,14 @@ export default function PublicSectorGovernment() {
               fontWeight: 700,
               border: 'none',
               cursor: 'pointer',
+              textDecoration: 'none',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
             }}
           >
             Request a Consultation
-          </button>
+          </Link>
         </div>
       </div>
 

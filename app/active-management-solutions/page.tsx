@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
@@ -1210,7 +1211,8 @@ export default function ActiveManagementSolutions() {
           >
             Let&apos;s discuss how PMG can help you navigate your challenges and seize new opportunities.
           </p>
-          <button
+          <Link
+            href="/contact-us"
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 700,
@@ -1221,10 +1223,14 @@ export default function ActiveManagementSolutions() {
               border: 'none',
               borderRadius: '8px',
               cursor: 'pointer',
+              textDecoration: 'none',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
             }}
           >
             Request a Consultation
-          </button>
+          </Link>
         </div>
       </section>
 

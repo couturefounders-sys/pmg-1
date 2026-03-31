@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import OurProjectsSection, { DollarIcon, ScreenIcon, CheckIcon } from '@/components/OurProjectsSection';
@@ -574,10 +575,11 @@ export default function SaaSEnterpriseTechnology() {
           >
             Let&apos;s work together to align your technology roadmap with market realities &amp; drive scalable growth.
           </p>
-          <button
+          <Link
+            href="/why-functional-consulting"
             className="font-dm-sans font-bold text-white hover:opacity-90 transition-opacity"
             style={{
-              width: 'auto', // changed from fixed width to auto to fit text
+              width: 'auto',
               minWidth: '393px',
               height: 'clamp(48px, 4.51vw, 65px)',
               borderRadius: '10px',
@@ -585,11 +587,15 @@ export default function SaaSEnterpriseTechnology() {
               background: 'linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%)',
               fontSize: 'clamp(15px, 1.39vw, 22px)',
               lineHeight: '140%',
-              whiteSpace: 'nowrap' // ensures text stays on one line
+              whiteSpace: 'nowrap',
+              textDecoration: 'none',
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center'
             }}
           >
             Learn about Functional Consulting
-          </button>
+          </Link>
         </div>
       </div>
 

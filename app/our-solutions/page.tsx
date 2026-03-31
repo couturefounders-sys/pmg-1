@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -385,9 +386,14 @@ export default function OurSolutions() {
           </p>
 
           {/* CTA Button */}
-          <button
+          <Link
+            href="/solution-assessment-tool"
             className="hover:opacity-90 transition-all"
             style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              textDecoration: 'none',
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
               fontSize: 'clamp(15px, 1.39vw, 22px)',
@@ -402,7 +408,7 @@ export default function OurSolutions() {
             }}
           >
             Get personalized Recommendation
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -533,9 +539,14 @@ export default function OurSolutions() {
           </p>
 
           {/* CTA Button */}
-          <button
+          <Link
+            href="/our-projects"
             className="hover:opacity-90 transition-all"
             style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              textDecoration: 'none',
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
               fontSize: 'clamp(15px, 1.39vw, 22px)',
@@ -549,7 +560,7 @@ export default function OurSolutions() {
             }}
           >
             View All Projects
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -1049,9 +1060,14 @@ export default function OurSolutions() {
           >
             Let&apos;s discuss how PMG can help you navigate your challenges and seize new opportunities.
           </p>
-          <button
+          <Link
+            href="/contact-us"
             className="hover:opacity-90 transition-all"
             style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              textDecoration: 'none',
               fontFamily: 'DM Sans, sans-serif',
               fontWeight: 700,
               fontSize: 'clamp(15px, 1.39vw, 22px)',
@@ -1066,7 +1082,7 @@ export default function OurSolutions() {
             }}
           >
             Request a Consultation
-          </button>
+          </Link>
         </div>
       </div>
 
