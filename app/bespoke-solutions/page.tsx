@@ -6,25 +6,25 @@ import BlueSectionDecorated from '@/components/BlueSectionDecorated';
 export default function BespokeSolutions() {
   const steps = [
     {
-      icon: '/bespoke-icon-1.png',
+      icon: '/icons/cards/people-search-one.svg',
       step: '1. The Diagnostic',
       description:
         'We perform a comprehensive analysis to identify the root causes of your challenges, not just the symptoms.',
     },
     {
-      icon: '/bespoke-icon-2.png',
+      icon: '/icons/cards/people-search-one.svg',
       step: '2. Tool Selection & Architecture',
       description:
         'Based on our findings, we architect a solution using the most appropriate tool. This could be one of our proprietary models, a proven industry framework, or a completely custom approach.',
     },
     {
-      icon: '/bespoke-icon-3.png',
+      icon: '/icons/cards/people-search-one.svg',
       step: '3. Transparent Rationale & Blueprint',
       description:
         'We present you with a complete strategic blueprint, including a clear rationale for why the chosen approach is the optimal path to achieve your specific goals.',
     },
     {
-      icon: '/bespoke-icon-4.png',
+      icon: '/icons/cards/people-search-one.svg',
       step: '4. Client Approval Before Engagement',
       description:
         'You review the complete, validated plan. An engagement only begins once you have full confidence in the strategy and the measurable outcomes we\'ve defined together.',
@@ -735,7 +735,7 @@ export default function BespokeSolutions() {
               }}
             >
               <div className="flex items-center gap-4">
-                <Image src="/accountability-icon-1.png" alt="Transparent Success Metrics" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
+                <Image src="/icons/cards/badge-target.svg" alt="Transparent Success Metrics" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
                 <h3
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
@@ -778,7 +778,7 @@ export default function BespokeSolutions() {
               }}
             >
               <div className="flex items-center gap-4">
-                <Image src="/accountability-icon-2.png" alt="Consistent Progress Reviews" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
+                <Image src="/icons/cards/badge-pencil.svg" alt="Consistent Progress Reviews" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
                 <h3
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
@@ -821,7 +821,7 @@ export default function BespokeSolutions() {
               }}
             >
               <div className="flex items-center gap-4">
-                <Image src="/accountability-icon-3.png" alt="Post-Engagement Success Audit" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
+                <Image src="/icons/cards/badge-check-correct.svg" alt="Post-Engagement Success Audit" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
                 <h3
                   style={{
                     fontFamily: 'DM Sans, sans-serif',

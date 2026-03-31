@@ -1,6 +1,7 @@
 ﻿'use client';
 
 import { useState, useEffect, useRef, useCallback } from 'react';
+import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BlueSectionWrapper from '@/components/BlueSectionWrapper';
@@ -263,11 +264,13 @@ export default function IOArchitectureModelPage() {
               {
                 problem: {
                   title: '1. Undefined Team Scope (The Boundary Problem)',
+                  icon: '/icons/cards/target.svg',
                   body: 'Teams operate with flexible, general mandates, leading to vague boundaries, overlapping responsibilities, and constant internal friction. No clear line exists between a team\'s mandate and its limitations.',
                   risk: 'Risk: Misallocation of Resources: Teams waste time fixing problems outside their core competency, diverting capital and expertise from strategic initiatives.',
                 },
                 solution: {
                   title: 'Defined Inputs, WorkUnits, & Outputs.',
+                  icon: '/icons/cards/funds.svg',
                   body: 'The Architectural Contract forces teams to define their function around only what they accept (Input) and what they guarantee to deliver (Output), allowing them to define exactly how to achieve this (the WorkUnit).',
                   benefit: 'Benefit: Eliminates Ambiguity: Instantly defines clear interfaces between teams, preventing scope creep and ensuring transparent accountability.',
                 },
@@ -275,11 +278,13 @@ export default function IOArchitectureModelPage() {
               {
                 problem: {
                   title: '2. Procedural Drift (The Process Problem)',
+                  icon: '/icons/cards/funds.svg',
                   body: 'Workflows, error handling, and quality checks are treated as soft guidelines. Processes drift based on individual discretion or urgency, making results inconsistent and prohibiting reliable automation.',
                   risk: 'Risk: Systemic Inconsistency: Without an immutable process, products and services vary widely in quality, eroding customer trust and inflating operational overhead.',
                 },
                 solution: {
                   title: 'Codified, Regularized Processes',
+                  icon: '/icons/cards/phone.svg',
                   body: 'The I-O Contract mandates an immutable internal workflow for processing inputs into outputs, ensuring results are always consistent.',
                   benefit: 'Benefit: Enables Automation: Process stability allows for automated verification, dramatically reducing human error and scaling quality control.',
                 },
@@ -287,11 +292,13 @@ export default function IOArchitectureModelPage() {
               {
                 problem: {
                   title: '3. Irregular Outputs (The Quality Problem)',
+                  icon: '/icons/cards/phone.svg',
                   body: 'Deliverables from one team are undefined, unquantifiable, or irregular. Downstream teams are forced to expend significant effort adapting to or fixing unpredictable inputs.',
                   risk: 'Risk: Cascading Failure: An undefined output at Team A becomes an integration error at Team B, which then results in a massive customer failure at Team C. The system amplifies low-level errors into high-level crises.',
                 },
                 solution: {
                   title: 'The Verifiable Quality Bar',
+                  icon: '/icons/cards/target.svg',
                   body: 'An explicit standard applied to both incoming and outgoing deliverables. Both the delivering team and the receiving team need the deliverable to pass; otherwise, it is rejected and returned for resolution. This allows for each team to know what is expected and to guarantee success or failure for each deliverable.',
                   benefit: 'Benefit: Guarantees Quality Chain: Breaks the cycle of compounding failure. Rejection forces resolution upstream, ensuring quality is maintained across the entire organizational flow.',
                 },
@@ -299,11 +306,13 @@ export default function IOArchitectureModelPage() {
               {
                 problem: {
                   title: '4. Undocumented Fixes (The Hero Problem)',
+                  icon: '/icons/cards/retro-bag.svg',
                   body: 'Organizational gaps and input rejections are often picked up by an unofficial Single Point of Failure (SPOF) person who manually patches the workflow, bypassing formal processes and logging.',
                   risk: 'Risk: Unaccounted Risk: This creates immense, unquantifiable technical debt. Leadership does not know how many fixes exist, who owns them, or what systemic flaws they are masking, leading to sudden, catastrophic failure upon the hero\'s absence.',
                 },
                 solution: {
                   title: 'Consistent Architecture & Intentional Exceptions',
+                  icon: '/icons/cards/efferent-three.svg',
                   body: 'Any item that is not an input in the I-O map is escalated. An executive-level decision maker must intentionally choose to: Formalize the procedure with a new I-O Contract, Grant an Explicit Exception (and action the item themselves), or Reject the problem as not worth solving and explicitly document such.',
                   benefit: 'Benefit: Eliminates Accidental Debt: Architecture only evolves via conscious, high-level business decisions, eliminating \'Institutional Inertia\' and preventing accidental complexity from accumulating.',
                 },
@@ -312,12 +321,18 @@ export default function IOArchitectureModelPage() {
               <div key={i} className="grid grid-cols-1 md:grid-cols-2" style={{ gap: '20px' }}>
                 {/* Left — Problem box (red.png as full background) */}
                 <div style={{ backgroundColor: '#FFF5F5', backgroundImage: 'url(/red.png)', backgroundSize: 'cover', backgroundPosition: 'top center', overflow: 'hidden', borderRadius: '16px', textAlign: 'center', width: '100%', minHeight: '382px', padding: '32px 28px', boxSizing: 'border-box' }}>
+                    <div style={{ width: '56px', height: '56px', background: '#D0021B', borderRadius: '12px', margin: '0 auto 14px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                      <Image src={row.problem.icon} alt="" width={28} height={28} aria-hidden="true" />
+                    </div>
                     <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.18vw, 19px)', color: '#D0021B', marginBottom: '12px', lineHeight: '1.4' }}>{row.problem.title}</h3>
                     <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(11px, 0.9vw, 15px)', lineHeight: '1.7', color: '#333333', marginBottom: '10px' }}>{row.problem.body}</p>
                     <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '1.7', color: '#5F6D7E' }}>{row.problem.risk}</p>
                 </div>
                 {/* Right — Solution box (blue.png as full background) */}
                 <div style={{ backgroundColor: '#EBF3FF', backgroundImage: 'url(/blue.png)', backgroundSize: 'cover', backgroundPosition: 'top center', overflow: 'hidden', borderRadius: '16px', textAlign: 'center', width: '100%', minHeight: '382px', padding: '32px 28px', boxSizing: 'border-box' }}>
+                    <div style={{ width: '56px', height: '56px', background: '#14358A', borderRadius: '12px', margin: '0 auto 14px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                      <Image src={row.solution.icon} alt="" width={28} height={28} aria-hidden="true" />
+                    </div>
                     <h3 style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.18vw, 19px)', color: '#14358A', marginBottom: '12px', lineHeight: '1.4' }}>{row.solution.title}</h3>
                     <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 0.9vw, 15px)', lineHeight: '1.7', color: '#333333', marginBottom: '10px' }}>{row.solution.body}</p>
                     <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '1.7', color: '#5F6D7E' }}>{row.solution.benefit}</p>

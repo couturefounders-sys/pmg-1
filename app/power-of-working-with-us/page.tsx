@@ -647,9 +647,9 @@ export default function PowerOfWorkingWithUs() {
 
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' style={{ gap: '24px', width: '100%' }}>
             {[
-              { icon: '/write.png', title: 'Sector Convergence Model', desc: 'Our proprietary framework for identifying and leveraging next-generation disruption opportunities at the intersection of industries, creating unique, durable competitive advantages.' },
-              { icon: '/box.png', title: 'Input-Output Model', desc: 'Our integrated approach to enterprise architecture, built on field-scope work tools that drive unprecedented consistency, standardization and automation, resulting in superior quality control and reduced failure rates.' },
-              { icon: '/balane-two.png', title: 'Business Value-Unit Model', desc: 'Our unique method for quantifying the true ROI of cross-revenue generating departments such as HR & IT, creating holistic performance measurement and precise strategic alignment.' },
+              { icon: '/icons/cards/write.svg', title: 'Sector Convergence Model', desc: 'Our proprietary framework for identifying and leveraging next-generation disruption opportunities at the intersection of industries, creating unique, durable competitive advantages.' },
+              { icon: '/icons/cards/box.svg', title: 'Input-Output Model', desc: 'Our integrated approach to enterprise architecture, built on field-scope work tools that drive unprecedented consistency, standardization and automation, resulting in superior quality control and reduced failure rates.' },
+              { icon: '/icons/cards/balance-two.svg', title: 'Business Value-Unit Model', desc: 'Our unique method for quantifying the true ROI of cross-revenue generating departments such as HR & IT, creating holistic performance measurement and precise strategic alignment.' },
             ].map((card, i) => (
               <div key={i} style={{ background: '#FFFFFF', border: '3px solid #14358A', borderRadius: '10px', padding: '32px 28px', textAlign: 'left' }}>
                 <div className="flex items-center gap-4 mb-4">
@@ -693,23 +693,23 @@ export default function PowerOfWorkingWithUs() {
           <div className="marquee-wrapper w-full overflow-hidden" style={{ border: '3px dashed #A0B4E8', borderRadius: '10px', padding: '36px 0' }}>
             <div className="marquee-track" style={{ display: 'flex', gap: '48px', width: 'max-content' }}>
               {[
-                { icon: '/12.png', label: 'Agile', emoji: '⚡' },
-                { icon: '/23.png', label: 'Lean', emoji: '🔍' },
-                { icon: '/34.png', label: 'Six Sigma', emoji: '📊' },
-                { icon: '/45.png', label: 'Waterfall', emoji: '💧' },
-                { icon: '/12.png', label: 'Kanban', emoji: '📋' },
-                { icon: '/23.png', label: 'SAFe', emoji: '🏗️' },
-                { icon: '/34.png', label: "Kotter's 8-Step", emoji: '🔄' },
-                { icon: '/45.png', label: 'Theory of Constraints', emoji: '🎯' },
+                { icon: '/icons/cards/agile.svg', label: 'Agile', emoji: '⚡' },
+                { icon: '/icons/cards/lean.svg', label: 'Lean', emoji: '🔍' },
+                { icon: '/icons/cards/six-sigma.svg', label: 'Six Sigma', emoji: '📊' },
+                { icon: '/icons/cards/waterfall.svg', label: 'Waterfall', emoji: '💧' },
+                { icon: '/icons/cards/agile.svg', label: 'Kanban', emoji: '📋' },
+                { icon: '/icons/cards/lean.svg', label: 'SAFe', emoji: '🏗️' },
+                { icon: '/icons/cards/six-sigma.svg', label: "Kotter's 8-Step", emoji: '🔄' },
+                { icon: '/icons/cards/waterfall.svg', label: 'Theory of Constraints', emoji: '🎯' },
                 /* duplicate for seamless loop */
-                { icon: '/12.png', label: 'Agile', emoji: '⚡' },
-                { icon: '/23.png', label: 'Lean', emoji: '🔍' },
-                { icon: '/34.png', label: 'Six Sigma', emoji: '📊' },
-                { icon: '/45.png', label: 'Waterfall', emoji: '💧' },
-                { icon: '/12.png', label: 'Kanban', emoji: '📋' },
-                { icon: '/23.png', label: 'SAFe', emoji: '🏗️' },
-                { icon: '/34.png', label: "Kotter's 8-Step", emoji: '🔄' },
-                { icon: '/45.png', label: 'Theory of Constraints', emoji: '🎯' },
+                { icon: '/icons/cards/agile.svg', label: 'Agile', emoji: '⚡' },
+                { icon: '/icons/cards/lean.svg', label: 'Lean', emoji: '🔍' },
+                { icon: '/icons/cards/six-sigma.svg', label: 'Six Sigma', emoji: '📊' },
+                { icon: '/icons/cards/waterfall.svg', label: 'Waterfall', emoji: '💧' },
+                { icon: '/icons/cards/agile.svg', label: 'Kanban', emoji: '📋' },
+                { icon: '/icons/cards/lean.svg', label: 'SAFe', emoji: '🏗️' },
+                { icon: '/icons/cards/six-sigma.svg', label: "Kotter's 8-Step", emoji: '🔄' },
+                { icon: '/icons/cards/waterfall.svg', label: 'Theory of Constraints', emoji: '🎯' },
               ].map((fw, i) => (
                 <div key={i} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px', minWidth: '120px' }}>
                   <span style={{ fontSize: '40px' }}>{fw.emoji}</span>
@@ -728,7 +728,7 @@ export default function PowerOfWorkingWithUs() {
           <div style={{ width: '100%', overflowX: 'auto', paddingBottom: '4px', marginBottom: '48px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '24px', flexWrap: 'nowrap', justifyContent: 'center', width: 'max-content', minWidth: '100%', margin: '0 auto' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexShrink: 0 }}>
-                <img src="/56.png" alt="Proprietary Models" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
+                <img src="/icons/cards/proprietary-models.svg" alt="Proprietary Models" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
                 <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '105%', color: '#14358A' }}>3</span>
                 <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 1vw, 16px)', lineHeight: '140%', color: '#68718B', whiteSpace: 'nowrap' }}>Proprietary Models</span>
@@ -736,7 +736,7 @@ export default function PowerOfWorkingWithUs() {
               </div>
               <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', color: '#14358A', flexShrink: 0 }}>+</span>
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexShrink: 0 }}>
-                <img src="/67.png" alt="Proven Frameworks" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
+                <img src="/icons/cards/proven-frameworks.svg" alt="Proven Frameworks" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
                 <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '105%', color: '#14358A' }}>8</span>
                 <span style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 1vw, 16px)', lineHeight: '140%', color: '#68718B', whiteSpace: 'nowrap' }}>Proven Frameworks</span>
@@ -744,7 +744,7 @@ export default function PowerOfWorkingWithUs() {
               </div>
               <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', color: '#14358A', flexShrink: 0 }}>=</span>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', background: '#EEF2FF', borderRadius: '999px', padding: '14px 28px', flexShrink: 0 }}>
-                <img src="/78.png" alt="The Right Solution" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
+                <img src="/icons/cards/right-solution.svg" alt="The Right Solution" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
                 <span style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#14358A', whiteSpace: 'nowrap' }}>The Right Solution, Every Time.</span>
               </div>
             </div>

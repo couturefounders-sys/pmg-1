@@ -87,7 +87,7 @@ export default function ResourcesPage() {
               }}
             >
               <div style={{ position: 'relative', width: '56px', height: '56px', background: '#14358A', borderRadius: '12px', flexShrink: 0 }}>
-                <Image src="/message-security.png" alt="Precision Thinking" width={34} height={34} style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '34px', height: '34px', objectFit: 'contain' }} />
+                <Image src="/icons/cards/message-security.svg" alt="Precision Thinking" width={34} height={34} style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '34px', height: '34px', objectFit: 'contain' }} />
               </div>
               <h3
                 style={{
@@ -126,7 +126,7 @@ export default function ResourcesPage() {
               }}
             >
               <div style={{ position: 'relative', width: '56px', height: '56px', background: '#14358A', borderRadius: '12px', flexShrink: 0 }}>
-                <Image src="/Avoid.png" alt="Avoid Costly Errors" width={34} height={34} style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '34px', height: '34px', objectFit: 'contain' }} />
+                <Image src="/icons/cards/funds.svg" alt="Avoid Costly Errors" width={34} height={34} style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '34px', height: '34px', objectFit: 'contain' }} />
               </div>
               <h3
                 style={{
@@ -165,7 +165,7 @@ export default function ResourcesPage() {
               }}
             >
               <div style={{ position: 'relative', width: '56px', height: '56px', background: '#14358A', borderRadius: '12px', flexShrink: 0 }}>
-                <Image src="/chart-histogram.png" alt="Faster Execution" width={34} height={34} style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '34px', height: '34px', objectFit: 'contain' }} />
+                <Image src="/icons/cards/chart-histogram.svg" alt="Faster Execution" width={34} height={34} style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '34px', height: '34px', objectFit: 'contain' }} />
               </div>
               <h3
                 style={{
@@ -204,7 +204,7 @@ export default function ResourcesPage() {
           >
             <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
               <div style={{ position: 'relative', width: '56px', height: '56px', background: '#14358A', borderRadius: '12px', flexShrink: 0 }}>
-                <Image src="/Use.png" alt="How to Use This Resource" width={34} height={34} style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '34px', height: '34px', objectFit: 'contain' }} />
+                <Image src="/icons/cards/efferent-three.svg" alt="How to Use This Resource" width={34} height={34} style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '34px', height: '34px', objectFit: 'contain' }} />
               </div>
               <div>
                 <h3

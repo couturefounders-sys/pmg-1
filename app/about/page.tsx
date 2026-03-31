@@ -3,6 +3,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CoreValuesPentagon from '@/components/CoreValuesPentagon';
+import AlternatingTimeline from '@/components/AlternatingTimeline';
 import Link from 'next/link';
 
 export default function About() {
@@ -684,106 +685,35 @@ export default function About() {
             Our story is one of relentless innovation and an unwavering commitment to our clients' long-term success.
           </p>
 
-          <div className="relative max-w-5xl mx-auto">
-            {/* Center Line */}
-            <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-[4px] bg-[#006FBA] transform md:-translate-x-1/2 rounded-full"></div>
-
-            {/* Timeline Items */}
-            <div className="relative z-10 space-y-24">
-              {[
-                { date: "August 2018", text: "PMG is founded to deliver high-value, tailored consulting solutions that drive strategic business success." },
-                { date: "September 2018", text: "PMG secures its first client, cementing our reputation for delivering practical, high-impact results." },
-                { date: "November 2018", text: "Expanding nationally, PMG wins a major consulting bid in Halifax, establishing a foothold for growth." },
-                { date: "December 2018", text: "PMG launches a whitelabel operating service, enabling clients to maintain seamless operations while focusing on growth." },
-                { date: "February 2019", text: "Entering the Vancouver market, PMG continues its rapid expansion with a multi-location restaurant contract." },
-                { date: "April 2019", text: "In response to growing demand, PMG welcomes its 20th associate, scaling our expertise to serve more clients." },
-                { date: "October 2019", text: "Our influence grows to over 25 locations, with a diverse portfolio of long-term management and strategic projects." },
-                { date: "January 2020", text: "PMG expands into the U.S. market, overseeing a 15-location restaurant group in New York." },
-                { date: "February 2020", text: "PMG launches a COVID-19 Resiliency Program, helping hotels and restaurants navigate unprecedented challenges." },
-                { date: "April 2020", text: "Appointed as lead project manager for a hotel in Dubai, PMG establishes its global consulting footprint." },
-                { date: "June 2020", text: "To maximize industry recovery, PMG runs its enhanced COVID-19 support program at cost." },
-                { date: "October 2020", text: "Now serving over 50 clients across 60+ locations, PMG becomes a North American industry leader." },
-                { date: "March 2021", text: "PMG launches M&A advisory services, guiding clients through complex transactions and restructurings." },
-                { date: "July 2021", text: "Investing in talent, PMG launches an accelerated GM training program to cultivate future industry leaders." },
-                { date: "May 2022", text: "Having supported over $100M in M&A deals, PMG solidifies its reputation as a trusted transaction partner." },
-                { date: "October 2022", text: "PMG partners with a private equity group to launch three luxury hotels in South Africa, expanding our global impact." },
-                { date: "February 2023", text: "Shifting to functional consulting, PMG leverages deep specialization to deliver superior, data-driven results." },
-                { date: "April 2023", text: "PMG achieves a 20x client ROI for large-scale projects, setting a new industry benchmark for value." },
-                { date: "September 2023", text: "Operating in over a dozen countries on four continents, PMG's brand recognition and global presence grow." },
-                { date: "January 2024", text: "PMG publishes its revolutionary Sector Convergence Model, accelerating timelines and maximizing client ROI." },
-                { date: "April 2024", text: "Evolving into a full-service leader, PMG expands its functional consulting services to meet diverse client needs." },
-                { date: "May 2024", text: "PMG dedicates over $250K annually in pro-bono consulting, reaffirming our commitment to community impact." },
-                { date: "December 2024", text: "PMG becomes the trusted white-label partner for top-tier consulting firms, delivering expert knowledge management." },
-                { date: "July 2025", text: "PMG relaunches its service suite, redesigning our offerings to deliver even greater value and expertise to our clients." },
-                { date: "September 2025", text: "PMG relaunches its brand, focusing on the core principles that have always set it apart while making new investments in its public presence to directly compete with larger, established consulting firms. Learn more about the next stage of PMG →" }
-              ].map((item, index) => {
-                const isLeft = index % 2 === 0;
-                return (
-                <div key={index} className="flex items-center w-full" style={{ flexDirection: isLeft ? 'row' : 'row-reverse' }}>
-                  {/* Content Box */}
-                  <div className="w-full md:w-1/2 relative" style={{ paddingLeft: isLeft ? 0 : '4rem', paddingRight: isLeft ? '4rem' : 0, textAlign: isLeft ? 'right' : 'left' }}>
-                    {/* Shadow/Offset Box */}
-                    <div
-                      className="absolute hidden md:block w-full h-full"
-                      style={{
-                        maxWidth: 'min(412px, 90%)',
-                        border: '3px solid #006FBA',
-                        borderRadius: '16px',
-                        zIndex: 0,
-                        top: '8px',
-                        right: isLeft ? '50px' : 'auto',
-                        left: isLeft ? 'auto' : '50px',
-                      }}
-                    ></div>
-
-                    {/* Main Card */}
-                    <div
-                      className="inline-block w-full relative bg-white"
-                      style={{
-                        maxWidth: 'min(412px, 90%)',
-                        padding: 'clamp(16px, 1.39vw, 24px)',
-                        background: 'linear-gradient(#fff, #fff) padding-box, linear-gradient(270.31deg, #14358A 0.32%, #006FBA 97.73%) border-box',
-                        border: '3px solid transparent',
-                        borderRadius: '16px',
-                        zIndex: 1,
-                        position: 'relative'
-                      }}
-                    >
-                      <h4
-                        className="text-[#14358A] font-bold font-dm-sans mb-3"
-                        style={{ fontSize: 'clamp(18px, 1.67vw, 24px)' }}
-                      >
-                        {item.date}
-                      </h4>
-                      <p
-                        className="font-dm-sans font-normal text-[#68718B]"
-                        style={{
-                          fontSize: 'clamp(13px, 1.11vw, 16px)',
-                          lineHeight: '140%'
-                        }}
-                      >
-                        {item.text}
-                      </p>
-                    </div>
-                    {/* Dotted Connector */}
-                    <div
-                      className="absolute top-1/2 -translate-y-1/2 border-t-2 border-dotted border-[#006FBA] w-12"
-                      style={{ zIndex: 2, right: isLeft ? '1rem' : 'auto', left: isLeft ? 'auto' : '1rem' }}
-                    ></div>
-                  </div>
-
-                  {/* Center Dot */}
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-[#006FBA] border-4 border-white shadow-sm z-20"></div>
-
-                  {/* Empty Space for Balance */}
-                  <div className="hidden md:block w-1/2"></div>
-                </div>
-                );
-              })}
-            </div>
-            {/* End Cap */}
-            <div className="absolute left-4 md:left-1/2 bottom-0 transform md:-translate-x-1/2 w-[4px] h-12 bg-[#006FBA]"></div>
-          </div>
+          <AlternatingTimeline
+            items={[
+              { title: "August 2018", description: "PMG is founded to deliver high-value, tailored consulting solutions that drive strategic business success." },
+              { title: "September 2018", description: "PMG secures its first client, cementing our reputation for delivering practical, high-impact results." },
+              { title: "November 2018", description: "Expanding nationally, PMG wins a major consulting bid in Halifax, establishing a foothold for growth." },
+              { title: "December 2018", description: "PMG launches a whitelabel operating service, enabling clients to maintain seamless operations while focusing on growth." },
+              { title: "February 2019", description: "Entering the Vancouver market, PMG continues its rapid expansion with a multi-location restaurant contract." },
+              { title: "April 2019", description: "In response to growing demand, PMG welcomes its 20th associate, scaling our expertise to serve more clients." },
+              { title: "October 2019", description: "Our influence grows to over 25 locations, with a diverse portfolio of long-term management and strategic projects." },
+              { title: "January 2020", description: "PMG expands into the U.S. market, overseeing a 15-location restaurant group in New York." },
+              { title: "February 2020", description: "PMG launches a COVID-19 Resiliency Program, helping hotels and restaurants navigate unprecedented challenges." },
+              { title: "April 2020", description: "Appointed as lead project manager for a hotel in Dubai, PMG establishes its global consulting footprint." },
+              { title: "June 2020", description: "To maximize industry recovery, PMG runs its enhanced COVID-19 support program at cost." },
+              { title: "October 2020", description: "Now serving over 50 clients across 60+ locations, PMG becomes a North American industry leader." },
+              { title: "March 2021", description: "PMG launches M&A advisory services, guiding clients through complex transactions and restructurings." },
+              { title: "July 2021", description: "Investing in talent, PMG launches an accelerated GM training program to cultivate future industry leaders." },
+              { title: "May 2022", description: "Having supported over $100M in M&A deals, PMG solidifies its reputation as a trusted transaction partner." },
+              { title: "October 2022", description: "PMG partners with a private equity group to launch three luxury hotels in South Africa, expanding our global impact." },
+              { title: "February 2023", description: "Shifting to functional consulting, PMG leverages deep specialization to deliver superior, data-driven results." },
+              { title: "April 2023", description: "PMG achieves a 20x client ROI for large-scale projects, setting a new industry benchmark for value." },
+              { title: "September 2023", description: "Operating in over a dozen countries on four continents, PMG's brand recognition and global presence grow." },
+              { title: "January 2024", description: "PMG publishes its revolutionary Sector Convergence Model, accelerating timelines and maximizing client ROI." },
+              { title: "April 2024", description: "Evolving into a full-service leader, PMG expands its functional consulting services to meet diverse client needs." },
+              { title: "May 2024", description: "PMG dedicates over $250K annually in pro-bono consulting, reaffirming our commitment to community impact." },
+              { title: "December 2024", description: "PMG becomes the trusted white-label partner for top-tier consulting firms, delivering expert knowledge management." },
+              { title: "July 2025", description: "PMG relaunches its service suite, redesigning our offerings to deliver even greater value and expertise to our clients." },
+              { title: "September 2025", description: "PMG relaunches its brand, focusing on the core principles that have always set it apart while making new investments in its public presence to directly compete with larger, established consulting firms. Learn more about the next stage of PMG →" },
+            ]}
+          />
         </div>
       </div>
 

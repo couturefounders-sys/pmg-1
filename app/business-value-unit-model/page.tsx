@@ -513,7 +513,7 @@ export default function BusinessValueUnitModelPage() {
                 }}
               >
                 <img
-                  src="/calibration.png"
+                  src="/icons/cards/cube-three.svg"
                   alt="BVU Calibration"
                   style={{
                     width: '32px',
@@ -566,7 +566,7 @@ export default function BusinessValueUnitModelPage() {
                 }}
               >
                 <img
-                  src="/calibration.png"
+                  src="/icons/cards/cube-three.svg"
                   alt="Integration with I-O Architecture"
                   style={{
                     width: '32px',
@@ -619,7 +619,7 @@ export default function BusinessValueUnitModelPage() {
                 }}
               >
                 <img
-                  src="/calibration.png"
+                  src="/icons/cards/cube-three.svg"
                   alt="Strategic Benefit: Capital Allocation"
                   style={{
                     width: '32px',
@@ -672,7 +672,7 @@ export default function BusinessValueUnitModelPage() {
                 }}
               >
                 <img
-                  src="/calibration.png"
+                  src="/icons/cards/cube-three.svg"
                   alt="Strategic Benefit: Risk Hedging"
                   style={{
                     width: '32px',

@@ -123,25 +123,25 @@ export default function OurSolutions() {
 
   const cards = [
     {
-      icon: '/icon-bespoke.png',
+      icon: '/icons/cards/write.svg',
       title: 'Bespoke Solutions',
       subtitle: 'For Complex, High-Stakes Challenges',
       description: 'Fully customized strategies and hands-on implementation designed for your most complex, high-stakes organizational and operational challenges.',
     },
     {
-      icon: '/icon-operations.png',
+      icon: '/icons/cards/balance-two.svg',
       title: 'Out-of-the-Box Solutions',
       subtitle: 'For Common Problems & Rapid Results',
       description: 'Accelerated, ready-to-deploy frameworks and toolkits designed to rapidly address common business inefficiencies and operational gaps.',
     },
     {
-      icon: '/icon-equity.png',
+      icon: '/icons/cards/box.svg',
       title: 'Equity Consulting',
       subtitle: 'For Scale-Ups & Turnarounds',
       description: 'A shared-risk partnership where we invest our operational expertise in exchange for equity, ensuring our success is directly tied to your valuation and long-term growth.',
     },
     {
-      icon: '/icon-active.png',
+      icon: '/icons/cards/right-user.svg',
       title: 'Active Management',
       subtitle: 'For Hands-On Execution & Leadership',
       description: 'Placements of executive operators directly into key management roles to drive immediate, sustained success and build internal capability from within.',
@@ -625,7 +625,7 @@ export default function OurSolutions() {
                   zIndex: 1,
                 }}
               >
-                <img src="/icon-palette.png" alt="Project-Based Pricing" style={{ width: 'clamp(48px, 4.44vw, 64px)', height: 'clamp(48px, 4.44vw, 64px)' }} />
+                <img src="/icons/cards/palette.svg" alt="Project-Based Pricing" style={{ width: 'clamp(48px, 4.44vw, 64px)', height: 'clamp(48px, 4.44vw, 64px)' }} />
               </div>
 
               {/* Card Content */}
@@ -674,7 +674,7 @@ export default function OurSolutions() {
                   zIndex: 1,
                 }}
               >
-                <img src="/icon-users-four.png" alt="Retainer & Ongoing Support" style={{ width: 'clamp(48px, 4.44vw, 64px)', height: 'clamp(48px, 4.44vw, 64px)' }} />
+                <img src="/icons/cards/users-four.svg" alt="Retainer & Ongoing Support" style={{ width: 'clamp(48px, 4.44vw, 64px)', height: 'clamp(48px, 4.44vw, 64px)' }} />
               </div>
 
               {/* Card Content */}
@@ -723,7 +723,7 @@ export default function OurSolutions() {
                   zIndex: 1,
                 }}
               >
-                <img src="/icon-handshake.png" alt="Custom & Hybrid Agreements" style={{ width: 'clamp(48px, 4.44vw, 64px)', height: 'clamp(48px, 4.44vw, 64px)' }} />
+                <img src="/icons/cards/handshake.svg" alt="Custom & Hybrid Agreements" style={{ width: 'clamp(48px, 4.44vw, 64px)', height: 'clamp(48px, 4.44vw, 64px)' }} />
               </div>
 
               {/* Card Content */}

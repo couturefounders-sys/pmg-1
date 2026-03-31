@@ -10,17 +10,17 @@ export default function ActiveManagementSolutions() {
   const [activeTab, setActiveTab] = useState<'leadership' | 'autopilot'>('leadership');
   const advantageCards = [
     {
-      icon: '/ams-icon-1.png',
+      icon: '/icons/cards/badge-thunderbolt.svg',
       title: 'Unmatched Flexibility',
       desc: 'Your contract is with PMG, not an individual. This provides unparalleled flexibility to switch the assigned executive as your business needs shift, from growth to M&A, ensuring you always have the right expertise at the right time.',
     },
     {
-      icon: '/ams-icon-2.png',
+      icon: '/icons/cards/badge-setting-laptop.svg',
       title: 'World-Class Consultant Quality',
       desc: 'We embed our own top-tier experts, rigorously selected, trained in PMG\'s integration methods, and backed by our global resources, they ensure you receive consultant-level ROI without the typical consultant price tag.',
     },
     {
-      icon: '/ams-icon-3.png',
+      icon: '/icons/cards/badge-protect.svg',
       title: 'Guaranteed Quality & Accountability',
       desc: 'PMG actively monitors performance and provides oversight, ensuring alignment with your strategic objectives. Your embedded executive is supported by the full PMG knowledge base to deliver exceptional results.',
     },
@@ -28,32 +28,32 @@ export default function ActiveManagementSolutions() {
 
   const impactCards = [
     {
-      icon: '/ams-icon-4.png',
+      icon: '/icons/cards/badge-medal-one.svg',
       title: 'Accelerated Career Growth',
       desc: 'Work on diverse, high-impact challenges across industries instead of being limited to one company\'s trajectory.',
     },
     {
-      icon: '/ams-icon-5.png',
+      icon: '/icons/cards/ams-heart.svg',
       title: 'Methodology & Resources',
       desc: 'Access to PMG\'s proprietary frameworks, tools, and knowledge base that individual companies can\'t provide.',
     },
     {
-      icon: '/ams-icon-8.png',
+      icon: '/icons/cards/ams-every-user.svg',
       title: 'Portfolio Experience',
       desc: 'Solve different types of problems across multiple businesses to build a truly diverse and robust skill set.',
     },
     {
-      icon: '/ams-icon-7.png',
+      icon: '/icons/cards/badge-cloud-storage.svg',
       title: 'Peer Network',
       desc: 'Collaborate with other top operators in PMG\'s ecosystem, sharing insights and solving challenges collectively.',
     },
     {
-      icon: '/ams-icon-5.png',
+      icon: '/icons/cards/ams-heart.svg',
       title: 'Reduced Risk',
       desc: 'PMG provides stability, benefits, and support, freeing operators to focus on execution without administrative burdens.',
     },
     {
-      icon: '/ams-icon-9.png',
+      icon: '/icons/cards/badge-alignment-bottom-center.svg',
       title: 'Work-Life Integration',
       desc: 'Structured engagement models with clear boundaries, preventing the 24/7 demands of traditional C-suite roles.',
     },
@@ -681,11 +681,11 @@ export default function ActiveManagementSolutions() {
               {/* Functional areas list */}
               <div className="space-y-3 mb-6">
                 {[
-                  { text: 'Operations & Strategy', icon: '/functional-icon-1.png' },
-                  { text: 'People & Organizations', icon: '/functional-icon-2.png' },
-                  { text: 'Mergers & Acquisitions', icon: '/functional-icon-3.png' },
-                  { text: 'Customer Experience', icon: '/functional-icon-4.png' },
-                  { text: 'Branding & Marketing', icon: '/functional-icon-5.png' },
+                  { text: 'Operations & Strategy', icon: '/icons/cards/functional-operations-strategy.svg' },
+                  { text: 'People & Organizations', icon: '/icons/cards/functional-people-organizations.svg' },
+                  { text: 'Mergers & Acquisitions', icon: '/icons/cards/functional-mergers-acquisitions.svg' },
+                  { text: 'Customer Experience', icon: '/icons/cards/functional-customer-experience.svg' },
+                  { text: 'Branding & Marketing', icon: '/icons/cards/functional-branding-marketing.svg' },
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center gap-3">
                     <Image
@@ -749,7 +749,7 @@ export default function ActiveManagementSolutions() {
                       'Report progress and results to you or your designated leader',
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2">
-                        <Image src="/we-do-icon.png" alt="✓" width={20} height={20} style={{ flexShrink: 0, marginTop: '2px' }} />
+                        <Image src="/icons/cards/we-do.svg" alt="✓" width={20} height={20} style={{ flexShrink: 0, marginTop: '2px' }} />
                         <span
                           style={{
                             fontFamily: 'DM Sans, sans-serif',
@@ -787,7 +787,7 @@ export default function ActiveManagementSolutions() {
                       'Disengage without a thorough knowledge transfer',
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2">
-                        <Image src="/we-do-not-icon.png" alt="✗" width={20} height={20} style={{ flexShrink: 0, marginTop: '2px' }} />
+                        <Image src="/icons/cards/we-do-not.svg" alt="✗" width={20} height={20} style={{ flexShrink: 0, marginTop: '2px' }} />
                         <span
                           style={{
                             fontFamily: 'DM Sans, sans-serif',
@@ -917,7 +917,7 @@ export default function ActiveManagementSolutions() {
                       'Risk management and compliance',
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2">
-                        <Image src="/we-do-icon.png" alt="✓" width={20} height={20} style={{ flexShrink: 0, marginTop: '2px' }} />
+                        <Image src="/icons/cards/we-do.svg" alt="✓" width={20} height={20} style={{ flexShrink: 0, marginTop: '2px' }} />
                         <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#364153' }}>{item}</span>
                       </li>
                     ))}
@@ -933,7 +933,7 @@ export default function ActiveManagementSolutions() {
                       'Leave without extensive transition planning',
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2">
-                        <Image src="/we-do-not-icon.png" alt="✗" width={20} height={20} style={{ flexShrink: 0, marginTop: '2px' }} />
+                        <Image src="/icons/cards/we-do-not.svg" alt="✗" width={20} height={20} style={{ flexShrink: 0, marginTop: '2px' }} />
                         <span style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '140%', color: '#364153' }}>{item}</span>
                       </li>
                     ))}
@@ -1003,17 +1003,17 @@ export default function ActiveManagementSolutions() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
-                icon: '/accountability-icon-1.png',
+                icon: '/icons/cards/badge-target.svg',
                 title: 'Transparent Success Metrics',
                 desc: 'Before any project begins, we work with you to define specific, measurable KPIs that align directly with your desired business outcomes. You know exactly what success looks like from day one.',
               },
               {
-                icon: '/accountability-icon-2.png',
+                icon: '/icons/cards/badge-pencil.svg',
                 title: 'Consistent Progress Reviews',
                 desc: 'We establish a regular cadence of structured reviews, providing documented updates that track our performance against the agreed-upon targets. This ensures you always have clear reporting.',
               },
               {
-                icon: '/accountability-icon-3.png',
+                icon: '/icons/cards/badge-check-correct.svg',
                 title: 'Post-Engagement Success Audit',
                 desc: 'Our commitment extends beyond project completion. We conduct a 6- and 12-month follow-up audits to ensure the long-term impact of our work, verifying that improvements are sustained and continue to grow.',
               },
@@ -1102,19 +1102,19 @@ export default function ActiveManagementSolutions() {
           <div className="flex flex-wrap justify-center gap-8 max-w-[1200px] mx-auto">
             {[
               {
-                icon: '/approach-icon-1.png',
+                icon: '/icons/cards/badge-setting-laptop.svg',
                 title: 'Architects & Implementers, Not Just Advisors',
                 subtitle: 'We Own the Outcome.',
                 desc: 'Our engagement does not end with a strategy deck; we stay to execute the plan, integrating with your teams to manage the transformation and ensure the solutions we design are the solutions we deliver.',
               },
               {
-                icon: '/approach-icon-2.png',
+                icon: '/icons/cards/badge-protect.svg',
                 title: 'Industry-Agnostic Innovation',
                 subtitle: 'Proven Strategies Beyond Sector Silos.',
                 desc: 'We believe the best solutions are not confined to a single industry. By applying our Sector Convergence Model, we pull proven strategies from diverse fields to solve problems with a speed and creativity that industry-siloed consultants cannot match.',
               },
               {
-                icon: '/approach-icon-3.png',
+                icon: '/icons/cards/badge-medal-one.svg',
                 title: 'Rigorous Quality Assurance & Continuous Improvement',
                 subtitle: 'Built for Excellence. Refined for Results.',
                 desc: 'Every project plan, financial model, and key deliverable undergoes a rigorous internal QA process to ensure viability and alignment with your goals. After every engagement, we codify our learnings to continuously refine our methods. This is how we maintain our industry-leading 22x average client ROI.',

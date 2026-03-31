@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import AlternatingTimeline from '@/components/AlternatingTimeline';
 
 export default function InsightsPage() {
   return (
@@ -226,44 +227,42 @@ export default function InsightsPage() {
 
       {/* ─── Section 3: The Six-Step Strategic Framework ─── */}
       <section className="w-full bg-white py-20 px-6">
-        <div className="max-w-[860px] mx-auto">
+        <div className="max-w-[min(1100px,_90%)] mx-auto">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', textAlign: 'center', marginBottom: '16px' }}>
             The Six-Step Strategic Framework
           </h2>
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '1.75', color: '#333333', textAlign: 'center', marginBottom: '56px' }}>
             A systematic process for engineering breakthrough solutions.
           </p>
-          <div style={{ position: 'relative' }}>
-            {/* Vertical center line */}
-            <div style={{ position: 'absolute', left: '50%', top: 0, bottom: 0, width: '3px', background: '#14358A', transform: 'translateX(-50%)', zIndex: 0 }} />
-            {[
-              { step: 1, title: 'Isolate Strategic Outcome', desc: 'Articulate one clear, measurable strategic outcome. This is your North Star.' },
-              { step: 2, title: 'Determine Most Important Problems (MIPs)', desc: 'Pinpoint the critical barriers preventing your objective using root-cause analysis.' },
-              { step: 3, title: 'Map Divergent Sectors', desc: 'Identify sectors with contrasting strategic DNA to draw novel insights from.' },
-              { step: 4, title: 'Source Cross-Sector Solutions', desc: 'Leverage your defined MIP to ask precise, actionable questions of sector experts.' },
-              { step: 5, title: 'Integration & Execution', desc: 'Execute a decisive transition, replacing legacy systems with the new, integrated solution.' },
-              { step: 6, title: 'Validation & Continuous Iteration', desc: 'Continuously monitor outcomes, using real-time data to refine and optimize.' },
-            ].map((item, i) => {
-              const isLeft = i % 2 === 0;
-              return (
-                <div key={i} style={{ display: 'flex', alignItems: 'center', marginBottom: '40px', flexDirection: isLeft ? 'row' : 'row-reverse', position: 'relative' }}>
-                  {/* Card */}
-                  <div style={{ width: 'calc(50% - 44px)', border: '3px solid #14358A', borderRadius: '10px', padding: '24px', background: '#FFFFFF' }}>
-                    <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.18vw, 19px)', color: '#14358A', marginBottom: '8px' }}>{item.title}</h3>
-                    <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 0.9vw, 15px)', lineHeight: '1.75', color: '#5F6D7E', margin: 0 }}>{item.desc}</p>
-                  </div>
-                  {/* Center circle */}
-                  <div style={{ width: '88px', display: 'flex', justifyContent: 'center', flexShrink: 0, zIndex: 1 }}>
-                    <div style={{ width: '56px', height: '56px', borderRadius: '50%', background: '#14358A', color: '#FFFFFF', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: '20px' }}>
-                      {item.step}
-                    </div>
-                  </div>
-                  {/* Empty half */}
-                  <div style={{ width: 'calc(50% - 44px)' }} />
-                </div>
-              );
-            })}
-          </div>
+          <AlternatingTimeline
+            showEndCap={false}
+            items={[
+              {
+                title: 'Isolate Strategic Outcome',
+                description: 'Articulate one clear, measurable strategic outcome. This is your North Star.',
+              },
+              {
+                title: 'Determine Most Important Problems (MIPs)',
+                description: 'Pinpoint the critical barriers preventing your objective using root-cause analysis.',
+              },
+              {
+                title: 'Map Divergent Sectors',
+                description: 'Identify sectors with contrasting strategic DNA to draw novel insights from.',
+              },
+              {
+                title: 'Source Cross-Sector Solutions',
+                description: 'Leverage your defined MIP to ask precise, actionable questions of sector experts.',
+              },
+              {
+                title: 'Integration & Execution',
+                description: 'Execute a decisive transition, replacing legacy systems with the new, integrated solution.',
+              },
+              {
+                title: 'Validation & Continuous Iteration',
+                description: 'Continuously monitor outcomes, using real-time data to refine and optimize.',
+              },
+            ]}
+          />
         </div>
       </section>
 

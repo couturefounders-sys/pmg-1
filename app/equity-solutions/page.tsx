@@ -377,7 +377,7 @@ export default function EquitySolutions() {
                       flexShrink: 0,
                     }}
                   >
-                    <Image src="/equity-icon-13.png" alt={card.title} width={36} height={36} style={{ objectFit: 'contain' }} />
+                    <Image src="/icons/cards/table.svg" alt={card.title} width={36} height={36} style={{ objectFit: 'contain' }} />
                   </div>
                   <h3
                     style={{
@@ -448,7 +448,7 @@ export default function EquitySolutions() {
                       flexShrink: 0,
                     }}
                   >
-                    <Image src="/equity-icon-13.png" alt={card.title} width={36} height={36} style={{ objectFit: 'contain' }} />
+                    <Image src="/icons/cards/table.svg" alt={card.title} width={36} height={36} style={{ objectFit: 'contain' }} />
                   </div>
                   <h3
                     style={{
@@ -536,7 +536,7 @@ export default function EquitySolutions() {
                   zIndex: 1,
                 }}
               >
-                <img src="/icon-palette.png" alt="Maximum Alignment" style={{ width: '64px', height: '64px' }} />
+                <img src="/icons/cards/palette.svg" alt="Maximum Alignment" style={{ width: '64px', height: '64px' }} />
               </div>
 
               {/* Card Content */}
@@ -582,7 +582,7 @@ export default function EquitySolutions() {
                   zIndex: 1,
                 }}
               >
-                <img src="/icon-users-four.png" alt="Access to Exceptional Companies" style={{ width: '64px', height: '64px' }} />
+                <img src="/icons/cards/users-four.svg" alt="Access to Exceptional Companies" style={{ width: '64px', height: '64px' }} />
               </div>
 
               {/* Card Content */}
@@ -628,7 +628,7 @@ export default function EquitySolutions() {
                   zIndex: 1,
                 }}
               >
-                <img src="/icon-handshake.png" alt="Proven Returns" style={{ width: '64px', height: '64px' }} />
+                <img src="/icons/cards/handshake.svg" alt="Proven Returns" style={{ width: '64px', height: '64px' }} />
               </div>
 
               {/* Card Content */}
@@ -710,17 +710,17 @@ export default function EquitySolutions() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
             {[
               {
-                icon: '/bcdimspx.png',
+                icon: '/icons/cards/funds.svg',
                 title: 'Valuation-Based Objectives',
                 desc: 'We begin by aligning on the 2–3 key drivers of valuation that our work will directly impact. Whether it\'s scaling ARR, achieving product-led growth milestones, or executing an operational turnaround to improve EBITDA margins, we define success in the language of your next funding round or exit.',
               },
               {
-                icon: '/c_dk_ml.png',
+                icon: '/icons/cards/table.svg',
                 title: 'Governance & Transparent Stewardship',
                 desc: 'Our involvement is designed for clarity, not control. We establish clear, lightweight governance—often through an Advisory Board with board observer rights—where you retain full control. You receive direct access to the same operational dashboards (built on our BVU and I-O frameworks) that we use to track progress.',
               },
               {
-                icon: '/c_djckd.png',
+                icon: '/icons/cards/message-security.svg',
                 title: 'Exit-Readiness Reviews',
                 desc: "Quarterly, we conduct an Exit-Readiness Audit. This isn't just a project update. It's a disciplined review of the company's health against the criteria of potential acquirors or Series B+ investors. We identify gaps in documentation, operational metrics, or financial storytelling, and work proactively to close them. Our goal is to ensure the company is always positioned for a successful liquidity event.",
               },
@@ -1044,7 +1044,7 @@ export default function EquitySolutions() {
                 }}
               >
                 <Image
-                  src="/switch-button.png"
+                  src="/icons/cards/switch-button.svg"
                   alt="Start with Exploration"
                   width={24}
                   height={24}
@@ -1119,7 +1119,7 @@ export default function EquitySolutions() {
                 }}
               >
                 <Image
-                  src="/efferent-three.png"
+                  src="/icons/cards/efferent-three.svg"
                   alt="Ready to Apply"
                   width={24}
                   height={24}

@@ -292,7 +292,7 @@ export default function OutOfTheBoxSolutions() {
               >
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '16px' }}>
                   <div style={{ width: '48px', height: '48px', borderRadius: '10px', backgroundColor: '#14358A', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                    <img src="/ootb-icon-14.png" alt="" style={{ width: '26px', height: '26px', objectFit: 'contain' }} />
+                    <img src="/icons/cards/cube-three.svg" alt="" style={{ width: '26px', height: '26px', objectFit: 'contain' }} />
                   </div>
                   <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', color: '#14358A', margin: '6px 0 0 0', lineHeight: '1.2' }}>{card.title}</h3>
                 </div>
