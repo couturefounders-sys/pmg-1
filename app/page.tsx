@@ -41,8 +41,8 @@ export default function Home() {
             ].map((item, i) => (
               <div key={i} className="flex items-center flex-wrap md:flex-nowrap" style={{ background: 'linear-gradient(90deg, #1B45B4 0%, #1C2792 100%)', minHeight: item.first ? 'clamp(70px, 10.83vw, 170px)' : 'clamp(60px, 9.86vw, 156px)', borderBottom: item.last ? 'none' : '1px solid white', paddingLeft: 'clamp(16px, 5.56vw, 90px)', paddingRight: 'clamp(16px, 5.56vw, 90px)', paddingTop: 'clamp(12px, 1vw, 16px)', paddingBottom: 'clamp(12px, 1vw, 16px)' }}>
                 <Image src="/arrow-icon.png" alt="" width={24} height={24} className="hidden md:block" style={{ flexShrink: 0, width: 'clamp(16px, 1.67vw, 28px)', height: 'clamp(16px, 1.67vw, 28px)' }} />
-                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 2.08vw, 34px)', lineHeight: '120%', marginLeft: 'clamp(8px, 2.22vw, 36px)', flexShrink: 0 }}>{item.title}</span>
-                <div className="text-white flex flex-col ml-auto" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: 'clamp(12px, 2.08vw, 34px)', lineHeight: '120%' }}>
+                <span className="text-white" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 2.08vw, 34px)', lineHeight: '120%', marginLeft: 'clamp(8px, 2.22vw, 36px)', flex: '0 0 45%' }}>{item.title}</span>
+                <div className="text-white flex flex-col" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: 'clamp(12px, 2.08vw, 34px)', lineHeight: '120%', flex: '1 1 auto' }}>
                   {item.desc.map((line, j) => <p key={j}>{line}</p>)}
                 </div>
               </div>
