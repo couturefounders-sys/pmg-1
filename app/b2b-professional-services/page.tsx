@@ -40,6 +40,7 @@ export default function B2BProfessionalServices() {
       <Header />
 
       {/* Hero Section */}
+      <FadeInSection delay={0} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 sm:px-[clamp(24px,8.19vw,118px)] pt-[clamp(120px,13.89vw,200px)] pb-24 flex flex-col lg:flex-row justify-between items-start gap-12">
         {/* Left Content */}
         <div className="flex flex-col gap-8 max-w-[740px] z-10">
@@ -87,6 +88,7 @@ export default function B2BProfessionalServices() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Decorative Bars - Top Left */}
       <div className="relative w-full pointer-events-none" style={{ height: 'clamp(80px, 11.11vw, 160px)' }}>
@@ -95,6 +97,7 @@ export default function B2BProfessionalServices() {
       </div>
 
       {/* Your Partner in Service Excellence Section */}
+      <FadeInSection delay={0.1} direction="up">
       <div className="relative w-full bg-white" style={{ paddingTop: 'clamp(80px, 8.33vw, 120px)', paddingBottom: 'clamp(80px, 8.33vw, 120px)' }}>
         <div className="relative max-w-[min(1440px,_95%)] mx-auto flex flex-col items-center px-6">
 
@@ -134,6 +137,7 @@ export default function B2BProfessionalServices() {
 
         </div>
       </div>
+      </FadeInSection>
 
       {/* Decorative Bars - Top Right + Bottom Left */}
       <div className="relative w-full pointer-events-none" style={{ height: 'clamp(80px, 11.11vw, 160px)' }}>
@@ -144,6 +148,7 @@ export default function B2BProfessionalServices() {
       </div>
 
       {/* Our Work Section */}
+      <FadeInSection delay={0.2} direction="up">
       <div className="bg-[#F8FAFC] py-24 px-6">
         <div className="max-w-[min(1300px,_95%)] mx-auto">
           <div className="text-center mb-16">
@@ -354,11 +359,15 @@ export default function B2BProfessionalServices() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Our Projects Section */}
+      <FadeInSection delay={0.3} direction="up">
       <OurProjectsSection projects={b2bProjects} backgroundImage="/projects-bg-financial.webp" />
+      </FadeInSection>
 
       {/* Our Projects Description Section */}
+      <FadeInSection delay={0.4} direction="up">
       <div className="w-full py-16 bg-white">
         <div className="max-w-[min(1440px,_95%)] mx-auto px-4 text-center">
           <h2
@@ -389,8 +398,10 @@ export default function B2BProfessionalServices() {
           </p>
         </div>
       </div>
+      </FadeInSection>
 
       {/* The Functional Consulting Advantage Section */}
+      <FadeInSection delay={0.5} direction="up">
       <div className="bg-white py-24 px-6">
         <div className="max-w-[min(1440px,_95%)] mx-auto flex flex-col items-center">
           <h2
@@ -465,9 +476,11 @@ export default function B2BProfessionalServices() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
 
       {/* Call to Action Section */}
+      <FadeInSection delay={0.6} direction="up">
       <div
         className="text-center flex flex-col items-center"
         style={{
@@ -515,6 +528,7 @@ export default function B2BProfessionalServices() {
           Request a Consultation
         </Link>
       </div>
+      </FadeInSection>
 
       <Footer />
     </main>

@@ -42,6 +42,7 @@ export default function CustomerExperienceConsulting() {
       <Header />
 
       {/* Hero Section */}
+      <FadeInSection delay={0} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 pt-[clamp(100px,9.86vw,142px)] pb-24 text-center">
         <p
           className="mb-4 font-dm-sans font-bold"
@@ -87,8 +88,10 @@ export default function CustomerExperienceConsulting() {
           We treat Customer Experience as a direct driver of revenue, retention, and cost-efficiency. We engineer seamless, personalized interactions that build lasting loyalty and drive sustainable growth.
         </p>
       </div>
+      </FadeInSection>
 
       {/* How We Help Section */}
+      <FadeInSection delay={0.1} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-16">
         <h2
           className="text-center mb-12"
@@ -373,8 +376,10 @@ export default function CustomerExperienceConsulting() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Our Approach Section */}
+      <FadeInSection delay={0.2} direction="up">
       <div style={{ backgroundColor: '#fff', padding: '80px 20px' }}>
         <div style={{ maxWidth: 'min(1200px, 95%)', margin: '0 auto' }}>
           <h2
@@ -532,8 +537,10 @@ export default function CustomerExperienceConsulting() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* A Multi-Faceted Approach to Success Section */}
+      <FadeInSection delay={0.3} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <div className="flex flex-col lg:flex-row gap-12 items-start">
           {/* Left Side - Scroll Stack */}
@@ -634,8 +641,10 @@ export default function CustomerExperienceConsulting() {
           </a>
         </div>
       </div>
+      </FadeInSection>
 
       {/* The Principle of Least Change Section */}
+      <FadeInSection delay={0.4} direction="up">
       <div
         className="relative w-full py-20 overflow-hidden"
         style={{
@@ -690,8 +699,10 @@ export default function CustomerExperienceConsulting() {
           </p>
         </div>
       </div>
+      </FadeInSection>
 
       {/* CTA Section */}
+      <FadeInSection delay={0.5} direction="up">
       <div
         className="relative w-full py-20"
         style={{ background: 'linear-gradient(180deg, #EBF7FF 0%, #D9ECFA 100%)' }}
@@ -749,6 +760,7 @@ export default function CustomerExperienceConsulting() {
           </Link>
         </div>
       </div>
+      </FadeInSection>
 
       <Footer />
     </main>

@@ -41,6 +41,7 @@ export default function SaaSEnterpriseTechnology() {
       <Header />
 
       {/* Hero Section */}
+      <FadeInSection delay={0} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 sm:px-[clamp(24px,8.19vw,118px)] pt-[clamp(120px,13.89vw,200px)] pb-24 flex flex-col lg:flex-row justify-between items-center lg:items-start gap-12">
 
         {/* Left Content */}
@@ -84,6 +85,7 @@ export default function SaaSEnterpriseTechnology() {
         </div>
 
       </div>
+      </FadeInSection>
 
       {/* Decorative Bars - Top Left */}
       <div className="relative w-full pointer-events-none" style={{ height: 'clamp(80px, 11.11vw, 160px)' }}>
@@ -92,6 +94,7 @@ export default function SaaSEnterpriseTechnology() {
       </div>
 
       {/* Your Partner in a High-Growth Sector Section */}
+      <FadeInSection delay={0.1} direction="up">
       <div className="bg-white py-24 px-6">
         <div className="max-w-[1400px] mx-auto text-center">
           <h2
@@ -115,6 +118,7 @@ export default function SaaSEnterpriseTechnology() {
           </p>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Decorative Bars - Top Right + Bottom Left */}
       <div className="relative w-full pointer-events-none" style={{ height: 'clamp(80px, 11.11vw, 160px)' }}>
@@ -125,6 +129,7 @@ export default function SaaSEnterpriseTechnology() {
       </div>
 
       {/* Our Work Section */}
+      <FadeInSection delay={0.2} direction="up">
       <div className="bg-[#F8FAFC] py-24 px-6">
         <div className="max-w-[min(1300px,_95%)] mx-auto">
           <div className="text-center mb-16">
@@ -440,9 +445,12 @@ export default function SaaSEnterpriseTechnology() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Our Projects Section */}
+      <FadeInSection delay={0.3} direction="up">
       <OurProjectsSection projects={saasProjects} backgroundImage="/projects-bg.webp" />
+      </FadeInSection>
 
       {/* Our Projects Description Section */}
       <div className="w-full py-16 bg-white">
@@ -477,6 +485,7 @@ export default function SaaSEnterpriseTechnology() {
       </div>
 
       {/* The Functional Consulting Advantage Section */}
+      <FadeInSection delay={0.4} direction="up">
       <div className="relative py-24 bg-white overflow-hidden">
         <div className="max-w-[1200px] mx-auto px-6 relative z-10 flex flex-col items-center text-center">
           <h2
@@ -600,6 +609,7 @@ export default function SaaSEnterpriseTechnology() {
           </Link>
         </div>
       </div>
+      </FadeInSection>
 
       <Footer />
     </main>

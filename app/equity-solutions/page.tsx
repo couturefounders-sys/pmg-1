@@ -12,6 +12,7 @@ export default function EquitySolutions() {
       <Header />
 
       {/* ─── Section 1: Hero ─── */}
+      <FadeInSection delay={0} direction="up">
       <section className="w-full pt-36 pb-16 px-6">
         <div className="max-w-[min(900px,_90%)] mx-auto flex flex-col items-center text-center">
 
@@ -156,8 +157,10 @@ export default function EquitySolutions() {
 
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 2: Our Ideal Partner Profile ─── */}
+      <FadeInSection delay={0.1} direction="up">
       <section className="w-full bg-white py-20 px-6 overflow-hidden">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
 
@@ -207,8 +210,10 @@ export default function EquitySolutions() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 3: How a PMG Equity Partnership Works ─── */}
+      <FadeInSection delay={0.2} direction="up">
       <section className="w-full bg-white py-20 px-6 overflow-hidden relative">
 
 
@@ -305,8 +310,10 @@ export default function EquitySolutions() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 4: Why Choose PMG for an Equity Partnership? ─── */}
+      <FadeInSection delay={0.3} direction="up">
       <section className="w-full bg-white py-20 px-6">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
 
@@ -482,8 +489,10 @@ export default function EquitySolutions() {
 
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 5: What We Don't Do (reusable component) ─── */}
+      <FadeInSection delay={0.4} direction="up">
       <WhatWeDontDoSection
         title="What We Don't Do"
         subtitle={
@@ -500,8 +509,10 @@ export default function EquitySolutions() {
           "We don't work with direct competitors of current partners",
         ]}
       />
+      </FadeInSection>
 
       {/* ─── Section 6: Why PMG Believes in Expertise Capital ─── */}
+      <FadeInSection delay={0.5} direction="up">
       <section className="w-full bg-white py-20 px-6">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-14">
@@ -655,8 +666,10 @@ export default function EquitySolutions() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 7: Proven Partnerships, Measurable Impact ─── */}
+      <FadeInSection delay={0.6} direction="up">
       <section className="w-full py-14 lg:py-20 px-4 sm:px-6" style={{ background: '#FFFFFF' }}>
         <div className="max-w-[1000px] mx-auto flex flex-col items-center text-center">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: 'clamp(32px, 3.33vw, 48px)' }}>
@@ -695,8 +708,10 @@ export default function EquitySolutions() {
           </p>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 8: Our Commitment: True Accountability & Aligned Growth ─── */}
+      <FadeInSection delay={0.7} direction="up">
       <section className="w-full bg-white py-20 px-6">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-10">
@@ -772,8 +787,10 @@ export default function EquitySolutions() {
           </p>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 9: How We Compare ─── */}
+      <FadeInSection delay={0.8} direction="up">
       <section className="w-full py-14 lg:py-20 px-4 sm:px-6" style={{ background: '#FFFFFF' }}>
         <div className="max-w-[1200px] mx-auto">
           {/* Heading */}
@@ -1006,8 +1023,10 @@ export default function EquitySolutions() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 10: Ready to Explore an Equity Partnership? ─── */}
+      <FadeInSection delay={0.9} direction="up">
       <section className="w-full py-14 lg:py-20 px-4 sm:px-6" style={{ background: '#EBF7FF' }}>
         <div className="max-w-[min(1100px,_90%)] mx-auto flex flex-col items-center text-center">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: 'clamp(40px, 4.44vw, 64px)' }}>
@@ -1243,6 +1262,7 @@ export default function EquitySolutions() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       <Footer />
     </main>

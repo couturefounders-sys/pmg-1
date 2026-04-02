@@ -13,6 +13,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "PMG - Strategy is Intention. Execution is Reality.",
   description: "PMG bridges the gap between high-level blueprints and verifiable enterprise value.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export const viewport: Viewport = {

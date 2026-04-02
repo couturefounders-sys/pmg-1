@@ -636,13 +636,13 @@ export default function About() {
             Beyond our direct client engagements, PMG is a trusted strategic partner providing essential domain expertise and services across the global professional and startup ecosystem.
           </p>
           </FadeInSection>
-          <div className="flex justify-center gap-6 flex-wrap">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-[1200px] mx-auto items-stretch">
             <FadeInSection delay={0}>
-            <div className="text-left" style={{ width: 'clamp(380px, 37.22vw, 580px)', border: '1px solid #e5e7eb', borderRadius: '16px', background: '#ffffff', overflow: 'hidden' }}>
+            <div className="text-left h-full flex flex-col" style={{ border: '1px solid #e5e7eb', borderRadius: '16px', background: '#ffffff', overflow: 'hidden' }}>
               <div className="w-full mb-6 overflow-hidden shadow-sm" style={{ height: 'clamp(140px, 13.33vw, 192px)' }}>
                 <img src="/white-label.png" alt="White-Label Consulting Support" className="w-full h-full object-cover" />
               </div>
-              <div style={{ padding: '0 clamp(16px, 1.5vw, 24px) clamp(16px, 1.5vw, 24px)' }}>
+              <div className="flex-1" style={{ padding: '0 clamp(16px, 1.5vw, 24px) clamp(16px, 1.5vw, 24px)' }}>
               <h4
                 className="font-dm-sans font-bold tracking-[-0.03em] text-black mb-3"
                 style={{
@@ -667,11 +667,11 @@ export default function About() {
             </FadeInSection>
 
             <FadeInSection delay={0.1}>
-            <div className="text-left" style={{ width: 'clamp(380px, 37.22vw, 580px)', border: '1px solid #e5e7eb', borderRadius: '16px', background: '#ffffff', overflow: 'hidden' }}>
+            <div className="text-left h-full flex flex-col" style={{ border: '1px solid #e5e7eb', borderRadius: '16px', background: '#ffffff', overflow: 'hidden' }}>
               <div className="w-full mb-6 overflow-hidden shadow-sm" style={{ height: 'clamp(140px, 13.33vw, 192px)' }}>
                 <img src="/ecosystem.png" alt="Ecosystem and Advisory Partnerships" className="w-full h-full object-cover" />
               </div>
-              <div style={{ padding: '0 clamp(16px, 1.5vw, 24px) clamp(16px, 1.5vw, 24px)' }}>
+              <div className="flex-1" style={{ padding: '0 clamp(16px, 1.5vw, 24px) clamp(16px, 1.5vw, 24px)' }}>
               <h4
                 className="font-dm-sans font-bold tracking-[-0.03em] text-black mb-3"
                 style={{

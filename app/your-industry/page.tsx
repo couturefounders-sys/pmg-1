@@ -152,6 +152,7 @@ export default function YourIndustry() {
       <Header />
 
       {/* Hero Section */}
+      <FadeInSection delay={0} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 sm:px-[clamp(24px,8.19vw,118px)] pt-[clamp(120px,13.89vw,200px)] pb-24 flex flex-col lg:flex-row justify-between items-center lg:items-start gap-12">
 
         {/* Left Content */}
@@ -201,8 +202,10 @@ export default function YourIndustry() {
         <div className="absolute" style={{ width: '325px', height: '60px', left: '-10px', top: '20px', opacity: 0.2, background: '#888895', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
         <div className="absolute" style={{ width: '200px', height: '60px', left: '-10px', top: '60px', opacity: 1, background: 'linear-gradient(90deg, #3B7FD4 0%, rgba(59, 127, 212, 0) 100%)', transform: 'rotate(8deg)', transformOrigin: 'left center' }} />
       </div>
+      </FadeInSection>
 
       {/* Your Partner in Value Creation Section */}
+      <FadeInSection delay={0.1} direction="up">
       <div className="bg-white py-24 px-6">
         <div className="max-w-[1400px] mx-auto text-center">
           <h2
@@ -236,6 +239,7 @@ export default function YourIndustry() {
       </div>
 
       {/* Our Work Section */}
+      <FadeInSection delay={0.2} direction="up">
       <div className="bg-[#F8FAFC] py-24 px-6">
         <div className="max-w-[min(1300px,_95%)] mx-auto">
           <div className="text-center mb-16">
@@ -286,8 +290,11 @@ export default function YourIndustry() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
+      <FadeInSection delay={0.3} direction="up">
       <OurProjectsSection projects={yourIndustryProjects} backgroundImage="/projects-bg.webp" />
+      </FadeInSection>
 
       {/* Our Projects Description Section */}
       <div className="w-full py-16 bg-white">
@@ -448,6 +455,7 @@ export default function YourIndustry() {
           Request a Consultation
         </Link>
       </div>
+      </FadeInSection>
 
       <Footer />
     </main >

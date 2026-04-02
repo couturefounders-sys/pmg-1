@@ -9,8 +9,6 @@ const articles = [
   { title: 'The Sector Convergence Model', tag: 'Innovation', date: 'November 10, 2023' },
 ];
 
-const tags = ['AI & Technology', 'Strategy', 'Operations', 'Leadership', 'Finance', 'Culture'];
-
 export default function InsightsInnovationsPage() {
   return (
     <main className="relative w-full min-h-screen bg-white">
@@ -32,8 +30,8 @@ export default function InsightsInnovationsPage() {
           </FadeInSection>
 
           {/* Note box */}
-          <FadeInSection delay={0.1}>
-          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '24px 28px', background: '#FFFFFF', textAlign: 'center', width: '100%', maxWidth: 'min(1056px, 95%)' }}>
+          <FadeInSection delay={0.1} className="w-full">
+          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '24px 28px', background: '#FFFFFF', textAlign: 'center', width: '100%', maxWidth: '1067px', margin: '0 auto' }}>
             <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', color: '#14358A', marginBottom: '10px' }}>
               Note to Prospective Partners
             </h3>
@@ -47,10 +45,10 @@ export default function InsightsInnovationsPage() {
 
       {/* ─── Section 2: Articles ─── */}
       <section className="w-full py-12 px-6 bg-white">
-        <div className="max-w-[1200px] mx-auto flex flex-col gap-6" style={{ alignItems: 'center' }}>
+        <div className="max-w-[1200px] mx-auto flex flex-col gap-6 items-stretch">
 
           {/* Search */}
-          <div style={{ border: '3px solid #14358A', borderRadius: '8px', padding: '12px 16px', display: 'flex', alignItems: 'center', gap: '10px', background: '#FFFFFF', width: '100%', maxWidth: 'min(1056px, 95%)' }}>
+          <div style={{ border: '3px solid #14358A', borderRadius: '8px', padding: '12px 16px', display: 'flex', alignItems: 'center', gap: '10px', background: '#FFFFFF', width: '100%', maxWidth: '1067px', margin: '0 auto' }}>
             <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
               <circle cx="9" cy="9" r="7" stroke="#9AA6B4" strokeWidth="2" />
               <path d="M14.5 14.5L18 18" stroke="#9AA6B4" strokeWidth="2" strokeLinecap="round" />
@@ -61,21 +59,26 @@ export default function InsightsInnovationsPage() {
               style={{ border: 'none', outline: 'none', fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#333333', background: 'transparent', width: '100%' }}
             />
           </div>
+          <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 500, fontSize: 'clamp(16px, 1.11vw, 20px)', lineHeight: '130%', textAlign: 'center', color: '#333333', marginTop: '6px' }}>
+            Filter by tag:
+          </p>
 
           {/* Article cards */}
           {articles.map((article, i) => (
-            <FadeInSection key={i} delay={i * 0.1}>
-            <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '40px 36px', background: '#FFFFFF', width: '100%', maxWidth: 'min(1056px, 95%)' }}>
-              <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', color: '#14358A', marginBottom: '8px' }}>{article.title}</h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#9AA6B4', marginBottom: '20px' }}>{article.date}</p>
-              <a href="#" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#14358A', textDecoration: 'none' }}>Read More &rsaquo;</a>
-            </div>
+            <FadeInSection key={i} delay={i * 0.1} className="w-full">
+              <div style={{ border: '3px solid #14358A', borderRadius: '10px', background: '#FFFFFF', width: '100%', maxWidth: '1067px', margin: '0 auto', minHeight: '220px', height: 'clamp(220px, 24vw, 253px)', display: 'flex', alignItems: 'center', padding: '32px 28px 30px 28px' }}>
+                <div style={{ width: '100%', maxWidth: '420px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                  <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(22px, 2.01vw, 29px)', lineHeight: '1.1', color: '#14358A', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{article.title}</h3>
+                  <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(15px, 1.11vw, 16px)', lineHeight: '1.4', color: '#68718B' }}>{article.date}</p>
+                  <a href="#" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 600, fontSize: 'clamp(17px, 1.46vw, 21px)', lineHeight: '1.35', color: '#14358A', textDecoration: 'none', marginTop: '12px' }}>Read More &rsaquo;</a>
+                </div>
+              </div>
             </FadeInSection>
           ))}
 
           {/* Featured article */}
-          <FadeInSection delay={0}>
-          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px', background: '#FFFFFF', width: '100%', maxWidth: 'min(945px, 95%)', alignSelf: 'center', textAlign: 'center' }}>
+          <FadeInSection delay={0} className="w-full">
+          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px', background: '#FFFFFF', width: '100%', maxWidth: '945px', margin: '0 auto', textAlign: 'center' }}>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 600, color: '#68718B', marginBottom: '8px' }}>Upcoming</p>
             <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.07vw, 15.4px)', color: '#14358A', marginBottom: '10px' }}>The Silent ROI: Quantifying the Value of Trust &amp; Psychological Safety</h3>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 0.9vw, 15px)', lineHeight: '1.7', color: '#5F6D7E' }}>Explore how trust and psychological safety produce measurable financial returns that traditional ROI models fail to capture.</p>
@@ -83,8 +86,8 @@ export default function InsightsInnovationsPage() {
           </FadeInSection>
 
           {/* Email signup */}
-          <FadeInSection delay={0.1}>
-          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px', background: '#FFFFFF', display: 'flex', gap: '24px', alignItems: 'center', flexWrap: 'wrap', width: '100%', maxWidth: 'min(945px, 95%)', alignSelf: 'center' }}>
+          <FadeInSection delay={0.1} className="w-full">
+          <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px', background: '#FFFFFF', display: 'flex', gap: '24px', alignItems: 'center', flexWrap: 'wrap', width: '100%', maxWidth: '945px', margin: '0 auto' }}>
             <div style={{ flex: 1, minWidth: '200px' }}>
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.18vw, 19px)', color: '#14358A', marginBottom: '8px' }}>Get Our Latest Thinking</h3>
               <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(10px, 0.87vw, 14px)', lineHeight: '1.7', color: '#5F6D7E' }}>Join executives who receive our monthly intellectual wanderings. No business platitudes, just interesting ideas applied to complex problems.</p>

@@ -9,6 +9,7 @@ export default function OutOfTheBoxSolutions() {
       <Header />
 
       {/* ─── Section 1: Hero ─── */}
+      <FadeInSection delay={0} direction="up">
       <section className="w-full pt-36 pb-20 px-6">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
 
@@ -87,8 +88,10 @@ export default function OutOfTheBoxSolutions() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 2: Why The Foundry? ─── */}
+      <FadeInSection delay={0.1} direction="up">
       <section className="w-full bg-white py-20 px-6">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
 
@@ -182,8 +185,10 @@ export default function OutOfTheBoxSolutions() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 3: When a Toolkit Isn't Enough ─── */}
+      <FadeInSection delay={0.2} direction="up">
       <WhatWeDontDoSection
         title="When a Toolkit Isn't Enough"
         subtitle={
@@ -239,8 +244,10 @@ export default function OutOfTheBoxSolutions() {
           </p>
         }
       />
+      </FadeInSection>
 
       {/* ─── Section 4: The Foundry Catalog ─── */}
+      <FadeInSection delay={0.3} direction="up">
       <section className="w-full bg-white py-20 px-6">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-14">
@@ -328,8 +335,10 @@ export default function OutOfTheBoxSolutions() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 5: Which Solution Is Right for You? ─── */}
+      <FadeInSection delay={0.4} direction="up">
       <section className="w-full py-20 px-6" style={{ background: '#F3F4F6' }}>
         <div className="max-w-[min(1300px,_95%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
@@ -377,8 +386,10 @@ export default function OutOfTheBoxSolutions() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 6: These Are Tools, Not Transformations ─── */}
+      <FadeInSection delay={0.5} direction="up">
       <section className="w-full bg-white py-16 px-6">
         <div className="max-w-[860px] mx-auto">
           <div
@@ -419,8 +430,10 @@ export default function OutOfTheBoxSolutions() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 7: Ready to Elevate Your Business? ─── */}
+      <FadeInSection delay={0.6} direction="up">
       <section className="w-full py-16 px-6" style={{ background: '#EBF7FF' }}>
         <div className="max-w-[700px] mx-auto flex flex-col items-center text-center">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '18px' }}>
@@ -447,6 +460,7 @@ export default function OutOfTheBoxSolutions() {
           </a>
         </div>
       </section>
+      </FadeInSection>
 
       <Footer />
     </main>

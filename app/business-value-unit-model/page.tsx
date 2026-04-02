@@ -9,6 +9,7 @@ export default function BusinessValueUnitModelPage() {
       <Header />
 
       {/* Section 1: Hero */}
+      <FadeInSection delay={0} direction="up">
       <section className="w-full pt-24 lg:pt-36 pb-14 lg:pb-20 px-4 sm:px-6 bg-white">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <p
@@ -59,8 +60,10 @@ export default function BusinessValueUnitModelPage() {
            </p>
          </div>
        </section>
+       </FadeInSection>
 
        {/* Section 2: The Unquantified Cost of Flawed Executive Decisions */}
+       <FadeInSection delay={0.1} direction="up">
        <BlueSectionWrapper className="py-14 lg:py-20 px-4 sm:px-6">
 
          <div className="max-w-[1200px] mx-auto relative z-10">
@@ -102,10 +105,10 @@ export default function BusinessValueUnitModelPage() {
              {/* Card 1: The Comparison Flaw */}
              <div
                style={{
-                 backgroundColor: '#FFF5F5',
-                 backgroundImage: 'url(/red.png)',
-                 backgroundSize: 'cover',
-                 backgroundPosition: 'top center',
+                 backgroundImage: 'url(/red.png), linear-gradient(170deg, #F6EDEA 0%, #F6EDEA 40%, #F3F4F6 41%, #F3F4F6 100%)',
+                 backgroundSize: 'cover, cover',
+                 backgroundPosition: 'top center, center',
+                 backgroundRepeat: 'no-repeat, no-repeat',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
@@ -153,10 +156,10 @@ export default function BusinessValueUnitModelPage() {
              {/* Card 2: The BVU Solution */}
              <div
                style={{
-                 backgroundColor: '#EBF3FF',
-                 backgroundImage: 'url(/blue.png)',
-                 backgroundSize: 'cover',
-                 backgroundPosition: 'top center',
+                 backgroundImage: 'url(/blue.png), linear-gradient(170deg, #EAF2F8 0%, #EAF2F8 40%, #F3F4F6 41%, #F3F4F6 100%)',
+                 backgroundSize: 'cover, cover',
+                 backgroundPosition: 'top center, center',
+                 backgroundRepeat: 'no-repeat, no-repeat',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
@@ -204,10 +207,10 @@ export default function BusinessValueUnitModelPage() {
              {/* Card 3: The Cost Center Trap */}
              <div
                style={{
-                 backgroundColor: '#FFF5F5',
-                 backgroundImage: 'url(/red.png)',
-                 backgroundSize: 'cover',
-                 backgroundPosition: 'top center',
+                 backgroundImage: 'url(/red.png), linear-gradient(170deg, #F6EDEA 0%, #F6EDEA 40%, #F3F4F6 41%, #F3F4F6 100%)',
+                 backgroundSize: 'cover, cover',
+                 backgroundPosition: 'top center, center',
+                 backgroundRepeat: 'no-repeat, no-repeat',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
@@ -255,10 +258,10 @@ export default function BusinessValueUnitModelPage() {
              {/* Card 4: The BVU Solution */}
              <div
                style={{
-                 backgroundColor: '#EBF3FF',
-                 backgroundImage: 'url(/blue.png)',
-                 backgroundSize: 'cover',
-                 backgroundPosition: 'top center',
+                 backgroundImage: 'url(/blue.png), linear-gradient(170deg, #EAF2F8 0%, #EAF2F8 40%, #F3F4F6 41%, #F3F4F6 100%)',
+                 backgroundSize: 'cover, cover',
+                 backgroundPosition: 'top center, center',
+                 backgroundRepeat: 'no-repeat, no-repeat',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
@@ -306,10 +309,10 @@ export default function BusinessValueUnitModelPage() {
              {/* Card 5: The Misaligned Activity Trap */}
              <div
                style={{
-                 backgroundColor: '#FFF5F5',
-                 backgroundImage: 'url(/red.png)',
-                 backgroundSize: 'cover',
-                 backgroundPosition: 'top center',
+                 backgroundImage: 'url(/red.png), linear-gradient(170deg, #F6EDEA 0%, #F6EDEA 40%, #F3F4F6 41%, #F3F4F6 100%)',
+                 backgroundSize: 'cover, cover',
+                 backgroundPosition: 'top center, center',
+                 backgroundRepeat: 'no-repeat, no-repeat',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
@@ -357,10 +360,10 @@ export default function BusinessValueUnitModelPage() {
              {/* Card 6: The BVU Solution */}
              <div
                style={{
-                 backgroundColor: '#EBF3FF',
-                 backgroundImage: 'url(/blue.png)',
-                 backgroundSize: 'cover',
-                 backgroundPosition: 'top center',
+                 backgroundImage: 'url(/blue.png), linear-gradient(170deg, #EAF2F8 0%, #EAF2F8 40%, #F3F4F6 41%, #F3F4F6 100%)',
+                 backgroundSize: 'cover, cover',
+                 backgroundPosition: 'top center, center',
+                 backgroundRepeat: 'no-repeat, no-repeat',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
@@ -408,8 +411,10 @@ export default function BusinessValueUnitModelPage() {
            </div>
          </div>
        </BlueSectionWrapper>
+       </FadeInSection>
 
         {/* Section 3: The BVU Model in Practice */}
+       <FadeInSection delay={0.2} direction="up">
        <section className="w-full py-20 px-6" style={{ background: '#FFFFFF' }}>
         <div className="max-w-[min(1100px,_90%)] mx-auto flex flex-col items-center text-center">
           <h2
@@ -455,8 +460,10 @@ export default function BusinessValueUnitModelPage() {
           </a>
         </div>
       </section>
+      </FadeInSection>
 
       {/* Section 4: Mechanics and Strategic Benefits */}
+      <FadeInSection delay={0.3} direction="up">
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <h2
@@ -706,8 +713,10 @@ export default function BusinessValueUnitModelPage() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
        {/* Section 5: Managing Performance Over Time */}
+       <FadeInSection delay={0.4} direction="up">
        <section className="w-full py-24 px-6" style={{ background: '#FFFFFF' }}>
         <div className="max-w-[680px] mx-auto flex flex-col items-center text-center">
           <p
@@ -769,8 +778,10 @@ export default function BusinessValueUnitModelPage() {
           </a>
         </div>
       </section>
+      </FadeInSection>
 
       {/* Section 6: Core Concepts of the BVU Model */}
+      <FadeInSection delay={0.5} direction="up">
       <section className="w-full py-20 px-6" style={{ background: '#F8FAFC' }}>
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', textAlign: 'center', marginBottom: '48px' }}>
@@ -822,8 +833,10 @@ export default function BusinessValueUnitModelPage() {
           })()}
         </div>
       </section>
+      </FadeInSection>
 
        {/* Section 7: Final CTA */}
+       <FadeInSection delay={0.6} direction="up">
        <section className="w-full py-24 px-6 bg-white" style={{ background: '#EBF7FF' }}>
         <div className="max-w-[680px] mx-auto flex flex-col items-center text-center">
           <h2
@@ -869,6 +882,7 @@ export default function BusinessValueUnitModelPage() {
            </a>
         </div>
       </section>
+      </FadeInSection>
 
       <Footer />
     </main>

@@ -74,6 +74,7 @@ export default function ActiveManagementSolutions() {
       <Header />
 
       {/* ─── Section 1: Hero ─── */}
+      <FadeInSection delay={0} direction="up">
       <section className="w-full pt-36 pb-16 px-6">
         <div className="max-w-[min(900px,_90%)] mx-auto flex flex-col items-center text-center">
           {/* Eyebrow */}
@@ -137,8 +138,10 @@ export default function ActiveManagementSolutions() {
           </p>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 2: The PMG Advantage ─── */}
+      <FadeInSection delay={0.1} direction="up">
       <section className="w-full py-16 px-6 bg-white">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
@@ -216,8 +219,10 @@ export default function ActiveManagementSolutions() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 3: Why World-Class Operators Choose PMG ─── */}
+      <FadeInSection delay={0.2} direction="up">
       <section className="w-full py-16 px-6 bg-white">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
@@ -299,8 +304,10 @@ export default function ActiveManagementSolutions() {
           </p>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 4: How We Compare ─── */}
+      <FadeInSection delay={0.3} direction="up">
       <section className="w-full py-16 px-6 bg-white">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-10">
@@ -473,8 +480,10 @@ export default function ActiveManagementSolutions() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 5: Our Process Wave ─── */}
+      <FadeInSection delay={0.4} direction="up">
       <section className="w-full bg-white pt-16 pb-16 overflow-hidden">
         {/* Header */}
         <div className="max-w-[min(1100px,_90%)] mx-auto px-6 flex flex-col items-center text-center mb-10">
@@ -573,8 +582,10 @@ export default function ActiveManagementSolutions() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 6: Engagement Models ─── */}
+      <FadeInSection delay={0.5} direction="up">
       <section className="w-full py-16 px-6 bg-white">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
@@ -969,8 +980,10 @@ export default function ActiveManagementSolutions() {
           )}
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 7: Our Commitment: True Accountability ─── */}
+      <FadeInSection delay={0.6} direction="up">
       <section className="w-full py-16 px-6 bg-white">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <div className="flex flex-col items-center text-center mb-12">
@@ -1063,8 +1076,10 @@ export default function ActiveManagementSolutions() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 8: Our Approach: From Insight to Impact ─── */}
+      <FadeInSection delay={0.7} direction="up">
       <section className="relative z-10 py-20 bg-white">
         <div className="max-w-[min(1440px,_95%)] mx-auto px-16">
           {/* Heading */}
@@ -1179,8 +1194,10 @@ export default function ActiveManagementSolutions() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 9: Ready to Elevate Your Business? ─── */}
+      <FadeInSection delay={0.8} direction="up">
       <section
         className="w-full py-20 px-6"
         style={{
@@ -1235,6 +1252,7 @@ export default function ActiveManagementSolutions() {
           </Link>
         </div>
       </section>
+      </FadeInSection>
 
       <Footer />
     </main>

@@ -41,6 +41,7 @@ export default function FinancialServicesFinTech() {
       <Header />
 
       {/* Hero Section */}
+      <FadeInSection delay={0} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 sm:px-[clamp(24px,8.19vw,118px)]" style={{ paddingTop: 'clamp(100px, 9.72vw, 140px)', paddingBottom: 'clamp(32px, 3vw, 48px)' }}>
 
         {/* Content Container */}
@@ -98,6 +99,7 @@ export default function FinancialServicesFinTech() {
         </div>
 
       </div>
+      </FadeInSection>
 
       {/* Decorative Bars - Between Hero and Partner Section */}
       <div className="relative w-full pointer-events-none" style={{ height: 'clamp(80px, 11.11vw, 160px)' }}>
@@ -132,6 +134,7 @@ export default function FinancialServicesFinTech() {
       </div>
 
       {/* Your Partner in a High-Growth Sector Section */}
+      <FadeInSection delay={0.1} direction="up">
       <div className="relative w-full bg-white" style={{ paddingTop: 'clamp(60px, 8.33vw, 120px)', paddingBottom: 'clamp(60px, 8.33vw, 120px)' }}>
         <div className="relative max-w-[min(1440px,_95%)] mx-auto flex flex-col items-center px-6">
 
@@ -178,6 +181,7 @@ export default function FinancialServicesFinTech() {
           </p>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Decorative Bars - Top Right + Bottom Left */}
       <div className="relative w-full pointer-events-none" style={{ height: 'clamp(80px, 11.11vw, 160px)' }}>
@@ -188,6 +192,7 @@ export default function FinancialServicesFinTech() {
       </div>
 
       {/* Our Work Section */}
+      <FadeInSection delay={0.2} direction="up">
       <div className="bg-[#F8FAFC] py-24 px-6">
         <div className="max-w-[min(1300px,_95%)] mx-auto">
           {/* Section Header */}
@@ -412,9 +417,12 @@ export default function FinancialServicesFinTech() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Our Projects Section */}
+      <FadeInSection delay={0.3} direction="up">
       <OurProjectsSection projects={financialProjects} backgroundImage="/projects-bg-financial.webp" />
+      </FadeInSection>
 
       {/* Our Projects Description Section */}
       <div className="w-full py-16 bg-white">
@@ -449,6 +457,7 @@ export default function FinancialServicesFinTech() {
       </div>
 
       {/* The Functional Consulting Advantage Section */}
+      <FadeInSection delay={0.4} direction="up">
       <div className="bg-white py-24 px-6">
         <div className="max-w-[min(1440px,_95%)] mx-auto flex flex-col items-center">
           <h2
@@ -523,8 +532,10 @@ export default function FinancialServicesFinTech() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Call to Action Section */}
+      <FadeInSection delay={0.5} direction="up">
       <div
         className="text-center flex flex-col items-center"
         style={{
@@ -573,6 +584,7 @@ export default function FinancialServicesFinTech() {
           Learn about Functional Consulting
         </Link>
       </div>
+      </FadeInSection>
 
       <Footer />
     </main>

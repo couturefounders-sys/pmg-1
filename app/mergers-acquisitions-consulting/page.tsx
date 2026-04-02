@@ -42,6 +42,7 @@ export default function MergersAcquisitionsConsulting() {
       <Header />
 
       {/* Hero Section */}
+      <FadeInSection delay={0} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto text-center" style={{ paddingTop: 'clamp(100px, 9.86vw, 142px)' }}>
 
         {/* Subheading */}
@@ -94,8 +95,10 @@ export default function MergersAcquisitionsConsulting() {
           M&A success is a strategic journey driven by rigorous execution. We deliver integrated solutions that maximize value, minimize integration risk, and ensure long-term growth. Our team has supported, structured, and integrated almost 100 transactions valued at over $200 million.
         </p>
       </div>
+      </FadeInSection>
 
       {/* How We Help Section */}
+      <FadeInSection delay={0.1} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-16">
         <h2
           className="text-center mb-12"
@@ -576,8 +579,10 @@ export default function MergersAcquisitionsConsulting() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Our Approach Section */}
+      <FadeInSection delay={0.2} direction="up">
       <div style={{ backgroundColor: '#fff', padding: '80px 20px' }}>
         <div style={{ maxWidth: 'min(1200px, 95%)', margin: '0 auto' }}>
           <h2
@@ -735,8 +740,10 @@ export default function MergersAcquisitionsConsulting() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Growth Through Successful M&A Section */}
+      <FadeInSection delay={0.3} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <div className="flex flex-col lg:flex-row gap-12 items-start">
           {/* Left Side - Scroll Stack */}
@@ -838,8 +845,10 @@ export default function MergersAcquisitionsConsulting() {
           </a>
         </div>
       </div>
+      </FadeInSection>
 
       {/* The Principle of Least Change Section */}
+      <FadeInSection delay={0.4} direction="up">
       <div
         className="relative w-full py-20 overflow-hidden"
         style={{
@@ -896,8 +905,10 @@ export default function MergersAcquisitionsConsulting() {
           </p>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Ready to Guarantee the Success CTA Section */}
+      <FadeInSection delay={0.5} direction="up">
       <div
         className="relative w-full py-20 overflow-hidden"
         style={{
@@ -960,6 +971,7 @@ export default function MergersAcquisitionsConsulting() {
           </Link>
         </div>
       </div>
+      </FadeInSection>
 
       <Footer />
     </main>

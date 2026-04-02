@@ -156,6 +156,7 @@ export default function OurSolutions() {
       <Header />
 
       {/* Hero Section */}
+      <FadeInSection delay={0} direction="up">
       <div className="w-full pt-24 pb-0 px-4">
         <div className="max-w-[min(1440px,_95%)] mx-auto">
           <div className="flex flex-col items-center justify-center text-center pt-12 pb-8">
@@ -208,8 +209,10 @@ export default function OurSolutions() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Our Engagement Models Section */}
+      <FadeInSection delay={0.1} direction="up">
       <div className="w-full py-16 px-4 bg-white">
         <div className="max-w-[min(1440px,_95%)] mx-auto">
           {/* Section Heading */}
@@ -348,8 +351,10 @@ export default function OurSolutions() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Not Sure Where to Start Section */}
+      <FadeInSection delay={0.2} direction="up">
       <div
         className="relative z-10 w-full overflow-hidden"
         style={{
@@ -425,8 +430,10 @@ export default function OurSolutions() {
           </Link>
         </div>
       </div>
+      </FadeInSection>
 
       {/* The Impact We Deliver Section */}
+      <FadeInSection delay={0.3} direction="up">
       <div className="relative z-10 py-20 bg-white">
         <div className="max-w-[min(1440px,_95%)] mx-auto px-16">
           {/* Heading */}
@@ -501,8 +508,10 @@ export default function OurSolutions() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Sample Impact Summary Section */}
+      <FadeInSection delay={0.4} direction="up">
       <div className="relative z-10 py-16" style={{ background: '#EBF7FF' }}>
         <div className="mx-auto text-center px-6">
           {/* Label */}
@@ -577,8 +586,10 @@ export default function OurSolutions() {
           </Link>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Flexible Pricing Options Section */}
+      <FadeInSection delay={0.5} direction="up">
       <div className="relative z-10 py-20 bg-white">
         <div className="max-w-[min(1440px,_95%)] mx-auto px-16">
           {/* Heading */}
@@ -765,8 +776,10 @@ export default function OurSolutions() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Our Accountability Framework Section */}
+      <FadeInSection delay={0.6} direction="up">
       <div className="relative z-10 py-20 bg-white">
         <div className="max-w-[min(1440px,_95%)] mx-auto px-6 md:px-10 lg:px-16">
           {/* Heading */}
@@ -899,8 +912,10 @@ export default function OurSolutions() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* FAQ Section */}
+      <FadeInSection delay={0.7} direction="up">
       <div className="relative z-10 py-20 bg-white">
         <div className="max-w-[min(1440px,_95%)] mx-auto px-6 lg:px-12">
           <h2
@@ -1052,8 +1067,10 @@ export default function OurSolutions() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Ready to Elevate Your Business Section */}
+      <FadeInSection delay={0.8} direction="up">
       <div className="relative z-10 py-16 lg:py-20" style={{ background: '#EBF7FF' }}>
         <div className="mx-auto px-6 lg:px-12 text-center">
           <h2
@@ -1110,6 +1127,7 @@ export default function OurSolutions() {
           </Link>
         </div>
       </div>
+      </FadeInSection>
 
       <Footer />
     </main>

@@ -163,6 +163,7 @@ export default function BespokeSolutions() {
             {steps.map((step, idx) => (
               <FadeInSection key={idx} delay={idx * 0.1}>
               <div
+                className="h-full"
                 style={{
                   backgroundColor: '#FFFFFF',
                   border: '3px solid #14358A',
@@ -176,14 +177,26 @@ export default function BespokeSolutions() {
                 }}
               >
                 <div className="flex items-center gap-4 mb-6">
-                  {/* Icon */}
-                  <Image
-                    src={step.icon}
-                    alt={step.step}
-                    width={48}
-                    height={48}
-                    style={{ objectFit: 'contain', flexShrink: 0, width: 'clamp(40px, 3.33vw, 48px)', height: 'clamp(40px, 3.33vw, 48px)' }}
-                  />
+                  <div
+                    style={{
+                      width: 'clamp(48px, 4.44vw, 64px)',
+                      height: 'clamp(48px, 4.44vw, 64px)',
+                      borderRadius: '10px',
+                      background: '#14358A',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      flexShrink: 0,
+                    }}
+                  >
+                    <Image
+                      src={step.icon}
+                      alt={step.step}
+                      width={24}
+                      height={24}
+                      style={{ objectFit: 'contain', width: 'clamp(22px, 2vw, 28px)', height: 'clamp(22px, 2vw, 28px)' }}
+                    />
+                  </div>
 
                   {/* Step Title */}
                   <h3
@@ -419,11 +432,13 @@ export default function BespokeSolutions() {
             style={{
               fontFamily: 'Montserrat, sans-serif',
               fontWeight: 400,
-              fontSize: 'clamp(24px, 2.75vw, 39.6px)',
+              fontSize: 'clamp(15px, 1.375vw, 19.8px)',
               lineHeight: '140%',
               textAlign: 'center',
               color: '#333333',
               maxWidth: 'min(860px, 95%)',
+              position: 'relative',
+              left: '100px',
             }}
           >
             It all starts here. We begin by aligning with your vision, establishing clear, measurable
@@ -588,7 +603,7 @@ export default function BespokeSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
+                fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                 lineHeight: '140%',
                 textAlign: 'center',
                 color: '#333333',
@@ -611,12 +626,12 @@ export default function BespokeSolutions() {
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '22px', letterSpacing: '-0.55px', color: '#14358A', marginBottom: '16px' }}>
                 Operational Turnarounds &amp; Scaling
               </h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'right' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'right' }}>
                 For when core systems are broken or unable to scale. We diagnose the root cause of
                 operational drag, redesign core processes, and manage the turnaround to restore
                 efficiency and enable growth.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: '23px', lineHeight: '140%', color: '#333333', textAlign: 'right' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: 'clamp(13px, 1.11vw, 16px)', lineHeight: '140%', color: '#333333', textAlign: 'right' }}>
                 Example Engagements: Rescuing a $<AnimatedCounter end={32} suffix="M" /> support operation (Trilogy), streamlining
                 enterprise architecture (Artemis Capital).
               </p>
@@ -629,10 +644,10 @@ export default function BespokeSolutions() {
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '22px', letterSpacing: '-0.55px', color: '#14358A', marginBottom: '16px' }}>
                 Strategic Go-to-Market &amp; Expansion
               </h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'left' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'left' }}>
                 We develop and execute data-driven GTM strategies that drive market penetration, establish a strong competitive foothold, and accelerate revenue growth.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: '23px', lineHeight: '140%', color: '#333333', textAlign: 'left' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: 'clamp(13px, 1.11vw, 16px)', lineHeight: '140%', color: '#333333', textAlign: 'left' }}>
                 Example Engagements: New market entry strategy, product launch execution,
                 multi-channel expansion.
               </p>
@@ -651,12 +666,12 @@ export default function BespokeSolutions() {
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '22px', letterSpacing: '-0.55px', color: '#14358A', marginBottom: '16px', textAlign: 'right' }}>
                 M&amp;A Integration &amp; Carve-Outs
               </h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'right' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'right' }}>
                 For complex post-merger integrations or strategic divestitures. We manage the
                 intricate process of combining or separating systems, cultures, and operations to
                 maximize value and minimize disruption.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: '23px', lineHeight: '140%', color: '#333333', textAlign: 'right' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: 'clamp(13px, 1.11vw, 16px)', lineHeight: '140%', color: '#333333', textAlign: 'right' }}>
                 Example Engagements: Resolving post-acquisition technical debt and customer churn
                 (Avolin), strategic divestitures.
               </p>
@@ -669,12 +684,12 @@ export default function BespokeSolutions() {
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '22px', letterSpacing: '-0.55px', color: '#14358A', marginBottom: '16px' }}>
                 Complex Systems &amp; Architecture
               </h3>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'left' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '140%', color: '#333333', marginBottom: '12px', textAlign: 'left' }}>
                 For when your technology or data architecture is a barrier to growth. We deconstruct
                 monolithic systems, eliminate data silos, and design scalable, I-O based
                 architectures that provide a foundation for future innovation.
               </p>
-              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: '23px', lineHeight: '140%', color: '#333333', textAlign: 'left' }}>
+              <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: 'clamp(13px, 1.11vw, 16px)', lineHeight: '140%', color: '#333333', textAlign: 'left' }}>
                 Example Engagements: Unifying enterprise data silos (Artemis Capital), redesigning
                 legacy platforms.
               </p>
@@ -710,8 +725,8 @@ export default function BespokeSolutions() {
               style={{
                 fontFamily: 'DM Sans, sans-serif',
                 fontWeight: 700,
-                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
-                lineHeight: '44px',
+                fontSize: 'clamp(15px, 1.39vw, 22px)',
+                lineHeight: '140%',
                 letterSpacing: 'normal',
                 color: '#14358A',
                 marginBottom: '20px',
@@ -723,7 +738,7 @@ export default function BespokeSolutions() {
               style={{
                 fontFamily: 'Montserrat, sans-serif',
                 fontWeight: 400,
-                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
+                fontSize: 'clamp(15px, 1.375vw, 19.8px)',
                 lineHeight: '140%',
                 color: '#333333',
                 maxWidth: 'min(1216px, 95%)',
@@ -750,7 +765,20 @@ export default function BespokeSolutions() {
               }}
             >
               <div className="flex items-center gap-4">
-                <Image src="/icons/cards/badge-target.svg" alt="Transparent Success Metrics" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
+                <div
+                  style={{
+                    width: '64px',
+                    height: '64px',
+                    borderRadius: '16px',
+                    backgroundColor: '#14358A',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0,
+                  }}
+                >
+                  <Image src="/icons/cards/target.svg" alt="Transparent Success Metrics" width={28} height={28} style={{ objectFit: 'contain' }} />
+                </div>
                 <h3
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
@@ -793,7 +821,20 @@ export default function BespokeSolutions() {
               }}
             >
               <div className="flex items-center gap-4">
-                <Image src="/icons/cards/badge-pencil.svg" alt="Consistent Progress Reviews" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
+                <div
+                  style={{
+                    width: '64px',
+                    height: '64px',
+                    borderRadius: '16px',
+                    backgroundColor: '#14358A',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0,
+                  }}
+                >
+                  <Image src="/icons/cards/pencil.svg" alt="Consistent Progress Reviews" width={28} height={28} style={{ objectFit: 'contain' }} />
+                </div>
                 <h3
                   style={{
                     fontFamily: 'DM Sans, sans-serif',
@@ -836,7 +877,20 @@ export default function BespokeSolutions() {
               }}
             >
               <div className="flex items-center gap-4">
-                <Image src="/icons/cards/badge-check-correct.svg" alt="Post-Engagement Success Audit" width={64} height={64} style={{ objectFit: 'contain', flexShrink: 0 }} />
+                <div
+                  style={{
+                    width: '64px',
+                    height: '64px',
+                    borderRadius: '16px',
+                    backgroundColor: '#14358A',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0,
+                  }}
+                >
+                  <Image src="/icons/cards/check-correct.svg" alt="Post-Engagement Success Audit" width={28} height={28} style={{ objectFit: 'contain' }} />
+                </div>
                 <h3
                   style={{
                     fontFamily: 'DM Sans, sans-serif',

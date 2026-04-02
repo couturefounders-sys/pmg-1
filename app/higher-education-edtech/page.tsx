@@ -41,6 +41,7 @@ export default function HigherEducationEdTech() {
       <Header />
 
       {/* Hero Section */}
+      <FadeInSection delay={0} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 sm:px-[clamp(24px,8.19vw,118px)] pt-[clamp(140px,16.32vw,235px)] pb-24 flex flex-col lg:flex-row justify-between items-start gap-12">
 
         {/* Left Content */}
@@ -92,6 +93,7 @@ export default function HigherEducationEdTech() {
         </div>
 
       </div>
+      </FadeInSection>
 
       {/* Decorative Bars - Top Left */}
       <div className="relative w-full pointer-events-none" style={{ height: 'clamp(80px, 11.11vw, 160px)' }}>
@@ -100,6 +102,7 @@ export default function HigherEducationEdTech() {
       </div>
 
       {/* Navigating a Sector in Transition Section */}
+      <FadeInSection delay={0.1} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 sm:px-[clamp(20px,3.61vw,52px)] py-24">
         <h2
           className="font-poppins font-semibold text-[#14358A] text-center mb-12"
@@ -142,6 +145,7 @@ export default function HigherEducationEdTech() {
           </p>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Decorative Bars - Top Right + Bottom Left */}
       <div className="relative w-full pointer-events-none" style={{ height: 'clamp(80px, 11.11vw, 160px)' }}>
@@ -152,6 +156,7 @@ export default function HigherEducationEdTech() {
       </div>
 
       {/* Our Work Section */}
+      <FadeInSection delay={0.2} direction="up">
       <div className="relative w-full bg-white py-24">
         {/* Section Heading */}
         <h2 
@@ -520,9 +525,12 @@ export default function HigherEducationEdTech() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Our Projects Section */}
+      <FadeInSection delay={0.3} direction="up">
       <OurProjectsSection projects={educationProjects} backgroundImage="/project-bg.webp" />
+      </FadeInSection>
 
       {/* Our Projects Description Section */}
       <div className="w-full py-16 bg-white">
@@ -557,6 +565,7 @@ export default function HigherEducationEdTech() {
       </div>
 
       {/* The Functional Consulting Advantage Section */}
+      <FadeInSection delay={0.4} direction="up">
       <div className="relative w-full py-24 bg-white overflow-hidden">
 
         <div className="relative max-w-[min(1440px,_95%)] mx-auto px-4 sm:px-[clamp(40px,12.43vw,179px)]">
@@ -633,8 +642,10 @@ export default function HigherEducationEdTech() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Partner with PMG CTA Section */}
+      <FadeInSection delay={0.5} direction="up">
       <div 
         className="relative w-full py-20"
         style={{
@@ -694,6 +705,7 @@ export default function HigherEducationEdTech() {
           </Link>
         </div>
       </div>
+      </FadeInSection>
 
       <Footer />
     </main>

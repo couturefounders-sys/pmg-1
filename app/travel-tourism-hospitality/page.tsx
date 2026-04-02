@@ -41,6 +41,7 @@ export default function TravelTourismHospitality() {
       <Header />
 
       {/* Hero Section */}
+      <FadeInSection delay={0} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 sm:px-[clamp(24px,8.19vw,118px)] pt-[clamp(140px,16.32vw,235px)] pb-24 flex flex-col lg:flex-row justify-between items-start gap-12">
 
         {/* Left Content */}
@@ -92,6 +93,7 @@ export default function TravelTourismHospitality() {
         </div>
 
       </div>
+      </FadeInSection>
 
       {/* Decorative Bars - Top Left */}
       <div className="relative w-full pointer-events-none" style={{ height: 'clamp(80px, 11.11vw, 160px)' }}>
@@ -100,6 +102,7 @@ export default function TravelTourismHospitality() {
       </div>
 
       {/* Your Partner Section */}
+      <FadeInSection delay={0.1} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <div className="text-center">
           <h2
@@ -148,6 +151,7 @@ export default function TravelTourismHospitality() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Decorative Bars - Top Right + Bottom Left */}
       <div className="relative w-full pointer-events-none" style={{ height: 'clamp(80px, 11.11vw, 160px)' }}>
@@ -158,6 +162,7 @@ export default function TravelTourismHospitality() {
       </div>
 
       {/* Our Work Section */}
+      <FadeInSection delay={0.2} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <div className="text-center mb-12">
           <h2
@@ -449,9 +454,12 @@ export default function TravelTourismHospitality() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Our Projects Section */}
+      <FadeInSection delay={0.3} direction="up">
       <OurProjectsSection projects={travelProjects} backgroundImage="/project-bg.webp" />
+      </FadeInSection>
 
       {/* Our Projects Description Section */}
       <div className="w-full py-16 bg-white">
@@ -486,6 +494,7 @@ export default function TravelTourismHospitality() {
       </div>
 
       {/* The Functional Consulting Advantage Section */}
+      <FadeInSection delay={0.4} direction="up">
       <div className="relative w-full py-20 bg-white overflow-hidden">
 
         <div className="max-w-[1200px] mx-auto px-4 relative z-10">
@@ -561,8 +570,10 @@ export default function TravelTourismHospitality() {
           </div>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Partner with PMG CTA Section */}
+      <FadeInSection delay={0.5} direction="up">
       <div 
         className="relative w-full py-20"
         style={{
@@ -618,6 +629,7 @@ export default function TravelTourismHospitality() {
           </button>
         </div>
       </div>
+      </FadeInSection>
 
       <Footer />
     </main>

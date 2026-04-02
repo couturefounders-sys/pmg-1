@@ -79,10 +79,11 @@ export default function ResourcesPage() {
           </FadeInSection>
 
           {/* Three Benefit Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-6 items-stretch">
             {/* Card 1: Precision Thinking */}
-            <FadeInSection delay={0}>
+            <FadeInSection delay={0} className="h-full">
             <div
+              className="h-full"
               style={{
                 background: '#FFFFFF',
                 border: '3px solid #14358A',
@@ -122,8 +123,9 @@ export default function ResourcesPage() {
             </FadeInSection>
 
             {/* Card 2: Avoid Costly Errors */}
-            <FadeInSection delay={0.1}>
+            <FadeInSection delay={0.1} className="h-full">
             <div
+              className="h-full"
               style={{
                 background: '#FFFFFF',
                 border: '3px solid #14358A',
@@ -163,8 +165,9 @@ export default function ResourcesPage() {
             </FadeInSection>
 
             {/* Card 3: Faster Execution */}
-            <FadeInSection delay={0.2}>
+            <FadeInSection delay={0.2} className="h-full">
             <div
+              className="h-full"
               style={{
                 background: '#FFFFFF',
                 border: '3px solid #14358A',

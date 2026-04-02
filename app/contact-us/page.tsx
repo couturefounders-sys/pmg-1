@@ -29,6 +29,7 @@ export default function ContactUs() {
       <Header />
 
       {/* ─── Hero / Form Section ─── */}
+      <FadeInSection delay={0} direction="up">
       <section className="w-full pt-24 lg:pt-32 xl:pt-36 pb-14 lg:pb-20 xl:pb-24 px-4 sm:px-6 lg:px-12 xl:px-[10.4%]">
 
         <div className="max-w-[min(1100px,_90%)] w-full mx-auto">
@@ -413,6 +414,7 @@ export default function ContactUs() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       <Footer />
     </main>

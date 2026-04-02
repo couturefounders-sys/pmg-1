@@ -31,6 +31,7 @@ export default function OurProjects() {
       <Header />
 
       {/* Hero Section */}
+      <FadeInSection delay={0} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 pt-[clamp(100px,9.86vw,142px)] pb-12">
         <h1
           className="text-center mb-12"
@@ -106,8 +107,10 @@ export default function OurProjects() {
           </p>
         </div>
       </div>
+      </FadeInSection>
 
       {/* Global Network Section */}
+      <FadeInSection delay={0.1} direction="up">
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-20">
         <h2
           className="text-center mb-8"
@@ -208,6 +211,7 @@ export default function OurProjects() {
           <img src="/image 22.png" alt="Partner Logo" style={{ height: '80px', width: 'auto', objectFit: 'contain' }} />
         </div>
       </div>
+      </FadeInSection>
 
       <Footer />
     </main>

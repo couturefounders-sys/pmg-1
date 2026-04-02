@@ -34,6 +34,7 @@ export default function SolutionAssessmentTool() {
       <Header />
 
       {/* ─── Hero / Form Section ─── */}
+      <FadeInSection delay={0} direction="up">
       <section className="w-full pt-36 pb-24 px-6">
         <div className="max-w-[min(900px,_90%)] mx-auto">
 
@@ -325,6 +326,7 @@ export default function SolutionAssessmentTool() {
 
         </div>
       </section>
+      </FadeInSection>
 
       <Footer />
     </main>

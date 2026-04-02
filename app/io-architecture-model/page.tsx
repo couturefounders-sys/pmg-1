@@ -232,7 +232,7 @@ export default function IOArchitectureModelPage() {
       {/* ─── Section 2: Traditional vs I-O Architecture ─── */}
       <BlueSectionWrapper style={{ padding: '96px 24px' }}>
 
-        <div className="max-w-[960px] mx-auto relative z-10 flex flex-col items-center text-center">
+        <div className="max-w-[1200px] mx-auto relative z-10 flex flex-col items-center text-center">
           {/* Heading */}
           <FadeInSection direction="up">
           <h2
@@ -324,9 +324,9 @@ export default function IOArchitectureModelPage() {
               },
             ].map((row, i) => (
               <FadeInSection key={i} delay={i * 0.1}>
-              <div className="grid grid-cols-1 md:grid-cols-2" style={{ gap: '20px' }}>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
                 {/* Left — Problem box (red.png as full background) */}
-                <div style={{ backgroundColor: '#FFF5F5', backgroundImage: 'url(/red.png)', backgroundSize: 'cover', backgroundPosition: 'top center', overflow: 'hidden', borderRadius: '16px', textAlign: 'center', width: '100%', minHeight: '382px', padding: '32px 28px', boxSizing: 'border-box' }}>
+                <div style={{ backgroundImage: 'url(/red.png), linear-gradient(170deg, #F6EDEA 0%, #F6EDEA 40%, #F3F4F6 41%, #F3F4F6 100%)', backgroundSize: 'cover, cover', backgroundPosition: 'top center, center', backgroundRepeat: 'no-repeat, no-repeat', borderRadius: 'clamp(12px, 1.11vw, 16px)', padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)', position: 'relative', overflow: 'hidden', textAlign: 'center', width: '100%', boxSizing: 'border-box' }}>
                     <div style={{ width: '56px', height: '56px', background: '#D0021B', borderRadius: '12px', margin: '0 auto 14px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                       <Image src={row.problem.icon} alt="" width={28} height={28} aria-hidden="true" />
                     </div>
@@ -335,7 +335,7 @@ export default function IOArchitectureModelPage() {
                     <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '1.7', color: '#5F6D7E' }}>{row.problem.risk}</p>
                 </div>
                 {/* Right — Solution box (blue.png as full background) */}
-                <div style={{ backgroundColor: '#EBF3FF', backgroundImage: 'url(/blue.png)', backgroundSize: 'cover', backgroundPosition: 'top center', overflow: 'hidden', borderRadius: '16px', textAlign: 'center', width: '100%', minHeight: '382px', padding: '32px 28px', boxSizing: 'border-box' }}>
+                <div style={{ backgroundImage: 'url(/blue.png), linear-gradient(170deg, #EAF2F8 0%, #EAF2F8 40%, #F3F4F6 41%, #F3F4F6 100%)', backgroundSize: 'cover, cover', backgroundPosition: 'top center, center', backgroundRepeat: 'no-repeat, no-repeat', borderRadius: 'clamp(12px, 1.11vw, 16px)', padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)', position: 'relative', overflow: 'hidden', textAlign: 'center', width: '100%', boxSizing: 'border-box' }}>
                     <div style={{ width: '56px', height: '56px', background: '#14358A', borderRadius: '12px', margin: '0 auto 14px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                       <Image src={row.solution.icon} alt="" width={28} height={28} aria-hidden="true" />
                     </div>

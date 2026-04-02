@@ -9,6 +9,7 @@ export default function InsightsPage() {
       <Header />
 
       {/* ─── Section 1: Hero ─── */}
+      <FadeInSection delay={0} direction="up">
       <section className="w-full pt-36 pb-20 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <p
@@ -52,8 +53,10 @@ export default function InsightsPage() {
           </p>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 2: Your Unfair Advantage ─── */}
+      <FadeInSection delay={0.1} direction="up">
       <section
         className="w-full relative overflow-hidden py-24 px-6"
         style={{ background: 'linear-gradient(135deg, #1B45B4 0%, #1C2792 100%)' }}
@@ -225,8 +228,10 @@ export default function InsightsPage() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 3: The Six-Step Strategic Framework ─── */}
+      <FadeInSection delay={0.2} direction="up">
       <section className="w-full bg-white py-20 px-6">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', textAlign: 'center', marginBottom: '16px' }}>
@@ -266,8 +271,10 @@ export default function InsightsPage() {
           />
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 4: How We Select Sectors ─── */}
+      <FadeInSection delay={0.3} direction="up">
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           {/* Eyebrow */}
@@ -321,8 +328,10 @@ export default function InsightsPage() {
           </p>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 5: From Theory to ROI ─── */}
+      <FadeInSection delay={0.4} direction="up">
       <section className="w-full py-20 px-6" style={{ background: '#FFFFFF' }}>
         <div className="max-w-[min(1100px,_90%)] mx-auto flex flex-col items-center text-center">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '20px' }}>
@@ -339,8 +348,10 @@ export default function InsightsPage() {
           </a>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 6: Real World Impact ─── */}
+      <FadeInSection delay={0.5} direction="up">
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[min(1100px,_90%)] mx-auto flex flex-col items-center text-center">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '16px' }}>
@@ -390,8 +401,10 @@ export default function InsightsPage() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 7: From Blueprint to Reality ─── */}
+      <FadeInSection delay={0.6} direction="up">
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', textAlign: 'center', marginBottom: '16px' }}>
@@ -449,8 +462,10 @@ export default function InsightsPage() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 8: Core Concepts of Sector Convergence ─── */}
+      <FadeInSection delay={0.7} direction="up">
       <section className="w-full py-20 px-6" style={{ background: '#F8FAFC' }}>
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', textAlign: 'center', marginBottom: '48px' }}>
@@ -503,8 +518,10 @@ export default function InsightsPage() {
           })()}
         </div>
       </section>
+      </FadeInSection>
 
       {/* ─── Section 9: Shape the Next Market Standard ─── */}
+      <FadeInSection delay={0.8} direction="up">
       <section className="w-full py-24 px-6" style={{ background: '#EBF7FF' }}>
         <div className="max-w-[min(1100px,_90%)] mx-auto flex flex-col items-center text-center">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '20px' }}>
@@ -532,6 +549,7 @@ export default function InsightsPage() {
           </a>
         </div>
       </section>
+      </FadeInSection>
 
       <Footer />
     </main>
