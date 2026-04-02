@@ -74,7 +74,7 @@ export default function ActiveManagementSolutions() {
       <Header />
 
       {/* ─── Section 1: Hero ─── */}
-      <FadeInSection delay={0} direction="up">
+      <FadeInSection delay={0} direction="up" animateOnInitialView>
       <section className="w-full pt-36 pb-16 px-6">
         <div className="max-w-[min(900px,_90%)] mx-auto flex flex-col items-center text-center">
           {/* Eyebrow */}

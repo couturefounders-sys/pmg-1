@@ -200,7 +200,7 @@ export default function OurSolutions() {
       <Header />
 
       {/* Hero Section */}
-      <FadeInSection delay={0} direction="up">
+      <FadeInSection delay={0} direction="up" animateOnInitialView>
       <div className="w-full pt-24 pb-0 px-4">
         <div className="max-w-[min(1440px,_95%)] mx-auto">
           <div className="flex flex-col items-center justify-center text-center pt-12 pb-8">

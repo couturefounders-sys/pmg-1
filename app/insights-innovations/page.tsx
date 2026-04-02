@@ -15,16 +15,6 @@ export default function InsightsInnovationsPage() {
     <main className="relative w-full min-h-screen bg-white">
       <Header />
 
-      <FadeInSection delay={0} direction="up">
-      <div className="w-full flex justify-center px-4" style={{ paddingTop: '8px' }}>
-        <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1vw, 14px)', color: '#14358A' }}>
-          <AnimatedCounter end={22} suffix="x" /> average client ROI
-        </p>
-      </div>
-      </FadeInSection>
-
-
-
       {/* ─── Section 1: Hero ─── */}
       <section className="w-full pt-36 pb-16 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
@@ -76,7 +66,7 @@ export default function InsightsInnovationsPage() {
 
           {/* Article cards */}
           {articles.map((article, i) => (
-            <FadeInSection key={i} delay={i * 0.1} className="w-full">
+            <FadeInSection key={i} delay={i * 0.1} motionProfile="card" className="w-full">
               <div style={{ border: '3px solid #14358A', borderRadius: '10px', background: '#FFFFFF', width: '100%', maxWidth: '1067px', margin: '0 auto', minHeight: '220px', height: 'clamp(220px, 24vw, 253px)', display: 'flex', alignItems: 'center', padding: '32px 28px 30px 28px' }}>
                 <div style={{ width: '100%', maxWidth: '420px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '10px' }}>
                   <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(22px, 2.01vw, 29px)', lineHeight: '1.1', color: '#14358A', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{article.title}</h3>

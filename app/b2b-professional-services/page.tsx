@@ -41,7 +41,7 @@ export default function B2BProfessionalServices() {
       <Header />
 
       {/* Hero Section */}
-      <FadeInSection delay={0} direction="up">
+      <FadeInSection delay={0} direction="up" animateOnInitialView>
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 sm:px-[clamp(24px,8.19vw,118px)] pt-[clamp(120px,13.89vw,200px)] pb-24 flex flex-col lg:flex-row justify-between items-start gap-12">
         {/* Left Content */}
         <div className="flex flex-col gap-8 max-w-[740px] z-10">

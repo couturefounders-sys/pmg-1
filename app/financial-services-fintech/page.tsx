@@ -41,7 +41,7 @@ export default function FinancialServicesFinTech() {
       <Header />
 
       {/* Hero Section */}
-      <FadeInSection delay={0} direction="up">
+      <FadeInSection delay={0} direction="up" animateOnInitialView>
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 sm:px-[clamp(24px,8.19vw,118px)]" style={{ paddingTop: 'clamp(100px, 9.72vw, 140px)', paddingBottom: 'clamp(32px, 3vw, 48px)' }}>
 
         {/* Content Container */}

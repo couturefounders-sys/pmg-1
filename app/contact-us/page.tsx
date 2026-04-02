@@ -29,18 +29,8 @@ export default function ContactUs() {
     <main className="relative w-full min-h-screen bg-white">
       <Header />
 
-      <FadeInSection delay={0} direction="up">
-      <div className="w-full flex justify-center px-4" style={{ paddingTop: '8px' }}>
-        <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1vw, 14px)', color: '#14358A' }}>
-          <AnimatedCounter end={22} suffix="x" /> average client ROI
-        </p>
-      </div>
-      </FadeInSection>
-
-
-
       {/* ─── Hero / Form Section ─── */}
-      <FadeInSection delay={0} direction="up">
+      <FadeInSection delay={0} direction="up" animateOnInitialView>
       <section className="w-full pt-24 lg:pt-32 xl:pt-36 pb-14 lg:pb-20 xl:pb-24 px-4 sm:px-6 lg:px-12 xl:px-[10.4%]">
 
         <div className="max-w-[min(1100px,_90%)] w-full mx-auto">

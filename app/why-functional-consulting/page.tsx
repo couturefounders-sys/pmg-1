@@ -12,16 +12,6 @@ export default function WhyFunctionalConsulting() {
     <main className="relative w-full min-h-screen overflow-x-hidden bg-white">
       <Header />
 
-      <FadeInSection delay={0} direction="up">
-      <div className="w-full flex justify-center px-4" style={{ paddingTop: '8px' }}>
-        <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1vw, 14px)', color: '#14358A' }}>
-          <AnimatedCounter end={22} suffix="x" /> average client ROI
-        </p>
-      </div>
-      </FadeInSection>
-
-
-
       {/* Hero Section */}
       <FadeInSection>
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 pt-[clamp(140px,15.97vw,230px)] pb-24">

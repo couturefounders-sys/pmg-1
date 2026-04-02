@@ -12,7 +12,7 @@ export default function EquitySolutions() {
       <Header />
 
       {/* ─── Section 1: Hero ─── */}
-      <FadeInSection delay={0} direction="up">
+      <FadeInSection delay={0} direction="up" animateOnInitialView>
       <section className="w-full pt-36 pb-16 px-6">
         <div className="max-w-[min(900px,_90%)] mx-auto flex flex-col items-center text-center">
 
@@ -262,48 +262,117 @@ export default function EquitySolutions() {
                 { title: "Define Scope & Negotiate Terms", text: "We clearly define the scope of support PMG will provide and negotiate the equity agreement, aligning our investment of expertise with the potential value we help create." },
                 { title: "Execute the Consulting Engagement", text: "We seamlessly integrate our standard, results-oriented four-phase consulting model to address the agreed-upon scope and achieve the defined objectives." },
                 { title: "Ongoing Advisory & Support (Optional)", text: "Following the initial engagement, we can provide ongoing strategic advisory or fractional support to nurture the long-term partnership." }
-              ].map((item, index) => (
-                <div key={index} className={`flex items-center w-full ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
-                  {/* Content Box */}
-                  <div className={`w-1/2 ${index % 2 === 0 ? 'pr-16 text-right' : 'pl-16 text-left'} relative`}>
-                    {/* Shadow/Offset Box */}
-                    <div
-                      className={`absolute ${index % 2 === 0 ? 'right-[50px] top-[8px]' : 'left-[50px] top-[8px]'} w-full max-w-[412px] h-full`}
-                      style={{
-                        border: '3px solid #006FBA',
-                        borderRadius: '16px',
-                        zIndex: 0
-                      }}
-                    ></div>
+              ].map((item, index) => {
+                const isLeft = index % 2 === 0;
+                const connectorWidth = 24;
+                return (
+                  <div key={index}>
+                    <div className="hidden md:grid md:grid-cols-[minmax(0,1fr)_32px_minmax(0,1fr)] items-center w-full">
+                      {/* Left column */}
+                      <div className="relative flex justify-end">
+                        {isLeft && (
+                          <div
+                            className="relative w-full"
+                            style={{
+                              maxWidth: 'min(412px, 90%)',
+                              marginRight: `${connectorWidth}px`,
+                              textAlign: 'right',
+                            }}
+                          >
+                            <div
+                              className="absolute w-full h-full"
+                              style={{
+                                border: '3px solid #006FBA',
+                                borderRadius: '16px',
+                                zIndex: 0,
+                                top: '8px',
+                                right: '-12px',
+                              }}
+                            />
+                            <div
+                              className="w-full p-6 relative bg-white"
+                              style={{
+                                background: 'linear-gradient(#fff, #fff) padding-box, linear-gradient(270.31deg, #14358A 0.32%, #006FBA 97.73%) border-box',
+                                border: '3px solid transparent',
+                                borderRadius: '16px',
+                                zIndex: 1,
+                              }}
+                            >
+                              <h4 className="text-[#14358A] font-bold font-dm-sans text-[clamp(18px,_1.67vw,_28px)] mb-3">{item.title}</h4>
+                              <p className="font-dm-sans font-normal text-[clamp(13px,_1.11vw,_18px)] leading-[140%] text-[#68718B]">{item.text}</p>
+                            </div>
+                            <div
+                              className="absolute top-1/2 -translate-y-1/2 border-t-2 border-dotted border-[#006FBA]"
+                              style={{ zIndex: 2, right: `-${connectorWidth}px`, width: `${connectorWidth}px` }}
+                            />
+                          </div>
+                        )}
+                      </div>
 
-                    {/* Main Card */}
-                    <div
-                      className="inline-block w-full max-w-[412px] p-6 relative bg-white"
-                      style={{
-                        background: 'linear-gradient(#fff, #fff) padding-box, linear-gradient(270.31deg, #14358A 0.32%, #006FBA 97.73%) border-box',
-                        border: '3px solid transparent',
-                        borderRadius: '16px',
-                        zIndex: 1,
-                        position: 'relative'
-                      }}
-                    >
-                      <h4 className="text-[#14358A] font-bold font-dm-sans text-[clamp(18px,_1.67vw,_28px)] mb-3">{item.title}</h4>
-                      <p className="font-dm-sans font-normal text-[clamp(13px,_1.11vw,_18px)] leading-[140%] text-[#68718B]">{item.text}</p>
+                      {/* Center dot column */}
+                      <div className="relative h-full flex items-center justify-center">
+                        <div className="w-8 h-8 rounded-full bg-[#006FBA] border-4 border-white shadow-sm z-20"></div>
+                      </div>
+
+                      {/* Right column */}
+                      <div className="relative flex justify-start">
+                        {!isLeft && (
+                          <div
+                            className="relative w-full"
+                            style={{
+                              maxWidth: 'min(412px, 90%)',
+                              marginLeft: `${connectorWidth}px`,
+                              textAlign: 'left',
+                            }}
+                          >
+                            <div
+                              className="absolute w-full h-full"
+                              style={{
+                                border: '3px solid #006FBA',
+                                borderRadius: '16px',
+                                zIndex: 0,
+                                top: '8px',
+                                left: '-12px',
+                              }}
+                            />
+                            <div
+                              className="w-full p-6 relative bg-white"
+                              style={{
+                                background: 'linear-gradient(#fff, #fff) padding-box, linear-gradient(270.31deg, #14358A 0.32%, #006FBA 97.73%) border-box',
+                                border: '3px solid transparent',
+                                borderRadius: '16px',
+                                zIndex: 1,
+                              }}
+                            >
+                              <h4 className="text-[#14358A] font-bold font-dm-sans text-[clamp(18px,_1.67vw,_28px)] mb-3">{item.title}</h4>
+                              <p className="font-dm-sans font-normal text-[clamp(13px,_1.11vw,_18px)] leading-[140%] text-[#68718B]">{item.text}</p>
+                            </div>
+                            <div
+                              className="absolute top-1/2 -translate-y-1/2 border-t-2 border-dotted border-[#006FBA]"
+                              style={{ zIndex: 2, left: `-${connectorWidth}px`, width: `${connectorWidth}px` }}
+                            />
+                          </div>
+                        )}
+                      </div>
                     </div>
-                    {/* Dotted Connector */}
-                    <div
-                      className={`absolute top-1/2 -translate-y-1/2 border-t-2 border-dotted border-[#006FBA] w-12 ${index % 2 === 0 ? 'right-4' : 'left-4'}`}
-                      style={{ zIndex: 2 }}
-                    ></div>
+
+                    {/* Mobile fallback */}
+                    <div className="md:hidden">
+                      <div
+                        className="w-full p-6 relative bg-white"
+                        style={{
+                          background: 'linear-gradient(#fff, #fff) padding-box, linear-gradient(270.31deg, #14358A 0.32%, #006FBA 97.73%) border-box',
+                          border: '3px solid transparent',
+                          borderRadius: '16px',
+                        }}
+                      >
+                        <h4 className="text-[#14358A] font-bold font-dm-sans text-[clamp(18px,_1.67vw,_28px)] mb-3">{item.title}</h4>
+                        <p className="font-dm-sans font-normal text-[clamp(13px,_1.11vw,_18px)] leading-[140%] text-[#68718B]">{item.text}</p>
+                      </div>
+                    </div>
                   </div>
-
-                  {/* Center Dot */}
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-8 h-8 rounded-full bg-[#006FBA] border-4 border-white shadow-sm z-20"></div>
-
-                  {/* Empty Space for Balance */}
-                  <div className="w-1/2"></div>
-                </div>
-              ))}
+                );
+              })}
             </div>
             {/* End Cap */}
             <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 w-[4px] h-12 bg-[#006FBA]"></div>

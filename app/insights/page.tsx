@@ -1,3 +1,5 @@
+'use client';
+
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AlternatingTimeline from '@/components/AlternatingTimeline';
@@ -9,18 +11,8 @@ export default function InsightsPage() {
     <main className="relative w-full min-h-screen bg-white">
       <Header />
 
-      <FadeInSection delay={0} direction="up">
-      <div className="w-full flex justify-center px-4" style={{ paddingTop: '8px' }}>
-        <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1vw, 14px)', color: '#14358A' }}>
-          <AnimatedCounter end={22} suffix="x" /> average client ROI
-        </p>
-      </div>
-      </FadeInSection>
-
-
-
       {/* ─── Section 1: Hero ─── */}
-      <FadeInSection delay={0} direction="up">
+      <FadeInSection delay={0} direction="up" animateOnInitialView>
       <section className="w-full pt-36 pb-20 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
           <p
