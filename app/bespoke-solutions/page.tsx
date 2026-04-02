@@ -633,7 +633,7 @@ export default function BespokeSolutions() {
               </p>
               <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: 'clamp(13px, 1.11vw, 16px)', lineHeight: '140%', color: '#333333', textAlign: 'right' }}>
                 Example Engagements: Rescuing a $<AnimatedCounter end={32} suffix="M" /> support operation (Trilogy), streamlining
-                enterprise architecture (Artemis Capital).
+                enterprise architecture<br />(Artemis Capital).
               </p>
             </div>
           </div>

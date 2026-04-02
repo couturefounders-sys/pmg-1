@@ -2,11 +2,22 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import WhatWeDontDoSection from '@/components/WhatWeDontDoSection';
 import FadeInSection from '@/components/FadeInSection';
+import AnimatedCounter from '@/components/AnimatedCounter';
 
 export default function OutOfTheBoxSolutions() {
   return (
     <main className="relative w-full min-h-screen bg-white">
       <Header />
+
+      <FadeInSection delay={0} direction="up">
+      <div className="w-full flex justify-center px-4" style={{ paddingTop: '8px' }}>
+        <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1vw, 14px)', color: '#14358A' }}>
+          <AnimatedCounter end={22} suffix="x" /> average client ROI
+        </p>
+      </div>
+      </FadeInSection>
+
+
 
       {/* ─── Section 1: Hero ─── */}
       <FadeInSection delay={0} direction="up">

@@ -73,7 +73,11 @@
       "Bash(echo \"Missing: $file\")",
       "Bash(fi)",
       "Bash(ls -1d /Users/teja/pmg_final-v/pmg-z/app/*/page.tsx)",
-      "Bash(do echo:*)"
+      "Bash(do echo:*)",
+      "Bash(if grep:*)",
+      "Bash(echo \"✅ $page\")",
+      "Bash(else)",
+      "Bash(echo \"❌ $page\")"
     ]
   },
   "enabledPlugins": {

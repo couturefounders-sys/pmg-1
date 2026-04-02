@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BlueSectionWrapper from '@/components/BlueSectionWrapper';
 import FadeInSection from '@/components/FadeInSection';
+import AnimatedCounter from '@/components/AnimatedCounter';
 
 const advantages = [
   {
@@ -180,6 +181,16 @@ export default function IOArchitectureModelPage() {
     <main className="relative w-full min-h-screen bg-white">
       <Header />
 
+      <FadeInSection delay={0} direction="up">
+      <div className="w-full flex justify-center px-4" style={{ paddingTop: '8px' }}>
+        <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1vw, 14px)', color: '#14358A' }}>
+          <AnimatedCounter end={22} suffix="x" /> average client ROI
+        </p>
+      </div>
+      </FadeInSection>
+
+
+
       {/* ─── Section 1: Hero ─── */}
       <section className="w-full pt-36 pb-20 px-6 bg-white">
         <div className="max-w-[min(1100px,_90%)] mx-auto flex flex-col items-center text-center">
@@ -254,8 +265,9 @@ export default function IOArchitectureModelPage() {
               fontSize: 'clamp(14px, 1.22vw, 17.6px)',
               lineHeight: '1.6',
               color: 'rgba(255,255,255,0.9)',
+              textAlign: 'center',
               maxWidth: 'min(680px, 95%)',
-              marginBottom: '56px',
+              margin: '0 auto 56px auto',
             }}
           >
             Most organizations are unintentionally designed for failure. Their internal structure
@@ -326,7 +338,7 @@ export default function IOArchitectureModelPage() {
               <FadeInSection key={i} delay={i * 0.1}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
                 {/* Left — Problem box (red.png as full background) */}
-                <div style={{ backgroundImage: 'url(/red.png), linear-gradient(170deg, #F6EDEA 0%, #F6EDEA 40%, #F3F4F6 41%, #F3F4F6 100%)', backgroundSize: 'cover, cover', backgroundPosition: 'top center, center', backgroundRepeat: 'no-repeat, no-repeat', borderRadius: 'clamp(12px, 1.11vw, 16px)', padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)', position: 'relative', overflow: 'hidden', textAlign: 'center', width: '100%', boxSizing: 'border-box' }}>
+                <div style={{ backgroundImage: 'url(/red.png), linear-gradient(170deg, #F6EDEA 0%, #F6EDEA 40%, #F3F4F6 41%, #F3F4F6 100%)', backgroundSize: '106% 100%, 100% 100%', backgroundPosition: 'left top, center', backgroundRepeat: 'no-repeat, no-repeat', borderRadius: 'clamp(12px, 1.11vw, 16px)', padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)', position: 'relative', overflow: 'hidden', textAlign: 'center', width: '100%', boxSizing: 'border-box' }}>
                     <div style={{ width: '56px', height: '56px', background: '#D0021B', borderRadius: '12px', margin: '0 auto 14px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                       <Image src={row.problem.icon} alt="" width={28} height={28} aria-hidden="true" />
                     </div>
@@ -335,7 +347,7 @@ export default function IOArchitectureModelPage() {
                     <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '1.7', color: '#5F6D7E' }}>{row.problem.risk}</p>
                 </div>
                 {/* Right — Solution box (blue.png as full background) */}
-                <div style={{ backgroundImage: 'url(/blue.png), linear-gradient(170deg, #EAF2F8 0%, #EAF2F8 40%, #F3F4F6 41%, #F3F4F6 100%)', backgroundSize: 'cover, cover', backgroundPosition: 'top center, center', backgroundRepeat: 'no-repeat, no-repeat', borderRadius: 'clamp(12px, 1.11vw, 16px)', padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)', position: 'relative', overflow: 'hidden', textAlign: 'center', width: '100%', boxSizing: 'border-box' }}>
+                <div style={{ backgroundImage: 'url(/blue.png), linear-gradient(170deg, #EAF2F8 0%, #EAF2F8 40%, #F3F4F6 41%, #F3F4F6 100%)', backgroundSize: '106% 100%, 100% 100%', backgroundPosition: 'left top, center', backgroundRepeat: 'no-repeat, no-repeat', borderRadius: 'clamp(12px, 1.11vw, 16px)', padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)', position: 'relative', overflow: 'hidden', textAlign: 'center', width: '100%', boxSizing: 'border-box' }}>
                     <div style={{ width: '56px', height: '56px', background: '#14358A', borderRadius: '12px', margin: '0 auto 14px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                       <Image src={row.solution.icon} alt="" width={28} height={28} aria-hidden="true" />
                     </div>

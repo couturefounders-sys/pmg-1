@@ -111,6 +111,7 @@ export default function OurSolutions() {
   ];
 
   const [displayedCards, setDisplayedCards] = useState(allImpactCards.slice(0, 6));
+  const [impactCycle, setImpactCycle] = useState(0);
 
   const totalImpact = displayedCards.reduce((sum, card) => sum + card.value, 0);
   const totalInMillions = (totalImpact / 1000000).toFixed(1);
@@ -119,9 +120,52 @@ export default function OurSolutions() {
     const interval = setInterval(() => {
       const shuffled = [...allImpactCards].sort(() => Math.random() - 0.5);
       setDisplayedCards(shuffled.slice(0, 6));
+      setImpactCycle((prev) => prev + 1);
     }, 20000);
     return () => clearInterval(interval);
   }, []);
+
+  const renderImpactMetric = (metric: string, metricSmall: boolean) => {
+    if (metricSmall) return metric;
+
+    const moneyMatch = metric.match(/^([+-])?\$([0-9]+(?:\.[0-9]+)?)M$/);
+    if (moneyMatch) {
+      const sign = moneyMatch[1] ?? '';
+      const value = parseFloat(moneyMatch[2]);
+      return (
+        <>
+          {sign}
+          $<AnimatedCounter end={value} suffix="M" decimals={value % 1 === 0 ? 0 : 1} />
+        </>
+      );
+    }
+
+    const percentMatch = metric.match(/^([+-])?([0-9]+(?:\.[0-9]+)?)%$/);
+    if (percentMatch) {
+      const sign = percentMatch[1] ?? '';
+      const value = parseFloat(percentMatch[2]);
+      return (
+        <>
+          {sign}
+          <AnimatedCounter end={value} suffix="%" decimals={value % 1 === 0 ? 0 : 1} />
+        </>
+      );
+    }
+
+    const xMatch = metric.match(/^([+-])?([0-9]+(?:\.[0-9]+)?)x$/);
+    if (xMatch) {
+      const sign = xMatch[1] ?? '';
+      const value = parseFloat(xMatch[2]);
+      return (
+        <>
+          {sign}
+          <AnimatedCounter end={value} suffix="x" decimals={value % 1 === 0 ? 0 : 1} />
+        </>
+      );
+    }
+
+    return metric;
+  };
 
   const cards = [
     {
@@ -472,7 +516,7 @@ export default function OurSolutions() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-[1320px] mx-auto">
             {displayedCards.map((card, idx) => (
               <div
-                key={idx}
+                key={`${impactCycle}-${idx}-${card.metric}`}
                 className="depth-card"
                 style={{
                   border: '3px solid #14358A',
@@ -485,11 +529,11 @@ export default function OurSolutions() {
               >
                 {card.metricSmall ? (
                   <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.78vw, 44px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: 'clamp(8px, 0.83vw, 12px)' }}>
-                    {card.metric}
+                    {renderImpactMetric(card.metric, true)}
                   </p>
                 ) : (
                   <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '4px' }}>
-                    {card.metric}
+                    {renderImpactMetric(card.metric, false)}
                   </p>
                 )}
                 {card.subtitle && (
@@ -543,7 +587,13 @@ export default function OurSolutions() {
               marginBottom: 'clamp(6px, 0.56vw, 8px)',
             }}
           >
-            {totalImpact > 0 ? `$${totalInMillions}M+` : 'Measurable Impact'}
+            {totalImpact > 0 ? (
+              <>
+                $<AnimatedCounter end={parseFloat(totalInMillions)} suffix="M+" decimals={1} />
+              </>
+            ) : (
+              'Measurable Impact'
+            )}
           </p>
 
           {/* Subtitle */}

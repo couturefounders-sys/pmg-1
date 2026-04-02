@@ -6,30 +6,31 @@ import OurProjectsSection, { DollarIcon, TrendUpIcon, CheckIcon, ScreenIcon } fr
 import type { ProjectCardData } from '@/components/OurProjectsSection';
 import Link from 'next/link';
 import FadeInSection from '@/components/FadeInSection';
+import AnimatedCounter from '@/components/AnimatedCounter';
 
 const b2bProjects: ProjectCardData[] = [
   {
     title: 'Artemis Capital',
     stats: [
-      { icon: <DollarIcon />, value: '12%', label: 'reduction in operating expenses' },
-      { icon: <ScreenIcon />, value: '25%', label: 'reduction in low-value personnel spend' },
-      { icon: <TrendUpIcon />, value: '22x', label: 'Return on Investment' },
+      { icon: <DollarIcon />, value: <><AnimatedCounter end={12} suffix="%" /></>, label: 'reduction in operating expenses' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={25} suffix="%" /></>, label: 'reduction in low-value personnel spend' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={22} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
   {
     title: 'Kraken',
     stats: [
-      { icon: <CheckIcon />, value: '22%', label: 'increase in customer satisfaction' },
-      { icon: <ScreenIcon />, value: '40%', label: 'reduction in signup-to-activation time' },
-      { icon: <TrendUpIcon />, value: '23x', label: 'Return on Investment' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={22} suffix="%" /></>, label: 'increase in customer satisfaction' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={40} suffix="%" /></>, label: 'reduction in signup-to-activation time' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={23} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
   {
     title: 'OneSCM',
     stats: [
-      { icon: <TrendUpIcon />, value: '25%', label: 'increase in qualified leads' },
-      { icon: <CheckIcon />, value: '17%', label: 'increase in customer renewal rates' },
-      { icon: <TrendUpIcon />, value: '9x', label: 'Return on Investment' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={25} suffix="%" /></>, label: 'increase in qualified leads' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={17} suffix="%" /></>, label: 'increase in customer renewal rates' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={9} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
 ];

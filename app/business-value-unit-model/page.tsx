@@ -2,11 +2,22 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BlueSectionWrapper from '@/components/BlueSectionWrapper';
 import FadeInSection from '@/components/FadeInSection';
+import AnimatedCounter from '@/components/AnimatedCounter';
 
 export default function BusinessValueUnitModelPage() {
   return (
     <main className="relative w-full min-h-screen bg-white">
       <Header />
+
+      <FadeInSection delay={0} direction="up">
+      <div className="w-full flex justify-center px-4" style={{ paddingTop: '8px' }}>
+        <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1vw, 14px)', color: '#14358A' }}>
+          <AnimatedCounter end={22} suffix="x" /> average client ROI
+        </p>
+      </div>
+      </FadeInSection>
+
+
 
       {/* Section 1: Hero */}
       <FadeInSection delay={0} direction="up">
@@ -106,8 +117,8 @@ export default function BusinessValueUnitModelPage() {
              <div
                style={{
                  backgroundImage: 'url(/red.png), linear-gradient(170deg, #F6EDEA 0%, #F6EDEA 40%, #F3F4F6 41%, #F3F4F6 100%)',
-                 backgroundSize: 'cover, cover',
-                 backgroundPosition: 'top center, center',
+                 backgroundSize: '106% 100%, 100% 100%',
+                 backgroundPosition: 'left top, center',
                  backgroundRepeat: 'no-repeat, no-repeat',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
@@ -157,8 +168,8 @@ export default function BusinessValueUnitModelPage() {
              <div
                style={{
                  backgroundImage: 'url(/blue.png), linear-gradient(170deg, #EAF2F8 0%, #EAF2F8 40%, #F3F4F6 41%, #F3F4F6 100%)',
-                 backgroundSize: 'cover, cover',
-                 backgroundPosition: 'top center, center',
+                 backgroundSize: '106% 100%, 100% 100%',
+                 backgroundPosition: 'left top, center',
                  backgroundRepeat: 'no-repeat, no-repeat',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
@@ -208,8 +219,8 @@ export default function BusinessValueUnitModelPage() {
              <div
                style={{
                  backgroundImage: 'url(/red.png), linear-gradient(170deg, #F6EDEA 0%, #F6EDEA 40%, #F3F4F6 41%, #F3F4F6 100%)',
-                 backgroundSize: 'cover, cover',
-                 backgroundPosition: 'top center, center',
+                 backgroundSize: '106% 100%, 100% 100%',
+                 backgroundPosition: 'left top, center',
                  backgroundRepeat: 'no-repeat, no-repeat',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
@@ -259,8 +270,8 @@ export default function BusinessValueUnitModelPage() {
              <div
                style={{
                  backgroundImage: 'url(/blue.png), linear-gradient(170deg, #EAF2F8 0%, #EAF2F8 40%, #F3F4F6 41%, #F3F4F6 100%)',
-                 backgroundSize: 'cover, cover',
-                 backgroundPosition: 'top center, center',
+                 backgroundSize: '106% 100%, 100% 100%',
+                 backgroundPosition: 'left top, center',
                  backgroundRepeat: 'no-repeat, no-repeat',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
@@ -310,8 +321,8 @@ export default function BusinessValueUnitModelPage() {
              <div
                style={{
                  backgroundImage: 'url(/red.png), linear-gradient(170deg, #F6EDEA 0%, #F6EDEA 40%, #F3F4F6 41%, #F3F4F6 100%)',
-                 backgroundSize: 'cover, cover',
-                 backgroundPosition: 'top center, center',
+                 backgroundSize: '106% 100%, 100% 100%',
+                 backgroundPosition: 'left top, center',
                  backgroundRepeat: 'no-repeat, no-repeat',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',
@@ -361,8 +372,8 @@ export default function BusinessValueUnitModelPage() {
              <div
                style={{
                  backgroundImage: 'url(/blue.png), linear-gradient(170deg, #EAF2F8 0%, #EAF2F8 40%, #F3F4F6 41%, #F3F4F6 100%)',
-                 backgroundSize: 'cover, cover',
-                 backgroundPosition: 'top center, center',
+                 backgroundSize: '106% 100%, 100% 100%',
+                 backgroundPosition: 'left top, center',
                  backgroundRepeat: 'no-repeat, no-repeat',
                  borderRadius: 'clamp(12px, 1.11vw, 16px)',
                  padding: 'clamp(20px, 2.22vw, 32px) clamp(18px, 1.94vw, 28px)',

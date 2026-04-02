@@ -5,6 +5,7 @@ interface Props {
   end: number;
   suffix?: string;
   duration?: number;
+  decimals?: number;
   className?: string;
   style?: React.CSSProperties;
 }
@@ -13,12 +14,20 @@ export default function AnimatedCounter({
   end,
   suffix = '',
   duration = 1500,
+  decimals,
   className,
   style,
 }: Props) {
   const [count, setCount] = useState(0);
   const [hasStarted, setHasStarted] = useState(false);
   const ref = useRef<HTMLSpanElement>(null);
+  const precision =
+    typeof decimals === 'number'
+      ? decimals
+      : (() => {
+          const fraction = end.toString().split('.')[1];
+          return fraction ? Math.min(fraction.length, 2) : 0;
+        })();
 
   useEffect(() => {
     const el = ref.current;
@@ -44,7 +53,7 @@ export default function AnimatedCounter({
       const progress = Math.min((timestamp - startTime) / duration, 1);
       // ease-out cubic
       const eased = 1 - Math.pow(1 - progress, 3);
-      setCount(Math.round(eased * end));
+      setCount(eased * end);
       if (progress < 1) requestAnimationFrame(animate);
     };
 
@@ -53,7 +62,10 @@ export default function AnimatedCounter({
 
   return (
     <span ref={ref} className={className} style={style}>
-      {count}{suffix}
+      {precision > 0
+        ? count.toFixed(precision).replace(/\.0+$/, '').replace(/(\.\d*[1-9])0+$/, '$1')
+        : Math.round(count)}
+      {suffix}
     </span>
   );
 }
