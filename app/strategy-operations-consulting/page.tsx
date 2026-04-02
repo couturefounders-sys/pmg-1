@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
 import ScrollStack from '@/components/ScrollStack';
+import FadeInSection from '@/components/FadeInSection';
 
 const CAPABILITY_ITEMS = [
   'Sector Convergence',
@@ -52,7 +53,7 @@ export default function StrategyOperationsConsulting() {
 
       {/* Hero Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 pt-[clamp(100px,9.86vw,142px)] pb-24 text-center">
-
+        <FadeInSection direction="up">
         {/* Subheading */}
         <p
           className="mb-4 font-dm-sans font-bold"
@@ -99,10 +100,12 @@ export default function StrategyOperationsConsulting() {
         >
           We transform inefficient processes into predictable, high-yield assets. PMG provides the systems-driven strategy and execution required to align your operations perfectly with your growth strategy, guaranteeing maximum returns and sustained competitive advantage.
         </p>
+        </FadeInSection>
       </div>
 
       {/* How We Help Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-16">
+        <FadeInSection direction="up">
         <h2
           className="text-center mb-12"
           style={{
@@ -116,10 +119,12 @@ export default function StrategyOperationsConsulting() {
         >
           How We Help
         </h2>
+        </FadeInSection>
 
         {/* Cards Grid - 3 columns x 4 rows */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1140px] mx-auto">
           {/* Capital Excellence */}
+          <FadeInSection delay={0}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -160,8 +165,10 @@ export default function StrategyOperationsConsulting() {
               Maximize ROI by leveraging expert strategies for optimal resource allocation and flawless project execution across the portfolio.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Cost Management */}
+          <FadeInSection delay={0.1}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -201,8 +208,10 @@ export default function StrategyOperationsConsulting() {
               Achieve sustainable cost reduction without compromising operational quality or competitive edge.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Enterprise Architecture & Workflow Management */}
+          <FadeInSection delay={0.2}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -245,8 +254,10 @@ export default function StrategyOperationsConsulting() {
               Design and implement robust enterprise architecture to ensure seamless, scalable operations and strategic alignment.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Facility & Resource Management */}
+          <FadeInSection delay={0.3}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -289,8 +300,10 @@ export default function StrategyOperationsConsulting() {
               Optimize physical resources and facility management for peak efficiency and significant fixed-cost reduction.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Lean, Six Sigma, Agile, or Sector Convergence */}
+          <FadeInSection delay={0.4}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -331,8 +344,10 @@ export default function StrategyOperationsConsulting() {
               Apply industry-leading methodologies (Lean, Six Sigma, Agile) to eliminate waste and accelerate time-to-market.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Multi-unit Strategy */}
+          <FadeInSection delay={0.5}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -374,8 +389,10 @@ export default function StrategyOperationsConsulting() {
               Synchronize complex, multi-unit operations with a cohesive strategy that guarantees consistency and maximizes performance across all locations.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Operations Scalability */}
+          <FadeInSection delay={0.6}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -415,8 +432,10 @@ export default function StrategyOperationsConsulting() {
               Future-proof your business by developing scalable systems and processes capable of supporting exponential growth.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Performance Metrics & KPI Optimization */}
+          <FadeInSection delay={0.7}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -457,8 +476,10 @@ export default function StrategyOperationsConsulting() {
               Refine and optimize KPIs and performance metrics to ensure organizational accountability and guarantee measurable success.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Risk & Crisis Management */}
+          <FadeInSection delay={0.8}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -498,8 +519,10 @@ export default function StrategyOperationsConsulting() {
               Safeguard continuity with proactive risk assessments and proven crisis management strategies tailored for market resilience.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Supply Chain & Procurement */}
+          <FadeInSection delay={0.9}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -540,8 +563,10 @@ export default function StrategyOperationsConsulting() {
               Transform the supply chain into a competitive advantage via streamlined logistics and expert, cost-efficient procurement.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Technology Integration */}
+          <FadeInSection delay={1.0}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -583,8 +608,10 @@ export default function StrategyOperationsConsulting() {
               Seamlessly integrate cutting-edge technologies (AI/Automation) to enhance operational efficiency and accelerate competitive advantage.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Product Development */}
+          <FadeInSection delay={1.1}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -625,12 +652,14 @@ export default function StrategyOperationsConsulting() {
               Accelerate the product journey from concept to market with innovative strategies and processes engineered for immediate customer alignment.
             </p>
           </div>
+          </FadeInSection>
         </div>
       </div>
 
       {/* Our Approach Section */}
       <div style={{ backgroundColor: '#fff', padding: '80px 20px' }}>
         <div style={{ maxWidth: 'min(1200px, 95%)', margin: '0 auto' }}>
+          <FadeInSection direction="up">
           {/* Title */}
           <h2
             style={{
@@ -662,6 +691,7 @@ export default function StrategyOperationsConsulting() {
           >
             Our approach is a unique blend of deep functional expertise and rigorous systems thinking. We solve complex problems by drawing on successful cross-sector strategies, identifying hidden value, and crafting customized execution roadmaps.
           </p>
+          </FadeInSection>
 
           {/* Roadmap container — aspect-ratio keeps height proportional on every screen */}
           <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9' }}>
@@ -800,6 +830,7 @@ export default function StrategyOperationsConsulting() {
 
           {/* Right Side - Content */}
           <div className="flex-1 max-w-[715px]">
+            <FadeInSection direction="right">
             <h2
               className="mb-6"
               style={{
@@ -827,6 +858,7 @@ export default function StrategyOperationsConsulting() {
             >
               Our team isn't limited to a single sector; our strength lies in our industry-agnostic expertise. By assembling a diverse group of experts with proven track records across various fields, we can apply a multi-faceted approach to every challenge. This unique blend of experience and methodology allows us to:
             </p>
+            </FadeInSection>
 
             {/* Bullet Point 1 */}
             <div className="flex items-start gap-4 mb-6">
@@ -960,6 +992,7 @@ export default function StrategyOperationsConsulting() {
         }}
       >
         <div className="max-w-[min(1440px,_95%)] mx-auto px-4 text-center">
+          <FadeInSection direction="up">
           <h2
             className="mb-6"
             style={{
@@ -988,6 +1021,7 @@ export default function StrategyOperationsConsulting() {
           >
             Let us help you develop and execute a winning strategy that drives sustainable growth and positions your organization for long-term success.
           </p>
+          </FadeInSection>
 
           <Link
             href="/contact-us"

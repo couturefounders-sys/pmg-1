@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
 import ScrollStack from '@/components/ScrollStack';
 import Link from 'next/link';
+import FadeInSection from '@/components/FadeInSection';
 
 const CAPABILITY_ITEMS = [
   'Sector Convergence',
@@ -42,6 +43,7 @@ export default function PeopleOrganizationsConsulting() {
 
       {/* Hero Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 pt-[clamp(100px,9.86vw,142px)] pb-24 text-center">
+        <FadeInSection direction="up">
         {/* Subheading */}
         <p
           className="mb-4 font-dm-sans font-bold"
@@ -88,10 +90,12 @@ export default function PeopleOrganizationsConsulting() {
         >
           We transform people strategy into a competitive asset. We focus on creating exceptional employee experiences and resilient organizations that deliver measurable outcomes: reduced turnover costs and enhanced productivity.
         </p>
+        </FadeInSection>
       </div>
 
       {/* How We Help Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-16">
+        <FadeInSection direction="up">
         <h2
           className="text-center mb-12"
           style={{
@@ -105,10 +109,12 @@ export default function PeopleOrganizationsConsulting() {
         >
           How We Help
         </h2>
+        </FadeInSection>
 
         {/* Cards Grid - 3 columns x 4 rows */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1140px] mx-auto">
           {/* Change Communication & Stakeholder Management */}
+          <FadeInSection delay={0}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -151,8 +157,10 @@ export default function PeopleOrganizationsConsulting() {
               Secure change adoption and align all stakeholders to mitigate program delay risks and accelerate ROI.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Change Measurement & Evaluation */}
+          <FadeInSection delay={0.1}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -195,8 +203,10 @@ export default function PeopleOrganizationsConsulting() {
               Assess the success of change initiatives with expert evaluation methods that guarantee sustainable improvements and quantifiable impact.
             </p>
           </div>
+          </FadeInSection>
 
           {/* HR Analytics & Data-Driven Decision Making */}
+          <FadeInSection delay={0.2}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -241,8 +251,10 @@ export default function PeopleOrganizationsConsulting() {
               Drive smarter, risk-mitigated HR decisions using advanced analytics and actionable workforce trend insights.
             </p>
           </div>
+          </FadeInSection>
 
           {/* HR Service Delivery Model */}
+          <FadeInSection delay={0.3}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -288,8 +300,10 @@ export default function PeopleOrganizationsConsulting() {
               Redefine the HR service delivery model to enhance administrative efficiency and optimize organizational alignment.
             </p>
           </div>
+          </FadeInSection>
 
           {/* HRIS Implementation & Integration */}
+          <FadeInSection delay={0.4}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -334,8 +348,10 @@ export default function PeopleOrganizationsConsulting() {
               Ensure seamless HR technology adoption and integration designed to streamline processes and enhance data integrity.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Leadership Development Programs */}
+          <FadeInSection delay={0.5}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -381,8 +397,10 @@ export default function PeopleOrganizationsConsulting() {
               Build a resilient leadership pipeline with tailored programs designed for strategic success and empower high-potential employees.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Organizational Structure & Design */}
+          <FadeInSection delay={0.6}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -428,8 +446,10 @@ export default function PeopleOrganizationsConsulting() {
               Design an agile organizational structure that reduces silos, maximizes competitive performance and aligns with strategic goals.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Performance Management Systems */}
+          <FadeInSection delay={0.7}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -473,8 +493,10 @@ export default function PeopleOrganizationsConsulting() {
               Optimize employee performance and accountability with systems that provide clear goals, incentives, and continuous data-driven feedback.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Resistance Management & Mitigation */}
+          <FadeInSection delay={0.8}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -517,8 +539,10 @@ export default function PeopleOrganizationsConsulting() {
               Overcome resistance to strategic change with tailored strategies that build trust, ease transition adoption, and minimize disruption costs.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Skills Training & Development */}
+          <FadeInSection delay={0.9}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -562,8 +586,10 @@ export default function PeopleOrganizationsConsulting() {
               Equip your workforce with critical future skills through tailored training programs designed to close competency gaps.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Succession Planning */}
+          <FadeInSection delay={1.0}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -608,8 +634,10 @@ export default function PeopleOrganizationsConsulting() {
               Secure the leadership pipeline and mitigate key-person risk with expert-backed succession planning and future-focused talent development.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Workforce Planning & Forecasting */}
+          <FadeInSection delay={1.1}>
           <div
             className="bg-white p-6 rounded-[10px] flex flex-col"
             style={{
@@ -653,12 +681,14 @@ export default function PeopleOrganizationsConsulting() {
               Prepare for the future with expert workforce planning and forecasting that strategically aligns talent supply with projected business goals.
             </p>
           </div>
+          </FadeInSection>
         </div>
       </div>
 
       {/* Our Approach Section */}
       <div style={{ backgroundColor: '#fff', padding: '80px 20px' }}>
         <div style={{ maxWidth: 'min(1200px, 95%)', margin: '0 auto' }}>
+          <FadeInSection direction="up">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
@@ -688,6 +718,7 @@ export default function PeopleOrganizationsConsulting() {
           >
             Our approach is a unique blend of deep human resources expertise and cutting-edge organizational psychology. We draw insights from an array of industries and organizations, find the root cause behind key problems and create high-performing, inclusive, and human-centred workplaces.
           </p>
+          </FadeInSection>
 
           <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9' }}>
             <div style={{ position: 'absolute', inset: '25% 0 25% 0' }}>
@@ -823,6 +854,7 @@ export default function PeopleOrganizationsConsulting() {
 
           {/* Right Side - Content */}
           <div className="flex-1 max-w-[715px]">
+            <FadeInSection direction="right">
             <h2
               className="mb-6"
               style={{
@@ -850,6 +882,7 @@ export default function PeopleOrganizationsConsulting() {
             >
               Our team of seasoned HR and organizational development experts thinks beyond traditional HR practices. We see people as the heart of every successful organization and focus on creating inclusive, engaging, and industry-leading work teams.
             </p>
+            </FadeInSection>
 
             {/* Bullet Point 1 */}
             <div className="flex items-start gap-4 mb-6">
@@ -983,6 +1016,7 @@ export default function PeopleOrganizationsConsulting() {
         }}
       >
         <div className="max-w-[min(1440px,_95%)] mx-auto px-4 text-center">
+          <FadeInSection direction="up">
           <h2
             className="mb-6"
             style={{
@@ -1011,6 +1045,7 @@ export default function PeopleOrganizationsConsulting() {
           >
             Let us help you develop and execute a winning strategy that drives sustainable growth and positions your organization for long-term success.
           </p>
+          </FadeInSection>
 
           <Link
             href="/contact-us"

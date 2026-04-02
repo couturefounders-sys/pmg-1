@@ -5,30 +5,32 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import OurProjectsSection, { DollarIcon, CheckIcon, ScreenIcon } from '@/components/OurProjectsSection';
 import type { ProjectCardData } from '@/components/OurProjectsSection';
+import FadeInSection from '@/components/FadeInSection';
+import AnimatedCounter from '@/components/AnimatedCounter';
 
 const publicProjects: ProjectCardData[] = [
   {
     title: 'Government of Nova Scotia',
     stats: [
-      { icon: <CheckIcon />, value: '1,000+', label: 'data points collected from executives' },
-      { icon: <ScreenIcon />, value: '1', label: 'late-phase education plan developed' },
-      { icon: <ScreenIcon />, value: '50+', label: 'stakeholders engaged across sectors' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={1000} suffix="+" /></>, label: 'data points collected from executives' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={1} /></>, label: 'late-phase education plan developed' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={50} suffix="+" /></>, label: 'stakeholders engaged across sectors' },
     ],
   },
   {
     title: 'McGill University',
     stats: [
-      { icon: <DollarIcon />, value: '$5M', label: 'in service hours added at no extra cost' },
-      { icon: <CheckIcon />, value: '30%', label: 'reduction in cost per program hour' },
-      { icon: <CheckIcon />, value: '45x', label: 'Return on Investment' },
+      { icon: <DollarIcon />, value: <>$<AnimatedCounter end={5} suffix="M" /></>, label: 'in service hours added at no extra cost' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={30} suffix="%" /></>, label: 'reduction in cost per program hour' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={45} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
   {
     title: 'NSCC',
     stats: [
-      { icon: <CheckIcon />, value: '17%', label: 'increase in student enrollment & NPS' },
-      { icon: <ScreenIcon />, value: '400+', label: 'annual student support hours added' },
-      { icon: <CheckIcon />, value: '24x', label: 'Return on Investment' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={17} suffix="%" /></>, label: 'increase in student enrollment & NPS' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={400} suffix="+" /></>, label: 'annual student support hours added' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={24} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
 ];

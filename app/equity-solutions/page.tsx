@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import WhatWeDontDoSection from '@/components/WhatWeDontDoSection';
+import FadeInSection from '@/components/FadeInSection';
+import AnimatedCounter from '@/components/AnimatedCounter';
 
 export default function EquitySolutions() {
   return (
@@ -664,8 +666,8 @@ export default function EquitySolutions() {
           {/* 2 stat boxes */}
           <div className="flex flex-wrap justify-center gap-4 lg:gap-6 mb-8 lg:mb-10 w-full">
             {[
-              { stat: '$3,000,000+', label: 'In Consulting Fees Saved for Our Partners' },
-              { stat: '12+', label: 'Expertise-for-Equity Partnerships Established' },
+              { stat: <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(32px, 2.92vw, 42px)', color: '#14358A', marginBottom: '8px', margin: 0 }}><AnimatedCounter end={3000000} suffix="+" />$</p>, label: 'In Consulting Fees Saved for Our Partners' },
+              { stat: <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(32px, 2.92vw, 42px)', color: '#14358A', marginBottom: '8px', margin: 0 }}><AnimatedCounter end={12} suffix="+" /></p>, label: 'Expertise-for-Equity Partnerships Established' },
             ].map((item, i) => (
               <div
                 key={i}
@@ -679,7 +681,7 @@ export default function EquitySolutions() {
                   textAlign: 'left',
                 }}
               >
-                <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(32px, 2.92vw, 42px)', color: '#14358A', marginBottom: '8px' }}>{item.stat}</p>
+                {typeof item.stat === 'string' ? <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(32px, 2.92vw, 42px)', color: '#14358A', marginBottom: '8px' }}>{item.stat}</p> : item.stat}
                 <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.11vw, 16px)', color: '#000000', lineHeight: '150%' }}>{item.label}</p>
               </div>
             ))}

@@ -118,6 +118,36 @@ img {
   transform: translateY(-2px);
 }
 
+/* Testimonial card hover */
+.testimonial-card {
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 8px 32px 0px rgba(20, 53, 138, 0.12);
+}
+
+/* Expertise row hover */
+.expertise-row {
+  transition: filter 0.2s ease;
+}
+.expertise-row:hover {
+  filter: brightness(1.08);
+}
+
+/* Respect reduced motion for CSS transitions */
+@media (prefers-reduced-motion: reduce) {
+  .testimonial-card,
+  .expertise-row,
+  .depth-card {
+    transition: none;
+  }
+  .testimonial-card:hover,
+  .depth-card:hover {
+    transform: none;
+  }
+}
+
 /* Dropdown Animation */
 @keyframes slideDown {
   from {

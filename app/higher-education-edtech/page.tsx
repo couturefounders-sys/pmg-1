@@ -5,30 +5,32 @@ import Footer from '@/components/Footer';
 import OurProjectsSection, { DollarIcon, TrendUpIcon, CheckIcon, ScreenIcon } from '@/components/OurProjectsSection';
 import type { ProjectCardData } from '@/components/OurProjectsSection';
 import Link from 'next/link';
+import FadeInSection from '@/components/FadeInSection';
+import AnimatedCounter from '@/components/AnimatedCounter';
 
 const educationProjects: ProjectCardData[] = [
   {
     title: 'McGill University',
     stats: [
-      { icon: <DollarIcon />, value: '$5M', label: 'in service hours added at no extra cost' },
-      { icon: <CheckIcon />, value: '30%', label: 'reduction in cost per program hour' },
-      { icon: <TrendUpIcon />, value: '45x', label: 'Return on Investment' },
+      { icon: <DollarIcon />, value: <><AnimatedCounter end={5} suffix="M" />$</>, label: 'in service hours added at no extra cost' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={30} suffix="%" /></>, label: 'reduction in cost per program hour' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={45} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
   {
     title: 'NSCC',
     stats: [
-      { icon: <TrendUpIcon />, value: '17%', label: 'increase in student enrollment & NPS' },
-      { icon: <ScreenIcon />, value: '400+', label: 'annual student support hours added' },
-      { icon: <TrendUpIcon />, value: '24x', label: 'Return on Investment' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={17} suffix="%" /></>, label: 'increase in student enrollment & NPS' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={400} suffix="+" /></>, label: 'annual student support hours added' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={24} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
   {
     title: "Saint Mary's University",
     stats: [
-      { icon: <CheckIcon />, value: '50+', label: 'employer partnerships established' },
-      { icon: <ScreenIcon />, value: '100+', label: 'students placed in new internships' },
-      { icon: <CheckIcon />, value: '20%', label: 'increase in career support satisfaction' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={50} suffix="+" /></>, label: 'employer partnerships established' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={100} suffix="+" /></>, label: 'students placed in new internships' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={20} suffix="%" /></>, label: 'increase in career support satisfaction' },
     ],
   },
 ];

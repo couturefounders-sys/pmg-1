@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import OurProjectsSection, { DollarIcon, TrendUpIcon, CheckIcon, ScreenIcon } from '@/components/OurProjectsSection';
 import type { ProjectCardData } from '@/components/OurProjectsSection';
 import Link from 'next/link';
+import FadeInSection from '@/components/FadeInSection';
 
 const b2bProjects: ProjectCardData[] = [
   {

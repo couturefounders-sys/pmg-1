@@ -5,30 +5,32 @@ import Footer from '@/components/Footer';
 import OurProjectsSection, { DollarIcon, TrendUpIcon, CheckIcon, ScreenIcon } from '@/components/OurProjectsSection';
 import type { ProjectCardData } from '@/components/OurProjectsSection';
 import Link from 'next/link';
+import FadeInSection from '@/components/FadeInSection';
+import AnimatedCounter from '@/components/AnimatedCounter';
 
 const foodProjects: ProjectCardData[] = [
   {
     title: 'Burger King',
     stats: [
-      { icon: <DollarIcon />, value: '$7M', label: 'in value retained' },
-      { icon: <ScreenIcon />, value: '30%', label: 'decrease in employee turnover' },
-      { icon: <TrendUpIcon />, value: '35x', label: 'Return on Investment' },
+      { icon: <DollarIcon />, value: <><AnimatedCounter end={7} suffix="M" />$</>, label: 'in value retained' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={30} suffix="%" /></>, label: 'decrease in employee turnover' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={35} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
   {
     title: 'A&W',
     stats: [
-      { icon: <DollarIcon />, value: '$6M', label: 'in new revenue generated' },
-      { icon: <ScreenIcon />, value: '70%', label: 'reduction in employee turnover' },
-      { icon: <TrendUpIcon />, value: '20x', label: 'Return on Investment' },
+      { icon: <DollarIcon />, value: <><AnimatedCounter end={6} suffix="M" />$</>, label: 'in new revenue generated' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={70} suffix="%" /></>, label: 'reduction in employee turnover' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={20} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
   {
     title: 'Pizza Hut',
     stats: [
-      { icon: <CheckIcon />, value: '12%', label: 'reduction in food costs' },
-      { icon: <CheckIcon />, value: '15%', label: 'increase in customer retention' },
-      { icon: <TrendUpIcon />, value: '17x', label: 'Return on Investment' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={12} suffix="%" /></>, label: 'reduction in food costs' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={15} suffix="%" /></>, label: 'increase in customer retention' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={17} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
 ];

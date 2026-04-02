@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import FadeInSection from '@/components/FadeInSection';
+import AnimatedCounter from '@/components/AnimatedCounter';
 
 export default function OurSolutions() {
   const allImpactCards = [
@@ -258,16 +260,28 @@ export default function OurSolutions() {
               >
                 {/* Icon + Title row */}
                 <div className="flex items-center gap-4 mb-4">
-                  <img
-                    src={card.icon}
-                    alt={card.title}
+                  <div
                     style={{
                       width: 'clamp(48px, 4.44vw, 64px)',
                       height: 'clamp(48px, 4.44vw, 64px)',
                       borderRadius: '10px',
+                      background: '#14358A',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
                       flexShrink: 0,
                     }}
-                  />
+                  >
+                    <img
+                      src={card.icon}
+                      alt={card.title}
+                      style={{
+                        width: 'clamp(22px, 2vw, 28px)',
+                        height: 'clamp(22px, 2vw, 28px)',
+                        objectFit: 'contain',
+                      }}
+                    />
+                  </div>
                   <h3
                     style={{
                       fontFamily: 'DM Sans, sans-serif',
@@ -754,7 +768,7 @@ export default function OurSolutions() {
 
       {/* Our Accountability Framework Section */}
       <div className="relative z-10 py-20 bg-white">
-        <div className="max-w-[min(1440px,_95%)] mx-auto px-16">
+        <div className="max-w-[min(1440px,_95%)] mx-auto px-6 md:px-10 lg:px-16">
           {/* Heading */}
           <h2
             style={{
@@ -789,13 +803,25 @@ export default function OurSolutions() {
           </p>
 
           {/* Content Grid */}
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+          <div className="flex flex-col xl:flex-row items-start justify-start gap-10 lg:gap-12 xl:gap-16">
             {/* Left Side - Framework Illustration */}
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/left_side_our_accountability.png" alt="" style={{ width: 'clamp(400px, 50vw, 720px)', height: 'auto', marginLeft: 'clamp(-100px, -6.94vw, -40px)', marginTop: 'clamp(12px, 1.39vw, 20px)' }} />
+            <div className="w-full xl:w-[56%]">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/left_side_our_accountability.png"
+                alt=""
+                style={{
+                  width: 'clamp(320px, 52vw, 860px)',
+                  maxWidth: '100%',
+                  height: 'auto',
+                  marginLeft: '0',
+                  marginTop: 'clamp(8px, 1.11vw, 16px)',
+                }}
+              />
+            </div>
 
             {/* Right Side - Average Heart ROI */}
-            <div className="flex flex-col items-center gap-6">
+            <div className="w-full xl:w-[40%] xl:max-w-[420px] flex flex-col items-start gap-6">
               <h3
                 style={{
                   fontFamily: 'DM Sans, sans-serif',
@@ -840,9 +866,9 @@ export default function OurSolutions() {
                   fontWeight: 400,
                   fontSize: 'clamp(14px, 1.22vw, 17.6px)',
                   lineHeight: '150%',
-                  textAlign: 'center',
+                  textAlign: 'left',
                   color: '#333333',
-                  maxWidth: 'min(300px, 90%)',
+                  maxWidth: 'min(340px, 100%)',
                   marginTop: 'clamp(14px, 1.67vw, 24px)',
                 }}
               >
@@ -853,8 +879,7 @@ export default function OurSolutions() {
                 href="/power-of-working-with-us"
                 style={{
                   display: 'block',
-                  width: '100%',
-                  maxWidth: 'min(340px, 90%)',
+                  width: 'min(340px, 100%)',
                   textAlign: 'center',
                   fontFamily: 'DM Sans, sans-serif',
                   fontWeight: 700,

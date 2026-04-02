@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import FadeInSection from '@/components/FadeInSection';
 
 const businessAreas = [
   'Growth & Revenue',

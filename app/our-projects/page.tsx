@@ -3,6 +3,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useState } from 'react';
+import FadeInSection from '@/components/FadeInSection';
 
 export default function OurProjects() {
   const [selectedFilters, setSelectedFilters] = useState<string[]>([]);

@@ -5,6 +5,8 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
+import FadeInSection from '@/components/FadeInSection';
+import AnimatedCounter from '@/components/AnimatedCounter';
 
 export default function ActiveManagementSolutions() {
   const [activeTab, setActiveTab] = useState<'leadership' | 'autopilot'>('leadership');
@@ -1117,7 +1119,7 @@ export default function ActiveManagementSolutions() {
                 icon: '/icons/cards/badge-medal-one.svg',
                 title: 'Rigorous Quality Assurance & Continuous Improvement',
                 subtitle: 'Built for Excellence. Refined for Results.',
-                desc: 'Every project plan, financial model, and key deliverable undergoes a rigorous internal QA process to ensure viability and alignment with your goals. After every engagement, we codify our learnings to continuously refine our methods. This is how we maintain our industry-leading 22x average client ROI.',
+                desc: <>Every project plan, financial model, and key deliverable undergoes a rigorous internal QA process to ensure viability and alignment with your goals. After every engagement, we codify our learnings to continuously refine our methods. This is how we maintain our industry-leading <AnimatedCounter end={22} suffix="x" /> average client ROI.</>,
               },
             ].map((card, idx) => {
               const isThirdCard = idx === 2;

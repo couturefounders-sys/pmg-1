@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
 import ScrollStack from '@/components/ScrollStack';
 import Link from 'next/link';
+import FadeInSection from '@/components/FadeInSection';
 
 const CAPABILITY_ITEMS = [
   'Sector Convergence',
@@ -42,6 +43,7 @@ export default function BpoFractionalTalentConsulting() {
 
       {/* Hero Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto text-center" style={{ paddingTop: 'clamp(100px, 9.86vw, 142px)' }}>
+        <FadeInSection direction="up">
         <p
           className="font-dm-sans font-bold mb-4"
           style={{
@@ -88,10 +90,12 @@ export default function BpoFractionalTalentConsulting() {
         >
           We transform fixed costs into flexible growth. Our BPO and Fractional Talent solutions provide immediate access to the top 1% of global expertise, enabling you to scale operations rapidly, fill critical gaps, and achieve dramatic cost efficiencies.
         </p>
+        </FadeInSection>
       </div>
 
       {/* How We Help Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-16">
+        <FadeInSection direction="up">
         <h2
           className="text-center mb-12"
           style={{
@@ -105,9 +109,11 @@ export default function BpoFractionalTalentConsulting() {
         >
           How We Help
         </h2>
+        </FadeInSection>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1140px] mx-auto">
           {/* Administrative Support */}
+          <FadeInSection delay={0}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -121,8 +127,10 @@ export default function BpoFractionalTalentConsulting() {
               Offload routine tasks (scheduling, data management) to dedicated virtual assistants to free up core leadership capacity for strategic priorities.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Board Services */}
+          <FadeInSection delay={0.1}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -136,8 +144,10 @@ export default function BpoFractionalTalentConsulting() {
               Enhance governance and strategic implementation with expert-led board services tailored to strengthen organizational leadership.
             </p>
           </div>
+          </FadeInSection>
 
           {/* BPO Playbook & Architecture Development */}
+          <FadeInSection delay={0.2}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -151,8 +161,10 @@ export default function BpoFractionalTalentConsulting() {
               Architect a custom BPO strategy and framework (playbook) with expert guidance to guarantee seamless execution and measurable cost savings.
             </p>
           </div>
+          </FadeInSection>
 
           {/* CEO Excellence */}
+          <FadeInSection delay={0.3}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -166,8 +178,10 @@ export default function BpoFractionalTalentConsulting() {
               Elevate CEO leadership impact with executive coaching and strategic insights designed to navigate complex challenges and accelerate success.
             </p>
           </div>
+          </FadeInSection>
 
           {/* DFY Customer Support Solutions */}
+          <FadeInSection delay={0.4}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -181,8 +195,10 @@ export default function BpoFractionalTalentConsulting() {
               Deploy scalable, world-class customer support (call centers, chat) that delivers high CSAT while optimizing cost per resolution.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Executive Immersions */}
+          <FadeInSection delay={0.5}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -196,8 +212,10 @@ export default function BpoFractionalTalentConsulting() {
               Immediately bridge critical C-level leadership gaps with experienced executives who drive strategic results on an interim basis.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Finance & Accounting Services */}
+          <FadeInSection delay={0.6}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -211,8 +229,10 @@ export default function BpoFractionalTalentConsulting() {
               Streamline financial operations with outsourced services (bookkeeping, compliance, reporting) to enhance fiscal accuracy and efficiency.
             </p>
           </div>
+          </FadeInSection>
 
           {/* HR Outsourcing */}
+          <FadeInSection delay={0.7}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -226,8 +246,10 @@ export default function BpoFractionalTalentConsulting() {
               Simplify HR operations and reduce overhead with outsourced solutions for recruitment, compliance, and core administrative needs.
             </p>
           </div>
+          </FadeInSection>
 
           {/* IT & Helpdesk Management */}
+          <FadeInSection delay={0.8}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -241,8 +263,10 @@ export default function BpoFractionalTalentConsulting() {
               Ensure technology stability and security with expert-managed IT and helpdesk solutions that reduce business disruption.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Project Management Services */}
+          <FadeInSection delay={0.9}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -256,8 +280,10 @@ export default function BpoFractionalTalentConsulting() {
               Leverage expert project managers to guarantee initiative execution is on time, within scope, and delivers measurable ROI.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Sales Support */}
+          <FadeInSection delay={1.0}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -271,8 +297,10 @@ export default function BpoFractionalTalentConsulting() {
               Empower sales teams with expert assistance in lead generation, CRM management, and administrative tasks that directly drive revenue.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Specialized Expertise */}
+          <FadeInSection delay={1.1}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -286,12 +314,14 @@ export default function BpoFractionalTalentConsulting() {
               Access pre-vetted, niche experts with deep industry experience to tackle unique, high-value challenges and accelerate objectives.
             </p>
           </div>
+          </FadeInSection>
         </div>
       </div>
 
       {/* Our Approach Section */}
       <div style={{ backgroundColor: '#fff', padding: '80px 20px' }}>
         <div style={{ maxWidth: 'min(1200px, 95%)', margin: '0 auto' }}>
+          <FadeInSection direction="up">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
@@ -321,6 +351,7 @@ export default function BpoFractionalTalentConsulting() {
           >
             Our approach is a unique blend of deep industry expertise and flexible engagement models. We draw insights from a vast array of successful organizations and tailor our solutions to meet your specific needs and budget.
           </p>
+          </FadeInSection>
 
           <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9' }}>
             <div style={{ position: 'absolute', inset: '25% 0 25% 0' }}>
@@ -458,6 +489,7 @@ export default function BpoFractionalTalentConsulting() {
 
           {/* Right Side - Content */}
           <div className="flex-1 max-w-[715px]">
+            <FadeInSection direction="right">
             <h2
               className="mb-6"
               style={{
@@ -485,6 +517,7 @@ export default function BpoFractionalTalentConsulting() {
             >
               Imagine a team of highly skilled professionals, each a specialist in their respective field, ready to augment your capabilities on-demand. We offer a diverse pool of fractional experts and BPO services, providing you with access to top-tier talent when and where you need it.
             </p>
+            </FadeInSection>
 
             {/* Bullet Point 1 */}
             <div className="flex items-start gap-4 mb-6">
@@ -554,6 +587,7 @@ export default function BpoFractionalTalentConsulting() {
         {/* Decorative Border Rectangle - Top Left */}
         <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
         <div className="max-w-[1196px] mx-auto px-4 text-center">
+          <FadeInSection direction="up">
           <p className="mb-4" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#FFFFFF' }}>
             The Principle of Least Change
           </p>
@@ -563,18 +597,21 @@ export default function BpoFractionalTalentConsulting() {
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '135%', color: '#FFFFFF' }}>
             The most effective solution is not the one that changes the most, but the one that achieves your vision with the highest degree of surgical precision. We do not believe in change for the sake of change. We identify the smallest and most strategic adjustments required to unlock exponential value.
           </p>
+          </FadeInSection>
         </div>
       </div>
 
       {/* CTA Section */}
       <div className="relative w-full py-20" style={{ background: 'linear-gradient(180deg, #EBF7FF 0%, #D9ECFA 100%)' }}>
         <div className="max-w-[min(1440px,_95%)] mx-auto px-4 text-center">
+          <FadeInSection direction="up">
           <h2 className="mb-6" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A' }}>
             Ready to Access Elite Talent and Optimize Operational Costs?
           </h2>
           <p className="mb-10" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '135%', color: '#333333', maxWidth: 'min(1196px, 95%)', margin: '0 auto 2.5rem auto' }}>
             Let us help you unlock the power of our BPO and Fractional Talent solutions and achieve your business objectives.
           </p>
+          </FadeInSection>
           <Link
             href="/contact-us"
             className="text-white font-bold hover:opacity-90 transition-opacity"

@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from 'next/font/google';
 import "./globals.css";
+import PageTransition from '@/components/PageTransition';
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -33,7 +34,7 @@ export default function RootLayout({
         <link rel="preload" href="/hero-background.webp" as="image" type="image/webp" />
         <meta name="format-detection" content="telephone=no" />
       </head>
-      <body className={`${inter.className} no-overflow`}>{children}</body>
+      <body className={`${inter.className} no-overflow`}><PageTransition>{children}</PageTransition></body>
     </html>
   );
 }

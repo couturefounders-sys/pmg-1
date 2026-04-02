@@ -3,6 +3,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
+import FadeInSection from '@/components/FadeInSection';
 
 export default function OurFunctionalAreas() {
   return (
@@ -11,6 +12,7 @@ export default function OurFunctionalAreas() {
 
       {/* Hero Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 pt-[clamp(110px,11.88vw,171px)] pb-16 text-center">
+        <FadeInSection direction="up">
         <h1
           style={{
             fontFamily: 'Poppins, sans-serif',
@@ -41,6 +43,7 @@ export default function OurFunctionalAreas() {
         >
           We deliver bespoke solutions that reject generalized frameworks. Expect measurable, tangible business improvements and significant ROI precisely aligned with your strategic, high-stakes objectives.
         </p>
+        </FadeInSection>
 
         <Link
           href="/power-of-working-with-us"
@@ -68,6 +71,7 @@ export default function OurFunctionalAreas() {
 
       {/* Our Functional Areas Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4" style={{ paddingTop: '75px', paddingBottom: '64px' }}>
+        <FadeInSection direction="up">
         <div className="text-center" style={{ marginBottom: '30px' }}>
           <h2
             style={{
@@ -99,10 +103,12 @@ export default function OurFunctionalAreas() {
             We deploy world-class expertise to deliver a range of services uniquely tailored to your complex requirements.
           </p>
         </div>
+        </FadeInSection>
 
         {/* Row 1: 2 Cards */}
         <div className="flex flex-col md:flex-row justify-center max-w-[1264px] mx-auto" style={{ gap: '30px', marginBottom: '32px' }}>
           {/* Operations & Strategy */}
+          <FadeInSection delay={0}>
           <div
             className="bg-white rounded-[10px] flex flex-col"
             style={{
@@ -163,8 +169,10 @@ export default function OurFunctionalAreas() {
               Explore Operations & Strategy ›
             </a>
           </div>
+          </FadeInSection>
 
           {/* People & Organizations */}
+          <FadeInSection delay={0.1}>
           <div
             className="bg-white rounded-[10px] flex flex-col"
             style={{
@@ -227,11 +235,13 @@ export default function OurFunctionalAreas() {
               Explore People & Organizations ›
             </a>
           </div>
+          </FadeInSection>
         </div>
 
         {/* Row 2: 3 Cards */}
         <div className="flex flex-col md:flex-row justify-center max-w-[1264px] mx-auto" style={{ gap: '30px', marginBottom: '24px' }}>
           {/* Customer Experience */}
+          <FadeInSection delay={0}>
           <div
             className="bg-white rounded-[10px] flex flex-col"
             style={{
@@ -292,8 +302,10 @@ export default function OurFunctionalAreas() {
               Explore Customer Experience ›
             </a>
           </div>
+          </FadeInSection>
 
           {/* Mergers & Acquisitions */}
+          <FadeInSection delay={0.1}>
           <div
             className="bg-white rounded-[10px] flex flex-col"
             style={{
@@ -354,8 +366,10 @@ export default function OurFunctionalAreas() {
               Explore Mergers & Acquisitions ›
             </a>
           </div>
+          </FadeInSection>
 
           {/* Branding & Marketing */}
+          <FadeInSection delay={0.2}>
           <div
             className="bg-white rounded-[10px] flex flex-col"
             style={{
@@ -417,11 +431,13 @@ export default function OurFunctionalAreas() {
               Explore Branding & Marketing ›
             </a>
           </div>
+          </FadeInSection>
         </div>
 
         {/* Row 3: 2 Cards */}
         <div className="flex flex-col md:flex-row justify-center max-w-[1264px] mx-auto" style={{ gap: '30px' }}>
           {/* BPO & Fractional Talent */}
+          <FadeInSection delay={0}>
           <div
             className="bg-white rounded-[10px] flex flex-col"
             style={{
@@ -485,8 +501,10 @@ export default function OurFunctionalAreas() {
               Explore BPO & Fractional Talent ›
             </a>
           </div>
+          </FadeInSection>
 
           {/* Crisis & Transition Management */}
+          <FadeInSection delay={0.1}>
           <div
             className="bg-white rounded-[10px] flex flex-col"
             style={{
@@ -547,11 +565,13 @@ export default function OurFunctionalAreas() {
               Explore Crisis & Transition Management ›
             </a>
           </div>
+          </FadeInSection>
         </div>
       </div>
 
       {/* Ready for a Definitive Path to Transformation Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4" style={{ paddingTop: 'clamp(64px, 19.86vw, 286px)', paddingBottom: 'clamp(48px, 5.56vw, 80px)' }}>
+        <FadeInSection direction="up">
         <div className="text-center" style={{ marginBottom: '40px' }}>
           <h2
             style={{
@@ -585,10 +605,12 @@ export default function OurFunctionalAreas() {
             PMG's expertise translates directly into superior results. Explore our structured engagement models, ensuring the right expertise is delivered in a way that aligns perfectly with your growth goals.
           </p>
         </div>
+        </FadeInSection>
 
         {/* Solution Cards - 2x2 Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 max-w-[1062px] mx-auto" style={{ columnGap: '22px', rowGap: '24px' }}>
           {/* Out-of-the-Box Solutions */}
+          <FadeInSection delay={0}>
           <div
             className="bg-white rounded-[10px] flex flex-col"
             style={{
@@ -663,8 +685,10 @@ export default function OurFunctionalAreas() {
               Explore Out-of-the-Box Solutions ›
             </a>
           </div>
+          </FadeInSection>
 
           {/* Bespoke Solutions */}
+          <FadeInSection delay={0.1}>
           <div
             className="bg-white rounded-[10px] flex flex-col"
             style={{
@@ -739,8 +763,10 @@ export default function OurFunctionalAreas() {
               Explore Bespoke Solutions ›
             </a>
           </div>
+          </FadeInSection>
 
           {/* Active Management Solutions */}
+          <FadeInSection delay={0.2}>
           <div
             className="bg-white rounded-[10px] flex flex-col"
             style={{
@@ -815,8 +841,10 @@ export default function OurFunctionalAreas() {
               Explore Active Management Solutions ›
             </a>
           </div>
+          </FadeInSection>
 
           {/* Equity Engagements */}
+          <FadeInSection delay={0.3}>
           <div
             className="bg-white rounded-[10px] flex flex-col"
             style={{
@@ -891,10 +919,12 @@ export default function OurFunctionalAreas() {
               Explore Equity Engagements ›
             </a>
           </div>
+          </FadeInSection>
         </div>
       </div>
 
       {/* Unsure Which Solution Fits Section */}
+      <FadeInSection direction="up">
       <div
         className="relative w-full"
         style={{
@@ -959,6 +989,7 @@ export default function OurFunctionalAreas() {
           </Link>
         </div>
       </div>
+      </FadeInSection>
 
       <Footer />
     </main>

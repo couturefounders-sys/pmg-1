@@ -1,8 +1,10 @@
 'use client';
 
+import AnimatedCounter from '@/components/AnimatedCounter';
+
 export interface Stat {
   icon: React.ReactNode;
-  value: string;
+  value: string | React.ReactNode;
   label: string;
 }
 

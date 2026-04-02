@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 import OurProjectsSection, { DollarIcon, TrendUpIcon, ScreenIcon, CheckIcon } from '@/components/OurProjectsSection';
+import FadeInSection from '@/components/FadeInSection';
 
 export default function YourIndustry() {
   const iconContainer = (svg: React.ReactNode) => (

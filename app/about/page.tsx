@@ -5,6 +5,8 @@ import Footer from '@/components/Footer';
 import CoreValuesPentagon from '@/components/CoreValuesPentagon';
 import AlternatingTimeline from '@/components/AlternatingTimeline';
 import Link from 'next/link';
+import FadeInSection from '@/components/FadeInSection';
+import AnimatedCounter from '@/components/AnimatedCounter';
 
 export default function About() {
   return (
@@ -19,6 +21,7 @@ export default function About() {
         <div className="relative text-center mb-16 px-4">
 
           <div className="relative z-10">
+            <FadeInSection direction="up">
             <div className="flex flex-col items-center mb-4">
               <p
                 className="font-dm-sans font-bold mb-2"
@@ -52,6 +55,7 @@ export default function About() {
             >
               We are the go-to strategic consulting partner for SMB, Mid-market, and Enterprise leaders around the globe. Our foundational values of Excellence, Value, and Innovation drive the exceptional, transformative results that turn strategy into competitive reality.
             </p>
+            </FadeInSection>
           </div>
         </div>
 
@@ -66,6 +70,7 @@ export default function About() {
         </div>
 
         {/* Data Analytics Heading */}
+        <FadeInSection direction="up">
         <div className="mb-16 text-center mx-auto px-4" style={{ maxWidth: 'min(800px, 90%)' }}>
           <h3
             className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A]"
@@ -77,11 +82,13 @@ export default function About() {
             What We Bring to Every Partnership
           </h3>
         </div>
+        </FadeInSection>
 
         {/* Strategic Pillars Cards */}
         <div className="mx-auto px-4 mb-20" style={{ maxWidth: 'min(1300px, 92%)' }}>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
             {/* Card 1 - Functional Mastery */}
+            <FadeInSection delay={0}>
             <div
               className="border-[3px] border-[#14358A] rounded-[10px] w-full flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300"
               style={{
@@ -118,8 +125,10 @@ export default function About() {
                 We don't just know your industry; we master the functions that drive it, from P&L engineering to workflow architecture.
               </p>
             </div>
+            </FadeInSection>
 
             {/* Card 2 - Passion for Results */}
+            <FadeInSection delay={0.1}>
             <div
               className="border-[3px] border-[#14358A] rounded-[10px] w-full flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300"
               style={{
@@ -154,8 +163,10 @@ export default function About() {
                 Our dedication to execution means we own the outcome. This relentless drive accelerates project timelines and ensures we exceed key performance indicators.
               </p>
             </div>
+            </FadeInSection>
 
             {/* Card 3 - An Expert Network */}
+            <FadeInSection delay={0.2}>
             <div
               className="border-[3px] border-[#14358A] rounded-[10px] w-full flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300"
               style={{
@@ -195,8 +206,10 @@ export default function About() {
                 A curated global network of functional specialists ensures clients receive bespoke expertise, providing a decisive advantage in complex markets.
               </p>
             </div>
+            </FadeInSection>
 
             {/* Card 4 - Relentless Innovation */}
+            <FadeInSection delay={0.3}>
             <div
               className="border-[3px] border-[#14358A] rounded-[10px] w-full flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300"
               style={{
@@ -235,8 +248,10 @@ export default function About() {
                 We embed future-proof strategies into your operations, positioning your business to immediately capitalize on new market opportunities.
               </p>
             </div>
+            </FadeInSection>
 
             {/* Card 5 - People-Focused Leadership */}
+            <FadeInSection delay={0.4}>
             <div
               className="border-[3px] border-[#14358A] rounded-[10px] w-full flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300"
               style={{
@@ -276,8 +291,10 @@ export default function About() {
                 We focus on talent and organizational design to ensure change management is effective, accelerating adoption and securing long-term institutional value.
               </p>
             </div>
+            </FadeInSection>
 
             {/* Card 6 - Evidence-Based Strategy */}
+            <FadeInSection delay={0.5}>
             <div
               className="border-[3px] border-[#14358A] rounded-[10px] w-full flex flex-col items-start justify-start text-left bg-white hover:shadow-lg transition-shadow duration-300"
               style={{
@@ -312,11 +329,13 @@ export default function About() {
                 We replace "gut feelings" with forensic data analysis, ensuring every move is backed by quantifiable reality.
               </p>
             </div>
+            </FadeInSection>
           </div>
         </div>
 
         {/* Our Core Values */}
         <div className="mt-24 mb-20 text-center">
+          <FadeInSection direction="up">
           <h3
             className="font-dm-sans font-bold mb-12"
             style={{
@@ -338,6 +357,7 @@ export default function About() {
           >
             We don&apos;t have core values because they look good on a wall; we have them because they are the filters through which we hire our Embedded Leaders. These principles guide our every action and fuel our pursuit of excellence.
           </p>
+          </FadeInSection>
           <div className="mx-auto" style={{ maxWidth: 'min(700px, 90vw)' }}>
             <CoreValuesPentagon />
           </div>
@@ -346,6 +366,7 @@ export default function About() {
         {/* Read Our Latest Insights */}
         <div className="mb-20 text-center bg-[#F9FAFB]" style={{ paddingTop: 'clamp(32px, 3.33vw, 64px)', paddingBottom: 'clamp(32px, 3.33vw, 64px)' }}>
           {/* Section Title */}
+          <FadeInSection direction="up">
           <p
             className="font-dm-sans font-bold mb-2"
             style={{
@@ -367,10 +388,12 @@ export default function About() {
           >
             Read Our Latest Insights
           </h3>
+          </FadeInSection>
 
           {/* Cards Container */}
           <div className="flex justify-center items-start gap-6 px-4 mb-12 flex-wrap">
             {/* Card 1 - The Hidden Risks of AI Expansion */}
+            <FadeInSection delay={0}>
             <div
               className="overflow-hidden"
               style={{
@@ -430,8 +453,10 @@ export default function About() {
                 </Link>
               </div>
             </div>
+            </FadeInSection>
 
             {/* Card 2 - The Unseen Edge */}
+            <FadeInSection delay={0.1}>
             <div
               className="overflow-hidden"
               style={{
@@ -491,6 +516,7 @@ export default function About() {
                 </Link>
               </div>
             </div>
+            </FadeInSection>
           </div>
 
           {/* Browse All Publications Button */}
@@ -530,6 +556,7 @@ export default function About() {
 
         {/* Who We Partner With */}
         <div className="mb-20 text-center px-4 mx-auto" style={{ maxWidth: 'min(1440px, 95%)' }}>
+          <FadeInSection direction="up">
           <h3
             className="font-poppins font-semibold text-[#14358A] mb-8"
             style={{
@@ -549,6 +576,7 @@ export default function About() {
           >
             We don't work with everyone. We partner with organizations that are ready to move from 'Strategy as a Document' to 'Strategy as an Operation.' Our strategic partnerships are critical extensions of our functional expertise, expanding our capabilities to deliver seamless, cutting-edge solutions across complex operational landscapes.
           </p>
+          </FadeInSection>
 
           <div className="flex flex-col md:flex-row items-start justify-center gap-8 p-8 max-w-7xl mx-auto mt-16" style={{ border: '1px solid #e5e7eb', borderRadius: '16px', background: '#ffffff' }}>
             {/* Left Side: Heading and Text */}
@@ -587,6 +615,7 @@ export default function About() {
 
         {/* Global Network */}
         <div className="mb-24 text-center px-4 mx-auto" style={{ maxWidth: 'min(1440px, 95%)' }}>
+          <FadeInSection direction="up">
           <h3
             className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-8"
             style={{
@@ -606,7 +635,9 @@ export default function About() {
           >
             Beyond our direct client engagements, PMG is a trusted strategic partner providing essential domain expertise and services across the global professional and startup ecosystem.
           </p>
+          </FadeInSection>
           <div className="flex justify-center gap-6 flex-wrap">
+            <FadeInSection delay={0}>
             <div className="text-left" style={{ width: 'clamp(380px, 37.22vw, 580px)', border: '1px solid #e5e7eb', borderRadius: '16px', background: '#ffffff', overflow: 'hidden' }}>
               <div className="w-full mb-6 overflow-hidden shadow-sm" style={{ height: 'clamp(140px, 13.33vw, 192px)' }}>
                 <img src="/white-label.png" alt="White-Label Consulting Support" className="w-full h-full object-cover" />
@@ -633,7 +664,9 @@ export default function About() {
               </p>
               </div>
             </div>
+            </FadeInSection>
 
+            <FadeInSection delay={0.1}>
             <div className="text-left" style={{ width: 'clamp(380px, 37.22vw, 580px)', border: '1px solid #e5e7eb', borderRadius: '16px', background: '#ffffff', overflow: 'hidden' }}>
               <div className="w-full mb-6 overflow-hidden shadow-sm" style={{ height: 'clamp(140px, 13.33vw, 192px)' }}>
                 <img src="/ecosystem.png" alt="Ecosystem and Advisory Partnerships" className="w-full h-full object-cover" />
@@ -660,11 +693,13 @@ export default function About() {
               </p>
               </div>
             </div>
+            </FadeInSection>
           </div>
         </div>
 
         {/* Evolution of Our Logic */}
         <div className="mb-24 text-center px-4 mx-auto" style={{ maxWidth: 'min(1440px, 95%)' }}>
+          <FadeInSection direction="up">
           <h3
             className="font-dm-sans font-bold tracking-[-0.03em] text-[#14358A] mb-8"
             style={{
@@ -684,6 +719,7 @@ export default function About() {
           >
             Our story is one of relentless innovation and an unwavering commitment to our clients' long-term success.
           </p>
+          </FadeInSection>
 
           <AlternatingTimeline
             items={[
@@ -698,7 +734,7 @@ export default function About() {
               { title: "February 2020", description: "PMG launches a COVID-19 Resiliency Program, helping hotels and restaurants navigate unprecedented challenges." },
               { title: "April 2020", description: "Appointed as lead project manager for a hotel in Dubai, PMG establishes its global consulting footprint." },
               { title: "June 2020", description: "To maximize industry recovery, PMG runs its enhanced COVID-19 support program at cost." },
-              { title: "October 2020", description: "Now serving over 50 clients across 60+ locations, PMG becomes a North American industry leader." },
+              { title: "October 2020", description: "Now serving over 50+ clients across 60+ locations, PMG becomes a North American industry leader." },
               { title: "March 2021", description: "PMG launches M&A advisory services, guiding clients through complex transactions and restructurings." },
               { title: "July 2021", description: "Investing in talent, PMG launches an accelerated GM training program to cultivate future industry leaders." },
               { title: "May 2022", description: "Having supported over $100M in M&A deals, PMG solidifies its reputation as a trusted transaction partner." },
@@ -719,6 +755,7 @@ export default function About() {
 
       {/* Ready to Write Your Success Story Section */}
       <div className="bg-[#EBF7FF] text-center relative z-0" style={{ paddingTop: 'clamp(40px, 5.56vw, 80px)', paddingBottom: 'clamp(40px, 5.56vw, 80px)' }}>
+        <FadeInSection direction="up">
         <h3
           className="font-dm-sans font-bold text-[#14358A]"
           style={{
@@ -762,6 +799,7 @@ export default function About() {
         >
           Request a Consultation
         </Link>
+        </FadeInSection>
       </div>
 
       <Footer />

@@ -5,30 +5,32 @@ import Footer from '@/components/Footer';
 import OurProjectsSection, { DollarIcon, TrendUpIcon, CheckIcon } from '@/components/OurProjectsSection';
 import type { ProjectCardData } from '@/components/OurProjectsSection';
 import Link from 'next/link';
+import FadeInSection from '@/components/FadeInSection';
+import AnimatedCounter from '@/components/AnimatedCounter';
 
 const travelProjects: ProjectCardData[] = [
   {
     title: 'Hilton Hotels',
     stats: [
-      { icon: <DollarIcon />, value: '$8M', label: 'in additional annual profit' },
-      { icon: <CheckIcon />, value: '11%', label: 'reduction in operational costs' },
-      { icon: <TrendUpIcon />, value: '28x', label: 'Return on Investment' },
+      { icon: <DollarIcon />, value: <><AnimatedCounter end={8} suffix="M" />$</>, label: 'in additional annual profit' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={11} suffix="%" /></>, label: 'reduction in operational costs' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={28} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
   {
     title: 'Hyatt Hotels',
     stats: [
-      { icon: <DollarIcon />, value: '$9M', label: 'in new revenue generated' },
-      { icon: <CheckIcon />, value: '60%', label: 'occupancy sustained during pandemic' },
-      { icon: <TrendUpIcon />, value: '18x', label: 'Return on Investment' },
+      { icon: <DollarIcon />, value: <><AnimatedCounter end={9} suffix="M" />$</>, label: 'in new revenue generated' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={60} suffix="%" /></>, label: 'occupancy sustained during pandemic' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={18} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
   {
     title: 'Wyndham Hotels',
     stats: [
-      { icon: <TrendUpIcon />, value: '30%', label: 'increase in RevPAR' },
-      { icon: <CheckIcon />, value: '8%', label: 'increase in total operating margin' },
-      { icon: <TrendUpIcon />, value: '21x', label: 'Return on Investment' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={30} suffix="%" /></>, label: 'increase in RevPAR' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={8} suffix="%" /></>, label: 'increase in total operating margin' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={21} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
 ];

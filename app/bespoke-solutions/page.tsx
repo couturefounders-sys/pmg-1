@@ -2,6 +2,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
 import BlueSectionDecorated from '@/components/BlueSectionDecorated';
+import FadeInSection from '@/components/FadeInSection';
+import AnimatedCounter from '@/components/AnimatedCounter';
 
 export default function BespokeSolutions() {
   const steps = [
@@ -40,6 +42,7 @@ export default function BespokeSolutions() {
       <section className="w-full pt-32 pb-16 px-4">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
 
+          <FadeInSection direction="up">
           {/* Eyebrow Label — DM Sans Bold 29px, node 0:5834 */}
           <p
             style={{
@@ -89,6 +92,7 @@ export default function BespokeSolutions() {
           >
             When you face challenges that off-the-shelf solutions can&apos;t fix, you need a partner who architects strategy from first principles. Our Bespoke Consulting services deliver tangible, project-based outcomes by crafting a plan meticulously aligned with your vision.
           </p>
+          </FadeInSection>
 
           {/* CTA Button */}
           <a
@@ -120,6 +124,7 @@ export default function BespokeSolutions() {
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
 
           {/* Section Heading */}
+          <FadeInSection direction="up">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
@@ -149,14 +154,15 @@ export default function BespokeSolutions() {
           >
             We don&apos;t sell pre-packaged solutions; we solve specific, high-stakes problems. Our approach is tool-agnostic, meaning we diagnose your unique challenge first, then architect the right approach to deliver a concrete, project-based outcome. This might involve our proprietary models, a proven industry framework, or a completely custom-built strategy.
           </p>
+          </FadeInSection>
 
           {/* Step Cards Grid */}
           <div
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[1400px] mx-auto"
           >
             {steps.map((step, idx) => (
+              <FadeInSection key={idx} delay={idx * 0.1}>
               <div
-                key={idx}
                 style={{
                   backgroundColor: '#FFFFFF',
                   border: '3px solid #14358A',
@@ -208,6 +214,7 @@ export default function BespokeSolutions() {
                   {step.description}
                 </p>
               </div>
+              </FadeInSection>
             ))}
           </div>
         </div>
@@ -217,6 +224,7 @@ export default function BespokeSolutions() {
       <BlueSectionDecorated style={{ padding: '80px 24px' }}>
         <div className="max-w-[min(1100px,_90%)] mx-auto">
           {/* Heading */}
+          <FadeInSection direction="up">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
@@ -249,6 +257,7 @@ export default function BespokeSolutions() {
             expertise upfront to ensure we&apos;re aligned on a validated plan that guarantees a
             specific outcome. You see the full blueprint before the project begins.
           </p>
+          </FadeInSection>
 
           {/* Two-column layout: bullet list + advantage box */}
           <div className="flex flex-col lg:flex-row gap-10 items-start justify-between">
@@ -274,7 +283,8 @@ export default function BespokeSolutions() {
                   body: 'We present the validated blueprint to you. The full engagement only moves forward once you have confidence in the plan and its expected outcomes.',
                 },
               ].map((item, idx) => (
-                <div key={idx} className="flex items-start" style={{ gap: '12px' }}>
+                <FadeInSection key={idx} delay={idx * 0.1}>
+                <div className="flex items-start" style={{ gap: '12px' }}>
                   <div className="flex-shrink-0" style={{ marginTop: '3px' }}>
                     <Image src="/bespoke-arrow.png" alt="arrow" width={24} height={18} style={{ objectFit: 'contain' }} />
                   </div>
@@ -301,6 +311,7 @@ export default function BespokeSolutions() {
                     </p>
                   </div>
                 </div>
+                </FadeInSection>
               ))}
 
             </div>
@@ -377,6 +388,7 @@ export default function BespokeSolutions() {
       <section className="w-full bg-white pt-20 pb-16">
         {/* Header text */}
         <div className="max-w-[min(1100px,_90%)] mx-auto px-6 flex flex-col items-center text-center mb-12">
+          <FadeInSection direction="up">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
@@ -417,6 +429,7 @@ export default function BespokeSolutions() {
             It all starts here. We begin by aligning with your vision, establishing clear, measurable
             goals, and setting the stage for a successful partnership.
           </p>
+          </FadeInSection>
         </div>
 
         {/* Wave + phases layout */}
@@ -556,6 +569,7 @@ export default function BespokeSolutions() {
 
           {/* Header */}
           <div className="flex flex-col items-center text-center mb-16">
+            <FadeInSection direction="up">
             <h2
               style={{
                 fontFamily: 'DM Sans, sans-serif',
@@ -585,6 +599,7 @@ export default function BespokeSolutions() {
               categories. Our approach is to deploy the right team of functional experts to solve
               these specific types of high-stakes challenges.
             </p>
+            </FadeInSection>
           </div>
 
           {/* Row 1 — icon LEFT, text RIGHT — Operational Turnarounds */}
@@ -602,7 +617,7 @@ export default function BespokeSolutions() {
                 efficiency and enable growth.
               </p>
               <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontStyle: 'italic', fontSize: '23px', lineHeight: '140%', color: '#333333', textAlign: 'right' }}>
-                Example Engagements: Rescuing a $32M support operation (Trilogy), streamlining
+                Example Engagements: Rescuing a $<AnimatedCounter end={32} suffix="M" /> support operation (Trilogy), streamlining
                 enterprise architecture (Artemis Capital).
               </p>
             </div>

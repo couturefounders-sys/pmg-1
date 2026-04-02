@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import WhatWeDontDoSection from '@/components/WhatWeDontDoSection';
+import FadeInSection from '@/components/FadeInSection';
 
 export default function OutOfTheBoxSolutions() {
   return (

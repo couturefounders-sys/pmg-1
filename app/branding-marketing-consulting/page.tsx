@@ -29,6 +29,7 @@ const CAPABILITY_ITEMS = [
   'Shopper Insights',
 ];
 import Image from 'next/image';
+import FadeInSection from '@/components/FadeInSection';
 
 const STEP_POSITIONS = {
   step1: { left: 20, top: 10 },
@@ -45,6 +46,7 @@ export default function BrandingMarketingConsulting() {
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto text-center" style={{ paddingTop: 'clamp(100px, 9.86vw, 142px)' }}>
 
         {/* Subheading */}
+        <FadeInSection direction="up">
         <p
           className="font-dm-sans font-bold mb-4"
           style={{
@@ -93,10 +95,12 @@ export default function BrandingMarketingConsulting() {
         >
           We treat brand and marketing as a direct investment in business value. We engineer integrated strategies and compelling narratives that guarantee audience resonance and deliver measurable, high-ROI revenue growth.
         </p>
+        </FadeInSection>
       </div>
 
       {/* How We Help Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 py-16">
+        <FadeInSection direction="up">
         <h2
           className="text-center mb-12"
           style={{
@@ -110,9 +114,11 @@ export default function BrandingMarketingConsulting() {
         >
           How We Help
         </h2>
+        </FadeInSection>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1140px] mx-auto">
           {/* Brand Building */}
+          <FadeInSection delay={0}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -126,8 +132,10 @@ export default function BrandingMarketingConsulting() {
               Engineer a unique brand identity and experience that guarantees consistent messaging and superior market cut-through.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Change Measurement & Evaluation */}
+          <FadeInSection delay={0.1}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -141,8 +149,10 @@ export default function BrandingMarketingConsulting() {
               Maximize Customer Lifetime Value (CLV) by fostering advocacy and converting loyal customers into passionate brand promoters.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Consumer & Shopper Insights */}
+          <FadeInSection delay={0.2}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -156,8 +166,10 @@ export default function BrandingMarketingConsulting() {
               Leverage deep consumer and shopper insights to inform strategy and create impactful experiences that guarantee sales growth.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Content Creation & Management */}
+          <FadeInSection delay={0.3}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -171,8 +183,10 @@ export default function BrandingMarketingConsulting() {
               Develop and manage high-quality, engaging content pipelines that drive measurable audience resonance and strategic alignment.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Content Marketing & Storytelling */}
+          <FadeInSection delay={0.4}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -186,8 +200,10 @@ export default function BrandingMarketingConsulting() {
               Tell your brand's story with compelling content strategies designed to build lasting audience relationships and accelerate conversion.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Customer Acquisition Strategies */}
+          <FadeInSection delay={0.5}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -201,8 +217,10 @@ export default function BrandingMarketingConsulting() {
               Design and implement high-ROI customer acquisition strategies that aggressively expand market share and reduce cost-per-lead.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Digital Marketing */}
+          <FadeInSection delay={0.6}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -216,8 +234,10 @@ export default function BrandingMarketingConsulting() {
               Execute high-performance digital marketing campaigns across all platforms to maximize traffic generation and lead volume.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Marketing & Business Analytics */}
+          <FadeInSection delay={0.7}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -231,8 +251,10 @@ export default function BrandingMarketingConsulting() {
               Provide actionable, data-driven insights, analytics, and modeling to rigorously evaluate campaign effectiveness and guide high-stakes decision-making.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Market Positioning & Go-to-Market Strategy */}
+          <FadeInSection delay={0.8}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -246,8 +268,10 @@ export default function BrandingMarketingConsulting() {
               Define a defensible market position and design effective Go-to-Market strategies that ensure successful product launches.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Marketing Return on Investment */}
+          <FadeInSection delay={0.9}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -261,8 +285,10 @@ export default function BrandingMarketingConsulting() {
               Maximize profitability by rigorously measuring and optimizing the financial Return on Investment (ROI) of all marketing expenditure.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Organization & Capabilities */}
+          <FadeInSection delay={1.0}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -276,8 +302,10 @@ export default function BrandingMarketingConsulting() {
               Build structures and capabilities required to execute integrated, effective marketing and sales strategies.
             </p>
           </div>
+          </FadeInSection>
 
           {/* Pricing & Enablement */}
+          <FadeInSection delay={1.1}>
           <div className="bg-white p-6 rounded-[10px] flex flex-col" style={{ border: '3px solid #14358A', minHeight: '257px' }}>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 flex items-center justify-center bg-[#14358A] rounded-[10px] flex-shrink-0">
@@ -291,12 +319,14 @@ export default function BrandingMarketingConsulting() {
               Establish optimal competitive pricing and enable sales teams with the tools and knowledge required to maximize revenue and profitability.
             </p>
           </div>
+          </FadeInSection>
         </div>
       </div>
 
       {/* Our Approach Section */}
       <div style={{ backgroundColor: '#fff', padding: '80px 20px' }}>
         <div style={{ maxWidth: 'min(1200px, 95%)', margin: '0 auto' }}>
+          <FadeInSection direction="up">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
@@ -326,6 +356,7 @@ export default function BrandingMarketingConsulting() {
           >
             Our approach is a unique blend of deep marketing expertise and creative innovation. We draw insights from a vast array of successful brands across industries, identifying best practices and emerging trends that can be applied to your specific business.
           </p>
+          </FadeInSection>
 
           <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9' }}>
             <div style={{ position: 'absolute', inset: '25% 0 25% 0' }}>
@@ -463,6 +494,7 @@ export default function BrandingMarketingConsulting() {
 
           {/* Right Side - Content */}
           <div className="flex-1 max-w-[715px]">
+            <FadeInSection direction="right">
             <h2
               className="mb-6"
               style={{
@@ -489,6 +521,7 @@ export default function BrandingMarketingConsulting() {
             >
               Our team of seasoned marketing and branding experts isn't confined to a single sector; we've assembled a diverse group of experts with a proven track record of success in creating and building iconic brands. This unique blend of experience and expertise allows us to think beyond traditional marketing channels.
             </p>
+            </FadeInSection>
 
             {/* Bullet Point 1 */}
             <div className="flex items-start gap-4 mb-6">
@@ -556,6 +589,7 @@ export default function BrandingMarketingConsulting() {
         {/* Decorative Border Rectangle - Top Left */}
         <div className="absolute pointer-events-none" style={{ width: '315px', height: '111px', left: '-20px', top: '30px', background: 'transparent', border: '1px solid #66C1FF', transform: 'rotate(-15deg)', transformOrigin: 'left center' }} />
         <div className="relative z-10 max-w-[1196px] mx-auto px-4 text-center">
+          <FadeInSection direction="up">
           <p
             className="mb-4"
             style={{
@@ -595,6 +629,7 @@ export default function BrandingMarketingConsulting() {
           >
             The most effective solution is not the one that changes the most, but the one that achieves your vision with the highest degree of surgical precision. We do not believe in change for the sake of change. We identify the smallest and most strategic adjustments required to unlock exponential value.
           </p>
+          </FadeInSection>
         </div>
       </div>
 
@@ -606,6 +641,7 @@ export default function BrandingMarketingConsulting() {
         }}
       >
         <div className="max-w-[min(1440px,_95%)] mx-auto px-4 text-center">
+          <FadeInSection direction="up">
           <h2
             className="mb-6"
             style={{
@@ -634,6 +670,7 @@ export default function BrandingMarketingConsulting() {
           >
             Let us help you develop and execute a winning strategy that drives sustainable growth and positions your organization for long-term success.
           </p>
+          </FadeInSection>
 
           <Link
             href="/contact-us"

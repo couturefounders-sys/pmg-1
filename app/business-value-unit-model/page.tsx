@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BlueSectionWrapper from '@/components/BlueSectionWrapper';
+import FadeInSection from '@/components/FadeInSection';
 
 export default function BusinessValueUnitModelPage() {
   return (

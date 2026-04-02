@@ -4,6 +4,8 @@ import { useState, useEffect, useRef } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ROIChart from '@/components/ROIChart';
+import FadeInSection from '@/components/FadeInSection';
+import AnimatedCounter from '@/components/AnimatedCounter';
 
 export default function PowerOfWorkingWithUs() {
   const blueprintSteps = [
@@ -182,6 +184,7 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 1: The Power of Quiet Consulting ─── */}
       <section className="w-full pt-36 pb-20 px-6">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
+          <FadeInSection direction="up">
           <h1
             style={{
               fontFamily: 'DM Sans, sans-serif',
@@ -209,12 +212,14 @@ export default function PowerOfWorkingWithUs() {
             targeted support to solve real problems. The best consulting does not make
             headlines. It makes organizations stronger, sharper, and more resilient.
           </p>
+          </FadeInSection>
         </div>
       </section>
 
       {/* ─── Section 2: The Unseen Discipline Behind Quiet Results ─── */}
       <section className="w-full py-16 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
+          <FadeInSection direction="up">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
@@ -242,12 +247,14 @@ export default function PowerOfWorkingWithUs() {
             engagement begins, the strategy itself must pass the most rigorous test we can
             devise: a blind review by our own experts.
           </p>
+          </FadeInSection>
         </div>
       </section>
 
       {/* ─── Section 3: Our Blueprint for Certainty ─── */}
       <section className="w-full py-16 px-6">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
+          <FadeInSection direction="up">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
@@ -305,6 +312,7 @@ export default function PowerOfWorkingWithUs() {
             functional leaders. The review is double-blind. The designer does not know the
             reviewer, and the reviewer does not know the designer.
           </p>
+          </FadeInSection>
 
           <div className="w-full overflow-x-auto pb-2 mb-14">
             <div className="w-max min-w-full mx-auto flex items-center justify-center gap-3 flex-nowrap px-1">
@@ -393,6 +401,7 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 5: The Problem with "Loud" Consulting ─── */}
       <section className="w-full py-16 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
+          <FadeInSection direction="up">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
@@ -421,6 +430,7 @@ export default function PowerOfWorkingWithUs() {
             Too often, consulting is the opposite: loud, costly, and ineffective. And it
             is not just our view. It is well documented across industries.
           </p>
+          </FadeInSection>
 
           <p
             style={{
@@ -487,8 +497,8 @@ export default function PowerOfWorkingWithUs() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
             {staticProblemCards.map((item, i) => (
+              <FadeInSection key={`${item.title}-${i}`} delay={i * 0.1}>
               <div
-                key={`${item.title}-${i}`}
                 style={{
                   background: '#FFF7F7',
                   border: '2px solid #F5C2C7',
@@ -525,6 +535,7 @@ export default function PowerOfWorkingWithUs() {
                   {item.description}
                 </p>
               </div>
+              </FadeInSection>
             ))}
           </div>
         </div>
@@ -533,12 +544,14 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 7: PMG vs Old Playbook Comparison ─── */}
       <section className="w-full py-24 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto">
+          <FadeInSection direction="up">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', textAlign: 'center', marginBottom: '12px' }}>
             PMG vs. The Old Playbook
           </h2>
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#68718B', textAlign: 'center', marginBottom: '40px' }}>
             Auto-cycling every 3 seconds · <span style={{ fontStyle: 'italic' }}>Hover to pause</span>
           </p>
+          </FadeInSection>
 
           <div
             onMouseEnter={() => setIsPaused(true)}
@@ -603,12 +616,14 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 8: The Proof is in the Performance ─── */}
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
+          <FadeInSection direction="up">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '16px' }}>
             The Proof is in the Performance
           </h2>
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '140%', color: '#333333', marginBottom: '48px', maxWidth: 'min(900px, 95%)' }}>
             Our quiet, focused approach delivers loud results. We consistently outperform industry averages across key performance indicators.
           </p>
+          </FadeInSection>
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' style={{ gap: '24px', width: '100%' }}>
             {[
               { stat: '22x', label: 'Consultation ROI', desc: 'Industry-leading returns on every engagement.' },
@@ -618,11 +633,15 @@ export default function PowerOfWorkingWithUs() {
               { stat: '95%', label: 'On-Time Resolution', desc: 'A reliable partner committed to timely execution.' },
               { stat: 'Proven', label: 'Track Record', desc: 'A history of delivering measurable, tangible success.' },
             ].map((item, i) => (
-              <div key={i} style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '32px 28px', textAlign: 'left' }}>
-                <div style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '8px' }}>{item.stat}</div>
+              <FadeInSection key={i} delay={i * 0.1}>
+              <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '32px 28px', textAlign: 'left' }}>
+                <div style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '8px' }}>
+                  {item.stat === '22x' ? <><AnimatedCounter end={22} suffix="x" /></> : item.stat === '30%' ? <><AnimatedCounter end={30} suffix="%" /></> : item.stat === '95%' ? <><AnimatedCounter end={95} suffix="%" /></> : item.stat}
+                </div>
                 <div style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '105%', letterSpacing: '-0.03em', color: '#14358A', marginBottom: '12px' }}>{item.label}</div>
                 <div style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>{item.desc}</div>
               </div>
+              </FadeInSection>
             ))}
           </div>
         </div>
@@ -631,6 +650,7 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 9: Our Approach & Methodology ─── */}
       <section className="w-full py-20 px-6" style={{ background: '#F8FAFC' }}>
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
+          <FadeInSection direction="up">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '16px' }}>
             Our Approach &amp; Methodology
           </h2>
@@ -644,6 +664,7 @@ export default function PowerOfWorkingWithUs() {
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B', marginBottom: '40px' }}>
             Unique frameworks developed by PMG that unlock insights and solutions the industry cannot match.
           </p>
+          </FadeInSection>
 
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3' style={{ gap: '24px', width: '100%' }}>
             {[
@@ -651,7 +672,8 @@ export default function PowerOfWorkingWithUs() {
               { icon: '/icons/cards/box.svg', title: 'Input-Output Model', desc: 'Our integrated approach to enterprise architecture, built on field-scope work tools that drive unprecedented consistency, standardization and automation, resulting in superior quality control and reduced failure rates.' },
               { icon: '/icons/cards/balance-two.svg', title: 'Business Value-Unit Model', desc: 'Our unique method for quantifying the true ROI of cross-revenue generating departments such as HR & IT, creating holistic performance measurement and precise strategic alignment.' },
             ].map((card, i) => (
-              <div key={i} style={{ background: '#FFFFFF', border: '3px solid #14358A', borderRadius: '10px', padding: '32px 28px', textAlign: 'left' }}>
+              <FadeInSection key={i} delay={i * 0.1}>
+              <div style={{ background: '#FFFFFF', border: '3px solid #14358A', borderRadius: '10px', padding: '32px 28px', textAlign: 'left' }}>
                 <div className="flex items-center gap-4 mb-4">
                   <div style={{ width: '64px', height: '64px', background: '#14358A', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                     <img src={card.icon} alt={card.title} style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
@@ -661,6 +683,7 @@ export default function PowerOfWorkingWithUs() {
                 <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>{card.desc}</p>
                 <a href="/insights-innovations" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#14358A', marginTop: '16px', display: 'inline-block' }}>Read More ›</a>
               </div>
+              </FadeInSection>
             ))}
           </div>
         </div>
@@ -681,6 +704,7 @@ export default function PowerOfWorkingWithUs() {
           }
         `}</style>
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
+          <FadeInSection direction="up">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '12px' }}>
             Proven Industry Frameworks
           </h2>
@@ -690,6 +714,7 @@ export default function PowerOfWorkingWithUs() {
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 0.9vw, 14px)', lineHeight: '140%', color: '#A0AEC0', fontStyle: 'italic', marginBottom: '32px' }}>
             Hover to pause
           </p>
+          </FadeInSection>
           <div className="marquee-wrapper w-full overflow-hidden" style={{ border: '3px dashed #A0B4E8', borderRadius: '10px', padding: '36px 0' }}>
             <div className="marquee-track" style={{ display: 'flex', gap: '48px', width: 'max-content' }}>
               {[
@@ -766,14 +791,16 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 12: A Commitment to Continuous Improvement ─── */}
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2" style={{ gap: '60px', alignItems: 'center' }}>
+          <FadeInSection direction="left">
           <div>
             <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '20px' }}>
               A Commitment to Continuous Improvement
             </h2>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#333333' }}>
-              Our 22x ROI was not instant. It was earned. In 2018, we matched the industry average of 6–9x. But average was never the goal. In 2020, we made client ROI our north star. That focus pushed us to 13x and continues to drive improvement today. Whatever our current benchmark, we refine, learn, and raise it. Continuous improvement is not a slogan; it is our operating model.
+              Our <AnimatedCounter end={22} suffix="x" /> ROI was not instant. It was earned. In 2018, we matched the industry average of <AnimatedCounter end={6} suffix="" />–<AnimatedCounter end={9} suffix="x" />. But average was never the goal. In 2020, we made client ROI our north star. That focus pushed us to <AnimatedCounter end={13} suffix="x" /> and continues to drive improvement today. Whatever our current benchmark, we refine, learn, and raise it. Continuous improvement is not a slogan; it is our operating model.
             </p>
           </div>
+          </FadeInSection>
           <ROIChart />
         </div>
       </section>
@@ -781,9 +808,11 @@ export default function PowerOfWorkingWithUs() {
       {/* ─── Section 13: Still Not Convinced? ─── */}
       <section className="w-full py-20 px-6" style={{ background: '#F8FAFC' }}>
         <div className="max-w-[1200px] mx-auto">
+          <FadeInSection direction="up">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', textAlign: 'center', marginBottom: '48px' }}>
             Still Not Convinced?
           </h2>
+          </FadeInSection>
           <div className='grid grid-cols-1 md:grid-cols-2' style={{ gap: 'clamp(24px, 4.17vw, 60px)' }}>
             {/* Left */}
             <div>

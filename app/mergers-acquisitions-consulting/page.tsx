@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
 import ScrollStack from '@/components/ScrollStack';
+import FadeInSection from '@/components/FadeInSection';
 import Link from 'next/link';
 
 const CAPABILITY_ITEMS = [

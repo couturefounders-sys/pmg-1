@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BlueSectionWrapper from '@/components/BlueSectionWrapper';
+import FadeInSection from '@/components/FadeInSection';
 
 const advantages = [
   {
@@ -182,6 +183,7 @@ export default function IOArchitectureModelPage() {
       {/* ─── Section 1: Hero ─── */}
       <section className="w-full pt-36 pb-20 px-6 bg-white">
         <div className="max-w-[min(1100px,_90%)] mx-auto flex flex-col items-center text-center">
+          <FadeInSection direction="up">
           <p
             style={{
               fontFamily: 'DM Sans, sans-serif',
@@ -223,6 +225,7 @@ export default function IOArchitectureModelPage() {
             consistent quality by transforming operational costs into reliable, auditable
             efficiency gains.
           </p>
+          </FadeInSection>
         </div>
       </section>
 
@@ -231,6 +234,7 @@ export default function IOArchitectureModelPage() {
 
         <div className="max-w-[960px] mx-auto relative z-10 flex flex-col items-center text-center">
           {/* Heading */}
+          <FadeInSection direction="up">
           <h2
             style={{
               fontFamily: 'DM Sans, sans-serif',
@@ -257,6 +261,7 @@ export default function IOArchitectureModelPage() {
             Most organizations are unintentionally designed for failure. Their internal structure
             creates critical flaws, which the I-O Model is designed to solve.
           </p>
+          </FadeInSection>
 
           {/* Comparison rows */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '24px', width: '100%' }}>
@@ -318,7 +323,8 @@ export default function IOArchitectureModelPage() {
                 },
               },
             ].map((row, i) => (
-              <div key={i} className="grid grid-cols-1 md:grid-cols-2" style={{ gap: '20px' }}>
+              <FadeInSection key={i} delay={i * 0.1}>
+              <div className="grid grid-cols-1 md:grid-cols-2" style={{ gap: '20px' }}>
                 {/* Left — Problem box (red.png as full background) */}
                 <div style={{ backgroundColor: '#FFF5F5', backgroundImage: 'url(/red.png)', backgroundSize: 'cover', backgroundPosition: 'top center', overflow: 'hidden', borderRadius: '16px', textAlign: 'center', width: '100%', minHeight: '382px', padding: '32px 28px', boxSizing: 'border-box' }}>
                     <div style={{ width: '56px', height: '56px', background: '#D0021B', borderRadius: '12px', margin: '0 auto 14px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -338,6 +344,7 @@ export default function IOArchitectureModelPage() {
                     <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(10px, 0.83vw, 14px)', lineHeight: '1.7', color: '#5F6D7E' }}>{row.solution.benefit}</p>
                 </div>
               </div>
+              </FadeInSection>
             ))}
           </div>
         </div>
@@ -346,6 +353,7 @@ export default function IOArchitectureModelPage() {
       {/* ─── Section 3: Consistency Through Constraint & Intentionality ─── */}
       <section className="w-full py-20 px-6 bg-[#F8FAFC]">
         <div className="max-w-[1100px] mx-auto">
+          <FadeInSection direction="up">
           <div style={{ textAlign: 'center', marginBottom: '48px' }}>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', letterSpacing: '0.06em', color: '#14358A', marginBottom: '12px' }}>Key Structural Advantages</p>
             <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '16px' }}>
@@ -355,6 +363,7 @@ export default function IOArchitectureModelPage() {
               The rigor of the I-O Model is not restrictive, it is empowering. It removes the guesswork from cross-functional collaboration and delivers measurable business value.
             </p>
           </div>
+          </FadeInSection>
           <AdvantageShowcase />
         </div>
       </section>
@@ -362,9 +371,11 @@ export default function IOArchitectureModelPage() {
       {/* ─── Section 4: Implementation Steps ─── */}
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[860px] mx-auto">
+          <FadeInSection direction="up">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', textAlign: 'center', marginBottom: '56px' }}>
             How We Implement the I-O Model
           </h2>
+          </FadeInSection>
 
           {(() => {
             const steps = [
@@ -413,7 +424,8 @@ export default function IOArchitectureModelPage() {
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '48px' }}>
                   {steps.map((step, i) => (
-                    <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '24px' }}>
+                    <FadeInSection key={i} delay={i * 0.1}>
+                    <div style={{ display: 'flex', alignItems: 'flex-start', gap: '24px' }}>
                       {/* Icon circle */}
                       <div style={{ flexShrink: 0, width: '52px', height: '52px', borderRadius: '50%', background: '#FFFFFF', border: '2px solid #14358A', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', zIndex: 1 }}>
                         {stepIcons[i]}
@@ -429,6 +441,7 @@ export default function IOArchitectureModelPage() {
                         </div>
                       </div>
                     </div>
+                    </FadeInSection>
                   ))}
                 </div>
               </div>
@@ -440,21 +453,25 @@ export default function IOArchitectureModelPage() {
       {/* ─── Section 5: The Blueprint for Scale ─── */}
       <section className="w-full py-20 px-6 bg-white">
         <div className="max-w-[1100px] mx-auto text-center">
+          <FadeInSection direction="up">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '20px' }}>
             The Blueprint for Scale
           </h2>
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '140%', color: '#333333', maxWidth: 'min(1000px, 95%)', margin: '0 auto 40px auto' }}>
             The I-O Model functions as an organizational operating system. Interfacing teams understand exactly what input and output quality is expected. Procedural gaps trigger immediate escalation. And exceptions follow a defined path requiring high-level strategic review.
           </p>
+          </FadeInSection>
         </div>
       </section>
 
       {/* ─── Section 7: Core Concepts of the I-O Model ─── */}
       <section className="w-full py-20 px-6 bg-[#F8FAFC]">
         <div className="max-w-[1200px] mx-auto">
+          <FadeInSection direction="up">
           <h2 className="text-center" style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '40px' }}>
             Core Concepts of the I-O Model
           </h2>
+          </FadeInSection>
           {(() => {
             const concepts = [
               { title: 'Architectural Contract', desc: 'Immutable specifications defining work unit boundaries, inputs, and guaranteed outputs.' },
@@ -463,21 +480,23 @@ export default function IOArchitectureModelPage() {
               { title: 'Decoupling', desc: 'Minimizing interdependency between units to enable independent scaling and evolution.' },
               { title: 'Antifragile Architecture', desc: 'Failures are isolated to prevent cascading system failure across the enterprise.' },
             ];
-            const renderCard = (concept: { title: string; desc: string }) => (
-              <div key={concept.title} style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '24px', background: '#FFFFFF' }}>
+            const renderCard = (concept: { title: string; desc: string }, i: number) => (
+              <FadeInSection key={concept.title} delay={i * 0.1}>
+              <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '24px', background: '#FFFFFF' }}>
                 <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', color: '#14358A', marginBottom: '12px' }}>{concept.title}</h3>
                 <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 400, fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '140%', color: '#68718B' }}>{concept.desc}</p>
               </div>
+              </FadeInSection>
             );
             return (
               <>
                 {/* Row 1: 3 cards */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  {concepts.slice(0, 3).map(renderCard)}
+                  {concepts.slice(0, 3).map((c, i) => renderCard(c, i))}
                 </div>
                 {/* Row 2: 2 cards, centered */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6" style={{ maxWidth: '67%', margin: '24px auto 0' }}>
-                  {concepts.slice(3).map(renderCard)}
+                  {concepts.slice(3).map((c, i) => renderCard(c, i))}
                 </div>
               </>
             );
@@ -488,12 +507,14 @@ export default function IOArchitectureModelPage() {
       {/* ─── Section 8: CTA ─── */}
       <section className="w-full py-20 px-6" style={{ background: '#EBF7FF' }}>
         <div className="max-w-[900px] mx-auto text-center">
+          <FadeInSection direction="up">
           <h2 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: '16px' }}>
             Architect Your Antifragile Advantage.
           </h2>
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '140%', color: '#333333', marginBottom: '32px' }}>
             Stop building on foundations that cannot scale. Let our team design the I-O Architecture your enterprise needs to eliminate systemic risk and unlock exponential growth.
           </p>
+          </FadeInSection>
           <a href="/contact-us" style={{ display: 'inline-block', background: 'linear-gradient(135deg, #6A36FF 0%, #AC5FE6 100%)', color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', padding: '16px 40px', borderRadius: '10px', textDecoration: 'none' }}>
             Request a Consultation
           </a>

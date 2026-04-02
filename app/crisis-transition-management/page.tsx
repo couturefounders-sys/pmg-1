@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import Header from '@/components/Header';
+import FadeInSection from '@/components/FadeInSection';
 import Footer from '@/components/Footer';
 import ApproachRoadmap from '@/components/ApproachRoadmap';
 import ScrollStack from '@/components/ScrollStack';
@@ -37,6 +38,7 @@ export default function CrisisTransitionManagement() {
 
       {/* Hero Section */}
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto text-center" style={{ paddingTop: 'clamp(100px, 9.86vw, 142px)' }}>
+        <FadeInSection direction="up">
         <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '105%', color: '#000000', margin: '0 auto 1rem' }}>
           Crisis &amp; Transition Management
         </p>
@@ -46,6 +48,7 @@ export default function CrisisTransitionManagement() {
         <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '100%', letterSpacing: '0%', textAlign: 'center', color: '#333333', width: '1258px', maxWidth: '100%', margin: '31px auto 0 auto', paddingBottom: 'clamp(48px, 5.56vw, 80px)' }}>
           In times of crisis or significant change, decisive leadership and a steady hand are paramount. PMG provides the expert guidance and hands-on support needed to navigate complex transitions, manage risk, and emerge stronger and more resilient.
         </p>
+        </FadeInSection>
       </div>
 
       {/* How We Help Section */}

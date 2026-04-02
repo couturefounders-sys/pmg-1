@@ -3,6 +3,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BlueSectionDecorated from '@/components/BlueSectionDecorated';
+import FadeInSection from '@/components/FadeInSection';
 import Link from 'next/link';
 
 export default function WhyFunctionalConsulting() {
@@ -11,6 +12,7 @@ export default function WhyFunctionalConsulting() {
       <Header />
 
       {/* Hero Section */}
+      <FadeInSection>
       <div className="relative w-full max-w-[min(1440px,_95%)] mx-auto px-4 pt-[clamp(140px,15.97vw,230px)] pb-24">
         <div className="text-center max-w-[1224px] mx-auto">
           <h1
@@ -44,6 +46,7 @@ export default function WhyFunctionalConsulting() {
           </p>
         </div>
       </div>
+      </FadeInSection>
 
       {/* The Problem with Traditional Consulting Section */}
       <BlueSectionDecorated style={{ padding: '80px 24px' }}>
@@ -83,6 +86,7 @@ export default function WhyFunctionalConsulting() {
           {/* Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[1264px] mx-auto">
             {/* Lacking Functional Depth */}
+            <FadeInSection delay={0}>
             <div
               className="bg-white p-6 rounded-[10px] text-center"
             >
@@ -112,8 +116,10 @@ export default function WhyFunctionalConsulting() {
                 Consultants arrive armed with industry jargon but lack the hands-on expertise needed to solve core functional challenges. They can talk about "efficiency" or "customer centricity" in abstract terms, but when it comes to redesigning a process, fixing a P&L, or building a customer journey, the experience simply isn't there.
               </p>
             </div>
+            </FadeInSection>
 
             {/* Deliverables, Not Impact */}
+            <FadeInSection delay={0.1}>
             <div
               className="bg-white p-6 rounded-[10px] text-center"
             >
@@ -143,8 +149,10 @@ export default function WhyFunctionalConsulting() {
                 Traditional firms measure their value in slide decks, frameworks, and presentations. These deliverables may look impressive, but they rarely move the needle on the ground. The hard work of execution, including shifting culture, redesigning processes, or implementing systems, is left entirely to the client.
               </p>
             </div>
+            </FadeInSection>
 
             {/* Recycled Playbooks */}
+            <FadeInSection delay={0.2}>
             <div
               className="bg-white p-6 rounded-[10px] text-center"
             >
@@ -174,8 +182,10 @@ export default function WhyFunctionalConsulting() {
                 With deep industry specialization comes a narrow lens. Industry consultants often recycle the same playbooks from client to client, tweaking names and numbers but leaving the approach largely unchanged. The result is one-size-fits-all strategies that feel familiar, predictable, and uninspired.
               </p>
             </div>
+            </FadeInSection>
 
             {/* Insular Groupthink */}
+            <FadeInSection delay={0.3}>
             <div
               className="bg-white p-6 rounded-[10px] text-center"
             >
@@ -205,6 +215,7 @@ export default function WhyFunctionalConsulting() {
                 When everyone in the room shares the same background, education, and industry perspective, the solutions that emerge are limited. This groupthink discourages bold thinking, prevents innovation, and leaves organizations vulnerable to disruption from outside their sector.
               </p>
             </div>
+            </FadeInSection>
           </div>
         </div>
       </BlueSectionDecorated>

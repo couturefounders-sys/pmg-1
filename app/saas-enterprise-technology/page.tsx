@@ -5,30 +5,32 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import OurProjectsSection, { DollarIcon, ScreenIcon, CheckIcon } from '@/components/OurProjectsSection';
 import type { ProjectCardData } from '@/components/OurProjectsSection';
+import FadeInSection from '@/components/FadeInSection';
+import AnimatedCounter from '@/components/AnimatedCounter';
 
 const saasProjects: ProjectCardData[] = [
   {
     title: 'Trilogy Software',
     stats: [
-      { icon: <DollarIcon />, value: '$8M', label: 'in annual support costs saved' },
-      { icon: <CheckIcon />, value: '16%', label: 'increase in Customer Satisfaction' },
-      { icon: <ScreenIcon />, value: '77x', label: 'Return on Investment' },
+      { icon: <DollarIcon />, value: <><AnimatedCounter end={8} suffix="M" />$</>, label: 'in annual support costs saved' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={16} suffix="%" /></>, label: 'increase in Customer Satisfaction' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={77} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
   {
     title: 'Kraken',
     stats: [
-      { icon: <CheckIcon />, value: '3,500', label: 'ticket backlog eliminated' },
-      { icon: <ScreenIcon />, value: '65%', label: 'reduction in first-response time' },
-      { icon: <ScreenIcon />, value: '23x', label: 'Return on Investment' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={3500} suffix="" /></>, label: 'ticket backlog eliminated' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={65} suffix="%" /></>, label: 'reduction in first-response time' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={23} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
   {
     title: 'Avolin',
     stats: [
-      { icon: <ScreenIcon />, value: '22%', label: 'reduction in customer churn' },
-      { icon: <ScreenIcon />, value: '14%', label: 'increase in post-acquisition margin' },
-      { icon: <ScreenIcon />, value: '20x', label: 'Return on Investment' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={22} suffix="%" /></>, label: 'reduction in customer churn' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={14} suffix="%" /></>, label: 'increase in post-acquisition margin' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={20} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
 ];

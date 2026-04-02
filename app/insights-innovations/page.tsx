@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import FadeInSection from '@/components/FadeInSection';
 
 const articles = [
   { title: 'The Hidden Risks of AI Expansion', tag: 'AI', date: 'July 25, 2024' },
@@ -18,6 +19,7 @@ export default function InsightsInnovationsPage() {
       {/* ─── Section 1: Hero ─── */}
       <section className="w-full pt-36 pb-16 px-6 bg-white">
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center">
+          <FadeInSection direction="up">
           <p style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.07vw, 15.4px)', lineHeight: '105%', color: '#000000', marginBottom: '12px' }}>
             Thinking in Public
           </p>
@@ -27,8 +29,10 @@ export default function InsightsInnovationsPage() {
           <p style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 400, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '140%', letterSpacing: '0%', textAlign: 'center', color: '#333333', marginBottom: '36px' }}>
             Unfiltered thoughts on whatever matters right now: Resource Scarcity, Neobank Performance Marketing, Existentialism, and everything in between. Each piece represents where our curiosity has taken us this month.
           </p>
+          </FadeInSection>
 
           {/* Note box */}
+          <FadeInSection delay={0.1}>
           <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '24px 28px', background: '#FFFFFF', textAlign: 'center', width: '100%', maxWidth: 'min(1056px, 95%)' }}>
             <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(15px, 1.39vw, 22px)', color: '#14358A', marginBottom: '10px' }}>
               Note to Prospective Partners
@@ -37,6 +41,7 @@ export default function InsightsInnovationsPage() {
               This isn&apos;t a random collection of interests; it&apos;s a practice in pattern recognition and higher-order thinking. By connecting unrelated domains, we bring unconventional frameworks to business challenges. This is how we think when we aren&apos;t in the room with you; we&apos;re constantly building the toolkit we use to build your business.
             </p>
           </div>
+          </FadeInSection>
         </div>
       </section>
 
@@ -59,21 +64,26 @@ export default function InsightsInnovationsPage() {
 
           {/* Article cards */}
           {articles.map((article, i) => (
-            <div key={i} style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '40px 36px', background: '#FFFFFF', width: '100%', maxWidth: 'min(1056px, 95%)' }}>
+            <FadeInSection key={i} delay={i * 0.1}>
+            <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '40px 36px', background: '#FFFFFF', width: '100%', maxWidth: 'min(1056px, 95%)' }}>
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(18px, 1.67vw, 28px)', color: '#14358A', marginBottom: '8px' }}>{article.title}</h3>
               <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#9AA6B4', marginBottom: '20px' }}>{article.date}</p>
               <a href="#" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', color: '#14358A', textDecoration: 'none' }}>Read More &rsaquo;</a>
             </div>
+            </FadeInSection>
           ))}
 
           {/* Featured article */}
+          <FadeInSection delay={0}>
           <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px', background: '#FFFFFF', width: '100%', maxWidth: 'min(945px, 95%)', alignSelf: 'center', textAlign: 'center' }}>
             <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 600, color: '#68718B', marginBottom: '8px' }}>Upcoming</p>
             <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.07vw, 15.4px)', color: '#14358A', marginBottom: '10px' }}>The Silent ROI: Quantifying the Value of Trust &amp; Psychological Safety</h3>
             <p style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 'clamp(11px, 0.9vw, 15px)', lineHeight: '1.7', color: '#5F6D7E' }}>Explore how trust and psychological safety produce measurable financial returns that traditional ROI models fail to capture.</p>
           </div>
+          </FadeInSection>
 
           {/* Email signup */}
+          <FadeInSection delay={0.1}>
           <div style={{ border: '3px solid #14358A', borderRadius: '10px', padding: '28px', background: '#FFFFFF', display: 'flex', gap: '24px', alignItems: 'center', flexWrap: 'wrap', width: '100%', maxWidth: 'min(945px, 95%)', alignSelf: 'center' }}>
             <div style={{ flex: 1, minWidth: '200px' }}>
               <h3 style={{ fontFamily: 'DM Sans, sans-serif', fontWeight: 700, fontSize: 'clamp(13px, 1.18vw, 19px)', color: '#14358A', marginBottom: '8px' }}>Get Our Latest Thinking</h3>
@@ -90,6 +100,7 @@ export default function InsightsInnovationsPage() {
               </button>
             </div>
           </div>
+          </FadeInSection>
 
         </div>
       </section>
@@ -100,12 +111,14 @@ export default function InsightsInnovationsPage() {
         style={{ background: '#EBF7FF' }}
       >
         <div className="max-w-[1200px] mx-auto flex flex-col items-center text-center relative z-10">
+          <FadeInSection direction="up">
           <h2 style={{ fontFamily: 'DM Sans', fontWeight: 700, fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', textAlign: 'center', color: '#14358A', marginBottom: '16px' }}>
             Leadership Isn&apos;t Just What You Do. It&apos;s How You Think.
           </h2>
           <p style={{ fontFamily: 'Montserrat', fontWeight: 400, fontSize: 'clamp(16px, 1.53vw, 22px)', lineHeight: '140%', letterSpacing: '0%', textAlign: 'center', color: '#333333', marginBottom: '32px' }}>
             The executives who read widely, think laterally, and connect unrelated ideas are the ones who build durable competitive advantages.
           </p>
+          </FadeInSection>
           <a
             href="/contact-us"
             style={{ display: 'inline-block', background: 'linear-gradient(135deg, #6A36FF 0%, #AC5FE6 100%)', border: 'none', color: '#FFFFFF', fontFamily: 'Montserrat, sans-serif', fontWeight: 700, fontSize: 'clamp(12px, 1.07vw, 15.4px)', padding: '13px 32px', borderRadius: '8px', textDecoration: 'none' }}

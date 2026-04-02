@@ -64,7 +64,15 @@
       "Bash(find /Users/teja/pmg_final-v/pmg-z -type f \\\\\\( -name \"*.css\" -o -name \"*.module.css\" \\\\\\) ! -path \"*/node_modules/*\" ! -path \"*/.next/*\" 2>/dev/null | sort)",
       "Bash(find app:*)",
       "mcp__figma__get_metadata",
-      "Bash(ls /Users/teja/pmg_final-v/pmg-z/public/icon-* 2>/dev/null && ls /Users/teja/pmg_final-v/pmg-z/public/figma-icon-* 2>/dev/null)"
+      "Bash(ls /Users/teja/pmg_final-v/pmg-z/public/icon-* 2>/dev/null && ls /Users/teja/pmg_final-v/pmg-z/public/figma-icon-* 2>/dev/null)",
+      "Bash(npm run:*)",
+      "Bash(wc -l /Users/teja/pmg_final-v/pmg-z/app/*/page.tsx)",
+      "Bash(ls -1 /Users/teja/pmg_final-v/pmg-z/app/*/page.tsx)",
+      "Bash(if ! grep -q \"FadeInSection\" \"/Users/teja/pmg_final-v/pmg-z/app/$file/page.tsx\")",
+      "Bash(then)",
+      "Bash(echo \"Missing: $file\")",
+      "Bash(fi)",
+      "Bash(ls -1d /Users/teja/pmg_final-v/pmg-z/app/*/page.tsx)"
     ]
   },
   "enabledPlugins": {

@@ -5,30 +5,32 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import OurProjectsSection, { DollarIcon, TrendUpIcon, ScreenIcon, CheckIcon } from '@/components/OurProjectsSection';
 import type { ProjectCardData } from '@/components/OurProjectsSection';
+import FadeInSection from '@/components/FadeInSection';
+import AnimatedCounter from '@/components/AnimatedCounter';
 
 const financialProjects: ProjectCardData[] = [
   {
     title: 'Prestige1 Capital',
     stats: [
-      { icon: <DollarIcon />, value: '$9.57M', label: 'in new yearly profit generated' },
-      { icon: <TrendUpIcon />, value: '2.6x', label: 'higher ROI than typical investments' },
-      { icon: <TrendUpIcon />, value: '43x', label: 'Return on Investment' },
+      { icon: <DollarIcon />, value: <><AnimatedCounter end={9.57} suffix="M" /></>, label: 'in new yearly profit generated' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={2.6} suffix="x" /></>, label: 'higher ROI than typical investments' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={43} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
   {
     title: 'Kraken',
     stats: [
-      { icon: <CheckIcon />, value: '22%', label: 'increase in customer satisfaction' },
-      { icon: <ScreenIcon />, value: '40%', label: 'reduction in signup-to-activation time' },
-      { icon: <TrendUpIcon />, value: '23x', label: 'Return on Investment' },
+      { icon: <CheckIcon />, value: <><AnimatedCounter end={22} suffix="%" /></>, label: 'increase in customer satisfaction' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={40} suffix="%" /></>, label: 'reduction in signup-to-activation time' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={23} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
   {
     title: 'Artemis Capital',
     stats: [
-      { icon: <ScreenIcon />, value: '12%', label: 'reduction in operating expenses' },
-      { icon: <ScreenIcon />, value: '25%', label: 'reduction in low-value personnel spend' },
-      { icon: <TrendUpIcon />, value: '22x', label: 'Return on Investment' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={12} suffix="%" /></>, label: 'reduction in operating expenses' },
+      { icon: <ScreenIcon />, value: <><AnimatedCounter end={25} suffix="%" /></>, label: 'reduction in low-value personnel spend' },
+      { icon: <TrendUpIcon />, value: <><AnimatedCounter end={22} suffix="x" /></>, label: 'Return on Investment' },
     ],
   },
 ];
