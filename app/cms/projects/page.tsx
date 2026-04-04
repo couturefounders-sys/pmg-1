@@ -1,10 +1,12 @@
 'use client';
 
 import CMSCollectionManager from '@/components/CMSCollectionManager';
+import { Briefcase } from 'lucide-react';
 
 export default function ProjectsCMS() {
   return (
     <CMSCollectionManager
+      icon={Briefcase}
       collectionName="projects"
       title="Projects / Case Studies"
       description="Manage the case studies that appear on the 'Our Projects' page."

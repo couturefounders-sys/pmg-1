@@ -1,10 +1,12 @@
 'use client';
 
 import CMSCollectionManager from '@/components/CMSCollectionManager';
+import { Megaphone } from 'lucide-react';
 
 export default function AnnouncementsCMS() {
   return (
     <CMSCollectionManager
+      icon={Megaphone}
       collectionName="announcements"
       title="Announcements"
       description="Manage the upcoming article announcement banner on the Insights page."

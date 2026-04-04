@@ -1,10 +1,12 @@
 'use client';
 
 import CMSCollectionManager from '@/components/CMSCollectionManager';
+import { BookOpen } from 'lucide-react';
 
 export default function ResourcesCMS() {
   return (
     <CMSCollectionManager
+      icon={BookOpen}
       collectionName="resources"
       title="Resources"
       description="Manage the PMG Dictionary and Metacognitive Anti-Concepts."

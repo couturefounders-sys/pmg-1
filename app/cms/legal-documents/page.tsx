@@ -1,10 +1,12 @@
 'use client';
 
 import CMSCollectionManager from '@/components/CMSCollectionManager';
+import { Gavel } from 'lucide-react';
 
 export default function LegalDocumentsCMS() {
   return (
     <CMSCollectionManager
+      icon={Gavel}
       collectionName="legalDocuments"
       title="Legal Documents"
       description="Review and manage the text content for the legal policies on the site."

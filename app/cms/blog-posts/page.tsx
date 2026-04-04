@@ -1,10 +1,12 @@
 'use client';
 
 import CMSCollectionManager from '@/components/CMSCollectionManager';
+import { Newspaper } from 'lucide-react';
 
 export default function BlogPostsCMS() {
   return (
     <CMSCollectionManager
+      icon={Newspaper}
       collectionName="blogPosts"
       title="Blog Posts"
       description="Create, edit, and delete articles for the Insights & Innovations page."

@@ -1,10 +1,12 @@
 'use client';
 
 import CMSCollectionManager from '@/components/CMSCollectionManager';
+import { Brain } from 'lucide-react';
 
 export default function AIPromptsCMS() {
   return (
     <CMSCollectionManager
+      icon={Brain}
       collectionName="aiPrompts"
       title="AI Prompts"
       description="Edit the system prompts that guide the AI assistants on the site."

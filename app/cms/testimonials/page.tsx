@@ -1,10 +1,12 @@
 'use client';
 
 import CMSCollectionManager from '@/components/CMSCollectionManager';
+import { Star } from 'lucide-react';
 
 export default function TestimonialsCMS() {
   return (
     <CMSCollectionManager
+      icon={Star}
       collectionName="testimonials"
       title="Testimonials"
       description="Add, update, or remove client testimonials displayed on the homepage."

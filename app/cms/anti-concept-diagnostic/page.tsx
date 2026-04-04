@@ -1,10 +1,12 @@
 'use client';
 
 import CMSCollectionManager from '@/components/CMSCollectionManager';
+import { BrainCircuit } from 'lucide-react';
 
 export default function AntiConceptDiagnosticCMS() {
   return (
     <CMSCollectionManager
+      icon={BrainCircuit}
       collectionName="antiConceptDiagnostic"
       title="Anti-Concept Diagnostic"
       description="Review and test the scoring logic for the Metacognitive Diagnostic Engine."

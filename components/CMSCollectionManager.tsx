@@ -4,6 +4,7 @@ import { useEffect, useState, useCallback } from 'react';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import type { LucideIcon } from 'lucide-react';
 import {
   getCollection,
   addDocument,
@@ -28,6 +29,7 @@ interface CMSCollectionManagerProps {
   fields: FieldConfig[];
   displayField: string; // which field to show as the item title in the list
   orderField?: string;
+  icon?: LucideIcon;
 }
 
 export default function CMSCollectionManager({
@@ -37,6 +39,7 @@ export default function CMSCollectionManager({
   fields,
   displayField,
   orderField = 'createdAt',
+  icon: Icon,
 }: CMSCollectionManagerProps) {
   const [items, setItems] = useState<FirestoreDoc[]>([]);
   const [loading, setLoading] = useState(true);
@@ -154,23 +157,33 @@ export default function CMSCollectionManager({
             <Link
               href="/cms"
               className="text-sm font-medium hover:underline"
-              style={{ color: '#3730a3' }}
+              style={{ color: '#14358A' }}
             >
               &larr; Back to CMS
             </Link>
           </div>
 
           {/* Page Header */}
-          <div className="mb-8">
-            <h1
-              className="font-bold mb-2"
-              style={{ fontSize: '32px', color: '#14358A', fontFamily: 'DM Sans, sans-serif' }}
-            >
-              {title}
-            </h1>
-            <p className="text-gray-500" style={{ fontSize: '15px' }}>
-              {description}
-            </p>
+          <div className="mb-8 flex items-center gap-4">
+            {Icon && (
+              <div
+                className="flex-shrink-0 flex items-center justify-center rounded-[10px]"
+                style={{ width: 56, height: 56, background: '#14358A' }}
+              >
+                <Icon size={24} color="white" strokeWidth={1.6} />
+              </div>
+            )}
+            <div>
+              <h1
+                className="font-bold mb-1"
+                style={{ fontSize: '32px', color: '#14358A', fontFamily: 'DM Sans, sans-serif' }}
+              >
+                {title}
+              </h1>
+              <p className="text-gray-500" style={{ fontSize: '15px' }}>
+                {description}
+              </p>
+            </div>
           </div>
 
           {/* Error Banner */}
@@ -198,7 +211,7 @@ export default function CMSCollectionManager({
               <button
                 onClick={openCreateForm}
                 className="text-white font-medium rounded px-5 py-2 text-sm transition-opacity hover:opacity-90"
-                style={{ backgroundColor: '#3730a3' }}
+                style={{ backgroundColor: '#14358A' }}
               >
                 + Add New
               </button>
@@ -304,7 +317,7 @@ export default function CMSCollectionManager({
                   onClick={handleSave}
                   disabled={saving}
                   className="text-white font-medium rounded px-5 py-2 text-sm transition-opacity hover:opacity-90 disabled:opacity-50"
-                  style={{ backgroundColor: '#3730a3' }}
+                  style={{ backgroundColor: '#14358A' }}
                 >
                   {saving ? 'Saving...' : editingItem ? 'Update' : 'Create'}
                 </button>
@@ -331,7 +344,7 @@ export default function CMSCollectionManager({
               <button
                 onClick={openCreateForm}
                 className="text-white font-medium rounded px-5 py-2 text-sm transition-opacity hover:opacity-90"
-                style={{ backgroundColor: '#3730a3' }}
+                style={{ backgroundColor: '#14358A' }}
               >
                 + Add Your First Item
               </button>
@@ -357,8 +370,8 @@ export default function CMSCollectionManager({
                   <div className="flex items-center gap-2 ml-4 flex-shrink-0">
                     <button
                       onClick={() => openEditForm(item)}
-                      className="text-xs font-medium px-3 py-1.5 rounded transition-colors hover:bg-indigo-50"
-                      style={{ color: '#3730a3', border: '1px solid #3730a3' }}
+                      className="text-xs font-medium px-3 py-1.5 rounded transition-colors hover:bg-blue-50"
+                      style={{ color: '#14358A', border: '1px solid #14358A' }}
                     >
                       Edit
                     </button>

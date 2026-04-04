@@ -1,10 +1,12 @@
 'use client';
 
 import CMSCollectionManager from '@/components/CMSCollectionManager';
+import { Map } from 'lucide-react';
 
 export default function SitemapCMS() {
   return (
     <CMSCollectionManager
+      icon={Map}
       collectionName="sitemapEntries"
       title="Sitemap"
       description="View all the publicly accessible URLs that are indexed by search engines."
