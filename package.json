@@ -6,7 +6,8 @@
     "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seed:firestore": "node --env-file=.env.local scripts/seed-firestore.mjs"
   },
   "dependencies": {
     "firebase": "^12.10.0",

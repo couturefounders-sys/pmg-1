@@ -25,11 +25,11 @@ export default function FadeInSection({
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [hasMounted, setHasMounted] = useState(false);
   const [skipAnimation, setSkipAnimation] = useState(false);
-  const offset = 14;
+  const offset = 20;
   const timing =
     motionProfile === 'card'
-      ? { duration: 0.34, delayScale: 0.85, delayCap: 0.24 }
-      : { duration: 0.24, delayScale: 0.45, delayCap: 1 };
+      ? { duration: 2, delayScale: 0.85, delayCap: 0.24 }
+      : { duration: 0.55, delayScale: 0.45, delayCap: 1 };
   const effectiveDelay = Math.min(delay * timing.delayScale, timing.delayCap);
 
   useLayoutEffect(() => {
