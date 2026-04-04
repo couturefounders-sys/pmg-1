@@ -12,7 +12,18 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
-const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
-export const db = getFirestore(app);
-export const auth = getAuth(app);
-export const storage = getStorage(app);
+let app: any;
+let db: any;
+let auth: any;
+let storage: any;
+
+try {
+  app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
+  db = getFirestore(app);
+  auth = getAuth(app);
+  storage = getStorage(app);
+} catch (error) {
+  console.warn('Firebase initialization failed - features requiring Firebase will not work:', error);
+}
+
+export { app, db, auth, storage };

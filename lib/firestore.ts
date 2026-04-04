@@ -22,6 +22,10 @@ export async function getCollection(
   orderField: string = 'createdAt',
   orderDirection: 'asc' | 'desc' = 'desc'
 ): Promise<FirestoreDoc[]> {
+  if (!db) {
+    console.warn(`Firebase not initialized - returning empty collection for ${collectionName}`);
+    return [];
+  }
   const q = query(
     collection(db, collectionName),
     orderBy(orderField, orderDirection)
@@ -37,6 +41,10 @@ export async function getDocument(
   collectionName: string,
   docId: string
 ): Promise<FirestoreDoc | null> {
+  if (!db) {
+    console.warn(`Firebase not initialized - cannot get document from ${collectionName}`);
+    return null;
+  }
   const docRef = doc(db, collectionName, docId);
   const snapshot = await getDoc(docRef);
   if (!snapshot.exists()) return null;
