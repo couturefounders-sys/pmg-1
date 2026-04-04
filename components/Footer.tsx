@@ -1,14 +1,15 @@
+import Link from 'next/link';
+
 export default function Footer() {
   return (
     <footer
       className="relative z-10"
       style={{
-        background: 'linear-gradient(135deg, #1B45B4 0%, #0D1A7A 100%)',
-        paddingTop: 'clamp(32px, 3.5vw, 56px)',
-        paddingBottom: 'clamp(32px, 3.5vw, 56px)'
+        background: 'linear-gradient(135deg, #1B45B4 0%, #0D1A7A 100%)'
       }}
     >
-      <div style={{ maxWidth: 'min(92%, 2200px)', margin: '0 auto', paddingLeft: 'clamp(24px, 5.2vw, 80px)', paddingRight: 'clamp(16px, 2vw, 40px)' }}>
+      <div style={{ paddingTop: 'clamp(32px, 3.5vw, 56px)', paddingBottom: 'clamp(32px, 3.5vw, 56px)' }}>
+        <div style={{ maxWidth: 'min(92%, 2200px)', margin: '0 auto', paddingLeft: 'clamp(24px, 5.2vw, 80px)', paddingRight: 'clamp(16px, 2vw, 40px)' }}>
         <div
           className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5"
           style={{
@@ -101,6 +102,35 @@ export default function Footer() {
               <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Digital Terms of Use</a></li>
             </ul>
           </div>
+        </div>
+        </div>
+      </div>
+
+      {/* Bottom Section with CMS & Cookie Settings */}
+      <div
+        style={{
+          borderTop: '1px solid rgba(255, 255, 255, 0.1)',
+          paddingTop: 'clamp(16px, 1.5vw, 24px)',
+          paddingBottom: 'clamp(16px, 1.5vw, 24px)',
+          paddingLeft: 'clamp(24px, 5.2vw, 80px)',
+          paddingRight: 'clamp(16px, 2vw, 40px)',
+        }}
+      >
+        <div style={{ maxWidth: 'min(92%, 2200px)', margin: '0 auto', display: 'flex', gap: '24px', flexWrap: 'wrap' }}>
+          <Link
+            href="/cms"
+            className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity"
+            style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}
+          >
+            CMS
+          </Link>
+          <a
+            href="#"
+            className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity"
+            style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}
+          >
+            Cookie Settings
+          </a>
         </div>
       </div>
     </footer>
