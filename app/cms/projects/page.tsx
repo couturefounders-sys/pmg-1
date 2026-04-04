@@ -19,7 +19,7 @@ export default function ProjectsCMS() {
         { name: 'challenge', label: 'Challenge', type: 'textarea', placeholder: 'What challenge was the client facing?' },
         { name: 'solution', label: 'Solution', type: 'textarea', placeholder: 'How did PMG solve it?' },
         { name: 'results', label: 'Results', type: 'textarea', placeholder: 'What were the outcomes?' },
-        { name: 'imageUrl', label: 'Image URL', type: 'text', placeholder: 'https://...' },
+        { name: 'imageUrl', label: 'Project Image', type: 'image', placeholder: 'https://...' },
         { name: 'published', label: 'Published', type: 'boolean' },
       ]}
     />

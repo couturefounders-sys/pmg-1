@@ -6,7 +6,9 @@
     "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seed:firestore": "node --env-file=.env.local scripts/seed-firestore.mjs",
+    "deploy:firebase:rules": "firebase deploy --only firestore:rules,storage"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.12",

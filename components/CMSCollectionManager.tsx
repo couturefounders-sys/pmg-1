@@ -5,6 +5,8 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import type { LucideIcon } from 'lucide-react';
+import { getDownloadURL, ref, uploadBytes } from 'firebase/storage';
+import { storage } from '@/lib/firebase';
 import {
   getCollection,
   addDocument,
@@ -16,7 +18,7 @@ import {
 export interface FieldConfig {
   name: string;
   label: string;
-  type: 'text' | 'textarea' | 'number' | 'boolean' | 'select' | 'date';
+  type: 'text' | 'textarea' | 'number' | 'boolean' | 'select' | 'date' | 'image';
   required?: boolean;
   options?: string[]; // for select type
   placeholder?: string;
@@ -47,7 +49,9 @@ export default function CMSCollectionManager({
   const [showForm, setShowForm] = useState(false);
   const [editingItem, setEditingItem] = useState<FirestoreDoc | null>(null);
   const [formData, setFormData] = useState<Record<string, unknown>>({});
+  const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
   const [saving, setSaving] = useState(false);
+  const [uploadingField, setUploadingField] = useState<string | null>(null);
   const [deleteConfirm, setDeleteConfirm] = useState<string | null>(null);
 
   const loadItems = useCallback(async () => {
@@ -71,6 +75,7 @@ export default function CMSCollectionManager({
 
   const resetForm = () => {
     setFormData({});
+    setFieldErrors({});
     setEditingItem(null);
     setShowForm(false);
   };
@@ -83,6 +88,7 @@ export default function CMSCollectionManager({
       else defaults[f.name] = '';
     });
     setFormData(defaults);
+    setFieldErrors({});
     setEditingItem(null);
     setShowForm(true);
   };
@@ -93,11 +99,40 @@ export default function CMSCollectionManager({
       data[f.name] = item[f.name] ?? (f.type === 'boolean' ? false : '');
     });
     setFormData(data);
+    setFieldErrors({});
     setEditingItem(item);
     setShowForm(true);
   };
 
+  const validateForm = (): boolean => {
+    const errors: Record<string, string> = {};
+    for (const field of fields) {
+      if (!field.required) continue;
+      const value = formData[field.name];
+
+      if (field.type === 'boolean') {
+        continue;
+      }
+
+      if (field.type === 'number') {
+        if (value === '' || value === null || value === undefined || Number.isNaN(Number(value))) {
+          errors[field.name] = `${field.label} is required`;
+        }
+        continue;
+      }
+
+      if (String(value ?? '').trim() === '') {
+        errors[field.name] = `${field.label} is required`;
+      }
+    }
+
+    setFieldErrors(errors);
+    return Object.keys(errors).length === 0;
+  };
+
   const handleSave = async () => {
+    if (!validateForm()) return;
+
     try {
       setSaving(true);
       if (editingItem) {
@@ -130,6 +165,30 @@ export default function CMSCollectionManager({
 
   const updateField = (name: string, value: unknown) => {
     setFormData((prev) => ({ ...prev, [name]: value }));
+    setFieldErrors((prev) => {
+      if (!prev[name]) return prev;
+      const next = { ...prev };
+      delete next[name];
+      return next;
+    });
+  };
+
+  const handleImageUpload = async (fieldName: string, file: File | null) => {
+    if (!file) return;
+
+    try {
+      setUploadingField(fieldName);
+      const cleanFileName = file.name.replace(/\s+/g, '-').toLowerCase();
+      const objectPath = `cms-public/${collectionName}/${Date.now()}-${cleanFileName}`;
+      const storageRef = ref(storage, objectPath);
+      await uploadBytes(storageRef, file);
+      const url = await getDownloadURL(storageRef);
+      updateField(fieldName, url);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Image upload failed.');
+    } finally {
+      setUploadingField(null);
+    }
   };
 
   const formatTimestamp = (ts: unknown): string => {
@@ -250,6 +309,29 @@ export default function CMSCollectionManager({
                       />
                     )}
 
+                    {field.type === 'image' && (
+                      <div className="space-y-2">
+                        <input
+                          type="file"
+                          accept="image/*"
+                          onChange={(e) => void handleImageUpload(field.name, e.target.files?.[0] ?? null)}
+                          className="w-full px-3 py-2 rounded-md text-sm"
+                          style={{ border: '1px solid #D1D5DB', outline: 'none' }}
+                        />
+                        {uploadingField === field.name ? (
+                          <p className="text-xs text-gray-500">Uploading image...</p>
+                        ) : null}
+                        <input
+                          type="text"
+                          value={String(formData[field.name] ?? '')}
+                          onChange={(e) => updateField(field.name, e.target.value)}
+                          placeholder="Or paste image URL"
+                          className="w-full px-3 py-2 rounded-md text-sm"
+                          style={{ border: '1px solid #D1D5DB', outline: 'none' }}
+                        />
+                      </div>
+                    )}
+
                     {field.type === 'textarea' && (
                       <textarea
                         value={String(formData[field.name] ?? '')}
@@ -308,6 +390,9 @@ export default function CMSCollectionManager({
                         ))}
                       </select>
                     )}
+                    {fieldErrors[field.name] ? (
+                      <p className="mt-1 text-xs text-red-600">{fieldErrors[field.name]}</p>
+                    ) : null}
                   </div>
                 ))}
               </div>

@@ -16,7 +16,7 @@ export default function TestimonialsCMS() {
         { name: 'role', label: 'Role / Title', type: 'text', placeholder: 'e.g. CEO, Head of Strategy' },
         { name: 'company', label: 'Company', type: 'text', placeholder: 'Company name' },
         { name: 'quote', label: 'Testimonial Quote', type: 'textarea', required: true, placeholder: 'What did the client say?' },
-        { name: 'imageUrl', label: 'Photo URL', type: 'text', placeholder: 'https://...' },
+        { name: 'imageUrl', label: 'Photo', type: 'image', placeholder: 'https://...' },
         { name: 'rating', label: 'Rating (1-5)', type: 'number' },
         { name: 'featured', label: 'Featured on Homepage', type: 'boolean' },
       ]}
