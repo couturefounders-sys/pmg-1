@@ -18,7 +18,7 @@ export default function BlogPostsCMS() {
         { name: 'category', label: 'Category', type: 'select', options: ['Insights', 'Innovations', 'Industry', 'Strategy', 'Technology'] },
         { name: 'summary', label: 'Summary', type: 'textarea', placeholder: 'Brief summary for the listing page' },
         { name: 'content', label: 'Content', type: 'textarea', required: true, placeholder: 'Full article content' },
-        { name: 'imageUrl', label: 'Featured Image URL', type: 'text', placeholder: 'https://...' },
+        { name: 'imageUrl', label: 'Featured Image', type: 'image', placeholder: 'https://...' },
         { name: 'published', label: 'Published', type: 'boolean' },
       ]}
     />

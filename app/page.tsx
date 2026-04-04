@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import HexWorldMap from '@/components/HexWorldMap';
 import FadeInSection from '@/components/FadeInSection';
 import AnimatedCounter from '@/components/AnimatedCounter';
+import HomeTestimonials from '@/components/HomeTestimonials';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -130,24 +131,7 @@ export default function Home() {
         <h2 className="text-center font-dm-sans font-bold" style={{ fontFamily: 'DM Sans, sans-serif', fontSize: 'clamp(24px, 2.75vw, 39.6px)', lineHeight: '44px', letterSpacing: 'normal', color: '#14358A', marginBottom: 'clamp(12px, 1.5vw, 24px)' }}>What Our Clients Say</h2>
         <p className="text-center font-montserrat font-normal" style={{ fontSize: 'clamp(15px, 1.375vw, 19.8px)', lineHeight: '30.8px', color: '#333', maxWidth: 'min(842px, 85%)', margin: '0 auto', marginBottom: 'clamp(32px, 3.5vw, 64px)' }}>We are proud to have earned the trust of industry leaders.</p>
         </FadeInSection>
-        <div className="flex justify-center flex-wrap px-4" style={{ gap: 'clamp(16px, 1.67vw, 32px)', marginBottom: 'clamp(40px, 4.5vw, 80px)' }}>
-          {[
-            { logo: '/accenture.png', quote: '\u201CGenerative AI tools like Writer can drive greater creativity. As we continue to expand the use of AI, the opportunities to enhance content creation, productivity and our entire marketing model are boundless.\u201D', name: 'Jill Kramer', role: 'Chief Marketing and Communications Officer' },
-            { logo: '/vanguard.png', quote: '\u201CWriter\u2019s full-stack platform enables Vanguard to combine the expertise, creativity, and knowledge of our teams with the latest advancements in generative AI technology, boosting productivity.\u201D', name: 'Nitin Tandon', role: 'Chief Information Officer' },
-            { logo: '/kenvue.png', quote: '\u201CWriter is onto something amazing. Their full-stack platform, deep customer-centricity, and high-touch approach to services truly sets them apart. Post our due diligence, partnering with Writer was an easy decision for us.\u201D', name: 'Ajay Dhaul', role: 'SVP of Data & Applied AI' },
-          ].map((c, i) => (
-            <FadeInSection key={i} delay={i * 0.1}>
-            <div className="bg-white rounded-xl w-full sm:w-auto testimonial-card" style={{ maxWidth: '380px', minWidth: 'min(280px, 100%)', flex: '1 1 clamp(260px, 23vw, 380px)', minHeight: 'clamp(300px, 29.93vw, 480px)', padding: 'clamp(20px, 1.67vw, 32px)', boxShadow: '0px 2.26px 12.06px 0px #EBEEFA' }}>
-              <img src={c.logo} alt="" className="mb-6" style={{ height: 'clamp(20px, 1.94vw, 32px)', objectFit: 'contain' }} />
-              <p className="font-poppins mb-6" style={{ fontSize: 'clamp(14px, 1.22vw, 17.6px)', lineHeight: '26.4px', fontWeight: 400, color: '#333' }}>{c.quote}</p>
-              <div>
-                <p className="font-poppins font-semibold" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', color: '#000' }}>{c.name}</p>
-                <p className="font-poppins" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', lineHeight: '22px', fontWeight: 400, color: '#000' }}>{c.role}</p>
-              </div>
-            </div>
-            </FadeInSection>
-          ))}
-        </div>
+        <HomeTestimonials />
       </div>
 
       {/* Operative Across All 4 Continents */}

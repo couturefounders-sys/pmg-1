@@ -1,10 +1,43 @@
+'use client';
+
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
 import FadeInSection from '@/components/FadeInSection';
 import AnimatedCounter from '@/components/AnimatedCounter';
+import { useEffect, useState } from 'react';
+import { FirestoreDoc, getCollection } from '@/lib/firestore';
+
+interface ResourceDoc extends FirestoreDoc {
+  title?: string;
+  type?: string;
+  definition?: string;
+  category?: string;
+  published?: boolean;
+}
 
 export default function ResourcesPage() {
+  const [resources, setResources] = useState<ResourceDoc[]>([]);
+
+  useEffect(() => {
+    let active = true;
+
+    const loadResources = async () => {
+      try {
+        const docs = (await getCollection('resources', 'createdAt', 'desc')) as ResourceDoc[];
+        const published = docs.filter((d) => d.published === true);
+        if (active) setResources(published.length > 0 ? published : docs);
+      } catch {
+        // Keep page usable if Firestore is unavailable.
+      }
+    };
+
+    void loadResources();
+    return () => {
+      active = false;
+    };
+  }, []);
+
   return (
     <main className="relative w-full min-h-screen overflow-x-hidden bg-white">
       <Header />
@@ -251,6 +284,40 @@ export default function ResourcesPage() {
           </FadeInSection>
         </div>
       </section>
+
+      {/* Resource Index */}
+      {resources.length > 0 ? (
+        <section className="w-full py-16 px-6 bg-white">
+          <div className="max-w-[1200px] mx-auto">
+            <h2
+              className="text-center mb-8"
+              style={{
+                fontFamily: 'DM Sans, sans-serif',
+                fontWeight: 700,
+                fontSize: 'clamp(24px, 2.75vw, 39.6px)',
+                lineHeight: '105%',
+                color: '#14358A',
+              }}
+            >
+              Resource Index
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {resources.slice(0, 8).map((resource) => (
+                <div key={resource.id} className="rounded-[10px] p-5" style={{ border: '2px solid #14358A' }}>
+                  <p className="text-xs uppercase tracking-wide text-[#68718B] mb-1">{String(resource.type || 'Resource')}</p>
+                  <h3 className="text-xl font-bold text-[#14358A] mb-2">{String(resource.title || '')}</h3>
+                  {resource.definition ? (
+                    <p className="text-sm text-[#465052] leading-6">{String(resource.definition)}</p>
+                  ) : null}
+                  {resource.category ? (
+                    <p className="mt-3 text-xs text-[#68718B]">Category: {String(resource.category)}</p>
+                  ) : null}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
 
 
       {/* Ready to Apply These Concepts? CTA */}
