@@ -37,10 +37,10 @@ export default function Footer() {
               What we Do
             </h3>
             <ul style={{ display: 'flex', flexDirection: 'column', gap: 'clamp(5px, 0.5vw, 8px)' }}>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Our Services</a></li>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Our Solutions</a></li>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Rebuilding from within</a></li>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Why Consulting?</a></li>
+              <li><Link href="/our-solutions" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Our Services</Link></li>
+              <li><Link href="/our-solutions" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Our Solutions</Link></li>
+              <li><Link href="/power-of-working-with-us" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Rebuilding from within</Link></li>
+              <li><Link href="/why-functional-consulting" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Why Consulting?</Link></li>
             </ul>
           </div>
 
@@ -53,9 +53,9 @@ export default function Footer() {
               Our Content
             </h3>
             <ul style={{ display: 'flex', flexDirection: 'column', gap: 'clamp(5px, 0.5vw, 8px)' }}>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>FAQs</a></li>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Insights &amp; Innovations</a></li>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Community Programs</a></li>
+              <li><Link href="/faqs" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>FAQs</Link></li>
+              <li><Link href="/insights-innovations" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Insights &amp; Innovations</Link></li>
+              <li><Link href="/community-involvement" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Community Programs</Link></li>
             </ul>
             <h3
               className="text-white font-semibold mb-4 uppercase"
@@ -64,8 +64,8 @@ export default function Footer() {
               Working with PMG
             </h3>
             <ul style={{ display: 'flex', flexDirection: 'column', gap: 'clamp(5px, 0.5vw, 8px)' }}>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Careers</a></li>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Licensing</a></li>
+              <li><Link href="/careers" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Careers</Link></li>
+              <li><Link href="/licensing" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Licensing</Link></li>
             </ul>
           </div>
 
@@ -78,9 +78,9 @@ export default function Footer() {
               Our Models
             </h3>
             <ul style={{ display: 'flex', flexDirection: 'column', gap: 'clamp(5px, 0.5vw, 8px)' }}>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Sector Convergence Model</a></li>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>I-O Enterprise Architecture</a></li>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Bussiness Value-Unit Model</a></li>
+              <li><Link href="/sector-convergence-model" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Sector Convergence Model</Link></li>
+              <li><Link href="/io-architecture-model" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>I-O Enterprise Architecture</Link></li>
+              <li><Link href="/business-value-unit-model" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Bussiness Value-Unit Model</Link></li>
             </ul>
           </div>
 
@@ -93,13 +93,14 @@ export default function Footer() {
               Legal
             </h3>
             <ul style={{ display: 'flex', flexDirection: 'column', gap: 'clamp(5px, 0.5vw, 8px)' }}>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Privacy &amp; Cookie Policy</a></li>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Hiring &amp; Equal Opportunity</a></li>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>AI &amp; Data Ethics Statement</a></li>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Anti-Modern Slavery Policy</a></li>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Intellectual Property</a></li>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Regionalization Policy</a></li>
-              <li><a href="#" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Digital Terms of Use</a></li>
+              <li><Link href="/legal/privacy-policy" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Privacy &amp; Cookie Policy</Link></li>
+              <li><Link href="/legal/hiring-and-equal-opportunity" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Hiring &amp; Equal Opportunity</Link></li>
+              <li><Link href="/legal/ai-and-data-ethics-statement" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>AI &amp; Data Ethics Statement</Link></li>
+              <li><Link href="/legal/anti-modern-slavery-policy" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Anti-Modern Slavery Policy</Link></li>
+              <li><Link href="/legal/intellectual-property" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Intellectual Property</Link></li>
+              <li><Link href="/legal/regionalization-policy" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Regionalization Policy</Link></li>
+              <li><Link href="/legal/digital-terms-of-use" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>Digital Terms of Use</Link></li>
+              <li><Link href="/legal/information-accuracy-and-success-metrics-policy" className="text-white font-montserrat font-normal opacity-70 hover:opacity-100 transition-opacity" style={{ fontSize: 'clamp(12px, 1.07vw, 15.4px)', fontWeight: 400, lineHeight: '22px', display: 'block' }}>IASM Policy</Link></li>
             </ul>
           </div>
         </div>
